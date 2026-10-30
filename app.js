@@ -43,7 +43,7 @@
       format: FORMAT, created: new Date().toISOString(), lastExport: null,
       activeCourse: null,
       streak: { count: 0, last: null },
-      settings: { macronsShown: true, strictMacrons: false, cardDir: 'both', newPerDay: 15, backupDays: 7 },
+      settings: { macronsShown: true, strictMacrons: false, cardDir: 'both', newPerDay: 15, backupDays: 7, textSize: 'l' },
       courses: {}
     };
   }
@@ -206,7 +206,13 @@
     progress: '<svg viewBox="0 0 24 24"><path d="M4 20h16"/><path d="M7 16v-4M12 16V7M17 16v-7"/></svg>'
   };
 
+  const SCALES = { s: 0.92, m: 1, l: 1.15, xl: 1.3 };
+  function applyTextSize() {
+    const k = SCALES[P.settings.textSize] || SCALES.l;
+    document.documentElement.style.setProperty('--scale', k);
+  }
   function render() {
+    applyTextSize();
     const due = dueCards('all').length + newCards('all').length;
     const header = ui.view === 'lecture'
       ? `<button class="back" data-go="home">‹ ${esc(course.name)}</button><span class="spacer"></span>`
@@ -610,6 +616,7 @@
         <p class="eyebrow">Settings</p>
         <div class="setting"><label for="sMac">Show macrons<small>Long-vowel marks: ā ē ī ō ū</small></label><input type="checkbox" class="switch" id="sMac" ${P.settings.macronsShown ? 'checked' : ''}></div>
         <div class="setting"><label for="sStrict">Require macrons in answers<small>Off: a missing macron still counts as right, with a reminder.</small></label><input type="checkbox" class="switch" id="sStrict" ${P.settings.strictMacrons ? 'checked' : ''} ${P.settings.macronsShown ? '' : 'disabled'}></div>
+        <div class="setting"><label for="sText">Text size<small>Applies to the whole app.</small></label><select class="field" id="sText">${[['s', 'Small'], ['m', 'Medium'], ['l', 'Large'], ['xl', 'Extra large']].map(([k, n]) => `<option value="${k}" ${P.settings.textSize === k ? 'selected' : ''}>${n}</option>`).join('')}</select></div>
         <div class="setting"><label for="sBackup">Backup reminder</label><select class="field" id="sBackup">${[3, 7, 14, 30].map(n => `<option value="${n}" ${P.settings.backupDays === n ? 'selected' : ''}>every ${n} days</option>`).join('')}</select></div>
         <div class="setting"><label>Reset ${esc(course.name)} progress<small>Cannot be undone; save a backup first.</small></label><button class="btn danger" data-reset>${ui.confirmReset ? 'Tap again to reset' : 'Reset'}</button></div>
       </div>
@@ -666,6 +673,7 @@
     bind('newPerDay', el => P.settings.newPerDay = Number(el.value));
     bind('sMac', el => { P.settings.macronsShown = el.checked; });
     bind('sStrict', el => { P.settings.strictMacrons = el.checked; });
+    bind('sText', el => { P.settings.textSize = el.value; });
     bind('sBackup', el => { P.settings.backupDays = Number(el.value); });
     const f = $('#importfile');
     if (f) f.onchange = () => { const file = f.files[0]; if (!file) return; const r = new FileReader(); r.onload = () => readImport(r.result); r.readAsText(file); };
