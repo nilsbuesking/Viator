@@ -7,6 +7,7 @@
   'use strict';
 
   const CONTENT_BASE = (document.currentScript && document.currentScript.dataset.content) || 'content/';
+  const BUILD = '2026-10-30 b';           // shown under Progress so you can tell which version is running
   const FORMAT = 1;                       // progress format version; bump + migrate() on change
   const STORE_KEY = 'viator.progress';
   const INTERVALS = [0, 1, 2, 4, 8, 16, 32, 64]; // Leitner box → days until next review
@@ -620,7 +621,7 @@
         <div class="setting"><label for="sBackup">Backup reminder</label><select class="field" id="sBackup">${[3, 7, 14, 30].map(n => `<option value="${n}" ${P.settings.backupDays === n ? 'selected' : ''}>every ${n} days</option>`).join('')}</select></div>
         <div class="setting"><label>Reset ${esc(course.name)} progress<small>Cannot be undone; save a backup first.</small></label><button class="btn danger" data-reset>${ui.confirmReset ? 'Tap again to reset' : 'Reset'}</button></div>
       </div>
-      <p class="small muted">Viātor · progress format ${FORMAT}</p>`;
+      <p class="small muted">Viātor · version ${BUILD} · progress format ${FORMAT}</p>`;
   }
   function exportObj() { return { app: 'viator', format: FORMAT, exportedAt: new Date().toISOString(), progress: P }; }
   async function doExport() {
