@@ -7,7 +7,7 @@
   'use strict';
 
   const CONTENT_BASE = (document.currentScript && document.currentScript.dataset.content) || 'content/';
-  const BUILD = '2026-11-01 l';           // shown under Progress so you can tell which version is running
+  const BUILD = '2026-11-01 m';           // shown under Progress so you can tell which version is running
   const FORMAT = 1;                       // progress format version; bump + migrate() on change
   const STORE_KEY = 'viator.progress';
   const INTERVALS = [0, 1, 2, 4, 8, 16, 32, 64]; // Leitner box → days until next review
@@ -27,7 +27,7 @@
   // ---------- utilities ----------
   const $ = (sel, root = document) => root.querySelector(sel);
   const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
-  const roman = n => ['', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII', 'XIII', 'XIV', 'XV', 'XVI', 'XVII', 'XVIII', 'XIX', 'XX'][n] || String(n);
+  const roman = n => { let r = '', x = Number(n) || 0; if (x <= 0 || x > 3999) return String(n); for (const [v, l] of [[1000, 'M'], [900, 'CM'], [500, 'D'], [400, 'CD'], [100, 'C'], [90, 'XC'], [50, 'L'], [40, 'XL'], [10, 'X'], [9, 'IX'], [5, 'V'], [4, 'IV'], [1, 'I']]) while (x >= v) { r += l; x -= v; } return r; };
   // Length marks are per course: macron (Latin ā) or circumflex (Middle Low German â, as in the dictionaries).
   const stripMacrons = s => String(s).normalize('NFD').replace((course && course.lengthMark === 'circumflex') ? /\u0302/g : /\u0304/g, '').normalize('NFC');
   // Spelling variants a course treats as equivalent when checking answers and looking up words (e.g. v = u, y = i).
@@ -297,6 +297,7 @@
           <select class="field" id="pickLecture" style="width:100%"><option value="">${roman(step.l.number)} · ${M(esc(step.l.title))} (current)</option>${ls.filter(l => l.id !== step.l.id).map(l => {
             const lp = c.lectures[l.id], secs = sectionsFor(l), done = lp ? secs.filter(x => lp.sections[x.id]).length : 0;
             return `<option value="${l.id}">${roman(l.number)} · ${M(esc(l.title))}${done === secs.length ? ' · done' : done ? ` · ${done}/${secs.length}` : ''}</option>`; }).join('')}</select>` : ''}`
+          : !ls.length ? `<p class="lead">The first lecture of this course is in preparation.</p><p class="small muted">The planned lectures are listed below. The reference pages are already available.</p>`
           : `<p class="lead">All available lectures are done.</p>${ls.length ? `<label class="small muted" for="pickLecture">Choose a lecture to revise</label><select class="field" id="pickLecture" style="width:100%"><option value="">Choose…</option>${ls.map(l => `<option value="${l.id}">${roman(l.number)} · ${M(esc(l.title))}</option>`).join('')}</select>` : ''}`}
         <div class="stats3">
           <div class="stat"><b>${due}</b><span>cards due</span></div>
@@ -307,7 +308,7 @@
       </section>
       ${backupDue() ? `<div class="nudge"><p>${P.lastExport ? 'Your last backup is over a week old.' : 'You haven’t made a backup yet.'} Progress lives only in this browser.</p><button class="btn quiet" data-go="progress" data-anchor="backup">Back up now</button></div>` : ''}
       <section>
-        <p class="eyebrow">${esc(course.native || course.name)} · ${ls.filter(l => { const lp = c.lectures[l.id]; return lp && sectionsFor(l).every(x => lp.sections[x.id]); }).length} of ${ls.length} ${ls.length === 1 ? 'lecture' : 'lectures'} complete</p>
+        <p class="eyebrow">${esc(course.native || course.name)}${!ls.length ? ' · lectures planned' : ` · ${ls.filter(l => { const lp = c.lectures[l.id]; return lp && sectionsFor(l).every(x => lp.sections[x.id]); }).length} of ${ls.length} ${ls.length === 1 ? 'lecture' : 'lectures'} complete`}</p>
         <div class="lectures">${items}${planned}</div>
       </section>`;
   }

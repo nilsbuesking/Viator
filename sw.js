@@ -1,9 +1,9 @@
 /* Offline support. Serves the cached app at once, then refreshes the cache in
  * the background, so a new version appears the next time the app is opened.
  * Raise VERSION when a file is renamed or removed. */
-const VERSION = 'viator-v8';
+const VERSION = 'viator-v9';
 const CORE = ['./', 'index.html', 'app.css', 'app.js', 'manifest.webmanifest',
-  'content/catalogue.js', 'content/latin/lecture-01.js', 'content/latin/lecture-02.js', 'content/latin/lecture-03.js', 'content/latin/lecture-04.js', 'content/mnd/lecture-01.js', 'content/mnd/lecture-02.js', 'content/mnd/pages.js', 'content/calendar.js', 'icons/icon-180.png', 'icons/icon-192.png'];
+  'content/catalogue.js', 'content/latin/lecture-01.js', 'content/latin/lecture-02.js', 'content/latin/lecture-03.js', 'content/latin/lecture-04.js', 'content/mnd/lecture-01.js', 'content/mnd/lecture-02.js', 'content/mnd/pages.js', 'content/mhd/pages.js', 'content/calendar.js', 'icons/icon-180.png', 'icons/icon-192.png'];
 
 self.addEventListener('install', e => {
   // cache: 'reload' skips the browser's own HTTP cache, which GitHub Pages lets keep files for 10 minutes

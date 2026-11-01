@@ -50,11 +50,32 @@ British English in all text.
   consonant shift and the vowel correspondences. Readings give a normalised
   `text` and an as-written `diplomatic` version; add glosses for both spellings.
   Constructed texts must be labelled as constructed. Pronunciation is uncertain;
-  say so. Middle High German is planned as a separate course.
+  say so.
+- `mhd`: Middle High German, for reading courtly literature and southern/central
+  German documents. Normalised spelling of the editions (Lachmann; Lexer, BMZ)
+  with circumflex for long vowels, æ œ iu for long umlauts, ë for open e where the
+  grammar needs it, ʒ for the z-sibilant. German glosses (`reverseFrom: 'de'`).
+  Explain through modern German: the course runs from MHG towards NHG
+  (diphthongisation mîn hûs > mein Haus, monophthongisation guot > gut,
+  lengthening in open syllables), and false friends (wîp, maget, arebeit, list,
+  hôchzît, muot) are the main German-speaker trap; mark them in vocabulary notes.
+  Say plainly that normalised MHG is a 19th-century editorial spelling; readings
+  give the normalised `text` and a `diplomatic` manuscript version where we have
+  seen one. Cite literature the standard way: Walther by Lachmann page and line
+  (L 39,11), Nibelungenlied by manuscript and stanza (B 1,1), Parzival by
+  Lachmann section and line (Pz. 116,5). Pronunciation is better established
+  than for MLG (rhymes), but still say what is reconstruction.
+- Planned later: Old English (`oe`: normalised spelling with macrons, þ ð æ ƿ,
+  English glosses, German grammar parallels, since OE cases and strong verbs are
+  closer to German than to modern English) and Middle English (`me`: unnormalised,
+  dialect-varied spelling; English glosses; readings by manuscript or edition).
+  A shared page comparing sound correspondences across the Germanic courses would
+  fit in `content/` as a reference page for all of them.
 - Reference pages are registered with `Viator.addPage(courses, page)` in files
   listed by `Viator.setShared([...])` in `content/catalogue.js`. Kinds: `dates`
   (content/calendar.js, shared by all courses), `timeline` and `map`
-  (content/mnd/pages.js; map coastline from Natural Earth, public domain).
+  (content/mnd/pages.js; map coastline from Natural Earth, public domain;
+  content/mhd/pages.js has the MHG timeline).
 - Authentic source text: quote only what you have actually seen in an edition or
   scan, cite volume, number and page, mark corrections in [ ], and add it to
   CONTENT-CHECKS.md. Never present a reconstruction from memory as a quotation.

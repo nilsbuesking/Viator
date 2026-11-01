@@ -76,6 +76,36 @@ Viator.setCatalogue([
       'Charters in detail: formulae, seals, dating by the church calendar',
       'Letters and recesses: reading a Hanseatic edition'
     ]
+  },
+  {
+    id: 'mhd',
+    name: 'Middle High German',
+    native: 'Mittelhochdeutsch',
+    langTag: 'gmh',
+    tts: null,                         // no voice exists; a modern German voice would mislead
+    // normalised spelling of the editions: circumflex for long vowels, æ œ for long umlauts, ë for open e, ʒ for the z-sibilant
+    keyboard: ['â', 'ê', 'î', 'ô', 'û', 'æ', 'œ', 'ä', 'ö', 'ü', 'ë', 'ʒ'],
+    macrons: true,
+    lengthMark: 'circumflex', lengthMarkName: 'length marks', lengthMarkExample: 'â ê î ô û',
+    lectureWord: 'Lecture',
+    reverseFrom: 'de',                 // glosses and reverse flashcards use German
+    // spelling variants treated as equal: edition symbols and the commonest manuscript habits
+    spelling: [['æ', 'ae'], ['œ', 'oe'], ['ë', 'e'], ['ʒ', 'z'], ['ck', 'k'], ['c', 'k'], ['y', 'i'], ['j', 'i'], ['v', 'u'],
+               ['([bdfgklmnprst])\\1', '$1']],
+    lectures: [],
+    planned: [
+      'From Middle High German to modern German: sounds, spelling and the normalised text',
+      'Strong verbs and the ablaut series',
+      'Nouns: strong and weak declensions; the uses of the cases',
+      'Articles, pronouns and the strong and weak adjective',
+      'Weak verbs, Rückumlaut, and the irregular verbs hân, lân, gân, stân, tuon, wellen',
+      'Preterite-present verbs; the subjunctive',
+      'Negation, word order and contracted forms (ichn, deist, dêswâr)',
+      'Courtly words and false friends: êre, triuwe, mâze, minne, hôher muot',
+      'Verse: rhyme, metre and the Nibelungen stanza',
+      'Manuscripts and editions: from the Codex Manesse to Lachmann',
+      'Prose and charters: reading German-language documents of the 13th and 14th centuries'
+    ]
   }
   // French will go here, e.g.:
   // { id: 'french', name: 'French', native: 'Français', langTag: 'fr', tts: 'fr-FR',
@@ -83,5 +113,5 @@ Viator.setCatalogue([
   //   lectures: ['french/lecture-01.js'], planned: [] }
 ]);
 
-// Shared reference pages (date converter for all courses; Hanse timeline and map)
-Viator.setShared(['calendar.js', 'mnd/pages.js']);
+// Shared reference pages (date converter for all courses; Hanse timeline and map; MHG timeline)
+Viator.setShared(['calendar.js', 'mnd/pages.js', 'mhd/pages.js']);

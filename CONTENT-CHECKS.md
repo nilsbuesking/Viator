@@ -230,3 +230,17 @@ first-year course (the order Wheelock also uses); titles are this course's own.
 - [ ] Pompeii couple portrait ("Terentius Neo"), Naples museum; identification described as uncertain.
 - [ ] Vergilius Romanus (Vat. lat. 3867) fol. 1r, opening of the Eclogues; 5th century.
 - [ ] Virgil mosaic from Hadrumetum/Sousse, Bardo Museum, early 3rd century; scroll with an Aeneid line (1.8).
+
+# Content checks: Middle High German course outline and timeline
+
+## Timeline (content/mhd/pages.js)
+- [ ] Period boundaries c. 1050 and c. 1350 (stated as conventions); weakening of unstressed vowels as the criterion.
+- [ ] Annolied date range (c. 1077 to early 12th century); Kaiserchronik c. 1150, Regensburg; Rolandslied c. 1170.
+- [ ] Veldeke: Eneasroman c. 1170–90, mentions the Mainz festival of 1184; origin near Maastricht.
+- [ ] Hartmann's works and their order; Nibelungenlied c. 1200, Passau suggested; versions A, B, C.
+- [ ] Walther's only record: Wolfger von Erla's accounts, 1203, money for a fur coat.
+- [ ] Parzival c. 1200–10 in 16 books; Tristan c. 1210.
+- [ ] Mainzer Reichslandfriede 1235 and the status of its German version.
+- [ ] Corpus der altdeutschen Originalurkunden covers originals to 1300; Schwabenspiegel c. 1275, Augsburg.
+- [ ] Codex Manesse c. 1300–40, Zurich, about 140 poets, Heidelberg.
+- [ ] Lachmann's Walther 1827; BMZ 1854–66; Lexer 1872–78.
