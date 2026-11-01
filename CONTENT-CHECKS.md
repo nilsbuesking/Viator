@@ -393,3 +393,28 @@ first-year course (the order Wheelock also uses); titles are this course's own.
 ## Pictures
 - [ ] Causeway to Northey Island (geograph 3468231).
 - [ ] "Byrhtnoth statue.jpg": confirm it is the Doubleday statue at Maldon.
+
+# Content checks: Old English Lecture II
+
+## Authentic text
+- [ ] Beowulf 26–52 after Klaeber (1922), online transcription; word division corrected in three places (þenden wordum, æþelinges fær, byrnum; him) against the Poetry Foundation text. "---" after Scyldinga (transcription) shown as ";" in the normalised view.
+- [ ] Length marks added: gewāt, gescæphwīle, felahrōr, Frēan, wǣre, ætbǣron, swǣse, gesīþas, wēold, lēof, āhte, hȳðe, īsig, ūtfūs, ālēdon, bēaga, mǣrne, māðma, gelǣded, cȳmlīcor, cēol, hildewǣpnum, heaðowǣdum, flōdes, ǣht, gewītan, lǣssan, lācum, tēodan, þēodgestrēonum, ǣnne, ȳðe, gȳt, āsetton, hēah, hēafod, lēton, gēafon, gārsecg, geōmor, sōðe, selerǣdende, þǣm, onfēng. Left short: fær, mæste, hlæste, mænigo, nalæs.
+- [ ] geldenne / gyldenne (line 47).
+
+## Forms
+- [ ] Paradigms of stān, scip, word, dæg; short/long-stem rule for neuter plurals.
+- [ ] Genders and classes: þēoden m., gesīþ m., brim n., flōd m., holm m., gārsecg m., ȳð f., cēol m., hȳþ f., māþum m., byrne f. (weak), wǣpen n., segen m., sefa m. (weak), hæleð m.
+- [ ] Principal parts: gewītan, beran; cunnan (cann, cunnon, cūþe).
+- [ ] Accepted translations e18–e21, t7–t8.
+
+## Claims
+- [ ] Skjöldungar and Lejre halls (6th–10th c.); Sceldwa in West Saxon genealogies.
+- [ ] Sutton Hoo Mound 1: 1939, ship c. 27 m, Rædwald (d. c. 624) as usual but uncertain candidate.
+- [ ] English plural -s from -as, possessive 's from -es; sheep/deer endingless.
+- [ ] Early modern German plural "die Wort".
+- [ ] Etymological notes: cēol/OHG kiol/keel; holm; gārsecg (disputed); ȳð ~ ON unnr; ǣht ~ eigen; mǣre ~ Märchen; geōmor ~ Jammer; heofon/Himmel.
+- [ ] īsig "icy" or "shining" (disputed).
+
+## Pictures
+- [ ] Sutton Hoo ship-burial model.
+- [ ] "Original Sutton Hoo Helmet.jpg" (confirm it shows the original, not a replica).

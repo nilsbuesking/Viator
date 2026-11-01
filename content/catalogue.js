@@ -118,9 +118,8 @@ Viator.setCatalogue([
     lectureWord: 'Lecture',
     // þ and ð were used interchangeably by scribes; ƿ (wynn) is w; dotted ċ ġ of some editions are plain c g
     spelling: [['ð', 'þ'], ['th', 'þ'], ['ƿ', 'w'], ['ċ', 'c'], ['ġ', 'g'], ['ae', 'æ']],
-    lectures: ['oe/lecture-01.js', 'oe/special-maldon.js'],
+    lectures: ['oe/lecture-01.js', 'oe/lecture-02.js', 'oe/special-maldon.js'],
     planned: [
-      'Nouns: strong masculines and neuters; the four cases; reading: Scyld Scefing',
       'The present tense; wesan and bēon; reading: the Chronicle for 755',
       'Feminine and weak nouns; the demonstratives se, sēo, þæt',
       'Strong verbs and the ablaut series; reading: Grendel',
