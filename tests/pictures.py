@@ -17,14 +17,23 @@ def run(serve):
         pg.goto('http://localhost:8765/index.html'); pg.wait_for_timeout(500)
         pg.evaluate("localStorage.clear()"); pg.reload(); pg.wait_for_timeout(500)
         out={}
-        for course, lid, secs in [('latin','la-01',['intro']), ('mnd','mnd-01',['intro']), ('mnd','mnd-02',['intro'])]:
+        for course, lid, secs in [('latin','la-01',['intro','pron']), ('mnd','mnd-01',['intro']), ('mnd','mnd-02',['intro'])]:
             pg.select_option('#coursepick', course); pg.click(f'[data-lecture={lid}]')
             for sec in secs:
                 pg.click(f'.chip[data-section={sec}]')
                 for i in range(pg.locator('figure.fig').count()): pg.locator('figure.fig').nth(i).scroll_into_view_if_needed(); pg.wait_for_timeout(250)
-                out[lid]=(pg.locator('figure.fig img').count(), pg.locator('.fig-missing').count(), pg.evaluate('document.documentElement.scrollWidth'))
+                out[lid+':'+sec]=(pg.locator('figure.fig img').count(), pg.locator('.fig-missing').count(), pg.evaluate('document.documentElement.scrollWidth'))
                 if serve and lid=='mnd-02': pg.locator('figure.fig').first.scroll_into_view_if_needed(); pg.screenshot(path='/tmp/viator-shots/fig.png')
             pg.click('[data-go=home]')
+        # timeline and map notes
+        pg.select_option('#coursepick','mnd'); pg.click('[data-go=ref]'); pg.click('[data-refpage=timeline]')
+        for i in range(pg.locator('figure.fig').count()): pg.locator('figure.fig').nth(i).scroll_into_view_if_needed(); pg.wait_for_timeout(250)
+        out['timeline']=(pg.locator('figure.fig img').count(), pg.locator('.fig-missing').count(), pg.evaluate('document.documentElement.scrollWidth'))
+        if serve: pg.locator('figure.fig').first.scroll_into_view_if_needed(); pg.screenshot(path='/tmp/viator-shots/fig_tl.png')
+        pg.click('[data-refpage=map]')
+        for pid in ['bergen','visby','bremen']:
+            pg.click(f'button.chip[data-place={pid}]'); pg.locator('figure.fig').first.scroll_into_view_if_needed(); pg.wait_for_timeout(250)
+            out['map:'+pid]=(pg.locator('figure.fig img').count(), pg.locator('.fig-missing').count(), pg.evaluate('document.documentElement.scrollWidth'))
         b.close()
     return out, len(seen), errs
 print('serve 500px:', run(True))

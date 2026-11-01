@@ -131,3 +131,14 @@ Commons page (linked under each picture).
 - [ ] MLG II, introduction: Holbein, Georg Gisze (1532).
 - [ ] MLG II, background: Lübeck's charter of imperial freedom, 1226 (photograph; check author and licence).
 - [ ] MLG II, background: Stralsund seal of 1329 with a cog (check author and licence).
+- [ ] Latin I, background: inscribed stone (cippus) from under the Lapis Niger.
+- [ ] Latin I, background: Gauss, Disquisitiones arithmeticae, title page (file "Disqvisitiones-800.jpg").
+- [ ] Latin I, background: Jerichau-Baumann, Jacob and Wilhelm Grimm (1855).
+- [ ] Latin I, pronunciation: inscription of Trajan's Column.
+- [ ] MLG I, background, and timeline 1494: colophon of the Lübeck Bible of 1494 (Steffen Arndes).
+- [ ] MLG II, background: Sütterlin alphabet chart.
+- [ ] Map, Bergen: Bryggen (buildings after the fire of 1702).
+- [ ] Map, Visby: town wall.
+- [ ] Map, Bremen: the Bremen cog of c. 1380, found 1962.
+- [ ] Timeline 1226: Lübeck charter of 1226 (same file as in MLG II).
+- [ ] Timeline 1468–74: Holbein, Derich Berck (1536), Steelyard merchant.

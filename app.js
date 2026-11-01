@@ -7,7 +7,7 @@
   'use strict';
 
   const CONTENT_BASE = (document.currentScript && document.currentScript.dataset.content) || 'content/';
-  const BUILD = '2026-11-01 g';           // shown under Progress so you can tell which version is running
+  const BUILD = '2026-11-01 h';           // shown under Progress so you can tell which version is running
   const FORMAT = 1;                       // progress format version; bump + migrate() on change
   const STORE_KEY = 'viator.progress';
   const INTERVALS = [0, 1, 2, 4, 8, 16, 32, 64]; // Leitner box → days until next review
@@ -696,7 +696,7 @@
       <h2 class="section">${esc(page.title)}</h2>
       ${page.intro ? `<p class="small muted" style="margin:0">${page.intro}</p>` : ''}
       ${tags.length > 2 ? `<div class="deckpick" role="group" aria-label="Filter">${tags.map(([k, l]) => `<button class="seg" data-tltag="${k}" aria-pressed="${t === k}">${esc(l)}</button>`).join('')}</div>` : ''}
-      <ol class="timeline">${ev.map(e => `<li><span class="yr">${esc(e.year)}</span><div><b>${M(esc(e.title))}</b><p>${M(e.text)}</p></div></li>`).join('')}</ol>`;
+      <ol class="timeline">${ev.map(e => `<li><span class="yr">${esc(e.year)}</span><div><b>${M(esc(e.title))}</b><div class="tltext">${M(e.text)}</div></div></li>`).join('')}</ol>`;
   }
 
   // ----- map -----
@@ -714,7 +714,7 @@
       <div class="mapwrap"><svg viewBox="0 0 ${p.width} ${p.height}" class="map" role="img" aria-label="${esc(page.title)}">
         <rect width="${p.width}" height="${p.height}" class="sea"/><path d="${page.land}" class="land"/>${marks}</svg></div>
       <p class="small muted" style="margin:0">● town &nbsp; ■ Kontor (foreign office). Scroll sideways to see the whole map; tap a place.</p>
-      ${sel ? `<div class="panel stack" aria-live="polite"><p class="eyebrow">${esc(sel.group || '')}</p><p class="today lead" style="margin:0">${esc(sel.name)}${sel.today ? ` <span class="small muted">· today ${esc(sel.today)}</span>` : ''}</p>${sel.mnd ? `<p class="small" style="margin:0">In the sources: <span class="la">${esc(sel.mnd)}</span></p>` : ''}<p class="prose" style="margin:0">${sel.note}</p></div>` : ''}
+      ${sel ? `<div class="panel stack" aria-live="polite"><p class="eyebrow">${esc(sel.group || '')}</p><p class="today lead" style="margin:0">${esc(sel.name)}${sel.today ? ` <span class="small muted">· today ${esc(sel.today)}</span>` : ''}</p>${sel.mnd ? `<p class="small" style="margin:0">In the sources: <span class="la">${esc(sel.mnd)}</span></p>` : ''}<div class="prose" style="margin:0">${sel.note}</div></div>` : ''}
       ${groups.map(g => `<div class="panel"><p class="eyebrow">${esc(g)}</p><div class="row">${page.places.filter(t => t.group === g).map(t => `<button class="chip" data-place="${t.id}" ${sel && sel.id === t.id ? 'aria-current="true"' : ''}>${esc(t.name)}</button>`).join('')}</div></div>`).join('')}
       ${page.credit ? `<p class="small muted">${page.credit}</p>` : ''}`;
   }
