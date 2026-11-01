@@ -7,7 +7,7 @@
   'use strict';
 
   const CONTENT_BASE = (document.currentScript && document.currentScript.dataset.content) || 'content/';
-  const BUILD = '2026-11-01';           // shown under Progress so you can tell which version is running
+  const BUILD = '2026-11-01 b';           // shown under Progress so you can tell which version is running
   const FORMAT = 1;                       // progress format version; bump + migrate() on change
   const STORE_KEY = 'viator.progress';
   const INTERVALS = [0, 1, 2, 4, 8, 16, 32, 64]; // Leitner box → days until next review
@@ -275,13 +275,13 @@
         <div class="stats3">
           <div class="stat"><b>${due}</b><span>cards due</span></div>
           <div class="stat"><b>${fresh}</b><span>new cards</span></div>
-          <div class="stat"><b>${P.streak.count && (P.streak.last >= today() - 1) ? P.streak.count : 0}</b><span>day streak</span></div>
+          <div class="stat"><b>${learned}</b><span>known well</span></div>
         </div>
         ${due + fresh ? `<button class="btn ghost wide" data-go="cards">Review cards</button>` : ''}
       </section>
       ${backupDue() ? `<div class="nudge"><p>${P.lastExport ? 'Your last backup is over a week old.' : 'You haven’t made a backup yet.'} Progress lives only in this browser.</p><button class="btn quiet" data-go="progress" data-anchor="backup">Back up now</button></div>` : ''}
       <section>
-        <p class="eyebrow">${esc(course.native || course.name)} · ${learned} words and forms well known</p>
+        <p class="eyebrow">${esc(course.native || course.name)} · ${ls.filter(l => { const lp = c.lectures[l.id]; return lp && sectionsFor(l).every(x => lp.sections[x.id]); }).length} of ${ls.length} ${ls.length === 1 ? 'lecture' : 'lectures'} complete</p>
         <div class="lectures">${items}${planned}</div>
       </section>`;
   }
