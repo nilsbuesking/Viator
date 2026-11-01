@@ -23,7 +23,13 @@
 <script src="app.js" data-content="content/"></script>
 <script>
   if ('serviceWorker' in navigator && location.protocol === 'https:') {
-    navigator.serviceWorker.register('sw.js').catch(function () {});
+    // When a new version has been downloaded and takes over, reload once so it shows straight away.
+    var hadController = !!navigator.serviceWorker.controller, reloaded = false;
+    navigator.serviceWorker.addEventListener('controllerchange', function () {
+      if (!hadController || reloaded) { hadController = true; return; }
+      reloaded = true; location.reload();
+    });
+    navigator.serviceWorker.register('sw.js').then(function (reg) { reg.update(); }).catch(function () {});
   }
 </script>
 </body>

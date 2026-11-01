@@ -7,7 +7,7 @@
   'use strict';
 
   const CONTENT_BASE = (document.currentScript && document.currentScript.dataset.content) || 'content/';
-  const BUILD = '2026-11-01 c';           // shown under Progress so you can tell which version is running
+  const BUILD = '2026-11-01 d';           // shown under Progress so you can tell which version is running
   const FORMAT = 1;                       // progress format version; bump + migrate() on change
   const STORE_KEY = 'viator.progress';
   const INTERVALS = [0, 1, 2, 4, 8, 16, 32, 64]; // Leitner box → days until next review
@@ -650,6 +650,8 @@
         <div class="setting"><label for="sStrict">Require ${esc(markName())} in answers<small>Off: a missing mark still counts as right, with a reminder.</small></label><input type="checkbox" class="switch" id="sStrict" ${P.settings.strictMacrons ? 'checked' : ''} ${P.settings.macronsShown ? '' : 'disabled'}></div>
         <div class="setting"><label for="sText">Text size<small>Applies to the whole app.</small></label><select class="field" id="sText">${[['s', 'Small'], ['m', 'Medium'], ['l', 'Large'], ['xl', 'Extra large']].map(([k, n]) => `<option value="${k}" ${P.settings.textSize === k ? 'selected' : ''}>${n}</option>`).join('')}</select></div>
         <div class="setting"><label for="sBackup">Backup reminder</label><select class="field" id="sBackup">${[3, 7, 14, 30].map(n => `<option value="${n}" ${P.settings.backupDays === n ? 'selected' : ''}>every ${n} days</option>`).join('')}</select></div>
+        <div class="setting"><label>App version ${BUILD}<small>Updates install by themselves when you are online. Use this if a change has not arrived.</small></label><button class="btn quiet" data-update>Check for updates</button></div>
+        <div class="setting"><label>Reload app files<small>Discards the stored copy of the app and downloads it again. Your progress is kept.</small></label><button class="btn quiet" data-hardreload>${ui.confirmHard ? 'Tap again to reload' : 'Reload'}</button></div>
         <div class="setting"><label>Reset ${esc(course.name)} progress<small>Cannot be undone; save a backup first.</small></label><button class="btn danger" data-reset>${ui.confirmReset ? 'Tap again to reset' : 'Reset'}</button></div>
       </div>
       <p class="small muted">Viātor · version ${BUILD} · progress format ${FORMAT}</p>`;
@@ -770,6 +772,26 @@
     }
     if (t.hasAttribute('data-endcards')) { ui.cards.queue = []; render(); return; }
 
+    // updates
+    if (t.hasAttribute('data-update')) {
+      if (!('serviceWorker' in navigator)) { toast('Updates are not available here.'); return; }
+      navigator.serviceWorker.getRegistration().then(r => {
+        if (!r) { toast('Updates work in the installed app only.'); return; }
+        toast('Checking…');
+        r.update().then(() => setTimeout(() => toast(r.installing || r.waiting ? 'New version found. The app will reload.' : 'You have the latest version.'), 1500))
+          .catch(() => toast('Could not reach the server. Are you online?'));
+      });
+      return;
+    }
+    if (t.hasAttribute('data-hardreload')) {
+      if (!ui.confirmHard) { ui.confirmHard = true; render(); setTimeout(() => { ui.confirmHard = false; }, 4000); return; }
+      const done = () => location.reload();
+      Promise.resolve()
+        .then(() => window.caches ? caches.keys().then(ks => Promise.all(ks.map(k => caches.delete(k)))) : null)
+        .then(() => navigator.serviceWorker ? navigator.serviceWorker.getRegistrations().then(rs => Promise.all(rs.map(r => r.unregister()))) : null)
+        .then(done, done);
+      return;
+    }
     // backup
     if (t.hasAttribute('data-export')) { doExport(); return; }
     if (t.hasAttribute('data-copybackup')) { copyBackup(); return; }
