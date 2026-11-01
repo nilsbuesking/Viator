@@ -1,7 +1,7 @@
 /*
  * Middle High German — Lecture II: strong verbs and the ablaut series.
  * Reading: Walther von der Vogelweide, "Under der linden" (L 39,11), normalised text
- * in the Lachmann tradition, as supplied by Nils (edition to be confirmed; see CONTENT-CHECKS.md).
+ * after Lachmann's edition (rev. Cormeau, 14th ed. 1996), as quoted on Wikipedia; see CONTENT-CHECKS.md.
  * Pictures from Wikimedia Commons.
  */
 Viator.addLecture('mhd', {
@@ -274,7 +274,7 @@ Viator.addLecture('mhd', {
 
   reading: {
     title: 'Walther von der Vogelweide, Under der linden',
-    note: 'Authentic text (L 39,11) in the normalised spelling of the Lachmann tradition, as supplied for this course; edition to be confirmed. [ ] marks a letter supplied by the editor of this course. Tap any word.',
+    note: 'Authentic text (L 39,11) in the normalised spelling of Lachmann’s edition, as quoted on Wikipedia; the German article cites the revision by Christoph Cormeau (14th edition, Berlin 1996). [ ] marks a letter restored for this course. Tap any word.',
     text: 'Under der linden\nan der heide,\ndâ unser zweier bette was,\ndâ muget ir vinden\nschône beide\ngebrochen bluomen unde gras.\nVor dem walde in einem tal,\ntandaradei,\nschône sanc diu nahtegal.\n\n[I]ch kam gegangen\nzuo der ouwe,\ndô was mîn friedel komen ê.\nDâ wart ich enpfangen,\nhêre frouwe,\ndaz ich bin sælic iemer mê.\nKuster mich? Wol tûsentstunt:\ntandaradei,\nseht, wie rôt mir ist der munt.\n\nDô het er gemachet\nalsô rîche\nvon bluomen eine bettestat.\nDes wirt noch gelachet\ninneclîche,\nkumt iemen an daz selbe pfat.\nBî den rôsen er wol mac,\ntandaradei,\nmerken, wâ mirz houbet lac.\n\nDaz er bî mir læge,\nwessez iemen\n(nû enwelle got!), sô schamt ich mich.\nWes er mit mir pflæge,\nniemer niemen\nbevinde daz, wan er und ich,\nund ein kleinez vogellîn –\ntandaradei,\ndaz mac wol getriuwe sîn.',
     translations: [
       { label: 'German translation', text: 'Unter der Linde auf der Heide, wo unser beider Lager war, da könnt ihr schön beides finden, geknickte Blumen und Gras. Vor dem Wald in einem Tal, tandaradei, sang schön die Nachtigall.\n\nIch kam zu der Aue gegangen, da war mein Liebster schon vor mir gekommen. Da wurde ich empfangen, heilige Herrin! – dass ich für immer glücklich bin. Ob er mich küsste? Wohl tausendmal, tandaradei: seht, wie rot mein Mund ist.\n\nDa hatte er so prächtig aus Blumen ein Lager bereitet. Darüber wird noch herzlich gelacht werden, wenn jemand denselben Pfad entlangkommt. An den Rosen kann er wohl, tandaradei, erkennen, wo mein Kopf lag.\n\nDass er bei mir lag, wüsste das jemand (Gott bewahre!), so schämte ich mich. Was er mit mir tat, das soll niemals jemand erfahren außer er und ich und ein kleines Vögelein, tandaradei, das wird wohl verschwiegen sein.' },

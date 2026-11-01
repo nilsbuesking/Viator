@@ -280,7 +280,7 @@ first-year course (the order Wheelock also uses); titles are this course's own.
 # Content checks: Middle High German Lecture II
 
 ## Authentic text
-- [ ] Walther, Under der linden (L 39,11): text as supplied by Nils, in the normalised spelling of the Lachmann tradition. Confirm the edition (Lachmann/Cormeau 14th ed. 1996, or another) and check against it.
+- [ ] Walther, Under der linden (L 39,11): text copied from Wikipedia, which follows Lachmann's edition; the German article names Cormeau's revision (14th ed., Berlin 1996). Check against a printed Lachmann/Cormeau if one is to hand; the 1827 first edition may differ in details.
 - [ ] Stanza 2, line 1: the supplied copy read "ch kam gegangen"; restored as [I]ch.
 - [ ] Stanza breaks inserted after lines 9, 18 and 27 (the supplied copy had one misplaced blank line after "hêre frouwe").
 - [ ] Punctuation of "hêre frouwe," (editions differ: comma, exclamation mark, dashes).
