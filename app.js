@@ -7,15 +7,18 @@
   'use strict';
 
   const CONTENT_BASE = (document.currentScript && document.currentScript.dataset.content) || 'content/';
-  const BUILD = '2026-11-01 d';           // shown under Progress so you can tell which version is running
+  const BUILD = '2026-11-01 f';           // shown under Progress so you can tell which version is running
   const FORMAT = 1;                       // progress format version; bump + migrate() on change
   const STORE_KEY = 'viator.progress';
   const INTERVALS = [0, 1, 2, 4, 8, 16, 32, 64]; // Leitner box → days until next review
 
   // ---------- registry used by content files ----------
-  const registry = { catalogue: [], lectures: {} };
+  const registry = { catalogue: [], lectures: {}, pages: [], shared: [] };
   window.Viator = {
     setCatalogue(list) { registry.catalogue = list; },
+    setShared(files) { registry.shared = files; },
+    // Reference pages: courses = '*' or a list of course ids; kinds: 'dates', 'timeline', 'map'
+    addPage(courses, page) { registry.pages.push(Object.assign({ courses }, page)); },
     addLecture(courseId, lecture) {
       (registry.lectures[courseId] = registry.lectures[courseId] || []).push(lecture);
     }
@@ -350,11 +353,13 @@
   function viewReading(l) {
     const r = l.reading, lp = lectureP(course.id, l.id);
     const known = new Set();
+    if (!ui.readView) ui.readView = r.startView || 'norm';
     const asWritten = r.diplomatic && ui.readView === 'dipl';
     const loose = k => spell(stripMacrons(k.toLowerCase()));
     const looseMap = {}; Object.keys(r.glosses).forEach(k => { const lk = loose(k); if (!(lk in looseMap)) looseMap[lk] = r.glosses[k]; });
-    const glossFor = w => r.glosses[w.toLowerCase()] || looseMap[loose(w)];
-    const parts = (asWritten ? r.diplomatic : r.text).split(/([A-Za-zÀ-ſ̀-ͯ]+)/);
+    // editorial brackets inside a word (allme[c]htich) belong to the word
+    const glossFor = w => { const k = w.replace(/[\[\]]/g, ''); return r.glosses[k.toLowerCase()] || looseMap[loose(k)]; };
+    const parts = (asWritten ? r.diplomatic : r.text).split(/((?:[A-Za-zÀ-ſ̀-ͯ]|\[[A-Za-z]+\])+)/);
     const html = parts.map((p, i) => {
       if (i % 2 === 0) return esc(p);
       const g = glossFor(p);
@@ -366,7 +371,7 @@
     return `
       <p class="eyebrow">${esc(r.note)}</p>
       <h2 class="section la">${M(esc(r.title))}</h2>
-      ${r.diplomatic ? `<div class="deckpick two" role="group" aria-label="Text form"><button class="seg" data-rview="norm" aria-pressed="${!asWritten}">Normalised</button><button class="seg" data-rview="dipl" aria-pressed="${!!asWritten}">As written</button></div>
+      ${r.diplomatic ? `<div class="deckpick two" role="group" aria-label="Text form"><button class="seg" data-rview="norm" aria-pressed="${!asWritten}">Normalised</button><button class="seg" data-rview="dipl" aria-pressed="${!!asWritten}">${esc(r.diplomaticLabel || 'As written')}</button></div>
       <p class="small muted" style="margin:0">${asWritten ? esc(r.diplomaticNote || 'Spelling as a scribe might write it.') : 'Normalised dictionary spelling, with long vowels marked.'}</p>` : ''}
       <div class="reading" lang="${course.langTag}">${html}</div>
       ${sel ? `<div class="glossbox" aria-live="polite"><span class="la">${M(esc(sel))}</span> · ${M(esc(glossFor(sel) || ''))}</div>` : ''}
@@ -587,7 +592,18 @@
   }
 
   // ----- reference -----
+  const coursePages = () => registry.pages.filter(p => p.courses === '*' || p.courses.includes(course.id));
   function viewRef() {
+    const pages = [{ id: 'glossary', title: 'Glossary' }, { id: 'tables', title: 'Tables' }].concat(coursePages());
+    if (!pages.find(p => p.id === ui.refPage)) ui.refPage = 'glossary';
+    const nav = `<nav class="chips refnav" aria-label="Reference pages">${pages.map(p => `<button class="chip" data-refpage="${p.id}" ${ui.refPage === p.id ? 'aria-current="true"' : ''}>${esc(p.title)}</button>`).join('')}</nav>`;
+    const page = pages.find(p => p.id === ui.refPage);
+    if (page.kind === 'dates') return nav + viewDates(page);
+    if (page.kind === 'timeline') return nav + viewTimeline(page);
+    if (page.kind === 'map') return nav + viewMap(page);
+    return nav + viewGlossary(ui.refPage === 'tables');
+  }
+  function viewGlossary(tablesOnly) {
     const q = spell(stripMacrons(ui.ref.toLowerCase().trim()));
     const all = lectures().flatMap(l => l.vocab.map(v => Object.assign({ lnum: l.number }, v)));
     const hits = q ? all.filter(v => spell(stripMacrons((v.la + ' ' + v.en + ' ' + (v.de || '')).toLowerCase())).includes(q)) : all;
@@ -596,10 +612,111 @@
       <div class="gblock"><h3 class="gt">${M(esc(t.title))} <span class="small muted">· ${roman(l.number)}</span></h3>
       <div class="tablewrap"><table><thead><tr>${t.headers.map(h => `<th>${esc(h)}</th>`).join('')}</tr></thead>
       <tbody>${t.rows.map(r => `<tr><th>${esc(r[0])}</th>${r.slice(1).map(c => `<td class="la">${M(esc(c))}</td>`).join('')}</tr>`).join('')}</tbody></table></div></div>`)).join('');
+    if (tablesOnly) return `<section>${tables || '<p class="muted">No tables yet.</p>'}</section>`;
     return `
       <div class="search"><input class="field" id="refsearch" type="search" placeholder="Search ${esc(course.name)}, English${course.reverseFrom === 'de' ? ' or German' : ''}" value="${esc(ui.ref)}" autocomplete="off" autocapitalize="off" spellcheck="false"></div>
-      <section><p class="eyebrow">Glossary · ${hits.length} ${hits.length === 1 ? 'entry' : 'entries'}</p><div id="refhits">${vocabList(hits)}</div></section>
-      ${q ? '' : `<section><p class="eyebrow">Tables</p>${tables}</section>`}`;
+      <section><p class="eyebrow">Glossary · ${hits.length} ${hits.length === 1 ? 'entry' : 'entries'}</p><div id="refhits">${vocabList(hits)}</div></section>`;
+  }
+
+  // ----- date converter (church calendar) -----
+  const fl = Math.floor;
+  const jdnJ = (y, m, d) => { const a = fl((14 - m) / 12), Y = y + 4800 - a, Mo = m + 12 * a - 3; return d + fl((153 * Mo + 2) / 5) + 365 * Y + fl(Y / 4) - 32083; };
+  const jdnG = (y, m, d) => { const a = fl((14 - m) / 12), Y = y + 4800 - a, Mo = m + 12 * a - 3; return d + fl((153 * Mo + 2) / 5) + 365 * Y + fl(Y / 4) - fl(Y / 100) + fl(Y / 400) - 32045; };
+  const fromJ = J => { const c = J + 32082, d = fl((4 * c + 3) / 1461), e = c - fl(1461 * d / 4), m = fl((5 * e + 2) / 153); return { y: d - 4800 + fl(m / 10), m: m + 3 - 12 * fl(m / 10), d: e - fl((153 * m + 2) / 5) + 1 }; };
+  const fromG = J => { const a = J + 32044, b = fl((4 * a + 3) / 146097), c = a - fl(146097 * b / 4), d = fl((4 * c + 3) / 1461), e = c - fl(1461 * d / 4), m = fl((5 * e + 2) / 153); return { y: 100 * b + d - 4800 + fl(m / 10), m: m + 3 - 12 * fl(m / 10), d: e - fl((153 * m + 2) / 5) + 1 }; };
+  function easter(y, greg) {
+    if (!greg) { const a = y % 4, b = y % 7, c = y % 19, d = (19 * c + 15) % 30, e = (2 * a + 4 * b - d + 34) % 7; return { y, m: fl((d + e + 114) / 31), d: ((d + e + 114) % 31) + 1 }; }
+    const a = y % 19, b = fl(y / 100), c = y % 100, d = fl(b / 4), e = b % 4, f = fl((b + 8) / 25), g = fl((b - f + 1) / 3), h = (19 * a + b - d - g + 15) % 30,
+      i = fl(c / 4), k = c % 4, l = (32 + 2 * e + 2 * i - h - k) % 7, m = fl((a + 11 * h + 22 * l) / 451);
+    return { y, m: fl((h + l - 7 * m + 114) / 31), d: ((h + l - 7 * m + 114) % 31) + 1 };
+  }
+  window.ViatorCalendar = { jdnJ, jdnG, fromJ, fromG, easter };   // exposed for testing
+  const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+  const WEEKDAYS = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+  function feastJdn(page, st) {
+    const greg = st.cal === 'g', J = greg ? jdnG : jdnJ, f = page.feasts.find(x => x.id === st.feast);
+    let j;
+    if (f.easter !== undefined) { const e = easter(st.year, greg); j = J(e.y, e.m, e.d) + f.easter; }
+    else {
+      const leap = greg ? (st.year % 4 === 0 && (st.year % 100 !== 0 || st.year % 400 === 0)) : st.year % 4 === 0;
+      j = J(st.year, f.m, f.d + (f.leapShift && leap ? 1 : 0));
+    }
+    const base = j;
+    switch (st.rel) {
+      case 'before': j -= 1; break;
+      case 'after': j += 1; break;
+      case 'octave': j += 7; break;
+      case 'wdbefore': do { j -= 1; } while (j % 7 !== Number(st.wd)); break;
+      case 'wdafter': do { j += 1; } while (j % 7 !== Number(st.wd)); break;
+    }
+    return { j, base, f };
+  }
+  function fmtDate(j, greg) { const x = (greg ? fromG : fromJ)(j); return `${WEEKDAYS[j % 7]}, ${x.d} ${MONTHS[x.m - 1]} ${x.y}`; }
+  function viewDates(page) {
+    const st = ui.dates = ui.dates || { year: 1400, cal: 'j', feast: page.defaultFeast || page.feasts[0].id, rel: 'on', wd: '6' };
+    const greg = st.cal === 'g';
+    const name = f => [f.de || f.en, f.la ? `(${f.la})` : ''].filter(Boolean).join(' ');
+    const opt = list => list.map(f => `<option value="${f.id}" ${f.id === st.feast ? 'selected' : ''}>${esc(name(f))}${f.easter === undefined ? ` · ${f.d} ${MONTHS[f.m - 1].slice(0, 3)}` : ''}</option>`).join('');
+    let out = '';
+    if (st.year >= 300 && st.year <= 2200) {
+      const r = feastJdn(page, st), e = easter(st.year, greg);
+      const rel = { on: '', before: 'The day before ', after: 'The day after ', octave: 'The octave (one week after) of ', wdbefore: `The ${WEEKDAYS[st.wd]} before `, wdafter: `The ${WEEKDAYS[st.wd]} after ` }[st.rel];
+      out = `<div class="panel stack" aria-live="polite">
+        <p class="eyebrow">Result</p>
+        <p class="today lead" style="margin:0">${fmtDate(r.j, greg)}</p>
+        <p class="small" style="margin:0">${esc(rel)}${esc(name(r.f))}${st.rel !== 'on' ? `, which fell on ${fmtDate(r.base, greg)}` : ''}. ${greg ? 'Gregorian' : 'Julian'} calendar.</p>
+        <p class="small muted" style="margin:0">Same day in the ${greg ? 'Julian' : 'Gregorian'} calendar${greg ? '' : ' (proleptic, as modern reference works convert)'}: ${fmtDate(r.j, !greg)}.</p>
+        <p class="small muted" style="margin:0">Easter ${st.year}: ${e.d} ${MONTHS[e.m - 1]}${r.f.mnd ? ` · Middle Low German: <span class="la">${esc(r.f.mnd)}</span>` : ''}</p>
+      </div>`;
+    } else out = `<p class="small muted">Enter a year between 300 and 2200.</p>`;
+    const wd = page.weekdays && page.weekdays[course.id];
+    return `
+      <h2 class="section">${esc(page.title)}</h2>
+      <p class="small muted" style="margin:0">${page.intro || ''}</p>
+      <div class="panel stack">
+        <div class="setting"><label for="dYear">Year (AD)</label><input class="field" id="dYear" type="number" inputmode="numeric" min="300" max="2200" value="${st.year}" style="width:7em"></div>
+        <div class="setting"><label for="dCal">Calendar<small>${esc(page.calendarNote || '')}</small></label><select class="field" id="dCal"><option value="j" ${!greg ? 'selected' : ''}>Julian</option><option value="g" ${greg ? 'selected' : ''}>Gregorian</option></select></div>
+        <label class="small" for="dFeast">Feast</label>
+        <select class="field" id="dFeast" style="width:100%"><optgroup label="Fixed feasts">${opt(page.feasts.filter(f => f.easter === undefined))}</optgroup><optgroup label="Movable feasts (from Easter)">${opt(page.feasts.filter(f => f.easter !== undefined))}</optgroup></select>
+        <label class="small" for="dRel">Day</label>
+        <select class="field" id="dRel" style="width:100%">${[['on', 'On the feast itself'], ['before', 'The day before'], ['after', 'The day after'], ['octave', 'The octave (one week after)'], ['wdbefore', 'A weekday before the feast'], ['wdafter', 'A weekday after the feast']].map(([k, l]) => `<option value="${k}" ${st.rel === k ? 'selected' : ''}>${l}</option>`).join('')}</select>
+        ${st.rel.startsWith('wd') ? `<label class="small" for="dWd">Weekday</label><select class="field" id="dWd" style="width:100%">${WEEKDAYS.map((w, i) => `<option value="${i}" ${String(i) === String(st.wd) ? 'selected' : ''}>${w}${wd ? ` · ${esc(wd[i])}` : ''}</option>`).join('')}</select>` : ''}
+      </div>
+      ${out}
+      ${wd ? `<div class="panel"><p class="eyebrow">Weekdays in the sources</p><dl class="kv">${WEEKDAYS.map((w, i) => `<dt>${w}</dt><dd class="la">${esc(wd[i])}</dd>`).join('')}</dl>${page.weekdayNote ? `<p class="small muted" style="margin:8px 0 0">${esc(page.weekdayNote)}</p>` : ''}</div>` : ''}
+      <div class="prose small">${page.notes || ''}</div>`;
+  }
+
+  // ----- timeline -----
+  function viewTimeline(page) {
+    const tags = [['all', 'All']].concat(page.tags || []);
+    const t = ui.tlTag || 'all';
+    const ev = page.events.filter(e => t === 'all' || e.tag === t);
+    return `
+      <h2 class="section">${esc(page.title)}</h2>
+      ${page.intro ? `<p class="small muted" style="margin:0">${page.intro}</p>` : ''}
+      ${tags.length > 2 ? `<div class="deckpick" role="group" aria-label="Filter">${tags.map(([k, l]) => `<button class="seg" data-tltag="${k}" aria-pressed="${t === k}">${esc(l)}</button>`).join('')}</div>` : ''}
+      <ol class="timeline">${ev.map(e => `<li><span class="yr">${esc(e.year)}</span><div><b>${M(esc(e.title))}</b><p>${M(e.text)}</p></div></li>`).join('')}</ol>`;
+  }
+
+  // ----- map -----
+  function viewMap(page) {
+    const p = page.projection, cosr = Math.cos(p.latRef * Math.PI / 180);
+    const xy = t => [(t.lon - p.lonMin) * cosr * p.k, (p.latMax - t.lat) * p.k];
+    const sel = page.places.find(t => t.id === ui.mapSel);
+    const marks = page.places.slice().sort((a, b) => (a.major ? 1 : 0) - (b.major ? 1 : 0)).map(t => { const [x, y] = xy(t); const on = sel && sel.id === t.id;
+      const shape = t.kind === 'kontor' ? `<rect x="${x - 6}" y="${y - 6}" width="12" height="12" class="mk kontor${on ? ' on' : ''}"/>` : `<circle cx="${x}" cy="${y}" r="${t.major ? 6 : 4.5}" class="mk${on ? ' on' : ''}"/>`;
+      return `<g class="place" data-place="${t.id}" role="button" tabindex="0" aria-label="${esc(t.name)}">${shape}<text x="${x + (t.dx || 9)}" y="${y + (t.dy || 4)}" class="lbl${t.major ? ' major' : ''}" ${t.anchor ? `text-anchor="${t.anchor}"` : ''}>${esc(t.name)}</text><circle cx="${x}" cy="${y}" r="10" class="hit"/></g>`; }).join('');
+    const groups = page.groups || [];
+    return `
+      <h2 class="section">${esc(page.title)}</h2>
+      ${page.intro ? `<p class="small muted" style="margin:0">${page.intro}</p>` : ''}
+      <div class="mapwrap"><svg viewBox="0 0 ${p.width} ${p.height}" class="map" role="img" aria-label="${esc(page.title)}">
+        <rect width="${p.width}" height="${p.height}" class="sea"/><path d="${page.land}" class="land"/>${marks}</svg></div>
+      <p class="small muted" style="margin:0">● town &nbsp; ■ Kontor (foreign office). Scroll sideways to see the whole map; tap a place.</p>
+      ${sel ? `<div class="panel stack" aria-live="polite"><p class="eyebrow">${esc(sel.group || '')}</p><p class="today lead" style="margin:0">${esc(sel.name)}${sel.today ? ` <span class="small muted">· today ${esc(sel.today)}</span>` : ''}</p>${sel.mnd ? `<p class="small" style="margin:0">In the sources: <span class="la">${esc(sel.mnd)}</span></p>` : ''}<p class="prose" style="margin:0">${sel.note}</p></div>` : ''}
+      ${groups.map(g => `<div class="panel"><p class="eyebrow">${esc(g)}</p><div class="row">${page.places.filter(t => t.group === g).map(t => `<button class="chip" data-place="${t.id}" ${sel && sel.id === t.id ? 'aria-current="true"' : ''}>${esc(t.name)}</button>`).join('')}</div></div>`).join('')}
+      ${page.credit ? `<p class="small muted">${page.credit}</p>` : ''}`;
   }
 
   // ----- progress & settings -----
@@ -633,14 +750,14 @@
         <p class="small muted" style="margin:0">Last backup: ${P.lastExport ? new Date(P.lastExport).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' }) : 'never'}</p>
         <div class="row"><button class="btn" data-export>Save backup file</button><button class="btn quiet" data-copybackup>Copy backup text</button></div>
         ${ui.showBackup ? `<textarea class="field small" id="backuptext" readonly>${esc(backupText)}</textarea>` : ''}
-        <details><summary class="small">Restore from a backup</summary>
+        <details id="restore" ${ui.confirmImport || ui.restoreOpen ? 'open' : ''}><summary class="small">Restore from a backup</summary>
           <div class="stack" style="margin-top:10px">
             <label class="small" for="importfile">Choose a backup file</label>
             <input type="file" id="importfile" accept=".json,application/json,text/plain">
             <label class="small" for="importtext">or paste backup text</label>
             <textarea class="field small" id="importtext" placeholder='{"app":"viator", …}'></textarea>
             <button class="btn quiet" data-importtext>Read pasted text</button>
-            ${ui.confirmImport ? `<div class="feedback no"><b>Replace current progress?</b>The backup is from ${esc(new Date(ui.confirmImport.exportedAt).toLocaleString('en-GB'))}. Everything stored now will be overwritten.<div class="row" style="margin-top:8px"><button class="btn danger" data-doimport>Replace</button><button class="btn quiet" data-cancelimport>Cancel</button></div></div>` : ''}
+            ${ui.confirmImport ? `<div class="feedback no" id="confirmimport"><b>Replace current progress?</b>The backup is from ${esc(new Date(ui.confirmImport.exportedAt).toLocaleString('en-GB'))}. Everything stored now will be overwritten.<div class="row" style="margin-top:8px"><button class="btn danger" data-doimport>Replace</button><button class="btn quiet" data-cancelimport>Cancel</button></div></div>` : ''}
           </div></details>
       </div>
 
@@ -685,14 +802,14 @@
       const o = JSON.parse(text);
       if (!o || o.app !== 'viator' || !o.progress) throw new Error();
       ui.confirmImport = o; render();
-      const el = $('#backup'); if (el) el.scrollIntoView();
+      const el = $('#confirmimport'); if (el) el.scrollIntoView({ block: 'center' });
     } catch (e) { toast('That is not a Viātor backup.'); }
   }
 
   // ---------- events ----------
   function go(view) { ui.view = view; ui.gloss = null; render(); window.scrollTo(0, 0); }
   function openLecture(id, section) {
-    ui.view = 'lecture'; ui.lectureId = id; ui.section = section || 'intro'; ui.ex = null; ui.gloss = null; ui.inline = {};
+    ui.view = 'lecture'; ui.lectureId = id; ui.section = section || 'intro'; ui.ex = null; ui.gloss = null; ui.inline = {}; ui.readView = null;
     const lp = lectureP(course.id, id); if (!lp.started) { lp.started = true; touchStreak(); save(); }
     P.courses[course.id].current = id; save();
     render(); window.scrollTo(0, 0);
@@ -709,6 +826,9 @@
     bind('sStrict', el => { P.settings.strictMacrons = el.checked; });
     bind('sText', el => { P.settings.textSize = el.value; });
     bind('sBackup', el => { P.settings.backupDays = Number(el.value); });
+    const dbind = (id, key, num) => { const el = $('#' + id); if (el) el.onchange = () => { ui.dates[key] = num ? Number(el.value) : el.value; const y = window.scrollY; render(); window.scrollTo(0, y); }; };
+    dbind('dYear', 'year', true); dbind('dCal', 'cal'); dbind('dFeast', 'feast'); dbind('dRel', 'rel'); dbind('dWd', 'wd');
+    const rd = $('#restore'); if (rd) rd.ontoggle = () => { ui.restoreOpen = rd.open; };
     const f = $('#importfile');
     if (f) f.onchange = () => { const file = f.files[0]; if (!file) return; const r = new FileReader(); r.onload = () => readImport(r.result); r.readAsText(file); };
     const ans = $('#ans'); if (ans && !ans.readOnly && ui.view === 'lecture') ans.addEventListener('keydown', e => { if (e.key === 'Enter' && ans.tagName === 'INPUT') { e.preventDefault(); checkItem(); } });
@@ -720,9 +840,12 @@
   document.addEventListener('pointerdown', e => { if (e.target.closest('[data-key]')) e.preventDefault(); });
 
   document.addEventListener('click', e => {
-    const t = e.target.closest('button, [data-w]'); if (!t) return;
+    const t = e.target.closest('button, [data-w], [data-place]'); if (!t) return;
     const d = t.dataset;
     if (d.key) { const fld = lastField && document.contains(lastField) ? lastField : $('#ans') || $('[data-cell]'); if (fld && !fld.readOnly) { const s = fld.selectionStart ?? fld.value.length, en = fld.selectionEnd ?? s; fld.value = fld.value.slice(0, s) + d.key + fld.value.slice(en); fld.focus(); fld.setSelectionRange(s + 1, s + 1); } return; }
+    if (d.refpage) { ui.refPage = d.refpage; render(); window.scrollTo(0, 0); return; }
+    if (d.tltag) { ui.tlTag = d.tltag; render(); return; }
+    if (d.place) { ui.mapSel = ui.mapSel === d.place ? null : d.place; const y = window.scrollY; render(); window.scrollTo(0, y); return; }
     if (d.jump) { const el = document.getElementById(d.jump); if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' }); return; }
     if (d.go) { go(d.go); if (d.anchor) setTimeout(() => { const el = $('#' + d.anchor); if (el) el.scrollIntoView(); }, 0); return; }
     if (d.lecture) { openLecture(d.lecture, d.section); return; }
@@ -796,18 +919,18 @@
     if (t.hasAttribute('data-export')) { doExport(); return; }
     if (t.hasAttribute('data-copybackup')) { copyBackup(); return; }
     if (t.hasAttribute('data-importtext')) { readImport(($('#importtext') || {}).value || ''); return; }
-    if (t.hasAttribute('data-cancelimport')) { ui.confirmImport = null; render(); return; }
-    if (t.hasAttribute('data-doimport')) { P = migrate(ui.confirmImport.progress); ui.confirmImport = null; save(); setCourse(P.activeCourse || course.id); render(); toast('Progress restored.'); return; }
+    if (t.hasAttribute('data-cancelimport')) { ui.confirmImport = null; ui.restoreOpen = false; render(); return; }
+    if (t.hasAttribute('data-doimport')) { P = migrate(ui.confirmImport.progress); ui.confirmImport = null; ui.restoreOpen = false; save(); setCourse(P.activeCourse || course.id); render(); toast('Progress restored.'); return; }
     if (t.hasAttribute('data-reset')) {
       if (!ui.confirmReset) { ui.confirmReset = true; render(); setTimeout(() => { ui.confirmReset = false; }, 4000); return; }
       delete P.courses[course.id]; ui.confirmReset = false; save(); render(); toast(course.name + ' progress reset.'); return;
     }
   });
-  document.addEventListener('keydown', e => { if ((e.key === 'Enter' || e.key === ' ') && e.target.matches('[data-w]')) { e.preventDefault(); e.target.click(); } });
+  document.addEventListener('keydown', e => { if ((e.key === 'Enter' || e.key === ' ') && e.target.matches('[data-w], [data-place]')) { e.preventDefault(); e.target.dispatchEvent(new MouseEvent('click', { bubbles: true })); } });
 
   function setCourse(id) {
     course = registry.catalogue.find(c => c.id === id) || registry.catalogue[0];
-    P.activeCourse = course.id; ui.view = 'home'; ui.ex = null; ui.cards = null; ui.ref = ''; ui.readView = 'norm'; save();
+    P.activeCourse = course.id; ui.view = 'home'; ui.ex = null; ui.cards = null; ui.ref = ''; ui.readView = null; ui.refPage = 'glossary'; ui.mapSel = null; save();
   }
 
   // ---------- boot ----------
@@ -817,6 +940,7 @@
     try {
       await loadScript(base + 'catalogue.js');
       for (const c of registry.catalogue) for (const f of c.lectures) await loadScript(base + f);
+      for (const f of registry.shared) await loadScript(base + f);
     } catch (e) {
       root().innerHTML = `<div class="gutter" style="padding-block:40px"><p><b>Course files could not be loaded.</b></p><p class="small">${esc(e.message)}. Check that the content folder sits next to index.html.</p></div>`;
       return;

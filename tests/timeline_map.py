@@ -1,0 +1,20 @@
+import os; os.makedirs('/tmp/viator-shots', exist_ok=True)
+from playwright.sync_api import sync_playwright
+S='/tmp/viator-shots/'; errs=[]
+with sync_playwright() as p:
+    b=p.chromium.launch(); pg=b.new_page(viewport={'width':390,'height':844}, device_scale_factor=2)
+    pg.on('pageerror', lambda e: errs.append(str(e)))
+    pg.goto('http://localhost:8765/index.html'); pg.wait_for_timeout(600)
+    pg.select_option('#coursepick','mnd'); pg.click('[data-go=ref]')
+    print('ref pages:', pg.locator('.refnav .chip').all_inner_texts())
+    pg.click('[data-refpage=timeline]'); print('events', pg.locator('.timeline li').count()); pg.click('[data-tltag=lang]'); print('lang events', pg.locator('.timeline li').count())
+    pg.screenshot(path=S+'tl.png'); print('w', pg.evaluate('document.documentElement.scrollWidth'))
+    pg.click('[data-refpage=map]'); pg.wait_for_timeout(200)
+    pg.locator('g.place[data-place=lubeck]').click(); print('sel:', pg.locator('.panel .today.lead').inner_text())
+    pg.locator('.mapwrap').evaluate('e=>e.scrollLeft=180'); pg.screenshot(path=S+'map.png')
+    pg.click('button.chip[data-place=reval]'); print('sel2:', pg.locator('.panel .today.lead').inner_text()); print('w', pg.evaluate('document.documentElement.scrollWidth'))
+    pg.emulate_media(color_scheme='dark'); pg.locator('.mapwrap').scroll_into_view_if_needed(); pg.screenshot(path=S+'map_dark.png')
+    pg.select_option('#coursepick','latin'); pg.click('[data-go=ref]'); print('latin ref pages:', pg.locator('.refnav .chip').all_inner_texts())
+    pg.click('[data-refpage=dates]'); print('latin weekdays shown:', pg.locator('text=Weekdays in the sources').count())
+    b.close()
+print('errors', errs)

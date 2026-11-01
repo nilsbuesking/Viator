@@ -51,6 +51,13 @@ British English in all text.
   `text` and an as-written `diplomatic` version; add glosses for both spellings.
   Constructed texts must be labelled as constructed. Pronunciation is uncertain;
   say so. Middle High German is planned as a separate course.
+- Reference pages are registered with `Viator.addPage(courses, page)` in files
+  listed by `Viator.setShared([...])` in `content/catalogue.js`. Kinds: `dates`
+  (content/calendar.js, shared by all courses), `timeline` and `map`
+  (content/mnd/pages.js; map coastline from Natural Earth, public domain).
+- Authentic source text: quote only what you have actually seen in an edition or
+  scan, cite volume, number and page, mark corrections in [ ], and add it to
+  CONTENT-CHECKS.md. Never present a reconstruction from memory as a quotation.
 - Course options live in `content/catalogue.js` (spelling variants, keyboard,
   labels). Translation exercises use `dir`: `xx-en`, `xx-de`, or into the
   course language (e.g. `de-mnd`, `en-la`).
@@ -61,6 +68,8 @@ British English in all text.
 - Never use the smallest model for Latin or French content.
 
 ## Testing after changes
-Serve with `python3 -m http.server`, then at phone width: start a lecture, do
-three exercises including one paradigm and one translation, review five
-flashcards, save and restore a backup. Check there is no horizontal scrolling.
+Run the browser tests in `tests/` (see tests/README.md); add to them when you add
+a lecture or feature. They cover every exercise, word glosses in readings, the
+date arithmetic, map taps, and a backup save and restore. Check there is no
+horizontal scrolling. After pushing, check that the GitHub Pages deployment
+succeeded (Actions runs); a push made while a deployment is still running can fail.

@@ -73,9 +73,9 @@ Viator.addLecture('mnd', {
 
   culture: `
     <p class="eyebrow">From the sources</p>
-    <p class="la big">Spegel der Sassen / scal dit bôk sîn genant …</p>
-    <p>“The Mirror of the Saxons this book shall be called, for the law of the Saxons is made known in it, as women see their faces in a mirror.” So the verse preface of the <em>Sachsenspiegel</em> explains its title. Eike von Repgow compiled this record of Saxon customary law around 1220–35. According to the same preface, he first wrote it in Latin and then, at the request of Count Hoyer of Falkenstein, put it into the vernacular. The result is one of the oldest prose works in any form of German, and it is Low German: <span class="la">spegel</span> for <em>Spiegel</em>, <span class="la">Sassen</span> for <em>Sachsen</em>, <span class="la">bôk</span> for <em>Buch</em>.</p>
-    <p class="small muted">The wording above is normalised and abbreviated; the manuscripts differ in spelling and detail. Check it against an edition before quoting it.</p>
+    <p class="la big">Spegel der Sassen</p>
+    <p>“Mirror of the Saxons”: the <em>Sachsenspiegel</em>. Eike von Repgow compiled this record of Saxon customary law around 1220–35, at the instance of his lord, Count Hoyer of Falkenstein. A Latin version came first and survives only in fragments; Eike then put the work into the vernacular. Its rhymed preface explains the title: the book shows the law of the Saxons as a mirror shows women their faces. It is one of the oldest prose works in any form of German, and it is Low German: <span class="la">spegel</span> for <em>Spiegel</em>, <span class="la">Sassen</span> for <em>Sachsen</em>.</p>
+    <p class="small muted">Only the title words are quoted here. The wording of the preface differs between manuscripts and has not been checked for this course; Lecture II has authentic text from a printed edition.</p>
   `,
 
   pronunciation: `
@@ -182,7 +182,7 @@ Viator.addLecture('mnd', {
           <li><strong>Doubled letters</strong> without any change in sound: <span class="la">vnnde</span>, <span class="la">datt</span>.</li>
           <li><strong>Length</strong> is usually not shown, or shown by a following <em>e</em> or <em>i</em> (<span class="la">oe</span>, <span class="la">ae</span>), especially in Westphalia.</li>
           <li><strong>Umlaut</strong> is mostly not shown: <span class="la">lude</span> for <span class="la">lüde</span>.</li>
-          <li><strong>Abbreviations</strong> are frequent: a bar over a letter for a missing <em>n</em> or <em>m</em>, and shortened words such as <span class="la">lub.</span> for <span class="la">lubesch</span>. They are the subject of a later lecture on palaeography.</li>
+          <li><strong>Abbreviations</strong> are frequent: a bar over a letter for a missing <em>n</em> or <em>m</em>, and shortened words such as <span class="la">lub.</span> for <span class="la">lubesch</span>. Lecture II deals with them.</li>
         </ul>
         <p>This course normalises in the way the dictionaries do. In exercises, the common variants are accepted: <em>u/v</em>, <em>i/j/y</em>, <em>c/k</em>, <em>gh/g</em> and doubled letters. Long-vowel marks are optional unless you switch them on in Settings.</p>
         <p class="aside">Printed editions differ too. Nineteenth-century editions such as the <em>Hanserecesse</em> usually reproduce the manuscript spelling closely but expand abbreviations and modernise <em>u/v</em> inconsistently. Read each edition’s introduction for its rules.</p>
@@ -251,7 +251,7 @@ Viator.addLecture('mnd', {
           </tbody>
         </table></div>
         <p>Apart from the nominative <span class="la">de</span>, this is the German pattern with unshifted consonants: <span class="la">dat</span> for <em>das</em>, <span class="la">deme</span> for <em>dem</em>. <span class="la">dat</span> is also the conjunction “dass”: <span class="la">Wî bekennen, dat …</span> “Wir bekennen, dass …”. The indefinite article is <span class="la">ên</span>, accusative masculine <span class="la">ênen</span>.</p>
-        <p>Nouns keep a few case endings that German has mostly lost. The dative singular often ends in <span class="la">-e</span>, like the old-fashioned German <em>im Hause</em>: <span class="la">in deme hûse</span>, <span class="la">in sînem schepe</span>. The genitive singular of masculine and neuter nouns ends in <span class="la">-es</span>: <span class="la">des kôpmannes</span>. Plurals are varied (<span class="la">schepe</span>, <span class="la">kôplüde</span>, <span class="la">brêve</span>, <span class="la">stede</span>) and are best learned with each noun. Lecture III covers the noun in detail.</p>
+        <p>Nouns keep a few case endings that German has mostly lost. The dative singular often ends in <span class="la">-e</span>, like the old-fashioned German <em>im Hause</em>: <span class="la">in deme hûse</span>, <span class="la">in sînem schepe</span>. The genitive singular of masculine and neuter nouns ends in <span class="la">-es</span>: <span class="la">des kôpmannes</span>. Plurals are varied (<span class="la">schepe</span>, <span class="la">kôplüde</span>, <span class="la">brêve</span>, <span class="la">stede</span>) and are best learned with each noun. A later lecture covers the noun in detail.</p>
       `
     },
     {

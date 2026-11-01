@@ -80,3 +80,36 @@ Schiller/Lübben dictionaries, and if possible against real Lübeck charters of 
 - [ ] Lübeck mark = 16 shillings; Reval under Lübeck law.
 - [ ] Latin promulgation formula: universis praesentes litteras visuris vel audituris.
 - [ ] Date: 24 June 1400 (Julian) a Thursday, so the following Sunday is 27 June (computed).
+
+---
+
+# Content checks: Middle Low German Lecture II and reference pages
+
+## Authentic excerpts (Lecture II reading and culture panel)
+Taken from the digitised text of Hanserecesse, 2. Abt., Bd. 6, ed. G. von der Ropp
+(Leipzig 1890), nos. 165 (pp. 125–6) and 167 (p. 127), via archive.org. Compare every
+line with the printed page. Corrections made: allme[c]htich, [c]opluyden, et[c].
+- [ ] Check "willen" in "de Got allmechtich altyt bewaren willen" (singular expected).
+- [ ] Check the volume number: the scan's title page reads 2. Abt., 6. Band (1890), though the archive.org file name says "07".
+- [ ] The normalised version of the two letters is this course's own; check length marks (vorsênich, ôtmôdich, râdessendebôde, berêt, dênere, jûwe, trûwen).
+
+## Lecture II claims
+- [ ] Sütterlin introduced in Prussian schools in 1915.
+- [ ] Cappelli, Lexicon abbreviaturarum, first edition 1899; the four kinds of abbreviation.
+- [ ] Lübeck money: 1 mark = 16 shillings = 192 pence; signs ß and ₰.
+- [ ] Last of herring = 12 barrels (local practice varied).
+- [ ] Hanserecesse heading abbreviations Kfm., Rsn.
+- [ ] Events of 1468–74: arrest of the Hanse merchants in London (July 1468), Cologne exempted, Peace of Utrecht 1474.
+- [ ] monasterium.net record EE-TLA TallinnaMagistraat TLA.230.1-I.813: Lübeck council, 8 May 1485 (as described on the site).
+
+## Date converter (content/calendar.js)
+The arithmetic was tested: Easter agrees with python-dateutil for 1200–1800 in both calendars.
+- [ ] Feast dates against Grotefend, especially Matthias (leap years), Divisio apostolorum, Undecim milia virginum, Lambertus, Gallus.
+- [ ] Middle Low German feast names (lichtmisse, sunte Michaelis dach, aller hilligen dach, wînachten, vastelâvent, pâschen, pinxten).
+- [ ] Middle Low German weekday names (mândach, dinxedach, middeweke, donredach, vrîdach, sunnavent, sondach).
+- [ ] Gregorian adoption dates given (Catholic territories 1582–84; Protestant German territories 1700; England 1752; Sweden 1753).
+
+## Timeline and map (content/mnd/pages.js)
+- [ ] Every timeline date, especially 1161 (Artlenburg), 1226, 1241, 1266–67, 1356, 1361, 1367, 1370, 1494, 1498, 1598, 1669, 1870.
+- [ ] Town notes: Bruges without a walled compound; Bergen Kontor to the 18th century; Rostock university 1419; Königsberg seat of the Order from 1457; Soest law and Lübeck; Cologne excluded 1471–76; Bremen excluded more than once.
+- [ ] Middle Low German place names: Lunden/Londen, Brugge, Nougarden, Lübeke, Hamborch, Colne, Brunswik, Dantzik, Revele.

@@ -14,8 +14,11 @@
   --bad: #ad3a2e;
   --bad-soft: #f4dfdb;
   --font-display: "Marcellus", "Trajan Pro", Georgia, serif;
-  --font-text: "Source Serif 4", "Iowan Old Style", Georgia, serif;
+  --font-text: "Source Serif 4", "Noto Serif", "Iowan Old Style", Georgia, serif;
   --font-ui: "IBM Plex Sans", -apple-system, "Segoe UI", Roboto, sans-serif;
+  --sea: #d4e2e3;
+  --landfill: #ece6d6;
+  --coast: #8b9a90;
   --radius: 10px;
   --tabbar-h: 58px;
 }
@@ -24,6 +27,7 @@
     --bg: #111614; --surface: #19201d; --ink: #e3e9e5; --muted: #93a19b; --line: #2b3531;
     --accent: #6cb7a4; --accent-ink: #0c1311; --accent-soft: #1e3530; --ochre: #d6a649;
     --good: #6cc48f; --good-soft: #1b3326; --bad: #e27b6f; --bad-soft: #3a211e;
+    --sea: #15242a; --landfill: #23302b; --coast: #4d5f57;
     color-scheme: dark;
   }
 }
@@ -31,6 +35,7 @@
   --bg: #111614; --surface: #19201d; --ink: #e3e9e5; --muted: #93a19b; --line: #2b3531;
   --accent: #6cb7a4; --accent-ink: #0c1311; --accent-soft: #1e3530; --ochre: #d6a649;
   --good: #6cc48f; --good-soft: #1b3326; --bad: #e27b6f; --bad-soft: #3a211e;
+  --sea: #15242a; --landfill: #23302b; --coast: #4d5f57;
   color-scheme: dark;
 }
 
@@ -274,3 +279,29 @@ details.panel summary { cursor: pointer; font-weight: 500; }
 /* Two-way toggle (reading: normalised / as written) */
 .deckpick.two { grid-template-columns: repeat(2, 1fr); }
 .ven .muted { font-size: 0.9em; }
+
+/* Reading: keep line breaks in source texts */
+.reading { white-space: pre-line; }
+.prose a, .notes a { color: var(--accent); text-underline-offset: 3px; }
+
+/* Reference sub-pages */
+.refnav { margin-top: -4px; }
+.timeline { list-style: none; margin: 0; padding: 0; border-left: 2px solid var(--line); }
+.timeline li { display: grid; grid-template-columns: 4.2em 1fr; gap: 10px; padding: 0 0 16px 12px; position: relative; }
+.timeline li::before { content: ""; position: absolute; left: -6px; top: 6px; width: 10px; height: 10px; border-radius: 50%; background: var(--accent); }
+.timeline .yr { font-family: var(--font-display); color: var(--accent); font-variant-numeric: tabular-nums; }
+.timeline b { font-family: var(--font-text); font-size: 1.02rem; }
+.timeline p { margin: 2px 0 0; font-size: 0.92rem; color: var(--ink); min-width: 0; }
+.timeline div { min-width: 0; }
+.mapwrap { overflow-x: auto; border: 1px solid var(--line); border-radius: var(--radius); background: var(--sea); }
+.map { display: block; width: 1000px; max-width: none; height: auto; }
+.map .sea { fill: var(--sea); }
+.map .land { fill: var(--landfill); stroke: var(--coast); stroke-width: 0.8; }
+.map .mk { fill: var(--accent); stroke: var(--surface); stroke-width: 1.5; }
+.map .mk.kontor { fill: var(--ochre); }
+.map .mk.on { stroke: var(--ink); stroke-width: 3; }
+.map .lbl { font: 500 13px var(--font-ui); fill: var(--ink); paint-order: stroke; stroke: var(--landfill); stroke-width: 3px; stroke-linejoin: round; }
+.map .lbl.major { font-weight: 700; font-size: 15px; }
+.map .hit { fill: transparent; }
+.map .place { cursor: pointer; }
+.row .chip { margin-bottom: 2px; }
