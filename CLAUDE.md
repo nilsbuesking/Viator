@@ -11,6 +11,9 @@ British English in all text.
   `Viator.addLecture(courseId, {...})`. Copy the structure of
   `content/latin/lecture-01.js` exactly. Register new files in
   `content/catalogue.js` and in `CORE` in `sw.js`.
+- Special lectures (one text or topic in depth, outside the sequence) set
+  `special: true` and a number above 100; they show ✦, sit in their own list and
+  are skipped by “Continue”. File name `special-<topic>.js`.
 - Exercise types the engine understands: `mc`, `gap`, `paradigm`, `match`,
   `order`, `translate` (`dir: 'la-en'` checked against English variants with
   articles ignored; `dir: 'en-la'` checked word-order-free). Adding a new type

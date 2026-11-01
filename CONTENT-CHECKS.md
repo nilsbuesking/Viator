@@ -304,3 +304,31 @@ first-year course (the order Wheelock also uses); titles are this course's own.
 ## Pictures
 - [ ] Tanzlinde in Effeltrich (caption: branches trained on a frame for a dancing floor; check this applies to Effeltrich).
 - [ ] Nightingale (Luscinia megarhynchos): check the photo shows the species.
+
+# Content checks: Middle High German special lecture, Palästinalied
+
+## Authentic text
+- [ ] Seven stanzas (A50–56 = C21–23, C25–27, C29) after Lachmann (1843) as printed in the English Wikipedia article "Palästinalied", supplied by Nils. Check against Lachmann/Cormeau.
+- [ ] Changes made: "here" → h[ê]re (stanza 1, length mark restored); "Schoeniu" → Schœniu, "waeren" → wæren (online substitutes for œ, æ). "da'r", "Do", "jehent" left as printed.
+- [ ] Culture panel: stanza 1 as underlaid in the music transcription (Münster fragment) shown in the same article (Commons file "Palestinalied.jpg"); confirm that file is that transcription and its source/licence.
+- [ ] Stanzas 4, 6a, 8, 8a and the two further stanzas in the article (notes 8–10) are described but not printed.
+
+## History and reception
+- [ ] Dating: Frederick II 1228–29 (traditional) versus 1217–21 (English Wikipedia; Walther in Vienna 1217/1219).
+- [ ] Frederick II: took the cross 1215, excommunicated 1227, Treaty of Jaffa Feb. 1229 (Jerusalem, Bethlehem, Nazareth; Temple Mount Muslim), crown-wearing in the Holy Sepulchre March 1229; Jerusalem lost 1244.
+- [ ] Crusade numbering in English and German usage.
+- [ ] Manuscripts: CB 211a with neumes attached to "Alte clamat Epicurus" (c. 1230); A c. 1270s, 7 stanzas; C 9 stanzas; Z (Münster, Msc. VII 51) c. 1330, 12 stanzas, melody, found 1910 in the binding of a 1522 account book; 13 stanzas in all.
+- [ ] Melody: Jaufre Rudel "Lanquan li jorn" (Husmann 1953); Ave regina caelorum (Aarburg; Hope 2019).
+- [ ] Henry Hope, "Ein Kreuzlied? Walthers von der Vogelweide Palästinalied", Musik in Bayern 84 (2019), 9–31: summary of argument.
+- [ ] Recordings and years (Ougenweide 1974 … In Extremo 1998/2016; Lou Harrison); appropriation by extreme-right bands (Absurd, 2002, listed in the article) — described without naming.
+- [ ] Last Judgement in the valley of Jehoshaphat (Joel 3); Mamre (Genesis 18) as Trinity image; Rhineland massacres 1096.
+
+## Forms
+- [ ] Principal parts in grammar section 4 (gebërn, verliesen, heben/huop, erschînen, slahen/sluoc, stëchen, trëten).
+- [ ] weise "orphan"; eigen "unfree"; ger "claim"; gewërn; angeslîch; zein; geschande (schenden).
+- [ ] Genders: ouge n., lant n., ërde f., stat f., maget f., kriuze n., helle f., grap n., gewalt m./f., erbe n., ger f.
+
+## Pictures
+- [ ] Frederick II and al-Kāmil, Nuova Cronica (Vatican, Chigi L VIII 296).
+- [ ] Codex Buranus Wheel of Fortune (Clm 4660).
+- [ ] Palestinalied.jpg (melody transcription).

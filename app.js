@@ -7,7 +7,7 @@
   'use strict';
 
   const CONTENT_BASE = (document.currentScript && document.currentScript.dataset.content) || 'content/';
-  const BUILD = '2026-11-01 p';           // shown under Progress so you can tell which version is running
+  const BUILD = '2026-11-01 q';           // shown under Progress so you can tell which version is running
   const FORMAT = 1;                       // progress format version; bump + migrate() on change
   const STORE_KEY = 'viator.progress';
   const INTERVALS = [0, 1, 2, 4, 8, 16, 32, 64]; // Leitner box → days until next review
@@ -96,7 +96,9 @@
   // ---------- state ----------
   const ui = { view: 'home', lectureId: null, section: 'intro', ex: null, cards: null, ref: '', confirmImport: null, gloss: null };
   let course = null;  // active course object from catalogue
-  const lectures = () => (registry.lectures[course.id] || []).slice().sort((a, b) => a.number - b.number);
+  // special lectures (special: true) sort after the numbered ones, show ✦ instead of a numeral, and are left out of “Continue”
+  const lectures = () => (registry.lectures[course.id] || []).slice().sort((a, b) => (!!a.special - !!b.special) || a.number - b.number);
+  const lnum = l => l.special ? '✦' : roman(l.number);
   const findLecture = id => lectures().find(l => l.id === id);
   const M = html => P.settings.macronsShown ? html : stripMacrons(html);
 
@@ -265,7 +267,7 @@
   }
   function nextStep() {
     const c = courseP(course.id);
-    for (const l of lectures()) {
+    for (const l of lectures().filter(x => !x.special)) {
       const lp = c.lectures[l.id];
       for (const s of sectionsFor(l)) if (!(lp && lp.sections[s.id])) return { l, s };
     }
@@ -276,29 +278,31 @@
     const step = nextStep();
     const due = dueCards('all').length, fresh = newCards('all').length;
     const learned = Object.values(c.cards).filter(s => s.box >= 3).length;
-    const items = ls.map(l => {
+    const item = l => {
       const lp = c.lectures[l.id], secs = sectionsFor(l);
       const done = lp ? secs.filter(s => lp.sections[s.id]).length : 0;
       const complete = done === secs.length;
       return `<button class="lect" data-lecture="${l.id}">
-        <span class="num">${roman(l.number)}</span>
+        <span class="num">${lnum(l)}</span>
         <span><span class="t la">${M(esc(l.title))}</span><br><span class="s">${esc(l.subtitle)}</span>
           <span class="dots" aria-label="${done} of ${secs.length} sections done">${secs.map(s => `<i class="${lp && lp.sections[s.id] ? 'on' : ''}"></i>`).join('')}</span></span>
         <span class="pill ${complete ? 'done' : ''}">${complete ? 'Done' : `${l.minutes} min`}</span>
       </button>`;
-    }).join('');
-    const planned = (course.planned || []).map((t, i) => `<div class="lect planned"><span class="num">${roman(ls.length + i + 1)}</span><span><span class="t">${esc(t)}</span></span><span class="pill">Planned</span></div>`).join('');
+    };
+    const items = ls.filter(l => !l.special).map(item).join('');
+    const specials = ls.filter(l => l.special).map(item).join('');
+    const planned = (course.planned || []).map((t, i) => `<div class="lect planned"><span class="num">${roman(ls.filter(l => !l.special).length + i + 1)}</span><span><span class="t">${esc(t)}</span></span><span class="pill">Planned</span></div>`).join('');
     return `
       <section class="today panel">
         <p class="eyebrow">Today</p>
-        ${step ? `<p class="today lead">${roman(step.l.number)} · ${esc(step.s.label)}</p>
+        ${step ? `<p class="today lead">${lnum(step.l)} · ${esc(step.s.label)}</p>
           <button class="btn wide" data-lecture="${step.l.id}" data-section="${step.s.id}">${c.lectures[step.l.id] && c.lectures[step.l.id].started ? 'Continue' : 'Start lecture'}</button>
           ${ls.length > 1 ? `<label class="small muted" for="pickLecture">or choose a lecture</label>
-          <select class="field" id="pickLecture" style="width:100%"><option value="">${roman(step.l.number)} · ${M(esc(step.l.title))} (current)</option>${ls.filter(l => l.id !== step.l.id).map(l => {
+          <select class="field" id="pickLecture" style="width:100%"><option value="">${lnum(step.l)} · ${M(esc(step.l.title))} (current)</option>${ls.filter(l => l.id !== step.l.id).map(l => {
             const lp = c.lectures[l.id], secs = sectionsFor(l), done = lp ? secs.filter(x => lp.sections[x.id]).length : 0;
-            return `<option value="${l.id}">${roman(l.number)} · ${M(esc(l.title))}${done === secs.length ? ' · done' : done ? ` · ${done}/${secs.length}` : ''}</option>`; }).join('')}</select>` : ''}`
+            return `<option value="${l.id}">${lnum(l)} · ${M(esc(l.title))}${done === secs.length ? ' · done' : done ? ` · ${done}/${secs.length}` : ''}</option>`; }).join('')}</select>` : ''}`
           : !ls.length ? `<p class="lead">The first lecture of this course is in preparation.</p><p class="small muted">The planned lectures are listed below. The reference pages are already available.</p>`
-          : `<p class="lead">All available lectures are done.</p>${ls.length ? `<label class="small muted" for="pickLecture">Choose a lecture to revise</label><select class="field" id="pickLecture" style="width:100%"><option value="">Choose…</option>${ls.map(l => `<option value="${l.id}">${roman(l.number)} · ${M(esc(l.title))}</option>`).join('')}</select>` : ''}`}
+          : `<p class="lead">All available lectures are done.</p>${ls.length ? `<label class="small muted" for="pickLecture">Choose a lecture to revise</label><select class="field" id="pickLecture" style="width:100%"><option value="">Choose…</option>${ls.map(l => `<option value="${l.id}">${lnum(l)} · ${M(esc(l.title))}</option>`).join('')}</select>` : ''}`}
         <div class="stats3">
           <div class="stat"><b>${due}</b><span>cards due</span></div>
           <div class="stat"><b>${fresh}</b><span>new cards</span></div>
@@ -310,7 +314,8 @@
       <section>
         <p class="eyebrow">${esc(course.native || course.name)}${!ls.length ? ' · lectures planned' : ` · ${ls.filter(l => { const lp = c.lectures[l.id]; return lp && sectionsFor(l).every(x => lp.sections[x.id]); }).length} of ${ls.length} ${ls.length === 1 ? 'lecture' : 'lectures'} complete`}</p>
         <div class="lectures">${items}${planned}</div>
-      </section>`;
+      </section>
+      ${specials ? `<section><p class="eyebrow">Special lectures</p><div class="lectures">${specials}</div></section>` : ''}`;
   }
 
   // ----- lecture -----
@@ -329,7 +334,7 @@
       case 'test': body = exerciseRunner('test', l); break;
     }
     return `
-      <div class="lhead"><span class="numeral">${roman(l.number)}</span>
+      <div class="lhead"><span class="numeral">${lnum(l)}</span>
         <div><p class="eyebrow">${esc(course.lectureWord || 'Lecture')}</p><h1 class="la">${M(esc(l.title))}</h1><p>${esc(l.subtitle)}</p></div></div>
       <nav class="chips" aria-label="Lecture sections">${chips}</nav>
       <section class="stack" id="secbody">${body}</section>`;
@@ -364,7 +369,7 @@
     const looseMap = {}; Object.keys(r.glosses).forEach(k => { const lk = loose(k); if (!(lk in looseMap)) looseMap[lk] = r.glosses[k]; });
     // editorial brackets inside a word (allme[c]htich) belong to the word
     const glossFor = w => { const k = w.replace(/[\[\]]/g, ''); return r.glosses[k.toLowerCase()] || looseMap[loose(k)]; };
-    const parts = (asWritten ? r.diplomatic : r.text).split(/((?:[A-Za-zÀ-ſ̀-ͯ]|\[[A-Za-z]+\])+)/);
+    const parts = (asWritten ? r.diplomatic : r.text).split(/((?:[A-Za-zÀ-ſ̀-ͯ]|\[[A-Za-zÀ-ſ̀-ͯ]+\])+)/);
     const html = parts.map((p, i) => {
       if (i % 2 === 0) return esc(p);
       const g = glossFor(p);
@@ -614,7 +619,7 @@
     const hits = q ? all.filter(v => spell(stripMacrons((v.la + ' ' + v.en + ' ' + (v.de || '')).toLowerCase())).includes(q)) : all;
     hits.sort((a, b) => stripMacrons(a.head.replace(/^-/, '')).localeCompare(stripMacrons(b.head.replace(/^-/, ''))));
     const tables = lectures().flatMap(l => (l.reference || []).map(t => `
-      <div class="gblock"><h3 class="gt">${M(esc(t.title))} <span class="small muted">· ${roman(l.number)}</span></h3>
+      <div class="gblock"><h3 class="gt">${M(esc(t.title))} <span class="small muted">· ${lnum(l)}</span></h3>
       <div class="tablewrap"><table><thead><tr>${t.headers.map(h => `<th>${esc(h)}</th>`).join('')}</tr></thead>
       <tbody>${t.rows.map(r => `<tr><th>${esc(r[0])}</th>${r.slice(1).map(c => `<td class="la">${M(esc(c))}</td>`).join('')}</tr>`).join('')}</tbody></table></div></div>`)).join('');
     if (tablesOnly) return `<section>${tables || '<p class="muted">No tables yet.</p>'}</section>`;
@@ -733,7 +738,7 @@
     const allCards = Object.fromEntries(lectures().flatMap(cardsForLecture).map(k => [k.id, k]));
     const allItems = Object.fromEntries(lectures().flatMap(l => l.exercises.concat(l.test.items, (l.reading && l.reading.questions) || []).map(i => [l.id + ':' + i.id, i])));
     const weakItems = Object.entries(c.misses).sort((a, b) => b[1] - a[1]).slice(0, 6).filter(([k]) => allItems[k]);
-    const lrows = lectures().map(l => { const lp = c.lectures[l.id]; return `<dt>${roman(l.number)} · <span class="la">${M(esc(l.title))}</span></dt><dd>${lp && lp.testBest != null ? lp.testBest + '%' : '–'}</dd>`; }).join('');
+    const lrows = lectures().map(l => { const lp = c.lectures[l.id]; return `<dt>${lnum(l)} · <span class="la">${M(esc(l.title))}</span></dt><dd>${lp && lp.testBest != null ? lp.testBest + '%' : '–'}</dd>`; }).join('');
     const itemLabel = i => i.source || i.prompt.replace(/<[^>]+>/g, '');
     const backupText = ui.showBackup ? JSON.stringify(exportObj()) : '';
     return `

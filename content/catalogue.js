@@ -92,7 +92,7 @@ Viator.setCatalogue([
     // spelling variants treated as equal: edition symbols and the commonest manuscript habits
     spelling: [['æ', 'ae'], ['œ', 'oe'], ['ë', 'e'], ['ʒ', 'z'], ['ck', 'k'], ['c', 'k'], ['y', 'i'], ['j', 'i'], ['v', 'u'],
                ['([bdfgklmnprst])\\1', '$1']],
-    lectures: ['mhd/lecture-01.js', 'mhd/lecture-02.js'],
+    lectures: ['mhd/lecture-01.js', 'mhd/lecture-02.js', 'mhd/special-palaestinalied.js'],
     planned: [
       'Nouns: strong and weak declensions; the uses of the cases',
       'Articles, pronouns and the strong and weak adjective',
