@@ -14,10 +14,9 @@ Viator.setCatalogue([
     macrons: true,
     lengthMark: 'macron', lengthMarkName: 'macrons', lengthMarkExample: 'ā ē ī ō ū',
     lectureWord: 'Lectiō',
-    lectures: ['latin/lecture-01.js', 'latin/lecture-02.js', 'latin/lecture-03.js'],
+    lectures: ['latin/lecture-01.js', 'latin/lecture-02.js', 'latin/lecture-03.js', 'latin/lecture-04.js'],
     // the full first-year course: 40 lectures in the traditional order of topics
     planned: [
-      'Second declension neuters; the verb sum; predicate adjectives',
       'Future and imperfect of the first and second conjugations; adjectives in -er',
       'The verb possum; the complementary infinitive in full',
       'The third declension',

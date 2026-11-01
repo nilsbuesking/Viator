@@ -199,3 +199,34 @@ first-year course (the order Wheelock also uses); titles are this course's own.
 - [ ] Gessius family relief (Boston MFA 37.100), photograph.
 - [ ] Duenos inscription (Berlin), check what the file shows.
 - [ ] Bust of Cicero, Capitoline Museums, photograph.
+
+# Content checks: Latin Lecture IV
+
+## Forms
+- [ ] Genitives and genders (all neuter): bellum, cōnsilium, dōnum, officium, ōtium, negōtium, perīculum, remedium, verbum, oppidum, studium, auxilium, caelum.
+- [ ] Principal parts: sum, esse, fuī, futūrum; cōnservō, -āre, -āvī, -ātum; iuvō, iuvāre, iūvī, iūtum.
+- [ ] Vowel lengths: ōtium, negōtium, perīculum, dōnum, cōnsilium, hūmānus, parātus, vērus, plēnus, cārus, mālum "apple" (t10 explanation).
+- [ ] Stress lines, especially cōn-SER-vō, cōn-SI-li-um, ne-GŌ-ti-um, au-XI-li-um, pe-RĪ-cu-lum.
+- [ ] Reading "Ōtium et negōtium" (original); accepted English translations e17–e19, t5.
+
+## Authentic quotations (check against a critical text)
+- [ ] Virgil, Eclogues 1.6: "O Meliboee, deus nobis haec otia fecit."
+- [ ] Cicero, Pro Sestio 98: "cum dignitate otium".
+- [ ] Cicero, Laelius (De amicitia) 79: "omnia praeclara rara" (used as an example of omitted est).
+- [ ] Quintilian, Institutio oratoria 9.4.39–40 on final m being barely sounded (reference given as 9.4.40).
+
+## Claims
+- [ ] negōtium < nec + ōtium.
+- [ ] Neuter plural -a as an old collective (a standard view of comparative linguists, stated as a belief); Greek neuter plural subjects with a singular verb.
+- [ ] locus: plural loca "places, region" beside locī "passages in a book".
+- [ ] *es- > est, sunt, ist, sind, is; *bheu- > fuī, futūrus, bin/bist (merged with *es- forms), be; *wes- > war, gewesen.
+- [ ] verbum ~ Wort/word with PIE *dh (Latin medial b); vērus ~ wahr; plēnus ~ voll/full.
+- [ ] bellum < Old Latin duellum; bellus unrelated.
+- [ ] Errāre hūmānum est described as a post-classical saying, not a classical quotation.
+- [ ] Final -m weakened/nasalised; French rien < rem.
+- [ ] "Octavian" as the usual reading of the deus of Eclogue 1.
+
+## Pictures
+- [ ] Pompeii couple portrait ("Terentius Neo"), Naples museum; identification described as uncertain.
+- [ ] Vergilius Romanus (Vat. lat. 3867) fol. 1r, opening of the Eclogues; 5th century.
+- [ ] Virgil mosaic from Hadrumetum/Sousse, Bardo Museum, early 3rd century; scroll with an Aeneid line (1.8).
