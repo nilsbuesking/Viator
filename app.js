@@ -7,7 +7,7 @@
   'use strict';
 
   const CONTENT_BASE = (document.currentScript && document.currentScript.dataset.content) || 'content/';
-  const BUILD = '2026-11-01 f';           // shown under Progress so you can tell which version is running
+  const BUILD = '2026-11-01 g';           // shown under Progress so you can tell which version is running
   const FORMAT = 1;                       // progress format version; bump + migrate() on change
   const STORE_KEY = 'viator.progress';
   const INTERVALS = [0, 1, 2, 4, 8, 16, 32, 64]; // Leitner box → days until next review
@@ -833,6 +833,17 @@
     if (f) f.onchange = () => { const file = f.files[0]; if (!file) return; const r = new FileReader(); r.onload = () => readImport(r.result); r.readAsText(file); };
     const ans = $('#ans'); if (ans && !ans.readOnly && ui.view === 'lecture') ans.addEventListener('keydown', e => { if (e.key === 'Enter' && ans.tagName === 'INPUT') { e.preventDefault(); checkItem(); } });
   }
+
+  // Pictures: if one image size fails to load, try the next listed in data-fallbacks; if all fail, say so.
+  document.addEventListener('error', e => {
+    const img = e.target;
+    if (!(img instanceof HTMLImageElement) || !img.classList.contains('fig-img')) return;
+    const rest = (img.dataset.fallbacks || '').split('|').filter(Boolean);
+    if (rest.length) { img.dataset.fallbacks = rest.slice(1).join('|'); img.src = rest[0]; return; }
+    const note = document.createElement('p'); note.className = 'fig-missing';
+    note.textContent = navigator.onLine === false ? 'Picture not available offline. It appears once you have viewed it online.' : 'The picture could not be loaded. Use the link below to see it on Wikimedia Commons.';
+    img.replaceWith(note);
+  }, true);
 
   let lastField = null;
   document.addEventListener('focusin', e => { if (e.target.matches('input[type=text], input:not([type]), textarea')) lastField = e.target; });

@@ -113,3 +113,21 @@ The arithmetic was tested: Easter agrees with python-dateutil for 1200–1800 in
 - [ ] Every timeline date, especially 1161 (Artlenburg), 1226, 1241, 1266–67, 1356, 1361, 1367, 1370, 1494, 1498, 1598, 1669, 1870.
 - [ ] Town notes: Bruges without a walled compound; Bergen Kontor to the 18th century; Rostock university 1419; Königsberg seat of the Order from 1457; Soest law and Lübeck; Cologne excluded 1471–76; Bremen excluded more than once.
 - [ ] Middle Low German place names: Lunden/Londen, Brugge, Nougarden, Lübeke, Hamborch, Colne, Brunswik, Dantzik, Revele.
+
+---
+
+# Pictures (Wikimedia Commons)
+
+The pictures load from Wikimedia Commons on the phone and are kept for offline use
+once viewed. The file names were confirmed from Commons search results, but the
+images themselves could not be viewed from the build environment. Open each in the
+app and check that it shows what the caption says, and check the licence on its
+Commons page (linked under each picture).
+- [ ] Latin I, background: Praeneste brooch, CIL XIV 4123 drawing.
+- [ ] Latin I, sources panel: Maccari, Cicero Denounces Catiline (file "… - 3.jpg").
+- [ ] MLG I, background: Map of the Low German Dialects (modern dialect map; check author and licence).
+- [ ] MLG I, background: Droysen, Ausbreitung der Hanse um das Jahr 1400 (1886).
+- [ ] MLG I, sources panel: Heidelberg Sachsenspiegel fol. 26v, founding of a village.
+- [ ] MLG II, introduction: Holbein, Georg Gisze (1532).
+- [ ] MLG II, background: Lübeck's charter of imperial freedom, 1226 (photograph; check author and licence).
+- [ ] MLG II, background: Stralsund seal of 1329 with a cog (check author and licence).

@@ -1,7 +1,7 @@
 /* Offline support. Serves the cached app at once, then refreshes the cache in
  * the background, so a new version appears the next time the app is opened.
  * Raise VERSION when a file is renamed or removed. */
-const VERSION = 'viator-v4';
+const VERSION = 'viator-v5';
 const CORE = ['./', 'index.html', 'app.css', 'app.js', 'manifest.webmanifest',
   'content/catalogue.js', 'content/latin/lecture-01.js', 'content/mnd/lecture-01.js', 'content/mnd/lecture-02.js', 'content/mnd/pages.js', 'content/calendar.js', 'icons/icon-180.png', 'icons/icon-192.png'];
 

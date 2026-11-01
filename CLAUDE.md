@@ -58,6 +58,12 @@ British English in all text.
 - Authentic source text: quote only what you have actually seen in an edition or
   scan, cite volume, number and page, mark corrections in [ ], and add it to
   CONTENT-CHECKS.md. Never present a reconstruction from memory as a quotation.
+- Pictures: freely licensed files from Wikimedia Commons only, inserted as
+  `<figure class="fig"><img class="fig-img" src="…960px…" data-fallbacks="…500px…|original">`
+  with a caption, the licence and a link to the Commons file page. Build the
+  upload.wikimedia.org addresses from the exact file name (MD5 path scheme);
+  prefer public-domain reproductions of old 2D works. List new pictures in
+  CONTENT-CHECKS.md so Nils can confirm they show what the caption says.
 - Course options live in `content/catalogue.js` (spelling variants, keyboard,
   labels). Translation exercises use `dir`: `xx-en`, `xx-de`, or into the
   course language (e.g. `de-mnd`, `en-la`).
