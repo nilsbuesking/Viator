@@ -174,3 +174,28 @@ Commons page (linked under each picture).
 ## Course outline
 The 40-lecture outline in content/catalogue.js follows the traditional order of a
 first-year course (the order Wheelock also uses); titles are this course's own.
+
+---
+
+# Content checks: Latin Lecture III
+
+## Forms
+- [ ] Genitives and genders: amīcus, fīlius (voc. fīlī), dominus, servus, populus, animus, numerus, oculus, lūdus, annus, puer (puerī), ager (agrī), magister (magistrī), vir (virī).
+- [ ] Vowel lengths: amīcus, fīlius, lūdus, Rōmānus, Latīnus, antīquus, mī.
+- [ ] Stress lines, especially an-TĪ-quus, FĪ-li-us, a-MĪ-cus.
+- [ ] Reading "Amīcus certus" (original); accepted English translations e17–e19, t5.
+
+## Claims
+- [ ] Tria nōmina; praenōmen abbreviations (C. = Gāius, Cn. = Gnaeus, Ti. = Tiberius); women named from the father's nōmen; freedmen's names (M. Tullius Tīrō).
+- [ ] Cognomina: Cicerō "chickpea", Nāsō "nose", Brūtus "dull".
+- [ ] Slave population of late-Republican Italy "about a sixth to a third" (stated as uncertain).
+- [ ] familia includes slaves; pater familiās.
+- [ ] duenos > bonus; duellum > bellum.
+- [ ] Aulus Gellius, Noctes Atticae 13.26 on the accent of vocatives such as Valerī (the lecture uses Vergilī as its example).
+- [ ] Ennius quoted by Cicero, Laelius dē amīcitiā 64: "Amīcus certus in rē incertā cernitur."
+- [ ] Etymologies: vir ~ were(wolf), Wergeld; ager ~ Acker, acre; oculus ~ Auge; novus ~ neu; longus ~ lang (marked "probably"); Servus greeting < servus.
+
+## Pictures
+- [ ] Gessius family relief (Boston MFA 37.100), photograph.
+- [ ] Duenos inscription (Berlin), check what the file shows.
+- [ ] Bust of Cicero, Capitoline Museums, photograph.
