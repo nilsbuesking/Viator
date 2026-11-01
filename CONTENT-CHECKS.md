@@ -142,3 +142,35 @@ Commons page (linked under each picture).
 - [ ] Map, Bremen: the Bremen cog of c. 1380, found 1962.
 - [ ] Timeline 1226: Lübeck charter of 1226 (same file as in MLG II).
 - [ ] Timeline 1468–74: Holbein, Derich Berck (1536), Steelyard merchant.
+
+---
+
+# Content checks: Latin Lecture II
+
+## Forms
+- [ ] Principal parts: moneō, monuī, monitum; videō, vīdī, vīsum; valeō, valuī, valitūrum; habeō, habuī, habitum; dēbeō, dēbuī, dēbitum; teneō, tenuī, tentum; timeō, timuī (no supine); terreō, terruī, territum; maneō, mānsī, mānsum; doceō, docuī, doctum; caveō, cāvī, cautum; rīdeō, rīsī, rīsum; dō, dedī, datum; spectō.
+- [ ] Vowel lengths: īra, cūra, fābula, amīcitia, hodiē, salvē, valē, nōlī, dā (imperative), lūdus.
+- [ ] Stress lines, especially phi-lo-SO-phi-a, a-mī-CI-ti-a, HO-di-ē.
+- [ ] Reading "In lūdō" (original): doceō with two accusatives; salūtō, recitō; Īram magistrae cavēte; sine morā.
+- [ ] Accepted English translations for e17–e20 and t4.
+
+## Claims
+- [ ] Roman schooling: lūdī magister, grammaticus, rhetor; Virgil as a school author after 19 BC.
+- [ ] Horace, Epistles 2.1.70–71 (plāgōsus Orbilius); Quintilian, Inst. 1.3.13–17 against beating.
+- [ ] Donatus: 4th century, teacher of Jerome; Ars minor opening "Partēs ōrātiōnis quot sunt? Octō."; early printing at Mainz; German "Donat" = primer.
+- [ ] Kennedy's Latin Primer 1866; Wheelock 1956; Humboldt reforms.
+- [ ] Twelve Tables I.1 "Sī in iūs vocat, ītō"; Cicero, De legibus 2.59 (learning them as a boy).
+- [ ] Cave canem mosaic, House of the Tragic Poet; Petronius, Satyricon 29.1.
+- [ ] Vulgate Luke 2:10 "Nōlīte timēre"; Luther "Fürchtet euch nicht!"
+- [ ] No polite plural to one person until late antiquity.
+- [ ] Etymologies: videō ~ wissen; habeō not ~ haben (haben ~ capiō); poena > Pein; nunc ~ nun; magister > Meister.
+- [ ] The stative -ē- verbs (stated as a tendency).
+
+## Pictures
+- [ ] Neumagen school relief, Trier (photograph).
+- [ ] Donatus grammar of Massimiliano Sforza (Milan, 1490s).
+- [ ] Cave canem mosaic, Pompeii (photograph).
+
+## Course outline
+The 40-lecture outline in content/catalogue.js follows the traditional order of a
+first-year course (the order Wheelock also uses); titles are this course's own.
