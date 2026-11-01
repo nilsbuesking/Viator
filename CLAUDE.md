@@ -28,6 +28,13 @@ British English in all text.
   and flag them in CONTENT-CHECKS.md for checking against a critical text.
 - Classical pronunciation; macrons on all long vowels; stress line for every
   vocabulary item.
+- Nils is a German native speaker. Compare sounds with German first (English
+  vowels mislead after the Great Vowel Shift) and point out German-speaker
+  traps; use German grammar parallels where they are accurate.
+- Depth: match Lecture I. Each lecture has an introduction, `background`
+  blocks (history, culture, how the language works), grammar sections that
+  explain why as well as what, reading `notes`, and a source quotation where
+  one fits. Qualify claims to their evidence; note where scholars disagree.
 - After writing a lecture, list every form you are less than certain of
   (gender, principal parts, vowel length, stress, accepted translations) in
   CONTENT-CHECKS.md. Nils checks these against Wheelock's, Lewis & Short or the

@@ -7,7 +7,7 @@
   'use strict';
 
   const CONTENT_BASE = (document.currentScript && document.currentScript.dataset.content) || 'content/';
-  const BUILD = '2026-10-30 b';           // shown under Progress so you can tell which version is running
+  const BUILD = '2026-11-01';           // shown under Progress so you can tell which version is running
   const FORMAT = 1;                       // progress format version; bump + migrate() on change
   const STORE_KEY = 'viator.progress';
   const INTERVALS = [0, 1, 2, 4, 8, 16, 32, 64]; // Leitner box → days until next review
@@ -293,9 +293,9 @@
     const chips = secs.map(s => `<button class="chip ${lp.sections[s.id] ? 'done' : ''}" data-section="${s.id}" ${ui.section === s.id ? 'aria-current="true"' : ''}><span class="tick"></span>${s.label}</button>`).join('');
     let body = '';
     switch (ui.section) {
-      case 'intro': body = `<div class="prose">${M(l.intro)}</div>${l.culture ? `<div class="panel prose">${M(l.culture)}</div>` : ''}${doneBtn()}`; break;
+      case 'intro': body = `<div class="prose">${M(l.intro)}</div>${(l.background || []).length ? `<p class="eyebrow">Background</p>${blocks(l.background, 'b')}` : ''}${l.culture ? `<div class="panel prose">${M(l.culture)}</div>` : ''}${doneBtn()}`; break;
       case 'pron': body = `<div class="prose">${M(l.pronunciation)}</div>${doneBtn()}`; break;
-      case 'grammar': body = l.grammar.map(g => `<div class="gblock prose"><h3 class="gt">${M(esc(g.title))}</h3>${M(g.html)}</div>`).join('') + doneBtn(); break;
+      case 'grammar': body = (l.grammar.length > 3 ? `<nav class="jump" aria-label="Grammar topics">${l.grammar.map((g, i) => `<button data-jump="g-${i}">${M(esc(g.title))}</button>`).join('')}</nav>` : '') + blocks(l.grammar, 'g') + doneBtn(); break;
       case 'vocab': body = vocabList(l.vocab) + `<p class="small muted">These words are now in your flashcards.</p>` + doneBtn(); break;
       case 'practice': body = exerciseRunner('practice', l); break;
       case 'reading': body = viewReading(l); break;
@@ -306,6 +306,9 @@
         <div><p class="eyebrow">Lectiō</p><h1 class="la">${M(esc(l.title))}</h1><p>${esc(l.subtitle)}</p></div></div>
       <nav class="chips" aria-label="Lecture sections">${chips}</nav>
       <section class="stack" id="secbody">${body}</section>`;
+  }
+  function blocks(list, prefix) {
+    return list.map((g, i) => `<div class="gblock prose" id="${prefix}-${i}"><h3 class="gt">${M(esc(g.title))}</h3>${M(g.html)}</div>`).join('');
   }
   function doneBtn(label) {
     const l = findLecture(ui.lectureId), secs = sectionsFor(l), i = secs.findIndex(s => s.id === ui.section);
@@ -344,6 +347,7 @@
       ${sel ? `<div class="glossbox" aria-live="polite"><span class="la">${M(esc(sel))}</span> · ${M(esc(r.glosses[sel.toLowerCase()]))}</div>` : ''}
       <p class="small muted">Words underlined with dots are not yet in your vocabulary.</p>
       <details class="panel"><summary>Show translation</summary><p class="prose" style="margin-top:10px">${esc(r.translation)}</p></details>
+      ${(r.notes || []).length ? `<details class="panel"><summary>Notes on the passage</summary><dl class="notes">${r.notes.map(n => `<dt class="la">${M(esc(n.ref))}</dt><dd class="prose">${M(n.html)}</dd>`).join('')}</dl></details>` : ''}
       ${qs ? `<p class="eyebrow">Comprehension</p><div class="stack">${qs}</div>` : ''}
       ${doneBtn()}`;
   }
@@ -690,6 +694,7 @@
     const t = e.target.closest('button, [data-w]'); if (!t) return;
     const d = t.dataset;
     if (d.key) { const fld = lastField && document.contains(lastField) ? lastField : $('#ans') || $('[data-cell]'); if (fld && !fld.readOnly) { const s = fld.selectionStart ?? fld.value.length, en = fld.selectionEnd ?? s; fld.value = fld.value.slice(0, s) + d.key + fld.value.slice(en); fld.focus(); fld.setSelectionRange(s + 1, s + 1); } return; }
+    if (d.jump) { const el = document.getElementById(d.jump); if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' }); return; }
     if (d.go) { go(d.go); if (d.anchor) setTimeout(() => { const el = $('#' + d.anchor); if (el) el.scrollIntoView(); }, 0); return; }
     if (d.lecture) { openLecture(d.lecture, d.section); return; }
     if (d.section && ui.view === 'lecture' && t.classList.contains('chip')) { ui.section = d.section; ui.gloss = null; render(); window.scrollTo(0, 0); return; }

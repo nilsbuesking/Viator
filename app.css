@@ -259,3 +259,14 @@ select.field { min-height: 40px; padding: 6px 10px; font-family: var(--font-ui);
 .toast { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(var(--tabbar-h) + env(safe-area-inset-bottom, 0px) + 16px); background: var(--ink); color: var(--bg); padding: 10px 16px; border-radius: 8px; font-size: 0.9rem; z-index: 20; max-width: calc(100% - 32px); }
 
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+
+/* Grammar jump list, reading notes */
+.jump { display: flex; flex-direction: column; border-top: 1px solid var(--line); }
+.jump button { text-align: left; background: none; border: 0; border-bottom: 1px solid var(--line); padding: 10px 0; font-size: 0.95rem; color: var(--accent); min-height: 44px; }
+.gblock { scroll-margin-top: calc(env(safe-area-inset-top, 0px) + 64px); }
+details.panel summary { cursor: pointer; font-weight: 500; }
+.notes { margin: 12px 0 0; display: grid; gap: 4px; }
+.notes dt { font-family: var(--font-text); font-weight: 600; margin-top: 10px; }
+.notes dt:first-child { margin-top: 0; }
+.notes dd { margin: 0; font-size: 0.98rem; }
+.notes dd p { margin: 0; }
