@@ -44,3 +44,39 @@ the item's `accepted` list in `content/latin/lecture-01.js`.
 ## Test item t3
 *Fāma nautae errat* is explained as genitive ("the sailor's reputation spreads").
 Dative is formally possible; the explanation says so. Check you agree with the framing.
+
+---
+
+# Content checks: Middle Low German Lecture I
+
+The reading is a **constructed** charter in the style of Lübeck documents, not an
+authentic text. Check its forms against Lasch's grammar and the Lübben/Walther or
+Schiller/Lübben dictionaries, and if possible against real Lübeck charters of c. 1400
+(Lübeckisches Urkundenbuch, Hansisches Urkundenbuch).
+
+## Forms and normalisation
+- [ ] Length marks in the normalised spellings (hûs, tît, brêf, stên, bôk, gôt, kôpen, hêre, jâr, strâte, rât, sîn, dûsent, vêrtich, wârheit, sondâges, bôrt).
+- [ ] Present of maken; unified plural -et and the eastern -en; the reduction to -e before wî/gî (make wî, hebbe wî).
+- [ ] sîn (bin, bist, is, sint/sîn) and hebben (hebbe, hest, hevet/heft, hebbet).
+- [ ] The article table, especially fem. nom. de and dat. pl. den.
+- [ ] Plurals given in the vocabulary: stede, kôplüde, schepe, brêve, dage.
+- [ ] Charter formulae: bekennen unde betûgen openbâre; witlik maken; allen lüden, de dessen brêf sên edder hôren lesen; tô tûge der wârheit … ingesegel … gehenget; na Godes bôrt; des sondâges na sunte Johannis dage tô middensomere.
+- [ ] Sachsenspiegel preface quotation (normalised and abbreviated; wording differs between manuscripts).
+
+## Historical and linguistic claims
+- [ ] Course of the Benrath line as described.
+- [ ] Dating of the second consonant shift (6th–8th centuries) and of the d → t change.
+- [ ] Old Saxon c. 800–1150; MLG c. 1200–1600.
+- [ ] Lübeck refounded 1159; first general Hansetag traditionally 1356; last Hansetag 1669.
+- [ ] Steelyard on the site of Cannon Street station; privileges until 1598.
+- [ ] Lübeck chancery changing from Latin to MLG c. 1350–70; the "Lübeck norm" and the debate about it.
+- [ ] Scandinavian loanwords: betale/betala, borgmester/borgmästare, fru, -het.
+- [ ] Lübeck Bible 1494; Bugenhagen's Low German Bible 1533–34.
+- [ ] Standard German words from Low German: Ufer, Hafen, Ebbe, Boot, Wrack, Laken, echt, Lippe (vs. Lefze).
+- [ ] Agathe Lasch biography; dates of Schiller/Lübben (1875–81), Lübben/Walther (1888), Lasch/Borchling (from 1928), Hanserecesse (from 1870), Hansisches Urkundenbuch (from 1876).
+- [ ] Sachsenspiegel: Eike von Repgow, c. 1220–35, Count Hoyer of Falkenstein.
+- [ ] Place-name spellings: Soest, Coesfeld, Itzehoe, Bad Oldesloe, Troisdorf, Grevenbroich.
+- [ ] Pronunciation statements marked uncertain (sch, g, w).
+- [ ] Lübeck mark = 16 shillings; Reval under Lübeck law.
+- [ ] Latin promulgation formula: universis praesentes litteras visuris vel audituris.
+- [ ] Date: 24 June 1400 (Julian) a Thursday, so the following Sunday is 27 June (computed).

@@ -7,7 +7,7 @@
   'use strict';
 
   const CONTENT_BASE = (document.currentScript && document.currentScript.dataset.content) || 'content/';
-  const BUILD = '2026-11-01 b';           // shown under Progress so you can tell which version is running
+  const BUILD = '2026-11-01 c';           // shown under Progress so you can tell which version is running
   const FORMAT = 1;                       // progress format version; bump + migrate() on change
   const STORE_KEY = 'viator.progress';
   const INTERVALS = [0, 1, 2, 4, 8, 16, 32, 64]; // Leitner box → days until next review
@@ -25,7 +25,17 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
   const roman = n => ['', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII', 'XIII', 'XIV', 'XV', 'XVI', 'XVII', 'XVIII', 'XIX', 'XX'][n] || String(n);
-  const stripMacrons = s => String(s).normalize('NFD').replace(/̄/g, '').normalize('NFC');
+  // Length marks are per course: macron (Latin ā) or circumflex (Middle Low German â, as in the dictionaries).
+  const stripMacrons = s => String(s).normalize('NFD').replace((course && course.lengthMark === 'circumflex') ? /\u0302/g : /\u0304/g, '').normalize('NFC');
+  // Spelling variants a course treats as equivalent when checking answers and looking up words (e.g. v = u, y = i).
+  const spell = s => (course && course.spelling || []).reduce((x, [a, b]) => x.replace(new RegExp(a, 'g'), b), s);
+  const markName = () => (course && course.lengthMarkName) || 'macrons';
+  // Translation directions: 'xx-en' into English, 'xx-de' into German, anything else into the course language.
+  const dirParts = d => (d || '').split('-');
+  const intoLang = d => { const t = dirParts(d)[1]; return t === 'en' || t === 'de' ? t : 'target'; };
+  const fromTarget = d => !['en', 'de'].includes(dirParts(d)[0]);
+  const glossOf = v => (course && course.reverseFrom === 'de' && v.de) ? v.de : v.en;
+  const otherLang = () => (course && course.reverseFrom === 'de') ? 'German' : 'English';
   const today = () => { const d = new Date(); return Math.floor((d.getTime() - d.getTimezoneOffset() * 60000) / 86400000); };
   const shuffle = a => { const b = a.slice(); for (let i = b.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [b[i], b[j]] = [b[j], b[i]]; } return b; };
   const sample = (a, n) => shuffle(a).slice(0, n);
@@ -104,8 +114,9 @@
     const fwd = [], rev = [], gram = [];
     (l.vocab || []).forEach(v => {
       const meta = [v.pos, v.g ? ({ m: 'masc.', f: 'fem.', n: 'neut.' }[v.g]) : ''].filter(Boolean).join(', ');
-      fwd.push({ id: `v:${l.id}:${v.id}:f`, deck: 'vocab', dir: 'la-en', front: v.la, back: v.en, meta, latinFront: true, vid: v.id });
-      rev.push({ id: `v:${l.id}:${v.id}:r`, deck: 'vocab', dir: 'en-la', front: v.en, back: v.la, meta, latinFront: false, vid: v.id });
+      const meaning = v.de ? `${v.de} · ${v.en}` : v.en;
+      fwd.push({ id: `v:${l.id}:${v.id}:f`, deck: 'vocab', dir: 'la-en', front: v.la, back: meaning, meta, latinFront: true, vid: v.id });
+      rev.push({ id: `v:${l.id}:${v.id}:r`, deck: 'vocab', dir: 'en-la', front: glossOf(v), back: v.la, meta, latinFront: false, vid: v.id });
     });
     (l.grammarCards || []).forEach(g => gram.push({ id: `g:${l.id}:${g.id}`, deck: 'grammar', front: g.front, back: g.back, latinFront: false }));
     return fwd.concat(gram, rev);
@@ -158,13 +169,21 @@
   function checkTarget(input, accepted, opts = {}) {
     const strict = P.settings.strictMacrons && P.settings.macronsShown && course.macrons;
     const f = opts.orderFree ? bag : (x => x);
-    const clean = x => norm(x).replace(/'/g, '');
+    const clean = x => spell(norm(x).replace(/'/g, ''));
     const inp = f(clean(input));
     if (accepted.some(a => f(clean(a)) === inp)) return { ok: true, macron: false };
     const inpLoose = f(stripMacrons(clean(input)));
     const loose = accepted.some(a => f(stripMacrons(clean(a))) === inpLoose);
     if (loose) return { ok: !strict, macron: true };
     return { ok: false, macron: false };
+  }
+  function normDe(s) {
+    return bag(norm(s).replace(/ß/g, 'ss').replace(/'/g, '')
+      .split(' ').filter(w => w && !['der', 'die', 'das', 'den', 'dem', 'des', 'ein', 'eine', 'einen', 'einem', 'einer', 'eines'].includes(w)).join(' '));
+  }
+  function checkGerman(input, accepted) {
+    const inp = normDe(input);
+    return { ok: accepted.some(a => normDe(a) === inp), macron: false };
   }
   function checkEnglish(input, accepted) {
     const inp = normEn(input);
@@ -303,7 +322,7 @@
     }
     return `
       <div class="lhead"><span class="numeral">${roman(l.number)}</span>
-        <div><p class="eyebrow">Lectiō</p><h1 class="la">${M(esc(l.title))}</h1><p>${esc(l.subtitle)}</p></div></div>
+        <div><p class="eyebrow">${esc(course.lectureWord || 'Lecture')}</p><h1 class="la">${M(esc(l.title))}</h1><p>${esc(l.subtitle)}</p></div></div>
       <nav class="chips" aria-label="Lecture sections">${chips}</nav>
       <section class="stack" id="secbody">${body}</section>`;
   }
@@ -320,7 +339,7 @@
       <div class="vitem">
         <span class="vla">${M(esc(v.la))}${v.g ? `<span class="g-tag">${v.g}.</span>` : ''}${speakBtn(stripMacrons(v.head))}</span>
         <span class="vmeta">${esc(v.pos)}</span>
-        <span class="ven">${esc(v.en)}</span>
+        <span class="ven">${v.de ? `${esc(v.de)} <span class="muted">· ${esc(v.en)}</span>` : esc(v.en)}</span>
         ${v.stress && v.stress !== '—' ? `<span class="vstress">${M(esc(v.stress))}</span>` : ''}
         ${v.deriv ? `<span class="vnote">Compare: ${esc(v.deriv)}</span>` : ''}
         ${v.note ? `<span class="vnote">${M(esc(v.note))}</span>` : ''}
@@ -331,10 +350,14 @@
   function viewReading(l) {
     const r = l.reading, lp = lectureP(course.id, l.id);
     const known = new Set();
-    const parts = r.text.split(/([A-Za-zĀ-ſ̀-ͯ]+)/);
+    const asWritten = r.diplomatic && ui.readView === 'dipl';
+    const loose = k => spell(stripMacrons(k.toLowerCase()));
+    const looseMap = {}; Object.keys(r.glosses).forEach(k => { const lk = loose(k); if (!(lk in looseMap)) looseMap[lk] = r.glosses[k]; });
+    const glossFor = w => r.glosses[w.toLowerCase()] || looseMap[loose(w)];
+    const parts = (asWritten ? r.diplomatic : r.text).split(/([A-Za-zÀ-ſ̀-ͯ]+)/);
     const html = parts.map((p, i) => {
       if (i % 2 === 0) return esc(p);
-      const key = p.toLowerCase(), g = r.glosses[key];
+      const g = glossFor(p);
       const isNew = g && /\(new word\)|next lecture/.test(g);
       return g ? `<span class="w ${isNew ? 'new' : ''} ${ui.gloss === i ? 'sel' : ''}" data-w="${i}" role="button" tabindex="0">${M(esc(p))}</span>` : M(esc(p));
     }).join('');
@@ -343,10 +366,12 @@
     return `
       <p class="eyebrow">${esc(r.note)}</p>
       <h2 class="section la">${M(esc(r.title))}</h2>
+      ${r.diplomatic ? `<div class="deckpick two" role="group" aria-label="Text form"><button class="seg" data-rview="norm" aria-pressed="${!asWritten}">Normalised</button><button class="seg" data-rview="dipl" aria-pressed="${!!asWritten}">As written</button></div>
+      <p class="small muted" style="margin:0">${asWritten ? esc(r.diplomaticNote || 'Spelling as a scribe might write it.') : 'Normalised dictionary spelling, with long vowels marked.'}</p>` : ''}
       <div class="reading" lang="${course.langTag}">${html}</div>
-      ${sel ? `<div class="glossbox" aria-live="polite"><span class="la">${M(esc(sel))}</span> · ${M(esc(r.glosses[sel.toLowerCase()]))}</div>` : ''}
+      ${sel ? `<div class="glossbox" aria-live="polite"><span class="la">${M(esc(sel))}</span> · ${M(esc(glossFor(sel) || ''))}</div>` : ''}
       <p class="small muted">Words underlined with dots are not yet in your vocabulary.</p>
-      <details class="panel"><summary>Show translation</summary><p class="prose" style="margin-top:10px">${esc(r.translation)}</p></details>
+      ${(r.translations || [{ label: 'translation', text: r.translation }]).map(t => `<details class="panel"><summary>Show ${esc(t.label)}</summary><p class="prose" style="margin-top:10px">${esc(t.text)}</p></details>`).join('')}
       ${(r.notes || []).length ? `<details class="panel"><summary>Notes on the passage</summary><dl class="notes">${r.notes.map(n => `<dt class="la">${M(esc(n.ref))}</dt><dd class="prose">${M(n.html)}</dd>`).join('')}</dl></details>` : ''}
       ${qs ? `<p class="eyebrow">Comprehension</p><div class="stack">${qs}</div>` : ''}
       ${doneBtn()}`;
@@ -366,8 +391,8 @@
     const vocabPool = l.vocab.filter(v => v.pos.indexOf('verb') === 0 || v.pos.indexOf('noun') === 0);
     const vocab = sample(vocabPool, vq).map(v => {
       const same = vocabPool.filter(x => x.id !== v.id && x.pos.split(',')[0] === v.pos.split(',')[0]);
-      const opts = shuffle([v.en, ...sample(same, 3).map(x => x.en)]);
-      return { id: 'tv-' + v.id, type: 'mc', prompt: `<span class="la">${esc(v.head)}</span> means:`, options: opts, answer: opts.indexOf(v.en), explain: v.la + ': ' + v.en };
+      const opts = shuffle([glossOf(v), ...sample(same, 3).map(x => glossOf(x))]);
+      return { id: 'tv-' + v.id, type: 'mc', prompt: `<span class="la">${esc(v.head)}</span> means:`, options: opts, answer: opts.indexOf(glossOf(v)), explain: v.la + ': ' + (v.de ? v.de + ' · ' : '') + v.en };
     });
     return shuffle(written.concat(vocab));
   }
@@ -407,8 +432,8 @@
     if (!st || !st.checked) return '';
     const parts = [];
     if (st.ok) parts.push(`<b>Correct.</b>`); else parts.push(`<b>Not quite.</b>`);
-    if (st.macron) parts.push(`<span>With macrons: <span class="la">${esc(st.macronForm || '')}</span></span>`);
-    if (item.model) parts.push(`<span>Model answer: <span class="${item.dir === 'en-la' ? 'la' : ''}">${M(esc(item.model))}</span></span>`);
+    if (st.macron) parts.push(`<span>With ${esc(markName())}: <span class="la">${esc(st.macronForm || '')}</span></span>`);
+    if (item.model) parts.push(`<span>Model answer: <span class="${item.dir && intoLang(item.dir) === 'target' ? 'la' : ''}">${M(esc(item.model))}</span></span>`);
     if (item.full && !st.ok) parts.push(`<span>Answer: <span class="la">${M(esc(item.full))}</span></span>`);
     if (item.explain) parts.push(`<span class="small">${M(esc(item.explain))}</span>`);
     return `<div class="feedback ${st.ok ? 'ok' : 'no'}" role="status">${parts.join('<br>')}</div>`;
@@ -433,16 +458,17 @@
           <input class="field ${st.checked ? (st.ok ? 'right' : 'wrong') : ''}" id="ans" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="Type the ending" value="${esc(st.value || '')}" ${st.checked ? 'readonly' : ''} lang="${course.langTag}">
           ${st.checked ? '' : kbd()}${feedbackHtml(st, item)}${nextBtns(st, item)}`;
       case 'translate':
-        return `<p class="eyebrow">${item.dir === 'la-en' ? 'Translate into English' : 'Translate into ' + esc(course.name)}</p>
-          <p class="q ${item.dir === 'la-en' ? 'la' : ''}">${M(esc(item.source))}${item.dir === 'la-en' ? speakBtn(stripMacrons(item.source)) : ''}</p>
-          <textarea class="field ${st.checked ? (st.ok ? 'right' : 'wrong') : ''}" id="ans" autocomplete="off" autocapitalize="sentences" spellcheck="false" ${st.checked ? 'readonly' : ''} lang="${item.dir === 'la-en' ? 'en' : course.langTag}">${esc(st.value || '')}</textarea>
-          ${st.checked || item.dir === 'la-en' ? '' : kbd()}${feedbackHtml(st, item)}${nextBtns(st, item)}`;
+        { const into = intoLang(item.dir), src = fromTarget(item.dir);
+        return `<p class="eyebrow">Translate into ${into === 'en' ? 'English' : into === 'de' ? 'German' : esc(course.name)}</p>
+          <p class="q ${src ? 'la' : ''}">${M(esc(item.source))}${src ? speakBtn(stripMacrons(item.source)) : ''}</p>
+          <textarea class="field ${st.checked ? (st.ok ? 'right' : 'wrong') : ''}" id="ans" autocomplete="off" autocapitalize="sentences" spellcheck="false" ${st.checked ? 'readonly' : ''} lang="${into === 'target' ? course.langTag : into}">${esc(st.value || '')}</textarea>
+          ${st.checked || into !== 'target' ? '' : kbd()}${feedbackHtml(st, item)}${nextBtns(st, item)}`; }
       case 'paradigm':
         return `<p class="q">${M(item.prompt)}</p>
           <div class="tablewrap"><table class="ptable"><thead><tr><th></th>${item.headers.map(h => `<th>${esc(h)}</th>`).join('')}</tr></thead><tbody>
           ${item.rows.map((r, ri) => `<tr><th>${esc(r.label)}</th>${r.answers.map((a, ci) => {
             const k = ri + '-' + ci, cell = st.cells && st.cells[k];
-            return `<td><input data-cell="${k}" class="${cell ? (cell.ok ? 'right' : 'wrong') : ''}" value="${esc((st.values && st.values[k]) || '')}" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" ${st.checked ? 'readonly' : ''} lang="${course.langTag}" aria-label="${esc(r.label)} ${esc(item.headers[ci])}">${cell && (!cell.ok || cell.macron) ? `<span class="sol">${M(esc(a))}</span>` : ''}</td>`;
+            return `<td><input data-cell="${k}" class="${cell ? (cell.ok ? 'right' : 'wrong') : ''}" value="${esc((st.values && st.values[k]) || '')}" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" ${st.checked ? 'readonly' : ''} lang="${course.langTag}" aria-label="${esc(r.label)} ${esc(item.headers[ci])}">${cell && (!cell.ok || cell.macron) ? `<span class="sol">${M(esc(a.split('|').join(' / ')))}</span>` : ''}</td>`;
           }).join('')}</tr>`).join('')}</tbody></table></div>
           ${st.checked ? '' : kbd()}${feedbackHtml(st, {})}${nextBtns(st, item)}`;
       case 'match': {
@@ -471,14 +497,15 @@
       Object.assign(st, r, { macronForm: r.macron ? item.full : null });
     } else if (item.type === 'translate') {
       st.value = val(); if (!st.value.trim()) return;
-      const r = item.dir === 'la-en' ? checkEnglish(st.value, item.accepted) : checkTarget(st.value, item.accepted, { orderFree: true });
+      const into = intoLang(item.dir);
+      const r = into === 'en' ? checkEnglish(st.value, item.accepted) : into === 'de' ? checkGerman(st.value, item.accepted) : checkTarget(st.value, item.accepted, { orderFree: true });
       Object.assign(st, r, { macronForm: r.macron ? item.model : null });
     } else if (item.type === 'paradigm') {
       st.values = {}; st.cells = {}; let all = true, anyMac = false;
       document.querySelectorAll('[data-cell]').forEach(inp => {
         const k = inp.dataset.cell, [ri, ci] = k.split('-').map(Number);
         st.values[k] = inp.value;
-        const r = checkTarget(inp.value, [item.rows[ri].answers[ci]]);
+        const r = checkTarget(inp.value, item.rows[ri].answers[ci].split('|'));
         st.cells[k] = r; if (!r.ok) all = false; if (r.macron) anyMac = true;
       });
       st.ok = all; st.macron = false; if (anyMac && all) st.note = true;
@@ -517,7 +544,7 @@
       return `
         <div class="exhead"><span>${s.done} reviewed · ${s.queue.length} left</span><button class="back" data-endcards>End</button></div>
         <button class="card" data-flip aria-label="Show answer">
-          <span class="meta">${card.deck === 'grammar' ? 'Grammar' : (card.dir === 'la-en' ? esc(course.name) + ' → English' : 'English → ' + esc(course.name))}${card.meta ? ' · ' + esc(card.meta) : ''}</span>
+          <span class="meta">${card.deck === 'grammar' ? 'Grammar' : (card.dir === 'la-en' ? esc(course.name) + ' → ' + otherLang() : otherLang() + ' → ' + esc(course.name))}${card.meta ? ' · ' + esc(card.meta) : ''}</span>
           <span class="front ${card.deck === 'grammar' || !card.latinFront ? 'small' : ''} ${card.latinFront ? 'la' : ''}">${front}</span>
           ${s.flipped ? `<span class="answer ${card.dir === 'en-la' ? 'la' : ''}">${back}</span>` : '<span class="tapnote">Tap to show the answer</span>'}
         </button>
@@ -548,7 +575,7 @@
       </div>
       <div class="panel">
         <div class="setting"><label for="cardDir">Direction for vocabulary<small>Grammar cards always show the question first.</small></label>
-          <select class="field" id="cardDir"><option value="both" ${P.settings.cardDir === 'both' ? 'selected' : ''}>Both</option><option value="la-en" ${P.settings.cardDir === 'la-en' ? 'selected' : ''}>${esc(course.name)} → English</option><option value="en-la" ${P.settings.cardDir === 'en-la' ? 'selected' : ''}>English → ${esc(course.name)}</option></select></div>
+          <select class="field" id="cardDir"><option value="both" ${P.settings.cardDir === 'both' ? 'selected' : ''}>Both</option><option value="la-en" ${P.settings.cardDir === 'la-en' ? 'selected' : ''}>${esc(course.name)} → ${otherLang()}</option><option value="en-la" ${P.settings.cardDir === 'en-la' ? 'selected' : ''}>${otherLang()} → ${esc(course.name)}</option></select></div>
         <div class="setting"><label for="newPerDay">New cards per day</label>
           <select class="field" id="newPerDay">${[5, 10, 15, 20, 30, 50].map(n => `<option ${P.settings.newPerDay === n ? 'selected' : ''}>${n}</option>`).join('')}</select></div>
       </div>
@@ -561,16 +588,16 @@
 
   // ----- reference -----
   function viewRef() {
-    const q = stripMacrons(ui.ref.toLowerCase().trim());
+    const q = spell(stripMacrons(ui.ref.toLowerCase().trim()));
     const all = lectures().flatMap(l => l.vocab.map(v => Object.assign({ lnum: l.number }, v)));
-    const hits = q ? all.filter(v => stripMacrons((v.la + ' ' + v.en).toLowerCase()).includes(q)) : all;
+    const hits = q ? all.filter(v => spell(stripMacrons((v.la + ' ' + v.en + ' ' + (v.de || '')).toLowerCase())).includes(q)) : all;
     hits.sort((a, b) => stripMacrons(a.head.replace(/^-/, '')).localeCompare(stripMacrons(b.head.replace(/^-/, ''))));
     const tables = lectures().flatMap(l => (l.reference || []).map(t => `
       <div class="gblock"><h3 class="gt">${M(esc(t.title))} <span class="small muted">· ${roman(l.number)}</span></h3>
       <div class="tablewrap"><table><thead><tr>${t.headers.map(h => `<th>${esc(h)}</th>`).join('')}</tr></thead>
       <tbody>${t.rows.map(r => `<tr><th>${esc(r[0])}</th>${r.slice(1).map(c => `<td class="la">${M(esc(c))}</td>`).join('')}</tr>`).join('')}</tbody></table></div></div>`)).join('');
     return `
-      <div class="search"><input class="field" id="refsearch" type="search" placeholder="Search ${esc(course.name)} or English" value="${esc(ui.ref)}" autocomplete="off" autocapitalize="off" spellcheck="false"></div>
+      <div class="search"><input class="field" id="refsearch" type="search" placeholder="Search ${esc(course.name)}, English${course.reverseFrom === 'de' ? ' or German' : ''}" value="${esc(ui.ref)}" autocomplete="off" autocapitalize="off" spellcheck="false"></div>
       <section><p class="eyebrow">Glossary · ${hits.length} ${hits.length === 1 ? 'entry' : 'entries'}</p><div id="refhits">${vocabList(hits)}</div></section>
       ${q ? '' : `<section><p class="eyebrow">Tables</p>${tables}</section>`}`;
   }
@@ -619,8 +646,8 @@
 
       <div class="panel">
         <p class="eyebrow">Settings</p>
-        <div class="setting"><label for="sMac">Show macrons<small>Long-vowel marks: ā ē ī ō ū</small></label><input type="checkbox" class="switch" id="sMac" ${P.settings.macronsShown ? 'checked' : ''}></div>
-        <div class="setting"><label for="sStrict">Require macrons in answers<small>Off: a missing macron still counts as right, with a reminder.</small></label><input type="checkbox" class="switch" id="sStrict" ${P.settings.strictMacrons ? 'checked' : ''} ${P.settings.macronsShown ? '' : 'disabled'}></div>
+        <div class="setting"><label for="sMac">Show ${esc(markName())}<small>Long-vowel marks: ${esc(course.lengthMarkExample || 'ā ē ī ō ū')}</small></label><input type="checkbox" class="switch" id="sMac" ${P.settings.macronsShown ? 'checked' : ''}></div>
+        <div class="setting"><label for="sStrict">Require ${esc(markName())} in answers<small>Off: a missing mark still counts as right, with a reminder.</small></label><input type="checkbox" class="switch" id="sStrict" ${P.settings.strictMacrons ? 'checked' : ''} ${P.settings.macronsShown ? '' : 'disabled'}></div>
         <div class="setting"><label for="sText">Text size<small>Applies to the whole app.</small></label><select class="field" id="sText">${[['s', 'Small'], ['m', 'Medium'], ['l', 'Large'], ['xl', 'Extra large']].map(([k, n]) => `<option value="${k}" ${P.settings.textSize === k ? 'selected' : ''}>${n}</option>`).join('')}</select></div>
         <div class="setting"><label for="sBackup">Backup reminder</label><select class="field" id="sBackup">${[3, 7, 14, 30].map(n => `<option value="${n}" ${P.settings.backupDays === n ? 'selected' : ''}>every ${n} days</option>`).join('')}</select></div>
         <div class="setting"><label>Reset ${esc(course.name)} progress<small>Cannot be undone; save a backup first.</small></label><button class="btn danger" data-reset>${ui.confirmReset ? 'Tap again to reset' : 'Reset'}</button></div>
@@ -705,6 +732,7 @@
     }
     if (d.start) { startRun(d.start, findLecture(ui.lectureId)); render(); return; }
     if (d.speak) { speak(d.speak); return; }
+    if (d.rview) { ui.readView = d.rview; ui.gloss = null; const y = window.scrollY; render(); window.scrollTo(0, y); return; }
     if (d.w !== undefined) { ui.gloss = ui.gloss === Number(d.w) ? null : Number(d.w); const y = window.scrollY; render(); window.scrollTo(0, y); return; }
     if (d.inline) { ui.inline = ui.inline || {}; ui.inline[d.inline] = Number(d.i); const l = findLecture(ui.lectureId); const q = l.reading.questions.find(q => q.id === d.inline); recordResult(l.id + ':' + q.id, Number(d.i) === q.answer); const y = window.scrollY; render(); window.scrollTo(0, y); return; }
 
@@ -757,7 +785,7 @@
 
   function setCourse(id) {
     course = registry.catalogue.find(c => c.id === id) || registry.catalogue[0];
-    P.activeCourse = course.id; ui.view = 'home'; ui.ex = null; ui.cards = null; save();
+    P.activeCourse = course.id; ui.view = 'home'; ui.ex = null; ui.cards = null; ui.ref = ''; ui.readView = 'norm'; save();
   }
 
   // ---------- boot ----------

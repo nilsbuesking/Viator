@@ -270,3 +270,7 @@ details.panel summary { cursor: pointer; font-weight: 500; }
 .notes dt:first-child { margin-top: 0; }
 .notes dd { margin: 0; font-size: 0.98rem; }
 .notes dd p { margin: 0; }
+
+/* Two-way toggle (reading: normalised / as written) */
+.deckpick.two { grid-template-columns: repeat(2, 1fr); }
+.ven .muted { font-size: 0.9em; }

@@ -40,6 +40,21 @@ British English in all text.
   CONTENT-CHECKS.md. Nils checks these against Wheelock's, Lewis & Short or the
   Oxford Latin Dictionary (French: Le Robert or Larousse).
 
+## Courses
+- `latin`: Classical Latin, macrons (`lengthMark: 'macron'`), English glosses.
+- `mnd`: Middle Low German for reading Hanseatic documents. Normalised spelling
+  as in the dictionaries (Lübben/Walther, Lasch/Borchling) with circumflex for
+  long vowels (`lengthMark: 'circumflex'`). Vocabulary carries `de` (German)
+  as well as `en`; flashcards and test glosses use German (`reverseFrom: 'de'`).
+  Explain everything through German, especially the absent High German
+  consonant shift and the vowel correspondences. Readings give a normalised
+  `text` and an as-written `diplomatic` version; add glosses for both spellings.
+  Constructed texts must be labelled as constructed. Pronunciation is uncertain;
+  say so. Middle High German is planned as a separate course.
+- Course options live in `content/catalogue.js` (spelling variants, keyboard,
+  labels). Translation exercises use `dir`: `xx-en`, `xx-de`, or into the
+  course language (e.g. `de-mnd`, `en-la`).
+
 ## Suggested model use
 - Engine and storage changes, and content review passes: the most capable model, high effort.
 - New lectures from the existing template, small features, bug fixes: the standard model, medium effort.

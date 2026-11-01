@@ -1,8 +1,9 @@
 # Viātor
 
-A phone-first language course: lectures with introduction, grammar, vocabulary,
-exercises, a graded reading and a test, plus spaced-repetition flashcards.
-Latin Lecture I is the prototype. French and further lectures plug in as content.
+A phone-first course for historical languages: lectures with introduction,
+background, grammar, vocabulary, exercises, a graded reading and a test, plus
+spaced-repetition flashcards. Courses: Latin, and Middle Low German for reading
+Hanseatic documents. Further courses and lectures plug in as content.
 
 ## Folder
 
