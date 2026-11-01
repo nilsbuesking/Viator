@@ -14,3 +14,6 @@ Texts supplied by Nils for building readings. Public domain.
   the Poetry Foundation version, with Francis B. Gummere's verse translation (1910). Converted
   from PDF: the ligatures fi/fl are lost ("ndan" = findan, "lirea" = Liffrea), so use only to
   cross-check, not as a source.
+- `maldon-anglosaxonarchaeology.txt`: The Battle of Maldon, lines 1–325, from the website
+  "Anglo-Saxon Archaeology" (edition not named). Line numbers every five lines label the line
+  that follows. Capital Æ of names lost (æþelredes, ælfere).

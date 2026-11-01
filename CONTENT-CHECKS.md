@@ -367,3 +367,29 @@ first-year course (the order Wheelock also uses); titles are this course's own.
 ## Pictures
 - [ ] Beowulf MS fol. 132r.
 - [ ] Franks Casket front panel (inscription about the whale; Northumbria, early 8th c.).
+
+# Content checks: Old English special lecture, The Battle of Maldon
+
+## Authentic text
+- [ ] Lines 25–61, 89–95, 309–319 from the text on "Anglo-Saxon Archaeology" (sources/maldon-anglosaxonarchaeology.txt); compare with a printed edition (Scragg 1981, or Sweet's Reader).
+- [ ] Normalised view: length marks added; capital Æ restored in Æþelrēdes; comma added after "hafenode" (309). Check in particular ǣrænde, ōfre, gārrǣs, dǣlon, spēdaþ, rīcost, lȳsan, frēode, wācne, ānrǣd, hǣþene, hēanlīc, gesēman, ofermōde, ālȳfan, gerȳmed, wælstōwe, genēat, lǣrde, cēnre, lȳtlað, grēote, wīgplegan; "ricene" and "feores" left short; "ættrynne" left unmarked.
+
+## History
+- [ ] Date 10 or 11 August 991; Chronicle entries (Ipswich; first tribute of 10,000 pounds; Sigeric); Olaf possibly Olaf Tryggvason.
+- [ ] Æthelred 978–1016; Unræd as a later nickname.
+- [ ] Byrhtnoth ealdorman of Essex from the 950s; patron of Ely and Ramsey; buried at Ely; Liber Eliensis on the head and wax ball, and the two-week battle.
+- [ ] Northey Island as the likely site; Pante = Blackwater.
+- [ ] Manuscript (Cotton) destroyed 1731; transcript c. 1724, printed by Hearne 1726, found in the Bodleian in the 1930s; Elphinstone or Casley.
+- [ ] Dating debate (Irving, Niles early; Clark later/western).
+- [ ] Tacitus, Germania 14.
+- [ ] Tolkien 1953; Gneuss 1976 ("The Battle of Maldon 89: Byrhtnoð's ofermod once again", Studies in Philology 73); ofermod used of Lucifer in Genesis.
+- [ ] Maldon: memorial window at St Mary's, 1991 embroidery (Maeldune Centre), Doubleday statue.
+
+## Forms
+- [ ] grið as Old Norse loan; maþelian and Gothic maþljan; hlāford < hlāf-weard; genēat ~ Genosse; ord ~ Ort.
+- [ ] Comparison table (heardost, rīcra, lǣssa/lǣst).
+- [ ] Accepted translations e16–e18, t7.
+
+## Pictures
+- [ ] Causeway to Northey Island (geograph 3468231).
+- [ ] "Byrhtnoth statue.jpg": confirm it is the Doubleday statue at Maldon.
