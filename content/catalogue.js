@@ -131,6 +131,36 @@ Viator.setCatalogue([
       'Reading Beowulf: the dragon and the funeral',
       'Manuscripts and editions: from the Nowell Codex to Klaeber'
     ]
+  },
+  {
+    id: 'me',
+    name: 'Middle English',
+    native: 'Englisch',
+    langTag: 'enm',
+    tts: null,                         // no voice exists; a modern English voice would mislead
+    // editions print the manuscript spelling: no length marks; thorn, yogh and (rarely) eth survive
+    keyboard: ['þ', 'ȝ', 'ð', 'æ'],
+    macrons: false,
+    lengthMark: 'none', lengthMarkName: 'length marks', lengthMarkExample: '',
+    lectureWord: 'Lecture',
+    // spelling variants treated as equal when checking answers: thorn/eth = th, yogh = gh or y,
+    // u/v and i/j/y interchange, doubled letters
+    spelling: [['þ', 'th'], ['ð', 'th'], ['ȝ', 'gh'], ['v', 'u'], ['j', 'i'], ['y', 'i'], ['ck', 'k'], ['([a-z])\\1', '$1']],
+    lectures: [],
+    planned: [
+      'From Old to Middle English: lost endings, new spelling, thorn and yogh',
+      'Nouns, the -s plural and the pronouns (she, they); the dialects',
+      'Verbs: present and past, -eth and -es, strong and weak',
+      'Chaucer’s pronunciation: final -e and English before the Great Vowel Shift',
+      'Reading Chaucer: the General Prologue',
+      'French and Norse in English: the layers of the vocabulary',
+      'Reading Chaucer: a Canterbury tale',
+      'The alliterative revival: Sir Gawain and the Green Knight',
+      'Piers Plowman and the poetry of dissent',
+      'Prose: the Wycliffite Bible, Julian of Norwich, Margery Kempe',
+      'Letters and documents: the Paston letters and Chancery English',
+      'Towards early modern English: Caxton, Malory and the Great Vowel Shift'
+    ]
   }
   // French will go here, e.g.:
   // { id: 'french', name: 'French', native: 'Français', langTag: 'fr', tts: 'fr-FR',
@@ -139,4 +169,4 @@ Viator.setCatalogue([
 ]);
 
 // Shared reference pages (date converter for all courses; Hanse timeline and map; MHG timeline)
-Viator.setShared(['calendar.js', 'mnd/pages.js', 'mhd/pages.js', 'oe/pages.js']);
+Viator.setShared(['calendar.js', 'mnd/pages.js', 'mhd/pages.js', 'oe/pages.js', 'me/pages.js']);

@@ -418,3 +418,13 @@ first-year course (the order Wheelock also uses); titles are this course's own.
 ## Pictures
 - [ ] Sutton Hoo ship-burial model.
 - [ ] "Original Sutton Hoo Helmet.jpg" (confirm it shows the original, not a replica).
+
+# Content checks: Middle English course outline and timeline (content/me/pages.js)
+- [ ] Peterborough Chronicle to 1154 (1137 annal on the anarchy).
+- [ ] Ormulum, Laȝamon's Brut, The Owl and the Nightingale c. 1200; Ancrene Wisse c. 1225 (West Midlands, consistent spelling).
+- [ ] Provisions of Oxford proclamation 1258 in English.
+- [ ] Statute of Pleading 1362 (written in French); Black Death 1348–49.
+- [ ] Piers Plowman A/B/C c. 1370–90, quoted in 1381; Wycliffite Bible c. 1380s, banned 1409, c. 250 manuscripts.
+- [ ] Gawain c. 1375–1400, Cotton Nero A.x with Pearl, Cleanness, Patience; Canterbury Tales c. 1387–1400; Chaucer d. 1400.
+- [ ] Henry IV's claim in English, 1399; Julian of Norwich, Margery Kempe.
+- [ ] Chancery English (role debated); Paston letters 1422–1509; Caxton 1476; Malory 1485 and the Winchester MS (1934); Great Vowel Shift c. 1400–1700.

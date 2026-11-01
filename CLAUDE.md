@@ -77,15 +77,20 @@ British English in all text.
   Cite Beowulf by line (Beo 1–11), Maldon by line, the Chronicle by year and
   manuscript. Poetry texts come from Nils (public-domain editions, e.g. Klaeber
   1922, Sweet's Reader); say which edition, and mark macrons we add as editorial.
-- Planned later: Middle English (`me`: unnormalised,
-  dialect-varied spelling; English glosses; readings by manuscript or edition).
+- `me`: Middle English. Editions keep the manuscript spelling: no length marks
+  (`lengthMark: 'none'`), þ ȝ ð kept; answers treat þ/ð = th, ȝ = gh, u/v, i/j/y
+  and doubled letters as equal. English glosses with German comparisons where
+  they help (Middle Dutch and Low German loans, cases lost). Say which dialect a
+  text is in. Texts come from Nils from public-domain editions (e.g. Skeat's
+  Chaucer, 1894); long verbatim extracts from modern editions can trigger the
+  content filter, so ask for the text rather than assembling it from websites.
   A shared page comparing sound correspondences across the Germanic courses would
   fit in `content/` as a reference page for all of them.
 - Reference pages are registered with `Viator.addPage(courses, page)` in files
   listed by `Viator.setShared([...])` in `content/catalogue.js`. Kinds: `dates`
   (content/calendar.js, shared by all courses), `timeline` and `map`
   (content/mnd/pages.js; map coastline from Natural Earth, public domain;
-  content/mhd/pages.js has the MHG timeline, content/oe/pages.js the OE one).
+  content/mhd/pages.js has the MHG timeline, content/oe/pages.js the OE one, content/me/pages.js the ME one).
 - Authentic source text: quote only what you have actually seen in an edition or
   scan, cite volume, number and page, mark corrections in [ ], and add it to
   CONTENT-CHECKS.md. Never present a reconstruction from memory as a quotation.
