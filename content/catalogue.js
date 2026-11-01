@@ -104,6 +104,35 @@ Viator.setCatalogue([
       'Manuscripts and editions: from the Codex Manesse to Lachmann',
       'Prose and charters: reading German-language documents of the 13th and 14th centuries'
     ]
+  },
+  {
+    id: 'oe',
+    name: 'Old English',
+    native: 'Englisc',
+    langTag: 'ang',
+    tts: null,                         // no voice exists; a modern English voice would mislead badly
+    // normalised spelling of the readers (Sweet, Mitchell & Robinson): macrons for long vowels
+    keyboard: ['þ', 'ð', 'æ', 'ƿ', 'ā', 'ǣ', 'ē', 'ī', 'ō', 'ū', 'ȳ'],
+    macrons: true,
+    lengthMark: 'macron', lengthMarkName: 'macrons', lengthMarkExample: 'ā ǣ ē ī ō ū ȳ',
+    lectureWord: 'Lecture',
+    // þ and ð were used interchangeably by scribes; ƿ (wynn) is w; dotted ċ ġ of some editions are plain c g
+    spelling: [['ð', 'þ'], ['th', 'þ'], ['ƿ', 'w'], ['ċ', 'c'], ['ġ', 'g'], ['ae', 'æ']],
+    lectures: [],
+    planned: [
+      'Sounds, spelling and the personal pronouns; reading: Beowulf 1–11',
+      'Nouns: strong masculines and neuters; the four cases; reading: Scyld Scefing',
+      'The present tense; wesan and bēon; reading: the Chronicle for 755',
+      'Feminine and weak nouns; the demonstratives se, sēo, þæt',
+      'Strong verbs and the ablaut series; reading: Grendel',
+      'Adjectives, strong and weak; word order',
+      'Weak verbs and preterite-presents; reading: King Alfred’s preface',
+      'Old English verse: alliteration, half-lines, kennings and formulas',
+      'The subjunctive and subordinate clauses; reading: Beowulf arrives at Heorot',
+      'Reading Beowulf: Grendel’s mere',
+      'Reading Beowulf: the dragon and the funeral',
+      'Manuscripts and editions: from the Nowell Codex to Klaeber'
+    ]
   }
   // French will go here, e.g.:
   // { id: 'french', name: 'French', native: 'Français', langTag: 'fr', tts: 'fr-FR',
@@ -112,4 +141,4 @@ Viator.setCatalogue([
 ]);
 
 // Shared reference pages (date converter for all courses; Hanse timeline and map; MHG timeline)
-Viator.setShared(['calendar.js', 'mnd/pages.js', 'mhd/pages.js']);
+Viator.setShared(['calendar.js', 'mnd/pages.js', 'mhd/pages.js', 'oe/pages.js']);

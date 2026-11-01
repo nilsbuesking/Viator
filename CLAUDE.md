@@ -68,9 +68,16 @@ British English in all text.
   (L 39,11), Nibelungenlied by manuscript and stanza (B 1,1), Parzival by
   Lachmann section and line (Pz. 116,5). Pronunciation is better established
   than for MLG (rhymes), but still say what is reconstruction.
-- Planned later: Old English (`oe`: normalised spelling with macrons, þ ð æ ƿ,
-  English glosses, German grammar parallels, since OE cases and strong verbs are
-  closer to German than to modern English) and Middle English (`me`: unnormalised,
+- `oe`: Old English, prose and poetry with the focus on Beowulf; special lecture
+  on The Battle of Maldon. Normalised spelling of the readers (Sweet, Mitchell &
+  Robinson) with macrons (`lengthMark: 'macron'`), þ ð æ ƿ; þ = ð and ƿ = w when
+  checking answers. English glosses; explanations and vocabulary notes compare
+  German throughout (cases, genders, strong/weak adjectives, verb-second, sounds:
+  c = tsch, sc = sch, g = j before front vowels; no Great Vowel Shift yet).
+  Cite Beowulf by line (Beo 1–11), Maldon by line, the Chronicle by year and
+  manuscript. Poetry texts come from Nils (public-domain editions, e.g. Klaeber
+  1922, Sweet's Reader); say which edition, and mark macrons we add as editorial.
+- Planned later: Middle English (`me`: unnormalised,
   dialect-varied spelling; English glosses; readings by manuscript or edition).
   A shared page comparing sound correspondences across the Germanic courses would
   fit in `content/` as a reference page for all of them.
@@ -78,7 +85,7 @@ British English in all text.
   listed by `Viator.setShared([...])` in `content/catalogue.js`. Kinds: `dates`
   (content/calendar.js, shared by all courses), `timeline` and `map`
   (content/mnd/pages.js; map coastline from Natural Earth, public domain;
-  content/mhd/pages.js has the MHG timeline).
+  content/mhd/pages.js has the MHG timeline, content/oe/pages.js the OE one).
 - Authentic source text: quote only what you have actually seen in an edition or
   scan, cite volume, number and page, mark corrections in [ ], and add it to
   CONTENT-CHECKS.md. Never present a reconstruction from memory as a quotation.

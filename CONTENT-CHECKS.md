@@ -332,3 +332,12 @@ first-year course (the order Wheelock also uses); titles are this course's own.
 - [ ] Frederick II and al-Kāmil, Nuova Cronica (Vatican, Chigi L VIII 296).
 - [ ] Codex Buranus Wheel of Fortune (Clm 4660).
 - [ ] Palestinalied.jpg (melody transcription).
+
+# Content checks: Old English course outline and timeline (content/oe/pages.js)
+- [ ] Bede's 449; Augustine 597; laws of Æthelberht (c. 600, Textus Roffensis copy); Sutton Hoo c. 625.
+- [ ] Cædmon 657–80 under Hild; Bede HE 731; Lindisfarne 793; Great Army 865; Alfred 871–99, Edington 878.
+- [ ] Alfred's translation programme and the Chronicle in the 890s; Brunanburh 937; Maldon 991.
+- [ ] Beowulf date of composition (8th–early 11th c., stated as open); Nowell Codex c. 1000; the four poetic codices.
+- [ ] Ælfric dates; Cnut 1016; Peterborough Chronicle to 1154.
+- [ ] Cotton fire 1731 (Ashburnham House): Beowulf scorched, Maldon manuscript destroyed (poem known from an 18th-century transcript).
+- [ ] Thorkelin transcripts 1787, edition 1815; Klaeber 1922, 4th edition 2008.
