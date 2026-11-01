@@ -244,3 +244,35 @@ first-year course (the order Wheelock also uses); titles are this course's own.
 - [ ] Corpus der altdeutschen Originalurkunden covers originals to 1300; Schwabenspiegel c. 1275, Augsburg.
 - [ ] Codex Manesse c. 1300–40, Zurich, about 140 poets, Heidelberg.
 - [ ] Lachmann's Walther 1827; BMZ 1854–66; Lexer 1872–78.
+
+# Content checks: Middle High German Lecture I
+
+## Authentic text (check against the printed edition)
+- [ ] Der arme Heinrich, lines 1–28, after H. Paul, ed. G. Bonath, 15th ed. (ATB 3, Tübingen 1984), as reproduced by Mittelhochdeutsche Metrik Online (Universität Münster, aH_01-100_15.auflage.pdf). The Münster file marks elided e with a dot below (begundẹ, mitẹ); these metrical marks were left out here.
+- [ ] Lines 23 and 27: the Münster file lost one character in extraction ("h?re", "erl?se"); printed here as hœre, erlœse. Confirm the edition's spelling.
+- [ ] Punctuation at line ends (taken as given in the Münster file; lines 1–2 have none).
+- [ ] Culture panel quotes lines 1–5 of the same text.
+
+## Forms and glosses
+- [ ] Genders: ritter m., buoch n., stunde f., sache f., êre f., rede f., arbeit f., lôn m., lîp m., sêle f., heil n., bote m., schulde f., wîp n., vrouwe f.
+- [ ] Principal forms: lësen (lise, las), vinden (vant, vunden), schrîben (schreip, geschriben), nennen (nante, genant), mugen (mac, mohte, subj. möhte), jëhen (gihe, giht, jach), bitten (bat, gebëten).
+- [ ] Present of sîn including birn/birt; present of nëmen with i in the whole singular (ich nime).
+- [ ] Use of ë in this lecture (lësen, jëhen, nëmen, wësen, ër, ëz): editions differ; check consistency with Lexer.
+- [ ] Reading notes: iht with negative force in "daz er … iht âne lôn belîbe" (and the accepted translation "not without reward").
+- [ ] Accepted translations e20–e24, t7–t8.
+
+## Claims
+- [ ] The four sound changes, their direction of spread (diphthongisation from the south-east), and Swiss German keeping î û iu and ie uo üe.
+- [ ] MHG ei distinct from î; Swiss German Stei vs mii.
+- [ ] The debate about a supra-regional courtly "Dichtersprache" (stated as disputed).
+- [ ] Landgrave Hermann of Thuringia as patron of Veldeke, Wolfram and Walther.
+- [ ] Hartmann: works and dates c. 1180–1200; Aue unidentified; Der arme Heinrich about 1,500 lines (1,520 in Paul).
+- [ ] ritter probably from Flemish (Dutch ridder); jëhen and Beichte (bîgiht).
+- [ ] wîp/vrouwe semantic shift; Walther preferring wîp over vrouwe (L 48,38 – not quoted).
+- [ ] arbeit and the Reformation (stated as "perhaps too neatly").
+- [ ] Codex Manesse: Zurich c. 1300–40, Heidelberg Cod. Pal. germ. 848.
+
+## Pictures
+- [ ] Codex Manesse: Walther von der Vogelweide (seated on a stone).
+- [ ] Codex Manesse: text page (file "Text des Dürins im Codex Manesse"): caption only makes general claims; check it is a text page.
+- [ ] Codex Manesse: Hartmann von Aue as a mounted knight.

@@ -92,9 +92,8 @@ Viator.setCatalogue([
     // spelling variants treated as equal: edition symbols and the commonest manuscript habits
     spelling: [['æ', 'ae'], ['œ', 'oe'], ['ë', 'e'], ['ʒ', 'z'], ['ck', 'k'], ['c', 'k'], ['y', 'i'], ['j', 'i'], ['v', 'u'],
                ['([bdfgklmnprst])\\1', '$1']],
-    lectures: [],
+    lectures: ['mhd/lecture-01.js'],
     planned: [
-      'From Middle High German to modern German: sounds, spelling and the normalised text',
       'Strong verbs and the ablaut series',
       'Nouns: strong and weak declensions; the uses of the cases',
       'Articles, pronouns and the strong and weak adjective',
