@@ -276,3 +276,31 @@ first-year course (the order Wheelock also uses); titles are this course's own.
 - [ ] Codex Manesse: Walther von der Vogelweide (seated on a stone).
 - [ ] Codex Manesse: text page (file "Text des Dürins im Codex Manesse"): caption only makes general claims; check it is a text page.
 - [ ] Codex Manesse: Hartmann von Aue as a mounted knight.
+
+# Content checks: Middle High German Lecture II
+
+## Authentic text
+- [ ] Walther, Under der linden (L 39,11): text as supplied by Nils, in the normalised spelling of the Lachmann tradition. Confirm the edition (Lachmann/Cormeau 14th ed. 1996, or another) and check against it.
+- [ ] Stanza 2, line 1: the supplied copy read "ch kam gegangen"; restored as [I]ch.
+- [ ] Stanza breaks inserted after lines 9, 18 and 27 (the supplied copy had one misplaced blank line after "hêre frouwe").
+- [ ] Punctuation of "hêre frouwe," (editions differ: comma, exclamation mark, dashes).
+- [ ] Survival in B (Weingarten) and C (Manesse) only; no melody transmitted.
+
+## Forms
+- [ ] Principal parts as given: rîten; bieten; binden; hëlfen; nëmen; gëben; varn; vallen; singen; vinden (participle vunden); wërden; brëchen; komen (kam/quam); ligen (gelëgen); pflëgen (gepflëgen); lâzen; snîden (sniten); ziehen (zugen); kiesen (kurn, gekorn); bellen (formerly strong).
+- [ ] Class rules: II ô before t, d, z, s, h; I ê before h, w (zîhen, zêch).
+- [ ] 2nd sg. preterite (du sunge, gæbe, næme, wære) and past subjunctive (sünge, süngest).
+- [ ] wizzen: preterite wisse/wesse, subjunctive wesse; het = hete (hân).
+- [ ] Genders: linde f., heide f., bette n., bluome m. (also f.), walt m., tal n., nahtegal f., ouwe f., friedel m., munt m., houbet n., pfat m. (also n.).
+- [ ] Accepted translations e19–e23, t8–t9.
+
+## Claims
+- [ ] Mädchenlieder / niedere minne as debated labels; pastourelle comparison; hêre frouwe readings (Mary vs. "as a noble lady").
+- [ ] tandaradei usually understood as birdsong imitation.
+- [ ] Grimm coined "Ablaut" and "strong/weak"; grammatischer Wechsel and Verner's law.
+- [ ] Modern stürbe, hülfe, würfe from the old plural vowel; ward/wurde.
+- [ ] nahtegal from naht + galan; OHG nahtagala.
+
+## Pictures
+- [ ] Tanzlinde in Effeltrich (caption: branches trained on a frame for a dancing floor; check this applies to Effeltrich).
+- [ ] Nightingale (Luscinia megarhynchos): check the photo shows the species.
