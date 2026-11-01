@@ -148,18 +148,18 @@ Viator.setCatalogue([
     spelling: [['þ', 'th'], ['ð', 'th'], ['ȝ', 'gh'], ['v', 'u'], ['j', 'i'], ['y', 'i'], ['ck', 'k'], ['([a-z])\\1', '$1']],
     lectures: [],
     planned: [
-      'From Old to Middle English: lost endings, new spelling, thorn and yogh',
-      'Nouns, the -s plural and the pronouns (she, they); the dialects',
-      'Verbs: present and past, -eth and -es, strong and weak',
-      'Chaucer’s pronunciation: final -e and English before the Great Vowel Shift',
-      'Reading Chaucer: the General Prologue',
-      'French and Norse in English: the layers of the vocabulary',
-      'Reading Chaucer: a Canterbury tale',
-      'The alliterative revival: Sir Gawain and the Green Knight',
-      'Piers Plowman and the poetry of dissent',
-      'Prose: the Wycliffite Bible, Julian of Norwich, Margery Kempe',
-      'Letters and documents: the Paston letters and Chancery English',
-      'Towards early modern English: Caxton, Malory and the Great Vowel Shift'
+      'Chaucer’s English: spelling, sounds, thorn and yogh; reading: General Prologue 1–18',
+      'Nouns and pronouns (she, they); from Old to Middle English; reading: the pilgrims gather',
+      'Verbs: present and past, -eth and -en, strong and weak; reading: the Knight',
+      'Pronunciation and metre: final -e and the pentameter; reading: the Prioress',
+      'French and Norse in English: the layers of the vocabulary; reading: the Wife of Bath',
+      'Negation, impersonal verbs and the subjunctive; reading: the Pardoner',
+      'Reading a tale: the Pardoner’s Tale',
+      'Reading a prologue: the Wife of Bath',
+      'Reading a fable: the Nun’s Priest’s Tale',
+      'Chaucer beyond the Tales: Troilus and Criseyde, the dream poems',
+      'Chaucer’s world: London, the court, the war and his contemporaries Gower and Langland',
+      'Manuscripts and print: Hengwrt, Ellesmere, Caxton, and the road to modern English'
     ]
   }
   // French will go here, e.g.:

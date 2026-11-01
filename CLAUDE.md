@@ -77,7 +77,7 @@ British English in all text.
   Cite Beowulf by line (Beo 1–11), Maldon by line, the Chronicle by year and
   manuscript. Poetry texts come from Nils (public-domain editions, e.g. Klaeber
   1922, Sweet's Reader); say which edition, and mark macrons we add as editorial.
-- `me`: Middle English. Editions keep the manuscript spelling: no length marks
+- `me`: Middle English, with the focus on Chaucer (Canterbury Tales first). Editions keep the manuscript spelling: no length marks
   (`lengthMark: 'none'`), þ ȝ ð kept; answers treat þ/ð = th, ȝ = gh, u/v, i/j/y
   and doubled letters as equal. English glosses with German comparisons where
   they help (Middle Dutch and Low German loans, cases lost). Say which dialect a
