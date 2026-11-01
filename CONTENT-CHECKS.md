@@ -341,3 +341,29 @@ first-year course (the order Wheelock also uses); titles are this course's own.
 - [ ] Ælfric dates; Cnut 1016; Peterborough Chronicle to 1154.
 - [ ] Cotton fire 1731 (Ashburnham House): Beowulf scorched, Maldon manuscript destroyed (poem known from an 18th-century transcript).
 - [ ] Thorkelin transcripts 1787, edition 1815; Klaeber 1922, 4th edition 2008.
+
+# Content checks: Old English Lecture I
+
+## Authentic text
+- [ ] Beowulf 1–11 after Klaeber (1922), as transcribed online (sources/beowulf-klaeber-1922-lines-1-2601.txt). Restored space in line 6 ("syððan ǣrest"). Comma after "wolcnum" added in the normalised view.
+- [ ] Length marks added for the course: wē, Gār, gēardagum, þēodcyninga, gefrūnon, hū, ðā, Scēfing, þrēatum, mǣgþum, oftēah, ǣrest, fēasceaft, hē, frōfre, gebād, wēox, þāh, ǣghwylc, hronrāde, hȳran, gōd. Compare with Klaeber's printed macrons and Bosworth–Toller.
+- [ ] Note on Scēfing ("son of Scēaf" or "with the sheaf").
+
+## Forms
+- [ ] Pronoun tables (mec/þec; hīe/hī/hȳ; hira/heora; duals wit/git).
+- [ ] Principal parts: gefrignan (gefrægn, gefrūnon, gefrugnen), weorþan, findan, weaxan (wēox), þēon (þāh, þigon, þigen), sculan.
+- [ ] Genders: gār m., þēod f., þrym m., ellen n., mǣgþ f., frōfor f., wolcen n.
+- [ ] Accepted translations e18–e21, t7–t8.
+
+## Claims
+- [ ] Bede's Angles, Saxons and Jutes; the four dialects; late West Saxon standard; "poetic dialect".
+- [ ] Beowulf 3,182 lines; Cotton Vitellius A.xv, two scribes, c. 1000; Thorkelin 1787.
+- [ ] þ, ƿ from runes; ð from a crossed d (Irish practice "probably"); ye = þe.
+- [ ] Pronunciation statements (palatalisation, ēa/ēo values stated as debated).
+- [ ] Walkden 2013 on hwæt ("The status of hwæt in Old English", English Language and Linguistics); Heaney's "So."
+- [ ] Bavarian es/enk from the dual; they/them/their from Old Norse; earl from jarl's sense.
+- [ ] þēod and deutsch; gefrignan and fragen; fremman and frommen; ǣghwylc and jeglich.
+
+## Pictures
+- [ ] Beowulf MS fol. 132r.
+- [ ] Franks Casket front panel (inscription about the whale; Northumbria, early 8th c.).
