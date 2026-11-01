@@ -7,7 +7,7 @@
   'use strict';
 
   const CONTENT_BASE = (document.currentScript && document.currentScript.dataset.content) || 'content/';
-  const BUILD = '2026-11-01 j';           // shown under Progress so you can tell which version is running
+  const BUILD = '2026-11-01 k';           // shown under Progress so you can tell which version is running
   const FORMAT = 1;                       // progress format version; bump + migrate() on change
   const STORE_KEY = 'viator.progress';
   const INTERVALS = [0, 1, 2, 4, 8, 16, 32, 64]; // Leitner box → days until next review
@@ -292,8 +292,12 @@
       <section class="today panel">
         <p class="eyebrow">Today</p>
         ${step ? `<p class="today lead">${roman(step.l.number)} · ${esc(step.s.label)}</p>
-          <button class="btn wide" data-lecture="${step.l.id}" data-section="${step.s.id}">${c.lectures[step.l.id] && c.lectures[step.l.id].started ? 'Continue' : 'Start lecture'}</button>`
-          : `<p class="lead">All available lectures are done.</p>`}
+          <button class="btn wide" data-lecture="${step.l.id}" data-section="${step.s.id}">${c.lectures[step.l.id] && c.lectures[step.l.id].started ? 'Continue' : 'Start lecture'}</button>
+          ${ls.length > 1 ? `<label class="small muted" for="pickLecture">or choose a lecture</label>
+          <select class="field" id="pickLecture" style="width:100%"><option value="">${roman(step.l.number)} · ${M(esc(step.l.title))} (current)</option>${ls.filter(l => l.id !== step.l.id).map(l => {
+            const lp = c.lectures[l.id], secs = sectionsFor(l), done = lp ? secs.filter(x => lp.sections[x.id]).length : 0;
+            return `<option value="${l.id}">${roman(l.number)} · ${M(esc(l.title))}${done === secs.length ? ' · done' : done ? ` · ${done}/${secs.length}` : ''}</option>`; }).join('')}</select>` : ''}`
+          : `<p class="lead">All available lectures are done.</p>${ls.length ? `<label class="small muted" for="pickLecture">Choose a lecture to revise</label><select class="field" id="pickLecture" style="width:100%"><option value="">Choose…</option>${ls.map(l => `<option value="${l.id}">${roman(l.number)} · ${M(esc(l.title))}</option>`).join('')}</select>` : ''}`}
         <div class="stats3">
           <div class="stat"><b>${due}</b><span>cards due</span></div>
           <div class="stat"><b>${fresh}</b><span>new cards</span></div>
@@ -817,6 +821,8 @@
 
   function after() {
     const cp = $('#coursepick'); if (cp) cp.onchange = () => { setCourse(cp.value); render(); };
+    // Choose a lecture: open it at its first unfinished section (or the introduction if all are done)
+    const pl = $('#pickLecture'); if (pl) pl.onchange = () => { const l = findLecture(pl.value); if (!l) return; const lp = courseP(course.id).lectures[l.id]; const s = sectionsFor(l).find(x => !(lp && lp.sections[x.id])); openLecture(l.id, s ? s.id : 'intro'); };
     const rs = $('#refsearch');
     if (rs) rs.oninput = () => { ui.ref = rs.value; render(); const n = $('#refsearch'); n.focus(); n.setSelectionRange(n.value.length, n.value.length); };
     const bind = (id, fn) => { const el = $('#' + id); if (el) el.onchange = () => { fn(el); save(); render(); }; };
