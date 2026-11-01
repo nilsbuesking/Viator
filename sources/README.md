@@ -17,3 +17,9 @@ Texts supplied by Nils for building readings. Public domain.
 - `maldon-anglosaxonarchaeology.txt`: The Battle of Maldon, lines 1–325, from the website
   "Anglo-Saxon Archaeology" (edition not named). Line numbers every five lines label the line
   that follows. Capital Æ of names lost (æþelredes, ælfere).
+- `chaucer-skeat-1894-canterbury-tales.txt`: The Canterbury Tales in Skeat's edition
+  (The Complete Works of Geoffrey Chaucer, vol. 4, Oxford 1894), Project Gutenberg #22120.
+  Arranged by Skeat's Groups A–I with his line numbers per group (General Prologue = A 1–858).
+  Line numbers stand on their own line before every fifth line; each passage is followed by
+  Skeat's variant-reading notes (lines beginning "Heading." or "1. E. …"), which must be
+  stripped when extracting text. Sigla: E = Ellesmere, Hn = Hengwrt, Hl = Harley 7334, etc.
