@@ -650,3 +650,15 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - [ ] Coins: sēstertius from sēmis + tertius (2½ asses, HS); dēnārius from dēnī (10 asses), 4 sesterces to the denarius in the imperial period; £sd.
 - [ ] nūndinae every eighth day, inclusive counting; German "in acht Tagen".
 - [ ] Pictures: "RomanAbacusRecon.jpg" (reconstruction; check the caption); "Colosseum-Entrance LII.jpg".
+
+## Latin Lecture XVII (lecture-17.js): third-declension adjectives
+
+- [x] Pliny, Letters 6.16.11 (`“Fortēs” inquit “fortūna iuvat: Pompōniānum pete.”`) checked against Nils's copy.
+- [x] Horace, Odes 1.11.6–7 (`sapiās, vīna liquēs, et spatiō brevī / spem longam resecēs`) checked against Nils's copy.
+- [x] Virgil, Aeneid 1.4, 1.10, 1.11 phrases checked against Nils's copy (copy has īnsīgnem; printed īnsignem as most editions).
+- [ ] Terence, Phormio 203 `fortēs fortūna adiuvat`.
+- [ ] Juvenal 10.356 `mēns sāna in corpore sānō`.
+- [ ] Consonant-stem adjectives: vetus (vetere, veterum, vetera), pauper, dīves, prīnceps; memor (abl. memorī, gen. pl. memorum); celer gen. pl. celerum.
+- [ ] Lengths: potēns/potentis (vowel before nt), ingēns, fēlīx, trīstis, fidēlis, levis vs lēvis.
+- [ ] Etymologies: eager < Old French aigre < ācer; German Brief < breve; grand-mère / Old French grant; omnibus.
+- [ ] Pictures: "Como - Dome - Facade - Plinius the Elder.jpg" (late 15th-century statue; check date and that it is the Elder); "British Museum Fortuna statue.jpg" (check the attributes the caption mentions are generic, not claimed for this statue).
