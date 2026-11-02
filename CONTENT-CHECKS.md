@@ -505,3 +505,26 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 ## Pictures
 - [ ] Capitoline Brutus (date and the doubtful identification).
 - [ ] Lex de imperio Vespasiani (Capitoline Museums).
+
+# Content checks: Latin Lecture VIII (third declension II)
+
+## Forms
+- [ ] Genitives and genders: corpus, -oris n.; tempus, -oris n.; nōmen, -inis n.; carmen, -inis n.; genus, -eris n.; opus, -eris n.; caput, -itis n.; flūmen, -inis n.; lītus, -oris n.; vulnus, -eris n.; onus, -eris n.; scelus, -eris n.; iter, itineris n.; ōs, ōris n.; os, ossis n.; lūmen, -inis n.; senex, senis m.; sōl, sōlis m.; lūx, lūcis f.; virgō, -inis f.; pariēs, -etis m.
+- [ ] Vowel lengths: nōmen, flūmen, lītus, lūmen, lūx, sōl, ōs, virgō; short o/e in -oris/-eris.
+- [ ] Principal parts: cantō, nārrō, recitō, līberō, sānō, mūtō (regular); sustineō, sustinēre, sustinuī, sustentum.
+- [ ] Stress lines, especially i-TI-ne-ris, sus-TI-ne-ō, NŌ-mi-nis.
+- [ ] Reading "Ō tempora, ō mōrēs" (original); accepted translations e17–e22, t6–t7.
+
+## Authentic quotations
+- [ ] Cicero, In Catilinam 1.2: "O tempora, o mores!"; the opening of 1.1 (quoted in the background: "Quo usque tandem abutere, Catilina, patientia nostra?").
+
+## Claims
+- [ ] Catiline: consulship failures; November 63; execution of five conspirators; Cicero's exile; Sallust.
+- [ ] Pre-Julian calendar (355 days, intercalation); 46 BC of 445 days; Julian calendar from 45 BC; Kalends, Nones, Ides.
+- [ ] Twelve Tables and malum carmen (meaning disputed); carmen ~ canō ~ charm.
+- [ ] caput ~ Haupt; Kopf from Latin cuppa; Körper borrowed from corpus in the Middle Ages; nōmen ~ Name; sōl ~ Sonne; lūx ~ Licht.
+- [ ] Roman hours as twelfths of daylight.
+
+## Pictures
+- [ ] Fasti Antiates maiores, Palazzo Massimo (date range).
+- [ ] Roman sundial, Antikensammlung Berlin 141306.
