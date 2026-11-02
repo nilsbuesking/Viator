@@ -580,3 +580,14 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 ## Pictures
 - [ ] Curia Iulia front.
 - [ ] Strasbourg Oaths, BnF Latin 9768.
+
+## Latin Lecture XI (lecture-11.js): fourth conjugation and -iō verbs
+
+- [x] Catullus 85 (`Ōdī et amō …`) checked against the text Nils supplied (sources/latin-readings.txt); length marks are editorial: ōdī, amō, quārē, requīris, nesciō, fierī, sentiō.
+- [ ] Principal parts: sciō, scīre, scīvī (also sciī), scītum; serviō, servīre, servīvī (also serviī), servītum; aperiō, aperīre, aperuī, apertum; fugiō, fugere, fūgī, fugitūrum; cupiō, cupere, cupīvī, cupītum; iaciō, iacere, iēcī, iactum; surgō, surgere, surrēxī, surrēctum; adsum, adesse, adfuī.
+- [ ] Vowel lengths: fūr, fūris; vōx, vōcis; vēr, vēris; quārē; subitō (final ō); lucerna (short u); ālea (Ālea iacta est).
+- [ ] canis: genitive plural canum (not an i-stem); masculine or feminine.
+- [ ] Background claims: Catullus c. 84 – c. 54 BC; poems numbered 1–116; single Verona manuscript found c. 1300, lost. Apuleius (Apologia 10) gives Lesbia’s name as Clodia; identification with Clodia Metelli is inference.
+- [ ] Silent reading: Knox, “Silent Reading in Antiquity”, GRBS 9 (1968). Suetonius (Div. Iul. 32) for iacta ālea est; Plutarch (Pompey 60, Caesar 32) for the Greek version.
+- [ ] Derivation: overt from Old French ouvert < apertus.
+- [ ] Pictures: “Grotte di Catullo - Sirmione.jpg” (check that it shows the villa ruins; dating of the villa to after Catullus); “Lucerna (37626370980).jpg” (check that it shows a Roman clay lamp).

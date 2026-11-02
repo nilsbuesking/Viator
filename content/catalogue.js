@@ -14,10 +14,9 @@ Viator.setCatalogue([
     macrons: true,
     lengthMark: 'macron', lengthMarkName: 'macrons', lengthMarkExample: 'ā ē ī ō ū',
     lectureWord: 'Lectiō',
-    lectures: ['latin/lecture-01.js', 'latin/lecture-02.js', 'latin/lecture-03.js', 'latin/lecture-04.js', 'latin/lecture-05.js', 'latin/lecture-06.js', 'latin/lecture-07.js', 'latin/lecture-08.js', 'latin/lecture-09.js', 'latin/lecture-10.js'],
+    lectures: ['latin/lecture-01.js', 'latin/lecture-02.js', 'latin/lecture-03.js', 'latin/lecture-04.js', 'latin/lecture-05.js', 'latin/lecture-06.js', 'latin/lecture-07.js', 'latin/lecture-08.js', 'latin/lecture-09.js', 'latin/lecture-10.js', 'latin/lecture-11.js'],
     // the full first-year course: 40 lectures in the traditional order of topics
     planned: [
-      'The fourth conjugation and third-conjugation verbs in -iō',
       'Personal pronouns ego, tū, is, ea, id; the demonstrative īdem',
       'The perfect active system; principal parts',
       'Reflexive pronouns and possessives; the intensive ipse',
