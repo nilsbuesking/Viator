@@ -625,3 +625,14 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - [ ] Etymologies: sē/sich, suus/sein, Gothic sik/seins; hortus related to Garten; postrīdiē from posterī diē.
 - [ ] Swedish sin/hans as a parallel to suus/eius.
 - [ ] Pictures: Lionel Royer, Vercingetorix (1899, Musée Crozatier, Le Puy-en-Velay; file name "Lionel Royer - Vercingetorix Throwing down His Weapons at the feet of Julius Caesar.jpg"); Melchior Feselen, Siege of Alesia (1533, Alte Pinakothek, William IV's history series). Check BG 7.89 for the surrender.
+
+## Latin Lecture XV (lecture-15.js): i-stems; ablatives of means, accompaniment, manner
+
+- [x] Pliny, Letters 6.16.16 (`Cervīcālia capitibus imposita linteīs cōnstringunt; id mūnīmentum adversus incidentia fuit.`) checked against Nils's copy; length marks editorial (check cervīcālia, mūnīmentum).
+- [x] Caesar, De bello Gallico 1.1 `continētur Garumnā flūmine, Ōceanō, fīnibus Belgārum` checked against Nils's copy.
+- [ ] Background on Pliny: letter c. AD 106–107; the younger Pliny aged 17 (6.20 "duodevicensimum annum"); manuscript date nōnum Kal. Septembrēs; the 2018 Pompeii charcoal inscription (XVI K Nov); manuscript variants; the "late October" view.
+- [ ] i-stem rules and exceptions (pater, māter, frāter, canis, iuvenis, senex); acc. pl. -īs; turrim/turrī; ignī; mēnsium/mēnsum; mare gen. pl. rare; nāve/nāvī.
+- [ ] vīs forms (gen./dat. sg. rare).
+- [ ] Etymologies: hostis ~ Gast (OHG gast, pl. gesti); hospes from hostis; hostia possibly unrelated; heute < OHG hiutu (instrumental); gladius a Celtic loan (probable); animal from *animāle.
+- [ ] Vowel lengths and stress: cīvium, animālis, mare (short a), nūbēs, mōns, montis, equitō.
+- [ ] Pictures: Volaire, The Eruption of Vesuvius (1771, Art Institute of Chicago, 1978.426); Ostia, Piazzale delle Corporazioni, mosaic of the Turris Libisonis shippers (check the identification and date).
