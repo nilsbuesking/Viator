@@ -614,3 +614,14 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - [ ] Stress: a-MĀ-ve-ram, a-mā-VIS-tī, fu-Ē-runt; deinde as two syllables.
 - [ ] Linguistic claims: Latin perfect merges PIE aorist and perfect (s-perfects from the aorist, reduplication from the perfect); southern German loss of the Präteritum; Romance and German "have"-perfects arose in the early Middle Ages, influence debated; French passé simple vint < vēnit; abound < abundō < unda.
 - [ ] Pictures: "Vergilius Romanus f 100v closer detail Conticuere omnes.jpg" (check the caption: start of Aeneid 2, Vat. lat. 3867); Mantegna, Triumphs of Caesar canvas 9 (Royal Collection, Hampton Court).
+
+## Latin Lecture XIV (lecture-14.js): reflexives, suus, ipse
+
+- [x] Caesar, De bello Gallico 1.1 (opening two sentences, and 1.1.4 `cum aut suīs fīnibus eōs prohibent aut ipsī in eōrum fīnibus bellum gerunt`) checked against Nils's copy; length marks editorial. Check Aquītānī (long ī and ā?) and īnstitūtīs.
+- [x] Cicero, In Catilinam 1.1 `quem ad fīnem sēsē effrēnāta iactābit audācia?` checked against Nils's copy.
+- [ ] Cicero, De natura deorum 1.10, for ipse dīxit (Pythagoreans); ipse/ipsa used of master/mistress by slaves.
+- [ ] Publication of the Commentarii: year by year or together c. 51 BC (debated).
+- [ ] Principal parts: reddō, reddidī, redditum; āmittō, āmīsī, āmissum; iaceō, iacuī (no supine).
+- [ ] Etymologies: sē/sich, suus/sein, Gothic sik/seins; hortus related to Garten; postrīdiē from posterī diē.
+- [ ] Swedish sin/hans as a parallel to suus/eius.
+- [ ] Pictures: Lionel Royer, Vercingetorix (1899, Musée Crozatier, Le Puy-en-Velay; file name "Lionel Royer - Vercingetorix Throwing down His Weapons at the feet of Julius Caesar.jpg"); Melchior Feselen, Siege of Alesia (1533, Alte Pinakothek, William IV's history series). Check BG 7.89 for the surrender.
