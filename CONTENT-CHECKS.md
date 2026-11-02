@@ -428,3 +428,29 @@ first-year course (the order Wheelock also uses); titles are this course's own.
 - [ ] Gawain c. 1375–1400, Cotton Nero A.x with Pearl, Cleanness, Patience; Canterbury Tales c. 1387–1400; Chaucer d. 1400.
 - [ ] Henry IV's claim in English, 1399; Julian of Norwich, Margery Kempe.
 - [ ] Chancery English (role debated); Paston letters 1422–1509; Caxton 1476; Malory 1485 and the Winchester MS (1934); Great Vowel Shift c. 1400–1700.
+
+# Content checks: Latin Lecture V
+
+## Forms
+- [ ] Genitives and genders: liber, librī m.; līberī, -ōrum m. pl.; culpa, cēna, glōria, forma, cōpia f.; vitium n.
+- [ ] Principal parts: cēnō, clāmō, dēlectō, exspectō, parō, superō (regular 1st); sedeō, sedēre, sēdī, sessum; respondeō, respondēre, respondī, respōnsum.
+- [ ] -er adjectives: līber, miser (keep e); pulcher, aeger, noster, vester (drop e). Also asper, tener, sacer (mentioned).
+- [ ] Vowel lengths: līber/liber, cēna, glōria, cōpia, sānus, avārus, cēterī, crās, herī, ōlim, diū; imperfect -bā- shortened before -m, -t, -nt.
+- [ ] Stress lines, especially dē-LEC-tō, ex-SPEC-tō, re-SPON-de-ō, SU-pe-rō.
+- [ ] Reading "Ōlim et crās" (original); accepted translations e17–e22, t6–t7.
+
+## Authentic quotations
+- [ ] Virgil, Aeneid 1.203: "forsan et haec olim meminisse iuvabit."
+- [ ] Cicero, Orator 160 on pronouncing pulcher/pulchros (paraphrased, not quoted).
+- [ ] Juvenal 10.356 "mens sana in corpore sano" (mentioned in a vocabulary note, reference not given).
+
+## Claims
+- [ ] līberī as the free members of the household; root shared with Greek eleútheros and OHG liut (stated as debated in detail).
+- [ ] Manumission, lībertus/līberta, pilleus.
+- [ ] liber "inner bark"; papyrus roll; wax tablets; codex spreading in the 1st–2nd c. AD and Christian preference.
+- [ ] -bā-/-b- from *bheu- (stated as the view of most comparative linguists).
+- [ ] herī ~ gestern; sedeō ~ sitzen.
+
+## Pictures
+- [ ] Mariemont manumission relief (file "Mariemont manumission relief 01.JPG"): confirm the interpretation and the pilleus.
+- [ ] Pompeii "Sappho" fresco (Naples MAN inv. 9084).
