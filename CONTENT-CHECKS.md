@@ -636,3 +636,17 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - [ ] Etymologies: hostis ~ Gast (OHG gast, pl. gesti); hospes from hostis; hostia possibly unrelated; heute < OHG hiutu (instrumental); gladius a Celtic loan (probable); animal from *animāle.
 - [ ] Vowel lengths and stress: cīvium, animālis, mare (short a), nūbēs, mōns, montis, equitō.
 - [ ] Pictures: Volaire, The Eruption of Vesuvius (1771, Art Institute of Chicago, 1978.426); Ostia, Piazzale delle Corporazioni, mosaic of the Turris Libisonis shippers (check the identification and date).
+
+## Latin Lecture XVI (lecture-16.js): numerals, genitive of the whole, ablative of time
+
+- [x] Catullus 5.7–10 checked against Nils's copy; length marks editorial (bāsia, mīlle, deinde/dein, usque).
+- [x] Pliny, Letters 6.16.4 (`Nōnum Kal. Septembrēs hōrā ferē septimā māter mea indicat eī appārēre nūbem`) checked against Nils's copy.
+- [x] Caesar, De bello Gallico 1.1 `Hōrum omnium fortissimī sunt Belgae` checked against Nils's copy.
+- [ ] Numeral forms and lengths: ūndecim, sēdecim, septendecim, duodēvīcēsimus, quadringentī, sescentī, nōngentī, quīnquāgēsimus, quīngentēsimus; acc. duōs/duo, trēs/trīs.
+- [ ] Roman numerals: frequency of IIII/VIIII vs IV/IX in inscriptions; origin (tally marks, Etruscan).
+- [ ] Praenomina from ordinals (birth order vs month: uncertain).
+- [ ] Linguistic claims: centum/hundert and decem/taíhun (Grimm's law); centum/satem terms (Avestan satəm, Sanskrit śatám, Lithuanian šimtas); mīlle unrelated to tausend (shared by Germanic, Baltic, Slavic); duo/ambō as dual traces; secundus from sequor; ovis ~ ewe.
+- [ ] Roman hours (about 75 min at midsummer, 45 at midwinter in Rome); four night watches.
+- [ ] Coins: sēstertius from sēmis + tertius (2½ asses, HS); dēnārius from dēnī (10 asses), 4 sesterces to the denarius in the imperial period; £sd.
+- [ ] nūndinae every eighth day, inclusive counting; German "in acht Tagen".
+- [ ] Pictures: "RomanAbacusRecon.jpg" (reconstruction; check the caption); "Colosseum-Entrance LII.jpg".
