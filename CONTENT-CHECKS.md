@@ -454,3 +454,28 @@ first-year course (the order Wheelock also uses); titles are this course's own.
 ## Pictures
 - [ ] Mariemont manumission relief (file "Mariemont manumission relief 01.JPG"): confirm the interpretation and the pilleus.
 - [ ] Pompeii "Sappho" fresco (Naples MAN inv. 9084).
+
+# Content checks: Latin Lecture VI
+
+## Forms
+- [ ] possum in three tenses; posse < potesse; potis sum in early Latin.
+- [ ] Principal parts: exerceō (exercuī, exercitum), iubeō (iussī, iussum), moveō (mōvī, mōtum), audeō (ausus sum), soleō (solitus sum); dubitō, properō, optō, temptō, tolerō regular.
+- [ ] Genders: equus, ventus, rēmus m.; scapha, lacrima, nātūra, victōria, iniūria f.; īnsidiae f. pl.
+- [ ] Vowel lengths: rēmus, nātūra, victōria, iniūria, īnsidiae, prīmus, cotīdiē; fīrmus/firmus (noted as disputed).
+- [ ] Stress lines, especially po-TES-tis, ex-ER-ce-ō, in-IŪ-ri-a, īn-SI-di-ae, co-TĪ-di-ē.
+- [ ] Reading "Possunt, quia posse videntur" (original); accepted translations e17–e22, t6–t7.
+
+## Authentic quotations
+- [ ] Virgil, Aeneid 5.231: "possunt, quia posse videntur."
+- [ ] Virgil, Eclogues 8.63: "non omnia possumus omnes."
+- [ ] Augustus, Res Gestae 34 (auctoritas vs potestas; paraphrased).
+
+## Claims
+- [ ] potestās / imperium / auctōritās; patria potestās for the father's lifetime.
+- [ ] German modal verbs as preterite-presents.
+- [ ] Aeneid 5 boat race at the funeral games for Anchises in Sicily.
+- [ ] rēmus → German Riemen (loan); ventus ~ Wind; cotīdiē < quot + diēs.
+
+## Pictures
+- [ ] Res Gestae, Ancyra (Part 1).
+- [ ] Praeneste warship relief (Vatican), date and Actium connection.
