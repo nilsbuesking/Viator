@@ -552,3 +552,31 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 ## Pictures
 - [ ] Vindolanda tablet 291.
 - [ ] Piranesi, Via Appia (Le Antichità Romane, 1756), MET.
+
+# Content checks: Latin Lecture X (demonstratives)
+
+## Forms
+- [ ] Full paradigms of hic, haec, hoc and ille, illa, illud (iste the same); huius, huic; hōc/hāc with long vowels.
+- [ ] UNUS NAUTA adjectives: genitives ūnīus, ūllīus, nūllīus, sōlīus, tōtīus, alterīus, utrīus, neutrīus; datives in -ī; alius, alia, aliud (gen. normally alterīus).
+- [ ] Principal parts: intellegō, intellēxī, intellēctum; neglegō, neglēxī, neglēctum; contemnō, contempsī, contemptum; crēdō, crēdidī, crēditum; accūsō, culpō, iūdicō, vītō regular.
+- [ ] Genitives and genders: furor, dolor, ōrātor m.; audācia, patientia f.; coniūrātiō f.; praesidium n.; locus m. (pl. loca n.).
+- [ ] Stress lines, especially in-TEL-le-gō, con-iū-rā-ti-Ō-nis, prae-SI-di-um, pa-ti-EN-ti-a.
+- [ ] Reading "Hic tamen vīvit" (original, with one quotation); accepted translations e17–e22, t6–t7.
+
+## Authentic quotations (checked against sources/latin-readings.txt)
+- [x] Cicero, In Catilinam 1.2: "Senatus haec intellegit. Consul videt; hic tamen vivit." Length marks added.
+- [x] Cicero, In Catilinam 1.1: "quam diu etiam furor iste tuus nos eludet?" Length marks added.
+- [x] Cicero, In Catilinam 1.2: "Vivit? immo vero etiam in senatum venit" (vocabulary note on immō).
+- [ ] Catullus 5.3 "unius aestimemus assis" (cited as ūnīus assis).
+
+## Claims
+- [ ] hic/iste/ille and the three persons; iste of Verres in the Verrines; ille with names ("the famous").
+- [ ] Senate meetings in templa; Curia Iulia (Caesar, Augustus, Diocletian after AD 283; church in the 7th century).
+- [ ] First Catilinarian in the temple of Jupiter Stator; benches emptied (Cat. 1.16).
+- [ ] ille → Romance articles; ipse → Sardinian and Balearic articles; German der from a demonstrative.
+- [ ] Strasbourg Oaths 842, BnF Latin 9768.
+- [ ] hic/hoc pronounced with double c before vowels; huius with double j.
+
+## Pictures
+- [ ] Curia Iulia front.
+- [ ] Strasbourg Oaths, BnF Latin 9768.
