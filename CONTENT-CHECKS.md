@@ -591,3 +591,15 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - [ ] Silent reading: Knox, “Silent Reading in Antiquity”, GRBS 9 (1968). Suetonius (Div. Iul. 32) for iacta ālea est; Plutarch (Pompey 60, Caesar 32) for the Greek version.
 - [ ] Derivation: overt from Old French ouvert < apertus.
 - [ ] Pictures: “Grotte di Catullo - Sirmione.jpg” (check that it shows the villa ruins; dating of the villa to after Catullus); “Lucerna (37626370980).jpg” (check that it shows a Roman clay lamp).
+
+## Latin Lecture XII (lecture-12.js): personal pronouns, is/ea/id, īdem
+
+- [x] Horace, Odes 1.11.1–2 (`Tū nē quaesierīs, scīre nefās, quem mihi, quem tibi / fīnem dī dederint, Leuconoē`) checked against Nils's copy; printed tibi (copy: tibī). Check quaesierīs (long ī as in the copy) against a critical text.
+- [x] Cicero, In Catilinam 1.1 `quem nostrum ignōrāre arbitrāris?` checked against Nils's copy; length marks editorial.
+- [ ] Forms: eī/iī, eīs/iīs; eīdem/īdem, eīsdem/īsdem; eōrundem, eārundem; vestrum/vestrī.
+- [ ] Vowel lengths: īdem vs idem; mihi, tibi, ego with short final vowels; māne (ā long, e short); natō (short a); vīsitō; quaestiō.
+- [ ] Stress: E-ius (heavy first syllable); E-a-dem; in-TER-ro-gō; phi-LO-so-phus.
+- [ ] Etymology claims: id ~ es/it; nōs ~ uns; je < ego via Old French jo; egli, él < ille; identity via late Latin identitās; vīsitō frequentative of vīsō.
+- [ ] Historical claims: plural address to emperors in late antiquity as the origin of vous / MHG Ihr (scholarly majority view); German Sie a 17th–18th-century development; Wolsey accused in 1529 over "ego et rex meus"; Leuconoe otherwise almost unattested.
+- [ ] German parallels: gedenke meiner (objective genitive); dessen/deren as the analogue of eius/eōrum.
+- [ ] Pictures: "Girl with stylus and tablets.Fresco found in Pompei.jpg" (Naples MANN, so-called Sappho); "Horace, Virgil and Varius at the house of Maecenas.jpg" (check the painter is Charles-François Jalabert).
