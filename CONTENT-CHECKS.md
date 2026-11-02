@@ -528,3 +528,27 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 ## Pictures
 - [ ] Fasti Antiates maiores, Palazzo Massimo (date range).
 - [ ] Roman sundial, Antikensammlung Berlin 141306.
+
+# Content checks: Latin Lecture IX (third conjugation)
+
+## Forms
+- [ ] Principal parts: regō, rēxī, rēctum; dūcō, dūxī, ductum; dīcō, dīxī, dictum; scrībō, scrīpsī, scrīptum; legō, lēgī, lēctum; mittō, mīsī, missum; agō, ēgī, āctum; vincō, vīcī, victum; vīvō, vīxī, vīctum; discō, didicī; carpō, carpsī, carptum; emō, ēmī, ēmptum; vendō, vendidī, venditum; cēdō, cessī, cessum; petō, petīvī, petītum.
+- [ ] Genitives and genders: epistula, littera, hōra f.; vīnum n.; mercātor, -ōris m.; ratiō, -ōnis f.; hiems, hiemis f.; arma, -ōrum n. pl.; salūs, salūtis f.
+- [ ] Vowel lengths: dūcō, dīcō, scrībō (long); regō, legō, agō (short); future -ēs, -ēmus, -ētis long, -et/-ent short.
+- [ ] Imperatives dīc, dūc, fac, fer; ferte.
+- [ ] Reading "Epistula Lūciī" (original); accepted translations e17–e22, t6–t7.
+
+## Authentic quotations
+- [ ] Horace, Odes 1.11.8: "carpe diem, quam minimum credula postero."
+- [ ] Virgil, Aeneid 1.1 "Arma virumque cano" (vocabulary note).
+
+## Claims
+- [ ] Horace: 65–8 BC, freedman's son from Venusia, Odes 1–3 published 23 BC; Leuconoe and astrology; Epicurus 341–270 BC.
+- [ ] Cicero's letters (over 900); letter formula S. D.
+- [ ] Vindolanda tablets c. AD 100; tablet 291, Claudia Severa to Sulpicia Lepidina; the closing lines in Claudia's hand.
+- [ ] Thematic verbs and Germanic strong verbs (stated generally).
+- [ ] Etymologies: dūcō ~ ziehen; dīcō ~ zeigen; scrībere → schreiben; carpō ~ Herbst; hōra → Uhr; vīnum → Wein; vendō < vēnum dare.
+
+## Pictures
+- [ ] Vindolanda tablet 291.
+- [ ] Piranesi, Via Appia (Le Antichità Romane, 1756), MET.
