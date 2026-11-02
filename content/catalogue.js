@@ -14,10 +14,10 @@ Viator.setCatalogue([
     macrons: true,
     lengthMark: 'macron', lengthMarkName: 'macrons', lengthMarkExample: 'ā ē ī ō ū',
     lectureWord: 'Lectiō',
-    lectures: ['latin/lecture-01.js', 'latin/lecture-02.js', 'latin/lecture-03.js', 'latin/lecture-04.js', 'latin/lecture-05.js', 'latin/lecture-06.js'],
+    lectures: ['latin/lecture-01.js', 'latin/lecture-02.js', 'latin/lecture-03.js', 'latin/lecture-04.js', 'latin/lecture-05.js', 'latin/lecture-06.js', 'latin/lecture-07.js'],
     // the full first-year course: 40 lectures in the traditional order of topics
     planned: [
-      'The third declension',
+      'The third declension (II): neuters; predicting the stem',
       'The third conjugation: present and future',
       'Demonstratives: hic, ille, iste',
       'The fourth conjugation and third-conjugation verbs in -iō',

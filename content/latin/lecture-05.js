@@ -12,7 +12,7 @@ Viator.addLecture('latin', {
 
   intro: `
     <p>So far every Latin verb in this course has been in the present. This lecture adds two tenses: the <strong>imperfect</strong>, for what was going on or used to happen (<span class="la">amābam</span>, “I was loving, I used to love”), and the <strong>future</strong> (<span class="la">amābō</span>, “I shall love”). For the first two conjugations both are formed with a simple infix, <span class="la">-bā-</span> and <span class="la">-bi-</span>, between the stem and the personal endings you know.</p>
-    <p>German speakers have an advantage with the imperfect and a habit to overcome with the future. The Latin imperfect overlaps with the German Präteritum (<em>ich liebte, ich wohnte</em>) but is narrower: it is the tense of background, habit and description, and Latin has another past tense, the perfect, for single completed events (Lecture XII). The future, on the other hand, is a single word in Latin, where German usually needs <em>werden</em> or simply uses the present (<em>morgen fahre ich</em>). Latin is strict: what will happen goes in the future tense.</p>
+    <p>German speakers have an advantage with the imperfect and a habit to overcome with the future. The Latin imperfect overlaps with the German Präteritum (<em>ich liebte, ich wohnte</em>) but is narrower: it is the tense of background, habit and description, and Latin has another past tense, the perfect, for single completed events (Lecture XIII). The future, on the other hand, is a single word in Latin, where German usually needs <em>werden</em> or simply uses the present (<em>morgen fahre ich</em>). Latin is strict: what will happen goes in the future tense.</p>
     <p>The lecture also completes the second declension with adjectives like <span class="la">līber, lībera, līberum</span> “free” and <span class="la">pulcher, pulchra, pulchrum</span> “beautiful”, and the possessives <span class="la">noster</span> and <span class="la">vester</span>.</p>
     <p>By the end you should be able to form and translate the imperfect and future of any first- or second-conjugation verb and of <span class="la">sum</span>, decline adjectives in <span class="la">-er</span>, and read a short narrative that moves between past, present and future.</p>
   `,
@@ -38,7 +38,7 @@ Viator.addLecture('latin', {
       title: 'Where the tense signs come from',
       html: `
         <p>The imperfect sign <span class="la">-bā-</span> and the future sign <span class="la">-b-</span> (<span class="la">-bō, -bis, -bit</span>) look like suffixes, but most comparative linguists derive them from forms of the Indo-European root <em>*bheu-</em>, “be, become”: the same root as <span class="la">fuī</span> and German <em>bin</em> (Lecture IV). <span class="la">amābam</span> would then once have meant something like “I was in loving”, and <span class="la">amābō</span> “I shall be in loving”. Other Indo-European languages built their futures differently, and German, like English, never developed a one-word future at all.</p>
-        <p>This history matters for one practical reason: the <span class="la">-b-</span> future belongs only to the first and second conjugations (and to <span class="la">eō</span>, “go”). The third and fourth conjugations form their future in quite another way (<span class="la">regam, regēs, reget</span>), as Lecture VIII will show. Do not generalise <span class="la">-bō</span> yet.</p>
+        <p>This history matters for one practical reason: the <span class="la">-b-</span> future belongs only to the first and second conjugations (and to <span class="la">eō</span>, “go”). The third and fourth conjugations form their future in quite another way (<span class="la">regam, regēs, reget</span>), as Lecture IX will show. Do not generalise <span class="la">-bō</span> yet.</p>
       `
     }
   ],
@@ -82,7 +82,7 @@ Viator.addLecture('latin', {
           <li>habitual: <span class="la">saepe nāvigābat</span>, “he used to sail often”;</li>
           <li>attempted or begun: <span class="la">puellam vocābat</span> can mean “he tried to call the girl”.</li>
         </ul>
-        <p>German uses the Präteritum for all these and for single events as well. When you translate into Latin, ask whether the action is a background or a repeated state (imperfect) or a single completed event (perfect, from Lecture XII). English “was …-ing” and “used to” are good guides to the imperfect.</p>
+        <p>German uses the Präteritum for all these and for single events as well. When you translate into Latin, ask whether the action is a background or a repeated state (imperfect) or a single completed event (perfect, from Lecture XIII). English “was …-ing” and “used to” are good guides to the imperfect.</p>
       `
     },
     {
@@ -134,7 +134,7 @@ Viator.addLecture('latin', {
       title: '5. noster and vester',
       html: `
         <p>The possessives for “our” and “your” (plural) are adjectives in <span class="la">-er</span> that drop the e: <span class="la">noster, nostra, nostrum</span>; <span class="la">vester, vestra, vestrum</span>. Like <span class="la">meus</span> and <span class="la">tuus</span> they agree with the thing possessed, not with the owner: <span class="la">patria nostra</span>, <span class="la">agrī vestrī</span>.</p>
-        <p>So Latin now has a possessive for each person except the third: <span class="la">meus, tuus, noster, vester</span>. For “his, her, their” it uses other words (<span class="la">suus</span> and the genitive <span class="la">eius</span>), which have their own rules and come in Lecture XIII. German <em>unser, euer</em> are built in a similar way from the pronouns <em>uns, euch</em>.</p>
+        <p>So Latin now has a possessive for each person except the third: <span class="la">meus, tuus, noster, vester</span>. For “his, her, their” it uses other words (<span class="la">suus</span> and the genitive <span class="la">eius</span>), which have their own rules and come in Lecture XIV. German <em>unser, euer</em> are built in a similar way from the pronouns <em>uns, euch</em>.</p>
       `
     },
     {

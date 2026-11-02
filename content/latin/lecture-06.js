@@ -49,7 +49,7 @@ Viator.addLecture('latin', {
     <p class="eyebrow">From the sources</p>
     <p class="la big">Possunt, quia posse videntur.</p>
     <p>“They can, because they think they can.” Virgil, <em>Aeneid</em> 5.231. Literally: “they are able, because they seem (to themselves) to be able”.</p>
-    <p><span class="la">possunt</span> is the 3rd person plural of <span class="la">possum</span>; <span class="la">posse</span> its infinitive, here complementing <span class="la">videntur</span>, “they seem”. <span class="la">videntur</span> is the passive of <span class="la">videō</span> (passive forms come in Lecture XVIII), and in the passive it means “seem”. <span class="la">quia</span> means “because”. A related line in Virgil states the opposite truth: <span class="la">nōn omnia possumus omnēs</span>, “we cannot all do everything” (<em>Eclogues</em> 8.63).</p>
+    <p><span class="la">possunt</span> is the 3rd person plural of <span class="la">possum</span>; <span class="la">posse</span> its infinitive, here complementing <span class="la">videntur</span>, “they seem”. <span class="la">videntur</span> is the passive of <span class="la">videō</span> (passive forms come in Lecture XIX), and in the passive it means “seem”. <span class="la">quia</span> means “because”. A related line in Virgil states the opposite truth: <span class="la">nōn omnia possumus omnēs</span>, “we cannot all do everything” (<em>Eclogues</em> 8.63).</p>
   `,
 
   pronunciation: `
@@ -58,7 +58,7 @@ Viator.addLecture('latin', {
     <h3>potest, poterat, poterit</h3>
     <p>All with short vowels: <span class="la">PO-test, PO-te-rat, PO-te-rit</span>. In the plural <span class="la">po-TES-tis</span>, because <span class="la">-tes-</span> is a closed syllable and so counts as heavy.</p>
     <h3>Infinitives</h3>
-    <p>First and second conjugation infinitives have a long vowel before <span class="la">-re</span>, which takes the stress: <span class="la">na-vi-GĀ-re, mo-NĒ-re</span>. Do not confuse the second conjugation (<span class="la">monēre</span>, long ē) with the third (<span class="la">regere</span>, short e, stressed <span class="la">RE-ge-re</span>), which comes in Lecture VIII: the length of the e is the only difference in the infinitive.</p>
+    <p>First and second conjugation infinitives have a long vowel before <span class="la">-re</span>, which takes the stress: <span class="la">na-vi-GĀ-re, mo-NĒ-re</span>. Do not confuse the second conjugation (<span class="la">monēre</span>, long ē) with the third (<span class="la">regere</span>, short e, stressed <span class="la">RE-ge-re</span>), which comes in Lecture IX: the length of the e is the only difference in the infinitive.</p>
   `,
 
   grammar: [
@@ -76,7 +76,7 @@ Viator.addLecture('latin', {
             <tr><th>3rd pl.</th><td class="la">possunt</td><td class="la">poterant</td><td class="la">poterunt</td></tr>
           </tbody>
         </table></div>
-        <p>Infinitive: <span class="la">posse</span>. Principal parts: <span class="la">possum, posse, potuī</span> (the perfect comes in Lecture XII).</p>
+        <p>Infinitive: <span class="la">posse</span>. Principal parts: <span class="la">possum, posse, potuī</span> (the perfect comes in Lecture XIII).</p>
         <p>To form any tense, take the corresponding form of <span class="la">sum</span> and put <span class="la">pot-</span> in front, changing it to <span class="la">pos-</span> before <span class="la">s</span>: <span class="la">sum → possum, es → potes, erat → poterat, erunt → poterunt</span>.</p>
       `
     },
@@ -158,7 +158,7 @@ Viator.addLecture('latin', {
     { id: 'exerceo', head: 'exerceō', la: 'exerceō, exercēre, exercuī, exercitum', pos: 'verb, 2nd conj.', en: 'train, exercise', stress: 'ex-ER-ce-ō · ex-er-CĒ-re', deriv: 'exercise; Exerzieren', note: 'exercitus, -ūs: army, the “trained” body (4th decl., later).' },
     { id: 'iubeo', head: 'iubeō', la: 'iubeō, iubēre, iussī, iussum', pos: 'verb, 2nd conj.', en: 'order, command', stress: 'IU-be-ō · iu-BĒ-re', note: 'Takes an accusative and infinitive: iubeō tē venīre.' },
     { id: 'moveo', head: 'moveō', la: 'moveō, movēre, mōvī, mōtum', pos: 'verb, 2nd conj.', en: 'move; stir, affect', stress: 'MO-ve-ō · mo-VĒ-re', deriv: 'move, motion, motive' },
-    { id: 'audeo', head: 'audeō', la: 'audeō, audēre, ausus sum', pos: 'verb, 2nd conj. (semi-deponent)', en: 'dare', stress: 'AU-de-ō · au-DĒ-re', deriv: 'audacious', note: 'The perfect has a passive form with active meaning (Lecture XXXIV).' },
+    { id: 'audeo', head: 'audeō', la: 'audeō, audēre, ausus sum', pos: 'verb, 2nd conj. (semi-deponent)', en: 'dare', stress: 'AU-de-ō · au-DĒ-re', deriv: 'audacious', note: 'The perfect has a passive form with active meaning (Lecture XXXV).' },
     { id: 'soleo', head: 'soleō', la: 'soleō, solēre, solitus sum', pos: 'verb, 2nd conj. (semi-deponent)', en: 'be accustomed, usually do', stress: 'SO-le-ō · so-LĒ-re', deriv: 'insolent (“unaccustomed”)' },
 
     { id: 'equus', head: 'equus', la: 'equus, equī', g: 'm', pos: 'noun, 2nd decl.', en: 'horse', stress: 'E-quus', deriv: 'equestrian, equine' },
@@ -262,10 +262,10 @@ Viator.addLecture('latin', {
       { ref: 'Quīntus lacrimās tenēre nōn poterat', html: 'Imperfect of <span class="la">possum</span>: “could not hold back”.' },
       { ref: 'Labōrāre nōn dubitāmus', html: '<span class="la">dubitō</span> + infinitive: “we do not hesitate to work”, i.e. we are not afraid of hard work.' },
       { ref: 'Bonī nautae esse dēbētis, nōn stultī', html: 'Predicate noun and adjective in the nominative plural, agreeing with the subject “you”. <span class="la">stultī</span> stands for <span class="la">stultī nautae</span>.' },
-      { ref: 'vōs nōndum fīrmī estis', html: '<span class="la">vōs</span>: “you” (plural), the personal pronoun of Lecture XI, used here for emphasis. <span class="la">nōndum</span>: not yet.' },
+      { ref: 'vōs nōndum fīrmī estis', html: '<span class="la">vōs</span>: “you” (plural), the personal pronoun of Lecture XII, used here for emphasis. <span class="la">nōndum</span>: not yet.' },
       { ref: 'sī cotīdiē labōrābitis', html: 'Future in a future condition (Lecture V): English “if you work”.' },
       { ref: 'et rēmōs et ventum', html: '<span class="la">et … et</span>: “both … and”.' },
-      { ref: 'ut poēta dīcit', html: '<span class="la">ut</span> + indicative: “as”. <span class="la">dīcit</span>, “says”, is third conjugation (Lecture VIII). The poet is Virgil, <em>Aeneid</em> 5.231.' }
+      { ref: 'ut poēta dīcit', html: '<span class="la">ut</span> + indicative: “as”. <span class="la">dīcit</span>, “says”, is third conjugation (Lecture IX). The poet is Virgil, <em>Aeneid</em> 5.231.' }
     ],
     glosses: {
       'fīliī': 'nom. pl. of fīlius: sons', 'mārcī': 'gen. of Mārcus: of Marcus', 'gāius': 'Gaius (nom.)', 'et': 'and; et … et, both … and', 'quīntus': 'Quintus (nom.)', 'nautae': 'nom. pl. of nauta: sailors', 'esse': 'to be (inf. of sum)', 'optābant': 'impf. 3rd pl. of optō: wanted',

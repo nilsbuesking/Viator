@@ -479,3 +479,29 @@ first-year course (the order Wheelock also uses); titles are this course's own.
 ## Pictures
 - [ ] Res Gestae, Ancyra (Part 1).
 - [ ] Praeneste warship relief (Vatican), date and Actium connection.
+
+# Content checks: Latin Lecture VII (third declension I)
+
+Note: the third declension is now split over Lectures VII and VIII, so the course has 41 lectures. Cross-references to later lectures in I–VI were renumbered (+1 from VIII onwards).
+
+## Forms
+- [ ] Genitives and genders: rēx, rēgis m.; lēx, lēgis f.; homō, hominis m.; virtūs, virtūtis f.; amor, amōris m.; labor, labōris m.; pāx, pācis f.; cīvitās, -tātis f.; lībertās, -tātis f.; vēritās, -tātis f.; mōs, mōris m.; pater, patris m.; māter, mātris f.; frāter, frātris m.; soror, sorōris f.; uxor, uxōris f.; mulier, mulieris f.; dux, ducis m.; mīles, mīlitis m.; senātor, -ōris m.; cōnsul, -is m.; ōrātiō, -ōnis f.
+- [ ] Vowel lengths in stems: amōris, labōris, sorōris, uxōris, virtūtis, pācis, mōris, mātris, frātris, mīlitis, ōrātiōnis.
+- [ ] Principal parts: rēgnō, pugnō, fugō, vexō (regular); dēleō, dēlēre, dēlēvī, dēlētum.
+- [ ] Stress lines, especially mu-LI-e-ris, cī-vi-TĀ-tis, ō-rā-ti-Ō-nis.
+- [ ] Reading "Rēx et lībertās" (original, based on the tradition in Livy 1); accepted translations e17–e22, t6–t7.
+
+## Authentic quotations
+- [ ] Virgil, Eclogues 10.69: "omnia vincit Amor: et nos cedamus Amori"; Chaucer's Prioress's brooch "Amor vincit omnia" (General Prologue A 162).
+
+## Claims
+- [ ] Seven kings; expulsion 509 BC (traditional); Brutus; Caesar refusing the diadem at the Lupercalia, 44 BC.
+- [ ] rēx rēgum in Christian usage; emperors not called rēx.
+- [ ] virtūs from vir; lībertās and -tās → English -ty.
+- [ ] Sound changes at the nominative (rēg-s, virtūt-s, homin-, amōr-, patr-).
+- [ ] pater ~ Vater, frāter ~ Bruder, soror ~ Schwester.
+- [ ] Tarquin's building works (Livy 1.56).
+
+## Pictures
+- [ ] Capitoline Brutus (date and the doubtful identification).
+- [ ] Lex de imperio Vespasiani (Capitoline Museums).
