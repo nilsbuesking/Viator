@@ -516,7 +516,7 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - [ ] Reading "Ō tempora, ō mōrēs" (original); accepted translations e17–e22, t6–t7.
 
 ## Authentic quotations
-- [ ] Cicero, In Catilinam 1.2: "O tempora, o mores!"; the opening of 1.1 (quoted in the background: "Quo usque tandem abutere, Catilina, patientia nostra?").
+- [x] Cicero, In Catilinam 1.2: "O tempora, o mores!"; the opening of 1.1 (quoted in the background: "Quo usque tandem abutere, Catilina, patientia nostra?"). Checked against the text supplied by Nils (sources/latin-readings.txt).
 
 ## Claims
 - [ ] Catiline: consulship failures; November 63; execution of five conspirators; Cicero's exile; Sallust.
@@ -539,8 +539,8 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - [ ] Reading "Epistula Lūciī" (original); accepted translations e17–e22, t6–t7.
 
 ## Authentic quotations
-- [ ] Horace, Odes 1.11.8: "carpe diem, quam minimum credula postero."
-- [ ] Virgil, Aeneid 1.1 "Arma virumque cano" (vocabulary note).
+- [x] Horace, Odes 1.11.8: "carpe diem, quam minimum credula postero." Checked against the text supplied by Nils (sources/latin-readings.txt).
+- [x] Virgil, Aeneid 1.1 "Arma virumque cano" (vocabulary note). Checked against the text supplied by Nils (sources/latin-readings.txt).
 
 ## Claims
 - [ ] Horace: 65–8 BC, freedman's son from Venusia, Odes 1–3 published 23 BC; Leuconoe and astrology; Epicurus 341–270 BC.

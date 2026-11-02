@@ -1,0 +1,53 @@
+Latin authentic readings supplied by Nils (copied from online texts, mostly without length marks).
+Use from about Lecture XXV onwards. Pliny, Letters 6.16, is in latin-pliny-ep-6-16.txt.
+
+== Caesar, De bello Gallico 1.1 ==
+Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae, aliam Aquitani, tertiam qui ipsorum lingua Celtae, nostra Galli appellantur. Hi omnes lingua, institutis, legibus inter se differunt. Gallos ab Aquitanis Garumna flumen, a Belgis Matrona et Sequana dividit. Horum omnium fortissimi sunt Belgae, propterea quod a cultu atque humanitate provinciae longissime absunt, minimeque ad eos mercatores saepe commeant atque ea quae ad effeminandos animos pertinent important, proximique sunt Germanis, qui trans Rhenum incolunt, quibuscum continenter bellum gerunt. Qua de causa Helvetii quoque reliquos Gallos virtute praecedunt, quod fere cotidianis proeliis cum Germanis contendunt, cum aut suis finibus eos prohibent aut ipsi in eorum finibus bellum gerunt. Eorum una[,] pars, quam Gallos obtinere dictum est, initium capit a flumine Rhodano, continetur Garumna flumine, Oceano, finibus Belgarum, attingit etiam ab Sequanis et Helvetiis flumen Rhenum, vergit ad septentriones. Belgae ab extremis Galliae finibus oriuntur, pertinent ad inferiorem partem fluminis Rheni, spectant in septentrionem et orientem solem. Aquitania a Garumna flumine ad Pyrenaeos montes et eam partem Oceani quae est ad Hispaniam pertinet; spectat inter occasum solis et septentriones.
+[Note: the comma after "una" in the copy is a slip: read "Eorum una pars".]
+
+== Catullus 5 ==
+Vivamus mea Lesbia, atque amemus,
+rumoresque senum severiorum
+omnes unius aestimemus assis!
+soles occidere et redire possunt:
+nobis cum semel occidit brevis lux,
+nox est perpetua una dormienda.
+da mi basia mille, deinde centum,
+dein mille altera, dein secunda centum,
+deinde usque altera mille, deinde centum.
+dein, cum milia multa fecerimus,
+conturbabimus illa, ne sciamus,
+aut ne quis malus invidere possit,
+cum tantum sciat esse basiorum.
+
+== Catullus 85 ==
+Odi et amo. quare id faciam, fortasse requiris.
+nescio, sed fieri sentio et excrucior.
+
+== Cicero, In Catilinam 1.1-2 ==
+[1] Quo usque tandem abutere, Catilina, patientia nostra? quam diu etiam furor iste tuus nos eludet? quem ad finem sese effrenata iactabit audacia? Nihilne te nocturnum praesidium Palati, nihil urbis vigiliae, nihil timor populi, nihil concursus bonorum omnium, nihil hic munitissimus habendi senatus locus, nihil horum ora voltusque moverunt? Patere tua consilia non sentis, constrictam iam horum omnium scientia teneri coniurationem tuam non vides? Quid proxima, quid superiore nocte egeris, ubi fueris, quos convocaveris, quid consilii ceperis, quem nostrum ignorare arbitraris? [2] O tempora, o mores! Senatus haec intellegit. Consul videt; hic tamen vivit. Vivit? immo vero etiam in senatum venit, fit publici consilii particeps, notat et designat oculis ad caedem unum quemque nostrum. Nos autem fortes viri satis facere rei publicae videmur, si istius furorem ac tela vitemus. Ad mortem te, Catilina, duci iussu consulis iam pridem oportebat, in te conferri pestem, quam tu in nos [omnes iam diu] machinaris.
+
+== Virgil, Aeneid 1.1-11 (copy with length marks) ==
+Arma virumque canō, Trōiae quī prīmus ab ōrīs
+Ītaliam, fātō profugus, Lāvīniaque vēnit
+lītora, multum ille et terrīs iactātus et altō
+vī superum saevae memorem Iūnōnis ob īram;
+multa quoque et bellō passus, dum conderet urbem,
+inferretque deōs Latiō, genus unde Latīnum,
+Albānīque patrēs, atque altae moenia Rōmae.
+Mūsa, mihī causās memorā, quō nūmine laesō,
+quidve dolēns, rēgīna deum tot volvere cāsūs
+īnsīgnem pietāte virum, tot adīre labōrēs
+impulerit. Tantaene animīs caelestibus īrae?
+[Notes: "inferretque" lacks the macron on ī (īnferretque); "mihī" and "īnsīgnem" mark lengths many editions do not (mihi; īnsignem).]
+
+== Horace, Odes 1.11 (copy with length marks) ==
+Tū nē quaesierīs, scīre nefās, quem mihi, quem tibī
+fīnem dī dederint, Leuconoē, nec Babylōniōs
+temptāris numerōs. Ut melius quidquid erit patī,
+seu plūrīs hiemēs seu tribuit Iuppiter ultimam,
+quae nunc oppositīs dēbilitat pūmicibus mare
+Tyrrhēnum: sapiās, vīna liquēs, et spatiō brevī
+spem longam resecēs. Dum loquimur, fūgerit invida
+aetās: carpe diem, quam minimum crēdula posterō.
+[Note: "tibī" marks a long final i that most editions print short (tibi); the syllable is at line end, where length does not matter for the metre.]

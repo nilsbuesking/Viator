@@ -23,3 +23,6 @@ Texts supplied by Nils for building readings. Public domain.
   Line numbers stand on their own line before every fifth line; each passage is followed by
   Skeat's variant-reading notes (lines beginning "Heading." or "1. E. …"), which must be
   stripped when extracting text. Sigla: E = Ellesmere, Hn = Hengwrt, Hl = Harley 7334, etc.
+- `latin-readings.txt`: authentic Latin readings supplied by Nils for the later Latin lectures:
+  Caesar BG 1.1, Catullus 5 and 85, Cicero Cat. 1.1–2, Virgil Aen. 1.1–11, Horace Odes 1.11,
+  with notes on small slips in the copies. `latin-pliny-ep-6-16.txt`: Pliny, Letters 6.16 (complete).
