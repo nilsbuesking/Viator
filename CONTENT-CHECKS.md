@@ -603,3 +603,14 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - [ ] Historical claims: plural address to emperors in late antiquity as the origin of vous / MHG Ihr (scholarly majority view); German Sie a 17th–18th-century development; Wolsey accused in 1529 over "ego et rex meus"; Leuconoe otherwise almost unattested.
 - [ ] German parallels: gedenke meiner (objective genitive); dessen/deren as the analogue of eius/eōrum.
 - [ ] Pictures: "Girl with stylus and tablets.Fresco found in Pompei.jpg" (Naples MANN, so-called Sappho); "Horace, Virgil and Varius at the house of Maecenas.jpg" (check the painter is Charles-François Jalabert).
+
+## Latin Lecture XIII (lecture-13.js): the perfect active system
+
+- [x] Virgil, Aeneid 1.1–3 (`Arma virumque canō … Lāvīniaque vēnit / lītora`) checked against Nils's copy.
+- [x] Catullus 5.10–11 (`dein, cum mīlia multa fēcerimus, / conturbābimus illa`) checked against Nils's copy; length marks editorial. Check the note that some editors take fēcerimus as a perfect subjunctive.
+- [x] Cicero, In Catilinam 1.1 `nihil hōrum ōra voltusque mōvērunt?` checked against Nils's copy (spelling voltus as in the copy).
+- [ ] Vēnī, vīdī, vīcī: Suetonius, Divus Iulius 37 (placard in the Pontic triumph, 46 BC); Plutarch, Caesar 50 (letter to Amantius). Zela, 47 BC, against Pharnaces II.
+- [ ] Principal parts: cadō, cecidī, cāsūrum; currō, cucurrī, cursum; stō, stetī, statum; pōnō, posuī, positum; quaerō, quaesīvī, quaesītum; relinquō, relīquī, relictum; vertō, vertī, versum; dēfendō, dēfendī, dēfēnsum; ascendō, ascendī, ascēnsum; and the review table (ēmptum, lēctum, vīctum, sessum, petīvī).
+- [ ] Stress: a-MĀ-ve-ram, a-mā-VIS-tī, fu-Ē-runt; deinde as two syllables.
+- [ ] Linguistic claims: Latin perfect merges PIE aorist and perfect (s-perfects from the aorist, reduplication from the perfect); southern German loss of the Präteritum; Romance and German "have"-perfects arose in the early Middle Ages, influence debated; French passé simple vint < vēnit; abound < abundō < unda.
+- [ ] Pictures: "Vergilius Romanus f 100v closer detail Conticuere omnes.jpg" (check the caption: start of Aeneid 2, Vat. lat. 3867); Mantegna, Triumphs of Caesar canvas 9 (Royal Collection, Hampton Court).
