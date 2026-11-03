@@ -869,3 +869,14 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - Grammar: *eō* perfect *iī* (also *īvī*), contracted *īstī, īstis, īsse*; *sīc ītur ad astra* (Virgil, *Aeneid* 9.641, **from memory**, please confirm the reference); *abhinc* + accusative.
 - Vocabulary: *pereō* (periī, peritum), *trānseō*, *praetereō*, *ineō* (cōnsilium inīre); *rūs, rūris* n.; *humus* f.; *nebula* ~ Nebel; *nix* ~ snow, Schnee (hedged); *dōnec*.
 - Picture: *340th Bombardment Group B-25 Mitchell covered with ash from Mount Vesuvius.jpg* (March 1944). Confirm date and public-domain status.
+
+## Latin Lecture XXXIX (Erant quī precārentur)
+
+- Reading: Horace, *Odes* 1.11, complete, from `sources/latin-readings.txt` with the copy’s length marks; *tibī* printed *tibi*; punctuation of line 3 (*Ut melius, quidquid erit, patī*) editorial. Check against a critical text (e.g. Shackleton Bailey, Teubner).
+- Interpretation notes to check: *spatiō brevī* (ablative or dative; commentators differ); *pūmicibus* (pumice or porous rock); Leuconoe’s name possibly invented; astrologers expelled from Rome repeatedly (general claim).
+- Metre: greater Asclepiad scheme — — | — ∪ ∪ — | — ∪ ∪ — | — ∪ ∪ — | ∪ —; the scansion of line 1 in the pronunciation section.
+- **From memory, not from a supplied text:** *mīrābile dictū* (used several times by Virgil); Seneca, *Letters* 106.12 *nōn vītae sed scholae discimus* (the modern reversal *nōn scholae sed vītae*). Please confirm the Seneca reference.
+- Culture quotations: Pliny 6.20.14–15 (characteristic vs indicative relative clauses), 6.16.19 (*quī illī nātūrā invalidus …*).
+- German parallels: Konjunktiv II after a negative antecedent (*niemanden, der das wüsste*); *gehen* + infinitive ≈ supine in -um; *zu* + infinitive ≈ supine in -ū.
+- Vocabulary: *nefās* (indecl.), *pūmex* m. (sometimes f. in poetry), *tribuō* (tribuī, tribūtum), *resecō* (resecuī, resectum), *liquō*, *quisquam, quicquam / quidquam*.
+- Picture: *British Museum, Babylon Astronomical Diary, 331-330 BC.jpg*. Confirm the tablet and its date.
