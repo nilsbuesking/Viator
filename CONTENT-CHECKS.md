@@ -712,3 +712,14 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - [ ] Forms: -ier infinitives (regier, dīcier, amārier); iussū; metuō without supine.
 - [ ] Etymologies: iūdex from iūs + dīcō; Klause/Klausur from claudō.
 - [ ] Pictures: "Cato Volubilis bronze bust.jpg" (identification uncertain, noted); "Tullianum.JPG" (check it shows the lower chamber with the opening).
+
+## Latin Lecture XXIII (lecture-23.js): fifth declension; ablatives summarised
+
+- [x] Cicero, In Catilinam 1.2 (`Nōs autem fortēs virī satis facere reī pūblicae vidēmur, sī istīus furōrem ac tēla vītēmus.`) checked against Nils's copy.
+- [x] Pliny 6.16.17 (`Iam diēs alibi, illīc nox omnibus noctibus nigrior dēnsiorque`) and 6.16.20 (`Ubi diēs redditus`) checked against Nils's copy.
+- [x] Caesar, BG 1.1 (`linguā, īnstitūtīs, lēgibus inter sē differunt`; `reliquōs Gallōs virtūte praecēdunt`) checked against Nils's copy.
+- [ ] Forms and lengths: reī (short e) vs diēī; rem; diēs feminine for an appointed day; merīdiēs from medius + diēs.
+- [ ] Rēs gestae: original on bronze before the mausoleum; copies at Ancyra, Apollonia, Antioch in Pisidia; chapter 34 on handing back the rēs pūblica.
+- [ ] Cicero, De re publica: discussion of kingship as a form of rēs pūblica (Book 1); palimpsest Vat. lat. 5757, Augustine on the Psalms, Angelo Mai 1819.
+- [ ] Romance and Germanic: rien < rem; lundi/lunedì < Lūnae diēs; Dienstag (Tiw, probably); jour/giorno < diurnum; planetary week in Rome around the turn of the eras.
+- [ ] Pictures: "Monumentum Ancyranum Res Gestae Divi Augusti Part 1.jpg" (check it shows the Latin text); "Cicero, De re publica, Vat. Lat. 5757.jpg".
