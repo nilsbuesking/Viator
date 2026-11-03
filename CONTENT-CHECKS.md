@@ -733,3 +733,14 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - [ ] Gladiatorial details: mūnus origins at funerals (264 BC tradition); raised finger; the call "mitte"; uncertainty of the thumb gesture; Flamma and Felix as attested gladiator names.
 - [ ] Etymologies: scūtum → escutcheon, esquire; bracchium a Greek loan; harēna/arēna.
 - [ ] Pictures: Villa San Marco, Stabiae, Room 60 landscape with maritime villa; Gérôme, Ave Caesar! Morituri te salutant (1859, Yale).
+
+## Latin Lecture XXV (lecture-25.js): ablative absolute; passive periphrastic; dative of agent
+
+- [x] Reading: Pliny, Letters 6.16.18–20, the full passage from Nils's copy (`Ibi super abiectum linteum … quiēscentī quam dēfūnctō similior`). Length marks are editorial; spellings sulpuris, servolīs, assurrēxit as in the copy. Check against a critical text (Mynors OCT), especially assurrēxit/adsurrēxit and the punctuation of the parenthesis.
+- [x] Virgil, Aeneid 1.8–11 checked against Nils's copy (printed mihi, īnsignem; copy has mihī, īnsīgnem).
+- [x] Pliny 6.16.6 (`recentī spīritū ēvecta, dein senēscente eō dēstitūta`) and 6.16.12 (`nōndum perīculō appropinquante`) checked against Nils's copy.
+- [ ] Dating: consuls of 63 BC (M. Tullius Cicero, C. Antonius); Fāstī Capitōlīnī under Augustus; Varro's 753 BC; AD dating from the 6th century (Dionysius Exiguus).
+- [ ] Cato and Carthage: Plutarch, Cato Maior 27; Pliny, NH 15.74; Florus 2.15; no ancient source has "Carthāgō dēlenda est" verbatim.
+- [ ] Distance Misenum–Stabiae (about 30 km); modern views on the cause of death.
+- [ ] Vocabulary: cālīgō (long ā, ī); concidō vs concīdō; poscō, poposcī; hauriō, hausī, haustum; obstruō, obstrūxī, obstrūctum.
+- [ ] Pictures: "FastiCapitolini.JPG"; "Vesuvius from Castellammare di Stabia.jpg".
