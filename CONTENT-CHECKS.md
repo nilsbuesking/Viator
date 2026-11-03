@@ -682,3 +682,13 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - [ ] Vegetius (Epitoma rei militaris 4.39) on the closed sailing season (c. 11 November to 10 March).
 - [ ] deus plural forms (dī/deī, deōrum/deum, dīs/deīs); videor, vīsus sum.
 - [ ] Pictures: Angelica Kauffmann, Pliny the Younger and his Mother at Misenum (1785, Princeton); "Cicero - Musei Capitolini.JPG" (check the identification note).
+
+## Latin Lecture XX (lecture-20.js): perfect passive system; interrogatives
+
+- [x] Cicero, In Catilinam 1.1 (opening three questions; `quid proximā, quid superiōre nocte ēgeris … quem nostrum ignōrāre arbitrāris?`) checked against Nils's copy; length marks editorial (abūtere, ēlūdet, effrēnāta).
+- [x] Caesar, BG 1.1 (`dīvīsa`, `quam Gallōs obtinēre dictum est`) and Pliny 6.16.5 (`Vesuvium fuisse posteā cognitum est`), 6.16.20 (`corpus inventum integrum illaesum opertumque ut fuerat indūtus`) checked against Nils's copy.
+- [ ] Catiline: dates (8 Nov 63 BC, temple of Jupiter Stator; executions 5 Dec; Pistoria early 62); revision of the speeches c. 60 BC (Att. 2.1.3); Sallust c. 42–41 BC; Cicero's exile 58 BC; Cat. 1.16 for the empty benches.
+- [ ] Death of the elder Pliny: cause debated (6.16.19 on his throat; modern suggestions).
+- [ ] Lachmann's law examples (rēctus, lēctus, āctus vs factus, captus); Gellius on āctus; quid/quit spellings.
+- [ ] nēmō forms; dēns gen. pl. dentium/dentum; carnival etymology (carnem levāre, uncertain); mordeō, momordī, morsum.
+- [ ] Pictures: Maccari, Cicero denounces Catiline (1889, Palazzo Madama); Valenciennes, Eruption of Vesuvius (1813, Toulouse; check the link to Pliny's death in the painting's title).
