@@ -25,4 +25,4 @@ Texts supplied by Nils for building readings. Public domain.
   stripped when extracting text. Sigla: E = Ellesmere, Hn = Hengwrt, Hl = Harley 7334, etc.
 - `latin-readings.txt`: authentic Latin readings supplied by Nils for the later Latin lectures:
   Caesar BG 1.1, Catullus 5 and 85, Cicero Cat. 1.1–2, Virgil Aen. 1.1–11, Horace Odes 1.11,
-  with notes on small slips in the copies. `latin-pliny-ep-6-16.txt`: Pliny, Letters 6.16 (complete). `latin-pliny-ep-6-20.txt`: Pliny, Letters 6.20 (complete; supplied by Nils; the Virgil quotation in §1 is shortened with “…” in the copy).
+  with notes on small slips in the copies. `latin-pliny-ep-6-16.txt`: Pliny, Letters 6.16 (complete). `latin-pliny-ep-6-20.txt`: Pliny, Letters 6.20 (complete; supplied by Nils; the Virgil quotation in §1 (Aen. 2.12–13) completed from Nils’s correction).

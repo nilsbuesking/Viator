@@ -821,3 +821,13 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - Etymologies: *volō* ~ wollen, will; *nōlō* < ne + volō; *mālō* < magis + volō; *nūtō* frequentative of *nuō (cf. nūmen); *rūrsus* < re-vorsus; *tēctum* ~ Dach, decken.
 - Principal parts: *ēligō* (ēlēgī, ēlēctum), *permaneō* (permānsī, permānsum), *nūtō*; *placet, placuit* impersonal.
 - Picture: the Pompeii earthquake relief (House of Caecilius Iucundus), photographed at the Scuderie del Quirinale exhibition. Confirm the identification and whether the photographed piece is the original.
+
+## Latin Lecture XXXIV (Sī frāter tuus vīvit)
+
+- Reading: Pliny, *Epistulae* 6.20.10–12, from `sources/latin-pliny-ep-6-20.txt` (supplied by Nils); length marks editorial; commas added between the historic infinitives. Check vowel lengths *Capreās*, *prōripit*, *cīnxerat*, *quōquō*, *pāret*, *incūsat*.
+- Virgil, *Aeneid* 2.12–13 (*Quamquam animus meminisse horret luctūque refūgit, / incipiam*), as quoted at Pliny 6.20.1; the copy was completed from Nils’s correction. Pliny quotes only to *incipiam*; *frāctī bellō fātīsque repulsī* begins Virgil’s next sentence and is not part of Pliny’s quotation, as far as I know. Please confirm against the edition.
+- Culture quotations: Pliny 6.20.17 (*Possem glōriārī … crēdidissem*); 6.16.1 (*videō mortī eius, sī celebrētur ā tē …*).
+- Claims to check: the elder Pliny as procurator in Spain (*Letters* 3.5); Pliny was seventeen (*agēbam duodēvīcēnsimum annum*, 6.20.5); historic infinitive as a feature of Sallust and Tacitus.
+- Interpretations: the Aeneas parallel (self-dramatisation vs self-irony); *quod mē morētur* as a subjunctive of reported reason; *nōn commissūrōs nōs ut* … glossed “we would not go so far as to”.
+- Vocabulary: *superstes, superstitis* (one ending); *iuvenis* gen. pl. *iuvenum*; *abscondō* (abscondī / abscondidī, absconditum); *cōgō* (coēgī, coāctum); *proinde* scanned as two syllables in verse.
+- Pictures: *Wall painting - caricature of Aeneas fleeing with his father and his son - Stabiae - Napoli MAN 9089.jpg* (confirm findspot Stabiae and whether the heads are apes or dogs); *Capo Miseno e spiaggia di Miliscola.jpg*.
