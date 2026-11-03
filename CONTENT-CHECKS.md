@@ -703,3 +703,12 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - [ ] Etymologies: senātus ~ senex; cāsus translating ptōsis; Frucht from frūctus; Dom/duomo from domus; chez from casa; exercitus from exerceō.
 - [ ] Alesia: Alise-Sainte-Reine; BG 7.68–89; Vercingetorix handed over (BG 7.89) vs Plutarch's version; sinister and Roman augury.
 - [ ] Pictures: Brutus denarius (RRC 508/3, check caption); Gérôme, The Death of Caesar (Walters 37884, 1859–67).
+
+## Latin Lecture XXII (lecture-22.js): passive of the 3rd and 4th conjugations
+
+- [x] Cicero, In Catilinam 1.2 (`Ad mortem tē, Catilīna, dūcī iussū cōnsulis iam prīdem oportēbat`) checked against Nils's copy.
+- [x] Pliny 6.16.5 (`ex quō maximē mīrāculum illud cōnspicī poterat`), 6.16.13 (`audiēbātur`), 6.16.16 (`cāsus metuēbātur`) checked against Nils's copy.
+- [ ] Historical claims: arrests of 3 December 63 BC (Allobroges' letters); debate of 5 December (Sallust, Cat. 51–52: Caesar for confiscation and imprisonment, Cato for death); execution in the Tullianum; Plutarch, Cic. 22 (vīxērunt); Sallust, Cat. 55 on the Tullianum.
+- [ ] Forms: -ier infinitives (regier, dīcier, amārier); iussū; metuō without supine.
+- [ ] Etymologies: iūdex from iūs + dīcō; Klause/Klausur from claudō.
+- [ ] Pictures: "Cato Volubilis bronze bust.jpg" (identification uncertain, noted); "Tullianum.JPG" (check it shows the lower chamber with the opening).
