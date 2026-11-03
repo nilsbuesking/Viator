@@ -811,3 +811,13 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - Principal parts: *afferō* (attulī, allātum), *cōnferō* (contulī, collātum), *offerō* (obtulī, oblātum), *referō* (rettulī, relātum), *dēferō* (dētulī, dēlātum), *differō* (distulī, dīlātum), *ārdeō* (ārsī, ārsum), *dēserō* (dēseruī, dēsertum).
 - Claim: “Plinian” eruptions named after Pliny’s description.
 - Picture: *Joseph Wright of Derby - Vesuvius in Eruption, with a View over the Islands in the Bay of Naples - Google Art Project.jpg* (Tate, c. 1776–80). Confirm date and collection.
+
+## Latin Lecture XXXIII (Ratiō ratiōnem vīcit)
+
+- Reading: Pliny, *Epistulae* 6.16.15–17, from `sources/latin-pliny-ep-6-16.txt`; length marks editorial; *adspicere* kept as in the copy. Check vowel lengths *levium* (levis “light”), *exēsōrum*, *ēmōta*, *sub dīō*, *alibī*, *rūrsus*, *cervīcālia*, *mūnīmentum*.
+- Culture quotation: Pliny 6.16.21 (*Interim Mīsēnī ego et māter — sed nihil ad historiam …*). Check wording.
+- **Quotation from memory, not from a supplied text:** *Ōderint dum metuant* (Accius), with the references Cicero, *De officiis* 1.97, and Suetonius, *Caligula* 30. Please confirm both references against an edition.
+- Claims to check: the earthquake dated AD 62 by Tacitus (*Annals* 15.22) and to 5 February 63 by Seneca (*Natural Questions* 6.1); Pliny 6.20.3 on tremors felt for days beforehand and thought normal in Campania; *volt/voltis* as the older spelling, *vult* from about the Augustan age.
+- Etymologies: *volō* ~ wollen, will; *nōlō* < ne + volō; *mālō* < magis + volō; *nūtō* frequentative of *nuō (cf. nūmen); *rūrsus* < re-vorsus; *tēctum* ~ Dach, decken.
+- Principal parts: *ēligō* (ēlēgī, ēlēctum), *permaneō* (permānsī, permānsum), *nūtō*; *placet, placuit* impersonal.
+- Picture: the Pompeii earthquake relief (House of Caecilius Iucundus), photographed at the Scuderie del Quirinale exhibition. Confirm the identification and whether the photographed piece is the original.
