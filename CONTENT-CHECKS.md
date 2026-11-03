@@ -791,3 +791,13 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - Vocabulary to confirm: *cōdicillī* (m. pl.), *quadrirēmis* (f., i-stem), *gubernāculum*, *amoenitās*, *discrīmen*, *dēprendō / dēprehendō* (dēprēnsum), *lēniō* (lēnīvī), *tālis*, *tot* (indecl.).
 - Aeneid citations in notes: 1.9 *tot volvere cāsūs*; 1.1 *Trōiae … ab ōrīs*.
 - Pictures: *Schiffsrelief Palestrina.jpg* (Praeneste warship relief, Vatican; caption hedges that it is not a quadrireme and the Actium link is conventional); *Schulrelief.jpg* (Neumagen school relief, Trier; interpretation as teacher and pupils is usual but not certain). Confirm both show what the captions say, and the date and museum.
+
+## Latin Lecture XXXI (An retrō flecteret)
+
+- Reading: Pliny, *Epistulae* 6.16.11–12, from `sources/latin-pliny-ep-6-16.txt`; length marks editorial; dashes printed as brackets; commas added between *complectitur, cōnsōlātur, hortātur* and *accubat, cēnat*. Check against a critical text, and check the vowel lengths *ambustī* (left unmarked: ambūrō, ambustum?), *frāctī*, *dirēmptus*, *circumāctīs*, *resēdisset*, *invectus*, *lōtus*.
+- Culture quotations: 6.16.15 (*intrā tēcta subsistant an in apertō vagentur*), 6.16.1 (*Petis ut … possīs*), 6.16.17 (*ecquid iam mare admitteret*; the copy has *adspicere*, printed as *aspicere*).
+- Claims to check: Stabiae destroyed by Sulla in 89 BC (Pliny, *Natural History* 3.70); nothing else known of Pomponianus; *Fortēs fortūna (ad)iuvat* in Terence, *Phormio* 203.
+- Interpretation: the subjunctive *accēderent* in *quō propius accēderent* explained as iterative / generalising. Commentaries may differ.
+- Perfect subjunctive endings: written with short *i* (*-eris, -erimus, -eritis*), with a note that the original long *ī* is attested; check against Wheelock / Allen & Greenough.
+- Vocabulary: *lavō* (lāvī, lautum / lavātum / lōtum), *resīdō* (resēdī, no supine), *sinus* (4th decl., m.), *vadum* (link with *vādō* and German *waten* — check etymology), *quamquam* with participle in Pliny.
+- Pictures: *Fresco of woman with lyre Villa San Marco in Stabiae.jpg*; *Pompeii family feast painting Naples.jpg*. Confirm subject, findspot and museum.
