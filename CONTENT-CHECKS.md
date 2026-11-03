@@ -763,3 +763,12 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - [ ] Natural History: manuscript S. XI.1 (Malatestiana, 1446?); editio princeps Venice 1469; the 1481 edition picture.
 - [ ] Vocabulary: liburnica (Liburni); pondus → Pfund via pondō; nōscō ~ kennen/know; ērudiō from rudis.
 - [ ] Pictures: "Plinio il vecchio, naturalis historia, 1446, manoscritto S. XI.1, 01.JPG" (check library and date); "Plinius, Naturalis Historia (1481).jpg".
+
+## Latin Lecture XXVIII (lecture-28.js): special and irregular comparison; adverbs
+
+- [x] Reading: Pliny, Letters 6.16.1–3, full passage including the heading (`C. Plīnius Tacitō suō s. … dēposcō etiam quod iniungis.`), from Nils's copy; length marks editorial; commas around "ut populī, ut urbēs" added. Check against a critical text.
+- [x] Caesar, BG 1.1 (`minimēque ad eōs mercātōrēs saepe commeant … proximīque sunt Germānīs`); Pliny 6.16.12 (`secundissimō`), 6.16.17 (`ex proximō`), 6.16.22 (`Tū potissima excerpēs`) checked against Nils's copy.
+- [ ] Forms: the six -lis adjectives; plūs/plūris, plūrēs, plūrium; summus/suprēmus, īnfimus/īmus; propior/proximus; adverbs prūdenter, potenter; diūtius, diūtissimē.
+- [ ] Tacitus, Histories: AD 69–96 planned; surviving to AD 70 (Books 1–4, part of 5).
+- [ ] Etymologies: meilleur < meliōrem; pire < peior; mayor < maior; avunculus diminutive of avus, uncle via oncle.
+- [ ] Pictures: "Statue of Gaius Cornelius Tacitus in front of the austrian parliament.jpg" (19th-century, Vienna); "Pliny the Younger, Letters, Biblioteca Malatestiana.jpg" (check it is Renaissance).
