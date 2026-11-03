@@ -9,7 +9,7 @@
 Viator.addLecture('latin', {
   id: 'la-20',
   number: 20,
-  title: 'Quō usque tandem',
+  title: 'Quō ūsque tandem',
   subtitle: 'The perfect passive participle; perfect, pluperfect and future perfect passive; quis, quid and the interrogative adjective',
   minutes: 65,
 
@@ -21,9 +21,9 @@ Viator.addLecture('latin', {
 
   background: [
     {
-      title: 'Quō usque tandem: Cicero against Catiline',
+      title: 'Quō ūsque tandem: Cicero against Catiline',
       html: `
-        <p>In 63 BC Cicero was consul, and Lucius Sergius Catilina, a patrician who had twice failed to win the consulship, was organising an armed rising. On 8 November Cicero summoned the senate to the temple of Jupiter Stator and, with Catiline present, delivered the first of four speeches against him. It opens with a burst of questions: <span class="la">Quō usque tandem abūtere, Catilīna, patientiā nostrā?</span> Catiline left Rome that night to join his supporters in Etruria. In early December five of his associates in the city were arrested and, after a debate in the senate, executed without trial; Catiline himself died in battle at Pistoria early in 62.</p>
+        <p>In 63 BC Cicero was consul, and Lucius Sergius Catilina, a patrician who had twice failed to win the consulship, was organising an armed rising. On 8 November Cicero summoned the senate to the temple of Jupiter Stator and, with Catiline present, delivered the first of four speeches against him. It opens with a burst of questions: <span class="la">Quō ūsque tandem abūtēre, Catilīna, patientiā nostrā?</span> Catiline left Rome that night to join his supporters in Etruria. In early December five of his associates in the city were arrested and, after a debate in the senate, executed without trial; Catiline himself died in battle at Pistoria early in 62.</p>
         <p>Two cautions. The speeches as we read them were revised by Cicero for publication about three years later, when the executions had made him politically vulnerable, so they are not a transcript. And our other main account, Sallust’s <em>Catiline</em>, was written some twenty years afterwards by a man with his own view of events. Cicero was exiled in 58 BC for having put Roman citizens to death without trial.</p>
         <figure class="fig"><img class="fig-img" loading="lazy" decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Cicero_Denounces_Catiline_in_the_Roman_Senate_by_Cesare_Maccari_-_3.jpg/960px-Cicero_Denounces_Catiline_in_the_Roman_Senate_by_Cesare_Maccari_-_3.jpg" data-fallbacks="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Cicero_Denounces_Catiline_in_the_Roman_Senate_by_Cesare_Maccari_-_3.jpg/500px-Cicero_Denounces_Catiline_in_the_Roman_Senate_by_Cesare_Maccari_-_3.jpg|https://upload.wikimedia.org/wikipedia/commons/8/81/Cicero_Denounces_Catiline_in_the_Roman_Senate_by_Cesare_Maccari_-_3.jpg" alt="Fresco of an orator in a white toga addressing seated senators, while one man sits isolated on a bench"><figcaption>Cesare Maccari, <em>Cicero denounces Catiline</em> (1889), a fresco in the Palazzo Madama in Rome, seat of the Italian Senate. Catiline sits alone; the senators have moved away from him, a detail Cicero himself mentions (Cat. 1.16). The setting is imagined. <span class="credit">Public domain · <a href="https://commons.wikimedia.org/wiki/File:Cicero_Denounces_Catiline_in_the_Roman_Senate_by_Cesare_Maccari_-_3.jpg" target="_blank" rel="noopener">Wikimedia Commons</a></span></figcaption></figure>
       `
@@ -47,9 +47,9 @@ Viator.addLecture('latin', {
 
   culture: `
     <p class="eyebrow">From the sources</p>
-    <p class="la big">Quō usque tandem abūtere, Catilīna, patientiā nostrā? quam diū etiam furor iste tuus nōs ēlūdet? quem ad fīnem sēsē effrēnāta iactābit audācia?</p>
+    <p class="la big">Quō ūsque tandem abūtēre, Catilīna, patientiā nostrā? quam diū etiam furor iste tuus nōs ēlūdet? quem ad fīnem sēsē effrēnāta iactābit audācia?</p>
     <p>“How long, Catiline, will you go on abusing our patience? How long will that madness of yours still mock us? To what end will your unbridled audacity throw itself about?” Cicero, <em>In Catilinam</em> 1.1, the opening; checked against the copy in the course’s source files, length marks added.</p>
-    <p><span class="la">quem ad fīnem</span>: the interrogative adjective <span class="la">quem</span> with <span class="la">fīnem</span>, “to what end?”. <span class="la">abūtere</span> is a deponent (Lecture XXXV) in the second person singular future, with the ending <span class="la">-re</span> for <span class="la">-ris</span> (Lecture XIX). <span class="la">effrēnāta</span>, “unbridled”, is a perfect passive participle used as an adjective (<span class="la">ex</span> + <span class="la">frēnum</span>, “bridle”). A few lines later Cicero asks <span class="la">quid proximā, quid superiōre nocte ēgeris … quem nostrum ignōrāre arbitrāris?</span>, “what you did last night and the night before … which of us do you think does not know?”: two more interrogatives.</p>
+    <p><span class="la">quem ad fīnem</span>: the interrogative adjective <span class="la">quem</span> with <span class="la">fīnem</span>, “to what end?”. <span class="la">abūtēre</span> is a deponent (Lecture XXXV) in the second person singular future, with the ending <span class="la">-re</span> for <span class="la">-ris</span> (Lecture XIX). <span class="la">effrēnāta</span>, “unbridled”, is a perfect passive participle used as an adjective (<span class="la">ex</span> + <span class="la">frēnum</span>, “bridle”). A few lines later Cicero asks <span class="la">quid proximā, quid superiōre nocte ēgeris … quem nostrum ignōrāre arbitrāris?</span>, “what you did last night and the night before … which of us do you think does not know?”: two more interrogatives.</p>
     <p>Three perfect passives from the course texts: Caesar’s <span class="la">Gallia est omnis dīvīsa</span> (BG 1.1) and, a few lines later, <span class="la">quam Gallōs obtinēre dictum est</span>, “which, as has been said, the Gauls hold”; Pliny’s <span class="la">Vesuvium fuisse posteā cognitum est</span>, “it was learnt afterwards that it had been Vesuvius” (6.16.5), about the mountain from which the cloud rose; and his <span class="la">corpus inventum integrum</span> (6.16.20). Horace’s <span class="la">quem mihi, quem tibi fīnem</span> (Lecture XII) is the interrogative adjective again.</p>
   `,
 
@@ -145,7 +145,7 @@ Viator.addLecture('latin', {
     { id: 'quis', head: 'quis, quid', la: 'quis, quid', pos: 'interrogative pronoun', en: 'who? what?', stress: 'QUIS · QUID', deriv: 'quiddity, quid pro quo; wer, was', note: 'Gen. cuius, dat. cui, acc. quem, quid.' },
     { id: 'qui-interrog', head: 'quī? quae? quod?', la: 'quī, quae, quod', pos: 'interrogative adjective', en: 'which? what (kind of)?', stress: 'QUĪ · QUAE · QUOD', note: 'Same forms as the relative; used with a noun. Quem ad fīnem? To what end?' },
     { id: 'quando', head: 'quandō', la: 'quandō', pos: 'interrogative adverb', en: 'when?', stress: 'QUAN-dō', deriv: 'quando (Italian)' },
-    { id: 'quousque', head: 'quō usque', la: 'quō usque (quōusque)', pos: 'interrogative adverb', en: 'how far? how long?', stress: 'quō-US-que', note: 'Cicero, Cat. 1.1.' },
+    { id: 'quousque', head: 'quō ūsque', la: 'quō ūsque (quōusque)', pos: 'interrogative adverb', en: 'how far? how long?', stress: 'quō-ŪS-que', note: 'Cicero, Cat. 1.1.' },
     { id: 'statim', head: 'statim', la: 'statim', pos: 'adverb', en: 'immediately, at once', stress: 'STA-tim', deriv: 'stat (medical)' },
     { id: 'nemo', head: 'nēmō', la: 'nēmō, (gen. nūllīus), dat. nēminī, acc. nēminem', g: 'm', pos: 'pronoun', en: 'no one, nobody', stress: 'NĒ-mō', note: 'ne + homō. Genitive and ablative usually from nūllus.' },
     { id: 'arca', head: 'arca', la: 'arca, arcae', g: 'f', pos: 'noun, 1st decl.', en: 'chest, strong-box', stress: 'AR-ca', deriv: 'ark; Arche (Noah’s ark)' },
@@ -171,7 +171,7 @@ Viator.addLecture('latin', {
     { id: 'g20-quis', front: 'quis, quid: singular', back: 'quis/quid; cuius; cui; quem/quid; quō' },
     { id: 'g20-quisqui', front: 'quis vs quī (interrogative)', back: 'quis stands alone (wer); quī goes with a noun (welcher)' },
     { id: 'g20-quodbellum', front: 'Quod bellum?', back: 'Which war? (interrogative adjective, neuter)' },
-    { id: 'g20-cicero', front: 'Quō usque tandem abūtere, Catilīna, patientiā nostrā?', back: 'How long, Catiline, will you go on abusing our patience? (Cat. 1.1)' },
+    { id: 'g20-cicero', front: 'Quō ūsque tandem abūtēre, Catilīna, patientiā nostrā?', back: 'How long, Catiline, will you go on abusing our patience? (Cat. 1.1)' },
     { id: 'g20-quem', front: 'quem ad fīnem sēsē effrēnāta iactābit audācia?', back: 'to what end will your unbridled audacity throw itself about? (Cat. 1.1)' },
     { id: 'g20-pliny', front: 'corpus inventum integrum illaesum', back: 'his body was found intact and unharmed (Pliny 6.16.20; est omitted)' },
     { id: 'g20-vesuv', front: 'Vesuvium fuisse posteā cognitum est', back: 'it was learnt afterwards that it had been Vesuvius (Pliny 6.16.5)' },
@@ -217,7 +217,7 @@ Viator.addLecture('latin', {
     { id: 'e20', type: 'translate', dir: 'en-la', source: 'What do you (sg.) see?', model: 'Quid vidēs?', accepted: ['quid vidēs', 'quid tū vidēs'] },
     { id: 'e21', type: 'translate', dir: 'en-la', source: 'The letter was written.', model: 'Epistula scrīpta est.', accepted: ['epistula scrīpta est', 'epistula est scrīpta'] },
     { id: 'e22', type: 'translate', dir: 'en-la', source: 'which girl? (nom.)', model: 'quae puella?', accepted: ['quae puella'] },
-    { id: 'e23', type: 'mc', prompt: 'Cicero’s <span class="la">Quō usque tandem abūtere, Catilīna, patientiā nostrā?</span> asks:', options: ['How long will you abuse our patience?', 'Where are you going, Catiline?', 'Why do you abuse us?', 'Who abused our patience?'], answer: 0, explain: 'quō usque: how far, how long.' },
+    { id: 'e23', type: 'mc', prompt: 'Cicero’s <span class="la">Quō ūsque tandem abūtēre, Catilīna, patientiā nostrā?</span> asks:', options: ['How long will you abuse our patience?', 'Where are you going, Catiline?', 'Why do you abuse us?', 'Who abused our patience?'], answer: 0, explain: 'quō ūsque: how far, how long.' },
     { id: 'e24', type: 'mc', prompt: 'Pliny: <span class="la">Vesuvium fuisse posteā cognitum est</span>. What was learnt afterwards?', options: ['That the cloud had risen from Vesuvius', 'That his uncle had died', 'That Pompeii was buried', 'The date of the eruption'], answer: 0, explain: 'From a distance it was unclear from which mountain the cloud came.' },
     { id: 'e25', type: 'mc', prompt: '<span class="la">amātus est</span> does NOT mean:', options: ['he is (being) loved', 'he was loved', 'he has been loved', 'he was loved (once, in the past)'], answer: 0, explain: '“He is loved” is amātur.' }
   ],

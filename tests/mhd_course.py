@@ -18,6 +18,6 @@ with sync_playwright() as p:
     pg.screenshot(path='/tmp/viator-shots/mhd-timeline.png')
     pg.click('[data-go=progress]'); print('progress width', pg.evaluate('document.documentElement.scrollWidth'))
     pg.select_option('#coursepick','latin'); pg.wait_for_timeout(200)
-    print('latin planned numerals:', pg.locator('.lect.planned .num').nth(0).inner_text(), pg.locator('.lect.planned .num').last.inner_text())
+    print('latin lectures:', pg.locator('.lect:not(.planned)').count(), '| latin planned:', pg.locator('.lect.planned').count(), '(course complete: expect 41 and 0)')
     b.close()
 print('errors', errs)

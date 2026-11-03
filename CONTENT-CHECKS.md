@@ -890,3 +890,13 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - German: *Gerundivum* (*das zu lesende Buch*); *lassen* for *cūrō* + gerundive.
 - Vocabulary: *canō* (cecinī, cantum), *laedō* (laesī, laesum), *doleō* (doluī, dolitūrus), *volvō* (volvī, volūtum; ~ wälzen), *moenia* n. pl., *superī* (gen. pl. superum), *īnsignis* (vowel before gn disputed).
 - Picture: *Virgil Mosaic Bardo Museum Tunis.jpg* (Hadrumetum mosaic; the scroll usually read as Aen. 1.8). A different photograph of the same mosaic is in an earlier lecture. Confirm date (3rd century AD).
+
+## Latin Lecture XLI (Ō tempora, ō mōrēs!)
+
+- Reading: Cicero, *In Catilinam* 1.1–2, from `sources/latin-readings.txt`; length marks editorial; the copy’s *voltūsque* and its square brackets *[omnēs iam diū]* kept. Check against a critical text (Clark, OCT; Maslowski, Teubner).
+- **Length marks changed for consistency:** *Quō ūsque … abūtēre* (future of abūtor, long ē; ūsque with long u as in Lewis & Short and Georges). Lecture I already had *ūsque … abūtēre*; Lecture XX had *usque … abūtere* and has been corrected to match. Please confirm *ūsque*: some modern dictionaries print *usque*.
+- Background claims (**from memory**): speech of 8 November 63 BC in the temple of Jupiter Stator; Catiline killed in early 62; speeches published around 60 BC (Cicero, *Ad Atticum* 2.1.3); revision of the published text; *Ō tempora, ō mōrēs* also used elsewhere by Cicero (e.g. *Verrines* 2.4.56). Please confirm.
+- Grammar: fear clauses explained from an original independent wish (the standard historical account); *oportēbat* + infinitive for what ought to have happened; Cicero’s clausulae (double trochee, cretic + trochee).
+- Book suggestions: Allen & Greenough, *New Latin Grammar*; Rubenbauer–Hofmann–Heine, *Lateinische Grammatik*; Menge–Burkard–Schauer, *Lehrbuch der lateinischen Syntax und Semantik*; Lewis & Short; *OLD*; Georges; Sherwin-White, *The Letters of Pliny*. Titles from memory; please check editions.
+- Vocabulary: *pestis* f. (i-stem), *caedēs* f., *particeps, participis* (+ gen.), *ēlūdō* (ēlūsī, ēlūsum), *arbitror*, *māchinor*.
+- Picture: *Comic History of Rome Table 10 Cicero denouncing Catiline.jpg* (John Leech, for à Beckett’s *Comic History of Rome*, about 1852). Confirm the attribution and date.
