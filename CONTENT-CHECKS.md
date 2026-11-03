@@ -692,3 +692,14 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - [ ] Lachmann's law examples (rēctus, lēctus, āctus vs factus, captus); Gellius on āctus; quid/quit spellings.
 - [ ] nēmō forms; dēns gen. pl. dentium/dentum; carnival etymology (carnem levāre, uncertain); mordeō, momordī, morsum.
 - [ ] Pictures: Maccari, Cicero denounces Catiline (1889, Palazzo Madama); Valenciennes, Eruption of Vesuvius (1813, Toulouse; check the link to Pliny's death in the painting's title).
+
+## Latin Lecture XXI (lecture-21.js): fourth declension; place from which; separation
+
+- [x] Caesar, BG 1.1 (`Hōrum omnium fortissimī sunt Belgae, propterea quod ā cultū atque hūmānitāte prōvinciae longissimē absunt`; `suīs fīnibus eōs prohibent`) checked against Nils's copy.
+- [x] Virgil, Aeneid 1.1 (`ab ōrīs`), 1.9 (`tot volvere cāsūs`); Pliny 6.16.13 (`ē Vesuviō monte`), 6.16.16 (`levium exēsōrumque pūmicum cāsus metuēbātur`) checked against Nils's copy.
+- [ ] domus forms (domuī/domō, domō/domū, domuum/domōrum, domōs/domūs); cornū dat. cornū/cornuī; genū.
+- [ ] Ides: 15th in March, May, July, October; 13th otherwise. Caesar killed in the Curia of Pompey; Spurinna (Suetonius, Iul. 81; Plutarch, Caes. 63).
+- [ ] Brutus's EID MAR denarius (RRC 508/3), 43–42 BC.
+- [ ] Etymologies: senātus ~ senex; cāsus translating ptōsis; Frucht from frūctus; Dom/duomo from domus; chez from casa; exercitus from exerceō.
+- [ ] Alesia: Alise-Sainte-Reine; BG 7.68–89; Vercingetorix handed over (BG 7.89) vs Plutarch's version; sinister and Roman augury.
+- [ ] Pictures: Brutus denarius (RRC 508/3, check caption); Gérôme, The Death of Caesar (Walters 37884, 1859–67).
