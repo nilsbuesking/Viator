@@ -672,3 +672,13 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - [ ] Q.E.D. as the Latin rendering of Euclid's ὅπερ ἔδει δεῖξαι (medieval/early modern).
 - [ ] Massilia founded c. 600 BC by Phocaeans.
 - [ ] Pictures: "Map Gallia Tribes Towns.png" (modern map; check the caption's regions); "Euclid's Elements, 1482.jpg" (Ratdolt, Venice 1482; check it is the Latin edition).
+
+## Latin Lecture XIX (lecture-19.js): present passive system (1st and 2nd conj.), agent
+
+- [x] Pliny, Letters 6.16.13 (`nam meātus animae, quī illī propter amplitūdinem corporis gravior et sonantior erat, ab iīs quī līminī obversābantur audiēbātur.`) checked against Nils's copy; length marks editorial.
+- [x] Caesar, BG 1.1 (`appellantur`, `continētur Garumnā flūmine …`) and Cicero, Cat. 1.1 (`cōnstrictam iam hōrum omnium scientiā tenērī coniūrātiōnem tuam nōn vidēs?`) checked against Nils's copy.
+- [x] Horace, Odes 1.11.7 `dum loquimur` checked against Nils's copy.
+- [ ] Linguistic claims: r-passive shared with Celtic, Hittite, Tocharian; impersonal origin (debated); -minī as an old participle (cf. Greek -menoi); loss of the synthetic passive in Romance.
+- [ ] Vegetius (Epitoma rei militaris 4.39) on the closed sailing season (c. 11 November to 10 March).
+- [ ] deus plural forms (dī/deī, deōrum/deum, dīs/deīs); videor, vīsus sum.
+- [ ] Pictures: Angelica Kauffmann, Pliny the Younger and his Mother at Misenum (1785, Princeton); "Cicero - Musei Capitolini.JPG" (check the identification note).

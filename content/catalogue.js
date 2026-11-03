@@ -14,10 +14,9 @@ Viator.setCatalogue([
     macrons: true,
     lengthMark: 'macron', lengthMarkName: 'macrons', lengthMarkExample: 'ā ē ī ō ū',
     lectureWord: 'Lectiō',
-    lectures: ['latin/lecture-01.js', 'latin/lecture-02.js', 'latin/lecture-03.js', 'latin/lecture-04.js', 'latin/lecture-05.js', 'latin/lecture-06.js', 'latin/lecture-07.js', 'latin/lecture-08.js', 'latin/lecture-09.js', 'latin/lecture-10.js', 'latin/lecture-11.js', 'latin/lecture-12.js', 'latin/lecture-13.js', 'latin/lecture-14.js', 'latin/lecture-15.js', 'latin/lecture-16.js', 'latin/lecture-17.js', 'latin/lecture-18.js'],
+    lectures: ['latin/lecture-01.js', 'latin/lecture-02.js', 'latin/lecture-03.js', 'latin/lecture-04.js', 'latin/lecture-05.js', 'latin/lecture-06.js', 'latin/lecture-07.js', 'latin/lecture-08.js', 'latin/lecture-09.js', 'latin/lecture-10.js', 'latin/lecture-11.js', 'latin/lecture-12.js', 'latin/lecture-13.js', 'latin/lecture-14.js', 'latin/lecture-15.js', 'latin/lecture-16.js', 'latin/lecture-17.js', 'latin/lecture-18.js', 'latin/lecture-19.js'],
     // the full first-year course: 40 lectures in the traditional order of topics
     planned: [
-      'The present passive system; the ablative of agent',
       'The perfect passive system; interrogative pronouns',
       'The fourth declension; ablatives of place from which and of separation',
       'The passive of the third and fourth conjugations',
