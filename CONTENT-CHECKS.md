@@ -662,3 +662,13 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - [ ] Lengths: potēns/potentis (vowel before nt), ingēns, fēlīx, trīstis, fidēlis, levis vs lēvis.
 - [ ] Etymologies: eager < Old French aigre < ācer; German Brief < breve; grand-mère / Old French grant; omnibus.
 - [ ] Pictures: "Como - Dome - Facade - Plinius the Elder.jpg" (late 15th-century statue; check date and that it is the Elder); "British Museum Fortuna statue.jpg" (check the attributes the caption mentions are generic, not claimed for this statue).
+
+## Latin Lecture XVIII (lecture-18.js): the relative pronoun
+
+- [x] Caesar, De bello Gallico 1.1 (opening sentence; `Germānīs, quī trāns Rhēnum incolunt, quibuscum continenter bellum gerunt`; `ea quae ad effēminandōs animōs pertinent`; `Quā dē causā`; `propterea quod … longissimē absunt`) checked against Nils's copy.
+- [x] Virgil, Aeneid 1.1 and Cicero, In Catilinam 1.2 (`pestem, quam tū in nōs … māchināris`) checked against Nils's copy (the bracketed "omnēs iam diū" is left out with an ellipsis).
+- [ ] Forms: quīs as a rare alternative to quibus (accepted in the paradigm exercise); cui usually one syllable in classical verse.
+- [ ] Etymology: quī/quis and wer/was/Gothic ƕas from *kʷ-; German der as demonstrative-relative.
+- [ ] Q.E.D. as the Latin rendering of Euclid's ὅπερ ἔδει δεῖξαι (medieval/early modern).
+- [ ] Massilia founded c. 600 BC by Phocaeans.
+- [ ] Pictures: "Map Gallia Tribes Towns.png" (modern map; check the caption's regions); "Euclid's Elements, 1482.jpg" (Ratdolt, Venice 1482; check it is the Latin edition).
