@@ -840,3 +840,12 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - Culture quotations: Pliny 6.16.5 (*Ūsus ille sōle, mox frīgidā, gustāverat iacēns studēbatque*), 6.20.3 (*minus formīdolōsus quia Campāniae solitus*), 6.16.12.
 - Principal parts: *fruor* (frūctus sum, fut. part. fruitūrus), *fungor* (fūnctus sum), *potior* (+ abl. or gen.), *nāscor* (nātus sum), *morior* (mortuus sum, moritūrus), *proficīscor* (profectus sum); *vulgus* neuter (occasionally masc.); *vehiculum* ~ Wagen, wain.
 - Picture: *Galunggung.jpg* (lightning in the 1982 Galunggung eruption, USGS). Confirm subject, date and public-domain status.
+
+## Latin Lecture XXXVI (Cālīgō tergīs imminēbat)
+
+- Reading: Pliny, *Epistulae* 6.20.13–15, from `sources/latin-pliny-ep-6-20.txt`; length marks editorial; the dashes around the description of the night printed as commas. *cōnsīderāmus* as in the copy (pluperfect of cōnsīdō with perfect cōnsīdī; many editions print this; some may have *cōnsēderāmus*). Check vowel lengths *cālīgō*, *quirītātūs*, *nōscitābant*, *illūnis*.
+- Interpretation notes to check: the “torrent” as a pyroclastic density current (widely held, hedged); *mentītīs* with passive sense; *mundō* as dative of reference; *audīrēs* potential subjunctive.
+- Background claims: Stoic conflagration and Seneca’s *Natural Questions* on the end of the world (general reference, no passage cited); Bryullov studied Pliny’s letters, and the young man with his fallen mother is usually identified as Pliny and his mother — please confirm.
+- German comparison table (Dativ/Akkusativ): *überzeugen, beneiden, schonen* + Akk.; *helfen* + Dat. vs Latin *iuvō* + acc.; *gewogen sein* as rendering of *faveō*.
+- Principal parts: *faveō* (fāvī, fautum), *ignōscō* (ignōvī, ignōtum), *noceō* (nocuī, nocitum), *parcō* (pepercī, parsūrus), *pāreō* (pāruī), *persuādeō* (persuāsī, persuāsum), *immineō* (no perfect), *dēsum* (dēfuī, dēfutūrus); *coniūnx, coniugis* m/f; *parēns* gen. pl. *parentum*.
+- Picture: *Karl Brullov - The Last Day of Pompeii - Google Art Project.jpg* (State Russian Museum). Confirm dates (1830–33) and collection.
