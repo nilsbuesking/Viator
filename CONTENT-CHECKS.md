@@ -723,3 +723,13 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - [ ] Cicero, De re publica: discussion of kingship as a form of rēs pūblica (Book 1); palimpsest Vat. lat. 5757, Augustine on the Psalms, Angelo Mai 1819.
 - [ ] Romance and Germanic: rien < rem; lundi/lunedì < Lūnae diēs; Dienstag (Tiw, probably); jour/giorno < diurnum; planetary week in Rome around the turn of the eras.
 - [ ] Pictures: "Monumentum Ancyranum Res Gestae Divi Augusti Part 1.jpg" (check it shows the Latin text); "Cicero, De re publica, Vat. Lat. 5757.jpg".
+
+## Latin Lecture XXIV (lecture-24.js): participles
+
+- [x] Pliny 6.16.2 (`quasi semper vīctūrus occiderit`), 6.16.8–9 (`Vertit ille cōnsilium et quod studiōsō animō incohāverat obit maximō`; `ascendit ipse nōn Rectīnae modo sed multīs … lātūrus auxilium`), 6.16.11 (`gubernātōrī ut ita faceret monentī`), 6.16.20 (`habitus corporis quiēscentī quam dēfūnctō similior`) checked against Nils's copy; length marks editorial (check vīctūrus with long ī).
+- [x] Virgil, Aeneid 1.3 (`multum ille et terrīs iactātus et altō`), 1.9 (`quidve dolēns`) checked against Nils's copy.
+- [ ] Suetonius, Claudius 21 (Fucine Lake, AD 52; Havē imperātor, moritūrī tē salūtant; combatants condemned criminals); Seneca, Letters 7.3.
+- [ ] Ablative of present participles (-e as participle, -ī as adjective); iēns, euntis; tollō, sustulī, sublātum from sus-tollō.
+- [ ] Gladiatorial details: mūnus origins at funerals (264 BC tradition); raised finger; the call "mitte"; uncertainty of the thumb gesture; Flamma and Felix as attested gladiator names.
+- [ ] Etymologies: scūtum → escutcheon, esquire; bracchium a Greek loan; harēna/arēna.
+- [ ] Pictures: Villa San Marco, Stabiae, Room 60 landscape with maritime villa; Gérôme, Ave Caesar! Morituri te salutant (1859, Yale).
