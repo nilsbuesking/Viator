@@ -801,3 +801,13 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - Perfect subjunctive endings: written with short *i* (*-eris, -erimus, -eritis*), with a note that the original long *ī* is attested; check against Wheelock / Allen & Greenough.
 - Vocabulary: *lavō* (lāvī, lautum / lavātum / lōtum), *resīdō* (resēdī, no supine), *sinus* (4th decl., m.), *vadum* (link with *vādō* and German *waten* — check etymology), *quamquam* with participle in Pliny.
 - Pictures: *Fresco of woman with lyre Villa San Marco in Stabiae.jpg*; *Pompeii family feast painting Naples.jpg*. Confirm subject, findspot and museum.
+
+## Latin Lecture XXXII (Quiēvit vērissimō somnō)
+
+- Reading: Pliny, *Epistulae* 6.16.13–14, from `sources/latin-pliny-ep-6-16.txt`; length marks editorial. Check against a critical text; vowel lengths *relūcēbant*, *obversābantur*, *pervigilāverant*, *surrēxerat*.
+- Note on *sī longior in cubiculō mora, exitus negārētur*: the imperfect subjunctive in an unreal past condition described as a vivid usage. Check a commentary (e.g. Sherwin-White).
+- Culture quotations: Catullus 5.5–6, 5.10–13 (from `sources/latin-readings.txt`; the copy has *mi* and *dein*); Pliny 6.16.22 *quaeque statim, cum maximē vēra memorantur, audieram*. The interpretation of *cum tantum sciat* (causal, or subjunctive by attraction) is hedged; check a commentary (Fordyce, Thomson).
+- Etymology claims to check: *ferō* ~ bear, gebären, Bürde, Bahre (PIE *bher-); *tulī, tollō, tolerō* ~ German dulden, Geduld (*tel-); *lātum* < *tlātum; *rettulī* < *re-tetulī. *sustulī, sublātum*: described as from *sus-tollō* or borrowed from *sufferō* (both explanations are found).
+- Principal parts: *afferō* (attulī, allātum), *cōnferō* (contulī, collātum), *offerō* (obtulī, oblātum), *referō* (rettulī, relātum), *dēferō* (dētulī, dēlātum), *differō* (distulī, dīlātum), *ārdeō* (ārsī, ārsum), *dēserō* (dēseruī, dēsertum).
+- Claim: “Plinian” eruptions named after Pliny’s description.
+- Picture: *Joseph Wright of Derby - Vesuvius in Eruption, with a View over the Islands in the Bay of Naples - Google Art Project.jpg* (Tate, c. 1776–80). Confirm date and collection.
