@@ -859,3 +859,13 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - Grammar: *fīō* with long ī except before *-er* and in *fit*; *fīmus, fītis* rare; *fīō* cognate with *fuī*, English *be*, German *bin*. German comparison *heißen* + infinitive ≈ *iubeō*.
 - Vocabulary: *vetō* (vetuī, vetitum), *impellō* (impulī, impulsum), *excerpō* (excerpsī, excerptum), *corripiō* (corripuī, correptum), *abrumpō* (abrūpī, abruptum), *ingredior* (ingressus sum), *balineum / balneum*; *duodēvīcēnsimus* beside *duodēvīcēsimus*.
 - Picture: *BM Harl 2493 f 213v Livy copied by Petrarch.jpg* (British Library, Harley MS 2493). The file name says “copied by Petrarch”; the caption says only that it belonged to him and has his notes. Please confirm which is right.
+
+## Latin Lecture XXXVIII (Regressī Mīsēnum)
+
+- Reading: Pliny, *Epistulae* 6.20.16–20 with the closing sentence, from `sources/latin-pliny-ep-6-20.txt`; length marks editorial (*leges* of the copy printed *legēs*). Check vowel lengths *oblīsī*, *tenuāta*, *lūridus*, *lymphātī*, *vāticinātiōnibus*, *requīsīstī*, *aliōquī*.
+- Interpretation notes: *lūdificābantur* (sense debated); *miserō … sōlāciō* (construction); *aliōquī* standing for the protasis.
+- Background claims: Misenum about 30 km from Vesuvius; Tacitus’ *Histories* covered AD 69–96 and survive for 69–70 only; Pliny published both letters himself.
+- Culture quotations: Pliny 6.16.4 (*Erat Mīsēnī … appārēre nūbem*), 6.16.20 (*Ubi diēs redditus …*). Date phrase *Nōnum Kal. Septembrēs* = 24 August as transmitted.
+- Grammar: *eō* perfect *iī* (also *īvī*), contracted *īstī, īstis, īsse*; *sīc ītur ad astra* (Virgil, *Aeneid* 9.641, **from memory**, please confirm the reference); *abhinc* + accusative.
+- Vocabulary: *pereō* (periī, peritum), *trānseō*, *praetereō*, *ineō* (cōnsilium inīre); *rūs, rūris* n.; *humus* f.; *nebula* ~ Nebel; *nix* ~ snow, Schnee (hedged); *dōnec*.
+- Picture: *340th Bombardment Group B-25 Mitchell covered with ash from Mount Vesuvius.jpg* (March 1944). Confirm date and public-domain status.
