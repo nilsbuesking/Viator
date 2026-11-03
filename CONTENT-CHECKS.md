@@ -880,3 +880,13 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - German parallels: Konjunktiv II after a negative antecedent (*niemanden, der das wüsste*); *gehen* + infinitive ≈ supine in -um; *zu* + infinitive ≈ supine in -ū.
 - Vocabulary: *nefās* (indecl.), *pūmex* m. (sometimes f. in poetry), *tribuō* (tribuī, tribūtum), *resecō* (resecuī, resectum), *liquō*, *quisquam, quicquam / quidquam*.
 - Picture: *British Museum, Babylon Astronomical Diary, 331-330 BC.jpg*. Confirm the tablet and its date.
+
+## Latin Lecture XL (Scrībere legenda)
+
+- Reading: Virgil, *Aeneid* 1.1–11, from `sources/latin-readings.txt` with the copy’s length marks; *īnferretque*, *mihi*, *īnsignem* printed as in most editions, following the copy’s own notes. Check against a critical text (Mynors, OCT; Conte, Teubner).
+- Interpretation notes to check: *quō nūmine laesō* (a classic crux); *prīmus* and Antenor; *Ītaliam* with lengthened first syllable; *Lāvīnia* as four syllables; *memorem* as transferred epithet; *Latiō* dative of direction.
+- **From memory, not from a supplied text:** Aeneas first named at *Aeneid* 1.92; Augustus published the poem against Virgil’s wish (ancient Lives); the *Odyssey* begins with “man”; Cato’s *Carthāgō dēlenda est* not attested in this Latin form (Plutarch, *Cato Maior* 27, in Greek). Please confirm, especially the Cato point.
+- Culture quotations: Pliny 6.16.7 (*Magnum propiusque nōscendum ut ērudītissimō virō vīsum*), 6.16.3 (*facere scrībenda aut scrībere legenda*), 6.20.8 (*multa ibi mīranda*), 6.20.20 (*abeundī cōnsilium*).
+- German: *Gerundivum* (*das zu lesende Buch*); *lassen* for *cūrō* + gerundive.
+- Vocabulary: *canō* (cecinī, cantum), *laedō* (laesī, laesum), *doleō* (doluī, dolitūrus), *volvō* (volvī, volūtum; ~ wälzen), *moenia* n. pl., *superī* (gen. pl. superum), *īnsignis* (vowel before gn disputed).
+- Picture: *Virgil Mosaic Bardo Museum Tunis.jpg* (Hadrumetum mosaic; the scroll usually read as Aen. 1.8). A different photograph of the same mosaic is in an earlier lecture. Confirm date (3rd century AD).
