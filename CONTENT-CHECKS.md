@@ -781,3 +781,13 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - [ ] bāsium possibly from northern Italy; S.T.T.L. on epitaphs.
 - [ ] Sound: elisions in line 1; hendecasyllable.
 - [ ] Pictures: "Fresco portrait of the baker Terentius Neo and his wife, from Pompeii.jpg" (identification traditional, now doubted); "Janus coin1.jpg" (check it is an as or at least a Janus bronze).
+
+## Latin Lecture XXX (Adeō solūtus metū)
+
+- Reading: Pliny, *Epistulae* 6.16.8–10, from `sources/latin-pliny-ep-6-16.txt`; length marks editorial; the dashes of the copy printed as round brackets. Check against a critical text (Mynors, OCT), especially *Rectinae Tasci* (manuscript variation in the second name), *incohaverat*, *deprenderat*.
+- Culture quotations: 6.16.14 (*ita … opplēta surrēxerat, ut … negārētur*) and 6.16.12 (*utque timōrem eius suā sēcūritāte lēnīret*); check wording and length marks (*diaeta*, *pūmicibus*, *balineum*).
+- Claim: the elder Pliny kept a secretary with book and tablets beside him even when travelling (*Letters* 3.5). Check.
+- Claim: the rowing arrangement of a quadrireme is debated. Check against a recent handbook (e.g. Morrison & Coates).
+- Vocabulary to confirm: *cōdicillī* (m. pl.), *quadrirēmis* (f., i-stem), *gubernāculum*, *amoenitās*, *discrīmen*, *dēprendō / dēprehendō* (dēprēnsum), *lēniō* (lēnīvī), *tālis*, *tot* (indecl.).
+- Aeneid citations in notes: 1.9 *tot volvere cāsūs*; 1.1 *Trōiae … ab ōrīs*.
+- Pictures: *Schiffsrelief Palestrina.jpg* (Praeneste warship relief, Vatican; caption hedges that it is not a quadrireme and the Actium link is conventional); *Schulrelief.jpg* (Neumagen school relief, Trier; interpretation as teacher and pupils is usual but not certain). Confirm both show what the captions say, and the date and museum.
