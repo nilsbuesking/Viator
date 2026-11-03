@@ -831,3 +831,12 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - Interpretations: the Aeneas parallel (self-dramatisation vs self-irony); *quod mē morētur* as a subjunctive of reported reason; *nōn commissūrōs nōs ut* … glossed “we would not go so far as to”.
 - Vocabulary: *superstes, superstitis* (one ending); *iuvenis* gen. pl. *iuvenum*; *abscondō* (abscondī / abscondidī, absconditum); *cōgō* (coēgī, coāctum); *proinde* scanned as two syllables in verse.
 - Pictures: *Wall painting - caricature of Aeneas fleeing with his father and his son - Stabiae - Napoli MAN 9089.jpg* (confirm findspot Stabiae and whether the heads are apes or dogs); *Capo Miseno e spiaggia di Miliscola.jpg*.
+
+## Latin Lecture XXXV (Multās formīdinēs patimur)
+
+- Reading: Pliny, *Epistulae* 6.20.6–9, from `sources/latin-pliny-ep-6-20.txt`; length marks editorial. Check vowel lengths *diēī*, *quassātīs*, *fulta*, *resorbērī*, *harēnīs*, *igneī* (short e), *dehīscēbat*.
+- Interpretation notes to check: *ēgressī tēcta* (direct object with ēgredior; “found in the historians and imperial prose”); *fulguribus … similēs et maiōrēs* (dative and ablative of comparison at once); *quodque in pavōre simile prūdentiae* referring forward.
+- Background claims: the sea’s withdrawal interpreted as uplift or seismic sea wave; volcanic lightning; deponents as survivors of the Indo-European middle (a simplification); parallels Thucydides/Tacitus on crowds (general, no specific passage cited).
+- Culture quotations: Pliny 6.16.5 (*Ūsus ille sōle, mox frīgidā, gustāverat iacēns studēbatque*), 6.20.3 (*minus formīdolōsus quia Campāniae solitus*), 6.16.12.
+- Principal parts: *fruor* (frūctus sum, fut. part. fruitūrus), *fungor* (fūnctus sum), *potior* (+ abl. or gen.), *nāscor* (nātus sum), *morior* (mortuus sum, moritūrus), *proficīscor* (profectus sum); *vulgus* neuter (occasionally masc.); *vehiculum* ~ Wagen, wain.
+- Picture: *Galunggung.jpg* (lightning in the 1982 Galunggung eruption, USGS). Confirm subject, date and public-domain status.
