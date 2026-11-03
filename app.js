@@ -7,7 +7,7 @@
   'use strict';
 
   const CONTENT_BASE = (document.currentScript && document.currentScript.dataset.content) || 'content/';
-  const BUILD = '2026-11-03 x';           // shown under Progress so you can tell which version is running
+  const BUILD = '2026-11-03 y';           // shown under Progress so you can tell which version is running
   const FORMAT = 1;                       // progress format version; bump + migrate() on change
   const STORE_KEY = 'viator.progress';
   const INTERVALS = [0, 1, 2, 4, 8, 16, 32, 64]; // Leitner box → days until next review
@@ -99,6 +99,13 @@
   // special lectures (special: true) sort after the numbered ones, show ✦ instead of a numeral, and are left out of “Continue”
   const lectures = () => (registry.lectures[course.id] || []).slice().sort((a, b) => (!!a.special - !!b.special) || a.number - b.number);
   const lnum = l => l.special ? '✦' : roman(l.number);
+  // Roman numerals are scaled to fit their space on a phone: XXXVIII is fourteen times as wide as I.
+  // Widths per em of the display font (Marcellus); other characters count as 0.6.
+  const NUMW = { I: 0.25, V: 0.64, X: 0.68, L: 0.44, C: 0.66, D: 0.72, M: 0.86, '✦': 0.82 };
+  const fitNum = (t, maxPx, boxPx) => {
+    const em = [...String(t)].reduce((a, ch) => a + (NUMW[ch] || 0.6), 0);
+    return `font-size:${Math.min(maxPx, Math.floor(boxPx / Math.max(em, 0.1)))}px`;
+  };
   const findLecture = id => lectures().find(l => l.id === id);
   const M = html => P.settings.macronsShown ? html : stripMacrons(html);
 
@@ -283,7 +290,7 @@
       const done = lp ? secs.filter(s => lp.sections[s.id]).length : 0;
       const complete = done === secs.length;
       return `<button class="lect" data-lecture="${l.id}">
-        <span class="num">${lnum(l)}</span>
+        <span class="num" style="${fitNum(lnum(l), 27, 56)}">${lnum(l)}</span>
         <span><span class="t la">${M(esc(l.title))}</span><br><span class="s">${esc(l.subtitle)}</span>
           <span class="dots" aria-label="${done} of ${secs.length} sections done">${secs.map(s => `<i class="${lp && lp.sections[s.id] ? 'on' : ''}"></i>`).join('')}</span></span>
         <span class="pill ${complete ? 'done' : ''}">${complete ? 'Done' : `${l.minutes} min`}</span>
@@ -291,7 +298,7 @@
     };
     const items = ls.filter(l => !l.special).map(item).join('');
     const specials = ls.filter(l => l.special).map(item).join('');
-    const planned = (course.planned || []).map((t, i) => `<div class="lect planned"><span class="num">${roman(ls.filter(l => !l.special).length + i + 1)}</span><span><span class="t">${esc(t)}</span></span><span class="pill">Planned</span></div>`).join('');
+    const planned = (course.planned || []).map((t, i) => `<div class="lect planned"><span class="num" style="${fitNum(roman(ls.filter(l => !l.special).length + i + 1), 27, 56)}">${roman(ls.filter(l => !l.special).length + i + 1)}</span><span><span class="t">${esc(t)}</span></span><span class="pill">Planned</span></div>`).join('');
     return `
       <section class="today panel">
         <p class="eyebrow">Today</p>
@@ -334,7 +341,7 @@
       case 'test': body = exerciseRunner('test', l); break;
     }
     return `
-      <div class="lhead"><span class="numeral">${lnum(l)}</span>
+      <div class="lhead"><span class="numeral" style="${fitNum(lnum(l), 54, 110)}">${lnum(l)}</span>
         <div><p class="eyebrow">${esc(course.lectureWord || 'Lecture')}</p><h1 class="la">${M(esc(l.title))}</h1><p>${esc(l.subtitle)}</p></div></div>
       <nav class="chips" aria-label="Lecture sections">${chips}</nav>
       <section class="stack" id="secbody">${body}</section>`;

@@ -10,3 +10,5 @@ results; every line should report no errors and no incorrect answers. Screenshot
 go to /tmp/viator-shots. `dates.py` needs `python-dateutil` (independent Easter
 calculation). Google Fonts are unreachable in some sandboxes; that console message
 is harmless.
+
+- `numerals_fit.py`: checks that the Roman numerals in the lecture list and lecture header fit on a phone screen (uses the Marcellus font from `tests/fonts`, SIL Open Font Licence).

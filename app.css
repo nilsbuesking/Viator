@@ -136,8 +136,8 @@ tbody th { font-family: var(--font-ui); font-size: 0.85rem; font-weight: 500; co
 .nudge p { margin: 0; flex: 1 1 200px; min-width: 0; }
 
 .lectures { display: flex; flex-direction: column; border-top: 1px solid var(--line); }
-.lect { display: grid; grid-template-columns: 52px 1fr auto; gap: 12px; align-items: center; padding: 14px 0; border-bottom: 1px solid var(--line); background: none; border-left: 0; border-right: 0; border-top: 0; text-align: left; width: 100%; }
-.lect .num { font-family: var(--font-display); font-size: 1.7rem; text-align: center; color: var(--accent); line-height: 1; }
+.lect { display: grid; grid-template-columns: 60px 1fr auto; gap: 12px; align-items: center; padding: 14px 0; border-bottom: 1px solid var(--line); background: none; border-left: 0; border-right: 0; border-top: 0; text-align: left; width: 100%; }
+.lect .num { font-family: var(--font-display); font-size: 1.7rem; text-align: center; color: var(--accent); line-height: 1; white-space: nowrap; letter-spacing: -0.02em; }
 .lect .t { font-family: var(--font-text); font-weight: 600; font-size: 1.05rem; }
 .lect .s { font-size: 0.85rem; color: var(--muted); }
 .lect.planned .num, .lect.planned .t { color: var(--muted); font-weight: 400; }
@@ -151,6 +151,7 @@ tbody th { font-family: var(--font-ui); font-size: 0.85rem; font-weight: 500; co
 /* Lecture */
 .lhead { display: grid; grid-template-columns: auto 1fr; gap: 16px; align-items: center; }
 .lhead .numeral { font-family: var(--font-display); font-size: 3.4rem; line-height: 0.85; color: var(--accent); }
+.lhead .numeral { white-space: nowrap; }
 .lhead h1 { font-family: var(--font-text); font-size: 1.5rem; margin: 0; line-height: 1.2; }
 .lhead p { margin: 4px 0 0; color: var(--muted); font-size: 0.9rem; }
 .chips { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 4px; scrollbar-width: none; margin: 0 calc(-1 * max(16px, env(safe-area-inset-left, 0px))); padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: 16px; }
