@@ -772,3 +772,12 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - [ ] Tacitus, Histories: AD 69–96 planned; surviving to AD 70 (Books 1–4, part of 5).
 - [ ] Etymologies: meilleur < meliōrem; pire < peior; mayor < maior; avunculus diminutive of avus, uncle via oncle.
 - [ ] Pictures: "Statue of Gaius Cornelius Tacitus in front of the austrian parliament.jpg" (19th-century, Vienna); "Pliny the Younger, Letters, Biblioteca Malatestiana.jpg" (check it is Renaissance).
+
+## Latin Lecture XXIX (lecture-29.js): present subjunctive; jussive; purpose
+
+- [x] Reading: Catullus 5, complete, from Nils's copy (`Vīvāmus, mea Lesbia, atque amēmus … cum tantum sciat esse bāsiōrum.`); length marks editorial; printed ūnius (short second i in verse; the copy has unius). Check against a critical text (Mynors OCT or Thomson).
+- [x] Horace, Odes 1.11.6–7 (`sapiās, vīna liquēs …`) and Pliny 6.16.1 (`quō vērius trādere posterīs possīs`) checked against Nils's copy.
+- [ ] conturbāre as a business term (fraudulent bankruptcy); invidēre and the evil eye; ūnius assis aestimāre (genitive of value).
+- [ ] bāsium possibly from northern Italy; S.T.T.L. on epitaphs.
+- [ ] Sound: elisions in line 1; hendecasyllable.
+- [ ] Pictures: "Fresco portrait of the baker Terentius Neo and his wife, from Pompeii.jpg" (identification traditional, now doubted); "Janus coin1.jpg" (check it is an as or at least a Janus bronze).
