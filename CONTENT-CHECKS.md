@@ -744,3 +744,12 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - [ ] Distance Misenum–Stabiae (about 30 km); modern views on the cause of death.
 - [ ] Vocabulary: cālīgō (long ā, ī); concidō vs concīdō; poscō, poposcī; hauriō, hausī, haustum; obstruō, obstrūxī, obstrūctum.
 - [ ] Pictures: "FastiCapitolini.JPG"; "Vesuvius from Castellammare di Stabia.jpg".
+
+## Latin Lecture XXVI (lecture-26.js): infinitives; indirect statement
+
+- [x] Reading: Pliny, Letters 6.16.4–5, full passage from Nils's copy (`Erat Mīsēnī … nōn alia magis arbor quam pīnus expresserit.`); length marks editorial; the dash-parenthesis rendered with brackets. Check against a critical text (Mynors OCT).
+- [x] Cicero, Cat. 1.1 (`Patēre tua cōnsilia nōn sentīs, cōnstrictam iam hōrum omnium scientiā tenērī coniūrātiōnem tuam nōn vidēs?`); Pliny 6.16.7 (`respondī studēre mē mālle`), 6.16.13 (`ignēs relictōs dēsertāsque vīllās per sōlitūdinem ārdēre … dictitābat`); Caesar, BG 1.1 (`quam Gallōs obtinēre dictum est`) checked against Nils's copy.
+- [ ] Forms: amātum īrī; fore = futūrus esse; amāsse; pīnus (4th/2nd decl.); speciēs 5th decl.; indicō vs indīcō.
+- [ ] Background: elder Pliny as praefectus classis Mīsēnēnsis (equestrian post); Natural History in 37 books; Pliny, Letters 3.5 on his working habits; Pliny's mother as the elder Pliny's sister; "Plinian eruption" named after the letter.
+- [ ] putō originally "prune, clean"; classis originally a "summoning".
+- [ ] Pictures: "Capo Miseno.jpg"; "Umbrella pine on Palatine Hill in Rome.jpg".

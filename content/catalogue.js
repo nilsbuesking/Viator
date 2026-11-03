@@ -14,10 +14,9 @@ Viator.setCatalogue([
     macrons: true,
     lengthMark: 'macron', lengthMarkName: 'macrons', lengthMarkExample: 'ā ē ī ō ū',
     lectureWord: 'Lectiō',
-    lectures: ['latin/lecture-01.js', 'latin/lecture-02.js', 'latin/lecture-03.js', 'latin/lecture-04.js', 'latin/lecture-05.js', 'latin/lecture-06.js', 'latin/lecture-07.js', 'latin/lecture-08.js', 'latin/lecture-09.js', 'latin/lecture-10.js', 'latin/lecture-11.js', 'latin/lecture-12.js', 'latin/lecture-13.js', 'latin/lecture-14.js', 'latin/lecture-15.js', 'latin/lecture-16.js', 'latin/lecture-17.js', 'latin/lecture-18.js', 'latin/lecture-19.js', 'latin/lecture-20.js', 'latin/lecture-21.js', 'latin/lecture-22.js', 'latin/lecture-23.js', 'latin/lecture-24.js', 'latin/lecture-25.js'],
+    lectures: ['latin/lecture-01.js', 'latin/lecture-02.js', 'latin/lecture-03.js', 'latin/lecture-04.js', 'latin/lecture-05.js', 'latin/lecture-06.js', 'latin/lecture-07.js', 'latin/lecture-08.js', 'latin/lecture-09.js', 'latin/lecture-10.js', 'latin/lecture-11.js', 'latin/lecture-12.js', 'latin/lecture-13.js', 'latin/lecture-14.js', 'latin/lecture-15.js', 'latin/lecture-16.js', 'latin/lecture-17.js', 'latin/lecture-18.js', 'latin/lecture-19.js', 'latin/lecture-20.js', 'latin/lecture-21.js', 'latin/lecture-22.js', 'latin/lecture-23.js', 'latin/lecture-24.js', 'latin/lecture-25.js', 'latin/lecture-26.js'],
     // the full first-year course: 40 lectures in the traditional order of topics
     planned: [
-      'Infinitives; indirect statement',
       'Comparison of adjectives; the ablative of comparison',
       'Irregular comparison; comparison of adverbs',
       'The present subjunctive; jussive and purpose clauses',
