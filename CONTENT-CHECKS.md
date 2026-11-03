@@ -849,3 +849,13 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - German comparison table (Dativ/Akkusativ): *überzeugen, beneiden, schonen* + Akk.; *helfen* + Dat. vs Latin *iuvō* + acc.; *gewogen sein* as rendering of *faveō*.
 - Principal parts: *faveō* (fāvī, fautum), *ignōscō* (ignōvī, ignōtum), *noceō* (nocuī, nocitum), *parcō* (pepercī, parsūrus), *pāreō* (pāruī), *persuādeō* (persuāsī, persuāsum), *immineō* (no perfect), *dēsum* (dēfuī, dēfutūrus); *coniūnx, coniugis* m/f; *parēns* gen. pl. *parentum*.
 - Picture: *Karl Brullov - The Last Day of Pompeii - Google Art Project.jpg* (State Russian Museum). Confirm dates (1830–33) and collection.
+
+## Latin Lecture XXXVII (Poscō librum Titī Līvī)
+
+- Reading: Pliny, *Epistulae* 6.20.1–5, from `sources/latin-pliny-ep-6-20.txt`, with the Virgil quotation as corrected by Nils; length marks editorial; dashes printed as brackets. Check vowel lengths *abrūperam*, *irrūpit*, *resēdimus*, *duodēvīcēnsimum*, *Līvī*, *sēgnius*, *formīdolōsus*.
+- Interpretation notes: *surgēbam* as conative imperfect; *sī quiēsceret* subjunctive as part of his intention; *crēderentur* personal passive “seemed”; Pliny’s self-presentation (steadiness vs self-irony) — readings differ.
+- **From memory, not from a supplied text:** Pliny, *Letters* 3.5 (160 notebooks of extracts written on both sides; “read nothing without excerpting”); Vulgate Genesis 1:3 *fīat lūx*. Please confirm both.
+- Culture quotations from the supplied texts: Pliny 6.16.1, 6.16.7 (*Iubet liburnicam aptārī*), 6.16.8, 6.16.11; Catullus 85.
+- Grammar: *fīō* with long ī except before *-er* and in *fit*; *fīmus, fītis* rare; *fīō* cognate with *fuī*, English *be*, German *bin*. German comparison *heißen* + infinitive ≈ *iubeō*.
+- Vocabulary: *vetō* (vetuī, vetitum), *impellō* (impulī, impulsum), *excerpō* (excerpsī, excerptum), *corripiō* (corripuī, correptum), *abrumpō* (abrūpī, abruptum), *ingredior* (ingressus sum), *balineum / balneum*; *duodēvīcēnsimus* beside *duodēvīcēsimus*.
+- Picture: *BM Harl 2493 f 213v Livy copied by Petrarch.jpg* (British Library, Harley MS 2493). The file name says “copied by Petrarch”; the caption says only that it belonged to him and has his notes. Please confirm which is right.

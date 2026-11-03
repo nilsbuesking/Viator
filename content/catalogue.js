@@ -14,10 +14,9 @@ Viator.setCatalogue([
     macrons: true,
     lengthMark: 'macron', lengthMarkName: 'macrons', lengthMarkExample: 'ā ē ī ō ū',
     lectureWord: 'Lectiō',
-    lectures: ['latin/lecture-01.js', 'latin/lecture-02.js', 'latin/lecture-03.js', 'latin/lecture-04.js', 'latin/lecture-05.js', 'latin/lecture-06.js', 'latin/lecture-07.js', 'latin/lecture-08.js', 'latin/lecture-09.js', 'latin/lecture-10.js', 'latin/lecture-11.js', 'latin/lecture-12.js', 'latin/lecture-13.js', 'latin/lecture-14.js', 'latin/lecture-15.js', 'latin/lecture-16.js', 'latin/lecture-17.js', 'latin/lecture-18.js', 'latin/lecture-19.js', 'latin/lecture-20.js', 'latin/lecture-21.js', 'latin/lecture-22.js', 'latin/lecture-23.js', 'latin/lecture-24.js', 'latin/lecture-25.js', 'latin/lecture-26.js', 'latin/lecture-27.js', 'latin/lecture-28.js', 'latin/lecture-29.js', 'latin/lecture-30.js', 'latin/lecture-31.js', 'latin/lecture-32.js', 'latin/lecture-33.js', 'latin/lecture-34.js', 'latin/lecture-35.js', 'latin/lecture-36.js'],
+    lectures: ['latin/lecture-01.js', 'latin/lecture-02.js', 'latin/lecture-03.js', 'latin/lecture-04.js', 'latin/lecture-05.js', 'latin/lecture-06.js', 'latin/lecture-07.js', 'latin/lecture-08.js', 'latin/lecture-09.js', 'latin/lecture-10.js', 'latin/lecture-11.js', 'latin/lecture-12.js', 'latin/lecture-13.js', 'latin/lecture-14.js', 'latin/lecture-15.js', 'latin/lecture-16.js', 'latin/lecture-17.js', 'latin/lecture-18.js', 'latin/lecture-19.js', 'latin/lecture-20.js', 'latin/lecture-21.js', 'latin/lecture-22.js', 'latin/lecture-23.js', 'latin/lecture-24.js', 'latin/lecture-25.js', 'latin/lecture-26.js', 'latin/lecture-27.js', 'latin/lecture-28.js', 'latin/lecture-29.js', 'latin/lecture-30.js', 'latin/lecture-31.js', 'latin/lecture-32.js', 'latin/lecture-33.js', 'latin/lecture-34.js', 'latin/lecture-35.js', 'latin/lecture-36.js', 'latin/lecture-37.js'],
     // the full first-year course: 40 lectures in the traditional order of topics
     planned: [
-      'Jussive noun clauses; the verb fīō',
       'The verb eō; constructions of place and time',
       'Relative clauses of characteristic; the dative of reference; supines',
       'Gerund and gerundive',
