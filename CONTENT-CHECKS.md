@@ -753,3 +753,13 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - [ ] Background: elder Pliny as praefectus classis Mīsēnēnsis (equestrian post); Natural History in 37 books; Pliny, Letters 3.5 on his working habits; Pliny's mother as the elder Pliny's sister; "Plinian eruption" named after the letter.
 - [ ] putō originally "prune, clean"; classis originally a "summoning".
 - [ ] Pictures: "Capo Miseno.jpg"; "Umbrella pine on Palatine Hill in Rome.jpg".
+
+## Latin Lecture XXVII (lecture-27.js): comparison of adjectives
+
+- [x] Reading: Pliny, Letters 6.16.6–7, full passage from Nils's copy (`Nam longissimō velut truncō … quod scrīberem dederat.`); length marks editorial. Check against a critical text.
+- [x] Caesar, BG 1.1 (`Hōrum omnium fortissimī sunt Belgae`; `longissimē absunt`); Pliny 6.16.11 (`quō propius accēderent, calidior et dēnsior`), 6.16.13 (`gravior et sonantior`), 6.16.17; Cicero, Cat. 1.1 (`hic mūnītissimus habendī senātūs locus`) checked against Nils's copy.
+- [ ] Comparative suffix: Latin -ior and Germanic -iza/-ōza from *-yos-; superlative relations (-st, -istos, -issimus).
+- [ ] Olympic motto: Henri Didon; adopted by Coubertin in the 1890s; "Communiter" added by the IOC in 2021.
+- [ ] Natural History: manuscript S. XI.1 (Malatestiana, 1446?); editio princeps Venice 1469; the 1481 edition picture.
+- [ ] Vocabulary: liburnica (Liburni); pondus → Pfund via pondō; nōscō ~ kennen/know; ērudiō from rudis.
+- [ ] Pictures: "Plinio il vecchio, naturalis historia, 1446, manoscritto S. XI.1, 01.JPG" (check library and date); "Plinius, Naturalis Historia (1481).jpg".
