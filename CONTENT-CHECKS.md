@@ -919,3 +919,11 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - Culture quotations from Alfred's Preface (Sweet pp. 4, 6): *Ælfrēd kyning hāteð grētan Wǣrferð biscep …*; *For ðȳ mē ðyncð bętre, gif ēow swǣ ðyncð*. Sweet's *bętre* printed *betre* (ę → e, as elsewhere).
 - Picture: *Cambridge Corpus Christi College MS 173 (aka Parker Chronicle) folio 1r …* — confirm it is fol. 1r (regnal list).
 - Engine: Sweet's raised dot (u·nheánlice, ǫnf·unden) is now treated as part of the word, so those words can be tapped in the “As printed” view.
+
+## Old English Lecture IV (The building of Heorot)
+
+- Reading: Beowulf 53–85, Klaeber (1922) as transcribed online (`sources/beowulf-klaeber-1922-lines-1-2601.txt`); *winemgas* corrected to *winemagas*. **All length marks are added for this course** and should be checked against Klaeber's printed text, especially *herespēd*, *forðgerīmed*, *gūðrēouw*, *gefrǣge*, *ālēh*, *āþumswēorum*, *wælnīðe*, *horngēap*, *Bēowulf* (the Dane).
+- Line 62: Klaeber's dots kept. Claim to check: the manuscript reads *hyrde ic þ elan cwen* with no gap; *Ȳrse* (Yrsa) and Onela as editorial proposals.
+- Background claims: Lejre hall excavations (6th–10th c., largest about 50 m); Hróarr / Helgi / Hrólfr kraki = Hrothgar / Halga / Hrothulf; Freawaru and Ingeld at lines 2020–2069; *horngēap* "wide-gabled" or "horn-gabled".
+- Grammar: strong feminine plural *lāra / lāre*, gen. pl. *lārena* as a variant; weak neuter *ēage* acc. sg. *ēage*; *þāra / þǣra*, *þǣm / þām*; *þās* as the ancestor of *those*.
+- Picture: *Viking house of Fyrkat 2015-07-29.jpg* (reconstruction at Fyrkat). Confirm.
