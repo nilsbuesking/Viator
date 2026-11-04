@@ -26,3 +26,10 @@ Texts supplied by Nils for building readings. Public domain.
 - `latin-readings.txt`: authentic Latin readings supplied by Nils for the later Latin lectures:
   Caesar BG 1.1, Catullus 5 and 85, Cicero Cat. 1.1–2, Virgil Aen. 1.1–11, Horace Odes 1.11,
   with notes on small slips in the copies. `latin-pliny-ep-6-16.txt`: Pliny, Letters 6.16 (complete). `latin-pliny-ep-6-20.txt`: Pliny, Letters 6.20 (complete; supplied by Nils; the Virgil quotation in §1 (Aen. 2.12–13) completed from Nils’s correction).
+- `oe-sweet-reader-1879-ocr.txt`: Henry Sweet, *An Anglo-Saxon Reader in Prose and Verse*, 2nd edition
+  (Oxford 1879; public domain), full text from the Internet Archive, supplied by Nils. Machine OCR of poor
+  quality for Old English (ð read as S or 8, accents and ǫ lost): use only to find passages and page numbers;
+  every reading must be transcribed from the page images.
+- `oe-sweet-1879-cynewulf-cyneheard.txt`: Chronicle annal 755 (Cynewulf and Cyneheard, Parker MS.) from
+  Sweet's Reader, 2nd ed., pp. 1–3, transcribed from page images supplied by Nils. Sweet's own marks kept
+  (acute = long vowel, ǫ, ę); the course will convert to macrons and normalise ǫ/ę, saying so.
