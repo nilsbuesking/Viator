@@ -3,7 +3,7 @@
 Texts supplied by Nils for building readings. Public domain.
 
 - `beowulf-klaeber-1922-lines-1-2601.txt`: Beowulf, Klaeber's edition (1922), as transcribed
-  online without length marks; lines 1–2601 only (2602–3182 still needed). Known transcription
+  online without length marks; lines 1–2601 only; continued in `klaeber-beowulf-pages/` (page images). Known transcription
   slips: missing spaces (e.g. "syððanærest", "feohgiftumon", "billum ond byrnum;him").
 - `beowulf-poetryfoundation-full.txt`: full Old English text (lines 1–3182) from the Poetry
   Foundation website. Not Klaeber: line 9 reads "æghwylc þara ymbsittendra" and punctuation
@@ -40,3 +40,7 @@ Texts supplied by Nils for building readings. Public domain.
   the Chronicle entry he quotes, from Sweet's Reader, 2nd ed., no. XIX, pp. 133–144, transcribed from page
   images supplied by Nils, with Sweet's footnotes (forms of the 18th-century transcript). Since November 2026
   the source of the Maldon special lecture, in place of `maldon-anglosaxonarchaeology.txt`.
+- `klaeber-beowulf-pages/p098.png` … `p117.png`: page images of Klaeber's Beowulf, pp. 98–117 (lines 2598–3131,
+  with Klaeber's apparatus), supplied by Nils. Edition (1922 or a later Klaeber edition) to be confirmed from the
+  title page. Pages carry a former reader's handwritten notes, which are not part of the text. Lines 3132–3182
+  (pp. 118–119) still needed. Passages are transcribed from these images when a lecture uses them.
