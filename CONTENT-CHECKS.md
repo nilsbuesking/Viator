@@ -934,3 +934,14 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - Claims to check: the Cain-descent of monsters in early medieval biblical commentary (general claim, no source named); *orcnēas* found only here and Tolkien's “orc”; Verner's law formulated 1875, published 1877; the *gh* of *ghost* attributed to Caxton's Flemish compositors (common explanation); Middle High German *rîten, reit, riten, geriten* and 2nd sg. *du rite*.
 - Grammar: class VII past in *ē/ēo*; *helpan, healp, hulpon, holpen*; *niman, nam, nōmon, numen*; *giefan, geaf, gēafon, giefen*; *forlēosan, forloren*.
 - Picture: *Stories of beowulf grendel.jpg* (J. R. Skelton, 1908). Confirm artist and date.
+
+## Old English Lecture VI (Twelve winters; adjectives, comparison, word order)
+
+- **Reading:** Beowulf 126–149a from Klaeber (1922), as transcribed without length marks; the passage stops at the half-line *sīdra sorga* (149a). All macrons in the normalised view are ours. Please check against Klaeber pp. 6–7 (or the page images): *ūhtan, ǣrdæge, gūðcræft, āhafen, morgenswēg, Mǣre þēoden, ǣrgōd, unblīðe, ðrȳðswȳð, drēah, lāðan, scēawedon, gāstes, ēaðfynde, hwǣr, gerūmlīcor, sōhte, būrum, gebēacnod, gesægd, sōðlīce, tācne, hēold, fēonde, ætwand, rīxode, āna, īdel, stōd, hūsa sēlest, hwīl, tīd, wēana, sīdra*.
+- **Source panel:** lines 129–131 printed without a comma after *ðrȳðswȳð*, following our transcription; check whether Klaeber has one.
+- **Translation choices:** *ǣrgōd* “long-proven, good from of old”; *healðegnes hete* “the hatred of the hall-thegn” (Grendel); *fyr ond fæstor* “further off and more securely”; *wine Scyldinga* = Hrothgar.
+- **Comparison forms to check (Wright / Campbell):** *strengra, strengest*; *gingra, gingest* (West Saxon also *giengra*); *ieldra, ieldest*; *lengra, lengest*; *sēlra, sēlest*; *lǣssa, lǣst*; *wyrsa, wyrst*.
+- **Vocabulary:** *drēogan* class II (drēah, drugon, drogen); *winnan* class III (wann, wunnon, wunnen); *sēcan, sōhte*; genders *sorg* f., *tācen* n., *hete* m., *hwīl* f., *tīd* f.
+- **Etymologies:** *þolian* ~ German *dulden* ~ Latin *tolerāre* (same root); *hete* ~ *Hass*; *īdel* ~ *eitel*; *lāð* ~ *Leid*.
+- **German parallels in the adjective tables:** strong gen. sg. masc. *guten* (older *gutes*, as in *gutes Mutes*).
+- **Picture:** *Stories of beowulf Hrothgar.jpg* (J. R. Skelton in H. E. Marshall, *Stories of Beowulf*, 1908). I could not open the Commons file page from here, so please confirm that it shows Hrothgar and is marked public domain.
