@@ -40,7 +40,11 @@ Texts supplied by Nils for building readings. Public domain.
   the Chronicle entry he quotes, from Sweet's Reader, 2nd ed., no. XIX, pp. 133–144, transcribed from page
   images supplied by Nils, with Sweet's footnotes (forms of the 18th-century transcript). Since November 2026
   the source of the Maldon special lecture, in place of `maldon-anglosaxonarchaeology.txt`.
-- `klaeber-beowulf-pages/p098.png` … `p117.png`: page images of Klaeber's Beowulf, pp. 98–117 (lines 2598–3131,
-  with Klaeber's apparatus), supplied by Nils. Edition (1922 or a later Klaeber edition) to be confirmed from the
-  title page. Pages carry a former reader's handwritten notes, which are not part of the text. Lines 3132–3182
-  (pp. 118–119) still needed. Passages are transcribed from these images when a lecture uses them.
+- `klaeber-beowulf-pages/p098.png` … `p120.png` and `title.png`: page images of Fr. Klaeber, *Beowulf and the Fight
+  at Finnsburg* (Boston: D. C. Heath), pp. 98–120 (lines 2598–3182, end of the poem, with Klaeber's apparatus),
+  supplied by Nils. The title page carries no date, but the library accession stamp of 22.1.23 places the copy
+  before the second edition (1928), so it is the first edition of 1922. Pages carry a former reader's handwritten
+  notes and an ink blot (pp. 117–118), which are not part of the text. On pp. 118–119 (lines 3150–3182) the many
+  round brackets are Klaeber's: the last page of the manuscript is damaged and partly freshened up by a later
+  hand, and letters in ( ) are his restorations, [ ] his additions. Passages are transcribed from these images
+  when a lecture uses them.
