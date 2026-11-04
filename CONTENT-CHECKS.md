@@ -900,3 +900,11 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - Book suggestions: Allen & Greenough, *New Latin Grammar*; Rubenbauer–Hofmann–Heine, *Lateinische Grammatik*; Menge–Burkard–Schauer, *Lehrbuch der lateinischen Syntax und Semantik*; Lewis & Short; *OLD*; Georges; Sherwin-White, *The Letters of Pliny*. Titles from memory; please check editions.
 - Vocabulary: *pestis* f. (i-stem), *caedēs* f., *particeps, participis* (+ gen.), *ēlūdō* (ēlūsī, ēlūsum), *arbitror*, *māchinor*.
 - Picture: *Comic History of Rome Table 10 Cicero denouncing Catiline.jpg* (John Leech, for à Beckett’s *Comic History of Rome*, about 1852). Confirm the attribution and date.
+
+## Old English special lecture: The Battle of Maldon — text changed to Sweet (1879)
+
+- The reading (lines 25–61, 89–95, 309–319) now comes from Sweet, *An Anglo-Saxon Reader*, 2nd ed. (1879), pp. 134–136, 143–144, transcribed from Nils's page images (`sources/oe-sweet-1879-maldon.txt`). Normalised view: Sweet's acute accents converted to macrons (on the first letter of a diphthong: beót → bēot), ǫ → o, ę → e; no length marks added beyond Sweet's.
+- Differences from the previous (website) text, all following Sweet: *Hyge sceal ðȳ heardra … ðȳ ūre mægen lytlað* (transcript *hige*, *þe*); *eald wæter* (most editions *cald wæter*); line 318 without *mē*; *gafol* for *gofol*; *ǣttrene* for *ættrynne*; *stent*, *geealgian*, *scipe*, *hraðe*, *Byrhthelmes*. Notes in the lecture explain *eald/cald* and *mē*. Please check whether Sweet's later editions keep *eald* and *hyge*.
+- Unmarked in Sweet but marked in most modern editions: *stīðlīce* (Sweet stíðlice), *sē* (se), *lȳtlað* (lytlað). Left as Sweet prints them; say if you want them marked.
+- Culture quotation, grammar example, card and exercise updated to Sweet's *Hyge sceal ðȳ heardra*.
+- Engine: word glosses now also match when a text carries an editor's own marks (acute accents, ǫ, ę), so the "As printed" view of Sweet is fully tappable.

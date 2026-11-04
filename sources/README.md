@@ -36,3 +36,7 @@ Texts supplied by Nils for building readings. Public domain.
 - `oe-sweet-1879-alfred-preface.txt`: King Alfred's Preface to the Pastoral Care ("On the State of Learning
   in England") from Sweet's Reader, 2nd ed., pp. 4–7, transcribed from page images supplied by Nils, with
   Sweet's footnotes (Hatton MS. text, Cotton variants). Sweet's marks kept as printed.
+- `oe-sweet-1879-maldon.txt`: The Battle of Maldon, complete (lines 1–325), with Sweet's introduction and
+  the Chronicle entry he quotes, from Sweet's Reader, 2nd ed., no. XIX, pp. 133–144, transcribed from page
+  images supplied by Nils, with Sweet's footnotes (forms of the 18th-century transcript). Since November 2026
+  the source of the Maldon special lecture, in place of `maldon-anglosaxonarchaeology.txt`.

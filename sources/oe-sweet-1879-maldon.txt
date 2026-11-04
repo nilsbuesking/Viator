@@ -1,0 +1,381 @@
+== Henry Sweet, An Anglo-Saxon Reader in Prose and Verse, 2nd edition (Oxford: Clarendon Press, 1879), no. XIX, pp. 133–144 ==
+== The Battle of Maldon, complete as it survives (lines 1–325) ==
+Transcribed from page images supplied by Nils (Google scan), checked line by line. Line numbers are given
+for every line here (Sweet prints every fifth line); page breaks marked; footnotes (manuscript / transcript
+readings where Sweet's text differs) as printed at the foot of each page.
+Sweet's conventions kept exactly: acute = long vowel (á é í ó ú ý ǽ); ǫ = o for a before nasals
+(ǫn, ǫngann, ǫf); ę = umlauted e (męnn, sęcgan, stęde, bęgen); Sweet prints both ð and þ in this poem
+(þ mainly at the start of words: þurh, þegen, þeóden, þearf, but ðá, ðæt, ðǽr), kept as printed; raised
+dot in ǫ·ncwæð (245). "and" is printed in full in the poem (not ǫnd).
+Points to note: some short words lack Sweet's usual accent: "to" (4), "ða" (147); "ðǽm" in 154 beside
+"ðám" elsewhere; line 54 "fęallan" with the hook under e; 183 "bewegen" (footnote: transcript "wulmær
+begen"). Pages 138–139 of the scanned copy carry a former reader's handwritten marks in the margins; they
+are not part of the text and are ignored.
+
+[p. 133]
+XIX. THE BATTLE OF MALDON.
+
+[Sweet's introduction] THIS fragment is a unique specimen of an epic contemporary with the events it
+describes. It was composed, as Rieger (Alt- und Angel-sächsisches Lesebuch, Preface, xiii) remarks, so
+immediately after the battle that the poet does not know the name of a single one of the enemy, not even
+of their leader Anláf, and, in his character of eyewitness, describes only those of their movements which
+could be discerned from the English position. Although the poem does not show the high technical finish of
+the older works, it is full of dramatic power and warm feeling. As the language is necessarily Late
+West-Saxon, the forms have been retained unaltered, or else, in cases of alteration, have been given in
+the notes.
+The following is the narrative of the Chronicle under the year 993:—
+'Hér ǫn ðissum geáre cóm Anláf mid þrim and hundnigontigum scipum tó Stáne, and forhęrgedon ðæt ǫnútan;
+and fór ðá ðanon tó Sandwíc, and swá ðanon tó Gipeswíc, and ðæt eall ofereode, and swá tó Mældúne. And him
+ðǽr cóm tógeánes Byrhtnóð ealdormann mid his fyrde, and him wið gefeaht; and hí ðǫne ealdormann ðǽr
+ǫfslógon, and wælstówe geweald áhton. And him man nam syððan frið wið, and hine nam se cyng syððan tó
+bisceopes handa.'
+
+1 * * * brocen wurde.
+2 Hét ðá hyssa hwæne hors forlǽtan,
+3 feor áfýsan, and forð gangan,
+4 hycgan¹ to handum, tó hyge² gódum.
+5 Ðæt Offan mǽg ǽrest ǫnfunde,
+¹ hicgan. ² hige.
+[p. 134]
+6 ðæt se eorl nolde yrhðo geþolian:
+7 hé lét him ðá ǫf handum¹ leófne fleógan
+8 hafoc wið ðæs holtes, and tó ðǽre hilde stóp;
+9 be ðám man mihte ǫncnáwan ðæt se cniht nolde
+10 wácian æt ðám wíge, ðá hé tó wǽpnum féng.
+11 Eác him wolde Eádríc his ealdre gelǽstan
+12 freán tó gefeohte; ǫngann ðá forð beran
+13 gár tó gúðe: hé hæfde gód geþanc,
+14 ðá hwíle ðe hé mid handum healdan mihte
+15 bord and brád swurd; beót hé gelǽste,
+16 ðá hé ætforan his freán feohtan sceolde.
+17 Ðá ðǽr Byrhtnóð ǫngann beornas trymian,
+18 rád and rǽdde, rincum tǽhte
+19 hú hí sceoldon standan, and ðǫne stęde healdan,
+20 and bæd ðæt hyra randas² rihte heóldon
+21 fæste mid folmum, and ne forhtedon ná.
+22 Ðá hé hæfde ðæt folc fægere getrymmed,
+23 hé líhte ðá mid leódum³, ðǽr him leófost wæs,
+24 ðǽr hé his heorðwerod holdost wiste.
+25 Ðá stód ǫn stæðe, stíðlice clipode⁴
+26 wícinga ár, wordum mǽlde,
+27 se ǫn beót ábeád brimlíðendra
+28 ǽrende tó ðám eorle, ðǽr hé ǫn ófre stód:
+29 'Mé sęndon tó ðé sǽmęnn snelle;
+30 héton ðé sęcgan, ðæt ðú móst sęndan hraðe⁵
+31 beágas wið gebeorge; and eów bętere is
+32 ðæt gé ðisne gárrǽs mid gafole forgyldon,
+33 ðǫnne wé swá hearde hilde dǽlon.
+34 Ne þurfe wé ús spillan, gif gé spédað tó ðám:
+35 wé willað wið ðám golde grið fæstnian.
+36 Gif⁶ ðú ðæt gerǽdest, ðe hér rícost eart,
+¹ handon. ² randan. ³ leodon. ⁴ clypode. ⁵ raðe. ⁶ gyf.
+[p. 135]
+37 ðæt ðú ðíne leóda lýsan wille,
+38 syllan sǽmannum ǫn hyra sylfra dóm
+39 feoh wið freóde, and niman frið æt ús,
+40 wé willað mid ðám sceattum ús tó scipe¹ gangan,
+41 ǫn flot féran, and eów friðes healdan.'
+42 Byrhtnóð maðelode, bord hafenode,
+43 wand wácne æsc, wordum mǽlde,
+44 yrre and ánrǽd, ágeaf him andsware:
+45 'Gehýrst ðú, sǽlida, hwæt ðis folc sęgeð?
+46 hí willað eów tó gafole gáras syllan,
+47 ǽttrene² ord and ealde swurd,
+48 ðá hęregeatu ðe eów æt hilde ne deáh.
+49 Brimmanna boda, ábeód ęft ǫngeán,
+50 sęge ðínum leódum micle láðre spell,
+51 ðæt hér stęnt³ unforcúð eorl mid his werode,
+52 ðe wile geealgian⁴ éðel ðysne,
+53 Æðelrǽdes eard, ealdres mínes,
+54 folc and foldan: fęallan sceolon
+55 hǽðene æt hilde. Tó heánlic mé þynceð⁵
+56 ðæt gé mid úrum sceattum tó scipe⁶ gangon
+57 unbefohtene, nú gé ðus feor hider
+58 ǫn úrne eard inn becómon;
+59 ne sceole gé swá sófte sinc gegangan:
+60 ús sceal ord and ęcg ǽr geséman,
+61 grimm gúðplega, ǽr wé gafol⁷ syllon.'
+62 Hét ðá bord beran, beornas gangan,
+63 ðæt hí ǫn ðám eástæðe⁸ ealle stódon.
+64 Ne mihte ðǽr for wætere werod tó ðám óðrum;
+65 ðǽr cóm flówende flód æfter ębban,
+66 lucon lagustreámas; tó lang hit him þúhte,
+67 hwænne hí tógædere gáras bǽron⁹.
+¹ scype. ² ættrynne. ³ stynt. ⁴ gealgean. ⁵ þinceð. ⁶ scype. ⁷ gofol (= gǫfol). ⁸ easteðe. ⁹ beron.
+[p. 136]
+68 Hí ðǽr Pantan streám mid prasse bestódon,
+69 Eástseaxena ord, and se æschęre;
+70 ne mihte hyra ǽnig óðrum dęrian,
+71 búton hwá þurh flánes flyht fyll genáme.
+72 Se flód út gewát; ðá flotan stódon gearowe,
+73 wícinga fela, wíges georne.
+74 Hét ðá hæleða hleó healdan ðá brycge¹
+75 wígan wígheardne, se wæs háten Wulfstán,
+76 cáfne mid his cynne, (ðæt wæs Ceólan sunu),
+77 ðe ðǫne forman mann mid his francan ǫfsceát,
+78 ðe ðǽr baldlicost ǫn ðá brycge¹ stóp.
+79 Ðǽr stódon mid Wulfstáne wígan unforhte,
+80 Ælfhęre² and Maccus, módige twęgen:
+81 ðá noldon æt ðám forda fleám gewyrcan,
+82 ac hí fæstlice wið ðá fýnd węredon,
+83 ðá hwíle ðe hí wǽpna wealdan móston.
+84 Ðá hí ðæt ǫngeáton, and georne gesáwon
+85 ðæt hí ðǽr brycgweardas³ bitere fundon,
+86 ǫngunnon lytegian ðá láðe gystas:
+87 bǽdon ðæt hí upgang⁴ ágan móston,
+88 ofer ðǫne ford faran, féðan lǽdan.
+89 Ðá se eorl ǫngann for his ofermóde
+90 álýfan landes tó fela láðere þeóde.
+91 Ǫngann⁵ ceallian ðá ofer eald wæter
+92 Byrhthelmes bearn, (beornas gehlyston):
+93 'Nú eów is gerýmed, gáð ricene tó ús,
+94 guman tó gúðe; God ána wát,
+95 hwá ðǽre wælstówe wealdan móte.'
+96 Wódon ðá wælwulfas, for wætere ne murnon,
+97 wícinga werod, west ofer Pantan,
+98 ofer scír wæter scyldas wǽgon⁶,
+99 lidmęnn tó lande linda⁷ bǽron.
+¹ bricge. ² ælfere. ³ bricgw. ⁴ upgangan. ⁵ ongean. ⁶ wegon. ⁷ linde.
+[p. 137]
+100 Ðǽr ǫngeán gramum gearowe stódon
+101 Byrhtnóð mid beornum: hé mid bordum hét
+102 wyrcan ðǫne wíghagan¹, and ðæt werod healdan
+103 fæste wið feóndum. Ðá wæs feohte² neáh³
+104 tír æt getohte; wæs seó tíd cumen
+105 ðæt ðǽr fǽge męnn feallan sceoldon.
+106 Ðá wearð hreám áhafen, hræfnas⁴ wundon,
+107 earn ǽses georn; wæs ǫn eorðan cyrm.
+108 Hí léton ðá ǫf folmum⁵ feólhearde speru,
+109 gegrundene gáras fleógan;
+110 bogan wǽron bysige, bord ord ǫnféng,
+111 biter wæs se beadurǽs, beornas feóllon,
+112 ǫn gehwæðere hand hyssas lágon.
+113 Wund wearð Wulfmǽr, wælręste geceás,
+114 Byrhtnóðes mǽg, hé mid billum wearð,
+115 his swuster sunu, swíðe forheáwen.
+116 Ðǽr wearð wícingum wiðerleán ágifen:
+117 gehýrde ic ðæt Eádweard ánne slóge
+118 swíðe mid his swurde, swęnges ne wyrnde,
+119 ðæt him æt fótum feóll fǽge cęmpa;
+120 ðæs him his þeóden þanc gesǽde,
+121 ðám búrþéne, ðá hé byre hæfde.
+122 Swá stemnetton stíðhycgende⁶
+123 hyssas æt hilde, hogodon georne
+124 hwá ðǽr mid orde ǽrost mihte
+125 ǫn fǽgeum⁷ męnn feorh gewinnan,
+126 wígan mid wǽpnum: wæl feóll ǫn eorðan.
+127 Stódon stędefæste⁸, stihte hí Byrhtnóð,
+128 bæd ðæt hyssa gehwylc hogode tó wíge,
+129 ðe ǫn Dęnum wolde dóm gefeohtan.
+130 Wód ðá wíges heard, wǽpen up áhóf,
+¹ wihagan. ² fohte. ³ neh. ⁴ hremmas. ⁵ folman. ⁶ stiðhugende. ⁷ fægean. ⁸ stædefæste.
+[p. 138]
+131 bord tó gebeorge, and wið ðæs beornes stóp;
+132 eode swá ánrǽd eorl tó ðám ceorle:
+133 ægðer hyra óðrum yfles hogode.
+134 Sęnde ðá se sǽrinc súðerne gár,
+135 ðæt gewundod wearð wígena hláford
+136 hé sceáf ðá mid ðám scylde, ðæt se sceaft tóbærst,
+137 and ðæt spere spręngde, ðæt hit sprang ǫngeán.
+138 Gegręmod wearð se gúðrinc: hé mid gáre stang
+139 wlancne wícing, ðe him ðá wunde forgeaf.
+140 Fród wæs se fyrdrinc, hé lét his francan wadan
+141 þurh ðæs hysses hals; hand wísode
+142 ðæt hé ǫn ðám fǽrsceaðan feorh gerǽhte.
+143 Ðá hé óðerne ófstlice sceát,
+144 ðæt seó byrne tóbærst; hé wæs ǫn breóstum wund
+145 þurh ðá hringlocan, him æt heortan stód
+146 ǽtterne ord. Se eorl wæs ðý¹ blíðra:
+147 hlóh ða módig² mann, sǽde Metode þanc
+148 ðæs dægweorces, ðe him Dryhten³ forgeaf.
+149 Forlét ðá dręnga sum daroð ǫf handa,
+150 fleógan ǫf folmum⁴, ðæt se tó forð gewát
+151 þurh ðǫne æðelan Æðelrǽdes þegen.
+152 Him be healfe stód hyse unweaxen,
+153 cniht ǫn gecampe, se full cáflice
+154 bræd ǫf ðǽm beorne blódigne gár,
+155 Wulfstánes bearn, Wulfmǽr se geónga;
+156 forlét forheardne faran ęft ǫngeán;
+157 ord inn gewód, ðæt se ǫn eorðan læg,
+158 ðe his þeóden ǽr þearle gerǽhte.
+159 Eode ðá gesyrwed sęcg tó ðám eorle,
+160 hé wolde ðæs beornes beágas gefęccan⁵,
+161 reáf and hringas, and gerénod swurd.
+162 Ðá Byrhtnóð bræd bill ǫf sceáðe⁶
+¹ þe. ² modi. ³ drihten. ⁴ folman. ⁵ gefecgan. ⁶ sceðe.
+[p. 139]
+163 brád and brúnęcg, and ǫn ðá byrnan slóh:
+164 tó hraðe¹ hine gelętte lidmanna sum,
+165 ðá hé ðæs eorles earm ámyrde;
+166 feóll ðá tó foldan fealohilte swurd:
+167 ne mihte hé gehealdan heardne méce,
+168 wǽpnes wealdan. Ðá git² ðæt word gecwæð
+169 hár hilderinc, hyssas bylde,
+170 bæd gangan forð góde geféran:
+171 ne mihte ðá ǫn fótum lęng fæste gestandan;
+172 hé tó heofenum wlát * * *
+173 'Ic ðé þancige³ þeóda Waldend,
+174 ealra ðǽra wynna ðe ic ǫn worulde gebád:
+175 nú ic áh, milde Meotod, mǽste þearfe,
+176 ðæt ðú mínum gáste gódes geunne,
+177 ðæt mín sáwul tó ðé síðian móte,
+178 ǫn ðín geweald, Þeóden ęngla,
+179 mid friðe fęrian; ic eom frymdig⁴ tó ðé,
+180 ðæt hí hęllsceaðan hýnan ne móton.'
+181 Ðá hine heówon hǽðene scealcas,
+182 and bęgen ðá beornas ðe him bigstódon,
+183 Ælfnóð and Wulfmǽr bewegen⁵ lágon,
+184 ðá ǫnemn hyra freán feorh gesealdon.
+185 Hí bugon ðá fram beaduwe ðe ðǽr beón noldon;
+186 ðǽr wurdon Oddan bearn ǽrest ǫn fleáme;
+187 Godríc fram gúðe, and ðǫne gódan forlét,
+188 ðe him mænigne oft mearh⁶ gesealde;
+189 hé gehleóp ðǫne eoh, ðe áhte his hláford,
+190 ǫn ðám gerǽdum ðe hit riht ne wæs,
+191 and his bróðru mid him bęgen ærndon⁷,
+192 Godrinc and Godwíg, gúðe ne gýmdon,
+193 ac węndon fram ðám wíge, and ðǫne wudu sóhton,
+¹ raðe. ² gyt. ³ Ge þance. ⁴ frymdi. ⁵ wulmær begen. ⁶ mear. ⁷ ærdon.
+[p. 140]
+194 flugon ǫn ðæt fæsten, and hyra feore burgon,
+195 and manna má ðǫnne hit ǽnig mǽð wǽre,
+196 gif hí ðá geearnunga ealle gemundon,
+197 ðe hé him tó duguðe gedón hæfde;
+198 swá him Offa ǫn dæg ǽr ásǽde,
+199 ǫn ðám mæðelstęde, ðá hé gemót hæfde,
+200 ðæt ðǽr módlice manega sprǽcon,
+201 ðe ęft æt þearfe¹ þolian noldon.
+202 Ðá wearð áfeallen ðæs folces ealdor,
+203 Æðelrǽdes eorl; ealle gesáwon
+204 heorðgeneátas ðæt hyra hearra² læg.
+205 Ðá ðǽr węndon forð wlance þegenas,
+206 unearge męnn, éfston georne:
+207 hí woldon ðá ealle óðer twęga,
+208 líf forlǽtan oððe leófne gewrecan.
+209 Swá hí bylde forð bearn Ælfríces,
+210 wíga wintrum geóng, wordum mǽlde,
+211 Ælfwine ðá cwæð, (hé ǫn ęllen spræc):
+212 'Gemunað ðára³ mǽla, ðe wé oft æt meodo sprǽcon,
+213 ðǫnne wé ǫn bęnce beót áhófon,
+214 hæleð ǫn healle, ymbe heard gewinn:
+215 nú mæg cunnian hwá céne sí⁴.
+216 Ic wylle míne æðelo eallum gecýðan,
+217 ðæt ic wæs ǫn Myrcum⁵ micles cynnes,
+218 wæs mín ealda fæder Ealhhelm⁶ háten,
+219 wís ealdormann, woruldgesǽlig.
+220 Ne sceolon mé ǫn ðǽre þeóde þegenas ætwítan,
+221 ðæt ic ǫf ðisse fyrde féran wille,
+222 eard gesécan, nú mín ealdor ligeð
+223 forheáwen æt hilde; mé is ðæt hearma mǽst:
+224 hé wæs ægðer mín mǽg and mín hláford.'
+225 Ðá hé forð eode, fǽhðe gemunde,
+¹ þære. ² heorra. ³ gemuna ða. ⁴ sy. ⁵ myrcon. ⁶ ealhelm.
+[p. 141]
+226 ðæt hé mid orde ánne gerǽhte
+227 flotan ǫn ðám folce, ðæt se ǫn foldan læg
+228 forwegen mid his wǽpne. Ǫngann ðá winas manian,
+229 frýnd and geféran, ðæt hí forð eodon.
+230 Offa gemǽlde, æscholt ásceóc:
+231 'Hwæt ðú, Ælfwine, hafast ealle gemanode,
+232 þegenas tó þearfe: nú úre þeóden líð,
+233 eorl ǫn eorðan, ús is eallum þearf
+234 ðæt úre ǽghwylc óðerne bylde
+235 wígan tó wíge, ðá hwíle ðe hé wǽpen mæge
+236 habban and healdan, heardne méce,
+237 gár and gód swurd. Ús Godríc hæfð,
+238 earh Oddan bearn, ealle beswicene:
+239 wénde ðæs for mǫnig¹ mann, ðá hé ǫn meare rád,
+240 ǫn wlancan ðám wicge, ðæt wǽre hit úre hláford;
+241 for ðan wearð hér ǫn felda folc tótwǽmed,
+242 scyldburh tóbrocen: ábreóðe his anginn,
+243 ðæt hé hér swá manigne mann áflýmde.'
+244 Leófsunu gemǽlde, and his linde áhóf,
+245 bord tó gebeorge, hé ðám beorne ǫ·ncwæð:
+246 'Ic ðæt geháte, ðæt ic heonon nelle
+247 fleón fótes trym, ac wille furðor gán,
+248 wrecan ǫn gewinne mínne winedryhten².
+249 Ne þurfon mé ymbe³ Sturmęre stędefæste hæleð
+250 wordum ætwítan, nú mín wine gecranc,
+251 ðæt ic hláfordleás hám síðie,
+252 węnde fram wíge; ac mé sceal wǽpen niman,
+253 ord and íren.' Hé full yrre wód,
+254 feaht fæstlice, fleám hé forhogode.
+255 Dunnere ðá cwæð, daroð ácwęhte,
+256 unorne ceorl, ofer eall clipode⁴,
+257 bæd ðæt beorna gehwylc Byrhtnóð wrǽce:
+¹ moni. ² winedrihten. ³ embe. ⁴ clypode.
+[p. 142]
+258 'Ne mæg ná wandian se ðe wrecan þęnceð
+259 freán ǫn folce, ne for feore murnan.'
+260 Ðá hí forð eodon, feores hí ne róhton;
+261 ǫngunnon ðá híredmęnn heardlice feohtan,
+262 grame gárberend, and God bǽdon
+263 ðæt hí móston gewrecan hyra winedryhten¹,
+264 and ǫn hyra feóndum fyll gewyrcan.
+265 Him se gísel² ǫngann geornlice fylstan;
+266 Hé wæs ǫn Norðhymbrum³ heardes cynnes,
+267 Ęcgláfes bearn, him wæs Æscferð nama:
+268 hé ne wandode ná æt ðám wígplegan,
+269 ac hé fýsde forð flán geneahhe⁴;
+270 hwílum⁵ hé ǫn bord sceát, hwílum⁵ beorn tǽsde:
+271 ǽfre ymbe⁶ stunde hé sealde sume wunde,
+272 ðá hwíle ðe hé wǽpna wealdan móste.
+273 Ðá git⁷ ǫn orde stód Eádweard se langa,
+274 gearo and geornfull; gylpwordum spræc,
+275 ðæt hé nolde fleógan fótmǽl landes,
+276 ofer bæc búgan, ðá his bętera læg⁸:
+277 hé bræc ðǫne bordweall, and wið ðá beornas feaht,
+278 óð ðæt hé his sincgifan⁹ ǫn ðám sǽmannum
+279 wurðlice wræc¹⁰, ǽr hé ǫn wæle lǽge.
+280 Swá dyde Æðeríc, æðele geféra,
+281 fús and forðgeorn, feaht eornoste,
+282 Sigebyrhtes¹¹ bróðor and swíðe mænig óðer
+283 clufon cellod bord, céne hí węredon,
+284 bærst bordes lǽrig, and seó byrne sang
+285 gryreleóða sum. Ðá æt gúðe slóh
+286 Offa ðǫne sǽlidan, ðæt hé ǫn eorðan feóll,
+287 and ðǽr Gaddes mǽg grund gesóhte;
+¹ winedrihten. ² gysel. ³ norðhymbron. ⁴ genehe. ⁵ hwilon. ⁶ embe. ⁷ gyt. ⁸ leg. ⁹ sincgyfan. ¹⁰ wrec. ¹¹ sibyrhtes.
+[p. 143]
+288 hraðe¹ wearð æt hilde Offa forheáwen;
+289 hé hæfde ðeáh geforðod ðæt hé his freán gehét,
+290 swá hé beótode ǽr wið his beáhgifan,
+291 ðæt hí sceoldon bęgen ǫn burh rídan,
+292 hále tó háme, oððe ǫn hęre cringan,
+293 ǫn wælstówe wundum sweltan;
+294 hé læg þegenlice þeódne gehęnde.
+295 Ðá wearð borda gebræc; brimmęnn wódon,
+296 gúðe gegręmode; gár oft þurhwód
+297 fǽges feorhhús. Forð ðá eode Wígstán²,
+298 Þurstánes sunu, wið ðá sęcgas feaht;
+299 hé wæs ǫn geþrange³ hyra þreóra bana,
+300 ǽr him Wígelínes bearn ǫn ðám wæle lǽge.
+301 Ðǽr wæs stíð gemót: stódon fæste
+302 wígan ǫn gewinne, wígend crungon⁴,
+303 wundum wérige; wæl feóll ǫn eorðan.
+304 Óswold and Ealdwold ealle hwíle,
+305 bęgen gebróðru, beornas trymedon,
+306 hyra winemágas wordum⁵ bǽdon,
+307 ðæt hí⁶ ðǽr æt þearfe þolian sceoldon,
+308 unwáclice wǽpna neótan.
+309 Byrhtwold maðelode, bord hafenode,
+310 se wæs eald geneát, æsc ácwęhte,
+311 hé full baldlice beornas lǽrde:
+312 'Hyge⁷ sceal ðý⁸ heardra, heorte ðý cénre,
+313 mód sceal ðý máre, ðý úre mægen lytlað.
+314 hér líð úre ealdor eall forheáwen,
+315 gód ǫn greóte; á mæg gnornian
+316 se ðe nú fram ðýs⁹ wígplegan węndan þęnceð.
+317 Ic eom fród feores: fram ic ne wille,
+318 ac ic be healfe mínum hláforde
+¹ raðe. ² wistan. ³ geþrang. ⁴ cruncon. ⁵ wordon. ⁶ he. ⁷ hige. ⁸ þe four times. ⁹ þis.
+[p. 144]
+319 be swá leófum¹ męnn licgan þęnce.'
+320 Swá hí Æðelgáres bearn ealle bylde
+321 Godríc tó gúðe: oft hé gár forlét
+322 wælspere windan ǫn ðá wícingas,
+323 swá hé ǫn ðám folce fyrmest eode,
+324 heów and hýnde, óð ðæt hé ǫn hilde gecranc;
+325 næs ðæt ná se Godríc ðe ðá gúðe forbeáh.
+* * * *
+¹ leofan.
