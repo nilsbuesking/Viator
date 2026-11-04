@@ -908,3 +908,14 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - Unmarked in Sweet but marked in most modern editions: *stīðlīce* (Sweet stíðlice), *sē* (se), *lȳtlað* (lytlað). Left as Sweet prints them; say if you want them marked.
 - Culture quotation, grammar example, card and exercise updated to Sweet's *Hyge sceal ðȳ heardra*.
 - Engine: word glosses now also match when a text carries an editor's own marks (acute accents, ǫ, ę), so the "As printed" view of Sweet is fully tappable.
+
+## Old English Lecture III (Cynewulf and Cyneheard)
+
+- Reading: Chronicle annal 755 (Parker MS), complete, from Sweet, *Anglo-Saxon Reader*, 2nd ed. (1879), pp. 1–3, transcribed from Nils's page images (`sources/oe-sweet-1879-cynewulf-cyneheard.txt`). Normalised view: Sweet's accents → macrons (first letter of a diphthong), ǫ → o, ę → e; **length marks added** where Sweet has none: *hīe*, *hīene*, *ēode*, *ēodon*, *beēode*; *uuið* → *wið*; the misprint *dá* (line 15) → *ðā*. Please check these.
+- Left as Sweet prints them: *lytle* (some editions lȳtle), *radost*, *hiera*, *tæt* (= ðæt), *Ósrīc*.
+- Background claims to check: Chronicle first compiled c. 890 in Wessex; seven manuscripts and a fragment; Parker MS from c. 900; Cynewulf's reign 757–786 and the Chronicle's dates running about two years early in this period; Tacitus, *Germania* 14 on the retinue; Privett as the site of *Pryfetes flōdan*; Merantun unidentified.
+- **From memory:** *Wyrd biþ ful ārǣd* (*The Wanderer* 5) as the example of *bēon*. Please confirm the line number and wording.
+- Grammar: North Sea Germanic unity plural (-aþ; Low German *wi maakt*); West Saxon contracted 3rd sg. (*bint, rītt, stent*); *cymst, cymþ*; *cīest*; Verner's law in *wæs/wǣron*; German *bin, bist* from the root of *bēon*.
+- Culture quotations from Alfred's Preface (Sweet pp. 4, 6): *Ælfrēd kyning hāteð grētan Wǣrferð biscep …*; *For ðȳ mē ðyncð bętre, gif ēow swǣ ðyncð*. Sweet's *bętre* printed *betre* (ę → e, as elsewhere).
+- Picture: *Cambridge Corpus Christi College MS 173 (aka Parker Chronicle) folio 1r …* — confirm it is fol. 1r (regnal list).
+- Engine: Sweet's raised dot (u·nheánlice, ǫnf·unden) is now treated as part of the word, so those words can be tapped in the “As printed” view.
