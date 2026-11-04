@@ -927,3 +927,10 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - Background claims: Lejre hall excavations (6th–10th c., largest about 50 m); Hróarr / Helgi / Hrólfr kraki = Hrothgar / Halga / Hrothulf; Freawaru and Ingeld at lines 2020–2069; *horngēap* "wide-gabled" or "horn-gabled".
 - Grammar: strong feminine plural *lāra / lāre*, gen. pl. *lārena* as a variant; weak neuter *ēage* acc. sg. *ēage*; *þāra / þǣra*, *þǣm / þām*; *þās* as the ancestor of *those*.
 - Picture: *Viking house of Fyrkat 2015-07-29.jpg* (reconstruction at Fyrkat). Confirm.
+
+## Old English Lecture V (Grendel)
+
+- Reading: Beowulf 99–125, Klaeber (1922) as transcribed online; slips *hehine* → *he hine*, *on wocon* → *onwocon* corrected (Poetry Foundation text agrees). **All length marks added for this course**; check especially *wonsǣli* (Klaeber may print *wonsǣlī*), *Caines* and *Abel* (left unmarked), *gigantas* (unmarked), *untȳdras*, *orcnēas*, *gebūn*, *hūðe*, *hrēmig*.
+- Claims to check: the Cain-descent of monsters in early medieval biblical commentary (general claim, no source named); *orcnēas* found only here and Tolkien's “orc”; Verner's law formulated 1875, published 1877; the *gh* of *ghost* attributed to Caxton's Flemish compositors (common explanation); Middle High German *rîten, reit, riten, geriten* and 2nd sg. *du rite*.
+- Grammar: class VII past in *ē/ēo*; *helpan, healp, hulpon, holpen*; *niman, nam, nōmon, numen*; *giefan, geaf, gēafon, giefen*; *forlēosan, forloren*.
+- Picture: *Stories of beowulf grendel.jpg* (J. R. Skelton, 1908). Confirm artist and date.
