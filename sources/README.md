@@ -33,3 +33,6 @@ Texts supplied by Nils for building readings. Public domain.
 - `oe-sweet-1879-cynewulf-cyneheard.txt`: Chronicle annal 755 (Cynewulf and Cyneheard, Parker MS.) from
   Sweet's Reader, 2nd ed., pp. 1–3, transcribed from page images supplied by Nils. Sweet's own marks kept
   (acute = long vowel, ǫ, ę); the course will convert to macrons and normalise ǫ/ę, saying so.
+- `oe-sweet-1879-alfred-preface.txt`: King Alfred's Preface to the Pastoral Care ("On the State of Learning
+  in England") from Sweet's Reader, 2nd ed., pp. 4–7, transcribed from page images supplied by Nils, with
+  Sweet's footnotes (Hatton MS. text, Cotton variants). Sweet's marks kept as printed.

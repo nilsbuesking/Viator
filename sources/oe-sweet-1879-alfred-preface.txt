@@ -1,0 +1,111 @@
+== Henry Sweet, An Anglo-Saxon Reader in Prose and Verse, 2nd edition (Oxford: Clarendon Press, 1879), no. II, pp. 4–7 ==
+== "On the State of Learning in England" [From King Alfred's Preface to the West-Saxon Version of Gregory's
+   Pastoral Care, edited by Henry Sweet for the Early English Text Society, 1871–2]. Text based on the Hatton MS (H.)
+   with variants of the Cotton MS (C.) in the footnotes. ==
+Transcribed from page images supplied by Nils (Google scan), checked line by line; Sweet's line numbers
+(every fifth line) and page breaks kept; footnotes as printed at the foot of each page.
+Sweet's conventions kept exactly: acute = long vowel (á é í ó ú ý ǽ); ǫ = o for a before nasals
+(ǫnd, mǫnn, lǫnd, frǫm, ǫf); ę = umlauted e (męnn, węndan, Ęnglisc, Tęmese, geðęncean); a raised dot (·)
+in ú·tanbordes, æ·lmihtegum, a·ndwyrde, a·ndgitfullicost (Sweet's mark, kept as printed).
+Points to note in the scan: line 45 prints "ða wundrade" without accent (elsewhere ðá); line 82 prints
+"aręccean" without accent on a (line 19 has "áręccean"); footnote 9 on p. 6 reads "suma H." as printed.
+
+[p. 4]
+Ælfréd kyning háteð grétan Wærferð biscep his wordum
+luflice ǫnd fréondlice; ǫnd ðé cýðan háte ðæt mé cóm swíðe
+oft ǫn gemynd, hwelce wiotan¹ iú² wǽron giond Angel-
+cynn, ægðer ge godcundra háda ge woruldcundra; ǫnd hú
+5 gesǽliglica tída ðá wǽron giond Angelcynn; ǫnd hú ðá
+kyningas ðe ðǫne ǫnwald hæfdon ðæs folces ǫn³ ðám³
+dagum³ Gode ǫnd his ǽrendracum⁴ hérsumedon; ǫnd hú⁵
+hie ægðer ge hiora sibbe ge hiora siodo ge hiora ǫnweald⁶
+innanbordes gehióldon, ǫnd eác út hiora éðel⁷ gerýmdon⁸;
+¹ wutan C. ² gio C. ³ om. in C. ⁴ ærendwrecum both MSS. ⁵ om. in H. ⁶ anwald C. ⁷ oeðel C. ⁸ rymdon C.
+[p. 5]
+10 ǫnd hú him ðá speów ægðer ge mid wíge ge mid wísdóme;
+ǫnd eác ðá godcundan hádas hú giorne hie wǽron ægðer
+ge ymb láre ge ymb liornunga, ge¹ ymb ealle ðá ðiówot-
+dómas ðá hie Gode dón scoldon; ǫnd hú man ú·tanbordes
+wísdóm ǫnd láre hieder ǫn lǫnd sóhte, ǫnd hú wé hie nú
+15 sceoldon úte begietan, gif wé hie habban sceoldon. Swǽ²
+clǽne hió wæs óðfeallenu ǫn Angelcynne ðætte swíðe feáwa³
+wǽron behionan Humbre ðe hiora ðéninga cúðen under-
+stǫndan ǫn Ęnglisc oððe furðum án ǽrendgewrit ǫf Lǽdene
+ǫn Ęnglisc áręccean; ǫnd ic wéne ðætte nóht⁴ mǫnige
+20 begiondan Humbre nǽren. Swǽ feáwa³ hiora wǽron ðætte
+ic furðum ánne ánlépne ne mæg geðęncean be súðan
+Tęmese, ðá ðá ic tó ríce féng. Gode æ·lmihtegum sie ðǫnc
+ðætte wé nú ǽnigne ǫnstal habbað láreówa. Ǫnd⁵ for ðǫn
+ic ðé bebióde ðæt ðú dó swǽ ic geliéfe ðæt ðu wille, ðæt ðú
+25 ðé ðissa woruldðinga tó ðǽm geæmetige, swǽ ðú oftost
+mæge, ðæt ðú ðǫne wísdóm ðe ðé God sealde ðǽr ðǽr ðú
+hiene befæstan mæge, befæste. Geðęnc hwelc wítu ús ðá
+becómon for ðisse worulde, ðá ðá wé hit nóhwæðer ne selfe
+ne lufodon, ne eác óðrum mǫnnum ne léfdon: ðǫne naman
+30 ánne we lufodon⁶ ðætte we Cristne wǽren⁷, ǫnd swíðe
+feáwe ðá ðeáwas.
+Ðá ic ðá ðis eall gemunde, ðá gemunde ic eác hú ic geseah,
+ǽr ðǽm ðe hit eall forhęrgod wǽre ǫnd forbærned, hú ðá
+ciricean giond eall Angelcynn stódon máðma ǫnd bóca
+35 gefylda⁸, ǫnd eác micel męnigeo Godes ðiówa; ǫnd ðá
+swíðe lytle fiorme ðára bóca wiston, for ðǽm ðe hie hiora
+nánwuht ǫngiotan ne meahton, for ðǽm ðe hie nǽron ǫn
+hiora ágen⁹ geðióde áwritene. Swelce hie cwǽden: 'Úre
+ięldran, ðá ðe ðás stówa ǽr hióldon, hie lufodon wísdóm,
+40 ǫnd ðurh ðǫne hie begeáton welan, ǫnd ús lǽfdon. Hér
+¹ ond C. ² swa C. throughout. ³ feawe C. ⁴ nauht C. ⁵ om. in C. ⁶ hæfdon C. ⁷ wæron C. ⁸ gefyldæ H. ⁹ ægen C.
+[p. 6]
+mǫn mæg giet gesión hiora swæð, ac wé him ne cunnon
+æfter spyrigean, ǫnd¹ for ðǽm wé habbað nú ægðer forlǽten
+ge ðǫne welan ge ðǫne wísdóm, for ðǽm ðe wé noldon tó
+ðǽm spore mid úre móde ǫnlútan.'
+45 Ðá ic ðá ðis eall gemunde, ða wundrade ic swíðe swíðe
+ðára gódena wiotona ðe giú wǽron giond Angelcynn, ǫnd
+ðá béc ealla² be fullan geliornod hæfdon, ðæt hie hiora ðá
+nǽnne³ dǽl noldon ǫn hiora ágen⁴ geðióde węndan. Ac
+ic ðá sóna ęft mé selfum a·ndwyrde, ǫnd cwæð: 'Hie ne
+50 wéndon ðætte ǽfre męnn sceolden⁵ swǽ récceleáse weorðan,
+ǫnd sió lár swǽ óðfeallan; for ðǽre wilnunga hie hit forlé-
+ton, ǫnd woldon ðæt hér ðý mára wísdóm ǫn lǫnde wǽre
+ðý wé má geðeóda cúðon.'
+Ðá gemunde ic hú sió ǽ wæs ǽrest ǫn Ebreisc-geðióde
+55 funden, ǫnd ęft ðá⁶ hie Creácas geliornodon, ðá węndon
+hie hie ǫn hiora ágen⁷ geðióde ealle, ǫnd eác ealle óðre béc.
+Ǫnd ęft Lǽdenware swǽ same, siððan hie hie geliornodon,
+hie hie węndon ealla ðurh wíse wealhstódas ǫn hiora ágen
+geðióde. Ǫnd eác ealla óðra Cristna⁸ ðióda sumne dǽl
+60 hiora ǫn hiora ágen geðióde węndon. For ðý mé ðyncð
+bętre, gif iów swǽ ðyncð, ðæt wé eác suma⁹ béc, ðá ðe niéd-
+beðearfosta sien eallum mǫnnum tó wiotonne, ðæt wé ðá ǫn
+ðæt geðióde węnden ðe wé ealle gecnáwan mægen, ǫnd gé
+dón swǽ wé swíðe eáðe magon mid Godes fultume, gif wé
+65 ðá stilnesse habbað, ðætte eall sió gióguð ðe nú is ǫn
+Angelcynne frióra mǫnna, ðára ðe ðá spéda hæbben ðæt
+hie ðǽm befeolan mægen, sien tó liornunga óðfæste, ðá
+hwíle ðe hie tó nánre óðerre note ne mægen, óð ðǫne first
+ðe hie wel cunnen Ęnglisc gewrit árǽdan: lǽre mǫn sið-
+70 ðan furður ǫn Lǽdengeðióde ðá ðe mǫn furðor lǽran wille,
+¹ om. in C. ² eallæ H. ³ nanne C. ⁴ ægen C. ⁵ sceoldon C. ⁶ ða ða C. ⁷ ægen C. ⁸ oðræ Cristnæ H. ⁹ suma H.
+[p. 7]
+ǫnd tó hiérran¹ háde dón wille. Ðá ic ðá gemunde hú sió
+lár Lǽdengeðiódes ǽr ðissum² áfeallen³ wæs giond Angel-
+cynn, ǫnd ðeáh mǫnige cúðon Ęnglisc gewrit árǽdan, ðá
+ǫngann ic ǫngemang óðrum mislicum ǫnd manigfealdum⁴
+75 bisgum ðisses kyneríces ðá bóc węndan ǫn Ęnglisc ðe is
+genęmned ǫn Lǽden 'Pastoralis,' ǫnd ǫn Ęnglisc 'Hier-
+debóc,' hwílum word be worde, hwílum andgit ǫf andgiete,
+swǽ swǽ ic hie geliornode æt Plegmunde mínum ærce-
+biscepe, ǫnd æt Assere⁵ mínum biscepe, ǫnd æt Grimbolde
+80 mínum mæsseprióste, ǫnd æt Iohanne mínum mæssepreóste.
+Siððan ic hie ðá geliornod hæfde, swǽ swǽ ic hie forstód,
+ǫnd swǽ ic hie a·ndgitfullicost aręccean meahte⁶, ic hie ǫn
+Ęnglisc áwęnde ǫnd tó ǽlcum biscepstóle ǫn mínum ríce
+wille áne ǫnsęndan; ǫnd ǫn ǽlcre bið án æstel, se bið ǫn
+85 fíftegum mancessa. Ǫnd ic bebióde ǫn Godes naman ðæt
+nán mǫnn ðǫne æstel frǫm ðǽre béc ne dó⁷, ne ðá bóc frǫm
+ðǽm mynstre: uncúð hú lǫnge ðǽr swǽ gelǽrede biscepas
+sien, swǽ swǽ nú, Gode ðǫnc, wel hwǽr siendon. For ðý
+ic wolde ðætte hie ealneg æt ðǽre stówe wǽren, búton se
+90 biscep hie mid him habban wille, oððe hió hwǽr tó lǽne sie,
+oððe hwá óðre bí wríte.
+¹ hieran H. ² ðysum C. ³ oðfeallen C. ⁴ monigfaldum C. ⁵ Asserie C. ⁶ mæhte C. ⁷ doe C.
