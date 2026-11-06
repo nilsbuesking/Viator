@@ -100,9 +100,8 @@ Viator.setCatalogue([
     // spelling variants treated as equal when checking answers: thorn/eth = th, yogh = gh or y,
     // u/v and i/j/y interchange, doubled letters
     spelling: [['þ', 'th'], ['ð', 'th'], ['ȝ', 'gh'], ['v', 'u'], ['j', 'i'], ['y', 'i'], ['ck', 'k'], ['([a-z])\\1', '$1']],
-    lectures: ['me/lecture-01.js'],
+    lectures: ['me/lecture-01.js', 'me/lecture-02.js'],
     planned: [
-      'Nouns and pronouns (she, they); from Old to Middle English; reading: the pilgrims gather',
       'Verbs: present and past, -eth and -en, strong and weak; reading: the Knight',
       'Pronunciation and metre: final -e and the pentameter; reading: the Prioress',
       'French and Norse in English: the layers of the vocabulary; reading: the Wife of Bath',

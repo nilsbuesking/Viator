@@ -1014,3 +1014,11 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - **Spelling and letters:** o for u next to minims; þ written like y (“ye”); yogh in *Menzies, Dalziel*; ð gone by the 13th century; *its* from c. 1600; *rote* from Old Norse *rót*; *droghte* < OE *drūgaþ*; *flour/flower* the same word.
 - **Vocabulary:** *slepen* past *sleep/slepte*; *helpen* past *halp/holp*, past participle *holpen*; *goon* past participle *goon, y-go*; *seken* past *soughte*.
 - **Picture:** *Chaucer ellesmere.jpg* (Ellesmere MS, Huntington Library EL 26 C 9). Please check the licence.
+
+# Content checks: Middle English Lecture II (At the Tabard)
+
+- **Reading:** General Prologue (Group A) 19–42 from Skeat (1894), Project Gutenberg #22120; Skeat’s notes give Hn. *Bifel* (E. *Bifil*), *was* in 23 (E. *were*), Hl. *weren* in 40. Please compare with the printed page. *in-to* and *y-falle* are shown with a non-breaking hyphen.
+- **Claims:** the Tabard owned by the abbots of Hyde; Henry Bailly, innkeeper and MP for Southwark (1370s–80s); the fire of 1676, the rebuilding (as the Talbot), demolition in 1873; the pilgrim count (Prioress, second nun, three priests); Jill Mann, *Chaucer and Medieval Estates Satire* (1973).
+- **Grammar:** plural types (*yën, oxen, foon; feet, men, gees; yeer, hors, sheep; children*); the pronoun table (*ich, myn/my, hit, hir* “her/their”, *hem*); *she* first in the 12th century (North-East Midlands, origin disputed); *them/their* standard in the 15th century; *thou/ye* usage; *me thinketh* (OE *þyncan*) distinct from *thenken*.
+- **Vocabulary:** *ryden* (*rood, riden*); *biginnen* (*bigan, bigonne*); *lien* (*lay, layen, leyn*); *semen* < Old Norse *sœma*; *array* ~ *bereit*; *redy* < OE *(ge)rǣde*.
+- **Picture:** *The Old Tabard Inn, Southwark. South London (1912).jpg*. Please check what building it shows, and its licence.
