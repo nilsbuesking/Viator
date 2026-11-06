@@ -975,3 +975,12 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - **Other claims:** Hildebrandslied *hwer sin fater wari*; the Lejre hall excavations from 1986, with the oldest hall from the 6th century; Saxo c. 1200.
 - **Etymologies:** *wlite* ~ *Antlitz*; *mund* ~ *Vormund*; *hweorfan* ~ *werben*; *gif* ~ *ob*; *searu* ~ MHG *sarwât*.
 - **Picture:** *Louis gurlitt møns klint.jpg* (painting, presumably public domain). Please confirm.
+
+## Old English Lecture X (Grendel’s mere)
+
+- **Reading:** Beowulf 1350–1382a from Klaeber (1922), as transcribed online, ending at *eft æt þē ānum*. Please check two points against Klaeber’s page: (1) *hrinde* in 1368: do Klaeber’s text and notes keep the manuscript form or adopt *hrīmge*? (2) *hafelan beorgan* in 1377: does Klaeber print the verb in brackets, and is it *beorgan* or *hȳdan*?
+- **Length marks (ours):** *londbūend, selerǣdende, hȳrde, gesāwon, twēgen, mōras, ellorgǣstas, Ðǣra, ōðer, gewislīcost, onlīcnes, wræclāstas, nǣfne, ǣnig, gēardagum, foldbūende, ācenned, gāsta, dȳgel, frēcne, fengelād, fyrgenstrēam, gewīteð, flōd, mīlgemearces, þǣm, nīðwundor, sēon, fȳr, frōd, hǣðstapa, sēce, geflȳmed, ōfre, hēoru stōw, ȳðgeblond, āstīgeð, lāð, rēotað, rǣd, ānum*. Short vowels kept in *wulfhleoþu, genipu, leofað, won, gewidru, drysmaþ, gelang*.
+- **Claims:** Morris (Blickling Homilies, EETS 1874–80) and Homily XVI as a parallel (*hrīmige bearwas*); the *Visio Pauli* as a common source; the Sutton Hoo whetstone with a stag; the epithets for Grendel’s mother (*ides, āglǣcwīf, brimwylf*); Cain at lines 104–114.
+- **Grammar:** numeral forms *twēgen/twā/tū*, *twēgra, twǣm*; *þrīe/þrēo*, *þrēora, þrim*; ordinals *forma, ōðer, þridda, fēorða, fīfta*.
+- **Etymologies:** *hēoru* ~ *geheuer*; *gelang* ~ *gelangen*; *ides* ~ OHG *idisi*; *rǣd* and Æthelræd *Unrǣd*.
+- **Picture:** Landseer, *The Monarch of the Glen* (National Galleries of Scotland file on Commons). Please confirm that it is public domain.
