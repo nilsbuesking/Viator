@@ -984,3 +984,13 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - **Grammar:** numeral forms *twēgen/twā/tū*, *twēgra, twǣm*; *þrīe/þrēo*, *þrēora, þrim*; ordinals *forma, ōðer, þridda, fēorða, fīfta*.
 - **Etymologies:** *hēoru* ~ *geheuer*; *gelang* ~ *gelangen*; *ides* ~ OHG *idisi*; *rǣd* and Æthelræd *Unrǣd*.
 - **Picture:** Landseer, *The Monarch of the Glen* (National Galleries of Scotland file on Commons). Please confirm that it is public domain.
+
+## Old English Lecture XI (The barrow)
+
+- **Reading:** Beowulf 3156–3182, transcribed from the page images of Klaeber (1922), pp. 119–120, with Klaeber’s own length marks and brackets. Please check the transcription against the scan, especially *riodan* (3169), *twelfe* (3170, Klaeber prints the final e in italic), *gedē(fe)* (3174), *(lǣded)* (3177) and *cwǣdon* (3180). One editorial change of ours: *hi(t ǣro)r* (3168) is shown as *hi(t) (ǣro)r* so that each word can be tapped; this is stated in the reading note.
+- **Source panel:** 3137–3140 as printed on p. 118, including *helm[um]* and *unwāclīcne*. On p. 118 I read *bælfȳra mæst* (3143) without a macron on *mæst*; please check.
+- **Engine change:** words containing round brackets (*hl(ǣw)*) are now treated as single tappable words, as square brackets already were. This is for all courses; no existing reading used round brackets inside words.
+- **Claims:** fifty years of Beowulf’s rule; eleven companions against the dragon; 2802–2808 (Beowulf asks for the mound); Jordanes, *Getica* 49, on Attila’s funeral; the Gamla Uppsala mounds (6th century, cremations); cremation in England largely replaced by inhumation by the 7th century; Thorkelin transcripts around 1787; the debate over *lofgeornost*.
+- **Glosses:** *nīðhēdige* (crux); *bēcn* “beacon, monument”; *riodan* = *ridon*.
+- **Etymologies:** *ād* ~ Latin *aestus* (probable); *herian* ~ Gothic *hazjan*; *līðe* ~ *lind*; *frēogan* ~ *frei, Freund*.
+- **Picture:** *Gamla Uppsala west mound 1874.jpg*. Please confirm the licence on the file page.

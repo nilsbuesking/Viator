@@ -7,7 +7,7 @@
   'use strict';
 
   const CONTENT_BASE = (document.currentScript && document.currentScript.dataset.content) || 'content/';
-  const BUILD = '2026-11-06 d';           // shown under Progress so you can tell which version is running
+  const BUILD = '2026-11-06 e';           // shown under Progress so you can tell which version is running
   const FORMAT = 1;                       // progress format version; bump + migrate() on change
   const STORE_KEY = 'viator.progress';
   const INTERVALS = [0, 1, 2, 4, 8, 16, 32, 64]; // Leitner box → days until next review
@@ -374,12 +374,12 @@
     const asWritten = r.diplomatic && ui.readView === 'dipl';
     const loose = k => spell(stripMacrons(k.toLowerCase()));
     const looseMap = {}; Object.keys(r.glosses).forEach(k => { const lk = loose(k); if (!(lk in looseMap)) looseMap[lk] = r.glosses[k]; });
-    // editorial brackets inside a word (allme[c]htich) and an editor's raised dot (u·nheánlice) belong to the word; letters include Latin Extended-B (ǣ ȳ ƿ) and ʒ
+    // editorial brackets inside a word (allme[c]htich, hl(ǣw)) and an editor's raised dot (u·nheánlice) belong to the word; letters include Latin Extended-B (ǣ ȳ ƿ) and ʒ
     // last resort for texts printed with an editor's own marks (acute accents, hooked ǫ ę): ignore all diacritics
     const bare = k => spell(k.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').normalize('NFC'));
     const bareMap = {}; Object.keys(r.glosses).forEach(k => { const bk = bare(k); if (!(bk in bareMap)) bareMap[bk] = r.glosses[k]; });
-    const glossFor = w => { const k = w.replace(/[\[\]·]/g, ''); return r.glosses[k.toLowerCase()] || looseMap[loose(k)] || bareMap[bare(k)]; };
-    const parts = (asWritten ? r.diplomatic : r.text).split(/((?:[A-Za-zÀ-ɏʒ̀-ͯ]|\[[A-Za-zÀ-ɏʒ̀-ͯ]+\]|(?<=[A-Za-zÀ-ɏ])·(?=[A-Za-zÀ-ɏ]))+)/);
+    const glossFor = w => { const k = w.replace(/[\[\]()·]/g, ''); return r.glosses[k.toLowerCase()] || looseMap[loose(k)] || bareMap[bare(k)]; };
+    const parts = (asWritten ? r.diplomatic : r.text).split(/((?:[A-Za-zÀ-ɏʒ̀-ͯ]|\[[A-Za-zÀ-ɏʒ̀-ͯ]+\]|\([A-Za-zÀ-ɏʒ̀-ͯ]+\)|(?<=[A-Za-zÀ-ɏ])·(?=[A-Za-zÀ-ɏ]))+)/);
     const html = parts.map((p, i) => {
       if (i % 2 === 0) return esc(p);
       const g = glossFor(p);
