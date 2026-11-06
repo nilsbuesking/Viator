@@ -1055,3 +1055,11 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - **Grammar:** contractions *nis, nas, nolde, noot, nadde*; impersonals *him thoughte, me list, me liketh, him nedeth, me reweth, me mette* and German equivalents (*es tut ihm not* for *him nedeth*); *me liketh > I like*; *moot/moste* (“had to”), *so mote I thee*; *our lady veyl* (old feminine genitive).
 - **Vocabulary:** *walet* first recorded in Chaucer; *geten* < Old Norse; *henten* ~ *hunt*; *listen* (impersonal) < OE *lystan*.
 - **Picture:** *The Pardoner - Ellesmere Chaucer.jpg*. Please check the licence.
+
+# Content checks: Middle English Lecture VII (The Pardoner’s Tale)
+
+- **Reading:** Pardoner’s Tale, Group C 711–749, from Skeat (1894), Project Gutenberg #22120; Skeat’s note on 746 (E. Hn. *than that*). Source panel C 729–732.
+- **Claims:** *Radix malorum est cupiditas* (1 Tim. 6:10); Black Death 1348–49 and the plagues of 1361–62, 1369, 1375; the old man and Maximianus, Elegy I; Leviticus 19:32; analogues (Jātaka, Arabic/Persian, *Novellino*), tale type ATU 763; the ending (stabbing and poison; the Pardoner, the Host and the Knight’s reconciliation); Holbein’s *Dance of Death* (designed c. 1523–26, published 1538).
+- **Grammar:** *gan* + infinitive (plural *gonne*); fused *artow, livestow, wiltow, shaltow, hastow*; plural imperative *-eth*; *lat* + infinitive.
+- **Vocabulary:** *hoor* ~ *hehr*; *abyden* ~ archaic *beiten*; *knokken* ~ *knacken*; *carl* (Norse) vs native *churl*; *myle* < Latin *milia*.
+- **Picture:** *Hans Holbein d. J. - The Plowman from Dance of Death - WGA11613.jpg*. Please check the licence.
