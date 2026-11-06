@@ -988,9 +988,18 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 ## Old English Lecture XI (The barrow)
 
 - **Reading:** Beowulf 3156–3182, transcribed from the page images of Klaeber (1922), pp. 119–120, with Klaeber’s own length marks and brackets. Please check the transcription against the scan, especially *riodan* (3169), *twelfe* (3170, Klaeber prints the final e in italic), *gedē(fe)* (3174), *(lǣded)* (3177) and *cwǣdon* (3180). One editorial change of ours: *hi(t ǣro)r* (3168) is shown as *hi(t) (ǣro)r* so that each word can be tapped; this is stated in the reading note.
-- **Source panel:** 3137–3140 as printed on p. 118, including *helm[um]* and *unwāclīcne*. On p. 118 I read *bælfȳra mæst* (3143) without a macron on *mæst*; please check.
+- **Source panel:** 3137–3140 as printed on p. 118, including *helm[um]* and *unwāclīcne*. (Corrected in Lecture XII: at higher magnification *mǣst* (3143) and *mǣrne* (3141) both have macrons.)
 - **Engine change:** words containing round brackets (*hl(ǣw)*) are now treated as single tappable words, as square brackets already were. This is for all courses; no existing reading used round brackets inside words.
 - **Claims:** fifty years of Beowulf’s rule; eleven companions against the dragon; 2802–2808 (Beowulf asks for the mound); Jordanes, *Getica* 49, on Attila’s funeral; the Gamla Uppsala mounds (6th century, cremations); cremation in England largely replaced by inhumation by the 7th century; Thorkelin transcripts around 1787; the debate over *lofgeornost*.
 - **Glosses:** *nīðhēdige* (crux); *bēcn* “beacon, monument”; *riodan* = *ridon*.
 - **Etymologies:** *ād* ~ Latin *aestus* (probable); *herian* ~ Gothic *hazjan*; *līðe* ~ *lind*; *frēogan* ~ *frei, Freund*.
 - **Picture:** *Gamla Uppsala west mound 1874.jpg*. Please confirm the licence on the file page.
+
+## Old English Lecture XII (From the Nowell Codex to Klaeber)
+
+- **Reading:** Beowulf 3137–3155, transcribed from the page image of Klaeber (1922), p. 118, with his macrons and brackets. In 3151 his round bracket spans three words, *(æfter Bīowulfe b)undenheorde*; we show it as *(æfter) (Bīowulfe) (b)undenheorde*. Please check against the scan: *hīofende, swioðole, wōpe, windblond gelæg, mōdceare mǣndon, cw(e)alm, giōmorgyd, (s)īo g(eō)mēowle, sǣde geneahhe, (hearmda)gas, (ondrē)de, (wīgen)des, hȳ[n]ðo, h(æftnȳ)d, swe(a)lg*.
+- **Read from Klaeber’s apparatus on p. 118:** MS *helm* (3139a); MS *swicðole* (3145a); the Latin gloss *anus* over *mēowle*; *geō* first conjectured by E. Sc.; “all that is legible in this page freshened up in a late hand” (Zupitza); Bugge’s restoration of 3151–55 adopted.
+- **Historical claims:** Nowell’s name and 1563 on the codex; the contents of the Nowell Codex; Sisam 1953 on monsters; Scribe B from *scyran* in 1939; the fire of 23 October 1731 at Ashburnham House; framing in 1845; Thorkelin A (copyist, 1787) and B (Thorkelin); the 1807 bombardment destroying his edition work; first edition 1815; Kemble 1833; Zupitza facsimile 1882; Klaeber (1863 Beetzendorf – 1954), Minnesota 1893–1931, editions 1922/1936 with supplements to 1950, 4th edition 2008; Fulk 1992 and Kiernan 1981 on the date; Maldon’s manuscript burnt in 1731 (text from a transcript).
+- **Dictionaries:** Bosworth–Toller (1898; supplements 1921, 1972); the Toronto DOE’s progress (“the middle of the alphabet”: please update if needed); alphabetisation of æ.
+- **Etymologies:** *cwealm* ~ *Qual*; *swelgan* ~ *schwelgen*; *lēg* ~ *Lohe*.
+- **Picture:** *Beowulf Cotton MS Vitellius A XV f. 137r (fyrst forth gewat detail).png*. Please confirm that it shows f. 137r with line 210, and check its licence.

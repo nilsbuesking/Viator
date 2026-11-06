@@ -82,9 +82,8 @@ Viator.setCatalogue([
     lectureWord: 'Lecture',
     // þ and ð were used interchangeably by scribes; ƿ (wynn) is w; dotted ċ ġ of some editions are plain c g
     spelling: [['ð', 'þ'], ['th', 'þ'], ['ƿ', 'w'], ['ċ', 'c'], ['ġ', 'g'], ['ae', 'æ']],
-    lectures: ['oe/lecture-01.js', 'oe/lecture-02.js', 'oe/lecture-03.js', 'oe/lecture-04.js', 'oe/lecture-05.js', 'oe/lecture-06.js', 'oe/lecture-07.js', 'oe/lecture-08.js', 'oe/lecture-09.js', 'oe/lecture-10.js', 'oe/lecture-11.js', 'oe/special-maldon.js'],
+    lectures: ['oe/lecture-01.js', 'oe/lecture-02.js', 'oe/lecture-03.js', 'oe/lecture-04.js', 'oe/lecture-05.js', 'oe/lecture-06.js', 'oe/lecture-07.js', 'oe/lecture-08.js', 'oe/lecture-09.js', 'oe/lecture-10.js', 'oe/lecture-11.js', 'oe/lecture-12.js', 'oe/special-maldon.js'],
     planned: [
-      'Manuscripts and editions: from the Nowell Codex to Klaeber'
     ]
   },
   {
