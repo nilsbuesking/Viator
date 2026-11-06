@@ -965,3 +965,13 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - **Claims:** Gregory of Tours on Chlochilaicus (c. 520); Magoun 1953 (*Speculum*), Benson 1966 (*PMLA*); Brodeur 1959 (*The Art of Beowulf*) on kennings; Sievers 1885/1893; *Bräutigam* < *guma*; *gerben* < *garawen*; the hero first named at line 343.
 - **Glosses:** *āntīd* and *eoletes* are cruxes and their meanings are marked as uncertain; *lōgon* from *lēan* (strong VI).
 - **Picture:** *Gokstadskipet1.jpg* on Commons. Please confirm the licence and author.
+
+## Old English Lecture IX (The coast-guard; subjunctive)
+
+- **Reading:** Beowulf 229–257 from Klaeber (1922), as transcribed online. One correction: the transcription’s *eorla ofer, eorþan ðonne* (248) is printed as *eorla ofer eorþan, ðonne*. The quotation marks are ours.
+- **Length marks (ours):** *sē* (230), *fūslicu, mōdgehygdum, wǣron, rīdan, Hrōðgāres, cwōmon, lagustrǣte, lǣdan, hwīle, endesǣta, ǣgwearde, lāðra, nǣnig, cūðlīcor* (Klaeber may print *cūðlicor*), *lēafnesword, māga gemēdu, nǣfne, lēoge, ǣnlīc ansȳn, lēasscēaweras* (the transcription has *sceaweras*; is the ē in Klaeber?), *feorbūend, merelīðende, ānfealdne, geþōht, gecȳðanne*. Short vowels kept in *fyr, ofost, hwanan, cyme, sceðþan*.
+- **Interpretations:** *bolca* “gangway” (inferred); *seldguma* (found only here) as “hall-sitter, retainer at home”; *þe* in 242 as “so that”; *fēran* (254) as a subjunctive spelt *-an* rather than an infinitive, noted as an editorial disagreement.
+- **Subjunctive forms:** *hwurfe* (past subj. of *hweorfan*, Beo 264); *sīe/sīen*; German Konjunktiv II *würbe, stürbe, hülfe*.
+- **Other claims:** Hildebrandslied *hwer sin fater wari*; the Lejre hall excavations from 1986, with the oldest hall from the 6th century; Saxo c. 1200.
+- **Etymologies:** *wlite* ~ *Antlitz*; *mund* ~ *Vormund*; *hweorfan* ~ *werben*; *gif* ~ *ob*; *searu* ~ MHG *sarwât*.
+- **Picture:** *Louis gurlitt møns klint.jpg* (painting, presumably public domain). Please confirm.
