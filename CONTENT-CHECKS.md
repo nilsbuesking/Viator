@@ -1040,3 +1040,10 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - **Rhymes:** *mous : pitous*, *glas : was*, *coy : Loy*, *deed : breed*, *reed : forheed*, *clene : sene*; closed/open long e (*swete* vs *breeth*).
 - **Vocabulary:** *mete* ~ *Mett*; *lippe* as a Low German loan in German; *semely* < Old Norse; *sikerly* < Latin *securus*; *smyten* ~ *schmeißen*; *speken* (*spak, spoken*); *singen* (*song*).
 - **Picture:** *The Prioress - Ellesmere Chaucer.jpg*. Please check the licence.
+
+# Content checks: Middle English Lecture V (The Wife of Bath)
+
+- **Reading:** General Prologue (Group A) 445–476 from Skeat (1894), Project Gutenberg #22120 (Skeat’s line numbers; the bracketed Tyrwhitt numbers of the transcription removed). Skeat’s notes: 452 Hl. *was thanne out*; 453, 455 E. *weren*; 457 *shoos*; 467 *muche*; 476 Hl. variant. I for J (*Ierusalem, Iame*) kept.
+- **Claims:** West Country cloth industry; Ypres and Ghent; weddings at the church door; Jankin and the deafness (Wife of Bath’s Prologue); the Three Kings brought to Cologne from Milan in 1164; physiognomy of gap teeth (hedged); *the olde daunce* ~ French *la vieille danse*; Scott’s *Ivanhoe* and the animal/meat pairs (specialisation gradual); OED “first uses” of Chaucer; *of bisyde Bathe* = St Michael’s parish (“probably”).
+- **Etymologies:** *housbonde* < ON *húsbóndi*; *scathe* < ON *skaði*; *carpe* < ON *karpa*; *gat* “gap” probably Norse; *targe* (French < Norse *targa*); *coverchief* < *couvre-chef*; *nay* (ON *nei*); *skirt/shirt*; *kirk/church*; *give/yeven*; *egg/ey*; *parisshe* and *Pfarrei* from the same Greek root; *durren* not related to *dürfen*.
+- **Picture:** *Wife-of-Bath-ms.jpg* (described as Ellesmere). Please confirm the source and licence.
