@@ -1022,3 +1022,12 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - **Grammar:** plural types (*yën, oxen, foon; feet, men, gees; yeer, hors, sheep; children*); the pronoun table (*ich, myn/my, hit, hir* “her/their”, *hem*); *she* first in the 12th century (North-East Midlands, origin disputed); *them/their* standard in the 15th century; *thou/ye* usage; *me thinketh* (OE *þyncan*) distinct from *thenken*.
 - **Vocabulary:** *ryden* (*rood, riden*); *biginnen* (*bigan, bigonne*); *lien* (*lay, layen, leyn*); *semen* < Old Norse *sœma*; *array* ~ *bereit*; *redy* < OE *(ge)rǣde*.
 - **Picture:** *The Old Tabard Inn, Southwark. South London (1912).jpg*. Please check what building it shows, and its licence.
+
+# Content checks: Middle English Lecture III (The Knight)
+
+- **Reading:** General Prologue (Group A) 43–78 from Skeat (1894), Project Gutenberg #22120. Skeat’s notes: *aryve* (60; Hl. *ariue*, Cm. *aryue*, E. Hn. *armee*), *were* (68; E. Hn. Cm.), *were* (74; E. Pt. *weren*, Hl. Ln. *was*). *un-to* and *y-come* are shown with a non-breaking hyphen.
+- **Campaigns:** Alexandria 1365 (Peter I of Cyprus); Algeciras 1342–44; Ayas 1367; Attalia 1361; Tlemcen; Benmarin; Balat (Palatia); Prussia/Lithuania and the Teutonic Order’s *Reisen* and *Ehrentisch*; Bolingbroke in Prussia 1390–91; no Hundred Years’ War campaigns in the portrait.
+- **Debate:** Terry Jones, *Chaucer’s Knight* (1980); Maurice Keen (1983).
+- **Grammar:** present *rydest, rydeth*, contracted *rit, halt*; northern *-es*; the Reeve’s Tale as “often called” the first literary use of dialect; principal parts *rood/riden/riden, wan/wonne, bigan/bigonne, faught/foughten, slow/slowen/slayn, cam/com/comen*; *wente* as the past of *goon*; Milton’s *star-ypointing*.
+- **Vocabulary:** *werre* (Old Northern French, cf. *verwirren*); *foo/foon* (OE *fāh*, cf. *Fehde*); *reysen* from MLG/MHG *reisen*; *weren* weak (*wered*).
+- **Picture:** *The Knight - Ellesmere Chaucer.jpg*. Please check the licence.
