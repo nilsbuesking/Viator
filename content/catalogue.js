@@ -100,9 +100,8 @@ Viator.setCatalogue([
     // spelling variants treated as equal when checking answers: thorn/eth = th, yogh = gh or y,
     // u/v and i/j/y interchange, doubled letters
     spelling: [['þ', 'th'], ['ð', 'th'], ['ȝ', 'gh'], ['v', 'u'], ['j', 'i'], ['y', 'i'], ['ck', 'k'], ['([a-z])\\1', '$1']],
-    lectures: [],
+    lectures: ['me/lecture-01.js'],
     planned: [
-      'Chaucer’s English: spelling, sounds, thorn and yogh; reading: General Prologue 1–18',
       'Nouns and pronouns (she, they); from Old to Middle English; reading: the pilgrims gather',
       'Verbs: present and past, -eth and -en, strong and weak; reading: the Knight',
       'Pronunciation and metre: final -e and the pentameter; reading: the Prioress',

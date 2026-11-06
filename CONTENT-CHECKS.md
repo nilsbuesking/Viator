@@ -1003,3 +1003,14 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - **Dictionaries:** Bosworth–Toller (1898; supplements 1921, 1972); the Toronto DOE’s progress (“the middle of the alphabet”: please update if needed); alphabetisation of æ.
 - **Etymologies:** *cwealm* ~ *Qual*; *swelgan* ~ *schwelgen*; *lēg* ~ *Lohe*.
 - **Picture:** *Beowulf Cotton MS Vitellius A XV f. 137r (fyrst forth gewat detail).png*. Please confirm that it shows f. 137r with line 210, and check its licence.
+
+# Content checks: Middle English Lecture I (Whan that Aprille)
+
+- **Reading:** General Prologue (Group A) 1–18 from Skeat (1894), Project Gutenberg #22120. Please compare with the printed Skeat. Skeat’s notes for these lines record E. *hise*, Hl. *halfe*, Hl. *fowles*, *yë* (Hl. *yhe*, Hn. *Iye*, E. *eye*), Pt. Ln. *Than* (E. *Thanne*), Pt. Hl. *palmers*, Hn. *Caunter-*, E. *seeke*.
+- **Pronunciation table:** the vowel values (closed/open e and o; ay/ey as a + i; ou = long u), final -e elided before a vowel and often h (*March(e) hath*); French stress (*licóur, vertú, melodýe*). Values are the standard reconstructions; details are debated.
+- **Chaucer’s life:** born early 1340s; captured 1359–60 and ransomed; Controller of Customs 1374–86; Clerk of the King’s Works; died 1400; buried in Westminster Abbey (the start of Poets’ Corner).
+- **Pilgrimage:** Becket murdered December 1170, canonised 1173, shrine destroyed 1538; twenty-nine pilgrims at the Tabard; two tales each way; twenty-four tales finished.
+- **Astronomy:** sun in Aries from 12 March to mid April in Chaucer’s calendar; the Man of Law’s Prologue gives 18 April.
+- **Spelling and letters:** o for u next to minims; þ written like y (“ye”); yogh in *Menzies, Dalziel*; ð gone by the 13th century; *its* from c. 1600; *rote* from Old Norse *rót*; *droghte* < OE *drūgaþ*; *flour/flower* the same word.
+- **Vocabulary:** *slepen* past *sleep/slepte*; *helpen* past *halp/holp*, past participle *holpen*; *goon* past participle *goon, y-go*; *seken* past *soughte*.
+- **Picture:** *Chaucer ellesmere.jpg* (Ellesmere MS, Huntington Library EL 26 C 9). Please check the licence.
