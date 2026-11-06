@@ -945,3 +945,14 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - **Etymologies:** *þolian* ~ German *dulden* ~ Latin *tolerāre* (same root); *hete* ~ *Hass*; *īdel* ~ *eitel*; *lāð* ~ *Leid*.
 - **German parallels in the adjective tables:** strong gen. sg. masc. *guten* (older *gutes*, as in *gutes Mutes*).
 - **Picture:** *Stories of beowulf Hrothgar.jpg* (J. R. Skelton in H. E. Marshall, *Stories of Beowulf*, 1908). I could not open the Commons file page from here, so please confirm that it shows Hrothgar and is marked public domain.
+
+## Old English Lecture VII (King Alfred’s Preface; weak verbs, preterite-presents)
+
+- **Reading:** Alfred’s Preface, Sweet’s lines 32–53 (Sweet 1879, pp. 5–6), from our transcription in sources/. The normalised view turns accents into macrons, ǫ/ę into o/e, removes the raised dot in *a·ndwyrde*, and adds *hīe* (Sweet unmarked), *ðā* for Sweet’s unaccented *ða* in line 45, and *lȳtle* for Sweet’s *lytle* (line 36). Please check *lȳtle*, and whether Sweet’s *récceleáse* (long e) is right; most dictionaries have *reccelēas* with short e.
+- **Source panel:** Sweet’s lines 15–20 (*Swǣ clǣne … nǣren*), normalised the same way: *hīo, fēawa, ðēninga, cūðen, āreccean* (Sweet line 19 *áręccean*).
+- **Interpretation:** *ðā swīðe lȳtle fiorme ðāra bōca wiston* translated “had very little benefit from those books”; *for ðǣre wilnunga hīe hit forlēton* “they neglected it on purpose”. The sense of the second is debated.
+- **Historical claims:** Hatton 20 addressed to Wærferth and written in Alfred’s lifetime (c. 890–897); the Cotton copy damaged in the 1731 fire; Alfred Jewel found 1693 near North Petherton; Godden (2007, *Medium Ævum*) on Alfredian authorship.
+- **Preterite-presents:** *witan* (wāt, witon, wiste/wisse), *cunnan* (cann, cunnon, cūðe), *magan* (mæg, magon, meahte/mihte), *sculan* (sceal, sculon, sceolde), *mōtan* (mōt, mōton, mōste), *þurfan* (þearf, þurfon, þorfte), *gemunan* (geman, gemunon, gemunde).
+- **Weak verbs:** class 3 *hycgan, hogde*; *tǣcan, tǣhte*; *wyrcan, worhte*; *sellan, sealde*; *hæbbe, hæfð* in the reference table.
+- **Etymologies:** *lǣfan* ~ *bleiben*; *gemunan* ~ *mahnen*, Latin *meminī*; *wīsdōm* ~ *Weistum*; *geþēode* ~ *deutsch*.
+- **Picture:** *Alfred Jewel.jpg* on Commons. Please confirm the licence and author on the file page; I could not open it from here.
