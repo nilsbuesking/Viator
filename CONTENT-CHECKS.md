@@ -1031,3 +1031,12 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - **Grammar:** present *rydest, rydeth*, contracted *rit, halt*; northern *-es*; the Reeve’s Tale as “often called” the first literary use of dialect; principal parts *rood/riden/riden, wan/wonne, bigan/bigonne, faught/foughten, slow/slowen/slayn, cam/com/comen*; *wente* as the past of *goon*; Milton’s *star-ypointing*.
 - **Vocabulary:** *werre* (Old Northern French, cf. *verwirren*); *foo/foon* (OE *fāh*, cf. *Fehde*); *reysen* from MLG/MHG *reisen*; *weren* weak (*wered*).
 - **Picture:** *The Knight - Ellesmere Chaucer.jpg*. Please check the licence.
+
+# Content checks: Middle English Lecture IV (The Prioress)
+
+- **Reading:** General Prologue (Group A) 118–162 from Skeat (1894), Project Gutenberg #22120. Skeat’s readings: *sëynt* (diaeresis), *lest* (132, Hl.; most *list*), *had* (146, Pt. Ln.; rest *hadde*), *weep* (148, his own reading; Ln. *wepped*, rest *wepte*), *oon* (148; E. *any*). Hyphens in *with-alle, up-on, wastel-breed, ther-to, ther-on* shown as non-breaking.
+- **Scansions given:** 118 (11 syllables, *Nonn(e)* elided), 120 (*grettest(e) ooth*, *sëynt* two syllables), 124 (*fair(e) and*), 127 (11 syllables), 146 (*had*). Please check against a modern metrical edition.
+- **Claims:** St Leonard’s, Bromley (Stratford-at-Bow), Benedictine; St Eligius patron of goldsmiths; table manners from La Vieille in the *Roman de la Rose*; visitations forbidding nuns’ dogs and brooches; Virgil, *Eclogues* 10.69; Dryden (Preface to *Fables*, 1700) “the rude sweetness of a Scotch tune”; Tyrwhitt 1775; Chaucer as the first major English poet to use the pentameter couplet; German *Blankvers*.
+- **Rhymes:** *mous : pitous*, *glas : was*, *coy : Loy*, *deed : breed*, *reed : forheed*, *clene : sene*; closed/open long e (*swete* vs *breeth*).
+- **Vocabulary:** *mete* ~ *Mett*; *lippe* as a Low German loan in German; *semely* < Old Norse; *sikerly* < Latin *securus*; *smyten* ~ *schmeißen*; *speken* (*spak, spoken*); *singen* (*song*).
+- **Picture:** *The Prioress - Ellesmere Chaucer.jpg*. Please check the licence.
