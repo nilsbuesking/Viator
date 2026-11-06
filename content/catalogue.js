@@ -100,9 +100,8 @@ Viator.setCatalogue([
     // spelling variants treated as equal when checking answers: thorn/eth = th, yogh = gh or y,
     // u/v and i/j/y interchange, doubled letters
     spelling: [['þ', 'th'], ['ð', 'th'], ['ȝ', 'gh'], ['v', 'u'], ['j', 'i'], ['y', 'i'], ['ck', 'k'], ['([a-z])\\1', '$1']],
-    lectures: ['me/lecture-01.js', 'me/lecture-02.js', 'me/lecture-03.js', 'me/lecture-04.js', 'me/lecture-05.js'],
+    lectures: ['me/lecture-01.js', 'me/lecture-02.js', 'me/lecture-03.js', 'me/lecture-04.js', 'me/lecture-05.js', 'me/lecture-06.js'],
     planned: [
-      'Negation, impersonal verbs and the subjunctive; reading: the Pardoner',
       'Reading a tale: the Pardoner’s Tale',
       'Reading a prologue: the Wife of Bath',
       'Reading a fable: the Nun’s Priest’s Tale',

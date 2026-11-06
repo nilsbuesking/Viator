@@ -1047,3 +1047,11 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - **Claims:** West Country cloth industry; Ypres and Ghent; weddings at the church door; Jankin and the deafness (Wife of Bath’s Prologue); the Three Kings brought to Cologne from Milan in 1164; physiognomy of gap teeth (hedged); *the olde daunce* ~ French *la vieille danse*; Scott’s *Ivanhoe* and the animal/meat pairs (specialisation gradual); OED “first uses” of Chaucer; *of bisyde Bathe* = St Michael’s parish (“probably”).
 - **Etymologies:** *housbonde* < ON *húsbóndi*; *scathe* < ON *skaði*; *carpe* < ON *karpa*; *gat* “gap” probably Norse; *targe* (French < Norse *targa*); *coverchief* < *couvre-chef*; *nay* (ON *nei*); *skirt/shirt*; *kirk/church*; *give/yeven*; *egg/ey*; *parisshe* and *Pfarrei* from the same Greek root; *durren* not related to *dürfen*.
 - **Picture:** *Wife-of-Bath-ms.jpg* (described as Ellesmere). Please confirm the source and licence.
+
+# Content checks: Middle English Lecture VI (The Pardoner)
+
+- **Reading:** General Prologue (Group A) 669–714 from Skeat (1894), Project Gutenberg #22120. Skeat’s notes: 669 E. *was* (rest *rood*); 680 Hl. *ne*; 686 *lay* from Hl. (others omit); 690 Hn. *yshaue*; 714 *so meriely* (E. Hn. Cm. *the murierly*). I for J kept (*Iolitee, Iet, Iesu, Iapes*).
+- **Claims:** pardoners as licensed alms-collectors offering indulgences; attacks by Wyclif, Langland, councils; St Mary Rounceval at Charing Cross, dependent on Roncesvalles; the vernicle as a Rome badge; Curry (1919) on physiognomy; McAlpine (1980, *PMLA*); Berwick–Ware; Jespersen’s cycle; condemnation of multiple negation in the 17th–18th centuries.
+- **Grammar:** contractions *nis, nas, nolde, noot, nadde*; impersonals *him thoughte, me list, me liketh, him nedeth, me reweth, me mette* and German equivalents (*es tut ihm not* for *him nedeth*); *me liketh > I like*; *moot/moste* (“had to”), *so mote I thee*; *our lady veyl* (old feminine genitive).
+- **Vocabulary:** *walet* first recorded in Chaucer; *geten* < Old Norse; *henten* ~ *hunt*; *listen* (impersonal) < OE *lystan*.
+- **Picture:** *The Pardoner - Ellesmere Chaucer.jpg*. Please check the licence.
