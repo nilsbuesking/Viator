@@ -956,3 +956,12 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - **Weak verbs:** class 3 *hycgan, hogde*; *tǣcan, tǣhte*; *wyrcan, worhte*; *sellan, sealde*; *hæbbe, hæfð* in the reference table.
 - **Etymologies:** *lǣfan* ~ *bleiben*; *gemunan* ~ *mahnen*, Latin *meminī*; *wīsdōm* ~ *Weistum*; *geþēode* ~ *deutsch*.
 - **Picture:** *Alfred Jewel.jpg* on Commons. Please confirm the licence and author on the file page; I could not open it from here.
+
+## Old English Lecture VIII (The voyage; verse)
+
+- **Reading:** Beowulf 194–228 from Klaeber (1922), as transcribed online, with four corrections to the transcription: *nacanbeorhte* → *nacan beorhte* (214), *wæssund* → *wæs sund* (223), *land ge sawon* → *land gesawon* (221), *hyrsedon* → *hrysedon* (226). Please confirm all four against Klaeber’s page, especially 226.
+- **Length marks (ours):** *sē* (196, stressed demonstrative), *ȳðlidan, swanrāde, lȳthwōn, lōgon, higerōfne, hǣl, cēnoste, fīftȳna, wīsade, landgemyrcu, gewāt, bāt, strēamas, bǣron, geatolīc, ūt, wilsīð, wǣgholm, gefȳsed, fāmīheals, gelīcost, āntīd, ōþres dōgores, līðende, gesāwon, blīcan, stēape, sīde sǣnæssas, sǣwudu sǣldon, gūðgewǣdo, ȳþlāde, ēaðe*. Short vowels kept in *stigon, scufon, hraðe, up, Wedera*.
+- **Metrical examples:** A *secgas bǣron* (213b), B *ond Hālga til* (61b), C *on stefn stigon* (212a), D *weard Scildinga* (229b). No example given for E. Please check against Mitchell & Robinson or Bliss.
+- **Claims:** Gregory of Tours on Chlochilaicus (c. 520); Magoun 1953 (*Speculum*), Benson 1966 (*PMLA*); Brodeur 1959 (*The Art of Beowulf*) on kennings; Sievers 1885/1893; *Bräutigam* < *guma*; *gerben* < *garawen*; the hero first named at line 343.
+- **Glosses:** *āntīd* and *eoletes* are cruxes and their meanings are marked as uncertain; *lōgon* from *lēan* (strong VI).
+- **Picture:** *Gokstadskipet1.jpg* on Commons. Please confirm the licence and author.
