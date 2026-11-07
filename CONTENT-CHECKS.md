@@ -1063,3 +1063,12 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - **Grammar:** *gan* + infinitive (plural *gonne*); fused *artow, livestow, wiltow, shaltow, hastow*; plural imperative *-eth*; *lat* + infinitive.
 - **Vocabulary:** *hoor* ~ *hehr*; *abyden* ~ archaic *beiten*; *knokken* ~ *knacken*; *carl* (Norse) vs native *churl*; *myle* < Latin *milia*.
 - **Picture:** *Hans Holbein d. J. - The Plowman from Dance of Death - WGA11613.jpg*. Please check the licence.
+
+# Content checks: Middle English Lecture VIII (The Wife of Bath’s Prologue)
+
+- **Reading:** Wife of Bath’s Prologue, Group D 1–34, from Skeat (1894), Project Gutenberg #22120. Skeat’s notes: 5 *Thonked* (Hn. Pt. Ln.; E. *Ythonked*); 7 as in E. (others *If I so ofte myghte haue wedded be*); 12 *taughte he*; 14 *Herke*; 18 *thilke* (his emendation); 29, 31 variants.
+- **Claims:** Jerome, *Adversus Jovinianum* (393) as source of the Cana and Samaritan arguments and of *digamy/octogamy*; Jankin’s book; canon-law marriage ages 12/14; theological ranking of virginity, widowhood, remarriage; Kittredge’s “Marriage Group” (1912); *bigamye* in the canon-law sense (remarriage after a spouse’s death).
+- **Bible references:** John 2 (Cana), John 4:18, Genesis 1:28, Genesis 2:24 / Matthew 19:5.
+- **Grammar:** *ne … but* “only”; *me was told*; *which a*; *the which that*; *quod*; learned endings.
+- **Vocabulary:** *axen* (OE *ācsian/āscian*); *bidden* (OE *biddan* and *bēodan*); *sith* < *siþþan*; *glosen* < Greek *glōssa*.
+- **Picture:** *Albrecht Dürer, Saint Jerome in His Study, 1514, NGA 6642.jpg*. Please check the licence.

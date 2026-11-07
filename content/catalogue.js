@@ -100,9 +100,8 @@ Viator.setCatalogue([
     // spelling variants treated as equal when checking answers: thorn/eth = th, yogh = gh or y,
     // u/v and i/j/y interchange, doubled letters
     spelling: [['þ', 'th'], ['ð', 'th'], ['ȝ', 'gh'], ['v', 'u'], ['j', 'i'], ['y', 'i'], ['ck', 'k'], ['([a-z])\\1', '$1']],
-    lectures: ['me/lecture-01.js', 'me/lecture-02.js', 'me/lecture-03.js', 'me/lecture-04.js', 'me/lecture-05.js', 'me/lecture-06.js', 'me/lecture-07.js'],
+    lectures: ['me/lecture-01.js', 'me/lecture-02.js', 'me/lecture-03.js', 'me/lecture-04.js', 'me/lecture-05.js', 'me/lecture-06.js', 'me/lecture-07.js', 'me/lecture-08.js'],
     planned: [
-      'Reading a prologue: the Wife of Bath',
       'Reading a fable: the Nun’s Priest’s Tale',
       'Chaucer beyond the Tales: Troilus and Criseyde, the dream poems',
       'Chaucer’s world: London, the court, the war and his contemporaries Gower and Langland',
