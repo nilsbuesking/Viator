@@ -1072,3 +1072,13 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - **Grammar:** *ne … but* “only”; *me was told*; *which a*; *the which that*; *quod*; learned endings.
 - **Vocabulary:** *axen* (OE *ācsian/āscian*); *bidden* (OE *biddan* and *bēodan*); *sith* < *siþþan*; *glosen* < Greek *glōssa*.
 - **Picture:** *Albrecht Dürer, Saint Jerome in His Study, 1514, NGA 6642.jpg*. Please check the licence.
+
+# Content checks: Middle Low German special lecture (Vun Middelnedderdüütsch to Platt)
+
+- **Reading: constructed** (labelled as such in the app). Two versions of one short story: normalised MLG (c. 1400, Lübeck style) and modern Northern Low German (Holstein/Hamburg type, spelling broadly after Saß). Please check the MLG forms against Lübben/Lasch-Borchling (*sîneme schepe, gûdes, lakene, schipher, went* “until”, *vorgeit, quêmen, havene, wente* “because”, *gewachtet, sande, schrêf, Got sî gelovet*) and the Platt against Saß’s dictionary (*föhr, vun, na, harr, Solt, Beer, Laken, weer, Do sä, mööt, bet … vörbi is, Den annern Dag, kemen, in den Haven, Lüüd, froh, wiel, töövt harrn, schick, Breef, schreev, Gott si Dank, wi sünd*). “Gott si Dank” is the point I am least sure of.
+- **To add:** an authentic Platt text for the source panel, e.g. a poem from Klaus Groth’s *Quickborn* (1852), transcribed from a scan of an early edition.
+- **History:** northern chanceries switching to High German c. 1500–1650 (Brandenburg early); Bugenhagen’s Bible 1533–34; the last Low German Bible in the early 17th century (1621?); *Missingsch*.
+- **Dialects:** the grouping (Northern Low Saxon, Westphalian *Bruoder*, Eastphalian *mik/dik*, Mecklenburgish-West Pomeranian, Brandenburgish, East Low German, Plautdietsch); Dutch Low Saxon.
+- **Revival and status:** Groth (1819–1899, Heide), *Quickborn* 1852; Reuter (1810–1874), *Ut mine Stromtid*; Ohnsorg-Theater 1902; Saß spelling (mid-20th century); European Charter, in force for Germany 1999, eight states; IDS/INS survey 2016 (press release): 15.7% speak (very) well, almost half understand well, 50.7% of over-80s vs 11.7% of 40–49-year-olds; decline slowed since 2007.
+- **Sound and grammar claims:** apocope; d lost between vowels (*Broer, Vadder*); *Eer(d)*; numbered long vowels in the dictionaries; dative/accusative merger (*mi, di*); preterite surviving in northern Platt; s-t/s-p; final g as a fricative; unity plural *-et/-t*.
+- **Picture:** *Klaus Groth Museum, Heide.jpg*. Please check what the building is and the licence.
