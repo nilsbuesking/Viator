@@ -50,5 +50,5 @@ Texts supplied by Nils for building readings. Public domain.
   when a lecture uses them.
 - `nds-schaumburg-texts.txt`: texts in Schaumburg Platt supplied by Nils (2026-11-07): a prose piece by Karl Wehmeyer
   on the evening twilight (*Schummernisse*), an anonymous anecdote (“Reget et noch?”), and twelve proverbs with German
-  renderings. Publication details still to be supplied. Wehmeyer’s text and the anecdote are probably in copyright:
+  renderings. Source: website of the Arbeitsgruppe Spurensuche in der Schaumburger Landschaft. Wehmeyer’s text and the anecdote are probably in copyright:
   quote only short phrases in the app; the proverbs are traditional.

@@ -1093,3 +1093,5 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - **Northern comparison forms:** *Huus, ut, Schoh, klook, good, Höhner, hooch, ook, Avend, Dag, ik, he, so, to; se hebbt, se danzt; west, bröcht, storven; he mutt*.
 - **Glosses to check:** *afföllern* “abverlangen”, *Nieteln* “Nesseln”, *rööget sick* “regen sich”, *inne* “zu Hause”, *frett* (neutral “isst”?), *weene* “wem”, *jehürt*.
 - **Picture:** *Bueckeburg Schloss v O.JPG*. Please check the licence.
+
+- **Source identified (Nils, 2026-11-07):** the Schaumburg texts come from the website of the Arbeitsgruppe Spurensuche in der Schaumburger Landschaft; the reading note and source panel now cite it.

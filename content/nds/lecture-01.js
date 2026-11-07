@@ -2,7 +2,7 @@
  * Low German (Plattdeutsch), Schaumburg focus — Lecture I: Schaumburg Platt, sounds and spellings;
  * how it differs from northern Platt and from High German; verbs in -et, past participles in e-.
  * Reading: twelve proverbs in Schaumburg Platt with the German renderings given in the source
- * (a collection of texts supplied by Nils; publication details to be confirmed, see CONTENT-CHECKS.md).
+ * (website of the Arbeitsgruppe Spurensuche in der Schaumburger Landschaft; texts supplied by Nils).
  * Short phrases quoted in the grammar from a prose text by Karl Wehmeyer and an anonymous anecdote in the
  * same collection. Pictures from Wikimedia Commons.
  */
@@ -47,7 +47,7 @@ Viator.addLecture('nds', {
   culture: `
     <p class="eyebrow">From the sources</p>
     <p><em>Dat is de Tied taun Noahdenken, wat hät düsse Dag ‚ebrocht, wat schall morgen sien?</em></p>
-    <p>“That is the time for reflecting: what has this day brought, what will tomorrow be?” From a prose piece by Karl Wehmeyer on the evening twilight (<em>Schummernisse</em>), in the collection of Schaumburg texts.</p>
+    <p>“That is the time for reflecting: what has this day brought, what will tomorrow be?” From a prose piece by Karl Wehmeyer on the evening twilight (<em>Schummernisse</em>), published on the website of the Arbeitsgruppe Spurensuche in der Schaumburger Landschaft; quoted here for discussion.</p>
     <p>Almost every feature of this lecture is in one sentence: <em>taun</em> (zum, with <em>au</em>), <em>Noahdenken</em> (Nachdenken, with <em>oa</em>), <em>‚ebrocht</em> (gebracht, with the participle prefix <em>e-</em>, written with an apostrophe for the lost g), and <em>schall</em> “soll”, the same verb as Middle Low German <span class="la">schal</span> and English <em>shall</em>.</p>
   `,
 
@@ -211,7 +211,7 @@ Viator.addLecture('nds', {
 
   reading: {
     title: 'Sprichwörter',
-    note: 'Twelve proverbs in Schaumburg Platt, as printed in a collection of Schaumburg texts supplied by Nils (publication details to be added). The German renderings under “German translation” are those given in the collection; some are free. The English is this course’s. Tap any word.',
+    note: 'Twelve proverbs in Schaumburg Platt, as published on the website of the Arbeitsgruppe Spurensuche in der Schaumburger Landschaft (texts supplied by Nils). The German renderings under “German translation” are those given in the collection; some are free. The English is this course’s. Tap any word.',
     text: 'Wenn de Katte nich inne is, danzet de Müüse up’n Dische\nWat de Buer nich kennt, dat frett hei nich.\nWer Pech hätt, fallt up den Rüjjen un breckt sick de Neesen\nMan mott den Minschen nich mihr Verstand afföllern, anse hei het.\nWeene de Schauh passet, de tüht en sick an.\nAabends rööget sick de Fuulen.\nNaklauk is en jeder.\nKlauke Heuhner legget ok eis in de Nieteln.\nWer sein Bedde verkofft, mott up den Stroh schlaapen.\nDe dümmsten Buern hewwet de dicksten Kartuffeln.\nUp en jrowwen Kloss jehürt en jrowwn Kiel.\nWer de Katten nich futtern well, mott de Müüse sülmst fengen.',
     translations: [
       { label: 'German translation (from the source)', text: 'Wenn die Katze nicht zu Hause ist, tanzen die Mäuse auf den Tischen / Was der Bauer nicht kennt, das isst er nicht. / Wer Pech hat, fällt auf den Rücken und bricht sich die Nase. / Man darf einem Menschen nicht mehr abverlangen, als er leisten kann. / Wem der Schuh passt, der zieht ihn sich an. / Abends regen sich die Faulen. / Hinterher weiß man alles besser. / Auch wer klug ist, macht mal einen Fehler. / Wer sein Bett verkauft, muss auf Stroh schlafen. / Die dümmsten Bauern haben die dicksten Kartoffeln. / Auf einen groben Klotz gehört ein grober Keil. / Wer die Katze nicht füttern will, muss die Mäuse selbst fangen.' },
