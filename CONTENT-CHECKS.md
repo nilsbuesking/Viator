@@ -1082,3 +1082,14 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - **Revival and status:** Groth (1819–1899, Heide), *Quickborn* 1852; Reuter (1810–1874), *Ut mine Stromtid*; Ohnsorg-Theater 1902; Saß spelling (mid-20th century); European Charter, in force for Germany 1999, eight states; IDS/INS survey 2016 (press release): 15.7% speak (very) well, almost half understand well, 50.7% of over-80s vs 11.7% of 40–49-year-olds; decline slowed since 2007.
 - **Sound and grammar claims:** apocope; d lost between vowels (*Broer, Vadder*); *Eer(d)*; numbered long vowels in the dictionaries; dative/accusative merger (*mi, di*); preterite surviving in northern Platt; s-t/s-p; final g as a fricative; unity plural *-et/-t*.
 - **Picture:** *Klaus Groth Museum, Heide.jpg*. Please check what the building is and the licence.
+
+# Content checks: Low German (Schaumburg) Lecture I and course set-up
+
+- **New course** `nds` (Low German, Schaumburg focus), with nine planned lectures.
+- **Reading:** the twelve proverbs as printed in Nils’s collection of Schaumburg texts, with the collection’s German renderings; English translation ours. Please add the publication details of the collection (title, editor, year) so the reading note can cite it.
+- **Copyright:** Karl Wehmeyer’s prose text and the anonymous anecdote are probably in copyright; the lecture quotes only one sentence of Wehmeyer (source panel) and single words from the anecdote. Please confirm this is acceptable, or tell me who published them.
+- **Classification:** “Schaumburg lies where East Westphalian, Eastphalian and Northern Low Saxon meet” and the features *ui, au, -et, e-* as southern; I could not confirm a standard classification of Schaumburg Platt. Please check in a dialect atlas or regional study.
+- **History:** Schaumburg-Lippe a state until 1946; the division of the county of Schaumburg in 1647 (Hessian part around Rinteln, later Prussian); the Bückeburg archive (Niedersächsisches Landesarchiv, formerly Staatsarchiv).
+- **Northern comparison forms:** *Huus, ut, Schoh, klook, good, Höhner, hooch, ook, Avend, Dag, ik, he, so, to; se hebbt, se danzt; west, bröcht, storven; he mutt*.
+- **Glosses to check:** *afföllern* “abverlangen”, *Nieteln* “Nesseln”, *rööget sick* “regen sich”, *inne* “zu Hause”, *frett* (neutral “isst”?), *weene* “wem”, *jehürt*.
+- **Picture:** *Bueckeburg Schloss v O.JPG*. Please check the licence.

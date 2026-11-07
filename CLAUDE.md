@@ -86,6 +86,13 @@ British English in all text.
   content filter, so ask for the text rather than assembling it from websites.
   A shared page comparing sound correspondences across the Germanic courses would
   fit in `content/` as a reference page for all of them.
+- `nds`: modern Low German (Plattdeutsch) for understanding, with the focus on Schaumburg Platt (Bückeburg,
+  Stadthagen, Rinteln) and a look north to the Nienburg area, plus an overview of the other dialects.
+  German glosses (`reverseFrom: 'de'`), no length marks. Authentic texts keep their own spelling; the course's own
+  Platt follows Saß where it fits and the Schaumburg texts' habits where it does not (ui, au, oa; plural -et;
+  participle e-). Classification of Schaumburg Platt is transitional and should be stated cautiously. Modern
+  texts are often in copyright: quote short phrases only, and ask Nils for public-domain material (Wenker
+  sentences, Grimm, Groth, Reuter) for full readings. Translation exercises use `nds-de` / `de-nds`.
 - Reference pages are registered with `Viator.addPage(courses, page)` in files
   listed by `Viator.setShared([...])` in `content/catalogue.js`. Kinds: `dates`
   (content/calendar.js, shared by all courses), `timeline` and `map`
