@@ -107,14 +107,16 @@ transcribed from page images, and every form checked against the printed edition
   vom Jahr 1287*, Tübingen 1840, preface by Reyscher: **only the front matter** (manuscript descriptions, c. 95
   pages); the law text itself is not in the file.
 - `mhd-schwabenspiegel-auszug-1274-wikisource.txt`: extract from the Schwabenspiegel (Land- und Lehnrechtsbuch,
-  composed 1274/5), Wikisource transcription, headed "Nr. 82 (76)" (the header does not name the collection;
-  it looks like a source reader of constitutional history, probably Zeumer's *Quellensammlung*: unconfirmed).
-  Per its own note the text rests on von Daniels's printing (Berlin 1863) of Lassberg's manuscript (now
-  Donaueschingen), with Lassberg's 1840 edition consulted, "an einzelnen Stellen nach anderen Überlieferungen
-  verbessert", and the superscript double vowels of the manuscript **resolved by the editor**, so this is an
-  edited text, not the manuscript's spelling. Footnote texts are missing (only the markers [1]–[75] remain);
-  bracketed numbers such as [106] are page breaks of the printed edition. Covers kings, courts and fiefs, not
-  inheritance. Wikisource transcription not yet checked against its page images.
+  composed 1274/5), Wikisource transcription of Zeumer, *Quellensammlung zur Geschichte der deutschen
+  Reichsverfassung*, vol. 2, Nr. 82 (76) (the page scan is on Wikisource as "De Zeumer V2 105.jpg"; the title
+  page was not seen, so edition and year are unconfirmed). Checked against the image of p. 105: the editor's
+  headnote and the first paragraph (*Sit nu Got des frides furste haizet … daz sich der sattel nit entwinde*)
+  match word for word; nothing else has been checked. Per the headnote the text rests on von Daniels's printing
+  (Berlin 1863) of Lassberg's manuscript (now Donaueschingen), with Lassberg's 1840 edition consulted, "an
+  einzelnen Stellen nach anderen Überlieferungen verbessert", and the superscript double vowels of the manuscript
+  **resolved by the editor**: an edited text, not the manuscript's spelling. Footnote texts are missing from the
+  file (only the markers remain; the one on p. 105 just refers to the Sachsenspiegel, Nr. 57); bracketed numbers
+  such as [106] are page breaks of the printed edition. Covers kings, courts and fiefs, not inheritance.
 - `mhd-urkundenbuch-mittelrhein-vol3-1874-ocr.txt`: Eltester and Goerz, *Urkundenbuch zur Geschichte der
   mittelrheinischen Territorien*, vol. 3 (1212–1260), Coblenz 1874. Almost entirely Latin. The German text no. 260
   ("1225", Simon von Schöneck's will) is a **much later German translation**, not a 13th-century original.
