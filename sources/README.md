@@ -52,3 +52,30 @@ Texts supplied by Nils for building readings. Public domain.
   on the evening twilight (*Schummernisse*), an anonymous anecdote (“Reget et noch?”), and twelve proverbs with German
   renderings. Source: website of the Arbeitsgruppe Spurensuche in der Schaumburger Landschaft. Wehmeyer’s text and the anecdote are probably in copyright:
   quote only short phrases in the app; the proverbs are traditional.
+- Further Skeat volumes supplied by Nils (2026-11-11), all from Project Gutenberg, same edition and layout as the
+  Canterbury Tales file (line numbers on their own line before every fifth line; Skeat's variant notes follow each
+  page and must be stripped when extracting text):
+  - `chaucer-skeat-1894-vol1-romaunt-minor-poems.txt`: vol. 1 (#43089): Life of Chaucer, Romaunt of the Rose,
+    Minor Poems (A. B. C., Book of the Duchesse, Parlement of Foules, Truth, Purse, etc.).
+  - `chaucer-skeat-1894-vol2-boece-troilus.txt`: vol. 2 (#44833): Boece and Troilus and Criseyde (Books I–V),
+    with Skeat's introduction on Boccaccio's *Filostrato* and Guido delle Colonne.
+  - `chaucer-skeat-1894-vol3-fame-legend-astrolabe.txt`: vol. 3 (#45027): House of Fame, Legend of Good Women (both
+    versions of the Prologue), Astrolabe, and the Sources of the Canterbury Tales. Quotes Gower's first-recension
+    greeting to Chaucer twice (introduction to the Legend, p. xliii; Sources, p. 414) from Pauli's edition (1857,
+    iii. 374), with spelling corrected by Skeat. Skeat dates the first recension 1385; Macaulay (vol. 2 below) 1390.
+- Gower, supplied by Nils (2026-11-11):
+  - `gower-macaulay-1901-vol2-confessio-prol-v.txt`: G. C. Macaulay, *The Complete Works of John Gower*, vol. 2,
+    The English Works (Oxford 1901): *Confessio Amantis*, Prologue to Book V l. 1970, with Macaulay's introduction
+    (date and recensions, language, manuscripts) and notes. Project Gutenberg #71162 (proofread). Vol. 3 (Books
+    VI–VIII, with the first-recension epilogue) is Gutenberg #71433, not yet supplied.
+  - `gower-confessio-amantis-gutenberg266.txt`: *Confessio Amantis*, all eight books, “based on” Macaulay's text,
+    Project Gutenberg #266 (2008). No introduction, notes or variants; the first-recension lines (e.g. the
+    greeting to Chaucer) are absent. Use only where vol. 2 does not reach, and check against Macaulay.
+  - `gower-macaulay-1902-vol4-latin-ocr.txt`: Macaulay vol. 4, The Latin Works (1902), Internet Archive OCR:
+    Life of Gower, *Vox Clamantis* (Book I on the rising of 1381), *Cronica Tripertita*. OCR quality fair; Nils
+    has the PDF (completeworksofj04goweuoft.pdf).
+- `langland-skeat-piers-plowman-b-ocr.txt`: W. W. Skeat, *The Vision of William concerning Piers the Plowman*
+  (B-text, “about A.D. 1377”), Prologue and Passus I–VII, tenth edition revised (Oxford, Clarendon Press; the library
+  shelfmark of this copy carries the date 1923), Internet Archive OCR of a Google scan (University of Michigan). OCR only: Nils has the PDF of the
+  page images (Skeat_The_Vision_Concerning_10th_ed.pdf, 272 pages, 75 MB, not kept in the repository); readings
+  must be transcribed from the pages.
