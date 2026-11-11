@@ -1,14 +1,16 @@
 /*
- * Middle Low German — special lecture: from Middle Low German to Plattdeutsch.
+ * Special lecture (Middle High German course): from Middle Low German to Plattdeutsch.
+ * Moved here from the Middle Low German course on 2026-11-11, when that course was put on hold
+ * (see archive/middle-low-german-on-hold.md). It sets the other great northern written language beside Middle High German.
  * The shift to High German (c. 1500–1650), the modern dialects, the 19th-century revival, status today;
  * what stayed and what changed between Middle Low German and modern Low German.
  * Reading: a CONSTRUCTED short text in normalised Middle Low German beside the same text in modern
  * Northern Low German (Saß-type spelling). Both are this course’s own; see CONTENT-CHECKS.md.
  * Pictures from Wikimedia Commons.
  */
-Viator.addLecture('mnd', {
-  id: 'mnd-s1',
-  number: 101,
+Viator.addLecture('mhd', {
+  id: 'mhd-s2',
+  number: 102,
   special: true,
   title: 'Vun Middelnedderdüütsch to Platt',
   subtitle: 'From Middle Low German to Plattdeutsch: decline, survival and revival',
@@ -17,7 +19,7 @@ Viator.addLecture('mnd', {
   intro: `
     <p>Around 1400 Middle Low German was the written language of a trading world from Bruges to Novgorod: the language of the Hanse diets, of town law from Lübeck to Reval, of chronicles, prayer books and the first printed Bible in the North (Lübeck 1494). Two centuries later it had almost disappeared from writing. Town councils, princes, the Church and the schools had gone over to High German, and Low German survived as the everyday speech of the North, without a written standard.</p>
     <p>That spoken language is <strong>Plattdeutsch</strong> (in Low German <em>Plattdüütsch</em> or simply <em>Platt</em>), the direct descendant of the language of the Hanse documents. This special lecture traces the path: why the written language was abandoned, what has stayed the same and what has changed in the sounds and grammar, how a literary revival began in the 19th century, and where the language stands today.</p>
-    <p>The reading is a short constructed text, written by this course in normalised Middle Low German and in modern Northern Low German side by side, so that you can switch between the two and see six centuries of change in the same sentences.</p>
+    <p>The reading is a short constructed text, written for this course in normalised Middle Low German and in modern Northern Low German side by side, so that you can switch between the two and see six centuries of change in the same sentences.</p>
   `,
 
   background: [

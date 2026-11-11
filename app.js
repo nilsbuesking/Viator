@@ -7,8 +7,8 @@
   'use strict';
 
   const CONTENT_BASE = (document.currentScript && document.currentScript.dataset.content) || 'content/';
-  const BUILD = '2026-11-11 d';           // shown under Progress so you can tell which version is running
-  const FORMAT = 1;                       // progress format version; bump + migrate() on change
+  const BUILD = '2026-11-11 e';           // shown under Progress so you can tell which version is running
+  const FORMAT = 2;                       // progress format version; bump + migrate() on change
   const STORE_KEY = 'viator.progress';
   const INTERVALS = [0, 1, 2, 4, 8, 16, 32, 64]; // Leitner box → days until next review
 
@@ -63,7 +63,21 @@
   }
   function migrate(p) {
     if (!p || typeof p !== 'object') return freshProgress();
-    // future: if (p.format === 1) { ...transform...; p.format = 2; }
+    // format 2 (2026-11-11): the Middle Low German course was archived and its special lecture moved to
+    // Middle High German, so its progress and flashcards move from mnd-s1 to mhd-s2
+    if (!p.format || p.format < 2) {
+      const mnd = p.courses && p.courses.mnd, old = mnd && mnd.lectures && mnd.lectures['mnd-s1'];
+      if (old) {
+        const mhd = p.courses.mhd = p.courses.mhd || { lectures: {}, cards: {}, newToday: { day: 0, count: 0 }, misses: {} };
+        mhd.lectures = mhd.lectures || {}; mhd.cards = mhd.cards || {};
+        mhd.lectures['mhd-s2'] = old; delete mnd.lectures['mnd-s1'];
+        Object.keys(mnd.cards || {}).forEach(k => {
+          const m = /^([vg]):mnd-s1:(.*)$/.exec(k);
+          if (m) { mhd.cards[m[1] + ':mhd-s2:' + m[2]] = mnd.cards[k]; delete mnd.cards[k]; }
+        });
+        if (mnd.misses) Object.keys(mnd.misses).forEach(k => { if (k.indexOf('mnd-s1') >= 0) { mhd.misses = mhd.misses || {}; mhd.misses[k.replace('mnd-s1', 'mhd-s2')] = mnd.misses[k]; delete mnd.misses[k]; } });
+      }
+    }
     const base = freshProgress();
     p.settings = Object.assign(base.settings, p.settings || {});
     p.streak = p.streak || base.streak;

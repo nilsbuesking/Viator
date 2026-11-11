@@ -20,28 +20,6 @@ Viator.setCatalogue([
     ]
   },
   {
-    id: 'mnd',
-    name: 'Middle Low German',
-    native: 'Mittelniederdeutsch',
-    langTag: 'gml',
-    tts: null,                         // no voice exists; a modern German voice would mislead
-    keyboard: ['â', 'ê', 'î', 'ô', 'û', 'ä', 'ö', 'ü'],
-    macrons: true,
-    lengthMark: 'circumflex', lengthMarkName: 'length marks', lengthMarkExample: 'â ê î ô û',
-    lectureWord: 'Lecture',
-    reverseFrom: 'de',                 // glosses and reverse flashcards use German
-    // spelling variants treated as equal when checking answers and looking up words
-    spelling: [['ck', 'k'], ['c', 'k'], ['gh', 'g'], ['th', 't'], ['dt', 't'], ['y', 'i'], ['j', 'i'], ['v', 'u'],
-               ['ü', 'u'], ['ö', 'o'], ['ä', 'a'], ['([bdfgklmnprst])\\1', '$1']],
-    lectures: ['mnd/lecture-01.js', 'mnd/lecture-02.js', 'mnd/special-plattdeutsch.js'],
-    planned: [
-      'Strong verbs; the past tense in narratives and letters',
-      'Nouns and adjectives: cases and plurals as documents use them',
-      'Charters in detail: formulae, seals, dating by the church calendar',
-      'Letters and recesses: reading a Hanseatic edition'
-    ]
-  },
-  {
     id: 'mhd',
     name: 'Middle High German',
     native: 'Mittelhochdeutsch',
@@ -56,7 +34,7 @@ Viator.setCatalogue([
     // spelling variants treated as equal: edition symbols and the commonest manuscript habits
     spelling: [['æ', 'ae'], ['œ', 'oe'], ['ë', 'e'], ['ʒ', 'z'], ['ck', 'k'], ['c', 'k'], ['y', 'i'], ['j', 'i'], ['v', 'u'],
                ['([bdfgklmnprst])\\1', '$1']],
-    lectures: ['mhd/lecture-01.js', 'mhd/lecture-02.js', 'mhd/special-palaestinalied.js'],
+    lectures: ['mhd/lecture-01.js', 'mhd/lecture-02.js', 'mhd/special-palaestinalied.js', 'mhd/special-plattdeutsch.js'],
     planned: [
       'Nouns: strong and weak declensions; the uses of the cases',
       'Articles, pronouns and the strong and weak adjective',
@@ -111,4 +89,4 @@ Viator.setCatalogue([
 ]);
 
 // Shared reference pages (date converter for all courses; Hanse timeline and map; MHG timeline)
-Viator.setShared(['calendar.js', 'mnd/pages.js', 'mhd/pages.js', 'oe/pages.js', 'me/pages.js']);
+Viator.setShared(['calendar.js', 'mhd/pages.js', 'oe/pages.js', 'me/pages.js']);

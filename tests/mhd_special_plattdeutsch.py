@@ -13,8 +13,8 @@ with sync_playwright() as p:
     pg.route('https://upload.wikimedia.org/**', lambda r: r.fulfill(status=404, body=''))
     pg.goto('http://localhost:8765/index.html'); pg.wait_for_timeout(500)
     pg.evaluate("localStorage.clear()"); pg.reload(); pg.wait_for_timeout(500)
-    pg.select_option('#coursepick','mnd'); pg.wait_for_timeout(200)
-    pg.click('[data-lecture=mnd-s1]')
+    pg.select_option('#coursepick','mhd'); pg.wait_for_timeout(200)
+    pg.click('[data-lecture=mhd-s2]')
     w={}
     for sec in ['intro','pron','grammar','vocab','reading']:
         pg.click(f'.chip[data-section={sec}]'); w[sec]=pg.evaluate('document.documentElement.scrollWidth')

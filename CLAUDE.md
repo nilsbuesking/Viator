@@ -45,15 +45,10 @@ British English in all text.
 
 ## Courses
 - `latin`: Classical Latin, macrons (`lengthMark: 'macron'`), English glosses.
-- `mnd`: Middle Low German for reading Hanseatic documents. Normalised spelling
-  as in the dictionaries (Lübben/Walther, Lasch/Borchling) with circumflex for
-  long vowels (`lengthMark: 'circumflex'`). Vocabulary carries `de` (German)
-  as well as `en`; flashcards and test glosses use German (`reverseFrom: 'de'`).
-  Explain everything through German, especially the absent High German
-  consonant shift and the vowel correspondences. Readings give a normalised
-  `text` and an as-written `diplomatic` version; add glosses for both spellings.
-  Constructed texts must be labelled as constructed. Pronunciation is uncertain;
-  say so.
+- `mnd` (Middle Low German): ON HOLD since 2026-11-11 and removed from the app. Lectures I–II, the Hanse
+  timeline and map, their tests and the course settings are in `archive/mnd/`; the summary and the restore steps are
+  in `archive/middle-low-german-on-hold.md`. The special lecture "From Middle Low German to Plattdeutsch" moved to the
+  `mhd` course (`content/mhd/special-plattdeutsch.js`, id `mhd-s2`). Still-open checks stay in CONTENT-CHECKS.md.
 - `mhd`: Middle High German, for reading courtly literature and southern/central
   German documents. Normalised spelling of the editions (Lachmann; Lexer, BMZ)
   with circumflex for long vowels, æ œ iu for long umlauts, ë for open e where the
@@ -88,11 +83,11 @@ British English in all text.
   fit in `content/` as a reference page for all of them.
 - `nds` (modern Low German, Schaumburg focus): ON HOLD since 2026-11-09 and removed from the app.
   Everything needed to restart it is in `archive/nds/` (see `archive/plattdeutsch-on-hold.md`).
-  The Middle Low German special lecture `mnd/special-plattdeutsch.js` is part of the `mnd` course and stays.
+  The special lecture on Middle Low German and Plattdeutsch now belongs to the `mhd` course (see `mnd` above).
 - Reference pages are registered with `Viator.addPage(courses, page)` in files
   listed by `Viator.setShared([...])` in `content/catalogue.js`. Kinds: `dates`
   (content/calendar.js, shared by all courses), `timeline` and `map`
-  (content/mnd/pages.js; map coastline from Natural Earth, public domain;
+  (the Hanse timeline and map, with a Natural Earth coastline, are in `archive/mnd/pages.js` while that course is on hold;
   content/mhd/pages.js has the MHG timeline, content/oe/pages.js the OE one, content/me/pages.js the ME one).
 - Authentic source text: quote only what you have actually seen in an edition or
   scan, cite volume, number and page, mark corrections in [ ], and add it to
@@ -105,7 +100,7 @@ British English in all text.
   CONTENT-CHECKS.md so Nils can confirm they show what the caption says.
 - Course options live in `content/catalogue.js` (spelling variants, keyboard,
   labels). Translation exercises use `dir`: `xx-en`, `xx-de`, or into the
-  course language (e.g. `de-mnd`, `en-la`).
+  course language (e.g. `de-mhd`, `en-la`).
 
 ## Suggested model use
 - Engine and storage changes, and content review passes: the most capable model, high effort.

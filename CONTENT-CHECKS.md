@@ -47,6 +47,8 @@ Dative is formally possible; the explanation says so. Check you agree with the f
 
 ---
 
+> **Note (2026-11-11):** the Middle Low German course is on hold; Lectures I–II, the timeline and the map are in `archive/mnd/`. The checks below are kept for when it restarts. The special lecture on Plattdeutsch now sits in the Middle High German course.
+
 # Content checks: Middle Low German Lecture I
 
 The reading is a **constructed** charter in the style of Lübeck documents, not an

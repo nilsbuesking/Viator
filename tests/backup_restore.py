@@ -9,7 +9,7 @@ with sync_playwright() as p:
     # make some progress in both courses
     pg.click('text=Start lecture'); pg.click('[data-done]'); pg.click('[data-go=cards]'); pg.click('[data-startcards]')
     for k in range(5): pg.click('[data-flip]'); pg.click('[data-grade=good]')
-    pg.click('[data-go=home]'); pg.select_option('#coursepick','mnd'); pg.click('text=Start lecture'); pg.click('[data-done]')
+    pg.click('[data-go=home]'); pg.select_option('#coursepick','mhd'); pg.click('text=Start lecture'); pg.click('[data-done]')
     before=pg.evaluate("localStorage.getItem('viator.progress')")
     pg.click('[data-go=progress]'); pg.click('[data-copybackup]'); pg.wait_for_timeout(300)
     txt = pg.locator('#backuptext').input_value() if pg.locator('#backuptext').count() else pg.evaluate("navigator.clipboard.readText()")
@@ -23,7 +23,7 @@ with sync_playwright() as p:
     restored=pg.evaluate("JSON.parse(localStorage.getItem('viator.progress'))")
     import json
     b0=json.loads(before)
-    print('restored courses:', list(restored['courses'].keys()), '| cards match:', restored['courses']['latin']['cards']==b0['courses']['latin']['cards'], '| mnd sections:', restored['courses']['mnd']['lectures']['mnd-01']['sections'])
+    print('restored courses:', list(restored['courses'].keys()), '| cards match:', restored['courses']['latin']['cards']==b0['courses']['latin']['cards'], '| mhd sections:', restored['courses']['mhd']['lectures']['mhd-01']['sections'])
     print('w', pg.evaluate('document.documentElement.scrollWidth'))
     b.close()
 print('errors', errs)
