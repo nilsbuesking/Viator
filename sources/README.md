@@ -79,3 +79,43 @@ Texts supplied by Nils for building readings. Public domain.
   shelfmark of this copy carries the date 1923), Internet Archive OCR of a Google scan (University of Michigan). OCR only: Nils has the PDF of the
   page images (Skeat_The_Vision_Concerning_10th_ed.pdf, 272 pages, 75 MB, not kept in the repository); readings
   must be transcribed from the pages.
+
+## Middle High German (supplied by Nils, November 2026; texts only, the scans are not kept in the repo)
+
+All public domain. Machine OCR or typed text: use these to find passages and page numbers; every reading must be
+transcribed from page images, and every form checked against the printed edition.
+
+- `mhd-nibelungenlied-bartsch-1866-ocr.txt`: Bartsch, *Das Nibelungenlied* (Deutsche Classiker des Mittelalters 3,
+  ed. Pfeiffer, Leipzig 1866), archive.org OCR. Poor for diacritics (circumflexes read as ä/ö, æ lost). The scan
+  is clean; it prints Lachmann's stanza numbers in brackets. Text follows the *B* reworking (his introduction);
+  the exact manuscript basis is unchecked.
+- `mhd-hartmann-iwein-bech-1869-ocr.txt`: Bech, *Hartmann von Aue*, vol. 3 (*Iwein*), Leipzig: Brockhaus 1869
+  (Google scan, archive.org OCR). Base manuscript: Heidelberg (Lachmann's method). OCR reads ê as ä, æ as "£".
+  Line numbering still to be checked against Benecke–Lachmann before citing Iw. verse numbers.
+- `mhd-hartmann-armer-heinrich-paul-1921-ocr.txt`: Paul, *Der arme Heinrich*, Altdeutsche Textbibliothek 3, 6th ed.,
+  Halle 1921. Short and complete; OCR of the scan.
+- `mhd-wolfram-parzival-lachmann-1891-typed.txt`: Lachmann's *Parzival*, 5th ed., Berlin 1891, extracted from a
+  typed (not scanned) PDF of unknown origin. Section and line numbers follow Lachmann (114,8 = "ich bin Wolfram
+  von Eschenbach") but the number column has slips (e.g. 113,25 and 113,30 stacked): check numbering and wording
+  against a scan before quoting.
+- `mhd-berthold-pfeiffer-vol1-textlayer.txt`: Berthold von Regensburg, *Vollständige Ausgabe seiner Predigten*,
+  vol. 1, ed. Pfeiffer (Vienna: Braumüller; year not confirmed from the title page); text layer of the Google scan.
+  Page 21 of the scan is clean, with a line count every five lines.
+- `mhd-berthold-strobl-vol2-1880-ocr.txt`: the same, vol. 2 (Predigten XXXVII–LXXI, introduction and notes by
+  Strobl), Vienna 1880. Poor OCR; no scan available to us.
+- `mhd-schwabenspiegel-lassberg-1840-frontmatter-ocr.txt`: Lassberg, *Der Schwabenspiegel … nach einer Handschrift
+  vom Jahr 1287*, Tübingen 1840, preface by Reyscher: **only the front matter** (manuscript descriptions, c. 95
+  pages); the law text itself is not in the file.
+- `mhd-urkundenbuch-mittelrhein-vol3-1874-ocr.txt`: Eltester and Goerz, *Urkundenbuch zur Geschichte der
+  mittelrheinischen Territorien*, vol. 3 (1212–1260), Coblenz 1874. Almost entirely Latin. The German text no. 260
+  ("1225", Simon von Schöneck's will) is a **much later German translation**, not a 13th-century original.
+- `mhd-lexer-taschenwoerterbuch-ocr.txt`: Lexer, *Mittelhochdeutsches Taschenwörterbuch*, 3rd ed. (year not
+  confirmed). Searchable; occasional OCR slips.
+- `mhd-weinhold-grammatik-1877-ocr.txt`: Weinhold, *Mittelhochdeutsche Grammatik*, Paderborn: Schöningh 1877 (first
+  edition; the later editions differ). Scan pages are clean and numbered by §.
+- `mhd-simrock-parzival-titurel-translation-ocr.txt`: Simrock's modern German verse translation of Parzival and
+  Titurel (Stuttgart), Fraktur OCR of poor quality. A translation, not a source for the Middle High German text.
+- `mhd-weston-parzival-vol1-english.txt`, `mhd-weston-parzival-vol2-english.txt`: Weston's English translation of
+  Parzival (London 1894 reprint), Project Gutenberg #47297 and #47298. Background only.
+- Not in the repo (no text file): Lachmann, *Die Gedichte Walthers von der Vogelweide*, 2nd ed., Berlin 1843
+  (image-only Google scan; page and line numbers confirmed, "Under der linden" = 39,11).
