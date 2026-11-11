@@ -1,7 +1,8 @@
 /*
- * Special lecture (Middle High German course): from Middle Low German to Plattdeutsch.
+ * Special lecture (Middle High German course) — German through time, 6 of 6: from Middle Low German to Plattdeutsch.
  * Moved here from the Middle Low German course on 2026-11-11, when that course was put on hold
- * (see archive/middle-low-german-on-hold.md). It sets the other great northern written language beside Middle High German.
+ * (see archive/middle-low-german-on-hold.md), and fitted into the series the same day (part 2 covers
+ * Old Saxon and Middle Low German up to c. 1500; this part continues from there).
  * The shift to High German (c. 1500–1650), the modern dialects, the 19th-century revival, status today;
  * what stayed and what changed between Middle Low German and modern Low German.
  * Reading: a CONSTRUCTED short text in normalised Middle Low German beside the same text in modern
@@ -10,16 +11,18 @@
  */
 Viator.addLecture('mhd', {
   id: 'mhd-s2',
-  number: 102,
+  number: 116,
   special: true,
   title: 'Vun Middelnedderdüütsch to Platt',
-  subtitle: 'From Middle Low German to Plattdeutsch: decline, survival and revival',
+  subtitle: 'German through time 6/6: from Middle Low German to Plattdeutsch, c. 1500 to today',
   minutes: 50,
 
   intro: `
+    <p>The second lecture of this series followed Low German from the Saxon conquest to the height of the Hanse. This one takes the story from there to the present.</p>
     <p>Around 1400 Middle Low German was the written language of a trading world from Bruges to Novgorod: the language of the Hanse diets, of town law from Lübeck to Reval, of chronicles, prayer books and the first printed Bible in the North (Lübeck 1494). Two centuries later it had almost disappeared from writing. Town councils, princes, the Church and the schools had gone over to High German, and Low German survived as the everyday speech of the North, without a written standard.</p>
     <p>That spoken language is <strong>Plattdeutsch</strong> (in Low German <em>Plattdüütsch</em> or simply <em>Platt</em>), the direct descendant of the language of the Hanse documents. This special lecture traces the path: why the written language was abandoned, what has stayed the same and what has changed in the sounds and grammar, how a literary revival began in the 19th century, and where the language stands today.</p>
     <p>The reading is a short constructed text, written for this course in normalised Middle Low German and in modern Northern Low German side by side, so that you can switch between the two and see six centuries of change in the same sentences.</p>
+    <p class="small muted">German through time, part 6 of 6: 1 Old High German · 2 From Old Saxon to Middle Low German · 3 From Old to Middle High German · 4 From Middle High German to Early New High German · 5 Towards the standard language · 6 From Middle Low German to Plattdeutsch.</p>
   `,
 
   background: [
@@ -56,6 +59,7 @@ Viator.addLecture('mhd', {
       html: `
         <p>Low German literature never died out entirely, but the decisive revival came in the 19th century. Klaus Groth (1819–1899) from Heide in Dithmarschen published <em>Quickborn</em> (1852), poems of country life in his Dithmarschen dialect, written to prove that Low German could carry serious poetry. Fritz Reuter (1810–1874) from Mecklenburg wrote prose narratives (<em>Ut mine Stromtid</em>) that were read all over Germany. The Ohnsorg-Theater in Hamburg (founded 1902) made Low German drama popular, later through television.</p>
         <p>There is no official spelling. Most writers follow, more or less, the rules associated with Johannes Saß, published in the mid-20th century, which use High German letter values where possible: double vowels for length (<em>Huus, Koopmann</em>), <em>ie</em> for long i (<em>blieven</em>).</p>
+        <p>Four centuries of learning High German from books and school left a mark on the standard language as well: northerners pronounced it close to its spelling, which is why the stage pronunciation of 1898 followed the North (the fifth lecture of this series).</p>
         <p>Since 1999 Low German has been protected as a regional language under the European Charter for Regional or Minority Languages, in eight federal states. A survey by the Institut für niederdeutsche Sprache and the Institut für Deutsche Sprache in 2016 found that in those states 15.7 per cent of people said they spoke Low German well or very well, and nearly half understood it well; among people over 80, 50.7 per cent spoke it well, among those aged 40–49 only 11.7 per cent. The decline since the previous survey (2007) had slowed, but the age profile is the problem.</p>
       `
     }
@@ -63,7 +67,7 @@ Viator.addLecture('mhd', {
 
   culture: `
     <p class="eyebrow">From the sources</p>
-    <p>The reading of this lecture is constructed, so this panel points to the authentic texts you have met and will meet. Lecture II read two Hanse letters of 1469 in their printed edition; Lecture I’s background showed the colophon of the Lübeck Bible of 1494. For modern Low German, the classic starting point is Klaus Groth’s <em>Quickborn</em> (1852), which is long out of copyright; a poem from it, transcribed from a scan of an early edition, will be added here.</p>
+    <p>The reading of this lecture is constructed, so this panel points to authentic texts. For Middle Low German, the letters, town laws and chronicles of the Hanse towns are printed in the great 19th-century editions (the <em>Hanserecesse</em> and the <em>Hansisches Urkundenbuch</em>). For modern Low German, the classic starting point is Klaus Groth’s <em>Quickborn</em> (1852), long out of copyright.</p>
     <p>Comparing the two kinds of text shows what the constructed reading tries to show in miniature: Groth’s Dithmarschen Platt is recognisably the language of the Lübeck clerks, with the endings worn away and the spelling rebuilt on High German letters.</p>
   `,
 
@@ -76,7 +80,7 @@ Viator.addLecture('mhd', {
       <li><strong>r</strong> after a vowel is vocalised or very weak: <em>Water</em> ends in a dark a-sound.</li>
       <li><strong>Vowel length can distinguish words</strong> where final <span class="la">-e</span> has been lost: in many northern dialects a long, “dragged” vowel marks the old two-syllable form. The details differ by region.</li>
     </ul>
-    <p>For the Middle Low German column, use the values given in Lecture I, with the caution given there.</p>
+    <p>For the Middle Low German version, read the circumflex as a long vowel and the consonants roughly as in Platt. The pronunciation of Middle Low German is reconstructed and in many details uncertain.</p>
   `,
 
   grammar: [
@@ -93,7 +97,7 @@ Viator.addLecture('mhd', {
             <tr><td>unity plural in the present</td><td class="la">wi, gi, se maket</td><td>wi, ji, se maakt</td><td>wir machen, ihr macht, sie machen</td></tr>
           </tbody>
         </table></div>
-        <p>The plural <span class="la">-et</span> for all persons is the same feature as Old English <span class="la">-aþ</span> (Old English Lecture III), one of the old North Sea Germanic traits. Westphalian has kept a fuller ending (<em>wi maket</em>), Northern Low Saxon the shortened <em>maakt</em>.</p>
+        <p>The plural <span class="la">-et</span> for all persons is the same feature as Old English <span class="la">-aþ</span> (Old English Lecture III; Old Saxon <span class="la">hebbiad</span> in the second lecture of this series), one of the old North Sea Germanic traits. Westphalian has kept a fuller ending (<em>wi maket</em>), Northern Low Saxon the shortened <em>maakt</em>.</p>
       `
     },
     {
@@ -153,9 +157,9 @@ Viator.addLecture('mhd', {
     { id: 'fohren', head: 'fohren', la: 'fohren; föhr; fohrt (MLG vâren)', pos: 'verb, strong', en: 'travel, go (by ship or cart)', de: 'fahren', note: 'Past föhr from MLG vôr.' },
     { id: 'seggen', head: 'seggen', la: 'seggen; sä; seggt (MLG seggen)', pos: 'verb, weak', en: 'say', de: 'sagen', note: 'Same infinitive as in MLG.' },
     { id: 'blieven', head: 'blieven', la: 'blieven; bleev; bleven (MLG blîven)', pos: 'verb, strong', en: 'stay, remain', de: 'bleiben', note: 'No diphthongisation: î → ie.' },
-    { id: 'schrieven', head: 'schrieven', la: 'schrieven; schreev; schreven (MLG schrîven)', pos: 'verb, strong', en: 'write', de: 'schreiben', note: 'Lecture II: schrîven, schrêf.' },
+    { id: 'schrieven', head: 'schrieven', la: 'schrieven; schreev; schreven (MLG schrîven)', pos: 'verb, strong', en: 'write', de: 'schreiben', note: 'MLG past schrêf.' },
     { id: 'kamen', head: 'kamen', la: 'kamen; keem, kemen; kamen (MLG kômen)', pos: 'verb, strong', en: 'come', de: 'kommen', note: 'MLG past pl. quêmen.' },
-    { id: 'wiel', head: 'wiel', la: 'wiel', pos: 'conjunction', en: 'because', de: 'weil', note: 'MLG used wente (Lecture I).' },
+    { id: 'wiel', head: 'wiel', la: 'wiel', pos: 'conjunction', en: 'because', de: 'weil', note: 'MLG used wente.' },
     { id: 'bet', head: 'bet', la: 'bet', pos: 'conjunction, preposition', en: 'until', de: 'bis', note: 'MLG mostly used went(e) “until”.' },
     { id: 'un', head: 'un', la: 'un (MLG unde)', pos: 'conjunction', en: 'and', de: 'und', note: 'Reduced from unde.' },
     { id: 'groot', head: 'groot', la: 'groot (MLG grôt)', pos: 'adjective', en: 'great, big', de: 'groß', note: 'No shift t → ß.' }
@@ -238,7 +242,7 @@ Viator.addLecture('mhd', {
       { ref: 'went de storm vorgeit / bet de Storm vörbi is', html: 'MLG <span class="la">went</span> “until” has been replaced by <em>bet</em> (German <em>bis</em>).' },
       { ref: 'quêmen se in de havene / kemen se in den Haven', html: 'MLG past plural <span class="la">quêmen</span> with the old <span class="la">qu-</span> (from <span class="la">kw-</span>); Platt <em>kemen</em>.' },
       { ref: 'wente se hadden lange up dat solt gewachtet / wiel se lang op dat Solt töövt harrn', html: 'MLG <span class="la">wente</span> “because” → Platt <em>wiel</em>; <span class="la">wachten</span> → <em>töven</em>. Note the final -e lost in <em>lang</em>.' },
-      { ref: 'Got sî gelovet / Gott si Dank', html: 'A formula of the letters (Lecture II has similar ones). The Platt version is close to High German, a sign of four centuries of contact.' }
+      { ref: 'Got sî gelovet / Gott si Dank', html: 'A formula of the letters: Hanse correspondence uses similar ones. The Platt version is close to High German, a sign of four centuries of contact.' }
     ],
     glosses: {
       'anderen': 'other, next (MLG; Platt annern)', 'bergen': 'Bergen in Norway, seat of a Hanse Kontor', 'blîven': 'stay (MLG; Platt blieven, German bleiben)', 'brêf': 'letter (MLG; German Brief)', 'brôdere': 'brother (MLG, dat.)', 'bêr': 'beer (MLG)',

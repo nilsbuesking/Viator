@@ -48,7 +48,7 @@ British English in all text.
 - `mnd` (Middle Low German): ON HOLD since 2026-11-11 and removed from the app. Lectures I–II, the Hanse
   timeline and map, their tests and the course settings are in `archive/mnd/`; the summary and the restore steps are
   in `archive/middle-low-german-on-hold.md`. The special lecture "From Middle Low German to Plattdeutsch" moved to the
-  `mhd` course (`content/mhd/special-plattdeutsch.js`, id `mhd-s2`). Still-open checks stay in CONTENT-CHECKS.md.
+  `mhd` course as part 6 of the series below (`content/mhd/special-german-6-platt.js`, id `mhd-s2`). Still-open checks stay in CONTENT-CHECKS.md.
 - `mhd`: Middle High German, for reading courtly literature and southern/central
   German documents. Normalised spelling of the editions (Lachmann; Lexer, BMZ)
   with circumflex for long vowels, æ œ iu for long umlauts, ë for open e where the
@@ -63,6 +63,10 @@ British English in all text.
   (L 39,11), Nibelungenlied by manuscript and stanza (B 1,1), Parzival by
   Lachmann section and line (Pz. 116,5). Pronunciation is better established
   than for MLG (rhymes), but still say what is reconstruction.
+  Bonus series "German through time" (special lectures 111–116, files `content/mhd/special-german-1-ohg.js` to
+  `special-german-6-platt.js`, ids mhd-s3 to mhd-s7 and mhd-s2): how German was used and why it changed, from Old
+  High German to the standard language, plus Old Saxon/Middle Low German and Plattdeutsch. Light on sound changes,
+  no source readings (Nils's choice); each intro ends with the series line, so keep it in step if parts are added.
 - `oe`: Old English, prose and poetry with the focus on Beowulf; special lecture
   on The Battle of Maldon. Normalised spelling of the readers (Sweet, Mitchell &
   Robinson) with macrons (`lengthMark: 'macron'`), þ ð æ ƿ; þ = ð and ƿ = w when

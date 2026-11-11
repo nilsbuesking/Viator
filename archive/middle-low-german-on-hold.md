@@ -60,7 +60,7 @@ has a map page, so map taps are not tested at the moment).
 ### The special lecture (stayed in the app)
 "Vun Middelnedderdüütsch to Platt": the shift to High German c. 1500–1650, the dialects today, revival and status,
 what stayed and what changed (sounds, grammar), and a **constructed** short story in Middle Low German beside the
-same story in modern Northern Low German. Now `content/mhd/special-plattdeutsch.js`, test `tests/mhd_special_plattdeutsch.py`.
+same story in modern Northern Low German. Now part 6 of the Middle High German bonus series “German through time”: `content/mhd/special-german-6-platt.js`, test `tests/mhd_special_plattdeutsch.py`. Part 2 of that series covers Old Saxon and Middle Low German up to about 1500.
 
 ## What was planned but not written
 

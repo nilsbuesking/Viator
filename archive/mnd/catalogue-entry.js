@@ -14,7 +14,7 @@
     // spelling variants treated as equal when checking answers and looking up words
     spelling: [['ck', 'k'], ['c', 'k'], ['gh', 'g'], ['th', 't'], ['dt', 't'], ['y', 'i'], ['j', 'i'], ['v', 'u'],
                ['ü', 'u'], ['ö', 'o'], ['ä', 'a'], ['([bdfgklmnprst])\\1', '$1']],
-    lectures: ['mnd/lecture-01.js', 'mnd/lecture-02.js', 'mnd/special-plattdeutsch.js'],
+    lectures: ['mnd/lecture-01.js', 'mnd/lecture-02.js'],   // the special lecture on Plattdeutsch now belongs to mhd (special-german-6-platt.js)
     planned: [
       'Strong verbs; the past tense in narratives and letters',
       'Nouns and adjectives: cases and plurals as documents use them',

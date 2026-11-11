@@ -57,7 +57,7 @@
 Any learning progress made on the course is still stored in the app and will reappear.
 
 **Not affected:** the Middle Low German special lecture "Vun Middelnedderdüütsch to Platt"
-(`content/mnd/special-plattdeutsch.js`) belongs to the Middle Low German course and stays in the app.
+is still in the app: since 11 November 2026 it is part 6 of the Middle High German bonus series (`content/mhd/special-german-6-platt.js`).
 
 ## Sources and the copyright problem
 

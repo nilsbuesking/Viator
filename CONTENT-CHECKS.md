@@ -1120,7 +1120,91 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - **Notes:** *this litel tretis* = the Parson’s Tale (debated); the modesty formula; Augustine’s *Retractationes*; the *Book of the Lion* lost, perhaps after Machaut’s *Dit dou Lyon* (hedged); the three parts of penance; *compiled*.
 - **Picture:** *P15150coll7 2813 extralarge.jpg* (Ellesmere fol. 224v, Parson’s Tale), confirmed through a Commons mirror. I have not seen the image: please check what the page shows and that it loads.
 
-# Content checks: Middle Low German special lecture (Vun Middelnedderdüütsch to Platt)
+# Content checks: Middle High German bonus series “German through time” (parts 1–5)
+
+Written 2026-11-11 from general knowledge of the standard handbooks (no source texts were used, at Nils’s request, and none is quoted at length). Everything below is stated from memory and should be checked against a history of German such as von Polenz, *Deutsche Sprachgeschichte*; Schmidt, *Geschichte der deutschen Sprache*; or the handbook *Sprachgeschichte* edited by Besch and others. Single words and short phrases in Latin are cited as forms, not as checked quotations.
+
+## Part 1, Old High German (*Diutisc*, `special-german-1-ohg.js`)
+- [ ] Admonitio generalis 789: clergy to teach the Creed and the Lord’s Prayer.
+- [ ] Synod of Tours 813: sermons “in rusticam Romanam linguam aut Thiotiscam” (paraphrased, not quoted in the app).
+- [ ] George of Ostia’s report of 786 with *theodisce* (the app quotes only that word); the synods were in England (Mercia and Northumbria).
+- [ ] Strasbourg Oaths 842: Louis swore in Romance, Charles in German; each army in its own language; Nithard’s *teudisca lingua*. Manuscript BnF lat. 9768 “copied about a century and a half after the event” (usually dated late 10th century).
+- [ ] Notker’s *diutisk*; Annolied (c. 1080) speaking of German people and lands (paraphrased).
+- [ ] Otfrid: Gospel book finished in the 860s, dedicated to Louis the German; his argument in Book I, chapter 1, that the Franks should praise God in their own language; his Latin letter (to Liutbert of Mainz) complaining of the difficulty of writing Frankish.
+- [ ] Notker’s accent system (circumflex for long vowels, acute for stress) and his rule for initial b/p, d/t (Notker’s Anlautgesetz); died 1022.
+- [ ] Dating of the second consonant shift and the theories of its origin as summarised; Cologne *dat, wat*; Benrath line.
+- [ ] Loanwords: *wîn, strâza, mûra, ziagal* as Roman-era loans; *munih, scuola, scrîban, brief, predigôn* as Church loans; *kirihha* from Greek *kyriakón*, route debated. Genders given: *kirihha* f., *munih* m., *scuola* f., *brief* m., *wîn* m., *strâza* f., *ziagal* m. (no gender given for *giwizzani*: please check). Principal parts *scrîban; screib; giscriban*.
+- [ ] Calques *gi-wizzani* < *conscientia*, *armherzi* (barmherzig) < *misericors*; *wîho âtum* (south) vs *heilag geist* (Anglo-Saxon mission, Fulda); the extent of Anglo-Saxon influence is debated.
+- [ ] *toufen* as a native word related to *tief*; *segenôn* < *signare*; *predigôn* < *praedicare* through Romance.
+
+## Part 2, Old Saxon to Middle Low German (*Sassen unde Hanse*, `special-german-2-saxon.js`)
+- [ ] 1423: the electorate of Saxony (Saxe-Wittenberg) passed to the Wettin margraves of Meissen.
+- [ ] Saxon wars 772–804; Verden 782 and the figure 4,500 (Royal Frankish Annals); Capitulatio de partibus Saxoniae “probably early 780s”; Widukind baptised 785.
+- [ ] The bishoprics listed and the monasteries/convents (Corvey, Werden; Herford, Essen, Gandersheim).
+- [ ] Old Saxon baptismal vow naming Thunaer, Woden and Saxnot; its language debated.
+- [ ] Heliand: nearly 6,000 lines; “around 830 or a little later”; based on a Latin Gospel harmony (Tatian); towns as strongholds (*-burg*); the Praefatio known only from Flacius’s print (1562) mentioning Louis the Pious; Fulda and Werden proposed.
+- [ ] Genesis B as a translation from Old Saxon.
+- [ ] Ottonian Latin: Widukind of Corvey, Thietmar of Merseburg, Hrotsvit of Gandersheim.
+- [ ] Sachsenspiegel c. 1220–35; Latin first, then German at Count Hoyer of Falkenstein’s request (Eike’s verse preface).
+- [ ] *hanse* “company, association”; the four Kontore; Lübeck chancery change “within a few decades” after the mid-14th century.
+- [ ] German communities in Bergen, Stockholm, Visby; Swedish *betala, borgmästare, fru, språk, arbete*, *be-*, *-het* from MLG; MLG “usually counted the largest single source of loanwords” in the Scandinavian languages.
+- [ ] Old Saxon forms *fîf, ûs, mûð, hebbiad, dagos, tunga, makon, skip, water*; MLG *uns* replacing *ûs*; explanation by Franconian pressure.
+- [ ] Lasch and the “Lübeck norm”; Peters’s critique, as summarised.
+- [ ] Place names: Soest, Coesfeld, Itzehoe, Bad Oldesloe, Grevenbroich (lengthening e/i).
+- [ ] Vocabulary: OS *hêliand* (pres. part. of *hêlian*), *drohtin*, *liudi*, *kuning*, *quethan*, *sprekan*; MLG *kôpen* < Latin *caupo*.
+
+## Part 3, Old to Middle High German (*Von klôster ze hove*, `special-german-3-mhg.js`)
+- [ ] Title: MHG *klôster* with long o; *ze hove*.
+- [ ] Dates: Ezzolied c. 1060 (Bamberg), Annolied c. 1080, Kaiserchronik c. 1150 (Regensburg), Rolandslied c. 1170 and the Duke Henry of its epilogue as Henry the Lion.
+- [ ] Hermann I of Thuringia (d. 1217) as patron of Veldeke (Eneasroman completed under him), Wolfram and Walther.
+- [ ] Hartmann as ministerial; Wolfram’s claim not to be able to read (Pz. 115,27, paraphrased); Gottfried’s background; Nibelungenlied near Passau.
+- [ ] Sources of the romances (Chrétien; Thomas of Britain for Tristan; Roman d’Eneas).
+- [ ] *vlæmen*; *ritter* shaped on Middle Dutch *riddere*; *dörper* from a Low Countries word; Neidhart.
+- [ ] German charters: first half of the 13th century in the south-west, common from c. 1270, majority in many regions in the 14th century.
+- [ ] Mainzer Landfriede 1235 and the debate about its German version; Deutschenspiegel; Schwabenspiegel c. 1275.
+- [ ] Berthold of Regensburg d. 1272; Mechthild, Eckhart and abstract nouns (hedged in the app).
+- [ ] Frings’s theory of East Central German as a levelled settlers’ language, presented as debated.
+- [ ] Forms: OHG *taga, geban, zunga, salbôn, hôrta, gesti*; MHG *lamp, lember*; *hœren, küene, hiuser*; *was – wære*.
+- [ ] French loans and their sources (*aventure, harnais, pris, berser, danser, tornei/tornoier*); *zouberîe*; *-ieren* in *buchstabieren, hausieren*; *hövesch* on *courtois* > *hübsch*.
+- [ ] Genders: *ritter* m., *âventiure* f., *turnei* m., *tjost* f. (also m.?), *prîs* m., *harnasch* n., *dörper* m.
+- [ ] Lachmann and the *höfische Dichtersprache* debate as summarised.
+
+## Part 4, Middle High German to Early New High German (*Das gemeine Teutsch*, `special-german-4-enhg.js`)
+- [ ] Black Death mortality “between a third and a half of many regions”.
+- [ ] Burdach’s Prague thesis and its rejection; *Gemeines Deutsch* under Maximilian I; the Meissen chancery.
+- [ ] Gutenberg’s Bible completed c. 1454–55; pre-Luther Bibles: 14 High German and 4 Low German, 1466–1522; most going back to a 14th-century translation, revised several times.
+- [ ] September Testament 1522; complete Bible 1534; Luther’s table-talk remark on the Saxon chancery (paraphrased); Sendbrief vom Dolmetschen 1530 (paraphrased: mother at home, children in the street, common man at the market).
+- [ ] “Lutheran e”; Adam Petri’s Basel reprint of 1523 with a glossary.
+- [ ] Ickelsamer’s *Teutsche Grammatica*, around 1534; Fruchtbringende Gesellschaft 1617 at Weimar; Opitz 1624.
+- [ ] Diphthongisation spreading from the Bavarian-Austrian South-East from the 12th century; monophthongisation from Central German; apocope in Upper German.
+- [ ] Print habits: *Euangelium*, *jhm, jr*, *HERR*; noun capitals general only in the 17th–18th centuries; *Stadt/Statt* divided “only later” (17th–18th c.?).
+- [ ] Sentence structure points and the Latin-influence debate (hedged).
+- [ ] The two practice sentences (*Die Leut seyn auff dem Marckt*; *Wir wöllen nit gehen*) are written for the course in period spelling, not quotations.
+
+## Part 5, towards the standard (*Hochdeutsch*, `special-german-5-standard.js`)
+- [ ] Frederick the Great, *De la littérature allemande* (1780), in French.
+- [ ] Thomasius 1687; German titles outnumbering Latin ones in the Leipzig fair catalogues in the 1680s (some sources give 1681, others the early 1690s for a lasting majority); Latin a small minority by 1800.
+- [ ] Schottelius 1663 and *Grundrichtigkeit*; Gottsched 1748; Adelung’s dictionary 1774–86 and his definition; Wieland 1782 (“Über die Frage Was ist Hochdeutsch?”).
+- [ ] Upper German written language; Austria’s Allgemeine Schulordnung 1774 (Felbiger); Bavaria “in the same decades”.
+- [ ] 1876 conference; Duden 1880 based on the Prussian and Bavarian school rules; Duden as a grammar-school headmaster (Hersfeld); 1901 conference adopted by Germany, Austria and Switzerland; *Thür, Thal, thun*; *Theater, Thron* kept th.
+- [ ] Siebs 1898 and the details of the stage norm (-ig as -ich; st/sp; tongue-tip r; voiced s).
+- [ ] Radio from 1923; expellees; East German *Broiler, Kaufhalle*.
+- [ ] Spelling reform 1996, revisions 2004–06; Council for German Orthography from 2004.
+- [ ] Switzerland and ß: Zurich schools from the 1930s, NZZ from 1974. (A news article, The Local, 16 Nov. 2023, gives January 1938 for Zurich’s cantonal primary schools and 1974 as the NZZ’s last use: consistent with the app.)
+- [ ] Pre-Luther Bibles 14 + 4: matches the table in the English Wikipedia article “Bible translations into German” (checked 2026-11-11); please confirm in a printed source.
+- [ ] Austrian *Jänner, Paradeiser, Matura, Erdapfel*; Swiss *Velo, parkieren, Perron, Billett*; pluricentric vs pluriareal.
+- [ ] Purist coinages and their attributions: Zesen (*Mundart, Anschrift, Leidenschaft, Verfasser*; *Jungfernzwinger*; *Gesichtserker* as a satirical attribution), Campe (*Stelldichein, Zerrbild*), Stephan (*Briefumschlag, Fernsprecher*), railways c. 1890 (*Bahnsteig, Fahrkarte*). Attributions of coinages are notoriously shaky; the app says “usually credited to”.
+
+## Pictures (series)
+- [ ] Part 1: *Sacramenta Argentariae (pars longa).png* (BnF lat. 9768, fol. 13; public domain). Only 461 px wide: the 960 px and 500 px versions requested first may not exist, in which case the app falls back to the original file. Check that it shows a page of the oaths.
+- [ ] Part 2: *Berlin heliand.jpg* (Heliand fragment, Berlin DHM R 56/2537, c. 850; PD-Art). Check the holding institution named in the caption.
+- [ ] Part 3: *Codex Manesse Sängerkrieg auf der Wartburg.jpg* (fol. 219v; public domain). The caption says the landgrave and his wife preside: please confirm.
+- [ ] Part 4: *Luther 1534, Genesis I.jpg* (opening of Genesis, Lufft 1534; public domain).
+- [ ] Part 5: *Brockhaus 1894 Deutsche Mundarten.jpg* (Brockhaus 14th ed., ed. Otto Bremer; the file page gives CC BY-SA 3.0 / GFDL).
+
+---
+
+# Content checks: Middle Low German special lecture (Vun Middelnedderdüütsch to Platt), now part 6 of “German through time”
 
 - **Reading: constructed** (labelled as such in the app). Two versions of one short story: normalised MLG (c. 1400, Lübeck style) and modern Northern Low German (Holstein/Hamburg type, spelling broadly after Saß). Please check the MLG forms against Lübben/Lasch-Borchling (*sîneme schepe, gûdes, lakene, schipher, went* “until”, *vorgeit, quêmen, havene, wente* “because”, *gewachtet, sande, schrêf, Got sî gelovet*) and the Platt against Saß’s dictionary (*föhr, vun, na, harr, Solt, Beer, Laken, weer, Do sä, mööt, bet … vörbi is, Den annern Dag, kemen, in den Haven, Lüüd, froh, wiel, töövt harrn, schick, Breef, schreev, Gott si Dank, wi sünd*). “Gott si Dank” is the point I am least sure of.
 - **To add:** an authentic Platt text for the source panel, e.g. a poem from Klaus Groth’s *Quickborn* (1852), transcribed from a scan of an early edition.
