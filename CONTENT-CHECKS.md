@@ -307,6 +307,38 @@ first-year course (the order Wheelock also uses); titles are this course's own.
 - [ ] Tanzlinde in Effeltrich (caption: branches trained on a frame for a dancing floor; check this applies to Effeltrich).
 - [ ] Nightingale (Luscinia megarhynchos): check the photo shows the species.
 
+# Content checks: Middle High German Lecture III
+
+## Authentic text
+- [ ] Der arme Heinrich, lines 29–74: transcribed from the page images of Paul's edition, 6th ed. (Altdeutsche Textbibliothek 3, Halle 1921), pp. 1–3 (scan supplied by Nils; text file in `sources/`). Check especially: 33 deheiner der tugende; 38 hete; 44 unnâch; 45 gebürte; 51 törperheit; 61 der werlte fröude; 64 nôthaften; 66 glîchiu wâge; 67 im enwart über noch gebrast; 74 hübesch.
+- [ ] Blank line before line 47 stands for Paul's paragraph indent (lines 29 and 47 are indented).
+- [ ] Variants quoted from Paul's list (pp. VI–VII; g = Gierach 1913, p = Paul's 5th ed.): 33 tugende = tugent gAB, 34 jugende = jugent gAB; 38 hete = hât g (hatte AB); 61 werlte fröude AB = werltfröude g; 64 nôthaften A = nôtigen g; 74 hübesch AB = hövesch g.
+- [ ] Nibelungenlied stanza 1 (culture panel), from the page image of Bartsch's edition (Deutsche Classiker des Mittelalters 3, Leipzig 1866), p. 1: "heleden" (not "helden"), "fröuden", "hôchgezîten", "hœren"; Bartsch's accent on "ír" left out. Cited as B 1 because Bartsch follows the B version (his introduction); his exact manuscript basis is not checked.
+- [ ] Bartsch's notes quoted: wunders = gen. dependent on the noun vil ("viel Wunderbares"); heleden from helet, the older form of helt.
+
+## Forms
+- [ ] Paradigms (checked against Weinhold 1877, §§ 430–437): tac; gast (geste); wort (pl. wort, -er rare); gëbe (gen./dat. pl. gëben); kraft (gen./dat. sg. krefte or kraft; dat. pl. kreften); hant (gen. pl. hande in aller hande; dat. pl. handen, henden).
+- [ ] Weak nouns: bote, zunge, herze (acc. sg. herze); the four weak neuters herze, ouge, ôre, wange.
+- [ ] Lists of nouns "like" each model (grammar 2–5): eit, kneht, schilt, lîp, berc; slac, sun, vuoz, zan (slege, süne, vüeze, zene); êre, minne, triuwe, milte, stunde, sache, rede, wâge; hant, stat, nôt, zuht, vluht, geburt, tugent, jugent, wërlt; herre, name, bluome, vürste, mâge; vrouwe, zunge, sunne, ërde, kirche.
+- [ ] ende neuter (also masculine); hirte, hirtes.
+- [ ] man uninflected (des man, die man/manne); kinship nouns uninflected (mîns vater lant); vriunt, vîent plurals.
+- [ ] Personal names: acc. in -en (Heinrichen); her/hern before names (an hern Heinriche, line ~110).
+- [ ] Genders and forms in the vocabulary: mære n. (also f.); mâc m. (also weak mâge); prîs m.; lop n.; geburt f. (gebürte); habe f.; vluht f.; hërze with ë, herre without; wërlt with ë.
+- [ ] Principal parts: vergëzzen (V); heizen (VII); tragen (VI); gewinnen (III); gebrësten, gebrast, gebrâsten, gebrosten (IV).
+- [ ] vergëzzen + gen.; gebrësten + dat. of the person; rîch, vrî, vol, wërt, wîs + gen.; wænen, gern, sich genieten + gen.
+- [ ] Glosses: unnâch "not nearly" (not found in the Lexer OCR); erkennelich "well known" (Lexer); missewende "blemish" (Lexer shows the adjective; check the noun); adamas also "magnet" (Lexer); "von minnen": form in -en (explanations differ).
+- [ ] Accepted translations e21–e25, t9–t10.
+
+## Claims
+- [ ] Der arme Heinrich: about 1,500 lines, probably 1190s; plot summary (doctor in Salerno; the farmer's daughter; Heinrich watching through a chink in the wall; marriage). Absalom (lines 85 ff.) and Job (contrast: patience) as Hartmann's comparisons.
+- [ ] Paul's introduction: no source identified; probably a Latin account written in Germany; Pliny (Nat. hist. 26,1,5) on blood as a cure; Heinrich possibly imagined as an ancestor of Hartmann's lords (undecidable).
+- [ ] Manuscripts: A Strasbourg (burnt; "generally thought" to have perished in the 1870 siege, not stated by Paul), Bª Heidelberg, Bᵇ Kalocsa, fragments C St Florian and D Munich (from Indersdorf); Bª and Bᵇ from one revised exemplar; Paul follows A.
+- [ ] Debate on the ending (inner worth vs. the girl's free status).
+- [ ] Unstressed vowels reduced in the 11th century; OHG taga, tago, tagum.
+- [ ] Fossils: auf Erden; Frauenkirche / Unserer Lieben Frauen; vorhanden, abhanden, zu Händen; allerhand; Vergissmeinnicht (mein = old gen.); Schwaben, Franken, Sachsen, Bayern as dative plurals; Mannen; eines Tages, morgens.
+- [ ] -er plural spreading after MHG (Wörter, Länder); wort with -er occasionally in MHG (Weinhold § 437 gives "wort, -er").
+- [ ] "des râtes brücke": interpretation as one who helps others across their difficulties with counsel.
+
 # Content checks: Middle High German special lecture, Palästinalied
 
 ## Authentic text
