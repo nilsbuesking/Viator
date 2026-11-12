@@ -146,3 +146,15 @@ transcribed from page images, and every form checked against the printed edition
   woodcut title picture of the oldest print. The text starts on scan p. 20 (printed p. 1): "Hie hebet sich an daz
   Lantrehtbuoch. 1. Got, himelischer vater …", with a variant apparatus under the text. His method and sigla
   have not been read yet.
+- `mhd-wuerttembergisches-urkundenbuch-vol5-textlayer.txt` (1253–1260), `…vol8…` (to 1284) and `…vol9…` (1285–1291):
+  *Wirtembergisches Urkundenbuch*, ed. Kgl. Staatsarchiv Stuttgart (vols 5 and 8: scans from Nils; vol. 9: archive.org).
+  Text layers of the scans (layout preserved, so columns of the lists can interleave); OCR slips such as "Albrechl",
+  "Cftnrat", "ü" for "ii", so read from the page images. **Vol. 8**: the preface says all German charters are
+  printed in full. **Vol. 9**: 794 numbers, 224 in full, of which 77 German. German is rare in vol. 5. The editors
+  mark later translations (e.g. vol. 8 no. 2711 of 1277: "Übersetzung auf Papier aus dem 15. Jahrhundert": not a
+  13th-century text). Candidates for the charter reading, **to be verified on the page images**: vol. 8 no. 2736
+  (Graf Friedrich von Zollern, c. 1278, three lines), vol. 9 no. 3469 (Ehingen, 21 Sept. 1285, complete with witnesses
+  and date), vol. 9 no. 3402 (Gräfin Agnes von Vaihingen, c. 1285).
+- Not in the repo (scan only): Altmann and Bernheim, *Ausgewählte Urkunden zur Erläuterung der Verfassungsgeschichte
+  Deutschlands im Mittelalter*, 3rd ed., Berlin: Weidmann 1904 (Google scan, 486 pp., no text layer). Its preface
+  says it includes the German version of the Mainzer Reichslandfriede of 1235; the rest has not been surveyed.
