@@ -447,6 +447,34 @@ first-year course (the order Wheelock also uses); titles are this course's own.
 - [ ] Ne in dependent clauses after negated or rhetorical main clauses and after verbs like betrâgen.
 - [ ] Verb position in MHG subordinate clauses: mostly final in prose, with Ausklammerung; stricter rule established in ENHG (Ebert, Frühneuhochdeutsche Grammatik; figures vary).
 
+# Content checks: Middle High German Lecture VIII
+
+## Authentic text
+- [ ] Walther L 46,32–47,15 (reading), transcribed from the page images of Lachmann 1843, pp. 46–47. Check especially: 46,33 "frowe Mâze" but 46,37 "frouwe" (both as printed); 46,34 "er sælic man"; 46,35 "endarf … niender inne"; 47,4 "âne" (the circumflex is printed slightly off); 47,7 "unlobelîche"; 47,11 "nun weiz ich wes diu mâze beitet." (Lachmann's wording; other editions may differ); 47,14 "minneclich" printed without a length mark; indentation of the last line of each stanza.
+- [ ] Walther L 48,38–49,11 (culture panel), Lachmann 1843, pp. 48–49. Check "hôhste", "ichz", "deheiniu", "wîpheit", "unwîp", "tiure", "gehiure", "swiez", "zwîvellop", "hœnet", 49,10 "frouwe" (others "frowe"), and 49,11 "dèst", printed with a grave accent, not a circumflex.
+
+## Forms and glosses
+- [ ] "er sælic man" taken as an exclamation without a verb ("Blessed the man who …").
+- [ ] füegerinne as "one who brings about, arranges" (Lexer: füegærinne?); werdekeit / wërdecheit; ebene "evenly, in balance".
+- [ ] kranker liebe "worthless pleasure" (Lexer kranc adj.: schwach, wertlos, gering; krank); siech "ill".
+- [ ] beiten + gen. "wait for"; sich schamen + gen.; swachen "debase, lower" (transitive or intransitive here?); verleiten; ersëhen (V); kiesen (kôs, kurn, gekorn); hœnen; krœnen; tiuren "honour, make precious" (panel "tiuret baz").
+- [ ] ders = der si; swiez = swie ez; ichz = ich ez.
+- [ ] Vocabulary genders: mâze f., unmâze f., werdekeit f., fröude f., herzeliebe f., wîpheit f., kneht m., dierne f., vriunt m., wirt m., ellende n., schade m., strâze f., ouge n.
+- [ ] Word-building table: sælekeit, miltekeit, manunge, samenunge, vriuntschaft, wirtinne, meisterinne, küneginne, kintheit, tumpheit, hövescheit.
+- [ ] Accepted translations e22–e24, t9–t10.
+
+## Claims
+- [ ] False-friend table: meanings around 1200 and today for wîp, frouwe, maget, dierne, kneht, hôchzît, arebeit, list, muot, lîp, kranc, tump, geil, hübesch, vrum, vriunt, wirt, ellende.
+- [ ] frouwe as the feminine of OHG frô "lord" (Fronleichnam, Frondienst); unser frouwe for the Virgin.
+- [ ] Ehrismann 1919 ("Die Grundlagen des ritterlichen Tugendsystems", ZfdA 56) and Curtius 1943 (DVjs), reprinted in Europäische Literatur und lateinisches Mittelalter (1948).
+- [ ] hövesch modelled on French courtois; mâze and mesure/temperantia debated.
+- [ ] Reinmar as Walther's older contemporary and the poet most associated with hôhe minne; "ebene minne" as a scholarly term derived from this song; the grouping and dating of the "Mädchenlieder" disputed.
+- [ ] minne avoided from the late Middle Ages for its sexual sense and revived in the 18th century and by the Romantics (Kluge, Minne); Johannisminne as a farewell drink in memory of St John.
+- [ ] -keit from -ec + -heit by misdivision.
+- [ ] hussy from housewife; knight and Knecht from the same word.
+- [ ] Vrou Werlt shown beautiful in front and rotten behind (Konrad von Würzburg, Der Welt Lohn; sculptures at Worms and elsewhere).
+- [ ] Pronunciation: rhyme scheme abc abc dd efe with an unrhymed tenth line (Waise) in both stanzas.
+
 # Content checks: Middle High German special lecture, Palästinalied
 
 ## Authentic text

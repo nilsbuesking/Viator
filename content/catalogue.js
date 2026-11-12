@@ -34,9 +34,8 @@ Viator.setCatalogue([
     // spelling variants treated as equal: edition symbols and the commonest manuscript habits
     spelling: [['æ', 'ae'], ['œ', 'oe'], ['ë', 'e'], ['ʒ', 'z'], ['ck', 'k'], ['c', 'k'], ['y', 'i'], ['j', 'i'], ['v', 'u'],
                ['([bdfgklmnprst])\\1', '$1']],
-    lectures: ['mhd/lecture-01.js', 'mhd/lecture-02.js', 'mhd/lecture-03.js', 'mhd/lecture-04.js', 'mhd/lecture-05.js', 'mhd/lecture-06.js', 'mhd/lecture-07.js', 'mhd/special-palaestinalied.js', 'mhd/special-german-1-ohg.js', 'mhd/special-german-2-saxon.js', 'mhd/special-german-3-mhg.js', 'mhd/special-german-4-enhg.js', 'mhd/special-german-5-standard.js', 'mhd/special-german-6-platt.js'],
+    lectures: ['mhd/lecture-01.js', 'mhd/lecture-02.js', 'mhd/lecture-03.js', 'mhd/lecture-04.js', 'mhd/lecture-05.js', 'mhd/lecture-06.js', 'mhd/lecture-07.js', 'mhd/lecture-08.js', 'mhd/special-palaestinalied.js', 'mhd/special-german-1-ohg.js', 'mhd/special-german-2-saxon.js', 'mhd/special-german-3-mhg.js', 'mhd/special-german-4-enhg.js', 'mhd/special-german-5-standard.js', 'mhd/special-german-6-platt.js'],
     planned: [
-      'Courtly words and false friends: êre, triuwe, mâze, minne, hôher muot',
       'Verse: rhyme, metre and the Nibelungen stanza',
       'Manuscripts and editions: from the Codex Manesse to Lachmann',
       'Prose and charters: reading German-language documents of the 13th and 14th centuries'
