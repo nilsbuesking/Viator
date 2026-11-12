@@ -369,6 +369,32 @@ first-year course (the order Wheelock also uses); titles are this course's own.
 - [ ] Weak adjective originally individualising; strong endings from the demonstrative pronoun (a simplified account).
 - [ ] Modern survivals: Pfingsten, Weihnachten as old dative plurals; schon from schône; fast from vaste; ein gut Teil, gut Ding will Weile haben.
 
+# Content checks: Middle High German Lecture V
+
+## Authentic text
+- [ ] Nibelungenlied, stanzas 13–19 (Lachmann 12–18): transcribed from the page images of Bartsch's edition (Deutsche Classiker des Mittelalters 3, Leipzig 1866), pp. 4–5. Bartsch's metrical accents (troumtè, Kriemhílde, nímmér, Úotén, kúnde's, dír, líebé) and elision dots (ẹnkunde, soltụ) are left out; his sc for sch (scœne, besceiden, sciere, gesciht, besciet) and his "werlde" are kept. Long lines split at Bartsch's caesura, second half indented. Check especially: 13,3 aren (not arn); 14,1 "dô" (printed dó with an accent); 14,2 kunde's (no umlaut); 15,1 liebiu; 16,4 gefüeget; 18,3 wesse.
+- [ ] Bartsch's notes quoted or paraphrased: 13,1 "Während sie in solcher Herrlichkeit lebte"; 13,2 züge = aufzöge; 13,3 aren pl. of ar swm.; erkrummen pret. pl. of erkrimmen "mit den Klauen zerhacken"; "vor ihren Augen"; 13,4 leider comparative; 14,2 kunde's = kunde es, genitive dependent on niht; besceiden = deuten; 14,4 in welle for in enwelle; sciere; vloren; 15,3 "so schön wie ich jetzt bin"; 15,4 daz = so dass, von = durch; 16,1 versprechen + acc. "etwas verreden", sprach aber = antwortete; 16,2 immer = jemals; 16,3 wîp = Eheweib vs. maget; 16,4 gefüeget; rehte; ritters lîp; 17,1 lât imper. pl. of lân; frouwe; 17,2 scîn werden; 17,3 liebe = Freude; 17,4 beide; missegân; 18,1 sich bewegen + gen.; 18,3 wesse (also weste, wiste in the poem); ir lîp; 19,2 rach; 19,4 durch, sîn eines.
+- [ ] Bartsch's introduction: follows the B version; calls A "ungemein nachlässig geschrieben"; compares the stanzas with the Kürenberger's.
+- [ ] Walther L 8,28–35 (culture panel), from the page image of Lachmann 1843, p. 8.
+
+## Forms
+- [ ] Weak conjugation of suochen; -ete after short stems (sagete, lebete, legete, wonete); -te after long stems; ahte, antwurte, sande; legete/leite, geleit.
+- [ ] Rückumlaut list (brennen, kennen, nennen, senden, wenden, setzen, decken, hœren, füeren, wænen) with participles; subjunctive with umlaut (brente, hœrte).
+- [ ] denken/dâhte, dunken/dûhte, bringen/brâhte (brâht), vürhten/vorhte, würken/worhte; Ersatzdehnung (Weinhold § 13 area, line on vâhen, hâhen, brâhte, dâhte, dûhte).
+- [ ] hân: present (Weinhold § 377), preterite variants hâte/hæte/hête/hete/het/hiete; "kurzes hete ist alemannisch beliebt"; haben, habete/hapte, gehabet; the -n of the 1st sg. (OHG gâm, stâm, tuom) and Weinhold's remark on its spread to hân.
+- [ ] lân (Weinhold § 341: Pf. lie), gân, stân (Weinhold § 335: stân, stâst, stât, pl. stân, stât, stânt; imp. stâ, stât; pf. stuont, pl. stuonden; gestân avoided by courtly poets), imperatives lâ, ganc/gâ, stant/stâ; gên/stên Bavarian.
+- [ ] tuon: tete, tæte, tete; tâten; subj. tæte; getân; wol getân.
+- [ ] wellen (Weinhold § 404–406): wil, wil/wilt; wellen, welt, wellent; subj. welle; pret. wolte/wolde; participle left as "(rare)".
+- [ ] Vocabulary: ar swm. (arn, aren); recke; nôt pl. nœte; liebe f.; leit n.; kint pl. kint/kinder; troumen impers.; gevüegen; versprëchen (IV), bewëgen (V), rëchen (IV), mîden (I), bescheiden (VII), ziehen (II); vrô, vrôwer.
+- [ ] Accepted translations e21–e25, t9–t10.
+
+## Claims
+- [ ] Nibelungenlied: written about 1200 in the Danube region between Passau and Vienna; Wolfger of Passau connection as a hypothesis; Burgundian kingdom destroyed by the Huns in the 430s; Attila died 453; 39 âventiuren, about 2,400 stanzas in B; manuscripts A Munich, B St Gallen, C Donaueschingen now Karlsruhe.
+- [ ] B group title "der Nibelunge nôt"; last stanza returns to liebe and leit.
+- [ ] Falcon song attributed to the Kürenberger, in the Nibelungen stanza form; most readers take the eagles as Gunther and Hagen.
+- [ ] Weak verb classes in OHG (-en < -jan, -ôn, -ên); Rückumlaut explanation (early loss of the connecting vowel in long stems); the term from Grimm.
+- [ ] Modern survivals: brannte, kannte, nannte, rannte, sandte, wandte; mich dünkt, mir deucht; ging, stand from gienc, stuont; gehen, stehen from gên, stên; kreucht und fleucht; Adler from adel-ar; gerochen.
+
 # Content checks: Middle High German special lecture, Palästinalied
 
 ## Authentic text
