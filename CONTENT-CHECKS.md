@@ -339,6 +339,36 @@ first-year course (the order Wheelock also uses); titles are this course's own.
 - [ ] -er plural spreading after MHG (Wörter, Länder); wort with -er occasionally in MHG (Weinhold § 437 gives "wort, -er").
 - [ ] "des râtes brücke": interpretation as one who helps others across their difficulties with counsel.
 
+# Content checks: Middle High German Lecture IV
+
+## Authentic text
+- [ ] Iwein, lines 1–58: transcribed from the page images of Bech's edition (Hartmann von Aue, vol. 3, Deutsche Classiker des Mittelalters, Leipzig 1869), pp. 4–5 (scan supplied by Nils; text file in `sources/`). Bech's metrical accents (únséren, dén) and the hooks under elided e (liebtę, undę) are left out; blank lines stand for his paragraph indents before lines 21 and 31. Check especially: 6 riters (Bech's spelling, short i); 14 sî; 26–29 the brackets; 33 z’einen; 39 werde; 41 niemens; 44 in alle wîs; 49 hulfe’z; 50 unseren; 54 ich’n.
+- [ ] Bech's notes quoted or paraphrased: 1 güete = Tugend, Edelmuth; 3 sælde = Glück; 4 "davon gibt einen untrüglichen Beweis"; 5 der guote = der edele, vortreffliche; 6 "mit der Gesinnung eines edeln Mannes"; 12 "insofern haben seine Landsleute Recht"; 18 er = derjenige; 19 erwert c. gen.; 20 varn = handeln, leben; 21–30 (lines 23–29 a parenthesis, ez → mære); 33 z'einen pfingesten plural; 34; 39; 44 wunschleben; 45 lieben + dat. and acc., lîp = Leben; 47 von den rîchen = aus den Ländern des Königs; 53 genesen = leben, durchkommen; 55 daz – niht = ohne dass; 56 dâ = da wo, 54 dô = damals; ir mære; 58 diu werc.
+- [ ] Bech's introduction (pp. XIV–XV): follows Lachmann's method with the least revised Heidelberg manuscript as base; its language Central German coloured with Low German forms; other manuscripts often decide; some readings restored that Lachmann changed for metre.
+- [ ] Walther L 8,4–17 (culture panel), from the page image of Lachmann's 2nd edition (Berlin: Reimer 1843), p. 8: "welte" (not werlte), "dahte" (8,5) vs "dâhte" (8,9), "sazt", "kond", "varnde guot", "übergulde". The "und" in 8,14 is misprinted in the scan copy.
+- [ ] Culture panel: the Codex Manesse portrait of Walther (Lecture I) shows the pose described.
+
+## Forms
+- [ ] Article with instrumental diu (von diu, ze diu, after diu; wiu, ze wiu); contractions zem, zer, zen, ime/imme, ame, ûfme, ins; eime.
+- [ ] dirre paradigm (dirre/diser, ditze/diz, disiu; dises, disem, disen; fem. gen./dat. dirre; pl. dise, disiu, dirre, disen); jener; selp; sölch/solch/selch.
+- [ ] ein uninflected in nom. sg. and neut. acc. (Weinhold § 490); ein before possessives; ein with plural nouns (z'einen pfingesten); dehein/kein; manec uninflected; al uninflected before the article.
+- [ ] Personal pronouns as in the tables (si/sî/siu; acc. sie/si; neut. pl. siu; gen. ës/sîn; dat. im/ime; dat. pl. in); no dative sich in classical MHG ("spread later from the centre": check the wording).
+- [ ] Possessives uninflected in nom. sg. (Weinhold § 490); ir as invariable possessive; inflected ihre "in the later Middle Ages".
+- [ ] Strong and weak adjective paradigms (Weinhold §§ 486–491); uninflected nom. sg. and neut. acc.; -iu → -e.
+- [ ] Comparison: schœne/schœner/schœnest; lanc/lenger/lengest; guot/bezzer/beste; übel/wirser/wirste; michel/mêre/meiste; lützel/minner/minnest.
+- [ ] Adverbs: schœne/schône, veste/vaste, spæte/spâte, süeze/suoze, guot/wol; -lîche(n).
+- [ ] Vocabulary: güete f.; gemüete n.; sælde f. (Lexer); lêre f.; künec m.; schame f.; site m. (not found in the Lexer OCR; check gender); vlîz m.; hof m.; hôchzît f. (Lexer: stfn., hohes kirchl. od. weltl. Fest); gewonheit f.; wërt m./n.; maget f., pl. megede; wërc n.; rîche n.; pfingesten pl.; bœse (Lexer: gering, wertlos, nicht von Adel); swach (Lexer: gering, unedel, niedrig); tihten (Lexer: schreiben, dichten); lieben + dat./acc. (Lexer); jâmern impers. (Lexer); erwërben, stërben (III); genësen (V).
+- [ ] Glosses: Karidôl often identified with Carlisle; Ouwære; tihtennes as genitive of the infinitive; treit = treget.
+- [ ] Accepted translations e21–e25, t9–t10.
+
+## Claims
+- [ ] Erec usually dated to the 1180s and the first German Arthurian romance; Iwein finished around 1200; Chrétien's Yvain about 1177–1181.
+- [ ] Iwein plot summary (Laudine; the year's deadline; madness; the lion rescued from a dragon; reconciliation).
+- [ ] "Some thirty manuscripts and fragments"; Rodenegg murals in the early 13th century.
+- [ ] The Breton hope of Arthur's return, attested from the 12th century.
+- [ ] Weak adjective originally individualising; strong endings from the demonstrative pronoun (a simplified account).
+- [ ] Modern survivals: Pfingsten, Weihnachten as old dative plurals; schon from schône; fast from vaste; ein gut Teil, gut Ding will Weile haben.
+
 # Content checks: Middle High German special lecture, Palästinalied
 
 ## Authentic text
