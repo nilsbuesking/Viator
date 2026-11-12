@@ -475,6 +475,36 @@ first-year course (the order Wheelock also uses); titles are this course's own.
 - [ ] Vrou Werlt shown beautiful in front and rotten behind (Konrad von Würzburg, Der Welt Lohn; sculptures at Worms and elsewhere).
 - [ ] Pronunciation: rhyme scheme abc abc dd efe with an unrhymed tenth line (Waise) in both stanzas.
 
+# Content checks: Middle High German Lecture IX
+
+## Authentic text
+- [ ] Nibelungenlied stanzas 2–12 (reading), transcribed from the page images of Bartsch (Leipzig 1866), pp. 1–3, with Bartsch's acute accents kept. The scan of pp. 2–3 is faint: the circumflex is not clearly legible in lobelîch (4,2), sît (5,4), lobelîchen, zît, jæmerlîche, nît (6,3–4), sît (7,3), Ortwîn (9,2), wîten (12,1); these were set with î following Bartsch's practice where the mark is legible (e.g. minneclîchen 3,1, Ortwîn 11,2). Check them, and the accents Búrgónden, édel, verlíesén (2), ándériu (3,4), Búrgónden, Étzélen (5), stárc únd (8,4), Rûmólt (10,1; the accent on the o is faint), hérren (10,2), truhsǽzé (11,2), Hûnólt (11,4). Also 2,2 schœners (sch) beside 2,3 scœne (sc); 4,3 "degen." (a stray mark after the full stop); 10,1 kuchenmeister (a handwritten mark in the scan); 10,3 "unt".
+- [ ] Bartsch's notes paraphrased in the reading notes (pp. 1–3), especially 3,1 (passive infinitive triuten), 3,4 ("In juncvrouwe und wîp liegt hier kein Gegensatz"), 4,4 (ir not yet an inflected possessive), 5,3 (ze before names), 6,1 (kraft = Menge der Dienstmannen), 10,3–4, 11, 12,4.
+- [ ] Bartsch, Einleitung p. XXIII (quoted): "Die Nibelungenstrophe ist vierzeilig … gegen das Ende hin eine Verlängerung des Verses eintreten zu lassen." His rule for the eighth half-line and the example "des ích genénnen níene kán" (pp. XXIII–XXIV); p. XXII ("ein glücklicher Gedanke"; the fourth line); p. XIV (stanza invented by the poet; dating before 1150 and revision c. 1170; the Ton as the mark of the original poet).
+- [ ] Walther L 47,16–21 (culture panel), Lachmann 1843, p. 47; the words quoted from 47,22–31 (rihte, gesihte, unbilde, wilde, verderbet, enterbet, schulde, hulde). The translation of 47,20–21 ("vil kleine meine mich, niene meine kleine mîne klage") is one reading among several.
+- [ ] Iwein 1–3 and 11 as scanned in grammar 1 (Bech p. 4; the scansion is ours, not Bech's).
+
+## Forms
+- [ ] Vocabulary: magedîn n.; meit f. (= maget); dëgen m.; ellen n.; art f./m.; nît m.; erbe n.; neve m.; marschalc; truhsæze; schenke; kamerære; marcgrâve; ritterschaft f.; kuchenmeister; triuten; gezëmen (IV: gezam, gezâmen, gezomen); muoten + gen.; zieren; bewarn; verliesen (II: verlôs, verlurn, verlorn); gram + dat.; starc; snel; stolz; lobelîch; unverzaget; undertân; scharpf; jæmerlîche; sît/sint; unz.
+- [ ] Accepted translations e22–e24, t9–t10.
+
+## Claims
+- [ ] Metrical terms and rules: stumpf (including two-syllable stumpf with a short open syllable), klingend; the Reimpaarvers (4 beats, or 3 + klingend); Reimbrechung (Iwein 3–4).
+- [ ] Short vs long stressed syllables as the reason degen/pflegen rhyme stumpf; proof of later open-syllable lengthening.
+- [ ] Careful poets keep ê and æ apart in rhyme; rhymes reveal Hartmann's Alemannic and Wolfram's East Franconian/Bavarian dialect.
+- [ ] Nibelungenlied: composed around 1200; Passau and Bishop Wolfger von Erla (1191–1204) as a hypothesis; more than thirty manuscripts and fragments; A Munich, B St Gall, C Karlsruhe (formerly Donaueschingen); nôt and liet versions; rhyme technique c. 1190–1205; Wolfram's allusion to Rumolt in Parzival.
+- [ ] The opening stanza "Uns ist in alten mæren" is not in B and is often attributed to the *C revision (English Wikipedia, "Nibelungenlied"; check in a handbook). Lecture III corrected accordingly.
+- [ ] Der von Kürenberg, mid-12th century, stanza related to the Nibelungen stanza; whether borrowing or common tradition is debated.
+- [ ] Burgundians: kingdom on the middle Rhine destroyed 436/437 by Huns in the service of Aëtius; king Gundahar; Lex Burgundionum names Gundahar and Gislahar among royal ancestors; Attila d. 453; Worms as their seat traditional, not certain. Tronege not securely identified.
+- [ ] Court offices and the arch-offices of the electors in the Golden Bull (1356); marschalc from "horse servant".
+- [ ] No melody for the Nibelungenlied; modern performances use a later Hildebrandston melody; Münster fragment (Palästinalied and parts of others).
+- [ ] Lachmann's metrical rules (1820s); Heusler, Deutsche Versgeschichte (1925–29), bar-based analysis.
+- [ ] Walther's Töne: Reichston (L 8,4; 8,28), Ottenton, König-Friedrichs-Ton.
+
+## Corrections to earlier lectures (12 November 2026)
+- [ ] Lecture III, culture panel: "(B 1)" replaced by a note that the stanza is not in manuscript B and that Bartsch's margin numbers it after Lachmann (A) and Holtzmann (C).
+- [ ] Lecture V, pronunciation: Bartsch's own note (p. 1, on 2,3) says sc is to be pronounced sk "auch vor e und i"; the lecture now says so, and that most modern grammars read sch (the change sk > sch largely complete in the south by about 1200; check in Paul's Mhd. Grammatik). It also no longer calls sc a spelling choice of the edition: it is the manuscript's.
+
 # Content checks: Middle High German special lecture, Palästinalied
 
 ## Authentic text
