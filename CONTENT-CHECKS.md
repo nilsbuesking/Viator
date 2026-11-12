@@ -505,6 +505,33 @@ first-year course (the order Wheelock also uses); titles are this course's own.
 - [ ] Lecture III, culture panel: "(B 1)" replaced by a note that the stanza is not in manuscript B and that Bartsch's margin numbers it after Lachmann (A) and Holtzmann (C).
 - [ ] Lecture V, pronunciation: Bartsch's own note (p. 1, on 2,3) says sc is to be pronounced sk "auch vor e und i"; the lecture now says so, and that most modern grammars read sch (the change sk > sch largely complete in the south by about 1200; check in Paul's Mhd. Grammatik). It also no longer calls sc a spelling choice of the edition: it is the manuscript's.
 
+# Content checks: Middle High German Lecture X
+
+## Authentic text
+- [ ] Walther L 9,16–39 (reading), from the page image of Lachmann 1843, p. 9. Check 9,18 "deich", 9,26 "vor aller nôt" (print damaged), 9,30 "dernider", 9,31 "stôle", 9,37 "klôsenære", 9,39 quotation marks.
+- [ ] Lachmann's notes on 9,16–39 (pp. 130–131), as quoted: "16 = 45 A, 19 B, 2 C: aber A fehlen die ersten vier zeilen"; 17 "man unde wip tougen BC"; 18 "da ich BC"; 20 "Ich horte in rome liegen A"; 21 "und zwene BC", "kriegen C, unrichtig. er hörte, der pabst betrog beide, Otto und Philipp"; 23 "der e wart oder sit BC"; 24 "der begonde sich zweien A"; 25 "die fehlt BC"; 26 "da BC", "von A"; 29 "leien] lere A. der anhänger Philipps"; 30 "swert diu A, swerte B, swert C", "si fehlt A", "da nider BC"; 31 "sú griffen an die BC"; 32 (ban of 29 June 1201, cardinal Guido, Cologne); 33–34 (Caesarius of Heisterbach on Lupold of Worms; Arnold of Lübeck 5,5 on 1203; Walther's whereabouts 1199–c. 1205); 33 "niut A"; 35 "do horte ich BC"; 39 (Innocent III aged 37 at his election on 8 January 1198; Albert of Stade "iuvenis Romanus").
+- [ ] From the notes on the previous stanzas, as used in grammar 1 and pronunciation: 8,22 "In ainen schrin mágin komen BC"; 8,26 "baide B, beidú C"; 9,13 "kilchen B".
+- [ ] Vorrede (pp. V–VIII) as quoted or paraphrased: description of A (Heidelberg 357, 151 stanzas, "sehr schön aber nicht genau geschrieben"), B (Weingarten, now Stuttgart; Uhland's copy), C (Paris, "die ohne grund so genannte mannessische …"; 447 stanzas besides the Leich), D, E (Würzburg; red headings "walther", "her walther", "her walther von der vogelweide"); footnote p. VI ("AaDEeFHo … BbCFkLnrs … CiMpqrxy"); footnote pp. VI–VII on ABC and a fourth collection ("schwäbische oder vielleicht richtiger thurgäuische formen"; "ob die Mannessen in Zürich ein liederbuch geschrieben oder schreiben lassen, davon wissen wir nichts …"); "aber die verschiedenheiten anzumerken wäre meistentheils unnütz gewesen" (p. VII); the date "Berlin den 1. mai 1827. [erneuert den 10. juli 1843.]".
+- [ ] Transcription choices in the culture panel: long s kept (daſs, groſsem); Lachmann's lower-case nouns kept.
+
+## Forms
+- [ ] Vocabulary: tougen f./n.; liegen (II: louc, lugen, gelogen); triegen (II: trouc, trugen, getrogen); heben (VI: huop, huoben, gehaben); strît m.; sich zweien; pfaffe m.; leie m.; swert n.; stôle f.; bannen (bien, bienen, gebannen); stœren (stôrte); goteshûs n.; klûse f.; klôsenære m.; ungebære f.; bâbest m.; kristenheit f.; beginnen (began/begunde, begunnen); michel; verre; dernider; mêre; meist; owê.
+- [ ] Manuscript spellings: C's mark over u (printed ú by Lachmann) as iu/ü; ů for uo; ai for ei in B and C; niut and kilchen as Alemannic.
+- [ ] Accepted translations e21–e24, t9–t10.
+
+## Claims
+- [ ] No autographs of the major MHG poets survive.
+- [ ] A: Kleine Heidelberger Liederhandschrift, Cod. Pal. germ. 357, late 13th century, probably Alsace. B: Weingartner Liederhandschrift, Stuttgart, early 14th century, Constance region. C: Cod. Pal. germ. 848, Zurich c. 1300–1340, some 140 poets. E: Würzburg, mid-14th century, household book of Michael de Leone.
+- [ ] History of C: in Heidelberg by the early 17th century; Paris from 1657; Bodmer borrowed it in the 1740s and printed parts in 1748 and 1758–59; returned to Heidelberg in 1888 by exchange.
+- [ ] Hadlaub's song praising Rüdiger Manesse and his son as collectors of songbooks; no document proves the Manesse commission; most scholars think a link likely.
+- [ ] Lachmann (1793–1851): Lucretius, Greek New Testament; Nibelungenlied 1826, Walther 1827, Iwein with Benecke 1827, Wolfram 1833; Parzival in sections of thirty lines; lower-case nouns like Jacob Grimm.
+- [ ] Timpanaro, La genesi del metodo del Lachmann (1963); Lachmann did not draw stemmata.
+- [ ] Bédier 1928 (Lai de l'Ombre); New Philology (late 1980s/1990, Speculum); Walther editions by Cormeau (1996) and Bein (2013) keeping Lachmann's numbering.
+- [ ] Lachmann's 2nd edition (1843) keeps the page and line division of the 1st (1827).
+- [ ] Iwein line numbering from Benecke and Lachmann, kept by Bech.
+- [ ] Double election of 1198 (Philip of Swabia, Otto IV); Innocent III's support for Otto; Philip's excommunication 1201.
+- [ ] The stole as the sign of priestly authority and so of the ban (interpretation of 9,31).
+
 # Content checks: Middle High German special lecture, Palästinalied
 
 ## Authentic text
