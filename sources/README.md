@@ -102,7 +102,9 @@ transcribed from page images, and every form checked against the printed edition
   vol. 1, ed. Pfeiffer (Vienna: Braumüller; year not confirmed from the title page); text layer of the Google scan.
   Page 21 of the scan is clean, with a line count every five lines.
 - `mhd-berthold-strobl-vol2-1880-ocr.txt`: the same, vol. 2 (Predigten XXXVII–LXXI, introduction and notes by
-  Strobl), Vienna 1880. Poor OCR; no scan available to us.
+  Strobl), Vienna 1880. Poor OCR. Page images of the first 50 pages (a Bayerische Staatsbibliothek copy, Dillingen Studienbibliothek;
+  scans not kept in the repo) were supplied by Nils: Predigt XXXVII, "Von Dâvîdes drîen buozen", pp. 1 and 3 were read
+  from them (clean print, Pfeiffer's normalised spelling with circumflexes, line count every five lines).
 - `mhd-schwabenspiegel-lassberg-1840-frontmatter-ocr.txt`: Lassberg, *Der Schwabenspiegel … nach einer Handschrift
   vom Jahr 1287*, Tübingen 1840, preface by Reyscher: **only the front matter** (manuscript descriptions, c. 95
   pages); the law text itself is not in the file.
@@ -120,8 +122,9 @@ transcribed from page images, and every form checked against the printed edition
 - `mhd-urkundenbuch-mittelrhein-vol3-1874-ocr.txt`: Eltester and Goerz, *Urkundenbuch zur Geschichte der
   mittelrheinischen Territorien*, vol. 3 (1212–1260), Coblenz 1874. Almost entirely Latin. The German text no. 260
   ("1225", Simon von Schöneck's will) is a **much later German translation**, not a 13th-century original.
-- `mhd-lexer-taschenwoerterbuch-ocr.txt`: Lexer, *Mittelhochdeutsches Taschenwörterbuch*, 3rd ed. (year not
-  confirmed). Searchable; occasional OCR slips.
+- `mhd-lexer-taschenwoerterbuch-ocr.txt`: Lexer, *Mittelhochdeutsches Taschenwörterbuch*. A title-page image supplied by Nils reads
+  "Vierte Auflage, Leipzig: S. Hirzel, 1891"; the OCR text carries the preface to the third edition, so whether
+  it is the same printing is unconfirmed. Searchable; occasional OCR slips.
 - `mhd-weinhold-grammatik-1877-ocr.txt`: Weinhold, *Mittelhochdeutsche Grammatik*, Paderborn: Schöningh 1877 (first
   edition; the later editions differ). Scan pages are clean and numbered by §.
 - `mhd-simrock-parzival-titurel-translation-ocr.txt`: Simrock's modern German verse translation of Parzival and
@@ -130,3 +133,9 @@ transcribed from page images, and every form checked against the printed edition
   Parzival (London 1894 reprint), Project Gutenberg #47297 and #47298. Background only.
 - Not in the repo (no text file): Lachmann, *Die Gedichte Walthers von der Vogelweide*, 2nd ed., Berlin 1843
   (image-only Google scan; page and line numbers confirmed, "Under der linden" = 39,11).
+
+- Not texts, so not in the repo: further Schwabenspiegel manuscript page images (table of contents of the Lehnrecht
+  and the start of the Landrecht table; shelfmark and licence not known) and Mecklenburgisches Urkundenbuch vol. VIII
+  (1329–1336, Schwerin 1873, image-only Google scan). In the pages seen (nos. 5337 and 5515) the charters are
+  Latin, with German regests and notes; charters of this region in the vernacular are Middle Low German, which
+  belongs to the archived `mnd` course, not to Middle High German.
