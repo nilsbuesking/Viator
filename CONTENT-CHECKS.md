@@ -395,6 +395,32 @@ first-year course (the order Wheelock also uses); titles are this course's own.
 - [ ] Weak verb classes in OHG (-en < -jan, -ôn, -ên); Rückumlaut explanation (early loss of the connecting vowel in long stems); the term from Grimm.
 - [ ] Modern survivals: brannte, kannte, nannte, rannte, sandte, wandte; mich dünkt, mir deucht; ging, stand from gienc, stuont; gehen, stehen from gên, stên; kreucht und fleucht; Adler from adel-ar; gerochen.
 
+# Content checks: Middle High German Lecture VI
+
+## Authentic text
+- [ ] Der arme Heinrich, lines 171–232: transcribed from the page images of Paul's edition, 6th ed. (Halle 1921), pp. 5–7. Check especially: 172 genisbære; 175 Munpasiliere; 186 genislich vs. 199 genislîch (both as printed); 197 "was" (not waz); 206 untrœstent; 208 enwellent; 214 unrewert; 217–218 funde, kunde (no umlaut printed); 224 müesent; 225 vrîbære; 231 mägede.
+- [ ] Paragraph breaks before 179 and 205 (Paul's indents).
+- [ ] Walther L 124,1–8 (culture panel), from the page image of Lachmann 1843, p. 124, including Lachmann's bracketed [worden] in 124,8, "erwaht", "kündic", "frömde".
+
+## Forms
+- [ ] Preterite-presents (Weinhold §§ 392–402): wizzen (weiz, weist, wizzen; wisse, wesse, wiste, weste); kunnen (kan, kanst, kunnen; kunde, konde); mugen (mac, maht, mugen/mügen; mahte, mohte); müezen (muoz, muost, müezen; muoste); suln (sol/sal, solt, suln/süln; solde/solte; subj. süle); durfen (darf, darft, durfen/dürfen; dorfte); turren (tar, tarst, turren; torste); tugen (touc; tohte); gunnen (gan, ganst, gunnen; gunde).
+- [ ] Past subjunctives müeste, künde, möhte (mähte), sölte, dörfte.
+- [ ] Weinhold § 393: Hartmann rhymes mahte in Erec and Gregorius, only mohte in Der arme Heinrich and Iwein; § 402: wesse in rhyme only once, Erec 6786.
+- [ ] Meanings: mugen "can"; kunnen "know how to"; müezen "must; may" (got müeze …); suln as future; durfen "need"; turren "dare"; tugen; gunnen.
+- [ ] Present subjunctive of gëben, sîn (sî, sîst, sî, sîn, sît, sîn), mugen.
+- [ ] Hartmann's Alemannic 2nd pl. -ent (untrœstent, enwellent, müesent) as Paul's text keeps it.
+- [ ] Glosses: lîhte "perhaps"; genisbære/genislich; Munpasiliere; für legen; trûwen + inf.; vrumen; kunt tuon; unrewert ("not denied": rare, not checked in Lexer); veile; vrîbære "marriageable"; durch alle nôt; niuwan; mägede gen. sg.
+- [ ] Vocabulary: arzât (from archiater); arzenîe; genist f.; suht f., pl. sühte; list m.; gedinge n.; trôst/untrôst m.; wille swm.; golt n.; seltsæne; holt + dat.; unmügelich; zehant; schiere; ernern; verdërben (III, intrans.); lîden (I); versagen.
+- [ ] Accepted translations e21–e25, t9–t10.
+
+## Claims
+- [ ] Preterite-presents explained as old strong preterites (weiz ~ Latin videre, Greek oida).
+- [ ] Leprosy as feared and isolating; miselsuht from Latin misellus.
+- [ ] Salerno renowned from the 11th century, with translations of Arabic and Greek medicine; Montpellier a centre of medical teaching in the 12th century.
+- [ ] Paul's introduction: Pliny on blood as a cure; the Constantine legend (refusal of the cure, healed by God) and Amicus and Amelius as parallels; order of Hartmann's works (Der arme Heinrich between Gregorius and Iwein, decided for Paul by rhyme technique; some think it his last work).
+- [ ] Modern survivals: das mag sein, vermögen; schier; fromm "useful" originally.
+- [ ] "ez sol ze Salerne geschehen" occurs later in the poem (line ~ 900; check the line number if it is to be cited).
+
 # Content checks: Middle High German special lecture, Palästinalied
 
 ## Authentic text
