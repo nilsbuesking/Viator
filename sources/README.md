@@ -122,9 +122,10 @@ transcribed from page images, and every form checked against the printed edition
 - `mhd-urkundenbuch-mittelrhein-vol3-1874-ocr.txt`: Eltester and Goerz, *Urkundenbuch zur Geschichte der
   mittelrheinischen Territorien*, vol. 3 (1212–1260), Coblenz 1874. Almost entirely Latin. The German text no. 260
   ("1225", Simon von Schöneck's will) is a **much later German translation**, not a 13th-century original.
-- `mhd-lexer-taschenwoerterbuch-ocr.txt`: Lexer, *Mittelhochdeutsches Taschenwörterbuch*. A title-page image supplied by Nils reads
-  "Vierte Auflage, Leipzig: S. Hirzel, 1891"; the OCR text carries the preface to the third edition, so whether
-  it is the same printing is unconfirmed. Searchable; occasional OCR slips.
+- `mhd-lexer-taschenwoerterbuch-ocr.txt`: Lexer, *Mittelhochdeutsches Taschenwörterbuch*, **4th edition**, Leipzig:
+  S. Hirzel, 1891 (title-page image supplied by Nils; the text file contains Lexer's note that the fourth edition is
+  "lediglich ein abdruck der (stereotypierten) dritten", so the entries are those of 1885). Searchable; occasional
+  OCR slips.
 - `mhd-weinhold-grammatik-1877-ocr.txt`: Weinhold, *Mittelhochdeutsche Grammatik*, Paderborn: Schöningh 1877 (first
   edition; the later editions differ). Scan pages are clean and numbered by §.
 - `mhd-simrock-parzival-titurel-translation-ocr.txt`: Simrock's modern German verse translation of Parzival and
