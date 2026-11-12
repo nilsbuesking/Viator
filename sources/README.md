@@ -153,7 +153,7 @@ transcribed from page images, and every form checked against the printed edition
   printed in full. **Vol. 9**: 794 numbers, 224 in full, of which 77 German. German is rare in vol. 5. The editors
   mark later translations (e.g. vol. 8 no. 2711 of 1277: "Übersetzung auf Papier aus dem 15. Jahrhundert": not a
   13th-century text). Candidates for the charter reading, **to be verified on the page images**: vol. 8 no. 2736
-  (Graf Friedrich von Zollern, c. 1278, three lines), vol. 9 no. 3469 (Ehingen, 21 Sept. 1285, complete with witnesses
+  (Graf Friedrich von Zollern, c. 1278, three lines), vol. 9 no. 3469 (Ebingen, 21 Sept. 1285, complete with witnesses
   and date), vol. 9 no. 3402 (Gräfin Agnes von Vaihingen, c. 1285).
 - Not in the repo (scan only): Altmann and Bernheim, *Ausgewählte Urkunden zur Erläuterung der Verfassungsgeschichte
   Deutschlands im Mittelalter*, 3rd ed., Berlin: Weidmann 1904 (Google scan, 486 pp., no text layer). Its preface

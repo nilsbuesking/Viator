@@ -13,7 +13,7 @@ with sync_playwright() as p:
     pg.evaluate("localStorage.clear()"); pg.reload(); pg.wait_for_timeout(500)
     pg.select_option('#coursepick', 'mhd'); pg.wait_for_timeout(200)
     print('lecture order:', pg.evaluate("[...document.querySelectorAll('[data-lecture]')].map(e => e.dataset.lecture)"))
-    print('planned:', pg.locator('.lect.planned').count(), '(expect 8)')
+    print('planned:', pg.locator('.lect.planned').count(), '(expect 0)')
     L = pg.evaluate(LOAD, 'lecture-03.js')
     pg.click('[data-lecture=mhd-03]')
     chips = pg.evaluate("[...document.querySelectorAll('.chip[data-section]')].map(e => e.dataset.section)")

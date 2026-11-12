@@ -532,6 +532,31 @@ first-year course (the order Wheelock also uses); titles are this course's own.
 - [ ] Double election of 1198 (Philip of Swabia, Otto IV); Innocent III's support for Otto; Philip's excommunication 1201.
 - [ ] The stole as the sign of priestly authority and so of the ban (interpretation of 9,31).
 
+# Content checks: Middle High German Lecture XI
+
+## Authentic text
+- [ ] Berthold, sermon XXXVII "Von Dâvîdes drîen buozen", Strobl's edition (vol. 2, Vienna 1880), p. 2, line 28 – p. 4, line 29, transcribed from the page images (BSB scan). Check especially: 2,31 "machez"; 3,4 "Bersabêê"; 3,5 "strîtbærez"; 3,10 "besich"; 3,14–15 "daz ir dâ sî, daz sî"; 3,19 "zurnte" (no umlaut printed); 3,21 "Dâvîd" (3,3 "Dâvît"); 3,37 "dér" with an accent; 4,3 "blibe" (no length mark printed); 4,12 "venje"; 4,19–20 "disse tages"; 4,20 "ân ein kurze stunde"; 4,27 "prîmezît … terzezît"; 4,28 "hêrschaft". Paragraph breaks in the reading are ours.
+- [ ] Charter of Albrecht Pfaffenhofen, Ebingen, 21 September 1285: Wirtembergisches Urkundenbuch vol. 9, no. 3469, pp. 39–40, transcribed from the page images. The edition's marks over vowels are rendered ů, ú and ȯ (the last a dot or small ring over o in the print). Check: hȯrent, kúnde, brůder, vrȯwen, mȯchtin, gůte, lúzel, dú, Crúzes (but "Hailich Cruzes Tal" first time without a mark), kȯften, gekůfet, drú, túsent, Gȯtfrit, Cůnrat, Ůlrich, Stúrmeli, lúte, gnůge, gezúge; "Incstettin"; "Biswangen" in the text against "Binzwangen" in the editor's heading; ". ." before "der ebtischen"; "|| " line-end marks of the original omitted; "diesem briefe" (p. 40) beside "disem briefe".
+- [ ] Earlier notes (sources/README.md) said "Ehingen": the charter is from Ebingen (Albstadt), as the heading and text say; corrected.
+- [ ] Schwabenspiegel, Landrecht 1 (two swords), from Zeumer, Quellensammlung, no. 82 (76), p. 105 (Wikisource transcription checked against the page image earlier): "Sit nu Got des frides furste haizet … daz er da mite rihte."
+
+## Forms
+- [ ] Vocabulary: sünde f.; büezen; buoze f.; hôchvart f.; künicrîche n.; strîtbære; zeln (zalte, gezalt); wîssage m.; manslaht f.; urliuge n.; liutsterbe m.; barmherzikeit f.; engëlten (III); enbërn (IV); erzürnen; mêren/minnern; râche, râchunge f.; venje f. (from Latin venia); riuwe f.; mûl m.; veste f.; vîant/vînt m.; brief m.; insigel n.; schultheize m.; geziuge m.; verzîhen (I: verzêch, verzigen); verjëhen (V: ich vergihe, verjach); ansprâche f.; biderbe; genôz m.; pfunt n.
+- [ ] Charter spellings and their normalised equivalents: ai = ei; ů = uo; ú = iu/ü; ȯ = ou/œ; ph = pf; -in/-is = -en/-es; haigen (1st pl. of hân, Swabian); dú = diu; dien = den (dat. pl.).
+- [ ] Glosses: hals ab; ê "law, covenant"; ze mâle; sust; niur; etewie; ân = âne "except"; stunde "while"; werte (wërn); die engel (plural).
+- [ ] Accepted translations e21–e24, t9–t10.
+
+## Claims
+- [ ] German charters from the mid-13th century, first in the south-west; several thousand German original charters by 1300; neighbouring WUB nos. 3468, 3470, 3471 in Latin.
+- [ ] Sachsenspiegel (Eike von Repgow, c. 1220–35, Low German); Deutschenspiegel and Schwabenspiegel (Augsburg, 1270s; Zeumer 1274/5); the name Schwabenspiegel early modern; several hundred manuscripts; link with the Augsburg Franciscans.
+- [ ] Two swords: Sachsenspiegel one to the pope, one to the emperor; Schwabenspiegel both to St Peter, the worldly sword lent by the pope to the emperor.
+- [ ] Berthold: Franciscan, died 1272; open-air preaching and crowd figures; Latin sermons his own; German sermons written down by others, probably at Augsburg; Pfeiffer vol. 1 (1862), Strobl vol. 2 (1880).
+- [ ] Bible comparison: 2 Samuel 24 (Vulgate 2 Kings 24): Dan to Beersheba; larger totals; seven years of famine, three months of flight, three days of pestilence; the temple built under Solomon.
+- [ ] "Ez ist doch bezzer kampf, wanne hals ab" as a legal proverb (judicial duel against execution).
+- [ ] wërden + present participle as one root of the werden future (debated).
+- [ ] Charter diplomatic terms (promulgatio, intitulatio, disposition, corroboration); St Matthew's day 21 September; herbestmanôt = September; Heller from Schwäbisch Hall; Waibel as a court officer; surnames Pfister, Schmid, Koch, Weibel, Schultheiß.
+- [ ] Swabian keeps old ei apart from ei < î (Hoimet).
+
 # Content checks: Middle High German special lecture, Palästinalied
 
 ## Authentic text

@@ -14,7 +14,7 @@ with sync_playwright() as p:
     pg.goto('http://localhost:8765/index.html'); pg.wait_for_timeout(500)
     pg.evaluate("localStorage.clear()"); pg.reload(); pg.wait_for_timeout(500)
     pg.select_option('#coursepick','mhd'); pg.wait_for_timeout(200)
-    print('special section:', pg.locator('text=Special lectures').count(), '| today:', pg.locator('.today .lead').first.inner_text(), '| planned first:', pg.locator('.lect.planned .num').first.inner_text())
+    print('special section:', pg.locator('text=Special lectures').count(), '| today:', pg.locator('.today .lead').first.inner_text(), '| planned first:', (pg.locator('.lect.planned .num').first.inner_text() if pg.locator('.lect.planned').count() else 'none (course complete)'))
     pg.screenshot(path=S+'pl_home.png', full_page=True)
     pg.click('[data-lecture=mhd-s1]')
     w={}
