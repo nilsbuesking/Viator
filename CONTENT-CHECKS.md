@@ -421,6 +421,32 @@ first-year course (the order Wheelock also uses); titles are this course's own.
 - [ ] Modern survivals: das mag sein, vermögen; schier; fromm "useful" originally.
 - [ ] "ez sol ze Salerne geschehen" occurs later in the poem (line ~ 900; check the line number if it is to be cited).
 
+# Content checks: Middle High German Lecture VII
+
+## Authentic text
+- [ ] Iwein, lines 483–542: transcribed from the page images of Bech's edition (Leipzig 1869), pp. 20–21; Bech's metrical accents left out. Check especially: 483 "ode"; 484 "niene"; 487 "crêatiure"; 492 "lobeten’z"; 493 "entriuwen"; 496 "gewerren"; 498 "sîne" (with long î, as printed); 502 "ich’n"; 504 "dêr"; 508 "mir s’"; 509 "bibende"; 515 "gebiut … her ze mir"; 521 "dûne"; 532 "strîte"; 539 "umb’ selbe wâge"; 542 "wand’".
+- [ ] Line 479 "weder erne sprach noch ich" (exercise e16), Bech p. 20.
+- [ ] Iwein 547–548 "ich’n gehôrt’ bî mînen tagen / selhes nie niht gesagen" (grammar 2, test t2), 552 "sone darftû niht mê vrâgen", 560 "dâne zwîvel ich niht an" (grammar 4), all Bech p. 22.
+- [ ] Walther L 87,1–16 (culture panel), from the page image of Lachmann 1843, p. 87, including "zêren", "dien jungen", "für".
+- [ ] Bech's notes as quoted or paraphrased in the reading notes (lines 488–539), especially 492 lobeten’z, 493 entriuwen, 498 (the ne clause), 502, 504 dêr = daz er, 510 tuon unde lâzen, 515, 520 betrâgen "mit dem Conjunctiv und ne im Nachsatze", 529 sich, 530 sin, 536 man, 537, 538 nâhen/bî, 539 wâge.
+
+## Forms
+- [ ] Contractions: ichn/ine, dûne, erne, sine, nune, sone, dâne; mahtû, bistû; deist/deis; deiswâr/dêswâr; dêr, dez; ichz, mirz; zem, zer, zen, zêren.
+- [ ] en alone as a full negative mainly with wizzen, mugen, kunnen, turren, suln, wellen (check against Paul, Mhd. Grammatik, syntax of negation).
+- [ ] Table of negatives: niht/iht, nie/ie, niene, niemer/iemer, nieman/ieman (niemen/iemen), dehein/kein, niender/iender, weder … noch.
+- [ ] Vocabulary: ambet n.; crêatiure f.; huote f.; gewalt m./f.; bete f.; drô f.; vride m.; sin m.; wâge f. "risk" and "scales"; ungehiure; kunt; vürhten (vorhte, gevorht); gewërren (III: gewar, gewurren, geworren); betwingen (III); biben/bibenen; geruochen; betrâgen (impersonal); verswîgen (I); wîsen; prîsen; gesigen (einem an gesigen); slahen (VI, sleht).
+- [ ] Glosses: "selbe" in umb’ selbe wâge as "such"; "bî stân" + dat. "tend"; "her ze mir" "towards me".
+- [ ] Accepted translations e21–e25, t9–t10.
+
+## Claims
+- [ ] Kalogreant's adventure took place ten years before ("es sint nû wol zehen jâr", Iwein 260 in Bech); Breziljan (Iwein 263) = Brocéliande; he is unhorsed by the lord of the spring and returns on foot.
+- [ ] The herdsman's question about aventure is already in Chrétien's Yvain.
+- [ ] âventiure from Old French aventure, Late Latin *adventura; "als diu âventiure giht" as a formula; the chapters of the Nibelungenlied as âventiuren; vrou Âventiure personified (Parzival, Pz. 433,1 if cited).
+- [ ] Negation: OHG ni; MHG en/ne with niht from ni wiht; loss of en in ENHG; "Jespersen's cycle" (Jespersen 1917); proportions of the three patterns around 1200 vary by author (Jäger 2008 has figures).
+- [ ] Bavarian negative concord example "koana hod koa Geid" (spelling of the dialect example).
+- [ ] Ne in dependent clauses after negated or rhetorical main clauses and after verbs like betrâgen.
+- [ ] Verb position in MHG subordinate clauses: mostly final in prose, with Ausklammerung; stricter rule established in ENHG (Ebert, Frühneuhochdeutsche Grammatik; figures vary).
+
 # Content checks: Middle High German special lecture, Palästinalied
 
 ## Authentic text
