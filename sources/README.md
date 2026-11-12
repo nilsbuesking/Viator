@@ -140,3 +140,9 @@ transcribed from page images, and every form checked against the printed edition
   (1329–1336, Schwerin 1873, image-only Google scan). In the pages seen (nos. 5337 and 5515) the charters are
   Latin, with German regests and notes; charters of this region in the vernacular are Middle Low German, which
   belongs to the archived `mnd` course, not to Middle High German.
+- Not in the repo (text layer unusable, scan only): Wilhelm Wackernagel, *Das Landrecht des Schwabenspiegels in
+  der ältesten Gestalt, mit den Abweichungen der gemeinen Texte und den Zusätzen derselben*, Zürich and
+  Frauenfeld: Beyel (date line not legible at the scan quality; probably 1840), Google scan, 365 pp., with the
+  woodcut title picture of the oldest print. The text starts on scan p. 20 (printed p. 1): "Hie hebet sich an daz
+  Lantrehtbuoch. 1. Got, himelischer vater …", with a variant apparatus under the text. His method and sigla
+  have not been read yet.
