@@ -129,11 +129,11 @@ Viator.addLecture('mhd', {
     { id: 'thun', head: 'thun', la: 'thun', pos: 'verb', en: 'do', de: 'tun', note: 'Spelt with th until the rules of 1901.' },
     { id: 'wollen', head: 'wöllen', la: 'wöllen', pos: 'verb', en: 'want, intend', de: 'wollen', note: 'A rounded form, common in the 16th century.' },
     { id: 'nemen', head: 'nemen', la: 'nemen', pos: 'verb', en: 'take', de: 'nehmen', note: 'Length not yet marked; the h came later.' },
-    { id: 'brieff', head: 'Brieff', la: 'Brieff, m.', pos: 'noun', g: 'm', en: 'letter, document', de: 'Brief', note: 'Doubled f.' },
-    { id: 'statt', head: 'Statt', la: 'Statt, f.', pos: 'noun', g: 'f', en: 'town; place', de: 'Stadt; Statt', note: 'Stadt and Statt were spellings of one word; they were divided by meaning only later.' },
+    { id: 'brieff', head: 'Brieff', la: 'Brieff', pos: 'noun', g: 'm', en: 'letter, document', de: 'Brief', note: 'Doubled f.' },
+    { id: 'statt', head: 'Statt', la: 'Statt', pos: 'noun', g: 'f', en: 'town; place', de: 'Stadt; Statt', note: 'Stadt and Statt were spellings of one word; they were divided by meaning only later.' },
     { id: 'leut', head: 'Leut', la: 'Leut, pl.', pos: 'noun, plural', en: 'people', de: 'Leute', note: 'Southern loss of final -e.' },
-    { id: 'jar', head: 'Jar', la: 'Jar, n.', pos: 'noun', g: 'n', en: 'year', de: 'Jahr', note: 'Length not marked.' },
-    { id: 'hertz', head: 'Hertz', la: 'Hertz, n.', pos: 'noun', g: 'n', en: 'heart', de: 'Herz', note: 'tz after a consonant, common in prints.' }
+    { id: 'jar', head: 'Jar', la: 'Jar', pos: 'noun', g: 'n', en: 'year', de: 'Jahr', note: 'Length not marked.' },
+    { id: 'hertz', head: 'Hertz', la: 'Hertz', pos: 'noun', g: 'n', en: 'heart', de: 'Herz', note: 'tz after a consonant, common in prints.' }
   ],
 
   grammarCards: [

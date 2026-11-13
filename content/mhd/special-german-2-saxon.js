@@ -46,7 +46,7 @@ Viator.addLecture('mhd', {
       title: 'Middle Low German: law, towns and the Hanse',
       html: `
         <p>Middle Low German begins as a language of law. Around 1220–35 Eike von Repgow, a knight from the region of the middle Elbe, wrote down the customary law of the Saxons in the <em>Sachsenspiegel</em>. By his own account he wrote it first in Latin and then, at the request of his lord, Count Hoyer of Falkenstein, put it into German. It became one of the most copied law books of the Middle Ages and governed large parts of the North and East for centuries.</p>
-        <p>Towns followed. Lübeck, refounded in 1159, became the leading member of a network of merchant towns that came to be called the <strong>Hanse</strong>, from Middle Low German <span class="la">hanse</span>, “company, association”. Its merchants had their own settlements abroad, the four great Kontore: the Steelyard in London, Bruges, the German wharf in Bergen and the Peterhof in Novgorod. The Lübeck chancery kept its records in Latin until the middle of the 14th century and then went over to Middle Low German within a few decades; other towns did the same. By about 1400 Middle Low German was the written language of trade and diplomacy from Flanders to Livonia: letters and accounts, town law, the records of the Hanseatic diets, chronicles, prayer books and, from 1494, a printed Bible.</p>
+        <p>Towns followed. Lübeck, refounded in 1159, became the leading member of a network of merchant towns that came to be called the <strong>Hanse</strong>, from Middle Low German <span class="la">hanse</span>, “company, association”. Its merchants had their own settlements abroad, the four great Kontore: the Steelyard in London, Bruges, the German wharf in Bergen and the Peterhof in Novgorod. The Lübeck chancery kept its records in Latin until the middle of the 14th century and then went over to Middle Low German within a few decades; other towns did the same. By about 1400 Middle Low German was the written language of trade and diplomacy from Flanders to Livonia: letters and accounts, town law, the records of the Hanseatic diets, chronicles, prayer books and, printed Bibles (Cologne about 1478, Lübeck 1494).</p>
         <p>Scandinavian kings and towns used Middle Low German in their dealings with the Hanse, and German merchants and craftsmen formed large communities in Bergen, Stockholm and Visby. The Scandinavian languages took in a great number of Middle Low German words, among them Swedish <em>betala</em> “pay”, <em>borgmästare</em> “mayor”, <em>fru</em> “Mrs”, <em>språk</em> “language” and <em>arbete</em> “work”, and word-building elements such as the prefix <em>be-</em> and the suffix <em>-het</em> (German <em>-heit</em>). Estimates of the share of German loans in the Scandinavian vocabularies vary widely, but Middle Low German is usually counted their largest single source of loanwords.</p>
       `
     }
@@ -93,16 +93,16 @@ Viator.addLecture('mhd', {
   ],
 
   vocab: [
-    { id: 'heliand', head: 'hêliand', la: 'hêliand, m. (Old Saxon)', pos: 'noun', g: 'm', en: 'saviour', de: 'Heiland', note: 'Present participle of hêlian “to heal”; the title given to the poem.' },
-    { id: 'drohtin', head: 'drohtin', la: 'drohtin, m. (Old Saxon)', pos: 'noun', g: 'm', en: 'lord (also of Christ)', de: 'Herr', note: 'Old English dryhten: the lord of a band of followers.' },
+    { id: 'heliand', head: 'hêliand', la: 'hêliand (Old Saxon)', pos: 'noun', g: 'm', en: 'saviour', de: 'Heiland', note: 'Present participle of hêlian “to heal”; the title given to the poem.' },
+    { id: 'drohtin', head: 'drohtin', la: 'drohtin (Old Saxon)', pos: 'noun', g: 'm', en: 'lord (also of Christ)', de: 'Herr', note: 'Old English dryhten: the lord of a band of followers.' },
     { id: 'liudi', head: 'liudi', la: 'liudi, pl. (Old Saxon)', pos: 'noun, plural', en: 'people', de: 'Leute', note: 'Old English lēode.' },
-    { id: 'kuning', head: 'kuning', la: 'kuning, m. (Old Saxon)', pos: 'noun', g: 'm', en: 'king', de: 'König', note: 'Old English cyning.' },
+    { id: 'kuning', head: 'kuning', la: 'kuning (Old Saxon)', pos: 'noun', g: 'm', en: 'king', de: 'König', note: 'Old English cyning.' },
     { id: 'quethan', head: 'quethan', la: 'quethan (Old Saxon)', pos: 'verb, strong', en: 'say, speak', de: 'sagen, sprechen', note: 'Old English cweþan; English keeps it in quoth and bequeath.' },
     { id: 'sprekan', head: 'sprekan', la: 'sprekan (Old Saxon)', pos: 'verb, strong', en: 'speak', de: 'sprechen', note: 'No consonant shift: k, not ch.' },
-    { id: 'hanse', head: 'hanse', la: 'hanse, f. (MLG)', pos: 'noun', g: 'f', en: 'company, association (of merchants)', de: 'Hanse, Genossenschaft', note: 'Gave its name to the whole league.' },
-    { id: 'kopman', head: 'kôpman', la: 'kôpman, pl. kôplüde, m. (MLG)', pos: 'noun', g: 'm', en: 'merchant', de: 'Kaufmann', note: 'Platt Koopmann.' },
-    { id: 'rat', head: 'rât', la: 'rât, m. (MLG)', pos: 'noun', g: 'm', en: 'council; advice', de: 'Rat', note: 'The ruling council of a town.' },
-    { id: 'stat', head: 'stat', la: 'stat, f. (MLG)', pos: 'noun', g: 'f', en: 'town; place', de: 'Stadt; Stätte', note: 'Plural stede.' },
+    { id: 'hanse', head: 'hanse', la: 'hanse (MLG)', pos: 'noun', g: 'f', en: 'company, association (of merchants)', de: 'Hanse, Genossenschaft', note: 'Gave its name to the whole league.' },
+    { id: 'kopman', head: 'kôpman', la: 'kôpman, pl. kôplüde (MLG)', pos: 'noun', g: 'm', en: 'merchant', de: 'Kaufmann', note: 'Platt Koopmann.' },
+    { id: 'rat', head: 'rât', la: 'rât (MLG)', pos: 'noun', g: 'm', en: 'council; advice', de: 'Rat', note: 'The ruling council of a town.' },
+    { id: 'stat', head: 'stat', la: 'stat (MLG)', pos: 'noun', g: 'f', en: 'town; place', de: 'Stadt; Stätte', note: 'Plural stede.' },
     { id: 'kopen', head: 'kôpen', la: 'kôpen (MLG)', pos: 'verb, weak', en: 'buy', de: 'kaufen', note: 'From Latin caupo “trader”, a very early loan.' },
     { id: 'schriven', head: 'schrîven', la: 'schrîven; schrêf; geschreven (MLG)', pos: 'verb, strong', en: 'write', de: 'schreiben', note: 'Platt schrieven.' }
   ],

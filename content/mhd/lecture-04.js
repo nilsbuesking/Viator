@@ -170,7 +170,7 @@ Viator.addLecture('mhd', {
             <tr><th>Dat. sg.</th><td class="la">guotem</td><td class="la">guotem</td><td class="la">guoter</td></tr>
             <tr><th>Acc. sg.</th><td class="la">guoten</td><td class="la">guotez</td><td class="la">guote</td></tr>
             <tr><th>Nom./acc. pl.</th><td class="la">guote</td><td class="la">guotiu</td><td class="la">guote</td></tr>
-            <tr><th>Gen. / dat. pl.</th><td class="la">guoter / guoten</td><td class="la">guoter / guoten</td><td class="la">guoter / guoten</td></tr>
+            <tr><th>Gen. / dat. pl.</th><td class="la">guoter<br>guoten</td><td class="la">guoter<br>guoten</td><td class="la">guoter<br>guoten</td></tr>
           </tbody>
         </table></div>
         <div class="tablewrap"><table>

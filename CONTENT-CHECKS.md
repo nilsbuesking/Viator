@@ -282,7 +282,7 @@ first-year course (the order Wheelock also uses); titles are this course's own.
 # Content checks: Middle High German Lecture II
 
 ## Authentic text
-- [ ] Walther, Under der linden (L 39,11): text copied from Wikipedia, which follows Lachmann's edition; the German article names Cormeau's revision (14th ed., Berlin 1996). Check against a printed Lachmann/Cormeau if one is to hand; the 1827 first edition may differ in details.
+- [x] Walther, Under der linden (L 39,11): **replaced 13 Nov 2026** by a transcription from the page images of Lachmann's 2nd edition (Berlin 1843), pp. 39–40 (*mugent, nu, unt*, his punctuation and quotation marks). The earlier text came from Wikipedia.
 - [ ] Stanza 2, line 1: the supplied copy read "ch kam gegangen"; restored as [I]ch.
 - [ ] Stanza breaks inserted after lines 9, 18 and 27 (the supplied copy had one misplaced blank line after "hêre frouwe").
 - [ ] Punctuation of "hêre frouwe," (editions differ: comma, exclamation mark, dashes).
@@ -560,7 +560,8 @@ first-year course (the order Wheelock also uses); titles are this course's own.
 # Content checks: Middle High German special lecture, Palästinalied
 
 ## Authentic text
-- [ ] Seven stanzas (A50–56 = C21–23, C25–27, C29) after Lachmann (1843) as printed in the English Wikipedia article "Palästinalied", supplied by Nils. Check against Lachmann/Cormeau.
+- [x] Seven stanzas (A50–56 = C21–23, C25–27, C29): **replaced 13 Nov 2026** by a transcription from the page images of Lachmann's 2nd edition (Berlin 1843), pp. 14–16 (L 14,38–15,19; 15,27–40; 16,8–14; 16,29–35). The Wikipedia text used before was not Lachmann's (it begins *Nû alrêst*, Lachmann *Allerêrst*). Glosses, notes, grammar and exercises adjusted (*mirst, duz, übr, deist, zer, fuor, niemen, tievel, lebendic, sluoc, mennischlîchen*).
+- [ ] Which manuscript reads *Allerêrst* (Lachmann, presumably A) and which *Nû alrêrst* (C?): please check, so that the note can name them.
 - [ ] Changes made: "here" → h[ê]re (stanza 1, length mark restored); "Schoeniu" → Schœniu, "waeren" → wæren (online substitutes for œ, æ). "da'r", "Do", "jehent" left as printed.
 - [ ] Culture panel: stanza 1 as underlaid in the music transcription (Münster fragment) shown in the same article (Commons file "Palestinalied.jpg"); confirm that file is that transcription and its source/licence.
 - [ ] Stanzas 4, 6a, 8, 8a and the two further stanzas in the article (notes 8–10) are described but not printed.
@@ -1511,3 +1512,18 @@ Please confirm:
 - [ ] Pliny 6.20.1 (XXXVII reading): the Perseus text prints Virgil’s line as *Quamquam animus meminisse horret, …
   incipiam*, without *luctūque refūgit*; the course follows Nils’s copy with the full line.
 - [ ] Cicero, *In Catilinam* 1.2 (XXIII, XLI): *vītēmus* in the course, *vitamus* in the Perseus text (a variant).
+
+# Content review, 13 November 2026: Middle High German (Lectures I–XI, Palästinalied, “German through time”)
+
+Vocabulary (448 entries), dated and etymological statements (260), length marks (internal consistency and the
+correspondences î/ei, û/au, iu/eu, ie and uo with modern German) and sampled translations checked; no errors found there.
+Corrected:
+
+- **Under der linden** (II) and the **Palästinalied** now transcribed from Lachmann 1843 (see the entries above under
+  those lectures); both had come from Wikipedia.
+- **German through time, part 2:** the printed Low German Bibles of the Hanse period dated “Cologne about 1478, Lübeck
+  1494” instead of “from 1494”.
+  - [ ] Please confirm that one of the two Cologne Bibles (Quentell, about 1478–79) is in a Low Saxon (Westphalian)
+    form; part 4 counts four Low German Bibles before Luther, which assumes it.
+- **Series vocabulary:** the gender no longer appears twice (“Anschrift, f.” beside the gender label), 35 entries.
+- **Lecture IV, adjective table:** *guoter / guoten* now on two lines, so that the cell does not break badly on a phone.

@@ -1,7 +1,7 @@
 /*
  * Middle High German — Lecture II: strong verbs and the ablaut series.
  * Reading: Walther von der Vogelweide, "Under der linden" (L 39,11), normalised text
- * after Lachmann's edition (rev. Cormeau, 14th ed. 1996), as quoted on Wikipedia; see CONTENT-CHECKS.md.
+ * transcribed from the page images of Lachmann's 2nd edition (Berlin 1843), pp. 39–40; see CONTENT-CHECKS.md.
  * Pictures from Wikimedia Commons.
  */
 Viator.addLecture('mhd', {
@@ -225,7 +225,7 @@ Viator.addLecture('mhd', {
     { id: 'mh2-komen', front: 'dô was mîn friedel komen ê', back: 'my lover had come before (participle without ge-)' },
     { id: 'mh2-kuster', front: 'kuster', back: 'kuste ër: did he kiss' },
     { id: 'mh2-mirz', front: 'mirz; wessez', back: 'mir daz; wesse ëz (if anyone knew it)' },
-    { id: 'mh2-en', front: 'nû enwelle got!', back: 'God forbid! (en- negative particle + subjunctive welle)' },
+    { id: 'mh2-en', front: 'nu enwelle got!', back: 'God forbid! (en- negative particle + subjunctive welle)' },
     { id: 'mh2-heide', front: 'heide means …', back: 'open, uncultivated land; not necessarily heather moor' }
   ],
 
@@ -274,25 +274,25 @@ Viator.addLecture('mhd', {
 
   reading: {
     title: 'Walther von der Vogelweide, Under der linden',
-    note: 'Authentic text (L 39,11) in the normalised spelling of Lachmann’s edition, as quoted on Wikipedia; the German article cites the revision by Christoph Cormeau (14th edition, Berlin 1996). [ ] marks a letter restored for this course. Tap any word.',
-    text: 'Under der linden\nan der heide,\ndâ unser zweier bette was,\ndâ muget ir vinden\nschône beide\ngebrochen bluomen unde gras.\nVor dem walde in einem tal,\ntandaradei,\nschône sanc diu nahtegal.\n\n[I]ch kam gegangen\nzuo der ouwe,\ndô was mîn friedel komen ê.\nDâ wart ich enpfangen,\nhêre frouwe,\ndaz ich bin sælic iemer mê.\nKuster mich? Wol tûsentstunt:\ntandaradei,\nseht, wie rôt mir ist der munt.\n\nDô het er gemachet\nalsô rîche\nvon bluomen eine bettestat.\nDes wirt noch gelachet\ninneclîche,\nkumt iemen an daz selbe pfat.\nBî den rôsen er wol mac,\ntandaradei,\nmerken, wâ mirz houbet lac.\n\nDaz er bî mir læge,\nwessez iemen\n(nû enwelle got!), sô schamt ich mich.\nWes er mit mir pflæge,\nniemer niemen\nbevinde daz, wan er und ich,\nund ein kleinez vogellîn –\ntandaradei,\ndaz mac wol getriuwe sîn.',
+    note: 'Authentic text (L 39,11–40,18), transcribed from the page images of Lachmann’s 2nd edition (Berlin 1843), pp. 39–40, with his spelling and punctuation; his quotation marks show that a woman speaks the whole song. Later editions differ in small things (muget, nû, und for mugent, nu, unt). Tap any word.',
+    text: '‘Under der linden\nan der heide,\ndâ unser zweier bette was,\ndâ mugent ir vinden\nschône beide\ngebrochen bluomen unde gras.\nvor dem walde in einem tal,\ntandaradei,\nschône sanc diu nahtegal.\n\nIch kam gegangen\nzuo der ouwe:\ndô was mîn friedel komen ê.\ndâ wart ich enpfangen\nhêre frouwe,\ndaz ich bin sælic iemer mê.\nkuster mich? wol tûsentstunt:\ntandaradei,\nseht wie rôt mir ist der munt.\n\nDô het er gemachet\nalsô rîche\nvon bluomen eine bettestat.\ndes wirt noch gelachet\ninneclîche,\nkumt iemen an daz selbe pfat.\nbî den rôsen er wol mac,\ntandaradei,\nmerken wâ mirz houbet lac.\n\nDaz er bî mir læge,\nwessez iemen\n(nu enwelle got!), sô schamt ich mich.\nwes er mit mir pflæge,\nniemer niemen\nbevinde daz, wan er unt ich,\nund ein kleinez vogellîn:\ntandaradei,\ndaz mac wol getriuwe sîn.’',
     translations: [
       { label: 'German translation', text: 'Unter der Linde auf der Heide, wo unser beider Lager war, da könnt ihr schön beides finden, geknickte Blumen und Gras. Vor dem Wald in einem Tal, tandaradei, sang schön die Nachtigall.\n\nIch kam zu der Aue gegangen, da war mein Liebster schon vor mir gekommen. Da wurde ich empfangen, heilige Herrin! – dass ich für immer glücklich bin. Ob er mich küsste? Wohl tausendmal, tandaradei: seht, wie rot mein Mund ist.\n\nDa hatte er so prächtig aus Blumen ein Lager bereitet. Darüber wird noch herzlich gelacht werden, wenn jemand denselben Pfad entlangkommt. An den Rosen kann er wohl, tandaradei, erkennen, wo mein Kopf lag.\n\nDass er bei mir lag, wüsste das jemand (Gott bewahre!), so schämte ich mich. Was er mit mir tat, das soll niemals jemand erfahren außer er und ich und ein kleines Vögelein, tandaradei, das wird wohl verschwiegen sein.' },
       { label: 'English translation', text: 'Under the lime tree on the heath, where the bed of us two was, there you may find, lovingly, both flowers and grass crushed. Before the wood, in a valley, tandaradei, the nightingale sang sweetly.\n\nI came walking to the meadow; my love had come there before me. There I was received – holy Lady! – so that I shall be happy for evermore. Did he kiss me? A thousand times at least, tandaradei: look how red my mouth is.\n\nThere he had made, so splendidly, a bed of flowers. People will laugh at that from the heart, if anyone comes along that path. By the roses he can well tell, tandaradei, where my head lay.\n\nThat he lay with me – if anyone knew it (God forbid!), I would be ashamed. What he did with me, may no one ever find out but he and I and one little bird, tandaradei, and that one will surely keep faith.' }
     ],
     notes: [
       { ref: 'dâ unser zweier bette was', html: '<span class="la">unser zweier</span>: genitive, “of us two”. <span class="la">bette</span> here is the place where they lay, not a piece of furniture.' },
-      { ref: 'dâ muget ir vinden', html: '<span class="la">muget</span>: 2nd plural of <span class="la">mugen</span>, “könnt”. The speaker addresses an audience, as she does again with <span class="la">seht</span> in stanza 2.' },
+      { ref: 'dâ mugent ir vinden', html: '<span class="la">mugent</span>: 2nd plural of <span class="la">mugen</span>, “könnt”, with the ending <span class="la">-ent</span> that Lachmann prints here; most later editions have <span class="la">muget</span>. The speaker addresses an audience, as she does again with <span class="la">seht</span> in stanza 2.' },
       { ref: 'schône beide / gebrochen bluomen unde gras', html: '<span class="la">beide … unde</span>: “both … and”. <span class="la">schône</span> is an adverb, “beautifully”, perhaps also “neatly” or “lovingly”; editors and translators differ. <span class="la">gebrochen</span>: participle of <span class="la">brëchen</span>, series IV.' },
       { ref: 'schône sanc diu nahtegal', html: '<span class="la">sanc</span>: preterite singular of <span class="la">singen</span>, series III.' },
-      { ref: '[I]ch kam gegangen', html: '<span class="la">kam gegangen</span>: “came walking”, a participle with a verb of motion, as modern <em>kam gelaufen</em>. The letter <span class="la">I</span> is missing in the copy supplied for the course and has been restored.' },
+      { ref: 'Ich kam gegangen', html: '<span class="la">kam gegangen</span>: “came walking”, a participle with a verb of motion, as modern <em>kam gelaufen</em>.' },
       { ref: 'dô was mîn friedel komen ê', html: 'Pluperfect with <span class="la">sîn</span>: “my lover had come before”. <span class="la">komen</span> has no <span class="la">ge-</span>.' },
       { ref: 'Dâ wart ich enpfangen, / hêre frouwe', html: '<span class="la">wart … enpfangen</span>: passive with <span class="la">wërden</span>. <span class="la">hêre frouwe</span> is disputed. Many read it as an exclamation, “holy Lady!”, invoking the Virgin Mary; others as “(received) as a noble lady”, i.e. treated as a lady of rank. The punctuation of editions differs accordingly.' },
       { ref: 'Kuster mich? Wol tûsentstunt', html: '<span class="la">kuster</span> = <span class="la">kuste ër</span>. She asks the question herself and answers it. <span class="la">tûsentstunt</span>: “a thousand times”, <span class="la">stunt</span> as in <span class="la">dicke stunt</span>, “often”.' },
       { ref: 'Dô het er gemachet', html: '<span class="la">het</span> = <span class="la">hete</span>, preterite of <span class="la">hân</span>, “hatte”: pluperfect.' },
       { ref: 'Des wirt noch gelachet', html: 'An impersonal passive, as modern <em>darüber wird noch gelacht</em>. <span class="la">des</span> is the genitive object, “about that”. <span class="la">kumt iemen</span>: a condition by inversion, “if anyone comes”, as in modern <em>kommt jemand …</em>.' },
       { ref: 'Daz er bî mir læge, / wessez iemen', html: 'Two past subjunctives in a hypothetical sentence: <span class="la">læge</span> from <span class="la">ligen</span>, <span class="la">wesse</span> from <span class="la">wizzen</span> (+ <span class="la">ëz</span>). <span class="la">schamt ich mich</span>: “I would be ashamed”.' },
-      { ref: 'nû enwelle got', html: '“May God not will it”, i.e. God forbid. <span class="la">en-</span> is the old negative particle (Lecture VII), <span class="la">welle</span> the subjunctive of <span class="la">wellen</span>.' },
+      { ref: 'nu enwelle got', html: '“May God not will it”, i.e. God forbid. Lachmann writes the unstressed <span class="la">nu</span> without a length mark here. <span class="la">en-</span> is the old negative particle (Lecture VII), <span class="la">welle</span> the subjunctive of <span class="la">wellen</span>.' },
       { ref: 'Wes er mit mir pflæge', html: '<span class="la">pflëgen</span> takes a genitive: <span class="la">wes</span>, “what”. A discreet way to say “what he did with me”.' },
       { ref: 'niemer niemen / bevinde daz', html: 'Double negation reinforces in Middle High German: “never anyone” = “no one ever”. <span class="la">bevinde</span> is a present subjunctive expressing a wish.' },
       { ref: 'daz mac wol getriuwe sîn', html: '<span class="la">getriuwe</span>: loyal, trustworthy; here “discreet”. The bird, the traditional witness of love, becomes the lovers’ ally.' }
@@ -300,11 +300,11 @@ Viator.addLecture('mhd', {
     glosses: {
       'under': 'under (unter)', 'der': 'the (dat. fem.: der Linde)', 'linden': 'lime tree (dat. of linde)', 'an': 'on, at', 'heide': 'heath, open land (dat.)',
       'dâ': 'there; where', 'unser': 'of us (gen. of wir)', 'zweier': 'of two (gen. of zwêne): unser zweier, of us two', 'bette': 'bed, place to lie', 'was': 'was (preterite of sîn)',
-      'muget': 'can (2nd pl. of mugen: könnt)', 'ir': 'you (pl.: ihr)', 'vinden': 'find', 'schône': 'beautifully; lovingly (adverb)', 'beide': 'both: beide … unde, both … and',
+      'mugent': 'can (2nd pl. of mugen: könnt)', 'muget': 'can (2nd pl. of mugen: könnt)', 'ir': 'you (pl.: ihr)', 'vinden': 'find', 'schône': 'beautifully; lovingly (adverb)', 'beide': 'both: beide … unde, both … and',
       'gebrochen': 'broken, crushed (participle of brëchen)', 'bluomen': 'flowers (pl. of bluome)', 'unde': 'and', 'gras': 'grass',
       'vor': 'in front of, before', 'dem': 'the (dat.)', 'walde': 'wood, forest (dat. of walt)', 'in': 'in', 'einem': 'a (dat.)', 'tal': 'valley (Tal)',
       'tandaradei': 'refrain imitating birdsong', 'sanc': 'sang (preterite sg. of singen)', 'diu': 'the (nom. fem.: die)', 'nahtegal': 'nightingale',
-      '[i]ch': 'I (ich; first letter restored)', 'ich': 'I', 'kam': 'came (preterite of komen)', 'gegangen': 'gone, walking (participle of gân/gangen): kam gegangen, came walking',
+      'ich': 'I', 'kam': 'came (preterite of komen)', 'gegangen': 'gone, walking (participle of gân/gangen): kam gegangen, came walking',
       'zuo': 'to (zu)', 'ouwe': 'meadow by water (Aue)', 'dô': 'then; when', 'mîn': 'my', 'friedel': 'lover, sweetheart', 'komen': 'come (participle without ge-: gekommen)', 'ê': 'before, earlier',
       'wart': 'was, became (preterite sg. of wërden): wart … enpfangen, was received', 'enpfangen': 'received (participle of enpfâhen: empfangen)', 'hêre': 'holy, noble, exalted (hehr)', 'frouwe': 'lady; hêre frouwe, holy Lady (Mary)? or noble lady (disputed)',
       'daz': 'that (dass; das)', 'bin': 'am', 'sælic': 'blessed, happy (selig)', 'iemer': 'ever, always: iemer mê, for evermore', 'mê': 'more: iemer mê, for evermore',
@@ -314,12 +314,12 @@ Viator.addLecture('mhd', {
       'des': 'about that (gen. of daz)', 'wirt': 'will be (3rd sg. of wërden)', 'noch': 'still, yet; in the future', 'gelachet': 'laughed (participle of lachen): des wirt gelachet, people will laugh about it', 'inneclîche': 'heartily, from the heart (innig)',
       'kumt': 'comes (3rd sg. of komen); kumt iemen, if anyone comes', 'iemen': 'anyone, someone (jemand)', 'selbe': 'same: daz selbe, the same', 'pfat': 'path (Pfad)',
       'bî': 'by, at (bei)', 'den': 'the (dat. pl.)', 'rôsen': 'roses (dat. pl. of rôse)', 'mac': 'can (3rd sg. of mugen: kann)', 'merken': 'notice, tell (bemerken)', 'wâ': 'where (wo)', 'mirz': 'mir daz: to me the (my)', 'houbet': 'head (Haupt)', 'lac': 'lay (preterite sg. of ligen)',
-      'læge': 'lay (past subjunctive of ligen: läge)', 'wessez': 'wesse ëz: if anyone knew it (wüsste es)', 'nû': 'now', 'enwelle': 'en welle: may (God) not will it', 'got': 'God', 'sô': 'so, then', 'schamt': 'schamte: would be ashamed (sich schämen)',
+      'læge': 'lay (past subjunctive of ligen: läge)', 'wessez': 'wesse ëz: if anyone knew it (wüsste es)', 'nû': 'now', 'nu': 'now (unstressed)', 'enwelle': 'en welle: may (God) not will it', 'got': 'God', 'sô': 'so, then', 'schamt': 'schamte: would be ashamed (sich schämen)',
       'wes': 'what (gen. of waz, object of pflëgen)', 'mit': 'with', 'pflæge': 'did, engaged in (past subjunctive of pflëgen)', 'niemer': 'never (nimmer)', 'niemen': 'nobody (niemand): niemer niemen, no one ever',
-      'bevinde': 'may find out (subjunctive of bevinden)', 'wan': 'except (außer)', 'und': 'and', 'ein': 'a', 'kleinez': 'little (klein)', 'vogellîn': 'little bird (Vögelein)', 'getriuwe': 'loyal, discreet (treu)', 'sîn': 'be (sein)'
+      'bevinde': 'may find out (subjunctive of bevinden)', 'wan': 'except (außer)', 'und': 'and', 'unt': 'and (und)', 'ein': 'a', 'kleinez': 'little (klein)', 'vogellîn': 'little bird (Vögelein)', 'getriuwe': 'loyal, discreet (treu)', 'sîn': 'be (sein)'
     },
     questions: [
-      { id: 'r1', type: 'mc', prompt: 'What can passers-by still see under the lime tree?', options: ['Crushed flowers and grass', 'A ruined bed', 'The lovers themselves', 'A nightingale’s nest'], answer: 0, explain: 'dâ muget ir vinden … gebrochen bluomen unde gras.' },
+      { id: 'r1', type: 'mc', prompt: 'What can passers-by still see under the lime tree?', options: ['Crushed flowers and grass', 'A ruined bed', 'The lovers themselves', 'A nightingale’s nest'], answer: 0, explain: 'dâ mugent ir vinden … gebrochen bluomen unde gras.' },
       { id: 'r2', type: 'mc', prompt: 'Who arrived first at the meadow?', options: ['Her lover', 'The speaker', 'They came together', 'The nightingale'], answer: 0, explain: 'dô was mîn friedel komen ê.' },
       { id: 'r3', type: 'mc', prompt: 'How will the passer-by know where her head lay?', options: ['By the roses', 'By the lime tree', 'By the nightingale', 'By a mark on the path'], answer: 0, explain: 'Bî den rôsen er wol mac … merken, wâ mirz houbet lac.' },
       { id: 'r4', type: 'mc', prompt: 'Who, besides the lovers, knows what happened?', options: ['A little bird, which will keep the secret', 'The whole village', 'Nobody at all', 'Her mother'], answer: 0, explain: 'und ein kleinez vogellîn … daz mac wol getriuwe sîn.' }

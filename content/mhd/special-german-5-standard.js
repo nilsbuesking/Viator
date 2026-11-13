@@ -123,16 +123,16 @@ Viator.addLecture('mhd', {
   ],
 
   vocab: [
-    { id: 'mundart', head: 'Mundart', la: 'Mundart, f.', pos: 'noun', g: 'f', en: 'dialect', de: 'statt Dialekt', note: 'Usually credited to Philipp von Zesen (17th century).' },
-    { id: 'anschrift', head: 'Anschrift', la: 'Anschrift, f.', pos: 'noun', g: 'f', en: 'address', de: 'statt Adresse', note: 'Usually credited to Zesen.' },
-    { id: 'leidenschaft', head: 'Leidenschaft', la: 'Leidenschaft, f.', pos: 'noun', g: 'f', en: 'passion', de: 'statt Passion', note: 'Usually credited to Zesen.' },
-    { id: 'verfasser', head: 'Verfasser', la: 'Verfasser, m.', pos: 'noun', g: 'm', en: 'author', de: 'statt Autor', note: 'Usually credited to Zesen.' },
-    { id: 'stelldichein', head: 'Stelldichein', la: 'Stelldichein, n.', pos: 'noun', g: 'n', en: 'rendezvous, date', de: 'statt Rendezvous', note: 'Credited to Joachim Heinrich Campe (around 1800).' },
-    { id: 'zerrbild', head: 'Zerrbild', la: 'Zerrbild, n.', pos: 'noun', g: 'n', en: 'caricature', de: 'statt Karikatur', note: 'Credited to Campe.' },
-    { id: 'briefumschlag', head: 'Briefumschlag', la: 'Briefumschlag, m.', pos: 'noun', g: 'm', en: 'envelope', de: 'statt Couvert', note: 'Introduced by Heinrich von Stephan’s post office (1870s); Swiss and Austrian Kuvert survives.' },
-    { id: 'fernsprecher', head: 'Fernsprecher', la: 'Fernsprecher, m.', pos: 'noun', g: 'm', en: 'telephone', de: 'statt Telephon', note: 'Stephan’s post office; it lost to Telefon in everyday use.' },
-    { id: 'bahnsteig', head: 'Bahnsteig', la: 'Bahnsteig, m.', pos: 'noun', g: 'm', en: 'railway platform', de: 'statt Perron', note: 'Swiss German still says Perron.' },
-    { id: 'fahrkarte', head: 'Fahrkarte', la: 'Fahrkarte, f.', pos: 'noun', g: 'f', en: 'ticket', de: 'statt Billett', note: 'Swiss German still says Billett.' }
+    { id: 'mundart', head: 'Mundart', la: 'Mundart', pos: 'noun', g: 'f', en: 'dialect', de: 'statt Dialekt', note: 'Usually credited to Philipp von Zesen (17th century).' },
+    { id: 'anschrift', head: 'Anschrift', la: 'Anschrift', pos: 'noun', g: 'f', en: 'address', de: 'statt Adresse', note: 'Usually credited to Zesen.' },
+    { id: 'leidenschaft', head: 'Leidenschaft', la: 'Leidenschaft', pos: 'noun', g: 'f', en: 'passion', de: 'statt Passion', note: 'Usually credited to Zesen.' },
+    { id: 'verfasser', head: 'Verfasser', la: 'Verfasser', pos: 'noun', g: 'm', en: 'author', de: 'statt Autor', note: 'Usually credited to Zesen.' },
+    { id: 'stelldichein', head: 'Stelldichein', la: 'Stelldichein', pos: 'noun', g: 'n', en: 'rendezvous, date', de: 'statt Rendezvous', note: 'Credited to Joachim Heinrich Campe (around 1800).' },
+    { id: 'zerrbild', head: 'Zerrbild', la: 'Zerrbild', pos: 'noun', g: 'n', en: 'caricature', de: 'statt Karikatur', note: 'Credited to Campe.' },
+    { id: 'briefumschlag', head: 'Briefumschlag', la: 'Briefumschlag', pos: 'noun', g: 'm', en: 'envelope', de: 'statt Couvert', note: 'Introduced by Heinrich von Stephan’s post office (1870s); Swiss and Austrian Kuvert survives.' },
+    { id: 'fernsprecher', head: 'Fernsprecher', la: 'Fernsprecher', pos: 'noun', g: 'm', en: 'telephone', de: 'statt Telephon', note: 'Stephan’s post office; it lost to Telefon in everyday use.' },
+    { id: 'bahnsteig', head: 'Bahnsteig', la: 'Bahnsteig', pos: 'noun', g: 'm', en: 'railway platform', de: 'statt Perron', note: 'Swiss German still says Perron.' },
+    { id: 'fahrkarte', head: 'Fahrkarte', la: 'Fahrkarte', pos: 'noun', g: 'f', en: 'ticket', de: 'statt Billett', note: 'Swiss German still says Billett.' }
   ],
 
   grammarCards: [
