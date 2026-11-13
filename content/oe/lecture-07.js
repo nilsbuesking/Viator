@@ -56,7 +56,7 @@ Viator.addLecture('oe', {
       <li><strong>io, īo</strong> in <span class="la">giond, hiora, ðīowa, geðīode</span>: a falling diphthong, i + o with the weight on the i. Early West Saxon only; later <span class="la">eo, ēo</span>.</li>
       <li><strong>ie</strong> in <span class="la">ieldran, giet</span>: probably a diphthong in Alfred’s time, soon levelled to i or y. The pronunciation is uncertain.</li>
       <li><strong>Weak past endings</strong> are never silent: <span class="la">lu-fo-don, lǣf-don, wun-dra-de</span>.</li>
-      <li><strong>cc</strong> in <span class="la">rēccelēase</span>: German <em>tsch</em> (palatal c after e), <em>rää-tsche-lää-a-se</em>.</li>
+      <li><strong>cc</strong> in <span class="la">rēccelēase</span>: German <em>tsch</em> (palatal c after e), <em>ree-tsche-lää-a-se</em>.</li>
       <li><strong>sc</strong> in <span class="la">sceolden</span>: German <em>sch</em>.</li>
     </ul>
   `,

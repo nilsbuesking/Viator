@@ -1201,7 +1201,7 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 
 ## Old English Lecture VII (King Alfred’s Preface; weak verbs, preterite-presents)
 
-- **Reading:** Alfred’s Preface, Sweet’s lines 32–53 (Sweet 1879, pp. 5–6), from our transcription in sources/. The normalised view turns accents into macrons, ǫ/ę into o/e, removes the raised dot in *a·ndwyrde*, and adds *hīe* (Sweet unmarked), *ðā* for Sweet’s unaccented *ða* in line 45, and *lȳtle* for Sweet’s *lytle* (line 36). Please check *lȳtle*, and whether Sweet’s *récceleáse* (long e) is right; most dictionaries have *reccelēas* with short e.
+- **Reading:** Alfred’s Preface, Sweet’s lines 32–53 (Sweet 1879, pp. 5–6), from our transcription in sources/. The normalised view turns accents into macrons, ǫ/ę into o/e, removes the raised dot in *a·ndwyrde*, and adds *hīe* (Sweet unmarked), *ðā* for Sweet’s unaccented *ða* in line 45, and *lȳtle* for Sweet’s *lytle* (line 36). Please check *lȳtle*. (Sweet’s *récceleáse* with long e agrees with Clark Hall, *rēcelēas*; settled in the review of 13 November 2026.)
 - **Source panel:** Sweet’s lines 15–20 (*Swǣ clǣne … nǣren*), normalised the same way: *hīo, fēawa, ðēninga, cūðen, āreccean* (Sweet line 19 *áręccean*).
 - **Interpretation:** *ðā swīðe lȳtle fiorme ðāra bōca wiston* translated “had very little benefit from those books”; *for ðǣre wilnunga hīe hit forlēton* “they neglected it on purpose”. The sense of the second is debated.
 - **Historical claims:** Hatton 20 addressed to Wærferth and written in Alfred’s lifetime (c. 890–897); the Cotton copy damaged in the 1731 fire; Alfred Jewel found 1693 near North Petherton; Godden (2007, *Medium Ævum*) on Alfredian authorship.
@@ -1232,7 +1232,7 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 
 ## Old English Lecture X (Grendel’s mere)
 
-- **Reading:** Beowulf 1350–1382a from Klaeber (1922), as transcribed online, ending at *eft æt þē ānum*. Please check two points against Klaeber’s page: (1) *hrinde* in 1368: do Klaeber’s text and notes keep the manuscript form or adopt *hrīmge*? (2) *hafelan beorgan* in 1377: does Klaeber print the verb in brackets, and is it *beorgan* or *hȳdan*?
+- **Reading:** Beowulf 1345–1377a from Klaeber (1922), as transcribed online, ending at *eft æt þē ānum*. (Until 13 November 2026 the lecture said 1350–1382a: the line numbers had been counted in the online transcription, which drifts; see the review section at the end.) Please check two points against Klaeber’s page: (1) *hrinde* in 1363: do Klaeber’s text and notes keep the manuscript form or adopt *hrīmge*? (2) *hafelan beorgan* in 1372: does Klaeber print the verb in brackets, and is it *beorgan* or *hȳdan*?
 - **Length marks (ours):** *londbūend, selerǣdende, hȳrde, gesāwon, twēgen, mōras, ellorgǣstas, Ðǣra, ōðer, gewislīcost, onlīcnes, wræclāstas, nǣfne, ǣnig, gēardagum, foldbūende, ācenned, gāsta, dȳgel, frēcne, fengelād, fyrgenstrēam, gewīteð, flōd, mīlgemearces, þǣm, nīðwundor, sēon, fȳr, frōd, hǣðstapa, sēce, geflȳmed, ōfre, hēoru stōw, ȳðgeblond, āstīgeð, lāð, rēotað, rǣd, ānum*. Short vowels kept in *wulfhleoþu, genipu, leofað, won, gewidru, drysmaþ, gelang*.
 - **Claims:** Morris (Blickling Homilies, EETS 1874–80) and Homily XVI as a parallel (*hrīmige bearwas*); the *Visio Pauli* as a common source; the Sutton Hoo whetstone with a stag; the epithets for Grendel’s mother (*ides, āglǣcwīf, brimwylf*); Cain at lines 104–114.
 - **Grammar:** numeral forms *twēgen/twā/tū*, *twēgra, twǣm*; *þrīe/þrēo*, *þrēora, þrim*; ordinals *forma, ōðer, þridda, fēorða, fīfta*.
@@ -1253,7 +1253,7 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 
 - **Reading:** Beowulf 3137–3155, transcribed from the page image of Klaeber (1922), p. 118, with his macrons and brackets. In 3151 his round bracket spans three words, *(æfter Bīowulfe b)undenheorde*; we show it as *(æfter) (Bīowulfe) (b)undenheorde*. Please check against the scan: *hīofende, swioðole, wōpe, windblond gelæg, mōdceare mǣndon, cw(e)alm, giōmorgyd, (s)īo g(eō)mēowle, sǣde geneahhe, (hearmda)gas, (ondrē)de, (wīgen)des, hȳ[n]ðo, h(æftnȳ)d, swe(a)lg*.
 - **Read from Klaeber’s apparatus on p. 118:** MS *helm* (3139a); MS *swicðole* (3145a); the Latin gloss *anus* over *mēowle*; *geō* first conjectured by E. Sc.; “all that is legible in this page freshened up in a late hand” (Zupitza); Bugge’s restoration of 3151–55 adopted.
-- **Historical claims:** Nowell’s name and 1563 on the codex; the contents of the Nowell Codex; Sisam 1953 on monsters; Scribe B from *scyran* in 1939; the fire of 23 October 1731 at Ashburnham House; framing in 1845; Thorkelin A (copyist, 1787) and B (Thorkelin); the 1807 bombardment destroying his edition work; first edition 1815; Kemble 1833; Zupitza facsimile 1882; Klaeber (1863 Beetzendorf – 1954), Minnesota 1893–1931, editions 1922/1936 with supplements to 1950, 4th edition 2008; Fulk 1992 and Kiernan 1981 on the date; Maldon’s manuscript burnt in 1731 (text from a transcript).
+- **Historical claims:** Nowell’s name and 1563 on the codex; the contents of the Nowell Codex; Sisam 1953 on monsters; Scribe A’s last word *scyran*, Scribe B’s first *mōste* (1939); the fire of 23 October 1731 at Ashburnham House; framing in 1845; Thorkelin A (copyist, 1787) and B (Thorkelin); the 1807 bombardment destroying his edition work; first edition 1815; Kemble 1833; Zupitza facsimile 1882; Klaeber (1863 Beetzendorf – 1954), Minnesota 1893–1931, editions 1922/1936 with supplements to 1950, 4th edition 2008; Fulk 1992 and Kiernan 1981 on the date; Maldon’s manuscript burnt in 1731 (text from a transcript).
 - **Dictionaries:** Bosworth–Toller (1898; supplements 1921, 1972); the Toronto DOE’s progress (“the middle of the alphabet”: please update if needed); alphabetisation of æ.
 - **Etymologies:** *cwealm* ~ *Qual*; *swelgan* ~ *schwelgen*; *lēg* ~ *Lohe*.
 - **Picture:** *Beowulf Cotton MS Vitellius A XV f. 137r (fyrst forth gewat detail).png*. Please confirm that it shows f. 137r with line 210, and check its licence.
@@ -1527,3 +1527,58 @@ Corrected:
     form; part 4 counts four Low German Bibles before Luther, which assumes it.
 - **Series vocabulary:** the gender no longer appears twice (“Anschrift, f.” beside the gender label), 35 entries.
 - **Lecture IV, adjective table:** *guoter / guoten* now on two lines, so that the cell does not break badly on a phone.
+
+# Content review, 13 November 2026: Old English (Lectures I–XII, The Battle of Maldon)
+
+Checked: every reading word by word against its source (the online Klaeber transcription, Klaeber’s page images
+pp. 118–120 and Sweet’s pages); the normalised views against the “as printed” views; vocabulary against Clark Hall;
+length marks for internal consistency; the dated and etymological statements and German comparisons (about 760
+sentences); all tables, gap and multiple-choice answers. *geōmor*, *giōmorgyd* and *g(eō)mēowle* with the macron on
+the o are Klaeber’s own spelling (seen on p. 118), not an error. Corrected:
+
+- **Lecture X line numbers** were five too high: the reading is 1345–1377a (not 1350–1382a); the culture quotation
+  1361b–1364; *hrinde* 1363; *þone … Grendel nemdon* 1354; the card *Nū is se rǣd gelang* 1376b–1377a. They had been
+  counted in the online Klaeber file, which has extra lines. `tests/validate_content.js` now checks every Beowulf
+  reading title against `sources/beowulf-poetryfoundation-full.txt`, and `sources/README.md` warns against counting.
+- **Lecture XII, Klaeber’s apparatus:** *Tho.* is Thorpe (edition 1855), *Thk.* is Thorkelin (p. 118: “Tho. Swīo-ðole
+  (‘Swedish pine’)”). Table, grammar text, card and matching exercise corrected.
+  - [ ] Please confirm against Klaeber’s list of abbreviations (front matter).
+- **Lectures XI–XII:** the remark on the lament page is Zupitza’s, quoted by Klaeber, and reads “Almost all that is
+  legible in this page freshened up in a late hand”. The bracketed additions are now credited as Klaeber’s footnotes
+  credit them: *helm[um]* Grein, *[ond]* Sievers, *wyruldcyning[a]* Kemble. Scribe B begins with *mōste*, after A’s
+  *scyran*.
+- **Lectures XI–XII, Klaeber’s italics:** the reading notes and the bracket section now say that Klaeber prints letters
+  changed from the manuscript in italics, which the app cannot show (*lēg* 3145, MS *let*; *twelfe* 3170, MS *twelfa*).
+  - [ ] Please confirm on the pages that these letters are italic and that italics mean “changed from the MS” in
+    Klaeber’s introduction.
+- **Lecture II:** the normalised view now keeps Klaeber’s *mādma* (MS *madma*, lines 36 and 41) instead of *māðma*,
+  with a note; Klaeber’s dash after *Scyldinga* (30) restored; commas we had added removed in II 32 (*hringedstefna*)
+  and I 8 (*wolcnum*).
+  - [ ] Please check these four places against Klaeber’s page (the online transcription is our only witness).
+- **Lecture I:** the palatalisation paragraph rewritten (German also changed *sk* to *sch*, only later; the *g* of
+  *gēar* already spelled *j*, as in *Jahr*); the possessives paragraph reworded; the note on *Oft Scyld* no longer calls
+  the order verb-second; the Thorkelin transcripts (A by a copyist, B by Thorkelin himself) now described as in
+  Lecture XII and the timeline; the reference to the archived Middle Low German course removed (also in Middle High
+  German Lecture I).
+- **næfne** (short æ, Clark Hall) instead of *nǣfne* throughout Lectures IX–X.
+- **Lecture III:** *hīeran* early West Saxon, *hȳran* later West Saxon, *hēran* Anglian and Kentish; the Chronicle
+  begins with Caesar’s invasion (dated 60 BC), not the birth of Christ; the claim that the Parker manuscript writes *ð*
+  at the start of words removed.
+  - [ ] Does the Parker manuscript use *þ* or *ð* word-initially in annal 755? (Plummer’s or Bately’s edition.)
+- **Lecture V:** *wǣrun* (Lecture III) is an early spelling of the indicative, not a mix-up with the subjunctive.
+- **Lecture XI:** the intro no longer says this is the first reading from page images (Lectures III and VII came
+  first); pronunciation notes on *wyruldcyninga* and *līchaman* corrected; prefix table: *gesēon*, and *entladen,
+  entfesseln* for *ent-* (reversal); *lāf*: *lǣfan* is made from it, not the reverse.
+- **Smaller:** Lecture II reflexive dative (German *sich davonmachen* has an accusative) and “five lines later”; Lecture VII
+  *rēccelēase* sounded *ree-*, not *rää-*; Lecture VIII *wīn-*; Lecture IX *ng* “unlike German *Finger*”; Lecture X
+  Blickling Homily XVI is XVII in Morris’s numbering; Lecture XII manuscript forms without macrons (*ʒod, ƿigend*);
+  Maldon: *līð*, *Byrhtnōð*, *hēanlic*, *ðȳ* in the exercises as in Sweet’s text, *flēogan*.
+
+Still open (not changed):
+
+- [ ] Sweet prints *óð* (long) in the Chronicle; Clark Hall and the Beowulf readings have short *oð*. Left as Sweet.
+- [ ] Sweet leaves *feores* (Maldon 317) unmarked; Clark Hall and Lecture III have *fēores*. Left as Sweet in the reading.
+- [ ] Maldon’s date: Edward Irving and John Niles for composition soon after the battle; George Clark for the 11th
+  century and the west. From memory; please confirm the names and positions.
+- [ ] Sweet’s *eald wæter* (91) and line 318 without *mē*: Sweet worked from Hearne’s print of 1726; the notes say
+  “the transcript”, which modern editors read directly. Confirm that the transcript has *cald* and *mē*.

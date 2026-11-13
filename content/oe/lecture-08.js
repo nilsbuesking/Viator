@@ -106,7 +106,7 @@ Viator.addLecture('oe', {
           <li><span class="la">gūð-, hilde-, wīg-</span> “war”: <span class="la">gūðcyning, hildedēor</span></li>
           <li><span class="la">brim-, sǣ-, lagu-, holm-, ȳð-, sund-</span> “sea, wave”</li>
           <li><span class="la">hige-, mōd-, ferhð-</span> “mind, heart”: <span class="la">higerōf</span> “brave in mind”</li>
-          <li><span class="la">medu-, bēor-, win-</span> “drink, feast”: <span class="la">meduheall</span></li>
+          <li><span class="la">medu-, bēor-, wīn-</span> “drink, feast”: <span class="la">meduheall</span></li>
         </ul>
         <p>A <strong>kenning</strong> in the strict sense is a metaphor: <span class="la">swanrād</span> (200) is not a road, and the swan only tells you which road is meant. A <strong>heiti</strong> is a plain poetic synonym such as <span class="la">secg</span> or <span class="la">flota</span>.</p>
       `

@@ -5,6 +5,9 @@ Texts supplied by Nils for building readings. Public domain.
 - `beowulf-klaeber-1922-lines-1-2601.txt`: Beowulf, Klaeber's edition (1922), as transcribed
   online without length marks; lines 1–2601 only; continued in `klaeber-beowulf-pages/` (page images). Known transcription
   slips: missing spaces (e.g. "syððanærest", "feohgiftumon", "billum ond byrnum;him").
+  **Do not take line numbers from this file by counting its lines**: it has extra lines, so the
+  count drifts (one line out by about 340, five by 1345). Use `beowulf-poetryfoundation-full.txt`,
+  whose file line numbers are the poem's; `tests/validate_content.js` checks reading titles against it.
 - `beowulf-poetryfoundation-full.txt`: full Old English text (lines 1–3182) from the Poetry
   Foundation website. Not Klaeber: line 9 reads "æghwylc þara ymbsittendra" and punctuation
   differs; the source edition is not named (it appears to follow a mid-20th-century edition,

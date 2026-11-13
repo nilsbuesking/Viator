@@ -20,7 +20,9 @@ Lecture II and the Palästinalied).
 
 - `validate_content.js` (Node, about a second, no browser): every catalogue file
   exists, loads without errors and is in the offline list; every exercise and test
-  item is complete and consistent; lecture and item ids are unique. Run it on its
+  item is complete and consistent; lecture and item ids are unique; Latin stress
+  lines follow the stress rule; Beowulf reading titles give the right line numbers.
+  Run it on its
   own with `node tests/validate_content.js` after any content change.
 - `robustness.py`: damaged or unsavable progress, an update arriving during an
   exercise, a missing or broken course file, the options of vocabulary test

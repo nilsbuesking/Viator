@@ -22,7 +22,7 @@ Viator.addLecture('oe', {
       title: 'The Nowell Codex',
       html: `
         <p>British Library, Cotton Vitellius A.xv is two books bound together in the 17th century. The second, the <strong>Nowell Codex</strong>, is named after Laurence Nowell, a 16th-century antiquary who wrote his name and the year 1563 on its first page. It contains five texts in Old English: a fragment of the Passion of St Christopher, the <em>Wonders of the East</em>, the <em>Letter of Alexander to Aristotle</em>, <em>Beowulf</em> and <em>Judith</em>. Kenneth Sisam (1953) suggested that monsters are what unites them; that is a reasonable guess about the compiler, not a fact.</p>
-        <p>Two scribes copied Beowulf. Scribe A wrote to line 1939 and Scribe B took over in the middle of that line, at the word <span class="la">scyran</span>; B also corrected parts of A’s work. Their hands are dated on palaeographical grounds to around 1000, give or take a quarter-century.</p>
+        <p>Two scribes copied Beowulf. Scribe A wrote to line 1939 and Scribe B took over in the middle of that line: A’s last word is <span class="la">scyran</span>, B’s first <span class="la">mōste</span>; B also corrected parts of A’s work. Their hands are dated on palaeographical grounds to around 1000, give or take a quarter-century.</p>
         <figure class="fig"><img class="fig-img" loading="lazy" decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Beowulf_Cotton_MS_Vitellius_A_XV_f._137r_(fyrst_forth_gewat_detail).png/960px-Beowulf_Cotton_MS_Vitellius_A_XV_f._137r_(fyrst_forth_gewat_detail).png" data-fallbacks="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Beowulf_Cotton_MS_Vitellius_A_XV_f._137r_(fyrst_forth_gewat_detail).png/500px-Beowulf_Cotton_MS_Vitellius_A_XV_f._137r_(fyrst_forth_gewat_detail).png|https://upload.wikimedia.org/wikipedia/commons/3/33/Beowulf_Cotton_MS_Vitellius_A_XV_f._137r_(fyrst_forth_gewat_detail).png" alt="Detail of a manuscript page in Insular script, written continuously like prose"><figcaption>Beowulf in the Nowell Codex, British Library, Cotton Vitellius A.xv, f. 137r (detail): the lines beginning <span class="la">fyrst forð gewat</span> (Beowulf 210, Lecture VIII). The verse is written out as prose; note the scorched edge. <span class="credit">Manuscript image; licence on the file page · <a href="https://commons.wikimedia.org/wiki/File:Beowulf_Cotton_MS_Vitellius_A_XV_f._137r_(fyrst_forth_gewat_detail).png" target="_blank" rel="noopener">Wikimedia Commons</a></span></figcaption></figure>
       `
     },
@@ -46,7 +46,7 @@ Viator.addLecture('oe', {
   culture: `
     <p class="eyebrow">From the sources</p>
     <p class="la big">swylce giōmorgyd (s)īo g(eō)mēowle<br>(æfter Bīowulfe b)undenheorde<br>(song) sorgcearig</p>
-    <p>“Likewise the old woman with bound hair sang a sad lament for Beowulf, full of sorrow.” <em>Beowulf</em> 3150–3152a, Klaeber (1922), p. 118, as printed. Klaeber notes that “all that is legible in this page” has been freshened up by a later hand, and that a Latin gloss, <em>anus</em> “old woman”, is written above <span class="la">mēowle</span>. His restoration of these lines follows Sophus Bugge.</p>
+    <p>“Likewise the old woman with bound hair sang a sad lament for Beowulf, full of sorrow.” <em>Beowulf</em> 3150–3152a, Klaeber (1922), p. 118, as printed. Klaeber’s note quotes Zupitza: “Almost all that is legible in this page freshened up in a late hand”; it also records that a Latin gloss, <em>anus</em> “old woman”, is written above <span class="la">mēowle</span>. His restoration of these lines follows Sophus Bugge.</p>
     <p>Of the nine words here, three are complete in the manuscript as it is now. Who the woman is (Beowulf’s widow? a professional mourner? a figure for the whole people?) cannot be decided from what survives.</p>
   `,
 
@@ -107,7 +107,7 @@ Viator.addLecture('oe', {
       html: `
         <p>Klaeber’s footnotes record what the manuscript reads and what other editors proposed. They are dense but formulaic:</p>
         <ul>
-          <li><span class="la">MS.</span> = the manuscript reading; <span class="la">Tho.</span>, <span class="la">Thk.</span> = Thorkelin; <span class="la">Ke.</span> = Kemble; <span class="la">Gr.</span> = Grein; <span class="la">Bu.</span> = Bugge; <span class="la">Holt.</span> = Holthausen; <span class="la">Z.</span> = Zupitza.</li>
+          <li><span class="la">MS.</span> = the manuscript reading; <span class="la">Thk.</span> = Thorkelin; <span class="la">Tho.</span> = Thorpe (edition 1855); <span class="la">Ke.</span> = Kemble; <span class="la">Gr.</span> = Grein; <span class="la">Bu.</span> = Bugge; <span class="la">Holt.</span> = Holthausen; <span class="la">Z.</span> = Zupitza.</li>
           <li>The line number with <span class="la">a</span> or <span class="la">b</span> refers to the half-line.</li>
           <li><span class="la">om.</span> = omitted; <span class="la">cf.</span> = compare; <span class="la">perh.</span> = perhaps.</li>
         </ul>
@@ -137,7 +137,7 @@ Viator.addLecture('oe', {
 
   grammarCards: [
     { id: 'oe12-ms', front: 'Beowulf manuscript', back: 'British Library, Cotton Vitellius A.xv (the Nowell Codex), c. 1000' },
-    { id: 'oe12-scribes', front: 'The two scribes of Beowulf', back: 'A to line 1939 (scyran), B from there; B also corrected A' },
+    { id: 'oe12-scribes', front: 'The two scribes of Beowulf', back: 'A to line 1939 (last word scyran), B from mōste in the same line; B also corrected A' },
     { id: 'oe12-fire', front: 'The Cotton fire', back: '23 October 1731, Ashburnham House; leaves framed in 1845' },
     { id: 'oe12-thorkelin', front: 'Thorkelin A and B', back: 'Transcripts of 1787 (A by a copyist, B by Thorkelin); first edition 1815' },
     { id: 'oe12-klaeber', front: 'Fr. Klaeber', back: '1863–1954, born in the Altmark, professor in Minnesota; edition 1922, 4th ed. 2008' },
@@ -148,13 +148,13 @@ Viator.addLecture('oe', {
     { id: 'oe12-verse', front: 'How is verse laid out in the manuscript?', back: 'As prose, across the page; the lines are editorial' },
     { id: 'oe12-lookup', front: 'Looking up hiora, ieldran', back: 'Try the late West Saxon spelling: heora, yldran' },
     { id: 'oe12-alpha', front: 'ð/þ in dictionary order', back: 'After t, treated as one letter' },
-    { id: 'oe12-ms-abbr', front: 'MS., Tho., Ke., Bu., Z. in an apparatus', back: 'manuscript, Thorkelin, Kemble, Bugge, Zupitza' },
+    { id: 'oe12-ms-abbr', front: 'MS., Thk., Tho., Ke., Bu., Z. in an apparatus', back: 'manuscript, Thorkelin, Thorpe, Kemble, Bugge, Zupitza' },
     { id: 'oe12-date', front: 'Date of composition of Beowulf', back: 'Disputed: 8th century or earlier (majority) to 11th century (Kiernan 1981)' }
   ],
 
   exercises: [
     { id: 'e1', type: 'mc', prompt: 'How many manuscripts of Beowulf survive?', options: ['One', 'Two', 'Five', 'About twenty'], answer: 0, explain: 'Cotton Vitellius A.xv.' },
-    { id: 'e2', type: 'mc', prompt: 'Where does Scribe B take over?', options: ['In line 1939', 'At line 1', 'At the dragon episode (2200)', 'At the last page'], answer: 0, explain: 'At the word scyran.' },
+    { id: 'e2', type: 'mc', prompt: 'Where does Scribe B take over?', options: ['In line 1939', 'At line 1', 'At the dragon episode (2200)', 'At the last page'], answer: 0, explain: 'After the word scyran: B begins with mōste.' },
     { id: 'e3', type: 'mc', prompt: 'What happened to Thorkelin’s work in 1807?', options: ['It burned in the bombardment of Copenhagen', 'It was stolen', 'It was published', 'It was taken to London'], answer: 0, explain: 'The transcripts survived; the edition appeared in 1815.' },
     { id: 'e4', type: 'mc', prompt: 'In a manuscript, <span class="la">⁊</span> stands for:', options: ['ond', 'þæt', 'ac', 'oððe'], answer: 0, explain: 'The Tironian note.' },
     { id: 'e5', type: 'mc', prompt: 'In a manuscript, <span class="la">hī</span> with a stroke is usually:', options: ['him', 'hīe with a long vowel', 'hit', 'his'], answer: 0, explain: 'The stroke stands for m or n.' },
@@ -165,7 +165,7 @@ Viator.addLecture('oe', {
       ['ƿ', 'w'], ['ʒ', 'g'], ['ſ', 's'], ['⁊', 'ond'], ['þ̄', 'þæt']
     ] },
     { id: 'e10', type: 'match', prompt: 'Match the apparatus abbreviations.', pairs: [
-      ['MS.', 'the manuscript'], ['Tho.', 'Thorkelin'], ['Ke.', 'Kemble'], ['Bu.', 'Bugge'], ['om.', 'omitted']
+      ['MS.', 'the manuscript'], ['Thk.', 'Thorkelin'], ['Ke.', 'Kemble'], ['Bu.', 'Bugge'], ['om.', 'omitted']
     ] },
     { id: 'e11', type: 'gap', prompt: '<span class="la">helm[___] behongen, hildebordum</span>', hint: 'Klaeber’s added ending (dat. pl.)', answers: ['um'], full: 'helm[um] behongen, hildebordum', explain: 'MS. helm.' },
     { id: 'e12', type: 'gap', prompt: 'Expand: <span class="la">ðon̄</span> = ___', hint: 'the stroke stands for n + e', answers: ['ðonne', 'þonne', 'donne'], full: 'ðonne', explain: 'Abbreviation by suspension.' },
@@ -175,7 +175,7 @@ Viator.addLecture('oe', {
       { label: '⁊', answers: ['ond|and', 'and'] },
       { label: 'þ̄', answers: ['þæt|ðæt', 'that'] },
       { label: 'ƿer', answers: ['wer', 'man'] },
-      { label: 'ʒōd', answers: ['gōd|god', 'good'] }
+      { label: 'ʒod', answers: ['gōd|god', 'good'] }
     ] },
     { id: 'e16', type: 'paradigm', prompt: 'Give the late West Saxon dictionary spelling.', headers: ['Dictionary form', 'Meaning'], rows: [
       { label: 'hiora', answers: ['heora', 'their|of them'] },
@@ -196,7 +196,7 @@ Viator.addLecture('oe', {
     title: 'Beowulf 3137–3155',
     note: 'Authentic text: Klaeber’s edition (1922), lines 3137–3155, transcribed from the page image of p. 118. Klaeber prints the length marks himself. “Klaeber, as printed” keeps his round brackets (letters lost or illegible in the manuscript and supplied) and square brackets (editorial additions); the normalised view drops the brackets. Tap any word.',
     diplomaticLabel: 'Klaeber, as printed',
-    diplomaticNote: 'Klaeber (1922), p. 118, with his brackets: ( ) letters lost or illegible in the manuscript, [ ] editorial additions. Where a round bracket spans several words (3151) we close it at each word boundary.',
+    diplomaticNote: 'Klaeber (1922), p. 118, with his brackets: ( ) letters lost or illegible in the manuscript, [ ] editorial additions. Where a round bracket spans several words (3151) we close it at each word boundary. Klaeber also prints in italics letters he changed from the manuscript (lēg in 3145, where the manuscript has let); the app cannot show italics.',
     text: 'Him ðā gegiredan Gēata lēode\nād on eorðan unwāclīcne,\nhelmum behongen, hildebordum,\nbeorhtum byrnum, swā hē bēna wæs;\nālegdon ðā tōmiddes mǣrne þēoden\nhæleð hīofende, hlāford lēofne.\nOngunnon þā on beorge bælfȳra mǣst\nwīgend weccan; wudurēc āstāh\nsweart ofer swioðole, swōgende lēg\nwōpe bewunden — windblond gelæg —,\noð þæt hē ðā bānhūs gebrocen hæfde\nhāt on hreðre. Higum unrōte\nmōdceare mǣndon, mondryhtnes cwealm;\nswylce giōmorgyd sīo geōmēowle\næfter Bīowulfe bundenheorde\nsong sorgcearig, sǣde geneahhe,\nþæt hīo hyre hearmdagas hearde ondrēde,\nwælfylla worn, wīgendes egesan,\nhȳnðo ond hæftnȳd. Heofon rēce swealg.',
     diplomatic: 'Him ðā gegiredan Gēata lēode\nād on eorðan unwāclīcne,\nhelm[um] behongen, hildebordum,\nbeorhtum byrnum, swā hē bēna wæs;\nālegdon ðā tōmiddes mǣrne þēoden\nhæleð hīofende, hlāford lēofne.\nOngunnon þā on beorge bælfȳra mǣst\nwīgend weccan; wud(u)rēc āstāh\nsweart ofer swioðole, swōgende lēg\nwōpe bewunden — windblond gelæg —,\noð þæt hē ðā bānhūs gebrocen hæfde\nhāt on hreðre. Higum unrōte\nmōdceare mǣndon, mondryhtnes cw(e)alm;\nswylce giōmorgyd (s)īo g(eō)mēowle\n(æfter) (Bīowulfe) (b)undenheorde\n(song) sorgcearig, sǣde geneahhe,\nþæt hīo hyre (hearmda)gas hearde (ondrē)de,\nwælfylla worn, (wīgen)des egesan,\nhȳ[n]ðo (ond) h(æftnȳ)d. Heofon rēce swe(a)lg.',
     translations: [
@@ -205,7 +205,7 @@ Viator.addLecture('oe', {
     ],
     notes: [
       { ref: 'Him ðā gegiredan Gēata lēode ād on eorðan unwāclīcne', html: 'Klaeber prints the fitt number <em>XLIII</em> in the margin: the last section of the poem begins here. <span class="la">unwāclīcne</span>: “not weak”, understatement for “splendid”.' },
-      { ref: 'helm[um] behongen', html: 'MS <span class="la">helm</span>; Klaeber adds <span class="la">-um</span> to match the datives <span class="la">hildebordum, byrnum</span>. Other editors keep <span class="la">helm</span> and construe differently.' },
+      { ref: 'helm[um] behongen', html: 'MS <span class="la">helm</span>; Klaeber prints Grein’s added <span class="la">-um</span> to match the datives <span class="la">hildebordum, byrnum</span>. Other editors keep <span class="la">helm</span> and construe differently.' },
       { ref: 'ālegdon ðā tōmiddes mǣrne þēoden hæleð hīofende', html: 'Verb first, object, then the subject <span class="la">hæleð hīofende</span> “the lamenting warriors”. <span class="la">hīofende</span>: early spelling (io) of <span class="la">hēofende</span>.' },
       { ref: 'wud(u)rēc āstāh sweart ofer swioðole', html: '<span class="la">wud(u)</span>: the final u is lost and supplied. <span class="la">swioðole</span>: Klaeber’s note gives the manuscript reading as <span class="la">swicðole</span>; editors emend. The word is rare and its meaning, “blaze, heat”, is inferred.' },
       { ref: '— windblond gelæg —', html: 'A parenthesis: “the roar of the wind died down”, so the fire burned undisturbed. Klaeber marks it with dashes.' },
@@ -213,7 +213,7 @@ Viator.addLecture('oe', {
       { ref: 'swylce giōmorgyd (s)īo g(eō)mēowle', html: 'See the source panel. <span class="la">g(eō)mēowle</span> “old woman”: <span class="la">geō</span> was first conjectured by an editor; a Latin gloss <em>anus</em> stands over the word in the manuscript.' },
       { ref: '(æfter) (Bīowulfe) (b)undenheorde', html: 'Almost entirely restored. <span class="la">bundenheorde</span> “with bound hair” may mark a married woman; this is an inference from much later customs.' },
       { ref: 'þæt hīo hyre (hearmda)gas hearde (ondrē)de', html: 'Reported speech after <span class="la">sǣde</span>. <span class="la">ondrēde</span> may be past subjunctive (Lecture IX), but most of the word is restored, so the mood is the editor’s choice as much as the poet’s.' },
-      { ref: 'hȳ[n]ðo (ond) h(æftnȳ)d. Heofon rēce swe(a)lg.', html: 'Klaeber adds <span class="la">n</span> to <span class="la">hȳðo</span>; <span class="la">(ond)</span> and most of <span class="la">hæftnȳd</span> are restored. The last half-line of the section is secure enough in outline: “Heaven swallowed the smoke.”' }
+      { ref: 'hȳ[n]ðo (ond) h(æftnȳ)d. Heofon rēce swe(a)lg.', html: 'Klaeber prints an added <span class="la">n</span> (MS <span class="la">hyðo</span>); <span class="la">(ond)</span> and most of <span class="la">hæftnȳd</span> are restored. The last half-line of the section is secure enough in outline: “Heaven swallowed the smoke.”' }
     ],
     glosses: {
       'behongen': 'hung (with) (past part. of behōn)', 'beorge': 'mound, hill (dat.)', 'beorhtum': 'bright (dat. pl.)', 'bewunden': 'wound about, mingled (past part. of bewindan)', 'bundenheorde': 'with bound hair (a married woman? a crux)', 'byrnum': 'with mail-coats (dat. pl.)',
@@ -248,7 +248,7 @@ Viator.addLecture('oe', {
       { id: 't3', type: 'mc', prompt: 'Who published the first edition of Beowulf?', options: ['Thorkelin (1815)', 'Kemble (1833)', 'Klaeber (1922)', 'Zupitza (1882)'], answer: 0, explain: 'With a Latin translation.' },
       { id: 't4', type: 'mc', prompt: 'Zupitza’s 1882 publication was:', options: ['a photographic facsimile', 'a translation', 'a dictionary', 'a grammar'], answer: 0, explain: 'For the Early English Text Society.' },
       { id: 't5', type: 'gap', prompt: '<span class="la">wud(u)rēc</span>: the letter ___ is supplied', hint: 'one letter', answers: ['u'], full: 'u', explain: 'Round brackets: lost in the MS.' },
-      { id: 't6', type: 'gap', prompt: '<span class="la">ƿīgend</span> is printed ___', hint: 'replace the wynn', answers: ['wīgend', 'wigend'], full: 'wīgend', explain: 'ƿ = w.' },
+      { id: 't6', type: 'gap', prompt: '<span class="la">ƿigend</span> is printed ___', hint: 'replace the wynn', answers: ['wīgend', 'wigend'], full: 'wīgend', explain: 'ƿ = w.' },
       { id: 't7', type: 'translate', dir: 'oe-en', source: 'Se rēc wæs sweart.', model: 'The smoke was black.', accepted: ['smoke was black', 'smoke was dark', 'the smoke was black', 'the smoke was dark'] },
       { id: 't8', type: 'translate', dir: 'en-oe', source: 'the hot fire (nom.; se, hāt, lēg)', model: 'se hāta lēg', accepted: ['se hāta lēg', 'se hāta līg'] },
       { id: 't9', type: 'mc', prompt: 'Where did Klaeber teach?', options: ['University of Minnesota', 'Oxford', 'Copenhagen', 'Berlin'], answer: 0, explain: '1893–1931.' },
@@ -260,6 +260,6 @@ Viator.addLecture('oe', {
   reference: [
     { title: 'Manuscript signs', headers: ['Sign', 'Edited', 'Note'], rows: [['ƿ', 'w', 'wynn, a rune'], ['ʒ', 'g', 'insular g'], ['ſ', 's', 'long s'], ['⁊', 'ond / and', 'Tironian note'], ['þ̄', 'þæt', 'stroke through the ascender'], ['stroke over a vowel', '+ m or n', 'hī = him']] },
     { title: 'Beowulf: key dates', headers: ['Date', 'Event'], rows: [['c. 1000', 'Nowell Codex written by two scribes'], ['1563', 'Laurence Nowell signs the manuscript'], ['1731', 'Cotton library fire'], ['1787', 'Thorkelin transcripts A and B'], ['1815', 'Thorkelin’s first edition'], ['1833', 'Kemble’s edition'], ['1845', 'Leaves mounted in paper frames'], ['1882', 'Zupitza’s facsimile'], ['1922', 'Klaeber’s first edition'], ['2008', 'Klaeber’s Beowulf, 4th edition']] },
-    { title: 'Apparatus abbreviations', headers: ['Abbr.', 'Meaning'], rows: [['MS.', 'the manuscript'], ['Tho., Thk.', 'Thorkelin'], ['Ke.', 'Kemble'], ['Gr.', 'Grein'], ['Bu.', 'Bugge'], ['Holt.', 'Holthausen'], ['Z.', 'Zupitza'], ['om.', 'omitted'], ['perh.', 'perhaps']] }
+    { title: 'Apparatus abbreviations', headers: ['Abbr.', 'Meaning'], rows: [['MS.', 'the manuscript'], ['Thk.', 'Thorkelin'], ['Tho.', 'Thorpe (edition 1855)'], ['Ke.', 'Kemble'], ['Gr.', 'Grein'], ['Bu.', 'Bugge'], ['Holt.', 'Holthausen'], ['Z.', 'Zupitza'], ['om.', 'omitted'], ['perh.', 'perhaps']] }
   ]
 });

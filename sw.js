@@ -3,7 +3,7 @@
  * Raise VERSION when a file is renamed or removed.
  * Pictures and fonts from other sites (Wikimedia Commons, Google Fonts) go into a separate cache, MEDIA, which
  * survives version changes, so a picture seen once online stays available offline. */
-const VERSION = 'viator-v97';
+const VERSION = 'viator-v98';
 const MEDIA = 'viator-media';
 const MEDIA_MAX = 400;   // entries; the oldest are removed beyond this
 const CORE = ['./', 'index.html', 'app.css', 'app.js', 'manifest.webmanifest',

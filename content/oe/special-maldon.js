@@ -81,7 +81,7 @@ Viator.addLecture('oe', {
     <p>The poem follows the rules of Lecture I. Points to notice in these passages:</p>
     <ul>
       <li><strong>Late spellings.</strong> The text is late West Saxon as copied by an 18th-century hand. Sweet regularised many of the copy’s spellings and gives its forms in his footnotes: he prints <span class="la">gafol</span> where it has <span class="la">gofol</span>, <span class="la">scipe</span> for <span class="la">scype</span>, <span class="la">stent</span> for <span class="la">stynt</span>, <span class="la">hraðe</span> for <span class="la">raðe</span>. Some irregular forms remain, such as <span class="la">sceole gē</span> for <span class="la">sculon gē</span>. Unstressed endings had begun to merge, which is why <span class="la">-on</span> and <span class="la">-an</span> are often confused.</li>
-      <li><strong>Byrhtnoð</strong>: <em>Bürcht-nooth</em>, with <em>ü</em> and German <em>ch</em>. The <span class="la">y</span> is German <em>ü</em>; <span class="la">-ht-</span> is <em>cht</em>, as in German <em>Licht</em>.</li>
+      <li><strong>Byrhtnōð</strong>: <em>Bürcht-nooth</em>, with <em>ü</em> and German <em>ch</em>. The <span class="la">y</span> is German <em>ü</em>; <span class="la">-ht-</span> is <em>cht</em>, as in German <em>Licht</em>.</li>
       <li><strong>wīcing</strong>: <em>wiiking</em>, with long <em>i</em>; the <span class="la">c</span> stays <em>k</em> here.</li>
       <li><strong>Alliteration</strong> still carries the line: <span class="la">Hige … heardra … heorte</span>, <span class="la">mōd … māre … mægen</span>. Late Old English verse is metrically looser than <em>Beowulf</em>, but this poet keeps the classical rules closely.</li>
     </ul>
@@ -89,7 +89,7 @@ Viator.addLecture('oe', {
 
   grammar: [
     {
-      title: '1. þē … þē: the more, the more',
+      title: '1. ðȳ (þē) … ðȳ: the more, the more',
       html: `
         <p>Old English expresses proportion with the instrumental of the article, <span class="la">þē</span> (also <span class="la">þȳ</span>), before a comparative in both clauses:</p>
         <p class="la">Hyge sceal ðȳ heardra … ðȳ ūre mægen lytlað.</p>
@@ -108,7 +108,7 @@ Viator.addLecture('oe', {
       html: `
         <p>Old English verse introduces speeches with set formulas, which Maldon uses as freely as <em>Beowulf</em>:</p>
         <ul>
-          <li><span class="la">Byrhtnoð maþelode, bord hafenode</span>: “Byrhtnoth spoke, raised his shield”. <span class="la">maþelian</span>, “make a speech”, is a poetic word; compare Gothic <em>maþljan</em>.</li>
+          <li><span class="la">Byrhtnōð maðelode, bord hafenode</span>: “Byrhtnoth spoke, raised his shield”. <span class="la">maþelian</span>, “make a speech”, is a poetic word; compare Gothic <em>maþljan</em>.</li>
           <li><span class="la">wordum mǣlde</span>: “spoke with words”.</li>
           <li><span class="la">āgeaf him andsware</span>: “gave him answer”.</li>
         </ul>
@@ -168,10 +168,10 @@ Viator.addLecture('oe', {
     { id: 'mathelian', head: 'maþelian', la: 'maþelian, maþelode', pos: 'verb, weak', en: 'make a speech, speak', note: 'Poetic. Related to German Mahl (in Gemahl) via mæþel, assembly.' },
     { id: 'syllan', head: 'syllan', la: 'syllan, sellan, sealde', pos: 'verb, weak', en: 'give', note: 'False friend: “give”, not only “sell”.' },
     { id: 'gangan', head: 'gangan', la: 'gangan, gēong, gangen', pos: 'verb, strong VII', en: 'go, walk', note: 'German gehen, Gang.' },
-    { id: 'licgan', head: 'licgan', la: 'licgan, læg, lǣgon, gelegen', pos: 'verb, strong V', en: 'lie', note: 'German liegen. 3rd sg. lið.' },
+    { id: 'licgan', head: 'licgan', la: 'licgan, læg, lǣgon, gelegen', pos: 'verb, strong V', en: 'lie', note: 'German liegen. 3rd sg. līð.' },
     { id: 'frod', head: 'frōd', la: 'frōd', pos: 'adjective', en: 'old and wise, experienced', note: 'German fruot (MHG), “clever”.' },
     { id: 'cene', head: 'cēne', la: 'cēne', pos: 'adjective', en: 'bold, brave', note: 'German kühn; English keen.' },
-    { id: 'heanlic', head: 'hēanlīc', la: 'hēanlīc', pos: 'adjective', en: 'shameful, humiliating', note: 'From hēan, lowly; German höhnen is related.' },
+    { id: 'heanlic', head: 'hēanlic', la: 'hēanlic', pos: 'adjective', en: 'shameful, humiliating', note: 'From hēan, lowly; German höhnen is related.' },
     { id: 'aer', head: 'ǣr', la: 'ǣr', pos: 'adverb; conjunction', en: 'before; formerly; ere', note: 'German eher, erst.' }
   ],
 
@@ -199,7 +199,7 @@ Viator.addLecture('oe', {
     { id: 'e4', type: 'mc', prompt: 'What does the Viking messenger demand?', options: ['Rings and treasure in exchange for peace', 'The surrender of Byrhtnoth', 'Land to settle', 'Hostages only'], answer: 0, explain: 'beagas wið gebeorge … grið fæstnian.' },
     { id: 'e5', type: 'mc', prompt: 'Byrhtnoth answers that the tribute will be paid in:', options: ['spears and old swords', 'silver', 'land', 'hostages'], answer: 0, explain: 'garas … ættrynne ord and ealde swurd.' },
     { id: 'e6', type: 'mc', prompt: '<span class="la">for his ofermōde</span> is usually understood as:', options: ['because of his pride or overconfidence', 'because of his great piety', 'because he was outnumbered', 'because of the tide'], answer: 0, explain: 'The precise force of ofermōd is debated; most now read it as blame.' },
-    { id: 'e7', type: 'mc', prompt: '<span class="la">þē … þē</span> in Byrhtwold’s speech corresponds to German:', options: ['je … desto', 'weder … noch', 'sowohl … als auch', 'entweder … oder'], answer: 0, explain: 'The instrumental of the article before comparatives.' },
+    { id: 'e7', type: 'mc', prompt: '<span class="la">ðȳ … ðȳ</span> (also <span class="la">þē … þē</span>) in Byrhtwold’s speech corresponds to German:', options: ['je … desto', 'weder … noch', 'sowohl … als auch', 'entweder … oder'], answer: 0, explain: 'The instrumental of the article before comparatives.' },
     { id: 'e8', type: 'mc', prompt: 'Who wrote <em>The Homecoming of Beorhtnoth Beorhthelm’s Son</em>?', options: ['J. R. R. Tolkien', 'Seamus Heaney', 'Thomas Hearne', 'Helmut Gneuss'], answer: 0, explain: 'Tolkien, 1953.' },
     { id: 'e9', type: 'match', prompt: 'Match the words to their German relatives.', pairs: [
       ['sceatt', 'Schatz'], ['frið', 'Friede'], ['æsc', 'Esche'], ['cēne', 'kühn'], ['mōd', 'Mut']
@@ -210,9 +210,9 @@ Viator.addLecture('oe', {
     { id: 'e11', type: 'gap', prompt: '<span class="la">Hyge sceal ðȳ heard___</span>', hint: 'harder (comparative)', answers: ['ra'], full: 'Hyge sceal ðȳ heardra', explain: 'Comparative -ra.' },
     { id: 'e12', type: 'gap', prompt: '<span class="la">þe hēr rīc___ eart</span>', hint: 'most powerful', answers: ['ost'], full: 'þe hēr rīcost eart', explain: 'Superlative -ost.' },
     { id: 'e13', type: 'gap', prompt: '<span class="la">God āna ___ hwā þǣre wælstōwe wealdan mōte.</span>', hint: 'knows', answers: ['wāt', 'wat'], full: 'God āna wāt …', explain: 'witan, wāt: German weiß.' },
-    { id: 'e14', type: 'gap', prompt: '<span class="la">Hēr ___ ūre ealdor eall forhēawen.</span>', hint: 'lies (licgan)', answers: ['lið', 'liþ'], full: 'Hēr lið ūre ealdor …', explain: '3rd sg. of licgan.' },
+    { id: 'e14', type: 'gap', prompt: '<span class="la">Hēr ___ ūre ealdor eall forhēawen.</span>', hint: 'lies (licgan)', answers: ['līð', 'līþ'], full: 'Hēr līð ūre ealdor …', explain: '3rd sg. of licgan.' },
     { id: 'e15', type: 'order', prompt: 'Put the English translation in order.', source: 'Ic eom frōd fēores; fram ic ne wille', tokens: ['I am', 'old in years;', 'I will not', 'go away'], explain: 'frōd: old, wise; fram (gān), go from here.' },
-    { id: 'e16', type: 'translate', dir: 'oe-en', source: 'Hēr lið ūre ealdor.', model: 'Here lies our lord.', accepted: ['here lies our lord', 'here lies our chief', 'our lord lies here', 'our chief lies here', 'here lies our leader', 'our leader lies here', 'here our lord lies'] },
+    { id: 'e16', type: 'translate', dir: 'oe-en', source: 'Hēr līð ūre ealdor.', model: 'Here lies our lord.', accepted: ['here lies our lord', 'here lies our chief', 'our lord lies here', 'our chief lies here', 'here lies our leader', 'our leader lies here', 'here our lord lies'] },
     { id: 'e17', type: 'translate', dir: 'oe-en', source: 'Gehȳrst þū, sǣlida, hwæt þis folc segeð?', model: 'Do you hear, seafarer, what this people says?', accepted: ['do you hear seafarer what this people says', 'do you hear seaman what this people says', 'do you hear seafarer what these people say', 'do you hear sailor what this people says', 'do you hear sailor what these people say', 'hear you seafarer what this people says', 'do you hear seaman what these people say', 'do you hear viking what this people says'] },
     { id: 'e18', type: 'translate', dir: 'en-oe', source: 'God alone knows.', model: 'God āna wāt.', accepted: ['god āna wāt'] },
     { id: 'e19', type: 'mc', prompt: 'Tacitus, <em>Germania</em> 14, says it is a lifelong disgrace to:', options: ['leave a battle alive after one’s leader has fallen', 'pay tribute to an enemy', 'fight on a holy day', 'refuse a challenge'], answer: 0, explain: 'The ideal the retainers in the poem act out.' },
@@ -281,7 +281,7 @@ Viator.addLecture('oe', {
       'sege': 'say! (imperative of secgan)', 'þīnum': 'your (dat. pl.)', 'lēodum': 'people (dat. pl.)', 'miccle': 'much (instr.: by much)', 'lāþre': 'more hateful (comparative of lāð: leid)', 'spell': 'message, story (Beispiel)',
       'stynt': 'stands (3rd sg. of standan)', 'unforcūð': 'of unblemished name, honourable', 'eorl': 'earl, nobleman', 'his': 'his', 'werode': 'troop (dat. of werod)',
       'wile': 'wants, will', 'gealgean': 'defend', 'ēþel': 'homeland, native land (OHG uodal)', 'þysne': 'this (acc. m.)', 'æþelrēdes': 'of Æthelred (king of England)', 'eard': 'land, country (Erde)', 'ealdres': 'of the lord (gen. of ealdor)', 'mīnes': 'my (gen.)',
-      'foldan': 'earth, ground (acc.)', 'feallan': 'fall', 'sceolon': 'shall, must (pl.)', 'hǣþene': 'heathens', 'hēanlīc': 'shameful', 'þinceð': 'seems (dünkt)',
+      'foldan': 'earth, ground (acc.)', 'feallan': 'fall', 'sceolon': 'shall, must (pl.)', 'hǣþene': 'heathens', 'hēanlic': 'shameful', 'þinceð': 'seems (dünkt)',
       'ūrum': 'our (dat. pl.)', 'gangon': 'should go (subj. pl.)', 'unbefohtene': 'without a fight', 'nū': 'now', 'þus': 'thus, so', 'feor': 'far', 'hider': 'hither', 'ūrne': 'our (acc.)', 'becōmon': 'came (pret. pl. of becuman)',
       'sceole': 'shall (pl., before gē)', 'sōfte': 'easily, softly (sanft)', 'sinc': 'treasure', 'gegangan': 'obtain, get', 'sceal': 'must, shall', 'ecg': 'edge, sword (Ecke)', 'ǣr': 'first, before', 'gesēman': 'reconcile, settle',
       'grim': 'grim', 'gūðplega': 'battle-play', 'gofol': 'tribute (= gafol)', 'syllon': 'should give, pay (subj. pl.)',
@@ -292,7 +292,7 @@ Viator.addLecture('oe', {
       'hwā': 'who', 'þǣre': 'the (gen. f.)', 'wælstōwe': 'place of slaughter (gen. of wælstōw: Walstatt)', 'wealdan': 'control, hold (+ gen.: walten)', 'mōte': 'may (subj. of mōtan)',
       'byrhtwold': 'Byrhtwold, an old retainer', 'eald': 'old', 'genēat': 'retainer, companion', 'ācwehte': 'shook (pret. of ācweccan)', 'ful': 'very (voll)', 'baldlīce': 'boldly', 'lǣrde': 'exhorted, taught (lehrte)',
       'hige': 'mind, courage', 'heardra': 'harder, firmer (comparative)', 'heorte': 'heart', 'cēnre': 'bolder (comparative of cēne: kühn)', 'mōd': 'courage, spirit (Mut)', 'māre': 'greater (mehr)', 'ūre': 'our', 'mægen': 'strength', 'lȳtlað': 'grows less (lȳtlian)',
-      'lið': 'lies (3rd sg. of licgan)', 'ealdor': 'lord', 'eall': 'all, entirely', 'forhēawen': 'hewn down (participle of forhēawan)', 'gōd': 'good (man)', 'grēote': 'dust, earth (dat. of grēot: grit)',
+      'līð': 'lies (3rd sg. of licgan)', 'ealdor': 'lord', 'eall': 'all, entirely', 'forhēawen': 'hewn down (participle of forhēawan)', 'gōd': 'good (man)', 'grēote': 'dust, earth (dat. of grēot: grit)',
       'ā': 'ever, always', 'mæg': 'may, can', 'gnornian': 'mourn', 'ðe': 'who', 'fram': 'from; away', 'wīgplegan': 'war-play (dat.)', 'wendan': 'turn (wenden)', 'þenceð': 'thinks, intends (denkt)',
       'ic': 'I', 'eom': 'am', 'frōd': 'old and wise', 'feores': 'in life (gen. of feorh)', 'ac': 'but', 'be': 'by', 'healfe': 'side (dat. of healf: Seite)', 'mīnum': 'my (dat.)', 'hlāforde': 'lord (dat.)',
       'lēofan': 'dear (lieb)', 'men': 'man (dat.)', 'licgan': 'lie (liegen)', 'þence': 'intend (1st sg. of þencan)'
@@ -313,8 +313,8 @@ Viator.addLecture('oe', {
       { id: 't2', type: 'mc', prompt: 'The manuscript of <em>Maldon</em>:', options: ['was destroyed in the Cotton fire of 1731', 'is in the British Library', 'is the Exeter Book', 'was found in 1930 at Ely'], answer: 0, explain: 'Only a transcript survives.' },
       { id: 't3', type: 'mc', prompt: 'The river called <span class="la">Pante</span> in the poem is now:', options: ['the Blackwater', 'the Thames', 'the Stour', 'the Colne'], answer: 0, explain: 'The Blackwater estuary at Maldon.' },
       { id: 't4', type: 'mc', prompt: 'Tolkien argued that <span class="la">ofermōd</span>:', options: ['condemns Byrhtnoth’s vanity', 'praises his courage', 'refers to the Vikings', 'is a scribal error'], answer: 0, explain: 'In The Homecoming of Beorhtnoth (1953).' },
-      { id: 't5', type: 'gap', prompt: '<span class="la">mōd sceal þē mā___</span>', hint: 'greater', answers: ['re'], full: 'mōd sceal þē māre', explain: 'māre: irregular comparative of micel.' },
-      { id: 't6', type: 'gap', prompt: '<span class="la">Hē ___ fleogan.</span> (would not)', hint: 'ne wolde', answers: ['nolde'], full: 'Hē nolde fleogan.', explain: 'ne + wolde → nolde.' },
+      { id: 't5', type: 'gap', prompt: '<span class="la">mōd sceal ðȳ mā___</span>', hint: 'greater', answers: ['re'], full: 'mōd sceal ðȳ māre', explain: 'māre: irregular comparative of micel.' },
+      { id: 't6', type: 'gap', prompt: '<span class="la">Hē ___ flēogan.</span> (would not)', hint: 'ne wolde', answers: ['nolde'], full: 'Hē nolde flēogan.', explain: 'ne + wolde → nolde.' },
       { id: 't7', type: 'translate', dir: 'oe-en', source: 'Ic eom frōd.', model: 'I am old (and wise).', accepted: ['i am old', 'i am wise', 'i am old and wise', 'i am experienced', 'i am aged'] },
       { id: 't8', type: 'mc', prompt: '<span class="la">mē þinceð</span> corresponds to German:', options: ['mich dünkt', 'ich denke', 'mir dankt', 'ich danke'], answer: 0, explain: 'Impersonal þyncan with dative; English methinks.' },
       { id: 't9', type: 'mc', prompt: 'The word <span class="la">grið</span> (truce) is:', options: ['a loan from Old Norse', 'a Latin loan', 'a French loan', 'a native West Saxon word'], answer: 0, explain: 'One of the early Norse loanwords.' },

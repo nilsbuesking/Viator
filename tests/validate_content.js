@@ -2,7 +2,8 @@
 // Usage: node tests/validate_content.js        Exit code 1 if anything is wrong.
 // Checks: every file in the catalogue exists, loads without errors and is in the offline list (CORE in sw.js);
 // every CORE entry exists; lecture ids and numbers are unique; every exercise is complete (answer keys in range,
-// paradigm rows match their headers, no duplicate options or tokens); each test can be built.
+// paradigm rows match their headers, no duplicate options or tokens); each test can be built; Latin stress lines
+// follow the rule; Beowulf reading titles give the right line numbers.
 // Lines starting "NOTE" are worth knowing but do not fail the check.
 const fs = require('fs'), path = require('path'), vm = require('vm');
 const repo = path.resolve(__dirname, '..');
@@ -97,6 +98,20 @@ for (const c of reg.catalogue) {
     }
   }
 }
+// Beowulf readings: the line numbers in the reading title must fit a correctly numbered text (one verse line per
+// line). Do not count lines in the online Klaeber transcription in sources/: it has extra lines, so the count drifts
+// (Lecture X was once five lines out).
+const BEO = path.join(repo, 'sources/beowulf-poetryfoundation-full.txt');
+if (fs.existsSync(BEO)) {
+  const lines = fs.readFileSync(BEO, 'utf8').split('\n');
+  const key = s => String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/ð/g, 'þ').replace(/[^a-zæþƿ]/g, '').slice(0, 8);
+  for (const l of reg.lectures.oe || []) {
+    const m = l.reading && /^Beowulf (\d+)–(\d+)/.exec(l.reading.title || ''); if (!m) continue;
+    const t = String(l.reading.text).split('\n').filter(x => x.trim());
+    if (key(t[0]) !== key(lines[+m[1] - 1]) || key(t[t.length - 1]) !== key(lines[+m[2] - 1]))
+      F('Beowulf line numbers in the reading title do not fit the text:', l.reading.title, `${l.__file} (${l.id})`);
+  }
+} else N('Beowulf line-number check skipped: sources/beowulf-poetryfoundation-full.txt not found');
 console.log(fails.concat(notes).join('\n'));
 console.log(`content check: ${n} lectures, ${files.length} files, ${core.length} offline entries: ${fails.length ? fails.length + ' problem(s)' : 'OK'}`);
 process.exit(fails.length ? 1 : 0);

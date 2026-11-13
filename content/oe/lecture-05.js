@@ -110,7 +110,7 @@ Viator.addLecture('oe', {
             <tr><th>wē, gē, hīe</th><td class="la">ridon</td><td class="la">riden</td></tr>
           </tbody>
         </table></div>
-        <p>As in the present, the plural has one form for all persons. The indicative plural <span class="la">-on</span> and the subjunctive <span class="la">-en</span> are distinct in early texts and fall together later, which is why the manuscripts often confuse them (<span class="la">wǣrun / wǣron</span> in Lecture III).</p>
+        <p>As in the present, the plural has one form for all persons. The indicative plural <span class="la">-on</span> and the subjunctive <span class="la">-en</span> are distinct in early texts and fall together later, which is why later manuscripts often confuse them. (The <span class="la">wǣrun</span> of Lecture III is something else: an early spelling of the indicative <span class="la">wǣron</span>.)</p>
       `
     },
     {

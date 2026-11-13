@@ -13,7 +13,7 @@ Viator.addLecture('oe', {
 
   intro: `
     <p>The Danish coast-guard watches from the cliff as armed strangers carry shields off a ship. He rides down to the shore, shakes his spear and asks who they are. His speech is a small masterpiece of politeness under suspicion: nobody has ever landed here so openly; one of them is plainly no ordinary man, “unless his looks belie him”; but before they go a step further, he must know who they are.</p>
-    <p>That <span class="la">nǣfne him his wlite lēoge</span>, “unless his appearance should lie”, is a <strong>subjunctive</strong>, the mood of what is uncertain, wished, conditional or reported. German speakers have an advantage: the Old English subjunctive works much like the German <em>Konjunktiv</em>, and the past subjunctive of a strong verb is built on the same stem as German <em>Konjunktiv II</em> (<span class="la">wǣre</span>, <em>wäre</em>).</p>
+    <p>That <span class="la">næfne him his wlite lēoge</span>, “unless his appearance should lie”, is a <strong>subjunctive</strong>, the mood of what is uncertain, wished, conditional or reported. German speakers have an advantage: the Old English subjunctive works much like the German <em>Konjunktiv</em>, and the past subjunctive of a strong verb is built on the same stem as German <em>Konjunktiv II</em> (<span class="la">wǣre</span>, <em>wäre</em>).</p>
     <p>The lecture also collects the subordinating conjunctions met so far, because a subjunctive usually stands in a subordinate clause, and the conjunction tells you whether to expect one.</p>
   `,
 
@@ -43,15 +43,15 @@ Viator.addLecture('oe', {
 
   culture: `
     <p class="eyebrow">From the sources</p>
-    <p class="la big">Nǣfre ic māran geseah<br>eorla ofer eorþan, ðonne is ēower sum,<br>secg on searwum; nis þæt seldguma,<br>wǣpnum geweorðad, nǣfne him his wlite lēoge,<br>ǣnlīc ansȳn.</p>
+    <p class="la big">Nǣfre ic māran geseah<br>eorla ofer eorþan, ðonne is ēower sum,<br>secg on searwum; nis þæt seldguma,<br>wǣpnum geweorðad, næfne him his wlite lēoge,<br>ǣnlīc ansȳn.</p>
     <p>“Never have I seen a greater man on earth than is one of you, the warrior in armour; that is no mere hall-sitter, honoured with weapons, unless his looks belie him, his peerless appearance.” <em>Beowulf</em> 247–251, after Klaeber, with length marks added for this course.</p>
-    <p>The guard picks out Beowulf, still unnamed, from the fifteen. <span class="la">lēoge</span> is present subjunctive of <span class="la">lēogan</span> “lie” (German <em>lügen</em>), after <span class="la">nǣfne</span> “unless”. <span class="la">seldguma</span> occurs only here; “hall-man, house-retainer”, someone who sits at home, is the usual interpretation.</p>
+    <p>The guard picks out Beowulf, still unnamed, from the fifteen. <span class="la">lēoge</span> is present subjunctive of <span class="la">lēogan</span> “lie” (German <em>lügen</em>), after <span class="la">næfne</span> “unless”. <span class="la">seldguma</span> occurs only here; “hall-man, house-retainer”, someone who sits at home, is the usual interpretation.</p>
   `,
 
   pronunciation: `
     <p>Points in this passage:</p>
     <ul>
-      <li><strong>Scildinga</strong>: <span class="la">sc</span> = German <em>sch</em>, and <span class="la">ng</span> as in German <em>Finger</em> (with the g sounded): <em>schil-din-ga</em>.</li>
+      <li><strong>Scildinga</strong>: <span class="la">sc</span> = German <em>sch</em>, and <span class="la">ng</span> with the <em>g</em> sounded, unlike German <em>Finger</em>: <em>schil-ding-ga</em>.</li>
       <li><strong>cwehte</strong>: <span class="la">h</span> before <span class="la">t</span> = German <em>ch</em> as in <em>echt</em>.</li>
       <li><strong>wicge</strong>: <span class="la">cg</span> = English <em>dg</em> in <em>bridge</em>, German <em>dsch</em>.</li>
       <li><strong>ēower, ēowre</strong>: diphthong ēo, then w: <em>ee-o-wer</em>.</li>
@@ -98,7 +98,7 @@ Viator.addLecture('oe', {
           <thead><tr><th>Clause</th><th>Example</th><th>Subjunctive?</th></tr></thead>
           <tbody>
             <tr><td>after <span class="la">ǣr</span> “before”</td><td class="la">ǣr hē on weg hwurfe (Beo 264)</td><td>regularly</td></tr>
-            <tr><td>condition with <span class="la">nǣfne, būton</span> “unless”</td><td class="la">nǣfne him his wlite lēoge (250)</td><td>regularly</td></tr>
+            <tr><td>condition with <span class="la">næfne, būton</span> “unless”</td><td class="la">næfne him his wlite lēoge (250)</td><td>regularly</td></tr>
             <tr><td>concession with <span class="la">þēah</span> “though”</td><td class="la">þēah hē him lēof wǣre (203)</td><td>regularly</td></tr>
             <tr><td>“as if” with <span class="la">swelce</span></td><td class="la">Swelce hīe cwǣden (Alfred)</td><td>always</td></tr>
             <tr><td>purpose with <span class="la">þæt</span> “so that”</td><td class="la">þæt hē gesunde wǣre</td><td>regularly</td></tr>
@@ -124,7 +124,7 @@ Viator.addLecture('oe', {
             <tr><td class="la">syððan</td><td>after, since</td><td>seitdem, nachdem</td></tr>
             <tr><td class="la">þēah (þe)</td><td>though</td><td>obwohl (older: doch)</td></tr>
             <tr><td class="la">gif</td><td>if</td><td>wenn, falls</td></tr>
-            <tr><td class="la">nǣfne, būton</td><td>unless</td><td>wenn nicht, außer</td></tr>
+            <tr><td class="la">næfne, būton</td><td>unless</td><td>wenn nicht, außer</td></tr>
             <tr><td class="la">for þǣm (þe)</td><td>because</td><td>weil (literally “für das”)</td></tr>
             <tr><td class="la">þǣr</td><td>where</td><td>wo (older: da)</td></tr>
             <tr><td class="la">swā</td><td>as, so that</td><td>so, wie</td></tr>
@@ -154,7 +154,7 @@ Viator.addLecture('oe', {
     { id: 'aenlic', head: 'ǣnlīc', la: 'ǣnlīc', pos: 'adjective', en: 'peerless, unique; splendid', note: 'From ān “one”: “one of a kind”.' },
     { id: 'gif', head: 'gif', la: 'gif', pos: 'conjunction', en: 'if', note: 'Not related to giefan “give”; German ob is related.' },
     { id: 'theah', head: 'þēah', la: 'þēah, þēah þe', pos: 'conjunction, adverb', en: 'though, although; yet', note: 'German doch; English though. Takes the subjunctive.' },
-    { id: 'naefne', head: 'nǣfne', la: 'nǣfne, nefne', pos: 'conjunction', en: 'unless, except', note: 'Takes the subjunctive. Prose prefers būton.' }
+    { id: 'naefne', head: 'næfne', la: 'næfne, nefne', pos: 'conjunction', en: 'unless, except', note: 'Takes the subjunctive. Prose prefers būton.' }
   ],
 
   grammarCards: [
@@ -164,14 +164,14 @@ Viator.addLecture('oe', {
     { id: 'oe9-was', front: 'hē wæs / hē wǣre', back: 'indicative / subjunctive (German er war / er wäre)' },
     { id: 'oe9-main', front: 'Subjunctive in main clauses', back: 'Wishes and exhortations: Gode sīe ðonc; wesan wē blīþe' },
     { id: 'oe9-aer', front: 'ǣr “before” takes …', back: 'the subjunctive: ǣr hē on weg hwurfe' },
-    { id: 'oe9-unless', front: 'nǣfne, būton “unless” take …', back: 'the subjunctive: nǣfne him his wlite lēoge' },
+    { id: 'oe9-unless', front: 'næfne, būton “unless” take …', back: 'the subjunctive: næfne him his wlite lēoge' },
     { id: 'oe9-theah', front: 'þēah “though” takes …', back: 'the subjunctive: þēah hē him lēof wǣre' },
     { id: 'oe9-gif', front: 'gif “if”', back: 'indicative for real conditions, subjunctive for unreal or doubtful ones' },
     { id: 'oe9-reported', front: 'Reported speech and indirect questions', back: 'often subjunctive (as German er fragte, wer sie seien), but not always' },
     { id: 'oe9-tha', front: 'þā / þonne as conjunctions', back: 'when (once, past) / when(ever); þonne also “than”' },
     { id: 'oe9-forthaem', front: 'for þǣm (þe)', back: 'because (also “therefore” as an adverb)' },
     { id: 'oe9-oth', front: 'oð þæt / syððan', back: 'until / after, since' },
-    { id: 'oe9-seldguma', front: 'nis þæt seldguma … nǣfne him his wlite lēoge', back: 'that is no mere hall-sitter … unless his looks belie him (Beo 249–250)' },
+    { id: 'oe9-seldguma', front: 'nis þæt seldguma … næfne him his wlite lēoge', back: 'that is no mere hall-sitter … unless his looks belie him (Beo 249–250)' },
     { id: 'oe9-hwanan', front: 'hwanan ēowre cyme syndon', back: 'where you have come from (literally “whence your comings are”) (Beo 257)' }
   ],
 
@@ -179,13 +179,13 @@ Viator.addLecture('oe', {
     { id: 'e1', type: 'mc', prompt: '<span class="la">hē wǣre</span> is:', options: ['past subjunctive', 'past indicative', 'present subjunctive', 'imperative'], answer: 0, explain: 'Indicative hē wæs; subjunctive hē wǣre.' },
     { id: 'e2', type: 'mc', prompt: 'The past subjunctive of <span class="la">findan</span> (fand, fundon) is:', options: ['funde', 'fande', 'finde', 'fundode'], answer: 0, explain: 'Stem of the past plural.' },
     { id: 'e3', type: 'mc', prompt: 'After <span class="la">ǣr</span> “before” the verb is usually:', options: ['subjunctive', 'indicative', 'imperative', 'an infinitive'], answer: 0, explain: 'ǣr hē on weg hwurfe.' },
-    { id: 'e4', type: 'mc', prompt: '<span class="la">nǣfne</span> means:', options: ['unless', 'never', 'nor', 'nothing'], answer: 0, explain: 'nǣfne him his wlite lēoge.' },
+    { id: 'e4', type: 'mc', prompt: '<span class="la">næfne</span> means:', options: ['unless', 'never', 'nor', 'nothing'], answer: 0, explain: 'næfne him his wlite lēoge.' },
     { id: 'e5', type: 'mc', prompt: '<span class="la">Gode sīe ðonc</span> means:', options: ['Thanks be to God', 'God is thanked', 'God thanks him', 'Thank God?'], answer: 0, explain: 'Subjunctive of wish: German Gott sei Dank.' },
     { id: 'e6', type: 'mc', prompt: 'How many different subjunctive endings are there?', options: ['Two: -e and -en', 'Four', 'Six, as in Latin', 'None'], answer: 0, explain: 'Singular -e, plural -en.' },
     { id: 'e7', type: 'mc', prompt: 'What does the coast-guard demand?', options: ['To know their lineage before they go further', 'Their weapons', 'A toll', 'That they leave at once'], answer: 0, explain: 'Nū ic ēower sceal frumcyn witan.' },
     { id: 'e8', type: 'mc', prompt: 'What did the guard carry as he rode down?', options: ['A spear (mægenwudu)', 'A sword', 'A horn', 'A torch'], answer: 0, explain: 'þrymmum cwehte mægenwudu mundum.' },
     { id: 'e9', type: 'match', prompt: 'Match the conjunctions.', pairs: [
-      ['ǣr', 'before'], ['oð þæt', 'until'], ['þēah', 'though'], ['nǣfne', 'unless'], ['for þǣm þe', 'because']
+      ['ǣr', 'before'], ['oð þæt', 'until'], ['þēah', 'though'], ['næfne', 'unless'], ['for þǣm þe', 'because']
     ] },
     { id: 'e10', type: 'match', prompt: 'Match the Old English subjunctive to German.', pairs: [
       ['wǣre', 'wäre'], ['sīe', 'sei'], ['cōme', 'käme'], ['hæfde', 'hätte'], ['hwurfe', 'würbe']
@@ -220,7 +220,7 @@ Viator.addLecture('oe', {
     note: 'Authentic text: Klaeber’s edition (1922), lines 229–257. The normalised view adds length marks for this course; “Klaeber, unmarked” shows the text as transcribed online, with one punctuation slip corrected in line 248 (see CONTENT-CHECKS). Tap any word.',
     diplomaticLabel: 'Klaeber, unmarked',
     diplomaticNote: 'Klaeber’s text as transcribed online, without length marks.',
-    text: 'Ðā of wealle geseah weard Scildinga,\nsē þe holmclifu healdan scolde,\nberan ofer bolcan beorhte randas,\nfyrdsearu fūslicu; hine fyrwyt bræc\nmōdgehygdum, hwæt þā men wǣron.\nGewāt him þā tō waroðe wicge rīdan\nþegn Hrōðgāres, þrymmum cwehte\nmægenwudu mundum, meþelwordum frægn:\n“Hwæt syndon gē searohæbbendra,\nbyrnum werede, þe þus brontne cēol\nofer lagustrǣte lǣdan cwōmon,\nhider ofer holmas? Hwæt, ic hwīle wæs\nendesǣta, ǣgwearde hēold,\nþe on land Dena lāðra nǣnig\nmid scipherge sceðþan ne meahte.\nNō hēr cūðlīcor cuman ongunnon\nlindhæbbende, ne gē lēafnesword\ngūðfremmendra gearwe ne wisson,\nmāga gemēdu. Nǣfre ic māran geseah\neorla ofer eorþan, ðonne is ēower sum,\nsecg on searwum; nis þæt seldguma,\nwǣpnum geweorðad, nǣfne him his wlite lēoge,\nǣnlīc ansȳn. Nū ic ēower sceal\nfrumcyn witan, ǣr gē fyr heonan,\nlēasscēaweras, on land Dena\nfurþur fēran. Nū gē feorbūend,\nmerelīðende, mīnne gehȳrað\nānfealdne geþōht: ofost is sēlest\ntō gecȳðanne, hwanan ēowre cyme syndon.”',
+    text: 'Ðā of wealle geseah weard Scildinga,\nsē þe holmclifu healdan scolde,\nberan ofer bolcan beorhte randas,\nfyrdsearu fūslicu; hine fyrwyt bræc\nmōdgehygdum, hwæt þā men wǣron.\nGewāt him þā tō waroðe wicge rīdan\nþegn Hrōðgāres, þrymmum cwehte\nmægenwudu mundum, meþelwordum frægn:\n“Hwæt syndon gē searohæbbendra,\nbyrnum werede, þe þus brontne cēol\nofer lagustrǣte lǣdan cwōmon,\nhider ofer holmas? Hwæt, ic hwīle wæs\nendesǣta, ǣgwearde hēold,\nþe on land Dena lāðra nǣnig\nmid scipherge sceðþan ne meahte.\nNō hēr cūðlīcor cuman ongunnon\nlindhæbbende, ne gē lēafnesword\ngūðfremmendra gearwe ne wisson,\nmāga gemēdu. Nǣfre ic māran geseah\neorla ofer eorþan, ðonne is ēower sum,\nsecg on searwum; nis þæt seldguma,\nwǣpnum geweorðad, næfne him his wlite lēoge,\nǣnlīc ansȳn. Nū ic ēower sceal\nfrumcyn witan, ǣr gē fyr heonan,\nlēasscēaweras, on land Dena\nfurþur fēran. Nū gē feorbūend,\nmerelīðende, mīnne gehȳrað\nānfealdne geþōht: ofost is sēlest\ntō gecȳðanne, hwanan ēowre cyme syndon.”',
     diplomatic: 'Ða of wealle geseah weard Scildinga,\nse þe holmclifu healdan scolde,\nberan ofer bolcan beorhte randas,\nfyrdsearu fuslicu; hine fyrwyt bræc\nmodgehygdum, hwæt þa men wæron.\nGewat him þa to waroðe wicge ridan\nþegn Hroðgares, þrymmum cwehte\nmægenwudu mundum, meþelwordum frægn:\n“Hwæt syndon ge searohæbbendra,\nbyrnum werede, þe þus brontne ceol\nofer lagustræte lædan cwomon,\nhider ofer holmas? Hwæt, ic hwile wæs\nendesæta, ægwearde heold,\nþe on land Dena laðra nænig\nmid scipherge sceðþan ne meahte.\nNo her cuðlicor cuman ongunnon\nlindhæbbende, ne ge leafnesword\nguðfremmendra gearwe ne wisson,\nmaga gemedu. Næfre ic maran geseah\neorla ofer eorþan, ðonne is eower sum,\nsecg on searwum; nis þæt seldguma,\nwæpnum geweorðad, næfne him his wlite leoge,\nænlic ansyn. Nu ic eower sceal\nfrumcyn witan, ær ge fyr heonan,\nleassceaweras, on land Dena\nfurþur feran. Nu ge feorbuend,\nmereliðende, minne gehyrað\nanfealdne geþoht: ofost is selest\nto gecyðanne, hwanan eowre cyme syndon.”',
     translations: [
       { label: 'English translation', text: 'Then from the cliff the guard of the Scyldings, whose duty was to watch the sea-cliffs, saw bright shields being carried over the gangway, armour ready for use; curiosity tormented him in his thoughts, who those men were. Then Hrothgar’s thegn went riding on his horse to the shore, shook the mighty spear powerfully in his hands, and asked with formal words: “What are you, armour-bearers, protected by mail-coats, who have come leading a tall ship thus over the sea-street, here over the waters? For a long time I have been the coast-guard, kept the sea-watch, so that no enemy could do harm in the land of the Danes with a fleet. Never have shield-bearers begun to come here more openly; nor did you know for certain the password of the warriors, the consent of kinsmen. Never have I seen a greater man on earth than is one of you, the warrior in armour; that is no hall-sitter, honoured with weapons, unless his looks belie him, his peerless appearance. Now I must know your lineage, before you go further from here into the land of the Danes as false spies. Now, you far-dwellers, seafarers, hear my plain thought: haste is best, to make known where you have come from.”' },
@@ -234,7 +234,7 @@ Viator.addLecture('oe', {
       { ref: 'þe on land Dena lāðra nǣnig … sceðþan ne meahte', html: '<span class="la">þe</span> here means “so that”, a result clause. Double negative <span class="la">nǣnig … ne</span>: negatives reinforce each other, as in Bavarian <em>koana ned</em>.' },
       { ref: 'Nō hēr cūðlīcor cuman ongunnon lindhæbbende', html: 'Understatement and irony: no one ever landed “more openly”, i.e. so openly and so unannounced.' },
       { ref: 'ne gē lēafnesword … gearwe ne wisson, māga gemēdu', html: 'Variation: the password and the “consent of kinsmen” are the same thing, permission to land.' },
-      { ref: 'nis þæt seldguma … nǣfne him his wlite lēoge', html: '<span class="la">lēoge</span>: present subjunctive of <span class="la">lēogan</span> after <span class="la">nǣfne</span> “unless”. <span class="la">seldguma</span>: found only here.' },
+      { ref: 'nis þæt seldguma … næfne him his wlite lēoge', html: '<span class="la">lēoge</span>: present subjunctive of <span class="la">lēogan</span> after <span class="la">næfne</span> “unless”. <span class="la">seldguma</span>: found only here.' },
       { ref: 'ǣr gē fyr heonan … furþur fēran', html: 'After <span class="la">ǣr</span> we expect a subjunctive, and <span class="la">fēran</span> is probably just that: the plural <span class="la">fēren</span> spelt with <span class="la">-an</span>, as often in later Old English when unstressed vowels were merging. Some editors take it as an infinitive instead.' },
       { ref: 'ofost is sēlest tō gecȳðanne', html: '<span class="la">tō gecȳðanne</span>: the inflected infinitive after <span class="la">tō</span>, “to make known”, as German <em>zu verkünden</em>.' },
       { ref: 'hwanan ēowre cyme syndon', html: 'Indirect question with the indicative <span class="la">syndon</span>: the subjunctive is not obligatory.' }
@@ -252,7 +252,7 @@ Viator.addLecture('oe', {
       'lindhæbbende': 'shield-bearers (nom. pl.)', 'lāðra': 'of enemies (gen. pl.)', 'lēafnesword': 'password, word of leave (acc.)', 'lēasscēaweras': 'spies (nom. pl.; address)', 'lēoge': '(should) belie (pres. subj. of lēogan)', 'lǣdan': 'lead, bring',
       'meahte': 'could (pret. of magan)', 'men': 'men (nom. pl.)', 'merelīðende': 'seafarers (nom. pl.; address)', 'meþelwordum': 'with formal words (dat. pl.)', 'mid': 'with', 'mundum': 'with his hands (dat. pl. of mund)',
       'mægenwudu': 'mighty wood, spear (acc.)', 'māga': 'of kinsmen (gen. pl. of mǣg)', 'māran': 'greater (weak acc.)', 'mīnne': 'my (acc. m.)', 'mōdgehygdum': 'in his thoughts (dat. pl.)', 'ne': 'not; nor',
-      'nis': 'is not (ne is)', 'nō': 'not at all, never', 'nū': 'now', 'nǣfne': 'unless', 'nǣfre': 'never', 'nǣnig': 'none, no one',
+      'nis': 'is not (ne is)', 'nō': 'not at all, never', 'nū': 'now', 'næfne': 'unless', 'nǣfre': 'never', 'nǣnig': 'none, no one',
       'of': 'from', 'ofer': 'over, across', 'ofost': 'haste', 'on': 'on, in, into', 'ongunnon': 'began (pret. pl. of onginnan)', 'randas': 'shields (acc. pl. of rand)',
       'rīdan': 'ride', 'sceal': 'must (pres. of sculan)', 'sceðþan': 'harm, injure', 'scildinga': 'of the Scyldings (gen. pl.)', 'scipherge': 'with a ship-army, a fleet (dat.)', 'scolde': 'had to (pret. of sculan)',
       'searohæbbendra': 'of armour-bearers (gen. pl.)', 'searwum': 'armour, war-gear (dat. pl.); on searwum: in armour', 'secg': 'man, warrior', 'seldguma': 'hall-retainer, man who just sits in a hall (a crux)', 'sum': 'one; ēower sum: one of you', 'syndon': 'are',
@@ -281,7 +281,7 @@ Viator.addLecture('oe', {
       { id: 't5', type: 'gap', prompt: '<span class="la">Wesan wē blīþ___!</span>', hint: 'let us be glad (adj. pl.)', answers: ['e'], full: 'Wesan wē blīþe!', explain: 'Strong nom. pl. -e.' },
       { id: 't6', type: 'gap', prompt: '<span class="la">ǣr hīe cōm___</span>', hint: 'before they came (past subj. pl.)', answers: ['en'], full: 'ǣr hīe cōmen', explain: 'Plural -en.' },
       { id: 't7', type: 'translate', dir: 'oe-en', source: 'Se weard frægn hwæt hīe wǣren.', model: 'The guard asked who they were.', accepted: ['guard asked who they were', 'guard asked what they were', 'the guard asked who they were', 'the guard asked what they were', 'warden asked who they were'] },
-      { id: 't8', type: 'translate', dir: 'en-oe', source: 'unless he lies (subjunctive)', model: 'nǣfne hē lēoge', accepted: ['nǣfne hē lēoge', 'būton hē lēoge'] },
+      { id: 't8', type: 'translate', dir: 'en-oe', source: 'unless he lies (subjunctive)', model: 'næfne hē lēoge', accepted: ['næfne hē lēoge', 'būton hē lēoge'] },
       { id: 't9', type: 'mc', prompt: 'In the Hildebrandslied, <em>hwer sin fater wari</em> contains:', options: ['a subjunctive in an indirect question', 'an imperative', 'a kenning', 'a weak adjective'], answer: 0, explain: 'wari = wǣre.' },
       { id: 't10', type: 'mc', prompt: 'Who does the coast-guard serve?', options: ['Hrothgar', 'Hygelac', 'Beowulf', 'Grendel'], answer: 0, explain: 'þegn Hrōðgāres.' },
       { id: 't11', type: 'mc', prompt: '<span class="la">for þǣm þe</span> means:', options: ['because', 'before', 'until', 'unless'], answer: 0, explain: 'German weil.' }
@@ -290,7 +290,7 @@ Viator.addLecture('oe', {
 
   reference: [
     { title: 'Subjunctive forms', headers: ['Verb', 'Pres. sg./pl.', 'Past sg./pl.'], rows: [['wesan', 'sīe / sīen', 'wǣre / wǣren'], ['habban', 'hæbbe / hæbben', 'hæfde / hæfden'], ['lufian', 'lufie / lufien', 'lufode / lufoden'], ['cuman', 'cume / cumen', 'cōme / cōmen'], ['findan', 'finde / finden', 'funde / funden']] },
-    { title: 'Clauses with the subjunctive', headers: ['Conjunction', 'Meaning', 'Mood'], rows: [['ǣr (þǣm þe)', 'before', 'subjunctive'], ['nǣfne, būton', 'unless', 'subjunctive'], ['þēah (þe)', 'though', 'subjunctive'], ['swelce', 'as if', 'subjunctive'], ['þæt', 'so that', 'subjunctive'], ['gif', 'if', 'indic. (real) / subj. (unreal)'], ['reported speech', '', 'often subjunctive']] },
+    { title: 'Clauses with the subjunctive', headers: ['Conjunction', 'Meaning', 'Mood'], rows: [['ǣr (þǣm þe)', 'before', 'subjunctive'], ['næfne, būton', 'unless', 'subjunctive'], ['þēah (þe)', 'though', 'subjunctive'], ['swelce', 'as if', 'subjunctive'], ['þæt', 'so that', 'subjunctive'], ['gif', 'if', 'indic. (real) / subj. (unreal)'], ['reported speech', '', 'often subjunctive']] },
     { title: 'Conjunctions', headers: ['Old English', 'English', 'German'], rows: [['þā', 'when', 'als'], ['þonne', 'whenever; than', 'wenn; als'], ['oð þæt', 'until', 'bis'], ['syððan', 'after, since', 'nachdem, seit'], ['for þǣm (þe)', 'because', 'weil'], ['þǣr', 'where', 'wo']] }
   ]
 });

@@ -29,7 +29,7 @@ Viator.addPage(['oe'], {
     { year: '1066', tag: 'hist', title: 'The Norman Conquest', text: 'William of Normandy defeats Harold at Hastings. English gives way to Latin and French in government; the transition to Middle English is conventionally dated to around 1100–1150.' },
     { year: '1154', tag: 'lang', title: 'The last Chronicle entry', text: 'The Peterborough Chronicle continues in English until 1154, its language already changing towards Middle English.' },
     { year: '1731', tag: 'lang', title: 'The Cotton fire', text: 'A fire at Ashburnham House in Westminster damages Sir Robert Cotton’s library. The Beowulf manuscript is scorched; the only manuscript of The Battle of Maldon is destroyed.' },
-    { year: '1787', tag: 'lang', title: 'Thorkelin’s transcripts', text: 'The Icelandic scholar Grímur Jónsson Thorkelin has two copies of Beowulf made; they preserve letters later lost as the burnt edges crumbled. His edition appeared in 1815.' },
+    { year: '1787', tag: 'lang', title: 'Thorkelin’s transcripts', text: 'The Icelandic scholar Grímur Jónsson Thorkelin has a copyist transcribe Beowulf and makes a second copy himself; they preserve letters later lost as the burnt edges crumbled. His edition appeared in 1815.' },
     { year: '1922', tag: 'lang', title: 'Klaeber’s Beowulf', text: 'Frederick Klaeber’s edition, the standard scholarly edition for most of the 20th century (fourth edition 2008).' }
   ]
 });

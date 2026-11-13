@@ -14,7 +14,7 @@ Viator.addLecture('oe', {
   intro: `
     <p>Fifty years after the fight with Grendel’s mother, Beowulf is an old king of the Geats. A thief steals a cup from a dragon’s hoard; the dragon burns the land; the king goes out to fight it with eleven companions, and all but one, Wiglaf, run away. Beowulf kills the dragon and dies of its venom. The Geats burn him on a great pyre, and then build a mound on the headland, visible to sailors far out at sea.</p>
     <p>The reading is the last twenty-seven lines of the poem: the building of the barrow, the burial of the dragon’s treasure, and twelve riders circling the mound and praising their dead king. Its last word, <span class="la">lofgeornost</span> “most eager for fame”, is one of the most discussed in Old English.</p>
-    <p>For the first time we read from a scan of a printed edition rather than a transcription. Klaeber prints length marks, so both views keep his macrons. The page in the manuscript is badly damaged, and Klaeber marks his restorations with brackets; grammar section 4 explains how to read them.</p>
+    <p>For the first time in Beowulf we read from page images of Klaeber’s printed edition rather than from an online transcription, as we already did with Sweet’s Reader in Lectures III and VII. Klaeber prints length marks, so both views keep his macrons. The page in the manuscript is badly damaged, and Klaeber marks his restorations with brackets; grammar section 4 explains how to read them.</p>
   `,
 
   background: [
@@ -46,16 +46,16 @@ Viator.addLecture('oe', {
     <p class="eyebrow">From the sources</p>
     <p class="la big">Him ðā gegiredan Gēata lēode<br>ād on eorðan unwāclīcne,<br>helm[um] behongen, hildebordum,<br>beorhtum byrnum, swā hē bēna wæs</p>
     <p>“Then the people of the Geats made ready for him a pyre on the earth, no mean one, hung with helmets, with battle-shields, with bright mail-coats, as he had asked.” <em>Beowulf</em> 3137–3140, Klaeber (1922), p. 118, as printed.</p>
-    <p><span class="la">helm[um]</span>: the manuscript reads <span class="la">helm</span>; Klaeber adds the dative plural ending to match <span class="la">hildebordum</span> and <span class="la">byrnum</span>. <span class="la">gegiredan</span> is <span class="la">gegyrwan</span> “prepare” (Lecture VIII). <span class="la">unwāclīcne</span> is understatement: “not weak”, i.e. magnificent.</p>
+    <p><span class="la">helm[um]</span>: the manuscript reads <span class="la">helm</span>; Klaeber prints the dative plural ending proposed by Grein, to match <span class="la">hildebordum</span> and <span class="la">byrnum</span>. <span class="la">gegiredan</span> is <span class="la">gegyrwan</span> “prepare” (Lecture VIII). <span class="la">unwāclīcne</span> is understatement: “not weak”, i.e. magnificent.</p>
   `,
 
   pronunciation: `
     <p>Points in this passage:</p>
     <ul>
       <li><strong>kyning</strong>: the scribe writes k for c here, which shows the sound: German <em>k</em> before a front vowel (<em>kü-ning</em>), not tsch.</li>
-      <li><strong>wyruldcyninga</strong>: an extra vowel between r and l, perhaps a late or dialect spelling of <span class="la">woruld</span>.</li>
+      <li><strong>wyruldcyninga</strong>: <span class="la">y</span> for the usual <span class="la">o</span> of <span class="la">woruld</span>, perhaps a late or dialect spelling.</li>
       <li><strong>heorðgenēatas</strong>: <span class="la">rð</span> as English <em>rth</em> in <em>hearth</em>, then a long ē.</li>
-      <li><strong>līchaman</strong>: <span class="la">ch</span> here is just c + h at the joint of a compound (<span class="la">līc-hama</span>), as in German <em>Leich-nam</em>, not the German ch.</li>
+      <li><strong>līchaman</strong>: <span class="la">ch</span> here is not the German ch but c + h at the joint of a compound (<span class="la">līc-hama</span>, “body-covering”), each sounded separately. German <em>Leichnam</em> is the same word.</li>
       <li><strong>riodan</strong>: an unusual spelling of <span class="la">ridon</span>, the past plural of <span class="la">rīdan</span>; short i, then o.</li>
     </ul>
   `,
@@ -70,9 +70,9 @@ Viator.addLecture('oe', {
           <tbody>
             <tr><td class="la">be-</td><td>around; makes a verb transitive</td><td class="la">bewyrcan “surround”, betimbran “build”, begnornian “mourn for”</td><td>be- (bewirken, bezimmern, beweinen)</td></tr>
             <tr><td class="la">for-</td><td>away, wrongly, utterly</td><td class="la">forlǣtan “abandon”, forbærnan “burn up”</td><td>ver- (verlassen, verbrennen)</td></tr>
-            <tr><td class="la">ge-</td><td>completion; or no clear sense</td><td class="la">gewyrcan “make”, geseon “see”</td><td>ge- (past participle)</td></tr>
+            <tr><td class="la">ge-</td><td>completion; or no clear sense</td><td class="la">gewyrcan “make”, gesēon “see”</td><td>ge- (past participle)</td></tr>
             <tr><td class="la">ā-</td><td>out, up, away</td><td class="la">āstīgan “rise”, āwrītan “write down”</td><td>er- (ersteigen), auf-</td></tr>
-            <tr><td class="la">on-</td><td>beginning; reversal</td><td class="la">onginnan “begin”, onlūcan “unlock”</td><td>an-, ent- (entschließen)</td></tr>
+            <tr><td class="la">on-</td><td>beginning; reversal</td><td class="la">onginnan “begin”, onlūcan “unlock”</td><td>an-, ent- (entladen, entfesseln)</td></tr>
             <tr><td class="la">of-</td><td>completely, to death</td><td class="la">ofslēan “kill”</td><td>(cf. ab-)</td></tr>
             <tr><td class="la">tō-</td><td>apart</td><td class="la">tōbrecan “break apart”</td><td>zer- (zerbrechen)</td></tr>
           </tbody>
@@ -110,12 +110,13 @@ Viator.addLecture('oe', {
     {
       title: '4. Reading an edited text: Klaeber’s brackets',
       html: `
-        <p>The last pages of the Beowulf manuscript were damaged in the Cotton library fire of 1731, and the edges have crumbled since. Klaeber uses two kinds of brackets:</p>
+        <p>The last pages of the Beowulf manuscript were damaged in the Cotton library fire of 1731, and the edges have crumbled since. Klaeber uses two kinds of brackets, and italics:</p>
         <ul>
           <li><strong>Round brackets ( )</strong>: letters that are now lost or illegible in the manuscript, supplied from the two transcripts made for and by the Icelandic-Danish scholar Thorkelin around 1787 (Lecture XII) or by conjecture: <span class="la">hl(ǣw)</span>, <span class="la">(hry)re</span>, <span class="la">mon(ðw)ǣrust</span>.</li>
-          <li><strong>Square brackets [ ]</strong>: the editor’s additions or corrections where he thinks the scribe went wrong: <span class="la">[h]liðe</span> (MS <span class="la">liðe</span>), <span class="la">wyruldcyning[a]</span> (MS <span class="la">wyruldcyning</span>), <span class="la">[ond]</span>.</li>
+          <li><strong>Square brackets [ ]</strong>: editorial additions or corrections where an editor thinks the scribe went wrong (Klaeber’s footnotes say whose they are): <span class="la">[h]liðe</span> (MS <span class="la">liðe</span>), <span class="la">wyruldcyning[a]</span> (MS <span class="la">wyruldcyning</span>), <span class="la">[ond]</span>.</li>
+          <li><strong>Italics</strong>: letters changed from what the manuscript has, such as the final <span class="la">e</span> of <span class="la">twelfe</span> (3170, MS <span class="la">twelfa</span>). The app cannot show italics, so these letters look like the rest; the footnotes give the manuscript reading.</li>
         </ul>
-        <p>Every bracket is a decision, and editions differ. In the lament of 3150–3155 almost every word is restored; Klaeber notes that “all that is legible in this page” has been freshened up by a later hand. In our “as printed” view, where one of Klaeber’s round brackets runs across two words (<span class="la">hi(t ǣro)r</span>), we close and reopen it at the word boundary so that each word can be tapped.</p>
+        <p>Every bracket is a decision, and editions differ. In the lament of 3150–3155 almost every word is restored; Klaeber quotes Zupitza’s description of the manuscript page: “Almost all that is legible in this page freshened up in a late hand”. In our “as printed” view, where one of Klaeber’s round brackets runs across two words (<span class="la">hi(t ǣro)r</span>), we close and reopen it at the word boundary so that each word can be tapped.</p>
       `
     }
   ],
@@ -124,7 +125,7 @@ Viator.addLecture('oe', {
     { id: 'hlaew', head: 'hlǣw', la: 'hlǣw, hlǣwes', g: 'm', pos: 'noun, strong', en: 'mound, barrow, grave-mound', note: 'In place-names: -low (Ludlow), Low (Scotland).' },
     { id: 'beorg', head: 'beorg', la: 'beorg, beorges', g: 'm', pos: 'noun, strong', en: 'hill, mountain; barrow', note: 'German Berg; English barrow, -borough in some names.' },
     { id: 'gestreon', head: 'gestrēon', la: 'gestrēon, gestrēones', g: 'n', pos: 'noun, strong', en: 'treasure, wealth', note: 'Related to strēonan “acquire, beget”.' },
-    { id: 'laf', head: 'lāf', la: 'lāf, lāfe', g: 'f', pos: 'noun, strong', en: 'what is left, remains; heirloom', note: 'From lǣfan (Lecture VII); German bleiben. English loaf is a different word.' },
+    { id: 'laf', head: 'lāf', la: 'lāf, lāfe', g: 'f', pos: 'noun, strong', en: 'what is left, remains; heirloom', note: 'lǣfan “leave” (Lecture VII) is made from it; German bleiben is related. English loaf is a different word.' },
     { id: 'ad', head: 'ād', la: 'ād, ādes', g: 'm', pos: 'noun, strong', en: 'funeral pyre', note: 'Probably related to Latin aestus “heat”.' },
     { id: 'bael', head: 'bǣl', la: 'bǣl, bǣles', g: 'n', pos: 'noun, strong', en: 'fire, funeral pyre', note: 'Old Norse bál; bǣlfȳr “pyre-fire”.' },
     { id: 'rec', head: 'rēc', la: 'rēc, rēces', g: 'm', pos: 'noun, strong', en: 'smoke', note: 'German Rauch; English reek, Auld Reekie.' },
@@ -202,7 +203,7 @@ Viator.addLecture('oe', {
     title: 'Beowulf 3156–3182',
     note: 'Authentic text: Klaeber’s edition (1922), lines 3156–3182, transcribed from the page images of pp. 119–120. Klaeber prints the length marks himself. “Klaeber, as printed” keeps his round brackets (letters lost in the manuscript and supplied) and square brackets (editorial additions); the normalised view drops the brackets. Tap any word.',
     diplomaticLabel: 'Klaeber, as printed',
-    diplomaticNote: 'Klaeber (1922), pp. 119–120, with his brackets: ( ) letters lost or illegible in the manuscript, [ ] editorial additions. Where his round bracket spans two words (hi(t ǣro)r) we close it at the word boundary.',
+    diplomaticNote: 'Klaeber (1922), pp. 119–120, with his brackets: ( ) letters lost or illegible in the manuscript, [ ] editorial additions. Where his round bracket spans two words (hi(t ǣro)r) we close it at the word boundary. Klaeber also prints in italics letters he changed from the manuscript (twelfe in 3170, where the manuscript has twelfa); the app cannot show italics.',
     text: 'Geworhton ðā Wedra lēode\nhlǣw on hliðe, sē wæs hēah ond brād,\nwǣglīðendum wīde gesȳne,\nond betimbredon on tȳn dagum\nbeadurōfes bēcn, bronda lāfe\nwealle beworhton, swā hyt weorðlīcost\nforesnotre men findan mihton.\nHī on beorg dydon bēg ond siglu,\neall swylce hyrsta, swylce on horde ǣr\nnīðhēdige men genumen hæfdon;\nforlēton eorla gestrēon eorðan healdan,\ngold on grēote, þǣr hit nū gēn lifað\neldum swā unnyt, swā hit ǣror wæs.\nÞā ymbe hlǣw riodan hildedēore,\næþelinga bearn, ealra twelfe,\nwoldon care cwīðan, ond kyning mǣnan,\nwordgyd wrecan, ond ymb wer sprecan;\neahtodan eorlscipe ond his ellenweorc\nduguðum dēmdon, — swā hit gedēfe bið,\nþæt mon his winedryhten wordum herge,\nferhðum frēoge, þonne hē forð scile\nof līchaman lǣded weorðan.\nSwā begnornodon Gēata lēode\nhlāfordes hryre, heorðgenēatas;\ncwǣdon þæt hē wǣre wyruldcyninga\nmanna mildust ond monðwǣrust,\nlēodum līðost ond lofgeornost.',
     diplomatic: 'Geworhton ðā Wedra lēode\nhl(ǣw) on [h]liðe, sē wæs hēah ond brād,\n(wǣ)glīðendum wīde g(e)sȳne,\nond betimbredon on tȳn dagum\nbeadurōfes bēcn, bronda lāfe\nwealle beworhton, swā hyt weorðlīcost\nforesnotre men findan mihton.\nHī on beorg dydon bēg ond siglu,\neall swylce hyrsta, swylce on horde ǣr\nnīðhēdige men genumen hæfdon;\nforlēton eorla gestrēon eorðan healdan,\ngold on grēote, þǣr hit nū gēn lifað\neldum swā unnyt, swā hi(t) (ǣro)r wæs.\nÞā ymbe hlǣw riodan hildedēore,\næþelinga bearn, ealra twelfe,\nwoldon (care) cwīðan, [ond] kyning mǣnan,\nwordgyd wrecan, ond ymb w(er) sprecan;\neahtodan eorlscipe ond his ellenweorc\nduguðum dēmdon, — swā hit gedē(fe) bið,\nþæt mon his winedryhten wordum herge,\nferhðum frēoge, þonne hē forð scile\nof līchaman (lǣded) weorðan.\nSwā begnornodon Gēata lēode\nhlāfordes (hry)re, heorðgenēatas;\ncwǣdon þæt hē wǣre wyruldcyning[a]\nmanna mildust ond mon(ðw)ǣrust,\nlēodum līðost ond lofgeornost.',
     translations: [
@@ -216,10 +217,10 @@ Viator.addLecture('oe', {
       { ref: 'swylce on horde ǣr nīðhēdige men genumen hæfdon', html: 'The treasure was taken from the dragon’s hoard by Beowulf and Wiglaf. <span class="la">nīðhēdige</span> is a crux: “hostile-minded” or “bold in battle”; the meaning depends on whose men are meant.' },
       { ref: 'forlēton eorla gestrēon eorðan healdan', html: '<span class="la">forlǣtan</span> + infinitive: “let the earth hold”, German <em>ließen die Erde … halten</em>. <span class="la">eorðan</span> is the subject of the infinitive.' },
       { ref: 'eldum swā unnyt, swā hi(t) (ǣro)r wæs', html: '<span class="la">swā … swā</span> “as … as”. The treasure returns to the state it was in when the dragon guarded it: the poem’s comment on wealth.' },
-      { ref: 'woldon (care) cwīðan, [ond] kyning mǣnan', html: 'Four infinitives after <span class="la">woldon</span>: <span class="la">cwīðan, mǣnan, wrecan, sprecan</span>. <span class="la">[ond]</span> is added by Klaeber for the sense and metre.' },
+      { ref: 'woldon (care) cwīðan, [ond] kyning mǣnan', html: 'Four infinitives after <span class="la">woldon</span>: <span class="la">cwīðan, mǣnan, wrecan, sprecan</span>. <span class="la">[ond]</span> is an addition for the sense and metre, proposed by Sievers and adopted by Klaeber.' },
       { ref: 'swā hit gedē(fe) bið, þæt mon his winedryhten wordum herge', html: 'A general statement: <span class="la">bið</span> (not <span class="la">is</span>) for what is always true; <span class="la">herge, frēoge</span> are subjunctive in a clause of what ought to be.' },
       { ref: 'þonne hē forð scile of līchaman (lǣded) weorðan', html: 'Passive with <span class="la">weorðan</span>, as German <em>geführt werden</em>. <span class="la">lǣded</span> without <span class="la">ge-</span>.' },
-      { ref: 'cwǣdon þæt hē wǣre wyruldcyning[a] manna mildust', html: 'Reported speech with the subjunctive <span class="la">wǣre</span> (Lecture IX). Klaeber adds <span class="la">-a</span>: genitive plural “of kings of the world”; the manuscript has <span class="la">wyruldcyning</span>.' },
+      { ref: 'cwǣdon þæt hē wǣre wyruldcyning[a] manna mildust', html: 'Reported speech with the subjunctive <span class="la">wǣre</span> (Lecture IX). Klaeber prints <span class="la">-a</span>, an addition going back to Kemble: genitive plural “of kings of the world”; the manuscript has <span class="la">wyruldcyning</span>.' },
       { ref: 'lēodum līðost ond lofgeornost', html: 'The last half-line of the poem. See the background section on the debate.' }
     ],
     glosses: {
