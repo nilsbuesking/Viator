@@ -104,7 +104,7 @@ Viator.addLecture('me', {
       title: '3. Weak verbs: the past in -ed, -de, -te',
       html: `
         <ul>
-          <li><span class="la">-ed(e)</span>: <span class="la">loved, honoured, reysed, wered</span> (from OE class 2 <span class="la">-ode</span>).</li>
+          <li><span class="la">-ed(e)</span>: <span class="la">loved, honoured, reysed, wered</span> (from OE <span class="la">-ode</span>, <span class="la">-ede</span>: <span class="la">lufode</span>, <span class="la">werede</span>).</li>
           <li><span class="la">-de, -te</span>: <span class="la">sayde, hadde, wente</span> (from OE class 1).</li>
           <li>With a vowel change, as German <em>dachte, brachte</em>: <span class="la">thoughte, broughte, soughte, taughte</span>.</li>
         </ul>

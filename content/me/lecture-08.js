@@ -51,7 +51,7 @@ Viator.addLecture('me', {
     <p>Points in this passage:</p>
     <ul>
       <li><strong>Experience, auctoritee</strong>: French words with French stress on the last syllable in verse: <em>ex-pe-ri-ENS, auc-to-ri-TEE</em>.</li>
-      <li><strong>mariage</strong>: three syllables, <em>ma-ri-AA-dʒə</em>, rhyming with <span class="la">age</span>.</li>
+      <li><strong>mariage</strong>: three syllables plus the final <em>-e</em> at the line end, <em>ma-ri-AA-dʒə</em>, rhyming with <span class="la">age</span>.</li>
       <li><strong>diffinicioun, mencioun</strong>: <span class="la">-cioun</span> is two syllables, <em>-si-UUN</em>.</li>
       <li><strong>noght</strong>: gh = German ch: <em>nocht</em>.</li>
       <li><strong>bigamye, octogamye</strong>: <em>bi-ga-MII-ə</em>, rhyming with <span class="la">multiplye</span>.</li>
@@ -99,7 +99,7 @@ Viator.addLecture('me', {
       title: '4. Learned words and glossing',
       html: `
         <p>The Wife borrows the vocabulary of the schools: <span class="la">auctoritee, experience, diffinicioun, expres, mencioun, bigamye, octogamye</span>, all Latin by way of French, recognisable by endings in <span class="la">-cioun, -itee, -ence, -ye</span> (modern <em>-tion, -ity, -ence, -y</em>).</p>
-        <p>The key word is <span class="la">glosen</span>: to write a gloss, an explanation, in the margin of a text. Glosses on the Bible were the chief tool of medieval learning; but because interpreters could make a text mean almost anything, <span class="la">glosen</span> also meant “to twist, to flatter, to deceive”. When the Wife says <span class="la">Men may devyne and glosen up and doun</span>, she uses both senses: the clerks can interpret as they like, but the plain text says something else. Later she accuses friars of glossing Scripture to suit themselves.</p>
+        <p>The key word is <span class="la">glosen</span>: to write a gloss, an explanation, in the margin of a text. Glosses on the Bible were the chief tool of medieval learning; but because interpreters could make a text mean almost anything, <span class="la">glosen</span> also meant “to twist, to flatter, to deceive”. When the Wife says <span class="la">Men may devyne and glosen up and doun</span>, she uses both senses: the clerks can interpret as they like, but the plain text says something else. Later in the Tales Chaucer gives the word to a friar, in the Summoner’s Tale: <span class="la">Glosinge is a glorious thing, certeyn</span> (D 1793).</p>
       `
     }
   ],

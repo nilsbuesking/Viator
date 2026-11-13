@@ -27,6 +27,6 @@ Viator.addPage(['me'], {
     { year: '1422–1509', tag: 'lang', title: 'The Paston letters', text: 'The correspondence of a Norfolk gentry family, over a thousand letters on land, law, marriage and the Wars of the Roses.' },
     { year: '1476', tag: 'lang', title: 'Caxton’s press', text: 'William Caxton sets up the first printing press in England, at Westminster. Printing fixes many spellings just as pronunciation is changing.' },
     { year: '1485', tag: 'lit', title: 'Le Morte Darthur', text: 'Caxton prints Sir Thomas Malory’s Arthurian prose romance; a manuscript version found at Winchester in 1934 differs from his edition.' },
-    { year: 'c. 1400–1700', tag: 'lang', title: 'The Great Vowel Shift', text: 'The long vowels of English rise and diphthongise: Chaucer’s “hoos” becomes “house”, “meete” becomes “meet”. The change is the main reason English spelling no longer matches English sounds.' }
+    { year: 'c. 1400–1700', tag: 'lang', title: 'The Great Vowel Shift', text: 'The long vowels of English rise and diphthongise: Chaucer’s hous (“huus”) becomes house, mete (“meetə”) becomes meet. The change is the main reason English spelling no longer matches English sounds.' }
   ]
 });

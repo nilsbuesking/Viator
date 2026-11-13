@@ -110,7 +110,7 @@ Viator.addLecture('me', {
           <li><strong>Wishes</strong> with the present subjunctive (Lecture VI): <span class="la">god yow see</span> “God protect you”, <span class="la">god be with yow</span>, <span class="la">God save yow</span>.</li>
           <li><strong>lat + infinitive</strong> for “let us”: <span class="la">Lat ech of us holde up his hond</span>, German <em>lasst uns</em>.</li>
         </ul>
-        <p>The plural imperative in <span class="la">-eth</span> is the same ending as German <em>-t</em> in <em>hört! seid bereit!</em>, both from the old plural <span class="la">-aþ</span>.</p>
+        <p>The plural imperative in <span class="la">-eth</span> works like German <em>-t</em> in <em>hört! seid bereit!</em>: in both languages the plural imperative has the ending of the present plural, Old English <span class="la">-aþ</span>, German the old second person plural <em>-t</em>.</p>
       `
     }
   ],

@@ -21,7 +21,7 @@ Viator.addLecture('me', {
     {
       title: 'Hengwrt and Ellesmere',
       html: `
-        <p>The <em>Canterbury Tales</em> survive in more than eighty manuscripts, complete or in part, all written after Chaucer’s death in 1400. The two most important were copied by the same scribe in the first decade of the fifteenth century, as A. I. Doyle and M. B. Parkes showed in 1978:</p>
+        <p>The <em>Canterbury Tales</em> survive in more than eighty manuscripts, complete or in part, all or almost all written after Chaucer’s death in 1400 (Hengwrt may have been begun in his lifetime). The two most important were copied by the same scribe in the first decade of the fifteenth century, as A. I. Doyle and M. B. Parkes showed in 1978:</p>
         <ul>
           <li>The <strong>Hengwrt</strong> manuscript (National Library of Wales, Peniarth 392 D) is a plain working copy, probably the earlier of the two. The tales are in a less settled order, the Canon’s Yeoman’s Tale is missing, and rats have gnawed some leaves.</li>
           <li>The <strong>Ellesmere</strong> manuscript (Huntington Library, EL 26 C 9) is a luxury book with gold borders and pictures of the pilgrims, including the portrait of Chaucer on horseback, and the tales in the order most editors follow. Skeat based his text on it.</li>

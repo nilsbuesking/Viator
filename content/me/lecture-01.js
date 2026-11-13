@@ -23,7 +23,7 @@ Viator.addLecture('me', {
       title: 'Geoffrey Chaucer',
       html: `
         <p>Chaucer was born in London in the early 1340s (the exact year is unknown), the son of a wine merchant. He served as a page in a noble household, was captured on campaign in France in 1359–60 and ransomed with help from the king, and spent his life in royal service: diplomat on missions to Italy and France, Controller of Customs for wool in the port of London (1374–86), Clerk of the King’s Works. He died in 1400 and was buried in Westminster Abbey, where his tomb later became the nucleus of Poets’ Corner.</p>
-        <p>He wrote in English when the court still spoke a good deal of French, and his journeys to Italy brought him to Dante, Petrarch and Boccaccio; the <em>Decameron</em>, another frame of tales, is a likely though unproven model. His language is the English of London, with features from the East Midlands and the South-East; that this London English later became the basis of standard English is due to London’s importance, not to Chaucer, although later writers called him the father of English poetry.</p>
+        <p>He wrote in English when the court still spoke a good deal of French, and his journeys to Italy brought him to the works of Dante, Petrarch and Boccaccio; the <em>Decameron</em>, another frame of tales, is a likely though unproven model. His language is the English of London, with features from the East Midlands and the South-East; that this London English later became the basis of standard English is due to London’s importance, not to Chaucer, although later writers called him the father of English poetry.</p>
         <figure class="fig"><img class="fig-img" loading="lazy" decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Chaucer_ellesmere.jpg/960px-Chaucer_ellesmere.jpg" data-fallbacks="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Chaucer_ellesmere.jpg/500px-Chaucer_ellesmere.jpg|https://upload.wikimedia.org/wikipedia/commons/0/0d/Chaucer_ellesmere.jpg" alt="Medieval miniature of a man on horseback in a grey gown, with a pen case hanging from his neck"><figcaption>Chaucer as one of the pilgrims, from the Ellesmere manuscript of the <em>Canterbury Tales</em> (Huntington Library, San Marino, EL 26 C 9), early 15th century. Whether the portrait records his real appearance is unknown. <span class="credit">Manuscript image, public domain · <a href="https://commons.wikimedia.org/wiki/File:Chaucer_ellesmere.jpg" target="_blank" rel="noopener">Wikimedia Commons</a></span></figcaption></figure>
       `
     },
@@ -47,7 +47,7 @@ Viator.addLecture('me', {
     <p class="eyebrow">From the sources</p>
     <p class="la big">Than longen folk to goon on pilgrimages,<br>And palmers for to seken straunge strondes,<br>To ferne halwes, couthe in sondry londes</p>
     <p>“Then people long to go on pilgrimages, and palmers to seek foreign shores, to distant shrines, known in various lands.” General Prologue 12–14, Skeat’s text (1894).</p>
-    <p>Every word but three (<span class="la">pilgrimages, palmers, straunge</span>) comes from Old English, and four have German cousins: <span class="la">longen</span> <em>verlangen</em>, <span class="la">folk</span> <em>Volk</em>, <span class="la">strondes</span> <em>Strand</em>, <span class="la">ferne</span> <em>fern</em>. <span class="la">halwes</span> is Old English <span class="la">hālgan</span> “saints” (German <em>Heilige</em>), still in <em>All Hallows</em> and <em>Halloween</em>.</p>
+    <p>Every word but three (<span class="la">pilgrimages, palmers, straunge</span>) comes from Old English, and most have German cousins, among them <span class="la">longen</span> <em>verlangen</em>, <span class="la">folk</span> <em>Volk</em>, <span class="la">strondes</span> <em>Strand</em>, <span class="la">ferne</span> <em>fern</em>. <span class="la">halwes</span> is Old English <span class="la">hālgan</span> “saints” (German <em>Heilige</em>), still in <em>All Hallows</em> and <em>Halloween</em>.</p>
   `,
 
   pronunciation: `
@@ -118,7 +118,7 @@ Viator.addLecture('me', {
       html: `
         <p>The opening is one sentence: two long subordinate clauses with <span class="la">Whan</span> (“when”), then the main clause with <span class="la">Than</span> (“then”), as in German <em>Wenn … dann</em>:</p>
         <ul>
-          <li><span class="la">Whan that Aprille … hath perced</span> (1–4): <span class="la">that</span> after a conjunction adds nothing (<span class="la">whan that</span> = “when”); compare older German <em>als dass</em>-type doublings.</li>
+          <li><span class="la">Whan that Aprille … hath perced</span> (1–4): <span class="la">that</span> after a conjunction adds nothing (<span class="la">whan that</span> = “when”); compare southern German dialect <em>wenn dass</em>, <em>ob dass</em>.</li>
           <li><span class="la">Whan Zephirus eek … inspired hath … and the yonge sonne hath … y-ronne, and smale fowles maken melodye</span> (5–11): four subjects, one of them with a parenthesis.</li>
           <li><span class="la">Than longen folk to goon on pilgrimages … and specially … to Caunterbury they wende</span> (12–18): main clause, verb second after <span class="la">Than</span>, as in German <em>Dann sehnen sich die Leute …</em>.</li>
         </ul>

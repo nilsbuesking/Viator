@@ -20,7 +20,7 @@ Viator.addLecture('me', {
       title: 'A cloth-maker from Bath',
       html: `
         <p>The West Country around Bath was a centre of English cloth production in the 14th century, part of England’s shift from exporting raw wool to Flanders to weaving it at home. To say she surpassed the weavers of Ypres and Ghent, the great Flemish cloth towns, is either high praise or comic exaggeration; the poem leaves it open. Her scarlet stockings were the most expensive cloth of the time, and her ten-pound kerchiefs are a joke about Sunday finery.</p>
-        <p>Medieval weddings took place at the church door (<span class="la">at chirche-dore</span>), followed by Mass inside: five such weddings made her respectable, a <span class="la">worthy womman</span>. Her own Prologue, the longest in the <em>Tales</em>, tells the story of the five marriages and explains her deafness: her fifth husband, Jankin, struck her on the ear when she tore a page from his book of stories about wicked wives.</p>
+        <p>Medieval weddings took place at the church door (<span class="la">at chirche-dore</span>), followed by Mass inside: five such weddings made her respectable, a <span class="la">worthy womman</span>. Her own Prologue, the longest in the <em>Tales</em>, tells the story of the five marriages and explains her deafness: her fifth husband, Jankin, struck her on the ear when she tore three leaves out of his book of stories about wicked wives.</p>
         <figure class="fig"><img class="fig-img" loading="lazy" decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wife-of-Bath-ms.jpg/960px-Wife-of-Bath-ms.jpg" data-fallbacks="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wife-of-Bath-ms.jpg/500px-Wife-of-Bath-ms.jpg|https://upload.wikimedia.org/wikipedia/commons/8/80/Wife-of-Bath-ms.jpg" alt="Medieval miniature of a woman riding astride, with a broad hat, spurs and a whip"><figcaption>The Wife of Bath, from the Ellesmere manuscript of the <em>Canterbury Tales</em> (Huntington Library, EL 26 C 9), early 15th century: astride, with a broad hat and spurs, as in the portrait. <span class="credit">Manuscript image, public domain · <a href="https://commons.wikimedia.org/wiki/File:Wife-of-Bath-ms.jpg" target="_blank" rel="noopener">Wikimedia Commons</a></span></figcaption></figure>
       `
     },
@@ -80,11 +80,11 @@ Viator.addLecture('me', {
       html: `
         <p>Norse and English are closely related, so loans are hard to spot. The sound changes that distinguish them help:</p>
         <ul>
-          <li><strong>sk</strong> where English has <strong>sh</strong>: <span class="la">skye</span> (Norse) beside <span class="la">shade</span>; <em>skirt</em> (Norse) beside <em>shirt</em> (English): one word, two forms.</li>
+          <li><strong>sk</strong> where English has <strong>sh</strong>: <span class="la">skye</span> is Norse, since a native word would begin with <em>sh</em>; <em>skirt</em> (Norse) beside <em>shirt</em> (English): one word, two forms.</li>
           <li><strong>k, g</strong> before front vowels, where English has <strong>ch, y</strong>: Norse <em>kirk</em> beside English <span class="la">chirche</span>; <span class="la">yeven</span> “give” (English) replaced by Norse <em>give</em>; <span class="la">ey</span> “egg” replaced by Norse <em>egg</em>.</li>
           <li><strong>ai/ei</strong> where English has <strong>ō</strong> (from <span class="la">ā</span>): Norse <em>nay</em> beside English <em>no</em>.</li>
         </ul>
-        <p>Here German does not help: it has k in <em>Kirche</em> and g in <em>geben</em>, like the Norse forms, because the change of k and g to ch and y before front vowels happened only in English. Words like <span class="la">housbonde</span> are Norse in form and sense, though their parts exist in English too.</p>
+        <p>Here German does not help: it has k in <em>Kirche</em> and g in <em>geben</em>, like the Norse forms, because the change of k and g to ch and y before front vowels happened in English (and in Frisian, as in <em>tsjerke</em> “church”), not in German or Norse. Words like <span class="la">housbonde</span> are Norse in form and sense, though their parts exist in English too.</p>
       `
     },
     {
@@ -112,7 +112,7 @@ Viator.addLecture('me', {
     { id: 'womman', head: 'womman', la: 'womman, pl. wommen', pos: 'noun', en: 'woman', note: 'OE wīfmann “female person”.' },
     { id: 'heed', head: 'heed', la: 'heed', pos: 'noun', en: 'head', note: 'OE hēafod, German Haupt.' },
     { id: 'chirche', head: 'chirche', la: 'chirche', pos: 'noun', en: 'church', note: 'OE cirice, German Kirche; northern kirk from Norse.' },
-    { id: 'parisshe', head: 'parisshe', la: 'parisshe', pos: 'noun', en: 'parish', note: 'French paroisse; German Pfarrei is from the same Greek root.' },
+    { id: 'parisshe', head: 'parisshe', la: 'parisshe', pos: 'noun', en: 'parish', note: 'French paroisse, from Greek paroikia; German Pfarrei probably goes back to the same word.' },
     { id: 'charitee', head: 'charitee', la: 'charitee', pos: 'noun', en: 'love of one’s neighbour, Christian love', note: 'French charité, Latin caritas. Out of alle charitee: furious.' },
     { id: 'scathe', head: 'scathe', la: 'scathe', pos: 'noun', en: 'harm; a pity', note: 'Old Norse skaði; German Schaden (cognate). That was scathe: that was a pity.' },
     { id: 'passen', head: 'passen', la: 'passen; passed', pos: 'verb, weak', en: 'pass; surpass, excel', note: 'French passer; German passieren is a later loan.' },

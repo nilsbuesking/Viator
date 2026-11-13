@@ -73,7 +73,7 @@ Viator.addLecture('me', {
             <tr><td>-ren</td><td class="la">child, children</td><td>cildru</td><td><em>Kinder</em></td></tr>
           </tbody>
         </table></div>
-        <p>Chaucer still says <span class="la">twenty yeer</span> and <span class="la">his hors</span> for several horses; modern English kept only <em>sheep, deer</em> and <em>oxen, children</em> of these.</p>
+        <p>Chaucer still says <span class="la">twenty yeer</span> and <span class="la">his hors</span> for several horses; of the plurals without ending or in <span class="la">-en</span>, modern English kept only <em>sheep, deer</em> and <em>oxen, children</em> (beside the umlaut plurals <em>feet, men, geese</em>).</p>
       `
     },
     {

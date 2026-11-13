@@ -1582,3 +1582,29 @@ Still open (not changed):
   century and the west. From memory; please confirm the names and positions.
 - [ ] Sweet’s *eald wæter* (91) and line 318 without *mē*: Sweet worked from Hearne’s print of 1726; the notes say
   “the transcript”, which modern editors read directly. Confirm that the transcript has *cald* and *mē*.
+
+# Content review, 13 November 2026: Middle English (Lectures I–XII)
+
+Checked: the twelve readings word for word against Skeat (Canterbury Tales, Troilus, Retraction), the Piers Plowman
+pages and Macaulay’s Gower (source panel); about 30 line references against Skeat’s line markers; the quotations in the
+source panels and background (Adam scriveyn, Parliament of Fowls 1–4, Parson’s Prologue I 42–43, Astrolabe II.11,
+the Legend’s *nyntene* ladies, Gower’s greeting to Chaucer); all tables, gap and multiple-choice answers; dated and
+etymological statements and German comparisons. No reading or line-number errors. Corrected:
+
+- **Lecture VIII:** the Wife does not accuse friars of glossing; the friar of the Summoner’s Tale says *Glosinge is a
+  glorious thing, certeyn* (D 1793).
+- **Lecture VI:** multiple negation was largely gone from educated writing by about 1600; 18th-century grammarians
+  condemned it afterwards (text and test question t4).
+- **Lecture V:** *skye* no longer paired with *shade*; palatalisation also in Frisian (*tsjerke*); the Wife tore three
+  leaves out of Jankin’s book (D 790 *three leves*); *Pfarrei* “probably” from the same word as *paroisse*.
+- **Lecture II:** surviving old plurals now include the umlaut plurals *feet, men, geese*.
+- **Lecture I:** *whan that* compared with southern German dialect *wenn dass, ob dass*; “most” of the words have
+  German cousins (not four); Italy brought Chaucer to the *works* of Dante, Petrarch and Boccaccio.
+- **Lecture III:** *wered* is from OE *werede* (class 1), not *-ode*.
+- **Lecture VII:** the plural imperative explained without deriving German *-t* from OE *-aþ*.
+- **Lecture VIII:** *mariage* “three syllables plus the final -e”. **Lecture XI:** *toft* in Lowestoft means
+  “homestead”. **Lecture XII:** manuscripts “all or almost all” after 1400. **Timeline:** *hous* (“huus”), *mete*.
+
+Still open:
+
+- [ ] Multiple negation: the c. 1600 date follows Nevalainen and Raumolin-Brunberg’s corpus studies (from memory).

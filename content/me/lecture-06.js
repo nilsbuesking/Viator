@@ -67,7 +67,7 @@ Viator.addLecture('me', {
           <li><strong>ne … nat</strong> and <strong>nat</strong> alone: <span class="la">he was nat gay</span> (Lecture III).</li>
           <li><strong>Multiple negation</strong>: negatives reinforce each other. <span class="la">No berd hadde he, ne never sholde have</span>; <span class="la">Ne was ther swich another pardoner</span>; <span class="la">He never yet no vileinye ne sayde … un-to no maner wight</span> (Lecture III).</li>
         </ul>
-        <p>Multiple negation was normal in English until the 17th and 18th centuries, when grammarians, reasoning from Latin and logic, condemned it. It survives in many dialects (<em>I didn’t say nothing</em>), as it does in Bavarian (<em>koana hod nix gsagt</em>) while standard German, like standard English, rejects it.</p>
+        <p>Multiple negation was normal in English into the 16th century; by about 1600 educated writing had largely given it up, and 18th-century grammarians, reasoning from Latin and logic, then condemned it outright. It survives in many dialects (<em>I didn’t say nothing</em>), as it does in Bavarian (<em>koana hod nix gsagt</em>) while standard German, like standard English, rejects it.</p>
       `
     },
     {
@@ -269,7 +269,7 @@ Viator.addLecture('me', {
       { id: 't1', type: 'mc', prompt: '<span class="la">nat</span> comes from:', options: ['nā wiht “not a whit”', 'Latin non', 'French ne', 'Norse ekki'], answer: 0, explain: 'Like German nicht.' },
       { id: 't2', type: 'mc', prompt: '<span class="la">me mette</span> means:', options: ['I dreamed', 'I met', 'I measured', 'I ate'], answer: 0, explain: 'German mir träumte.' },
       { id: 't3', type: 'mc', prompt: 'In Chaucer <span class="la">moste</span> usually means:', options: ['had to', 'might', 'most', 'mustered'], answer: 0, explain: 'OE mōtan meant “may”.' },
-      { id: 't4', type: 'mc', prompt: 'When did grammarians condemn multiple negation?', options: ['17th–18th centuries', 'In Chaucer’s time', 'In Old English', '20th century'], answer: 0, explain: 'It survives in dialects.' },
+      { id: 't4', type: 'mc', prompt: 'When did grammarians condemn multiple negation?', options: ['18th century', 'In Chaucer’s time', 'In Old English', '20th century'], answer: 0, explain: 'Written English had largely dropped it by about 1600; it survives in dialects.' },
       { id: 't5', type: 'gap', prompt: '<span class="la">___ was ther swich another pardoner</span>', hint: 'not (old negative)', answers: ['ne'], full: 'Ne was ther swich another pardoner', explain: 'GP 693.' },
       { id: 't6', type: 'gap', prompt: '<span class="la">For wel he ___, whan that song was songe</span>', hint: 'knew (witen)', answers: ['wiste', 'wist'], full: 'For wel he wiste, whan that song was songe', explain: 'GP 711.' },
       { id: 't7', type: 'translate', dir: 'me-en', source: 'He was in chirche a noble ecclesiaste.', model: 'He was a noble churchman in church.', accepted: ['he was a noble churchman in church', 'in church he was a noble churchman', 'he was a noble preacher in church', 'in church he was a noble preacher', 'in church he was a noble ecclesiastic', 'he was a noble ecclesiastic in church'] },
