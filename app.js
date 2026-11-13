@@ -7,7 +7,7 @@
   'use strict';
 
   const CONTENT_BASE = (document.currentScript && document.currentScript.dataset.content) || 'content/';
-  const BUILD = '2026-11-13 a';           // shown under Progress so you can tell which version is running
+  const BUILD = '2026-11-13 b';           // shown under Progress so you can tell which version is running
   const FORMAT = 2;                       // progress format version; bump + migrate() on change
   const STORE_KEY = 'viator.progress';
   const INTERVALS = [0, 1, 2, 4, 8, 16, 32, 64]; // Leitner box → days until next review
@@ -145,7 +145,7 @@
   }
 
   // ---------- state ----------
-  const ui = { view: 'home', lectureId: null, section: 'intro', ex: null, cards: null, ref: '', confirmImport: null, gloss: null };
+  const ui = { view: 'home', lectureId: null, section: 'intro', ex: null, cards: null, ref: '', confirmImport: null, gloss: null, open: {} };
   let course = null;  // active course object from catalogue
   // special lectures (special: true) sort after the numbered ones, show ✦ instead of a numeral, and are left out of “Continue”
   const lectures = () => (registry.lectures[course.id] || []).slice().sort((a, b) => (!!a.special - !!b.special) || a.number - b.number);
@@ -313,6 +313,7 @@
         ${tab('home', 'Course')}${tab('cards', 'Cards')}${tab('ref', 'Reference')}${tab('progress', 'Progress')}
       </div></nav>`;
     after();
+    savePlace(false);   // the scroll position is saved when the app goes into the background
   }
 
   // ----- home -----
@@ -403,9 +404,12 @@
       case 'reading': body = viewReading(l); break;
       case 'test': body = exerciseRunner('test', l); break;
     }
+    // While exercises or the test are running, the lecture heading shrinks to one line to leave room for the question.
+    const running = (ui.section === 'practice' || ui.section === 'test') && ui.ex && ui.ex.mode === ui.section && ui.ex.lid === l.id && !ui.ex.finished;
     return `
-      <div class="lhead"><span class="numeral" style="${fitNum(lnum(l), 54, 110)}">${lnum(l)}</span>
-        <div><p class="eyebrow">${esc(course.lectureWord || 'Lecture')}</p><h1 class="la">${M(esc(l.title))}</h1><p>${esc(l.subtitle)}</p></div></div>
+      ${running ? `<p class="lmini"><span class="numeral">${lnum(l)}</span> <span class="la">${M(esc(l.title))}</span></p>`
+        : `<div class="lhead"><span class="numeral" style="${fitNum(lnum(l), 54, 110)}">${lnum(l)}</span>
+        <div><p class="eyebrow">${esc(course.lectureWord || 'Lecture')}</p><h1 class="la">${M(esc(l.title))}</h1><p>${esc(l.subtitle)}</p></div></div>`}
       <nav class="chips" aria-label="Lecture sections">${chips}</nav>
       <section class="stack" id="secbody">${body}</section>`;
   }
@@ -443,24 +447,33 @@
     const bareMap = {}; Object.keys(r.glosses).forEach(k => { const bk = bare(k); if (!(bk in bareMap)) bareMap[bk] = r.glosses[k]; });
     const glossFor = w => { const k = w.replace(/[\[\]()·]/g, ''); return r.glosses[k.toLowerCase()] || looseMap[loose(k)] || bareMap[bare(k)]; };
     const parts = (asWritten ? r.diplomatic : r.text).split(/((?:[A-Za-zÀ-ɏʒ̀-ͯ]|\[[A-Za-zÀ-ɏʒ̀-ͯ]+\]|\([A-Za-zÀ-ɏʒ̀-ͯ]+\)|(?<=[A-Za-zÀ-ɏ])·(?=[A-Za-zÀ-ɏ]))+)/);
-    const html = parts.map((p, i) => {
+    let html = parts.map((p, i) => {
       if (i % 2 === 0) return esc(p);
       const g = glossFor(p);
       const isNew = g && /\(new word\)|next lecture/.test(g);
       return g ? `<span class="w ${isNew ? 'new' : ''} ${ui.gloss === i ? 'sel' : ''}" data-w="${i}" role="button" tabindex="0">${M(esc(p))}</span>` : M(esc(p));
     }).join('');
+    // Verse (mostly short lines): one block per line, so that a line too long for the screen continues indented
+    // instead of looking like a new line. Prose (mostly long lines, i.e. paragraphs) is left as it is.
+    const srcLines = (asWritten ? r.diplomatic : r.text).split('\n'), filled = srcLines.filter(x => x.trim());
+    const verse = filled.length > 1 && filled.filter(x => x.length > 120).length * 3 <= filled.length;
+    if (verse) html = html.split('\n').map(x => x.trim() ? `<span class="ln">${x}</span>` : '<span class="ln gap"></span>').join('');
     const sel = ui.gloss != null ? parts[ui.gloss] : null;
     const qs = (r.questions || []).map(q => inlineMC(q)).join('');
+    // The note on the source: short notes as they are; long ones folded to two lines, open on tap.
+    const note = String(r.note || '').replace(/\s*Tap any word[^.]*\.?\s*$/i, '');
+    const noteHtml = !note ? '' : note.length <= 130 ? `<p class="small muted" style="margin:0">${esc(note)}</p>`
+      : `<details class="srcnote" data-keep="src" ${ui.open.src ? 'open' : ''}><summary><span class="pv">${esc(note)}</span></summary></details>`;
     return `
-      <p class="eyebrow">${esc(r.note)}</p>
       <h2 class="section la">${M(esc(r.title))}</h2>
+      ${noteHtml}
+      <p class="small muted" style="margin:0">Tap any word for its meaning. Words underlined with dots are not yet in your vocabulary.</p>
       ${r.diplomatic ? `<div class="deckpick two" role="group" aria-label="Text form"><button class="seg" data-rview="norm" aria-pressed="${!asWritten}">Normalised</button><button class="seg" data-rview="dipl" aria-pressed="${!!asWritten}">${esc(r.diplomaticLabel || 'As written')}</button></div>
       <p class="small muted" style="margin:0">${asWritten ? esc(r.diplomaticNote || 'Spelling as a scribe might write it.') : 'Normalised dictionary spelling, with long vowels marked.'}</p>` : ''}
-      <div class="reading" lang="${course.langTag}">${html}</div>
+      <div class="reading${verse ? ' verse' : ''}" lang="${course.langTag}">${html}</div>
       ${sel ? `<div class="glossbox" aria-live="polite"><span class="la">${M(esc(sel))}</span> · ${M(esc(glossFor(sel) || ''))}</div>` : ''}
-      <p class="small muted">Words underlined with dots are not yet in your vocabulary.</p>
-      ${(r.translations || [{ label: 'translation', text: r.translation }]).map(t => `<details class="panel"><summary>Show ${esc(t.label)}</summary><p class="prose" style="margin-top:10px">${esc(t.text)}</p></details>`).join('')}
-      ${(r.notes || []).length ? `<details class="panel"><summary>Notes on the passage</summary><dl class="notes">${r.notes.map(n => `<dt class="la">${M(esc(n.ref))}</dt><dd class="prose">${M(n.html)}</dd>`).join('')}</dl></details>` : ''}
+      ${(r.translations || [{ label: 'translation', text: r.translation }]).map((t, k) => `<details class="panel" data-keep="tr${k}" ${ui.open['tr' + k] ? 'open' : ''}><summary>Show ${esc(t.label)}</summary><p class="prose" style="margin-top:10px">${esc(t.text)}</p></details>`).join('')}
+      ${(r.notes || []).length ? `<details class="panel" data-keep="notes" ${ui.open.notes ? 'open' : ''}><summary>Notes on the passage</summary><dl class="notes">${r.notes.map(n => `<dt class="la">${M(esc(n.ref))}</dt><dd class="prose">${M(n.html)}</dd>`).join('')}</dl></details>` : ''}
       ${qs ? `<p class="eyebrow">Comprehension</p><div class="stack">${qs}</div>` : ''}
       ${doneBtn()}`;
   }
@@ -531,7 +544,7 @@
     if (item.model) parts.push(`<span>Model answer: <span class="${item.dir && intoLang(item.dir) === 'target' ? 'la' : ''}">${M(esc(item.model))}</span></span>`);
     if (item.full && !st.ok) parts.push(`<span>Answer: <span class="la">${M(esc(item.full))}</span></span>`);
     if (item.explain) parts.push(`<span class="small">${M(esc(item.explain))}</span>`);
-    return `<div class="feedback ${st.ok ? 'ok' : 'no'}" role="status">${parts.join('<br>')}</div>`;
+    return `<div class="feedback ${st.ok ? 'ok' : 'no'}" role="status">${parts[0]}${parts.slice(1).join('<br>')}</div>`;
   }
   function nextBtns(st, item) {
     if (!st || !st.checked) return `<button class="btn wide" data-check>Check</button>`;
@@ -550,22 +563,24 @@
       }
       case 'gap':
         return `<p class="q">${M(item.prompt)}<span class="hint">${esc(item.hint || '')}</span></p>
-          <input class="field ${st.checked ? (st.ok ? 'right' : 'wrong') : ''}" id="ans" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="Type the ending" value="${esc(st.value || '')}" ${st.checked ? 'readonly' : ''} lang="${course.langTag}">
-          ${st.checked ? '' : kbd()}${feedbackHtml(st, item)}${nextBtns(st, item)}`;
+          ${st.checked ? '' : kbd()}<input class="field ${st.checked ? (st.ok ? 'right' : 'wrong') : ''}" id="ans" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" enterkeyhint="done" placeholder="Type the ending" value="${esc(st.value || '')}" ${st.checked ? 'readonly' : ''} lang="${course.langTag}">
+          ${feedbackHtml(st, item)}${nextBtns(st, item)}`;
       case 'translate':
         { const into = intoLang(item.dir), src = fromTarget(item.dir);
         return `<p class="eyebrow">Translate into ${into === 'en' ? 'English' : into === 'de' ? 'German' : esc(course.name)}</p>
           <p class="q ${src ? 'la' : ''}">${M(esc(item.source))}${src ? speakBtn(stripMacrons(item.source)) : ''}</p>
-          <textarea class="field ${st.checked ? (st.ok ? 'right' : 'wrong') : ''}" id="ans" autocomplete="off" autocapitalize="sentences" spellcheck="false" ${st.checked ? 'readonly' : ''} lang="${into === 'target' ? course.langTag : into}">${esc(st.value || '')}</textarea>
-          ${st.checked || into !== 'target' ? '' : kbd()}${feedbackHtml(st, item)}${nextBtns(st, item)}`; }
+          ${st.checked || into !== 'target' ? '' : kbd()}<textarea class="field ${st.checked ? (st.ok ? 'right' : 'wrong') : ''}" id="ans" autocomplete="off" autocapitalize="sentences" spellcheck="false" enterkeyhint="done" ${st.checked ? 'readonly' : ''} lang="${into === 'target' ? course.langTag : into}">${esc(st.value || '')}</textarea>
+          ${feedbackHtml(st, item)}${nextBtns(st, item)}`; }
       case 'paradigm':
+        { const nCells = item.rows.reduce((a, r) => a + r.answers.length, 0);
         return `<p class="q">${M(item.prompt)}</p>
-          <div class="tablewrap"><table class="ptable"><thead><tr><th></th>${item.headers.map(h => `<th>${esc(h)}</th>`).join('')}</tr></thead><tbody>
+          ${st.checked ? '' : kbd()}<div class="tablewrap"><table class="ptable"><thead><tr><th></th>${item.headers.map(h => `<th>${esc(h)}</th>`).join('')}</tr></thead><tbody>
           ${item.rows.map((r, ri) => `<tr><th>${esc(r.label)}</th>${r.answers.map((a, ci) => {
             const k = ri + '-' + ci, cell = st.cells && st.cells[k];
-            return `<td><input data-cell="${k}" class="${cell ? (cell.ok ? 'right' : 'wrong') : ''}" value="${esc((st.values && st.values[k]) || '')}" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" ${st.checked ? 'readonly' : ''} lang="${course.langTag}" aria-label="${esc(r.label)} ${esc(item.headers[ci])}">${cell && (!cell.ok || cell.macron) ? `<span class="sol">${M(esc(a.split('|').join(' / ')))}</span>` : ''}</td>`;
+            const last = ri === item.rows.length - 1 && ci === r.answers.length - 1;
+            return `<td><input data-cell="${k}" class="${cell ? (cell.ok ? 'right' : 'wrong') : ''}" value="${esc((st.values && st.values[k]) || '')}" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" enterkeyhint="${last || nCells === 1 ? 'done' : 'next'}" ${st.checked ? 'readonly' : ''} lang="${course.langTag}" aria-label="${esc(r.label)} ${esc(item.headers[ci])}">${cell && (!cell.ok || cell.macron) ? `<span class="sol">${M(esc(a.split('|').join(' / ')))}</span>` : ''}</td>`;
           }).join('')}</tr>`).join('')}</tbody></table></div>
-          ${st.checked ? '' : kbd()}${feedbackHtml(st, {})}${nextBtns(st, item)}`;
+          ${feedbackHtml(st, {})}${nextBtns(st, item)}`; }
       case 'match': {
         if (!st.right) { st.right = shuffle(item.pairs.map((_, i) => i)); st.left = shuffle(item.pairs.map((_, i) => i)); st.done = []; st.misses = 0; ui.ex.state = st; }
         return `<p class="q">${esc(item.prompt)}</p><div class="match">
@@ -611,7 +626,7 @@
     st.checked = true;
     if (st.ok) x.score++;
     recordResult(lectureQualified(item), st.ok);
-    render();
+    ui.reveal = true; render();
   }
   const lectureQualified = item => ui.ex.lid + ':' + item.id;
   function nextItem() {
@@ -638,7 +653,7 @@
       const back = M(esc(card.back));
       return `
         <div class="exhead"><span>${s.done} reviewed · ${s.queue.length} left</span><button class="back" data-endcards>End</button></div>
-        <button class="card" data-flip aria-label="Show answer">
+        <button class="card" data-flip>
           <span class="meta">${card.deck === 'grammar' ? 'Grammar' : (card.dir === 'la-en' ? esc(course.name) + ' → ' + otherLang() : otherLang() + ' → ' + esc(course.name))}${card.meta ? ' · ' + esc(card.meta) : ''}</span>
           <span class="front ${card.deck === 'grammar' || !card.latinFront ? 'small' : ''} ${card.latinFront ? 'la' : ''}">${front}</span>
           ${s.flipped ? `<span class="answer ${card.dir === 'en-la' ? 'la' : ''}">${back}</span>` : '<span class="tapnote">Tap to show the answer</span>'}
@@ -693,11 +708,18 @@
     if (page.kind === 'map') return nav + viewMap(page);
     return nav + viewGlossary(ui.refPage === 'tables');
   }
-  function viewGlossary(tablesOnly) {
+  function glossHits() {
     const q = spell(stripMacrons(ui.ref.toLowerCase().trim()));
     const all = lectures().flatMap(l => l.vocab.map(v => Object.assign({ lnum: l.number }, v)));
     const hits = q ? all.filter(v => spell(stripMacrons((v.la + ' ' + v.en + ' ' + (v.de || '')).toLowerCase())).includes(q)) : all;
-    hits.sort((a, b) => stripMacrons(a.head.replace(/^-/, '')).localeCompare(stripMacrons(b.head.replace(/^-/, ''))));
+    return hits.sort((a, b) => stripMacrons(a.head.replace(/^-/, '')).localeCompare(stripMacrons(b.head.replace(/^-/, ''))));
+  }
+  const hitCount = n => `Glossary · ${n} ${n === 1 ? 'entry' : 'entries'}`;
+  // While typing in the search box only the list is rebuilt, once typing pauses, so the box itself is never replaced.
+  let searchTimer = null;
+  function showHits() { const c = $('#refcount'), h = $('#refhits'); if (!c || !h) return; const hits = glossHits(); c.textContent = hitCount(hits.length); h.innerHTML = vocabList(hits); }
+  function viewGlossary(tablesOnly) {
+    const hits = tablesOnly ? [] : glossHits();
     const tables = lectures().flatMap(l => (l.reference || []).map(t => `
       <div class="gblock"><h3 class="gt">${M(esc(t.title))} <span class="small muted">· ${lnum(l)}</span></h3>
       <div class="tablewrap"><table><thead><tr>${t.headers.map(h => `<th>${esc(h)}</th>`).join('')}</tr></thead>
@@ -705,7 +727,7 @@
     if (tablesOnly) return `<section>${tables || '<p class="muted">No tables yet.</p>'}</section>`;
     return `
       <div class="search"><input class="field" id="refsearch" type="search" placeholder="Search ${esc(course.name)}, English${course.reverseFrom === 'de' ? ' or German' : ''}" value="${esc(ui.ref)}" autocomplete="off" autocapitalize="off" spellcheck="false"></div>
-      <section><p class="eyebrow">Glossary · ${hits.length} ${hits.length === 1 ? 'entry' : 'entries'}</p><div id="refhits">${vocabList(hits)}</div></section>`;
+      <section><p class="eyebrow" id="refcount">${hitCount(hits.length)}</p><div id="refhits">${vocabList(hits)}</div></section>`;
   }
 
   // ----- date converter (church calendar) -----
@@ -785,7 +807,7 @@
     return `
       <h2 class="section">${esc(page.title)}</h2>
       ${page.intro ? `<p class="small muted" style="margin:0">${page.intro}</p>` : ''}
-      ${tags.length > 2 ? `<div class="deckpick" role="group" aria-label="Filter">${tags.map(([k, l]) => `<button class="seg" data-tltag="${k}" aria-pressed="${t === k}">${esc(l)}</button>`).join('')}</div>` : ''}
+      ${tags.length > 2 ? `<div class="deckpick${tags.length === 4 ? ' two' : ''}" role="group" aria-label="Filter">${tags.map(([k, l]) => `<button class="seg" data-tltag="${k}" aria-pressed="${t === k}">${esc(l)}</button>`).join('')}</div>` : ''}
       <ol class="timeline">${ev.map(e => `<li><span class="yr">${esc(e.year)}</span><div><b>${M(esc(e.title))}</b><div class="tltext">${M(e.text)}</div></div></li>`).join('')}</ol>`;
   }
 
@@ -912,11 +934,11 @@
 
   // ---------- events ----------
   function go(view) {
-    if (updatePending && view === 'home') { location.reload(); return; }
+    if (updatePending && view === 'home') { ui.view = 'home'; savePlace(); location.reload(); return; }
     ui.view = view; ui.gloss = null; render(); window.scrollTo(0, 0);
   }
   function openLecture(id, section) {
-    ui.view = 'lecture'; ui.lectureId = id; ui.section = section || 'intro'; ui.ex = null; ui.gloss = null; ui.inline = {}; ui.readView = null;
+    ui.view = 'lecture'; ui.lectureId = id; ui.section = section || 'intro'; ui.ex = null; ui.gloss = null; ui.inline = {}; ui.readView = null; ui.open = {};
     const lp = lectureP(course.id, id); if (!lp.started) { lp.started = true; touchStreak(); save(); }
     P.courses[course.id].current = id; save();
     render(); window.scrollTo(0, 0);
@@ -927,7 +949,7 @@
     // Choose a lecture: open it at its first unfinished section (or the introduction if all are done)
     const pl = $('#pickLecture'); if (pl) pl.onchange = () => { const l = findLecture(pl.value); if (!l) return; const lp = courseP(course.id).lectures[l.id]; const s = sectionsFor(l).find(x => !(lp && lp.sections[x.id])); openLecture(l.id, s ? s.id : 'intro'); };
     const rs = $('#refsearch');
-    if (rs) rs.oninput = () => { ui.ref = rs.value; render(); const n = $('#refsearch'); n.focus(); n.setSelectionRange(n.value.length, n.value.length); };
+    if (rs) rs.oninput = () => { ui.ref = rs.value; clearTimeout(searchTimer); searchTimer = setTimeout(showHits, 150); };
     const bind = (id, fn) => { const el = $('#' + id); if (el) el.onchange = () => { fn(el); save(); render(); }; };
     bind('cardDir', el => P.settings.cardDir = el.value);
     bind('newPerDay', el => P.settings.newPerDay = Number(el.value));
@@ -940,7 +962,17 @@
     const rd = $('#restore'); if (rd) rd.ontoggle = () => { ui.restoreOpen = rd.open; };
     const f = $('#importfile');
     if (f) f.onchange = () => { const file = f.files[0]; if (!file) return; const r = new FileReader(); r.onload = () => readImport(r.result); r.readAsText(file); };
-    const ans = $('#ans'); if (ans && !ans.readOnly && ui.view === 'lecture') ans.addEventListener('keydown', e => { if (e.key === 'Enter' && ans.tagName === 'INPUT') { e.preventDefault(); checkItem(); } });
+    // Return checks the answer (translations are one sentence, so no line breaks are needed); in a table it moves on to the next box
+    const ans = $('#ans'); if (ans && !ans.readOnly && ui.view === 'lecture') ans.addEventListener('keydown', e => { if (e.key === 'Enter' && !e.shiftKey && !e.isComposing) { e.preventDefault(); checkItem(); } });
+    const cells = [...document.querySelectorAll('[data-cell]')];
+    cells.forEach((c, i) => { if (!c.readOnly) c.addEventListener('keydown', e => { if (e.key !== 'Enter' || e.isComposing) return; e.preventDefault(); if (cells[i + 1]) cells[i + 1].focus(); else checkItem(); }); });
+    // after an answer is checked, bring the feedback and the Next button into view (above the tab bar)
+    if (ui.reveal) { ui.reveal = false; const nb = $('[data-next-item]'), tabs = $('.tabs');
+      if (nb && tabs) { const limit = tabs.getBoundingClientRect().top - 12, b = nb.getBoundingClientRect().bottom;
+        if (b > limit) window.scrollBy({ top: b - limit, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' }); } }
+    // header height, for the sticky search bar and for jumping to a grammar section
+    const top = $('.top'); if (top) document.documentElement.style.setProperty('--top-h', top.offsetHeight + 'px');
+    markWide();
   }
 
   // Pictures: if one image size fails to load, try the next listed in data-fallbacks; if all fail, say so.
@@ -953,6 +985,45 @@
     note.textContent = navigator.onLine === false ? 'Picture not available offline. It appears once you have viewed it online.' : 'The picture could not be loaded. Use the link below to see it on Wikimedia Commons.';
     img.replaceWith(note);
   }, true);
+
+  // Tables wider than the screen scroll sideways; a fade at the right edge shows that there is more, until the end is reached.
+  function markWide(root = document) {
+    root.querySelectorAll('.tablewrap').forEach(w => {
+      const set = () => w.classList.toggle('more', w.scrollWidth - w.clientWidth - w.scrollLeft > 2);
+      set(); if (!w.dataset.wide) { w.dataset.wide = '1'; w.addEventListener('scroll', set, { passive: true }); }
+    });
+  }
+  window.addEventListener('resize', () => markWide());
+  // Folding panels (translation, notes, the note on the source) stay open when the page is redrawn, e.g. after tapping a word.
+  document.addEventListener('toggle', e => { const d = e.target; if (d.dataset && d.dataset.keep) ui.open[d.dataset.keep] = d.open; if (d.open) markWide(d); }, true);
+  // A touch listener makes Safari show the pressed state of buttons (:active); it also tells the place restore that the person has scrolled.
+  let touched = false;
+  document.addEventListener('touchstart', () => { touched = true; }, { passive: true });
+
+  // ---------- keeping the place ----------
+  // iOS may restart a home-screen app that has been in the background for a while. The current place (course, page,
+  // lecture section, scroll position, an exercise or test in progress) is kept on this phone only, outside the progress
+  // and the backups, and restored if the app starts again within PLACE_HOURS. After that it opens on the course page.
+  const PLACE_KEY = 'viator.place', PLACE_HOURS = 4;
+  function savePlace(keepScroll = true) {
+    if (!course) return;
+    const pl = { t: Date.now(), course: course.id, view: ui.view, lectureId: ui.lectureId, section: ui.section, readView: ui.readView, refPage: ui.refPage,
+      ref: ui.ref, open: ui.open, inline: ui.inline, scroll: keepScroll === true ? Math.round(window.scrollY) : 0, ex: ui.view === 'lecture' && ui.ex && ui.ex.lid === ui.lectureId ? ui.ex : null };
+    try { localStorage.setItem(PLACE_KEY, JSON.stringify(pl)); } catch (e) {}
+  }
+  function restorePlace() {
+    let pl = null; try { pl = JSON.parse(localStorage.getItem(PLACE_KEY) || 'null'); } catch (e) {}
+    if (!pl || !(Date.now() - pl.t < PLACE_HOURS * 3600000) || pl.course !== course.id) return null;
+    if (pl.view === 'lecture') {
+      const l = findLecture(pl.lectureId); if (!l || !sectionsFor(l).some(s => s.id === pl.section)) return null;
+      ui.lectureId = l.id; ui.section = pl.section; ui.readView = pl.readView || null; ui.inline = pl.inline || {};
+      ui.ex = pl.ex && pl.ex.lid === l.id && Array.isArray(pl.ex.items) && pl.ex.items.length ? pl.ex : null;
+    } else if (!['home', 'cards', 'ref', 'progress'].includes(pl.view)) return null;
+    ui.view = pl.view; ui.refPage = pl.refPage || 'glossary'; ui.ref = pl.ref || ''; ui.open = pl.open || {};
+    return pl.scroll || 0;
+  }
+  document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'hidden') savePlace(); });
+  window.addEventListener('pagehide', () => savePlace());
 
   let lastField = null;
   document.addEventListener('focusin', e => { if (e.target.matches('input[type=text], input:not([type]), textarea')) lastField = e.target; });
@@ -969,10 +1040,10 @@
     if (d.jump) { const el = document.getElementById(d.jump); if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' }); return; }
     if (d.go) { go(d.go); if (d.anchor) setTimeout(() => { const el = $('#' + d.anchor); if (el) el.scrollIntoView(); }, 0); return; }
     if (d.lecture) { openLecture(d.lecture, d.section); return; }
-    if (d.section && ui.view === 'lecture' && t.classList.contains('chip')) { ui.section = d.section; ui.gloss = null; render(); window.scrollTo(0, 0); return; }
+    if (d.section && ui.view === 'lecture' && t.classList.contains('chip')) { ui.section = d.section; ui.gloss = null; ui.open = {}; render(); window.scrollTo(0, 0); return; }
     if (d.done !== undefined && d.done !== '') {
       const lp = lectureP(course.id, ui.lectureId); lp.sections[d.done] = true; touchStreak(); save();
-      if (d.next) { ui.section = d.next; ui.gloss = null; render(); window.scrollTo(0, 0); } else go('home');
+      if (d.next) { ui.section = d.next; ui.gloss = null; ui.open = {}; render(); window.scrollTo(0, 0); } else go('home');
       return;
     }
     if (d.start) { startRun(d.start, findLecture(ui.lectureId)); render(); return; }
@@ -987,7 +1058,7 @@
       if (d.choice !== undefined && !(x.state && x.state.checked)) {
         const ok = Number(d.choice) === item.answer;
         x.state = { checked: true, ok, choice: Number(d.choice) }; if (ok) x.score++;
-        recordResult(lectureQualified(item), ok); render(); return;
+        recordResult(lectureQualified(item), ok); ui.reveal = true; render(); return;
       }
       if (t.hasAttribute('data-check')) { checkItem(); return; }
       if (t.hasAttribute('data-next-item')) { nextItem(); return; }
@@ -996,7 +1067,7 @@
       if (d.mr !== undefined && x.state.sel != null) {
         const st = x.state, r = Number(d.mr);
         if (r === st.sel) { st.done.push(r); st.sel = null; st.miss = null; } else { st.misses++; st.miss = r; }
-        if (st.done.length === item.pairs.length) { st.checked = true; st.ok = st.misses === 0; if (st.ok) x.score++; recordResult(lectureQualified(item), st.ok); }
+        if (st.done.length === item.pairs.length) { st.checked = true; st.ok = st.misses === 0; if (st.ok) x.score++; recordResult(lectureQualified(item), st.ok); ui.reveal = true; }
         render(); return;
       }
       if (d.ob !== undefined) { x.state.line.push(Number(d.ob)); render(); return; }
@@ -1082,7 +1153,16 @@
     const first = registry.catalogue.find(c => c.id === P.activeCourse) || registry.catalogue[0];
     await Promise.all([loadCourse(first), loadScripts(registry.shared.map(f => CONTENT_BASE + f))]);
     setCourse(first.id);
+    // back to where the person was, if the app was restarted within a few hours (not when there is a problem to report)
+    const y = damaged || missing.length ? null : restorePlace();
     render();
+    if (y) {
+      window.scrollTo(0, y);
+      // pictures above the place may still be loading and push the text down: scroll again once they are in, unless the person has moved
+      const imgs = [...document.querySelectorAll('main img')].filter(i => !i.complete);
+      if (imgs.length) Promise.race([Promise.all(imgs.map(i => new Promise(r => { i.addEventListener('load', r); i.addEventListener('error', r); }))), new Promise(r => setTimeout(r, 2000))])
+        .then(() => { if (!touched) window.scrollTo(0, y); });
+    }
     registry.catalogue.forEach(loadCourse);   // the other courses, so that switching is instant
   }
   window.Viator._buildTest = id => buildTest(findLecture(id));   // for the tests

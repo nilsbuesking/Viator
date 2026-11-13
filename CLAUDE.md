@@ -19,7 +19,11 @@ British English in all text.
   articles ignored; `dir: 'en-la'` checked word-order-free). Adding a new type
   means engine work.
 - Progress is versioned (`FORMAT` in app.js). Any change to what is stored must
-  bump `FORMAT` and extend `migrate()` so old backups still restore.
+  bump `FORMAT` and extend `migrate()` so old backups still restore. The current place in the app
+  (`viator.place`: page, lecture section, scroll position, an exercise in progress) is stored separately,
+  is not part of backups, and is restored only after a restart within four hours (`PLACE_HOURS`).
+- Phone layout: form text never under 16 px (Safari zooms into it); touch targets 44 px where possible;
+  test new screens at 375 px wide with text size Extra large (`tests/phone_use.py`).
 - No build step, no frameworks, no external services. Only Google Fonts loads
   from outside.
 
@@ -117,6 +121,6 @@ every push run `python3 tests/run_all.py` (all tests in parallel, pass/fail summ
 exit code 1 on failure; see tests/README.md). Add to the tests when you add a
 lecture or feature. They cover every exercise, word glosses in readings, the date
 arithmetic, map taps, backup save and restore, damaged progress, updates, offline
-start, and no horizontal scrolling. Raise `VERSION` in `sw.js` and `BUILD` in
+start, no horizontal scrolling, and phone layout at every text size. Raise `VERSION` in `sw.js` and `BUILD` in
 `app.js` with every push. After pushing, check that the GitHub Pages deployment
 succeeded (Actions runs); a push made while a deployment is still running can fail.

@@ -33,9 +33,17 @@ Lecture II and the Palästinalied).
   `mhd_german_series.py`: per lecture, every exercise answered from the lecture's
   own data, word glosses in the reading, the test, the cards, and no horizontal
   scrolling at iPhone width.
+- `phone_use.py`: phone layout with the app's real fonts (`tests/fonts/fonts.css`): no page
+  wider than the screen at any text size, no form text under 16 px (Safari zooms into it),
+  reading notes and verse lines, panels that stay open, the one-line heading and the Return key
+  in exercises, settings rows, the glossary search, the fade on wide tables, and the place kept
+  after a restart (and forgotten after four hours).
 - `dates.py`: the church-calendar date converter (needs `python-dateutil`).
 - `numerals_fit.py`: the Roman numerals in the lecture list and header fit on a
   phone screen (uses the Marcellus font from `tests/fonts`, SIL Open Font Licence).
+
+`tests/fonts` holds the app's three fonts (Marcellus, Source Serif 4, IBM Plex Sans; all SIL Open
+Font Licence, licences alongside), because Google Fonts cannot be reached from the test machine.
 
 Each browser test drives the app at iPhone width with Playwright (Chromium).
 Screenshots go to `/tmp/viator-shots`. Google Fonts and Wikimedia are unreachable

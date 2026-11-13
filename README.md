@@ -40,6 +40,9 @@ The app is published with GitHub Pages from this repository.
 1. On the iPhone, open the Pages address in **Safari**, tap Share → **Add to Home Screen**.
 2. Open it once from the home-screen icon while online. After that it works offline.
    Pictures from Wikimedia Commons are kept for offline use once they have been seen online.
+3. If iOS restarts the app within four hours of your last use (it does this to save memory),
+   Viātor reopens where you were: the same page, scroll position, and any exercise or test in
+   progress. After longer it opens on the course page.
 
 ## Backups
 

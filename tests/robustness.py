@@ -136,6 +136,7 @@ with sync_playwright() as p:
     ctx, pg = new_page(b)
     pg.goto(URL); pg.wait_for_selector('.lect')
     pg.click('.lect >> nth=0'); pg.wait_for_selector('.chips')
+    pg.click('.tab[data-go=home]'); pg.wait_for_selector('.lect')   # the app reopens where it was left, so leave it on the course page
     pg.evaluate("""(() => { const p = JSON.parse(localStorage.getItem('viator.progress')); p.lastExport = '2020-01-01T00:00:00Z'; p.settings.backupDays = 14; localStorage.setItem('viator.progress', JSON.stringify(p)); })()""")
     pg.reload(); pg.wait_for_selector('.lect')
     check('backup reminder: uses the chosen interval', pg.locator('text=more than 14 days old').count() == 1)
