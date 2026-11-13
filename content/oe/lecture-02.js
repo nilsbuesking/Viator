@@ -171,7 +171,9 @@ Viator.addLecture('oe', {
     { id: 'leof', head: 'lēof', la: 'lēof', pos: 'adjective', en: 'dear, beloved', note: 'German lieb.' },
     { id: 'maere', head: 'mǣre', la: 'mǣre', pos: 'adjective', en: 'famous, glorious', note: 'German Mär, Märchen (originally “news, report”) are related.' },
     { id: 'geomor', head: 'geōmor', la: 'geōmor', pos: 'adjective', en: 'sad, mournful', note: 'German Jammer is related.' },
-    { id: 'feor', head: 'feor', la: 'feor', pos: 'adverb', en: 'far', note: 'German fern.' }
+    { id: 'feor', head: 'feor', la: 'feor', pos: 'adverb', en: 'far', note: 'German fern.' },
+    { id: 'thenden', head: 'þenden', la: 'þenden', pos: 'conjunction, adverb', en: 'while, as long as; meanwhile', note: 'þenden wordum wēold: while he ruled by his word (line 30). No German descendant.' },
+    { id: 'forth', head: 'forð', la: 'forð', pos: 'adverb', en: 'forth, forward, onward', note: 'German fort. forð onsendon: sent forth (line 45).' }
   ],
 
   grammarCards: [
@@ -225,8 +227,8 @@ Viator.addLecture('oe', {
     { id: 'e17', type: 'order', prompt: 'Put the English translation in order.', source: 'Þǣr æt hȳðe stōd hringedstefna', tokens: ['There', 'in the harbour', 'stood', 'the ring-prowed ship.'], explain: 'hȳðe: dative after æt; hringedstefna: nominative, the subject.' },
     { id: 'e18', type: 'translate', dir: 'oe-en', source: 'Þǣr wæs māðma fela.', model: 'There were many treasures.', accepted: ['there were many treasures', 'there was much treasure', 'there was a lot of treasure', 'there were many treasures there', 'there were many precious things'] },
     { id: 'e19', type: 'translate', dir: 'oe-en', source: 'Him wæs geōmor sefa.', model: 'Their hearts were sad.', accepted: ['their hearts were sad', 'their heart was sad', 'they were sad at heart', 'their mind was sad', 'their minds were sad', 'his heart was sad', 'their spirit was sad', 'they were sad'] },
-    { id: 'e20', type: 'translate', dir: 'en-oe', source: 'The king had many ships.', model: 'Se cyning hæfde fela scipa.', accepted: ['se cyning hæfde fela scipa', 'se cyning hæfde manig scipu', 'cyning hæfde fela scipa'] },
-    { id: 'e21', type: 'translate', dir: 'en-oe', source: 'with words', model: 'mid wordum', accepted: ['mid wordum', 'wordum'] },
+    { id: 'e20', type: 'translate', dir: 'en-oe', source: 'The king had many ships.', model: 'Se cyning hæfde fela scipa.', accepted: ['se cyning hæfde fela scipa', 'se cyning hæfde manig scipu', 'cyning hæfde fela scipa'], explain: 'Fela “many” (German viel) takes the genitive plural, scipa. Se is the masculine article, German der.' },
+    { id: 'e21', type: 'translate', dir: 'en-oe', source: 'with words', model: 'mid wordum', accepted: ['mid wordum', 'wordum'], explain: 'Mid takes the dative, like German mit; word is a strong neuter with the dative plural -um.' },
     { id: 'e22', type: 'mc', prompt: 'What happens to Scyld’s body?', options: ['It is set adrift in a ship with treasure', 'It is buried under a mound', 'It is burnt on a pyre', 'It is taken to Lejre'], answer: 0, explain: 'lēton holm beran, geafon on gārsecg.' },
     { id: 'e23', type: 'mc', prompt: 'Naming the same thing several times in apposition (<span class="la">lēofne þēoden, bēaga bryttan</span>) is called:', options: ['variation', 'alliteration', 'kenning', 'rhyme'], answer: 0, explain: 'A hallmark of Old English verse style.' }
   ],
@@ -303,7 +305,7 @@ Viator.addLecture('oe', {
       { id: 't5', type: 'gap', prompt: '<span class="la">fela bēag___</span>', hint: 'many rings (gen. pl.)', answers: ['a'], full: 'fela bēaga', explain: 'Genitive plural -a.' },
       { id: 't6', type: 'gap', prompt: '<span class="la">on scip___</span> (in the ships)', hint: 'dat. pl.', answers: ['um'], full: 'on scipum', explain: 'Dative plural -um.' },
       { id: 't7', type: 'translate', dir: 'oe-en', source: 'Hīe lēton holm beran.', model: 'They let the sea carry (him).', accepted: ['they let sea carry', 'they let sea carry him', 'they let sea bear him', 'they let sea bear', 'they let ocean carry him', 'they let the sea carry him'] },
-      { id: 't8', type: 'translate', dir: 'en-oe', source: 'the king’s ship', model: 'þæs cyninges scip', accepted: ['þæs cyninges scip', 'cyninges scip'] },
+      { id: 't8', type: 'translate', dir: 'en-oe', source: 'the king’s ship', model: 'þæs cyninges scip', accepted: ['þæs cyninges scip', 'cyninges scip'], explain: 'Masculine genitive þæs … -es, like German des Königs Schiff.' },
       { id: 't9', type: 'mc', prompt: 'The English possessive <em>’s</em> comes from:', options: ['the genitive singular -es', 'the plural -as', 'the dative -e', 'Old Norse'], answer: 0, explain: 'cyninges → king’s.' },
       { id: 't10', type: 'mc', prompt: '<span class="la">Nalæs … lǣssan lācum</span> (“not with lesser gifts”) is an example of:', options: ['litotes (understatement)', 'a kenning', 'rhyme', 'a loanword'], answer: 0, explain: 'It means “with far greater gifts”.' }
     ]

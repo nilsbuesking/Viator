@@ -62,6 +62,17 @@ refuses to save.
 Backups carry a format number. If the stored format ever changes, the engine's
 `migrate()` function converts old backups, so keep that function in step.
 
+## Cards and revision
+
+- **Card direction** is set per course under Cards. Latin shows vocabulary cards both ways; the reading courses
+  (Middle High German, Old English, Middle English) show them from the old language into English or German only,
+  because the aim there is reading. Courses set their default with `cardDir` in `content/catalogue.js`.
+- **New cards a day**: 10 by default, for each course.
+- **Progress → Revision**: *Missed items* practises up to 15 of the exercise and test questions you have got wrong
+  most often (a right answer takes an item off the list); *Revision test* sets 12 questions from the lectures whose
+  test you have passed, with some of your missed items among them.
+- **Lecture tests** always include at least one translation and one gap or table question.
+
 ## Updating
 
 Content changes: edit or add files in `content/`, add new lecture files to

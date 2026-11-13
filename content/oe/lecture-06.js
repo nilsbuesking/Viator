@@ -142,7 +142,8 @@ Viator.addLecture('oe', {
     { id: 'tholian', head: 'þolian', la: 'þolian; þolode', pos: 'verb, weak', en: 'suffer, endure', note: 'German dulden; Latin tolerāre is from the same root.' },
     { id: 'dreogan', head: 'drēogan', la: 'drēogan; drēah, drugon; drogen', pos: 'verb, strong (II)', en: 'endure, suffer; carry out', note: 'Scots dree one’s weird, “endure one’s fate”.' },
     { id: 'sceawian', head: 'scēawian', la: 'scēawian; scēawode', pos: 'verb, weak', en: 'look at, examine', note: 'German schauen; English show.' },
-    { id: 'winnan', head: 'winnan', la: 'winnan; wann, wunnon; wunnen', pos: 'verb, strong (III)', en: 'fight, struggle', note: 'English win meant “strive” first. Lecture V: wunnon.' }
+    { id: 'winnan', head: 'winnan', la: 'winnan; wann, wunnon; wunnen', pos: 'verb, strong (III)', en: 'fight, struggle', note: 'English win meant “strive” first. Lecture V: wunnon.' },
+    { id: 'sunu', head: 'sunu', la: 'sunu, suna', g: 'm', pos: 'noun, u-stem', en: 'son', note: 'German Sohn. An old declension: genitive and dative singular and nominative plural are all suna.' }
   ],
 
   grammarCards: [
@@ -198,8 +199,8 @@ Viator.addLecture('oe', {
     { id: 'e17', type: 'order', prompt: 'Put the English translation in order.', source: 'Þā wæs sēo heall īdel.', tokens: ['Then', 'the hall', 'was', 'empty'], explain: 'þā + verb: “then”.' },
     { id: 'e18', type: 'translate', dir: 'oe-en', source: 'Se gōda cyning sæt on þǣre healle.', model: 'The good king sat in the hall.', accepted: ['good king sat in hall', 'good king was sitting in hall', 'good king sat in the hall'] },
     { id: 'e19', type: 'translate', dir: 'oe-en', source: 'Þā hē þæt geseah, þā wæs hē unblīþe.', model: 'When he saw that, he was unhappy.', accepted: ['when he saw that he was unhappy', 'when he saw that then he was unhappy', 'when he saw it he was unhappy', 'when he saw that he was sad', 'when he saw that then he was sad', 'when he saw that he was joyless'] },
-    { id: 'e20', type: 'translate', dir: 'en-oe', source: 'a strong king (acc.)', model: 'strangne cyning', accepted: ['strangne cyning'] },
-    { id: 'e21', type: 'translate', dir: 'en-oe', source: 'the old man (nom., eald, guma)', model: 'se ealda guma', accepted: ['se ealda guma', 'se ealda mann', 'se ealda man'] },
+    { id: 'e20', type: 'translate', dir: 'en-oe', source: 'a strong king (acc.)', model: 'strangne cyning', accepted: ['strangne cyning'], explain: 'Without an article the adjective is strong: masculine accusative -ne, which corresponds to German -en in guten Wein.' },
+    { id: 'e21', type: 'translate', dir: 'en-oe', source: 'the old man (nom., eald, guma)', model: 'se ealda guma', accepted: ['se ealda guma', 'se ealda mann', 'se ealda man'], explain: 'After the article se the adjective is weak, ealda, as in German der alte Mann.' },
     { id: 'e22', type: 'mc', prompt: 'Why does the poet call Grendel <span class="la">healðegn</span>, “hall-thegn”?', options: ['Bitter irony: he is the hall’s only occupant at night', 'Because Hrothgar employed him', 'Because he guarded the hall against others', 'It is his real title'], answer: 0, explain: 'A parody of the loyal retainer.' },
     { id: 'e23', type: 'mc', prompt: 'Why are adjectives such as <span class="la">wergan</span> weak without an article in poetry?', options: ['An older usage from before the article developed', 'They are comparatives', 'Metrical error', 'They are nouns'], answer: 0, explain: 'Archaic poetic usage.' }
   ],
@@ -268,7 +269,7 @@ Viator.addLecture('oe', {
       { id: 't5', type: 'gap', prompt: '<span class="la">mid strang___ wǣpnum</span>', hint: 'with strong weapons (strong dat. pl.)', answers: ['um'], full: 'mid strangum wǣpnum', explain: '-um.' },
       { id: 't6', type: 'gap', prompt: '<span class="la">þā eald___ guman</span>', hint: 'the old men (weak)', answers: ['an'], full: 'þā ealdan guman', explain: 'Weak plural -an.' },
       { id: 't7', type: 'translate', dir: 'oe-en', source: 'Þā wæs Heorot īdel.', model: 'Then Heorot was empty.', accepted: ['then heorot was empty', 'then heorot stood empty', 'then heorot was idle', 'then heorot was deserted'] },
-      { id: 't8', type: 'translate', dir: 'en-oe', source: 'the best of houses', model: 'hūsa sēlest', accepted: ['hūsa sēlest', 'hūsa betst', 'sēlest hūsa'] },
+      { id: 't8', type: 'translate', dir: 'en-oe', source: 'the best of houses', model: 'hūsa sēlest', accepted: ['hūsa sēlest', 'hūsa betst', 'sēlest hūsa'], explain: 'Sēlest “best” with a partitive genitive plural: Beowulf’s phrase for Heorot (Beo 146).' },
       { id: 't9', type: 'mc', prompt: 'What does <span class="la">hūsa sēlest</span> refer to?', options: ['Heorot', 'Grendel’s cave', 'Hrothgar’s chamber', 'the outbuildings'], answer: 0, explain: 'The best of houses stood empty.' },
       { id: 't10', type: 'mc', prompt: 'English <em>elder, eldest</em> keep:', options: ['the umlaut of eald, ieldra, ieldest', 'a French spelling', 'a Norse vowel', 'nothing old'], answer: 0, explain: 'Like German alt, älter.' },
       { id: 't11', type: 'mc', prompt: '<span class="la">þonne</span> with the verb at the end of its clause means:', options: ['whenever, when', 'then', 'than', 'there'], answer: 0, explain: 'Like þā: word order decides.' }

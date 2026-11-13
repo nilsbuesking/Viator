@@ -266,8 +266,8 @@ Viator.addLecture('mhd', {
     { id: 'e19', type: 'translate', dir: 'mhd-de', source: 'Diu nahtegal sanc schône.', model: 'Die Nachtigall sang schön.', accepted: ['nachtigall sang schön', 'nachtigall sang wunderschön', 'nachtigall sang herrlich'] },
     { id: 'e20', type: 'translate', dir: 'mhd-de', source: 'Ich kam zuo der ouwe.', model: 'Ich kam zu der Aue.', accepted: ['ich kam zu aue', 'ich kam zur aue', 'ich kam auf aue', 'ich kam zu wiese', 'ich kam zur wiese', 'ich kam auf wiese'] },
     { id: 'e21', type: 'translate', dir: 'mhd-en', source: 'Wir vunden bluomen unde gras.', model: 'We found flowers and grass.', accepted: ['we found flowers and grass'] },
-    { id: 'e22', type: 'translate', dir: 'de-mhd', source: 'Er ritt in den Wald.', model: 'Er reit in den walt.', accepted: ['er reit in den walt', 'er reit ze walde', 'er reit in walt'] },
-    { id: 'e23', type: 'translate', dir: 'de-mhd', source: 'Wir gaben.', model: 'Wir gâben.', accepted: ['wir gâben'] },
+    { id: 'e22', type: 'translate', dir: 'de-mhd', source: 'Er ritt in den Wald.', model: 'Er reit in den walt.', accepted: ['er reit in den walt', 'er reit ze walde', 'er reit in walt'], explain: 'Rîten is a strong verb of class I: rîten, reit, riten, geriten. The singular past has ei; modern German took the plural vowel for both (ritt).' },
+    { id: 'e23', type: 'translate', dir: 'de-mhd', source: 'Wir gaben.', model: 'Wir gâben.', accepted: ['wir gâben'], explain: 'Class V: gëben, gap, gâben, gegëben. The plural past has long â, unlike the singular gap; modern German levelled them (gab, gaben).' },
     { id: 'e24', type: 'mc', prompt: 'The speaker of <em>Under der linden</em> is:', options: ['a woman remembering a meeting with her lover', 'a knight serving an unattainable lady', 'the nightingale', 'a watchman at dawn'], answer: 0, explain: 'A woman’s voice; love fulfilled, unlike hôhe minne.' },
     { id: 'e25', type: 'mc', prompt: '<span class="la">heide</span> in Walther means:', options: ['open, uncultivated land', 'heather moor only', 'a pagan woman', 'a forest'], answer: 0, explain: 'A gentle false friend: “heath” in the old, broad sense.' }
   ],
@@ -338,7 +338,7 @@ Viator.addLecture('mhd', {
       { id: 't6', type: 'mc', prompt: '<span class="la">du wære</span> means:', options: ['you were', 'you would be (only)', 'you are', 'be!'], answer: 0, explain: '2nd sg. preterite indicative, plural stem + e.' },
       { id: 't7', type: 'mc', prompt: 'Past subjunctive of <span class="la">ligen</span>:', options: ['læge', 'lige', 'lac', 'lâgen'], answer: 0, explain: 'lâgen → læge, as modern läge.' },
       { id: 't8', type: 'translate', dir: 'mhd-de', source: 'Ich kam gegangen.', model: 'Ich kam gegangen.', accepted: ['ich kam gegangen', 'ich kam', 'ich ging hin', 'ich kam zu fuß'] },
-      { id: 't9', type: 'translate', dir: 'de-mhd', source: 'Die Nachtigall sang.', model: 'Diu nahtegal sanc.', accepted: ['diu nahtegal sanc', 'die nahtegal sanc'] },
+      { id: 't9', type: 'translate', dir: 'de-mhd', source: 'Die Nachtigall sang.', model: 'Diu nahtegal sanc.', accepted: ['diu nahtegal sanc', 'die nahtegal sanc'], explain: 'Diu is the feminine article (modern die). Singen, sanc, sungen, gesungen: the singular past has its own vowel, and final g is written c because it was devoiced.' },
       { id: 't10', type: 'mc', prompt: '<span class="la">wessez iemen</span> means:', options: ['if anyone knew it', 'someone washed it', 'whose is it', 'anyone who was there'], answer: 0, explain: 'wesse ëz: past subjunctive of wizzen + ëz.' },
       { id: 't11', type: 'mc', prompt: 'In which manuscripts does <em>Under der linden</em> survive?', options: ['The Weingarten manuscript (B) and the Codex Manesse (C)', 'Only the Codex Manesse', 'In Walther’s own autograph', 'In the Carmina Burana'], answer: 0, explain: 'Two manuscripts, both from around 1300.' }
     ]

@@ -139,7 +139,8 @@ Viator.addLecture('oe', {
     { id: 'forlaetan', head: 'forlǣtan', la: 'forlǣtan; forlēt, forlēton; forlǣten', pos: 'verb, strong (VII)', en: 'leave, abandon; let', note: 'German verlassen, verließ.' },
     { id: 'freogan', head: 'frēogan', la: 'frēogan; frēode', pos: 'verb, weak (2)', en: 'love; free', note: 'Same root as frēond and frēo “free”; German Freund, frei.' },
     { id: 'milde', head: 'milde', la: 'milde; mildust', pos: 'adjective', en: 'mild, kind, generous', note: 'German mild, milde (also “generous”: Milde in Middle High German).' },
-    { id: 'lithe', head: 'līðe', la: 'līðe; līðost', pos: 'adjective', en: 'gentle, kind', note: 'German lind (Linderung); English lithe.' }
+    { id: 'lithe', head: 'līðe', la: 'līðe; līðost', pos: 'adjective', en: 'gentle, kind', note: 'German lind (Linderung); English lithe.' },
+    { id: 'hord', head: 'hord', la: 'hord, hordes', g: 'n/m', pos: 'noun, strong', en: 'hoard, treasure', note: 'German Hort, as in der Nibelungenhort. swylce on horde ǣr: as before in the hoard (3164).' }
   ],
 
   grammarCards: [
@@ -193,8 +194,8 @@ Viator.addLecture('oe', {
     { id: 'e17', type: 'order', prompt: 'Put the English translation in order.', source: 'Hīe worhton hlǣw on hliðe.', tokens: ['They', 'built', 'a mound', 'on the headland'], explain: 'Beowulf 3156–3157.' },
     { id: 'e18', type: 'translate', dir: 'oe-en', source: 'Se hlǣw wæs hēah ond brād.', model: 'The mound was high and broad.', accepted: ['mound was high and broad', 'barrow was high and broad', 'mound was high and wide', 'barrow was high and wide', 'the mound was high and broad'] },
     { id: 'e19', type: 'translate', dir: 'oe-en', source: 'Hīe forlēton þæt gold.', model: 'They left the gold.', accepted: ['they left gold', 'they abandoned gold', 'they left the gold', 'they abandoned the gold', 'they left behind gold', 'they left behind the gold'] },
-    { id: 'e20', type: 'translate', dir: 'en-oe', source: 'the high mound (nom.; hēah, hlǣw)', model: 'se hēa hlǣw', accepted: ['se hēa hlǣw', 'se hēah hlǣw', 'se hēaga hlǣw'] },
-    { id: 'e21', type: 'translate', dir: 'en-oe', source: 'whence? (from where?)', model: 'hwanan', accepted: ['hwanan', 'hwonan'] },
+    { id: 'e20', type: 'translate', dir: 'en-oe', source: 'the high mound (nom.; hēah, hlǣw)', model: 'se hēa hlǣw', accepted: ['se hēa hlǣw', 'se hēah hlǣw', 'se hēaga hlǣw'], explain: 'Hēah loses its h before an ending: weak masculine hēa.' },
+    { id: 'e21', type: 'translate', dir: 'en-oe', source: 'whence? (from where?)', model: 'hwanan', accepted: ['hwanan', 'hwonan'], explain: 'Old English keeps where (hwǣr), whither (hwider) and whence (hwanan) apart, as German does with wo, wohin and woher.' },
     { id: 'e22', type: 'mc', prompt: 'Which ancient account of a funeral is often compared with the twelve riders?', options: ['Jordanes on Attila', 'Tacitus on Arminius', 'Bede on Edwin', 'Caesar on the Gauls'], answer: 0, explain: 'Getica 49.' },
     { id: 'e23', type: 'mc', prompt: 'Why are many words in 3150–3182 in brackets?', options: ['The manuscript was damaged by fire and has crumbled', 'They are Latin', 'They were added in the 19th century', 'They are spoken by the narrator'], answer: 0, explain: 'The Cotton fire of 1731.' }
   ],
@@ -263,7 +264,7 @@ Viator.addLecture('oe', {
       { id: 't5', type: 'gap', prompt: '<span class="la">lēodum līð___</span>', hint: 'gentlest (superlative)', answers: ['ost', 'ust'], full: 'lēodum līðost', explain: 'Superlative.' },
       { id: 't6', type: 'gap', prompt: '<span class="la">Þā ymbe hlǣw ri___ hildedēore</span>', hint: 'rode (pret. pl. of rīdan)', answers: ['odan', 'don'], full: 'Þā ymbe hlǣw riodan hildedēore', explain: 'riodan = ridon.' },
       { id: 't7', type: 'translate', dir: 'oe-en', source: 'Hīe mǣndon þone cyning.', model: 'They mourned the king.', accepted: ['they mourned king', 'they lamented king', 'they mourned the king', 'they lamented the king', 'they bewailed the king', 'they bewailed king'] },
-      { id: 't8', type: 'translate', dir: 'en-oe', source: 'here (rest)', model: 'hēr', accepted: ['hēr'] },
+      { id: 't8', type: 'translate', dir: 'en-oe', source: 'here (rest)', model: 'hēr', accepted: ['hēr'], explain: 'Hēr “here” is for rest; hider “hither” is for motion, like German hier and her.' },
       { id: 't9', type: 'mc', prompt: 'How many companions went with Beowulf against the dragon?', options: ['Eleven', 'Twelve', 'Fourteen', 'None'], answer: 0, explain: 'Only Wiglaf stayed.' },
       { id: 't10', type: 'mc', prompt: 'What damaged the end of the Beowulf manuscript?', options: ['The Cotton library fire of 1731', 'Viking raids', 'Water in the 19th century', 'A printer'], answer: 0, explain: 'The edges have crumbled since.' },
       { id: 't11', type: 'mc', prompt: 'Which Swedish site has royal mounds with cremations of the 6th century?', options: ['Gamla Uppsala', 'Lejre', 'Birka', 'Hedeby'], answer: 0, explain: 'A useful parallel for the funeral.' }

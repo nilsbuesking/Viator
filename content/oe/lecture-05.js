@@ -139,7 +139,9 @@ Viator.addLecture('oe', {
     { id: 'wer', head: 'wer', la: 'wer, weres', g: 'm', pos: 'noun, strong', en: 'man', note: 'Survives in werewolf and in German Werwolf. Latin vir is related.' },
     { id: 'mor', head: 'mōr', la: 'mōr, mōres', g: 'm', pos: 'noun, strong', en: 'moor, wasteland', note: 'German Moor.' },
     { id: 'eoten', head: 'eoten', la: 'eoten; pl. eotenas', g: 'm', pos: 'noun, strong', en: 'giant, monster', note: 'Old Norse jǫtunn.' },
-    { id: 'metod', head: 'Metod', la: 'Metod, Metodes', g: 'm', pos: 'noun, strong', en: 'God, the Measurer (poetic)', note: 'From metan, measure: he who measures out fate.' }
+    { id: 'metod', head: 'Metod', la: 'Metod, Metodes', g: 'm', pos: 'noun, strong', en: 'God, the Measurer (poetic)', note: 'From metan, measure: he who measures out fate.' },
+    { id: 'sona', head: 'sōna', la: 'sōna', pos: 'adverb', en: 'at once, immediately', note: 'False friend: English soon has weakened from “at once” to “before long”.' },
+    { id: 'swylce', head: 'swylce', la: 'swylce, swelce', pos: 'adverb, conjunction', en: 'likewise, also; such as; as if', note: 'From swylc “such” (German solch). “As if” takes the subjunctive (Lecture IX).' }
   ],
 
   grammarCards: [
@@ -195,8 +197,8 @@ Viator.addLecture('oe', {
     { id: 'e17', type: 'order', prompt: 'Put the English translation in order.', source: 'Grendel cōm on niht.', tokens: ['Grendel', 'came', 'at', 'night'], explain: 'cuman, cōm.' },
     { id: 'e18', type: 'translate', dir: 'oe-en', source: 'Hē nam þrītig þegna.', model: 'He took thirty thegns.', accepted: ['he took thirty thegns', 'he seized thirty thegns', 'he took thirty thanes', 'he seized thirty thanes', 'he took thirty retainers', 'he seized thirty retainers', 'he took thirty warriors', 'he seized thirty warriors', 'he took thirty men'] },
     { id: 'e19', type: 'translate', dir: 'oe-en', source: 'Hīe cōmon tō þǣre healle.', model: 'They came to the hall.', accepted: ['they came to hall', 'they came to the hall', 'they arrived at hall'] },
-    { id: 'e20', type: 'translate', dir: 'en-oe', source: 'he rode', model: 'hē rād', accepted: ['hē rād'] },
-    { id: 'e21', type: 'translate', dir: 'en-oe', source: 'they bound', model: 'hīe bundon', accepted: ['hīe bundon'] },
+    { id: 'e20', type: 'translate', dir: 'en-oe', source: 'he rode', model: 'hē rād', accepted: ['hē rād'], explain: 'Class I strong verb: rīdan, rād, ridon, geriden. Compare MHG rîten, reit and German reiten, ritt.' },
+    { id: 'e21', type: 'translate', dir: 'en-oe', source: 'they bound', model: 'hīe bundon', accepted: ['hīe bundon'], explain: 'Class III: bindan, band, bundon, gebunden; the past plural has u, as German gebunden does.' },
     { id: 'e22', type: 'mc', prompt: 'What provoked Grendel, according to the poem?', options: ['The joy of the men in the hall', 'A theft of treasure', 'An insult from Hrothgar', 'The arrival of Beowulf'], answer: 0, explain: 'Swā þā drihtguman drēamum lifdon … oð ðæt ān ongan fyrene fremman.' },
     { id: 'e23', type: 'mc', prompt: 'What did the sleeping warriors know?', options: ['No sorrow', 'That Grendel was coming', 'The name of their killer', 'Nothing of the feast'], answer: 0, explain: 'sorge ne cūðon.' }
   ],
@@ -270,7 +272,7 @@ Viator.addLecture('oe', {
       { id: 't5', type: 'gap', prompt: '<span class="la">Hīe c___ tō Heorote.</span>', hint: 'they came', answers: ['ōmon', 'omon'], full: 'Hīe cōmon tō Heorote.', explain: 'cuman, cōm, cōmon.' },
       { id: 't6', type: 'gap', prompt: '<span class="la">Se cyning h___ him gold beran.</span>', hint: 'ordered (hātan, past sg.)', answers: ['ēt', 'et'], full: 'Se cyning hēt him gold beran.', explain: 'Class VII: hātan, hēt.' },
       { id: 't7', type: 'translate', dir: 'oe-en', source: 'Grendel fand þā þegnas.', model: 'Grendel found the thegns.', accepted: ['grendel found thegns', 'grendel found thanes', 'grendel found retainers', 'grendel found warriors'] },
-      { id: 't8', type: 'translate', dir: 'en-oe', source: 'we spoke (sprecan)', model: 'wē sprǣcon', accepted: ['wē sprǣcon'] },
+      { id: 't8', type: 'translate', dir: 'en-oe', source: 'we spoke (sprecan)', model: 'wē sprǣcon', accepted: ['wē sprǣcon'], explain: 'Class V: sprecan, spræc, sprǣcon, gesprecen. The past plural has long ǣ, as German sprachen has long a.' },
       { id: 't9', type: 'mc', prompt: 'Who explained the s/r alternation in cēosan, curon?', options: ['Karl Verner', 'Jacob Grimm', 'Henry Sweet', 'Friedrich Klaeber'], answer: 0, explain: 'Verner’s law, 1875.' },
       { id: 't10', type: 'mc', prompt: 'Which word did Tolkien take from <span class="la">orcnēas</span>?', options: ['orc', 'ent', 'hobbit', 'elf'], answer: 0, explain: 'orc + nē, corpse.' },
       { id: 't11', type: 'mc', prompt: 'Why has English <em>help</em> a weak past (<em>helped</em>)?', options: ['Many strong verbs became weak in English', 'helpan was always weak', 'It is a French word', 'By i-umlaut'], answer: 0, explain: 'helpan, healp, hulpon, holpen was strong.' }

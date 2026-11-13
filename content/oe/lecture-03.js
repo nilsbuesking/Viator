@@ -144,7 +144,10 @@ Viator.addLecture('oe', {
     { id: 'geat', head: 'geat', la: 'geat; pl. gatu', g: 'n', pos: 'noun, strong', en: 'gate', note: 'English gate; Old Norse gata (street) is a different word.' },
     { id: 'feoh', head: 'feoh', la: 'feoh, fēos', g: 'n', pos: 'noun, strong', en: 'money, property; cattle', note: 'German Vieh: wealth was once counted in cattle. English fee.' },
     { id: 'feorh', head: 'feorh', la: 'feorh, fēores', g: 'n/m', pos: 'noun, strong', en: 'life', note: 'feoh ond feorh: money and life, a common pair.' },
-    { id: 'gisl', head: 'gīsl', la: 'gīsl, gīsles', g: 'm', pos: 'noun, strong', en: 'hostage', note: 'German Geisel.' }
+    { id: 'gisl', head: 'gīsl', la: 'gīsl, gīsles', g: 'm', pos: 'noun, strong', en: 'hostage', note: 'German Geisel.' },
+    { id: 'with', head: 'wið', la: 'wið (+ acc., dat., gen.)', pos: 'preposition', en: 'against; towards; in exchange for', note: 'German wider (wider Willen). Modern with comes from it; the Old English word for “with” was mid. feaht wið Bretwalum: fought against the Britons.' },
+    { id: 'ymb', head: 'ymb', la: 'ymb, ymbe (+ acc.)', pos: 'preposition', en: 'around; about; (of time) after', note: 'German um. ymb xxxi wintra: about thirty-one years later.' },
+    { id: 'ac', head: 'ac', la: 'ac', pos: 'conjunction', en: 'but', note: 'Gothic ak. No German descendant; lost in London English but kept in the West (Piers Plowman: Ac on a May mornynge).' }
   ],
 
   grammarCards: [
@@ -201,8 +204,8 @@ Viator.addLecture('oe', {
     { id: 'e17', type: 'order', prompt: 'Put the English translation in order.', source: 'Se cyning is on þǣm būre.', tokens: ['The king', 'is', 'in', 'the chamber'], explain: 'būr: chamber, English bower.' },
     { id: 'e18', type: 'translate', dir: 'oe-en', source: 'Hīe wǣron feohtende.', model: 'They were fighting.', accepted: ['they were fighting', 'they fought', 'they kept fighting', 'they were fighting on'] },
     { id: 'e19', type: 'translate', dir: 'oe-en', source: 'Se cyning biþ gōd.', model: 'The king is good.', accepted: ['king is good', 'king will be good', 'king is always good', 'king is a good one'] },
-    { id: 'e20', type: 'translate', dir: 'en-oe', source: 'we hear', model: 'wē hīeraþ', accepted: ['wē hīeraþ', 'wē hȳraþ', 'wē hēraþ'] },
-    { id: 'e21', type: 'translate', dir: 'en-oe', source: 'you (sg.) are (wesan)', model: 'þū eart', accepted: ['þū eart'] },
+    { id: 'e20', type: 'translate', dir: 'en-oe', source: 'we hear', model: 'wē hīeraþ', accepted: ['wē hīeraþ', 'wē hȳraþ', 'wē hēraþ'], explain: 'The present plural has one ending, -aþ, for all three persons (wē, gē, hīe hīeraþ). Hīeran is West Saxon; Anglian has hēran, later texts hȳran.' },
+    { id: 'e21', type: 'translate', dir: 'en-oe', source: 'you (sg.) are (wesan)', model: 'þū eart', accepted: ['þū eart'], explain: 'Ic eom, þū eart, hē is: eart is the ancestor of English art.' },
     { id: 'e22', type: 'mc', prompt: 'Why did the king’s men refuse Cyneheard’s offer?', options: ['No kinsman was dearer to them than their lord', 'They did not trust his money', 'They had been ordered to by Osric', 'They did not know who he was'], answer: 0, explain: 'him nǣnig mǣg lēofra nǣre ðonne hiera hlāford.' },
     { id: 'e23', type: 'mc', prompt: 'Who survived the fight at the gates?', options: ['The ealdorman’s godson, wounded', 'Cyneheard', 'Nobody', 'Osric'], answer: 0, explain: 'alle būtan ānum, se wæs ðæs aldormonnes godsunu. (The British hostage survived the first fight.)' }
   ],
@@ -294,7 +297,7 @@ Viator.addLecture('oe', {
       { id: 't5', type: 'gap', prompt: '<span class="la">Hīe feoht___.</span>', hint: 'they fight', answers: ['aþ', 'að', 'ath'], full: 'Hīe feohtaþ.', explain: 'Plural -aþ.' },
       { id: 't6', type: 'gap', prompt: '<span class="la">Þū ___ mīn hlāford.</span>', hint: 'are (wesan)', answers: ['eart'], full: 'Þū eart mīn hlāford.', explain: 'eart.' },
       { id: 't7', type: 'translate', dir: 'oe-en', source: 'Ic eom his mǣg.', model: 'I am his kinsman.', accepted: ['i am his kinsman', 'i am his relative', 'i am his kin', 'i am his relation'] },
-      { id: 't8', type: 'translate', dir: 'en-oe', source: 'they are (wesan)', model: 'hīe sindon', accepted: ['hīe sindon', 'hīe sint', 'hīe syndon', 'hīe sind'] },
+      { id: 't8', type: 'translate', dir: 'en-oe', source: 'they are (wesan)', model: 'hīe sindon', accepted: ['hīe sindon', 'hīe sint', 'hīe syndon', 'hīe sind'], explain: 'Sindon or sint is related to German sind; the bēon forms (bēoþ) are used for general truths and the future.' },
       { id: 't9', type: 'mc', prompt: 'What does <span class="la">Hēr</span> mean at the start of a Chronicle annal?', options: ['in this year', 'here lies', 'hear!', 'lord'], answer: 0, explain: 'The annals were written against a list of years.' },
       { id: 't10', type: 'mc', prompt: 'Which manuscript of the Chronicle is the oldest?', options: ['The Parker Chronicle (Corpus Christi College, Cambridge)', 'The Peterborough Chronicle', 'The Nowell Codex', 'The Exeter Book'], answer: 0, explain: 'Manuscript A, from about 900.' },
       { id: 't11', type: 'mc', prompt: 'German <em>bin, bist</em> correspond to which Old English verb?', options: ['bēon (bēo, bist)', 'wesan (eom, eart)', 'habban', 'weorþan'], answer: 0, explain: 'Same root.' }

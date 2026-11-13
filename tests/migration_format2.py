@@ -15,9 +15,9 @@ with sync_playwright() as p:
     pg.select_option('#coursepick','mhd'); pg.wait_for_timeout(200)   # triggers a save
     P=json.loads(pg.evaluate("localStorage.getItem('viator.progress')"))
     mhd=P['courses'].get('mhd',{}); mnd=P['courses']['mnd']
-    ok = [P['format']==2, mhd['lectures']['mhd-s2']['sections']=={'intro':True,'grammar':True}, 'mnd-s1' not in mnd['lectures'],
+    ok = [P['format']>=2, mhd['lectures']['mhd-s2']['sections']=={'intro':True,'grammar':True}, 'mnd-s1' not in mnd['lectures'],
           'v:mhd-s2:kopman:f' in mhd['cards'], 'g:mhd-s2:x' in mhd['cards'], 'v:mnd-01:ik:f' in mnd['cards'], mhd['misses'].get('mhd-s2:e3')==2]
-    print('migration checks:', ok, '| all ok:', all(ok))
-    print('special lecture shown as started:', pg.locator('[data-lecture=mhd-s2]').count()==1)
+    print(('ok   ' if all(ok) else 'FAIL ') + 'migration checks: ' + str(ok))
+    print(('ok   ' if pg.locator('[data-lecture=mhd-s2]').count()==1 else 'FAIL ') + 'special lecture shown')
     print('mnd offered in course list:', 'mnd' in pg.locator('#coursepick option').evaluate_all('o=>o.map(x=>x.value)'))
     print('errors:', errs); b.close()

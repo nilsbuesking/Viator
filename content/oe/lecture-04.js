@@ -144,7 +144,9 @@ Viator.addLecture('oe', {
     { id: 'hatan', head: 'hātan', la: 'hātan; hēt; hāten', pos: 'verb, strong', en: 'order, command; call, name', note: 'German heißen in both senses. hāten: called (Lecture III).' },
     { id: 'gewyrcan', head: 'gewyrcan', la: '(ge)wyrcan; worhte; geworht', pos: 'verb, weak', en: 'make, build; bring about', note: 'German wirken; English work, wrought.' },
     { id: 'daelan', head: 'dǣlan', la: '(ge)dǣlan; dǣlde', pos: 'verb, weak', en: 'share out, distribute', note: 'German teilen; English deal.' },
-    { id: 'healdan', head: 'healdan', la: 'healdan; hēold, hēoldon; healden', pos: 'verb, strong', en: 'hold; rule, keep', note: 'German halten.' }
+    { id: 'healdan', head: 'healdan', la: 'healdan; hēold, hēoldon; healden', pos: 'verb, strong', en: 'hold; rule, keep', note: 'German halten.' },
+    { id: 'eft', head: 'eft', la: 'eft', pos: 'adverb', en: 'again, back; afterwards', note: 'Related to æfter; archaic English eftsoons. No German descendant.' },
+    { id: 'sweord', head: 'sweord', la: 'sweord, sweordes', g: 'n', pos: 'noun, strong', en: 'sword', note: 'German Schwert. Verse has many other words for it: mēce, bill, ecg, īren.' }
   ],
 
   grammarCards: [
@@ -201,8 +203,8 @@ Viator.addLecture('oe', {
     { id: 'e17', type: 'order', prompt: 'Put the English translation in order.', source: 'Se cyning hēt þā healle wyrcan.', tokens: ['The king', 'ordered', 'the hall', 'to be built'], explain: 'hātan + infinitive, as German er hieß die Halle bauen.' },
     { id: 'e18', type: 'translate', dir: 'oe-en', source: 'Sēo cwēn sæt on þǣre healle.', model: 'The queen sat in the hall.', accepted: ['queen sat in hall', 'queen was sitting in hall', 'queen sat in the hall'] },
     { id: 'e19', type: 'translate', dir: 'oe-en', source: 'Þā guman hīerdon þā lāre.', model: 'The men heard the teaching.', accepted: ['men heard teaching', 'men heard lore', 'men listened to teaching', 'men heard the teaching', 'men heard learning'] },
-    { id: 'e20', type: 'translate', dir: 'en-oe', source: 'the queen (nom.)', model: 'sēo cwēn', accepted: ['sēo cwēn'] },
-    { id: 'e21', type: 'translate', dir: 'en-oe', source: 'in the hall', model: 'on þǣre healle', accepted: ['on þǣre healle', 'in þǣre healle', 'on þǣre heall', 'on healle'] },
+    { id: 'e20', type: 'translate', dir: 'en-oe', source: 'the queen (nom.)', model: 'sēo cwēn', accepted: ['sēo cwēn'], explain: 'Sēo is the feminine nominative of the article, German die.' },
+    { id: 'e21', type: 'translate', dir: 'en-oe', source: 'in the hall', model: 'on þǣre healle', accepted: ['on þǣre healle', 'in þǣre healle', 'on þǣre heall', 'on healle'], explain: 'On + dative for place where; þǣre is the feminine dative, like German der in in der Halle.' },
     { id: 'e22', type: 'mc', prompt: 'What does the poet say will happen to Heorot?', options: ['It will be destroyed by fire, in a feud between in-laws', 'Grendel will live in it', 'It will be given to Beowulf', 'It will stand for ever'], answer: 0, explain: 'heaðowylma bād, lāðan līges … āþumswēorum.' },
     { id: 'e23', type: 'mc', prompt: 'Which of Healfdene’s children is the king of the first part of the poem?', options: ['Hrothgar', 'Heorogar', 'Halga', 'Onela'], answer: 0, explain: 'Þā wæs Hrōðgāre herespēd gyfen.' }
   ],
@@ -280,7 +282,7 @@ Viator.addLecture('oe', {
       { id: 't5', type: 'gap', prompt: '<span class="la">mid þǣm gum___</span>', hint: 'with the men (dat. pl.)', answers: ['um'], full: 'mid þǣm gumum', explain: 'Dative plural -um.' },
       { id: 't6', type: 'gap', prompt: '<span class="la">Hē hēt þā cwēn___ cuman.</span>', hint: 'the queen (acc.)', answers: ['e'], full: 'Hē hēt þā cwēne cuman.', explain: 'Strong feminine acc. -e.' },
       { id: 't7', type: 'translate', dir: 'oe-en', source: 'Se cyning dǣlde bēagas on þǣre healle.', model: 'The king gave out rings in the hall.', accepted: ['king gave out rings in hall', 'king distributed rings in hall', 'king shared out rings in hall', 'king gave rings in hall', 'king handed out rings in hall'] },
-      { id: 't8', type: 'translate', dir: 'en-oe', source: 'the man’s name (guma, nama)', model: 'þæs guman nama', accepted: ['þæs guman nama', 'þæs guman naman'] },
+      { id: 't8', type: 'translate', dir: 'en-oe', source: 'the man’s name (guma, nama)', model: 'þæs guman nama', accepted: ['þæs guman nama', 'þæs guman naman'], explain: 'Guma is a weak masculine: genitive guman. The word survives in German Bräutigam.' },
       { id: 't9', type: 'mc', prompt: 'Where have great royal halls of the 6th–10th centuries been excavated?', options: ['Lejre, Zealand', 'Sutton Hoo', 'Maldon', 'Winchester'], answer: 0, explain: 'Linked by tradition with the Scyldings.' },
       { id: 't10', type: 'mc', prompt: '<span class="la">þisne</span> in <span class="la">geond þisne middangeard</span> is:', options: ['this (acc. m.)', 'the (dat.)', 'these', 'that (n.)'], answer: 0, explain: 'From þes, þēos, þis.' },
       { id: 't11', type: 'mc', prompt: 'Why does German <em>Lehre</em> have the plural <em>Lehren</em> but Old English <span class="la">lār</span> has <span class="la">lāra</span>?', options: ['German spread the weak -en to feminine nouns', 'lār is a weak noun', 'Lehre is a loan word', 'Old English lost the plural'], answer: 0, explain: 'The weak plural spread in German.' }

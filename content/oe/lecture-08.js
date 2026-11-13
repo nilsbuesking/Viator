@@ -140,7 +140,8 @@ Viator.addLecture('oe', {
     { id: 'stigan', head: 'stīgan', la: 'stīgan; stāh, stigon; stigen', pos: 'verb, strong (I)', en: 'climb, go up or down', note: 'German steigen, stieg; English stile, stirrup.' },
     { id: 'wisian', head: 'wīsian', la: 'wīsian; wīsode', pos: 'verb, weak (2)', en: 'guide, show the way', note: 'German weisen.' },
     { id: 'gegyrwan', head: 'gegyrwan', la: 'gegyrwan; gegyrede', pos: 'verb, weak (1)', en: 'prepare, equip, dress', note: 'Related to gearo; German gerben once meant “make ready”.' },
-    { id: 'thancian', head: 'þancian', la: 'þancian; þancode (+ dat.)', pos: 'verb, weak (2)', en: 'thank', note: 'German danken + dative: Gode þancedon, “they thanked God”.' }
+    { id: 'thancian', head: 'þancian', la: 'þancian; þancode (+ dat.)', pos: 'verb, weak (2)', en: 'thank', note: 'German danken + dative: Gode þancedon, “they thanked God”.' },
+    { id: 'sith', head: 'sīð', la: 'sīð, sīðes', g: 'm', pos: 'noun, strong', en: 'journey, voyage; time, occasion', note: 'wilsīð “desired voyage” (line 216); forman sīðe “for the first time”. gesīð is a companion on the way (Lecture II); German Gesinde is related.' }
   ],
 
   grammarCards: [
@@ -196,8 +197,8 @@ Viator.addLecture('oe', {
     { id: 'e17', type: 'order', prompt: 'Put the English translation in order.', source: 'Beornas on stefn stigon.', tokens: ['The warriors', 'climbed', 'onto', 'the prow'], explain: 'stīgan, stāh, stigon.' },
     { id: 'e18', type: 'translate', dir: 'oe-en', source: 'Se flota wæs on ȳðum.', model: 'The ship was on the waves.', accepted: ['ship was on waves', 'boat was on waves', 'ship was on the waves', 'the ship was on the waves'] },
     { id: 'e19', type: 'translate', dir: 'oe-en', source: 'Hīe Gode þancedon.', model: 'They thanked God.', accepted: ['they thanked god', 'they gave thanks to god'] },
-    { id: 'e20', type: 'translate', dir: 'en-oe', source: 'the wise men (nom.; snotor, ceorl)', model: 'þā snoteran ceorlas', accepted: ['þā snoteran ceorlas', 'þā snotran ceorlas', 'snotere ceorlas'] },
-    { id: 'e21', type: 'translate', dir: 'en-oe', source: 'they climbed (stīgan)', model: 'hīe stigon', accepted: ['hīe stigon'] },
+    { id: 'e20', type: 'translate', dir: 'en-oe', source: 'the wise men (nom.; snotor, ceorl)', model: 'þā snoteran ceorlas', accepted: ['þā snoteran ceorlas', 'þā snotran ceorlas', 'snotere ceorlas'], explain: 'After þā the adjective is weak, plural -an. Ceorl (English churl, German Kerl) has the masculine plural -as.' },
+    { id: 'e21', type: 'translate', dir: 'en-oe', source: 'they climbed (stīgan)', model: 'hīe stigon', accepted: ['hīe stigon'], explain: 'Class I: stīgan, stāh, stigon, gestigen, like German steigen, stiegen.' },
     { id: 'e22', type: 'mc', prompt: 'Magoun (1953) argued that formulas show Old English poetry was:', options: ['composed orally', 'translated from Latin', 'written by monks only', 'Scandinavian in origin'], answer: 0, explain: 'Benson (1966) objected that literate poets use formulas too.' },
     { id: 'e23', type: 'mc', prompt: '<span class="la">gūðcyning … mǣrne þēoden</span> (199–201) is an example of:', options: ['variation', 'rhyme', 'a kenning', 'enjambment only'], answer: 0, explain: 'Two names for Hrothgar in the same case.' }
   ],
@@ -274,7 +275,7 @@ Viator.addLecture('oe', {
       { id: 't5', type: 'gap', prompt: '<span class="la">Beornas gearwe on stefn ___</span>', hint: 'climbed (stīgan)', answers: ['stigon'], full: 'Beornas gearwe on stefn stigon', explain: 'Class I: stāh, stigon.' },
       { id: 't6', type: 'gap', prompt: '<span class="la">secg ___ lagucræftig mon</span>', hint: 'guided (wīsian, past)', answers: ['wīsade', 'wisade', 'wīsode'], full: 'secg wīsade, lagucræftig mon', explain: 'Weak class 2.' },
       { id: 't7', type: 'translate', dir: 'oe-en', source: 'Þā wæs sund liden.', model: 'Then the sea was crossed.', accepted: ['then sea was crossed', 'then the sea was crossed', 'then sea had been crossed', 'then the sea had been crossed', 'then sea was travelled', 'then the sea was traversed'] },
-      { id: 't8', type: 'translate', dir: 'en-oe', source: 'the ship (flota, nom.)', model: 'se flota', accepted: ['se flota'] },
+      { id: 't8', type: 'translate', dir: 'en-oe', source: 'the ship (flota, nom.)', model: 'se flota', accepted: ['se flota'], explain: 'Flota is a weak masculine in -a, so it takes se.' },
       { id: 't9', type: 'mc', prompt: 'Which historical source mentions Hygelac?', options: ['Gregory of Tours', 'Bede', 'Tacitus', 'The Anglo-Saxon Chronicle'], answer: 0, explain: 'Chlochilaicus, killed on the lower Rhine c. 520.' },
       { id: 't10', type: 'mc', prompt: 'Who devised the five types A–E?', options: ['Eduard Sievers', 'Fr. Klaeber', 'Henry Sweet', 'Jacob Grimm'], answer: 0, explain: '1885 and 1893.' },
       { id: 't11', type: 'mc', prompt: 'Resolution means:', options: ['a short stressed syllable + the next count as one lift', 'the end of a sentence', 'a rhyme', 'two alliterating words'], answer: 0, explain: 'As in stigon.' }

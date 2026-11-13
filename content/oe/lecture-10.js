@@ -186,8 +186,8 @@ Viator.addLecture('oe', {
     { id: 'e17', type: 'order', prompt: 'Put the English translation in order.', source: 'Nis þæt feor heonon.', tokens: ['It is', 'not', 'far', 'from here'], explain: 'nis = ne is.' },
     { id: 'e18', type: 'translate', dir: 'oe-en', source: 'Se heorot sēcð þone holt.', model: 'The stag seeks the wood.', accepted: ['stag seeks wood', 'stag seeks forest', 'hart seeks wood', 'hart seeks forest', 'stag looks for wood', 'stag looks for forest', 'stag is looking for wood', 'stag seeks the wood'] },
     { id: 'e19', type: 'translate', dir: 'oe-en', source: 'Þǣr mon mæg fȳr sēon.', model: 'There one can see fire.', accepted: ['there one can see fire', 'one can see fire there', 'there you can see fire', 'there people can see fire', 'there one may see fire'] },
-    { id: 'e20', type: 'translate', dir: 'en-oe', source: 'two men (twēgen, mann)', model: 'twēgen menn', accepted: ['twēgen menn', 'twēgen men'] },
-    { id: 'e21', type: 'translate', dir: 'en-oe', source: 'the stag (nom.)', model: 'se heorot', accepted: ['se heorot'] },
+    { id: 'e20', type: 'translate', dir: 'en-oe', source: 'two men (twēgen, mann)', model: 'twēgen menn', accepted: ['twēgen menn', 'twēgen men'], explain: 'Twēgen is the masculine of “two” (feminine twā), the source of twain. Mann has the umlaut plural menn.' },
+    { id: 'e21', type: 'translate', dir: 'en-oe', source: 'the stag (nom.)', model: 'se heorot', accepted: ['se heorot'], explain: 'Heorot “hart” (German Hirsch) is masculine; it is also the name of Hrothgar’s hall.' },
     { id: 'e22', type: 'mc', prompt: 'Which text describes the entrance to hell in terms close to the mere?', options: ['Blickling Homily XVI', 'Alfred’s Preface', 'The Battle of Maldon', 'The Chronicle for 755'], answer: 0, explain: 'Both draw on the Visio Pauli.' },
     { id: 'e23', type: 'mc', prompt: 'What is the poem’s name for Grendel’s mother?', options: ['She is never named', 'Wealhtheow', 'Hild', 'Æschere'], answer: 0, explain: 'She is called ides, āglǣcwīf, brimwylf.' }
   ],
@@ -263,7 +263,7 @@ Viator.addLecture('oe', {
       { id: 't5', type: 'gap', prompt: '<span class="la">sē þe holmclifu healdan scolde</span>: the relative particle is ___', hint: 'two letters', answers: ['þe', 'ðe'], full: 'þe', explain: 'Invariable.' },
       { id: 't6', type: 'gap', prompt: '<span class="la">twelf wintr___</span>', hint: 'of twelve winters (gen. pl.)', answers: ['a'], full: 'twelf wintra', explain: 'Numbers from four take the genitive.' },
       { id: 't7', type: 'translate', dir: 'oe-en', source: 'Hīe gesāwon twēgen menn.', model: 'They saw two men.', accepted: ['they saw two men', 'they had seen two men'] },
-      { id: 't8', type: 'translate', dir: 'en-oe', source: 'three women (þrēo, wīf)', model: 'þrēo wīf', accepted: ['þrēo wīf'] },
+      { id: 't8', type: 'translate', dir: 'en-oe', source: 'three women (þrēo, wīf)', model: 'þrēo wīf', accepted: ['þrēo wīf'], explain: 'Þrēo is the feminine and neuter of “three”. Wīf is neuter (German das Weib) and has no ending in the nominative plural.' },
       { id: 't9', type: 'mc', prompt: 'Who first linked the mere with Blickling Homily XVI?', options: ['Richard Morris', 'Fr. Klaeber', 'J. R. R. Tolkien', 'Henry Sweet'], answer: 0, explain: 'In his edition of the homilies, 1874–80.' },
       { id: 't10', type: 'mc', prompt: 'Whom did Grendel’s mother carry off?', options: ['Æschere', 'Hrothgar', 'Wiglaf', 'Unferth'], answer: 0, explain: 'Hrothgar’s closest counsellor.' },
       { id: 't11', type: 'mc', prompt: '<span class="la">nis þæt hēoru stōw</span> is an example of:', options: ['understatement (litotes)', 'a kenning', 'a formula of departure', 'a subjunctive'], answer: 0, explain: '“Not a pleasant place”: a terrible place.' }

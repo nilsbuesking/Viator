@@ -154,7 +154,9 @@ Viator.addLecture('oe', {
     { id: 'aenlic', head: 'ǣnlīc', la: 'ǣnlīc', pos: 'adjective', en: 'peerless, unique; splendid', note: 'From ān “one”: “one of a kind”.' },
     { id: 'gif', head: 'gif', la: 'gif', pos: 'conjunction', en: 'if', note: 'Not related to giefan “give”; German ob is related.' },
     { id: 'theah', head: 'þēah', la: 'þēah, þēah þe', pos: 'conjunction, adverb', en: 'though, although; yet', note: 'German doch; English though. Takes the subjunctive.' },
-    { id: 'naefne', head: 'næfne', la: 'næfne, nefne', pos: 'conjunction', en: 'unless, except', note: 'Takes the subjunctive. Prose prefers būton.' }
+    { id: 'naefne', head: 'næfne', la: 'næfne, nefne', pos: 'conjunction', en: 'unless, except', note: 'Takes the subjunctive. Prose prefers būton.' },
+    { id: 'eorthe', head: 'eorðe', la: 'eorðe, eorðan', g: 'f', pos: 'noun, weak', en: 'earth, ground; the world', note: 'German Erde. eorla ofer eorþan: of noblemen on earth (line 248).' },
+    { id: 'oththe', head: 'oþþe', la: 'oþþe, oððe', pos: 'conjunction', en: 'or', note: 'German oder.' }
   ],
 
   grammarCards: [
@@ -209,8 +211,8 @@ Viator.addLecture('oe', {
     { id: 'e17', type: 'order', prompt: 'Put the English translation in order.', source: 'ǣr gē fyr fēran', tokens: ['before', 'you', 'go', 'further'], explain: 'Beowulf 252–254; see the note on fēran in the reading.' },
     { id: 'e18', type: 'translate', dir: 'oe-en', source: 'Hē frægn hwanan hīe cōmen.', model: 'He asked where they came from.', accepted: ['he asked where they came from', 'he asked whence they came', 'he asked where they had come from', 'he asked from where they came'] },
     { id: 'e19', type: 'translate', dir: 'oe-en', source: 'God ūs helpe.', model: 'God help us.', accepted: ['god help us', 'may god help us', 'let god help us'] },
-    { id: 'e20', type: 'translate', dir: 'en-oe', source: 'though he was (subjunctive)', model: 'þēah hē wǣre', accepted: ['þēah hē wǣre', 'þēah þe hē wǣre'] },
-    { id: 'e21', type: 'translate', dir: 'en-oe', source: 'before he came (subjunctive)', model: 'ǣr hē cōme', accepted: ['ǣr hē cōme', 'ǣr þǣm þe hē cōme'] },
+    { id: 'e20', type: 'translate', dir: 'en-oe', source: 'though he was (subjunctive)', model: 'þēah hē wǣre', accepted: ['þēah hē wǣre', 'þēah þe hē wǣre'], explain: 'Þēah “although” takes the subjunctive: wǣre, like German wäre.' },
+    { id: 'e21', type: 'translate', dir: 'en-oe', source: 'before he came (subjunctive)', model: 'ǣr hē cōme', accepted: ['ǣr hē cōme', 'ǣr þǣm þe hē cōme'], explain: 'Ǣr “before” takes the subjunctive; cōme is the past subjunctive of cuman.' },
     { id: 'e22', type: 'mc', prompt: 'Which site has been linked with Heorot since the 19th century?', options: ['Lejre on Zealand', 'Uppsala', 'Sutton Hoo', 'Hedeby'], answer: 0, explain: 'Great halls from the 6th century have been excavated there.' },
     { id: 'e23', type: 'mc', prompt: 'Why can <span class="la">hwæt þā men wǣron</span> (233) not be classed securely as subjunctive?', options: ['The plural forms of the two moods often coincide', 'It is a main clause', 'wǣron is an infinitive', 'It is a scribal error'], answer: 0, explain: 'Subjunctive in function, ambiguous in form.' }
   ],
@@ -281,7 +283,7 @@ Viator.addLecture('oe', {
       { id: 't5', type: 'gap', prompt: '<span class="la">Wesan wē blīþ___!</span>', hint: 'let us be glad (adj. pl.)', answers: ['e'], full: 'Wesan wē blīþe!', explain: 'Strong nom. pl. -e.' },
       { id: 't6', type: 'gap', prompt: '<span class="la">ǣr hīe cōm___</span>', hint: 'before they came (past subj. pl.)', answers: ['en'], full: 'ǣr hīe cōmen', explain: 'Plural -en.' },
       { id: 't7', type: 'translate', dir: 'oe-en', source: 'Se weard frægn hwæt hīe wǣren.', model: 'The guard asked who they were.', accepted: ['guard asked who they were', 'guard asked what they were', 'the guard asked who they were', 'the guard asked what they were', 'warden asked who they were'] },
-      { id: 't8', type: 'translate', dir: 'en-oe', source: 'unless he lies (subjunctive)', model: 'næfne hē lēoge', accepted: ['næfne hē lēoge', 'būton hē lēoge'] },
+      { id: 't8', type: 'translate', dir: 'en-oe', source: 'unless he lies (subjunctive)', model: 'næfne hē lēoge', accepted: ['næfne hē lēoge', 'būton hē lēoge'], explain: 'Næfne and būton “unless” take the subjunctive; lēoge is the present subjunctive of lēogan (German lügen).' },
       { id: 't9', type: 'mc', prompt: 'In the Hildebrandslied, <em>hwer sin fater wari</em> contains:', options: ['a subjunctive in an indirect question', 'an imperative', 'a kenning', 'a weak adjective'], answer: 0, explain: 'wari = wǣre.' },
       { id: 't10', type: 'mc', prompt: 'Who does the coast-guard serve?', options: ['Hrothgar', 'Hygelac', 'Beowulf', 'Grendel'], answer: 0, explain: 'þegn Hrōðgāres.' },
       { id: 't11', type: 'mc', prompt: '<span class="la">for þǣm þe</span> means:', options: ['because', 'before', 'until', 'unless'], answer: 0, explain: 'German weil.' }

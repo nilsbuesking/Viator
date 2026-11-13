@@ -7,8 +7,8 @@
   'use strict';
 
   const CONTENT_BASE = (document.currentScript && document.currentScript.dataset.content) || 'content/';
-  const BUILD = '2026-11-13 f';           // shown under Progress so you can tell which version is running
-  const FORMAT = 2;                       // progress format version; bump + migrate() on change
+  const BUILD = '2026-11-13 g';           // shown under Progress so you can tell which version is running
+  const FORMAT = 3;                       // progress format version; bump + migrate() on change
   const STORE_KEY = 'viator.progress';
   const INTERVALS = [0, 1, 2, 4, 8, 16, 32, 64]; // Leitner box → days until next review
 
@@ -77,7 +77,8 @@
       format: FORMAT, created: new Date().toISOString(), lastExport: null,
       activeCourse: null,
       streak: { count: 0, last: null },
-      settings: { macronsShown: true, strictMacrons: false, cardDir: 'both', newPerDay: 15, backupDays: 7, textSize: 'l' },
+      // the direction of vocabulary cards is chosen per course (courses[id].cardDir, else the course's default)
+      settings: { macronsShown: true, strictMacrons: false, newPerDay: 10, backupDays: 7, textSize: 'l' },
       courses: {}
     };
   }
@@ -97,6 +98,15 @@
         });
         if (mnd.misses) Object.keys(mnd.misses).forEach(k => { if (k.indexOf('mnd-s1') >= 0) { mhd.misses = mhd.misses || {}; mhd.misses[k.replace('mnd-s1', 'mhd-s2')] = mnd.misses[k]; delete mnd.misses[k]; } });
       }
+    }
+    // format 3 (2026-11-13): the direction of vocabulary cards became a setting per course (courses[id].cardDir), with
+    // a default in the catalogue (the reading courses: from the course language only). The old setting for all courses
+    // is kept only if it was changed from 'both', and then still applies to courses without a default of their own.
+    // The old default of 15 new cards a day becomes the new default of 10.
+    if (!p.format || p.format < 3) {
+      const s = p.settings || {};
+      if (s.cardDir === 'both') delete s.cardDir;
+      if (s.newPerDay === 15) s.newPerDay = 10;
     }
     const base = freshProgress();
     p.settings = Object.assign(base.settings, p.settings || {});
@@ -189,7 +199,12 @@
     return lectures().filter(l => c.lectures[l.id] && c.lectures[l.id].started).flatMap(cardsForLecture);
   }
   function cardState(id) { return courseP(course.id).cards[id]; }
-  function dirAllowed(card) { return card.deck !== 'vocab' || P.settings.cardDir === 'both' || P.settings.cardDir === card.dir; }
+  // Direction of vocabulary cards: the person's choice for this course, else the course's default (the reading courses
+  // show cards from the course language only), else an older setting for all courses, else both directions.
+  const cardDir = () => courseP(course.id).cardDir || course.cardDir || P.settings.cardDir || 'both';
+  function dirAllowed(card) { const d = cardDir(); return card.deck !== 'vocab' || d === 'both' || d === card.dir; }
+  // the stored state of the cards that are currently in use (cards of the other direction are kept but not shown)
+  const shownStates = () => { const c = courseP(course.id); return unlockedCards().filter(dirAllowed).map(k => c.cards[k.id]).filter(Boolean); };
   function dueCards(deck) {
     const d = today();
     return unlockedCards().filter(c => (deck === 'all' || c.deck === deck) && dirAllowed(c))
@@ -255,6 +270,7 @@
   function recordResult(itemId, ok) {
     const m = courseP(course.id).misses;
     if (!ok) m[itemId] = (m[itemId] || 0) + 1;
+    else if (inRevision() && m[itemId]) delete m[itemId];   // in revision, an item answered correctly leaves the list
     touchStreak(); save();
   }
 
@@ -297,13 +313,13 @@
   function render() {
     applyTextSize();
     const due = dueCards('all').length + newCards('all').length;
-    const header = ui.view === 'lecture'
-      ? `<button class="back" data-go="home">‹ ${esc(course.name)}</button><span class="spacer"></span>`
+    const header = ui.view === 'lecture' ? `<button class="back" data-go="home">‹ ${esc(course.name)}</button><span class="spacer"></span>`
+      : ui.view === 'review' ? `<button class="back" data-go="progress" data-anchor="revision">‹ Progress</button><span class="spacer"></span>`
       : `<p class="brand">Viātor</p><span class="spacer"></span>${registry.catalogue.length > 1
           ? `<select class="coursepick" id="coursepick" aria-label="Language">${registry.catalogue.map(c => `<option value="${c.id}" ${c.id === course.id ? 'selected' : ''}>${esc(c.name)}</option>`).join('')}</select>`
           : `<span class="coursepick">${esc(course.name)}</span>`}`;
-    const body = ({ home: viewHome, lecture: viewLecture, cards: viewCards, ref: viewRef, progress: viewProgress })[ui.view]();
-    const tab = (id, label) => `<button class="tab" data-go="${id}" ${(ui.view === id || (id === 'home' && ui.view === 'lecture')) ? 'aria-current="page"' : ''}>${ICONS[id]}${label}${id === 'cards' && due ? `<span class="badge">${due}</span>` : ''}</button>`;
+    const body = ({ home: viewHome, lecture: viewLecture, cards: viewCards, ref: viewRef, progress: viewProgress, review: viewReview })[ui.view]();
+    const tab = (id, label) => `<button class="tab" data-go="${id}" ${(ui.view === id || (id === 'home' && ui.view === 'lecture') || (id === 'progress' && ui.view === 'review')) ? 'aria-current="page"' : ''}>${ICONS[id]}${label}${id === 'cards' && due ? `<span class="badge">${due}</span>` : ''}</button>`;
     root().innerHTML = `
       <div class="app">
         <header class="top gutter">${header}</header>
@@ -347,7 +363,7 @@
     const c = courseP(course.id), ls = lectures();
     const step = nextStep();
     const due = dueCards('all').length, fresh = newCards('all').length;
-    const learned = Object.values(c.cards).filter(s => s.box >= 3).length;
+    const learned = shownStates().filter(s => s.box >= 3).length;
     const item = l => {
       const lp = c.lectures[l.id], secs = sectionsFor(l);
       const done = lp ? secs.filter(s => lp.sections[s.id]).length : 0;
@@ -379,6 +395,7 @@
           <div class="stat"><b>${learned}</b><span>known well</span></div>
         </div>
         ${due + fresh ? `<button class="btn ghost wide" data-go="cards">Review cards</button>` : ''}
+        ${finishedLectures().length || missedKeys(courseItems()).length ? `<button class="btn ghost wide" data-go="progress" data-anchor="revision">Revision: missed items and tests</button>` : ''}
       </section>
       ${notices()}
       ${backupDue() ? `<div class="nudge"><p>${P.lastExport ? `Your last backup is more than ${P.settings.backupDays} days old.` : 'You haven’t made a backup yet.'} Progress lives only in this browser.</p><button class="btn quiet" data-go="progress" data-anchor="backup">Back up now</button></div>` : ''}
@@ -486,9 +503,20 @@
   }
 
   // ----- exercise runner (practice + test) -----
+  // n items drawn at random, with at least one translation and one ending or table question among them whenever the
+  // pool has them, so that a test never consists of choices alone
+  function mixedSample(pool, n) {
+    const picked = [];
+    for (const want of [i => i.type === 'translate', i => i.type === 'gap' || i.type === 'paradigm']) {
+      if (picked.length >= n) break;
+      const c = shuffle(pool.filter(i => want(i) && !picked.includes(i)));
+      if (c.length) picked.push(c[0]);
+    }
+    return picked.concat(sample(pool.filter(i => !picked.includes(i)), n - picked.length));
+  }
   function buildTest(l) {
     const t = l.test, vq = t.vocabQuestions || 0;
-    const written = sample(t.items, Math.max(0, t.count - vq));
+    const written = mixedSample(t.items, Math.max(0, t.count - vq));
     const vocabPool = l.vocab.filter(v => v.pos.indexOf('verb') === 0 || v.pos.indexOf('noun') === 0);
     const kind = v => v.pos.split(',')[0];
     const vocab = sample(vocabPool, vq).map(v => {
@@ -628,20 +656,80 @@
     recordResult(lectureQualified(item), st.ok);
     ui.reveal = true; render();
   }
-  const lectureQualified = item => ui.ex.lid + ':' + item.id;
+  const lectureQualified = item => (item.lid || ui.ex.lid) + ':' + item.id;
   function nextItem() {
     const x = ui.ex; x.i++; x.state = null; x.perm = null;
     if (x.i >= x.items.length) {
       x.finished = true;
-      const lp = lectureP(course.id, x.lid);
-      if (x.mode === 'test') {
-        const pct = Math.round(100 * x.score / x.items.length);
-        lp.testRuns++; lp.testBest = Math.max(lp.testBest || 0, pct);
-        if (pct >= 70) lp.sections.test = true;
-      } else lp.sections.practice = true;
+      if (x.lid) {   // a lecture's exercises or test (revision sessions have no lecture of their own)
+        const lp = lectureP(course.id, x.lid);
+        if (x.mode === 'test') {
+          const pct = Math.round(100 * x.score / x.items.length);
+          lp.testRuns++; lp.testBest = Math.max(lp.testBest || 0, pct);
+          if (pct >= 70) lp.sections.test = true;
+        } else lp.sections.practice = true;
+      }
       save();
     }
     render(); window.scrollTo(0, 0);
+  }
+
+  // ----- revision: missed items, and revision tests across the finished lectures -----
+  const inRevision = () => ui.view === 'review' && ui.ex && !ui.ex.lid;
+  const REVIEW_MAX = 15, REVISION_COUNT = 12, REVISION_MISSED = 4;
+  // every exercise, test item and reading question of the course, under the key used for misses, with its lecture
+  function courseItems() {
+    const out = {};
+    for (const l of lectures()) {
+      for (const i of l.exercises.concat(l.test.items)) out[l.id + ':' + i.id] = Object.assign({}, i, { lid: l.id });
+      for (const i of (l.reading && l.reading.questions) || []) out[l.id + ':' + i.id] = Object.assign({}, i, { lid: l.id, rq: true });
+    }
+    return out;
+  }
+  function missedKeys(all) { const m = courseP(course.id).misses; return Object.keys(m).filter(k => m[k] > 0 && all[k]).sort((a, b) => m[b] - m[a]); }
+  function finishedLectures() { const c = courseP(course.id); return lectures().filter(l => c.lectures[l.id] && c.lectures[l.id].sections.test); }
+  function startReview(mode) {
+    const all = courseItems();
+    let items;
+    if (mode === 'missed') items = missedKeys(all).slice(0, REVIEW_MAX).map(k => all[k]);
+    else {
+      // a mixed test from the lectures whose test has been passed (reading questions need the text, so they stay out):
+      // a few of the most-missed items first, then at least one translation and one ending or table, the rest at random
+      const done = new Set(finishedLectures().map(l => l.id));
+      const pool = Object.values(all).filter(i => done.has(i.lid) && !i.rq);
+      const missed = sample(missedKeys(all).map(k => all[k]).filter(i => done.has(i.lid) && !i.rq).slice(0, 2 * REVISION_MISSED), REVISION_MISSED);
+      items = shuffle(missed.concat(mixedSample(pool.filter(i => !missed.includes(i)), REVISION_COUNT - missed.length)));
+    }
+    if (!items.length) return;
+    ui.view = 'review'; ui.ex = { mode, lid: null, items, i: 0, score: 0, state: null, finished: false, perm: null };
+    render(); window.scrollTo(0, 0);
+  }
+  function revisionPanel() {
+    const all = courseItems(), nMissed = missedKeys(all).length, nDone = finishedLectures().length;
+    return `<div class="panel stack" id="revision"><p class="eyebrow">Revision</p>
+      <p class="small" style="margin:0">Practise the exercises you got wrong: each one leaves the list when you get it right. Or take a mixed test of ${REVISION_COUNT} questions from the lectures whose test you have passed, with some of your missed items among them.</p>
+      <div class="row"><button class="btn" data-review="missed" ${nMissed ? '' : 'disabled'}>Missed items (${nMissed})</button><button class="btn quiet" data-review="revision" ${nDone ? '' : 'disabled'}>Revision test</button></div>
+      ${nDone ? '' : '<p class="small muted" style="margin:0">The revision test opens once you have passed a lecture test.</p>'}</div>`;
+  }
+  function viewReview() {
+    const x = ui.ex;
+    if (!x || x.lid || !x.items) return `<h2 class="section">Revision</h2>${revisionPanel()}`;
+    const name = x.mode === 'missed' ? 'Missed items' : 'Revision test';
+    if (x.finished) {
+      const pct = Math.round(100 * x.score / x.items.length), left = missedKeys(courseItems()).length;
+      return `<h2 class="section">${name}</h2><div class="panel stack"><p class="eyebrow">Result</p>
+        <p class="today lead" style="margin:0">${x.score} / ${x.items.length} · ${pct}%</p>
+        <p class="small muted" style="margin:0">${x.mode === 'missed'
+          ? `${x.score ? 'The items you got right are off the list. ' : ''}${left ? `${left} still to practise.` : 'Nothing left to practise.'}`
+          : 'Items you got wrong join the list of missed items; missed items you got right leave it.'}</p>
+        <div class="row">${x.mode === 'missed' ? (left ? '<button class="btn quiet" data-review="missed">Practise again</button>' : '') : '<button class="btn quiet" data-review="revision">New revision test</button>'}<button class="btn" style="flex:1" data-go="progress" data-anchor="revision">Done</button></div></div>`;
+    }
+    const item = x.items[x.i], l = findLecture(item.lid);
+    return `
+      <div class="exhead"><span>${name} · ${x.i + 1} of ${x.items.length}</span><span>${x.score} correct</span></div>
+      <div class="bar"><i style="width:${100 * x.i / x.items.length}%"></i></div>
+      ${l ? `<p class="small muted from">${esc(course.lectureWord || 'Lecture')} ${lnum(l)} · <span class="la">${M(esc(l.title))}</span></p>` : ''}
+      ${renderItem(item, x.state)}`;
   }
 
   // ----- flashcards view -----
@@ -684,9 +772,9 @@
         ${total ? '' : '<p class="small muted" style="margin:0">Cards unlock when you start a lecture.</p>'}
       </div>
       <div class="panel">
-        <div class="setting"><label for="cardDir">Direction for vocabulary<small>Grammar cards always show the question first.</small></label>
-          <select class="field" id="cardDir"><option value="both" ${P.settings.cardDir === 'both' ? 'selected' : ''}>Both</option><option value="la-en" ${P.settings.cardDir === 'la-en' ? 'selected' : ''}>${esc(course.name)} → ${otherLang()}</option><option value="en-la" ${P.settings.cardDir === 'en-la' ? 'selected' : ''}>${otherLang()} → ${esc(course.name)}</option></select></div>
-        <div class="setting"><label for="newPerDay">New cards per day</label>
+        <div class="setting"><label for="cardDir">Direction for vocabulary<small>${esc(course.name)} only. Grammar cards always show the question first.</small></label>
+          <select class="field" id="cardDir">${[['both', 'Both'], ['la-en', `${esc(course.name)} → ${otherLang()}`], ['en-la', `${otherLang()} → ${esc(course.name)}`]].map(([v, lab]) => `<option value="${v}" ${cardDir() === v ? 'selected' : ''}>${lab}</option>`).join('')}</select></div>
+        <div class="setting"><label for="newPerDay">New cards per day<small>For each course.</small></label>
           <select class="field" id="newPerDay">${[5, 10, 15, 20, 30, 50].map(n => `<option ${P.settings.newPerDay === n ? 'selected' : ''}>${n}</option>`).join('')}</select></div>
       </div>
       <p class="small muted">Spacing: a card you know moves up a box and returns after 1, 2, 4, 8, 16, 32 then 64 days. “Again” sends it back to the start.</p>`;
@@ -834,10 +922,10 @@
   // ----- progress & settings -----
   function viewProgress() {
     const c = courseP(course.id);
-    const boxes = Array(8).fill(0); Object.values(c.cards).forEach(s => boxes[s.box]++);
+    const boxes = Array(8).fill(0); shownStates().forEach(s => boxes[s.box]++);
     const max = Math.max(1, ...boxes);
-    const weakCards = Object.entries(c.cards).filter(([, s]) => s.lapses > 0).sort((a, b) => b[1].lapses - a[1].lapses).slice(0, 8);
     const allCards = Object.fromEntries(lectures().flatMap(cardsForLecture).map(k => [k.id, k]));
+    const weakCards = Object.entries(c.cards).filter(([id, s]) => s.lapses > 0 && allCards[id] && dirAllowed(allCards[id])).sort((a, b) => b[1].lapses - a[1].lapses).slice(0, 8);
     const allItems = Object.fromEntries(lectures().flatMap(l => l.exercises.concat(l.test.items, (l.reading && l.reading.questions) || []).map(i => [l.id + ':' + i.id, i])));
     const weakItems = Object.entries(c.misses).sort((a, b) => b[1] - a[1]).slice(0, 6).filter(([k]) => allItems[k]);
     const lrows = lectures().map(l => { const lp = c.lectures[l.id]; return `<dt>${lnum(l)} · <span class="la">${M(esc(l.title))}</span></dt><dd>${lp && lp.testBest != null ? lp.testBest + '%' : '–'}</dd>`; }).join('');
@@ -850,6 +938,7 @@
         <div class="boxes" role="img" aria-label="Number of cards in each box">${boxes.map((n, i) => `<div><span>${n}</span><i style="height:${Math.round(60 * n / max)}%"></i><span>${i === 0 ? 'new' : i}</span></div>`).join('')}</div>
         <p class="small muted" style="margin:0">Box 3 and above counts as well known.</p>
       </div>
+      ${revisionPanel()}
       <div class="panel"><p class="eyebrow">Lecture tests · best score</p><dl class="kv">${lrows}</dl></div>
       ${weakCards.length || weakItems.length ? `<div class="panel stack"><p class="eyebrow">Needs work</p>
         ${weakCards.map(([id, s]) => allCards[id] ? `<div class="row" style="justify-content:space-between"><span class="${allCards[id].latinFront ? 'la' : ''}">${M(esc(allCards[id].front))}</span><span class="small muted">${s.lapses}× again</span></div>` : '').join('')}
@@ -951,7 +1040,7 @@
     const rs = $('#refsearch');
     if (rs) rs.oninput = () => { ui.ref = rs.value; clearTimeout(searchTimer); searchTimer = setTimeout(showHits, 150); };
     const bind = (id, fn) => { const el = $('#' + id); if (el) el.onchange = () => { fn(el); save(); render(); }; };
-    bind('cardDir', el => P.settings.cardDir = el.value);
+    bind('cardDir', el => { courseP(course.id).cardDir = el.value; });
     bind('newPerDay', el => P.settings.newPerDay = Number(el.value));
     bind('sMac', el => { P.settings.macronsShown = el.checked; });
     bind('sStrict', el => { P.settings.strictMacrons = el.checked; });
@@ -963,7 +1052,7 @@
     const f = $('#importfile');
     if (f) f.onchange = () => { const file = f.files[0]; if (!file) return; const r = new FileReader(); r.onload = () => readImport(r.result); r.readAsText(file); };
     // Return checks the answer (translations are one sentence, so no line breaks are needed); in a table it moves on to the next box
-    const ans = $('#ans'); if (ans && !ans.readOnly && ui.view === 'lecture') ans.addEventListener('keydown', e => { if (e.key === 'Enter' && !e.shiftKey && !e.isComposing) { e.preventDefault(); checkItem(); } });
+    const ans = $('#ans'); if (ans && !ans.readOnly && (ui.view === 'lecture' || ui.view === 'review')) ans.addEventListener('keydown', e => { if (e.key === 'Enter' && !e.shiftKey && !e.isComposing) { e.preventDefault(); checkItem(); } });
     const cells = [...document.querySelectorAll('[data-cell]')];
     cells.forEach((c, i) => { if (!c.readOnly) c.addEventListener('keydown', e => { if (e.key !== 'Enter' || e.isComposing) return; e.preventDefault(); if (cells[i + 1]) cells[i + 1].focus(); else checkItem(); }); });
     // after an answer is checked, bring the feedback and the Next button into view (above the tab bar)
@@ -1008,7 +1097,8 @@
   function savePlace(keepScroll = true) {
     if (!course) return;
     const pl = { t: Date.now(), course: course.id, view: ui.view, lectureId: ui.lectureId, section: ui.section, readView: ui.readView, refPage: ui.refPage,
-      ref: ui.ref, open: ui.open, inline: ui.inline, scroll: keepScroll === true ? Math.round(window.scrollY) : 0, ex: ui.view === 'lecture' && ui.ex && ui.ex.lid === ui.lectureId ? ui.ex : null };
+      ref: ui.ref, open: ui.open, inline: ui.inline, scroll: keepScroll === true ? Math.round(window.scrollY) : 0,
+      ex: (ui.view === 'lecture' && ui.ex && ui.ex.lid === ui.lectureId) || (ui.view === 'review' && ui.ex && !ui.ex.lid) ? ui.ex : null };
     try { localStorage.setItem(PLACE_KEY, JSON.stringify(pl)); } catch (e) {}
   }
   function restorePlace() {
@@ -1018,6 +1108,10 @@
       const l = findLecture(pl.lectureId); if (!l || !sectionsFor(l).some(s => s.id === pl.section)) return null;
       ui.lectureId = l.id; ui.section = pl.section; ui.readView = pl.readView || null; ui.inline = pl.inline || {};
       ui.ex = pl.ex && pl.ex.lid === l.id && Array.isArray(pl.ex.items) && pl.ex.items.length ? pl.ex : null;
+    } else if (pl.view === 'review') {
+      // a revision session in progress, if all its items still exist; otherwise the Progress page
+      const ok = pl.ex && !pl.ex.lid && Array.isArray(pl.ex.items) && pl.ex.items.length && pl.ex.items.every(i => findLecture(i.lid));
+      if (ok) ui.ex = pl.ex; else pl.view = 'progress';
     } else if (!['home', 'cards', 'ref', 'progress'].includes(pl.view)) return null;
     ui.view = pl.view; ui.refPage = pl.refPage || 'glossary'; ui.ref = pl.ref || ''; ui.open = pl.open || {};
     return pl.scroll || 0;
@@ -1047,13 +1141,14 @@
       return;
     }
     if (d.start) { startRun(d.start, findLecture(ui.lectureId)); render(); return; }
+    if (d.review) { startReview(d.review); return; }
     if (d.speak) { speak(d.speak); return; }
     if (d.rview) { ui.readView = d.rview; ui.gloss = null; const y = window.scrollY; render(); window.scrollTo(0, y); return; }
     if (d.w !== undefined) { ui.gloss = ui.gloss === Number(d.w) ? null : Number(d.w); const y = window.scrollY; render(); window.scrollTo(0, y); return; }
     if (d.inline) { ui.inline = ui.inline || {}; ui.inline[d.inline] = Number(d.i); const l = findLecture(ui.lectureId); const q = l.reading.questions.find(q => q.id === d.inline); recordResult(l.id + ':' + q.id, Number(d.i) === q.answer); const y = window.scrollY; render(); window.scrollTo(0, y); return; }
 
     // exercise interactions
-    if (ui.ex && ui.view === 'lecture') {
+    if (ui.ex && (ui.view === 'lecture' || ui.view === 'review')) {
       const x = ui.ex, item = x.items[x.i];
       if (d.choice !== undefined && !(x.state && x.state.checked)) {
         const ok = Number(d.choice) === item.answer;
@@ -1062,7 +1157,7 @@
       }
       if (t.hasAttribute('data-check')) { checkItem(); return; }
       if (t.hasAttribute('data-next-item')) { nextItem(); return; }
-      if (t.hasAttribute('data-override')) { x.state.ok = true; x.state.overridden = true; x.score++; const m = courseP(course.id).misses, k = lectureQualified(item); if (m[k]) m[k]--; save(); render(); return; }
+      if (t.hasAttribute('data-override')) { x.state.ok = true; x.state.overridden = true; x.score++; const m = courseP(course.id).misses, k = lectureQualified(item); if (inRevision()) delete m[k]; else if (m[k]) m[k]--; save(); render(); return; }
       if (d.ml !== undefined) { x.state.sel = Number(d.ml); x.state.miss = null; render(); return; }
       if (d.mr !== undefined && x.state.sel != null) {
         const st = x.state, r = Number(d.mr);
@@ -1166,5 +1261,6 @@
     registry.catalogue.forEach(loadCourse);   // the other courses, so that switching is instant
   }
   window.Viator._buildTest = id => buildTest(findLecture(id));   // for the tests
+  window.Viator._startReview = mode => { startReview(mode); return ui.view === 'review' && ui.ex ? ui.ex.items.map(i => ({ lid: i.lid, id: i.id, type: i.type, rq: !!i.rq })) : null; };
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot); else boot();
 })();

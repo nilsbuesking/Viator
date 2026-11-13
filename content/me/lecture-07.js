@@ -187,8 +187,8 @@ Viator.addLecture('me', {
     { id: 'e17', type: 'order', prompt: 'Put the modern translation in order.', source: 'An old man and a povre with hem mette', tokens: ['An old', 'and poor man', 'met', 'them'], explain: 'C 713.' },
     { id: 'e18', type: 'translate', dir: 'me-en', source: 'Why livestow so longe in so greet age?', model: 'Why do you live so long, to such a great age?', accepted: ['why do you live so long in such great age', 'why do you live so long to such a great age', 'why do you live so long in so great an age', 'why livest thou so long in so great age', 'why do you live so long in such old age', 'why have you lived so long to such a great age', 'why do you live so long in such a great age'] },
     { id: 'e19', type: 'translate', dir: 'me-en', source: 'God be with yow.', model: 'God be with you.', accepted: ['god be with you', 'may god be with you'] },
-    { id: 'e20', type: 'translate', dir: 'en-me', source: 'listen! (plural)', model: 'herkneth', accepted: ['herkneth'] },
-    { id: 'e21', type: 'translate', dir: 'en-me', source: 'dear mother', model: 'leve moder', accepted: ['leve moder'] },
+    { id: 'e20', type: 'translate', dir: 'en-me', source: 'listen! (plural)', model: 'herkneth', accepted: ['herkneth'], explain: 'The plural imperative ends in -eth: herkneth, “listen, all of you”.' },
+    { id: 'e21', type: 'translate', dir: 'en-me', source: 'dear mother', model: 'leve moder', accepted: ['leve moder'], explain: 'Leve “dear” is Old English lēof, German lieb; moder still has the d of Old English mōdor, which became th only later.' },
     { id: 'e22', type: 'mc', prompt: 'Whose Latin elegy is echoed in the old man’s knocking on the earth?', options: ['Maximianus', 'Virgil', 'Ovid', 'Boethius'], answer: 0, explain: 'His first elegy (6th century).' },
     { id: 'e23', type: 'mc', prompt: 'How do the three rioters die?', options: ['Two stab the third, then drink his poisoned wine', 'The old man kills them', 'Of the plague', 'They are hanged'], answer: 0, explain: 'All three die for the gold.' }
   ],
@@ -267,7 +267,7 @@ Viator.addLecture('me', {
       { id: 't5', type: 'gap', prompt: '<span class="la">Thus walke I, lyk a restelees ___</span>', hint: 'wretch (French)', answers: ['caityf', 'caitif'], full: 'Thus walke I, lyk a restelees caityf', explain: 'C 728.' },
       { id: 't6', type: 'gap', prompt: '<span class="la">I knokke with my ___, bothe erly and late</span>', hint: 'staff', answers: ['staf'], full: 'I knokke with my staf, bothe erly and late', explain: 'C 730.' },
       { id: 't7', type: 'translate', dir: 'me-en', source: 'I moot go thider as I have to go.', model: 'I must go where I have to go.', accepted: ['i must go where i have to go', 'i must go there where i have to go', 'i must go thither as i have to go', 'i must go where i must go', 'i must go where i need to go'] },
-      { id: 't8', type: 'translate', dir: 'en-me', source: 'art thou (fused form)', model: 'artow', accepted: ['artow'] },
+      { id: 't8', type: 'translate', dir: 'en-me', source: 'art thou (fused form)', model: 'artow', accepted: ['artow'], explain: 'Art and an unstressed thou run together, much as German bist du becomes biste in speech.' },
       { id: 't9', type: 'mc', prompt: 'In which years did plague return in Chaucer’s lifetime?', options: ['1361–62, 1369, 1375', '1066, 1100', '1450, 1485', 'It never returned'], answer: 0, explain: 'After the Black Death of 1348–49.' },
       { id: 't10', type: 'mc', prompt: 'How does the Pardoner end his performance?', options: ['He tries to sell relics to the pilgrims', 'He confesses and repents', 'He leaves the company', 'He sings'], answer: 0, explain: 'Starting with the Host.' },
       { id: 't11', type: 'mc', prompt: 'Who reconciles the Pardoner and the Host?', options: ['The Knight', 'The Wife of Bath', 'The Prioress', 'The narrator'], answer: 0, explain: 'He makes them kiss.' }

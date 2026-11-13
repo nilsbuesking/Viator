@@ -198,8 +198,8 @@ Viator.addLecture('me', {
     { id: 'e17', type: 'order', prompt: 'Put the modern translation in order.', source: 'He was late y‑come from his viage', tokens: ['He had', 'recently come', 'from his', 'expedition'], explain: 'GP 77.' },
     { id: 'e18', type: 'translate', dir: 'me-en', source: 'At Alisaundre he was, whan it was wonne.', model: 'He was at Alexandria when it was won.', accepted: ['he was at alexandria when it was won', 'he was at alexandria when it was taken', 'he was at alexandria when it was conquered', 'at alexandria he was when it was won', 'he was at alexandria when it was captured'] },
     { id: 'e19', type: 'translate', dir: 'me-en', source: 'His hors were gode.', model: 'His horses were good.', accepted: ['his horses were good', 'his horses were fine'] },
-    { id: 'e20', type: 'translate', dir: 'en-me', source: 'he rode (ryden)', model: 'he rood', accepted: ['he rood', 'he rod', 'he rode'] },
-    { id: 'e21', type: 'translate', dir: 'en-me', source: 'they loved (past plural)', model: 'they loveden', accepted: ['they loveden', 'they loved', 'they lovede'] },
+    { id: 'e20', type: 'translate', dir: 'en-me', source: 'he rode (ryden)', model: 'he rood', accepted: ['he rood', 'he rod', 'he rode'], explain: 'Ryden is a strong verb of class I: singular past rood, from Old English rād, plural riden.' },
+    { id: 'e21', type: 'translate', dir: 'en-me', source: 'they loved (past plural)', model: 'they loveden', accepted: ['they loveden', 'they loved', 'they lovede'], explain: 'Weak past plural -eden; the -n is often dropped (they lovede).' },
     { id: 'e22', type: 'mc', prompt: 'Who argued that the Knight is a mercenary?', options: ['Terry Jones (1980)', 'Maurice Keen', 'W. W. Skeat', 'Jill Mann'], answer: 0, explain: 'Keen and most historians disagreed.' },
     { id: 'e23', type: 'mc', prompt: 'The modern ending <em>-s</em> in <em>he rides</em> comes from:', options: ['northern dialects', 'Chaucer’s London', 'French', 'Old English -eþ'], answer: 0, explain: 'Chaucer has -eth.' }
   ],
@@ -271,7 +271,7 @@ Viator.addLecture('me', {
       { id: 't5', type: 'gap', prompt: '<span class="la">and ay ___ his foo</span>', hint: 'slain', answers: ['slayn', 'slain'], full: 'and ay slayn his foo', explain: 'GP 63.' },
       { id: 't6', type: 'gap', prompt: '<span class="la">he ___ for to doon his pilgrimage</span>', hint: 'went', answers: ['wente', 'went'], full: 'he wente for to doon his pilgrimage', explain: 'GP 78.' },
       { id: 't7', type: 'translate', dir: 'me-en', source: 'He was a verray parfit gentil knight.', model: 'He was a true, perfect, noble knight.', accepted: ['he was a true perfect noble knight', 'he was a true perfect gentle knight', 'he was a truly perfect noble knight', 'he was a true and perfect noble knight', 'he was a real perfect noble knight'] },
-      { id: 't8', type: 'translate', dir: 'en-me', source: 'they rode (ryden, past plural)', model: 'they riden', accepted: ['they riden'] },
+      { id: 't8', type: 'translate', dir: 'en-me', source: 'they rode (ryden, past plural)', model: 'they riden', accepted: ['they riden'], explain: 'Chaucer still has a different vowel in the past plural: he rood, they riden (Old English rād, ridon), as MHG reit, riten.' },
       { id: 't9', type: 'mc', prompt: 'Alexandria was sacked in:', options: ['1365', '1066', '1291', '1453'], answer: 0, explain: 'By Peter I of Cyprus.' },
       { id: 't10', type: 'mc', prompt: 'The Reeve’s Tale is notable for:', options: ['its northern dialect speakers', 'its Latin', 'being in prose', 'its French'], answer: 0, explain: 'Two Cambridge students from the North.' },
       { id: 't11', type: 'mc', prompt: '<span class="la">reysed</span> (54) comes from:', options: ['German reisen', 'French raiser', 'Latin', 'Old Norse'], answer: 0, explain: 'The Order’s Reisen.' }

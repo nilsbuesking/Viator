@@ -279,7 +279,9 @@ select.field { min-height: 44px; padding: 6px 10px; font-family: var(--font-ui);
 /* Grammar jump list, reading notes */
 .jump { display: flex; flex-direction: column; border-top: 1px solid var(--line); }
 .jump button { text-align: left; background: none; border: 0; border-bottom: 1px solid var(--line); padding: 10px 0; font-size: 0.95rem; color: var(--accent); min-height: 44px; }
-.gblock { scroll-margin-top: calc(env(safe-area-inset-top, 0px) + var(--top-h, 60px) + 8px); }
+.gblock, #revision, #backup { scroll-margin-top: calc(env(safe-area-inset-top, 0px) + var(--top-h, 60px) + 8px); }
+/* revision: which lecture an item comes from */
+.from { margin: 0; }
 details.panel summary { cursor: pointer; font-weight: 500; }
 summary { padding-block: 10px; margin-block: -10px; }
 .notes { margin: 12px 0 0; display: grid; gap: 4px; }

@@ -194,7 +194,8 @@ Viator.addLecture('oe', {
     { id: 'aeghwylc', head: 'ǣghwylc', la: 'ǣghwylc', pos: 'pronoun', en: 'each, every', note: 'German jeglich (older ieglîch). Pronounce the -lc with tsch.' },
     { id: 'hyran', head: 'hȳran', la: 'hȳran, hȳrde', pos: 'verb, weak', en: 'hear; obey (+ dat.)', note: 'German hören, gehorchen. y = ü.' },
     { id: 'sculan', head: 'sculan', la: 'sculan (sceal, scolde)', pos: 'verb, preterite-present', en: 'must, have to; shall', note: 'German sollen, but often stronger: “must”.' },
-    { id: 'god', head: 'gōd', la: 'gōd', pos: 'adjective', en: 'good', note: 'German gut. Distinguish God (God), with short o.' }
+    { id: 'god', head: 'gōd', la: 'gōd', pos: 'adjective', en: 'good', note: 'German gut. Distinguish God (God), with short o.' },
+    { id: 'oft', head: 'oft', la: 'oft; oftor, oftost', pos: 'adverb', en: 'often', note: 'German oft. Oft Scyld Scēfing: line 4.' }
   ],
 
   grammarCards: [
@@ -252,8 +253,8 @@ Viator.addLecture('oe', {
     { id: 'e17', type: 'order', prompt: 'Put the English translation in order.', source: 'Hwæt, wē Gār-Dena in gēardagum þēodcyninga þrym gefrūnon', tokens: ['Listen!', 'We have heard', 'of the glory', 'of the kings of the Spear-Danes', 'in days of old.'], explain: 'Gār-Dena and þēodcyninga are both genitive plural, depending on þrym.' },
     { id: 'e18', type: 'translate', dir: 'oe-en', source: 'Þæt wæs gōd cyning!', model: 'That was a good king!', accepted: ['that was good king', 'he was good king', 'that was a good king'] },
     { id: 'e19', type: 'translate', dir: 'oe-en', source: 'Hē wēox under wolcnum.', model: 'He grew under the clouds (skies).', accepted: ['he grew under clouds', 'he grew under skies', 'he grew under heavens', 'he grew up under clouds', 'he grew up under skies', 'he flourished under skies', 'he grew under sky'] },
-    { id: 'e20', type: 'translate', dir: 'en-oe', source: 'We heard of the glory.', model: 'Wē gefrūnon þrym.', accepted: ['wē gefrūnon þrym', 'wē þrym gefrūnon'] },
-    { id: 'e21', type: 'translate', dir: 'en-oe', source: 'He was a good king.', model: 'Hē wæs gōd cyning.', accepted: ['hē wæs gōd cyning'] },
+    { id: 'e20', type: 'translate', dir: 'en-oe', source: 'We heard of the glory.', model: 'Wē gefrūnon þrym.', accepted: ['wē gefrūnon þrym', 'wē þrym gefrūnon'], explain: 'Gefrūnon is the past plural of gefrignan “learn by asking”, the verb of Beowulf’s opening line; the past plural ends in -on.' },
+    { id: 'e21', type: 'translate', dir: 'en-oe', source: 'He was a good king.', model: 'Hē wæs gōd cyning.', accepted: ['hē wæs gōd cyning'], explain: 'Wæs is the singular past of wesan (English was; MHG was, modern war). Cyning keeps a hard c because its y arose from u by umlaut (German König).' },
     { id: 'e22', type: 'mc', prompt: '<span class="la">hronrād</span> (“whale-road”) is:', options: ['a kenning for the sea', 'a road along the coast', 'a whaling station', 'a river in Denmark'], answer: 0, explain: 'A compound metaphor typical of Old English poetry.' },
     { id: 'e23', type: 'mc', prompt: 'In grammar, Old English is closest to:', options: ['modern German', 'modern English', 'French', 'Latin'], answer: 0, explain: 'Four cases, three genders, strong/weak adjectives, verb-second.' },
     { id: 'e24', type: 'mc', prompt: 'The only manuscript of <em>Beowulf</em> was:', options: ['damaged by fire in 1731', 'destroyed in 1731', 'found at Sutton Hoo', 'written by Bede'], answer: 0, explain: 'Scorched in the Cotton fire; Maldon’s manuscript was the one destroyed.' }
@@ -316,7 +317,7 @@ Viator.addLecture('oe', {
       { id: 't5', type: 'gap', prompt: '<span class="la">Hēo ___ gōd.</span>', hint: 'was', answers: ['wæs'], full: 'Hēo wæs gōd.', explain: 'wæs, as in Beowulf 11.' },
       { id: 't6', type: 'gap', prompt: '<span class="la">Wē sealdon ___ gold.</span>', hint: 'to them (dat.)', answers: ['him'], full: 'Wē sealdon him gold.', explain: 'Dative plural him.' },
       { id: 't7', type: 'translate', dir: 'oe-en', source: 'Wē gefrūnon þrym.', model: 'We have heard of the glory.', accepted: ['we heard of glory', 'we have heard of glory', 'we learned of glory', 'we heard of might', 'we have heard of might', 'we heard glory'] },
-      { id: 't8', type: 'translate', dir: 'en-oe', source: 'That was a good king.', model: 'Þæt wæs gōd cyning.', accepted: ['þæt wæs gōd cyning'] },
+      { id: 't8', type: 'translate', dir: 'en-oe', source: 'That was a good king.', model: 'Þæt wæs gōd cyning.', accepted: ['þæt wæs gōd cyning'], explain: 'This is Beowulf 11, þæt wæs gōd cyning! Þæt serves as “that” for any noun, as German das does in das war ein guter König.' },
       { id: 't9', type: 'mc', prompt: 'Where is <em>Beowulf</em> set?', options: ['Southern Scandinavia', 'Wessex', 'Northumbria', 'Iceland'], answer: 0, explain: 'Among Danes, Geats and Swedes.' },
       { id: 't10', type: 'mc', prompt: 'Which letter comes from the runes?', options: ['þ (thorn)', 'ð (eth)', 'æ (ash, as a letter)', 'g'], answer: 0, explain: 'þ and ƿ are rune letters; ð is a crossed d, æ a ligature.' },
       { id: 't11', type: 'mc', prompt: '<span class="la">wearð funden</span> corresponds to German:', options: ['wurde gefunden', 'war gefunden', 'hat gefunden', 'fand'], answer: 0, explain: 'Passive with weorþan = werden.' }

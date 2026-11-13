@@ -1608,3 +1608,39 @@ etymological statements and German comparisons. No reading or line-number errors
 Still open:
 
 - [ ] Multiple negation: the c. 1600 date follows Nevalainen and Raumolin-Brunberg’s corpus studies (from memory).
+
+# Teaching design, 13 November 2026 (all courses)
+
+What changed in how the app teaches (engine, no content claims): reading courses (Middle High German, Old English,
+Middle English) show vocabulary cards from the old language only, changeable per course under Cards; 10 new cards a
+day instead of 15; every lecture test now draws at least one translation and one gap or table question; Progress has
+“Missed items” and a “Revision test” across passed lectures.
+
+## Seventeen Old English words added to the vocabulary
+
+Frequent Beowulf and prose words that the lectures used without listing: *oft* (I), *þenden, forð* (II), *wið, ymb,
+ac* (III), *eft, sweord* (IV), *sōna, swylce* (V), *sunu* (VI), *þurh, nū* (VII), *sīð* (VIII), *eorðe, oþþe* (IX),
+*hord* (XI). Line references checked against the Beowulf text (4, 30, 45, 216, 248, 3164).
+
+- [ ] **hord**: Clark Hall gives “nm.”, neuter (also masculine); now marked n./m. Bosworth–Toller to confirm.
+- [ ] **sunu**: genitive and dative singular and nominative plural all *suna* (u-stem; Mitchell & Robinson’s table).
+- [ ] **sīð** related to German *Gesinde*; **eft** and **þenden** without a German descendant; **ac** in Gothic *ak*.
+- [ ] **sōna** “at once”, English *soon* weakened later: the dating of the weakening is from memory.
+
+## Explanations for translations into the course language
+
+All 267 translation items into Latin, Middle High German, Old English and Middle English now explain the model answer
+(the content check enforces this). The six such items in the archived Plattdeutsch and Middle Low German lectures have
+notes too, so a restored course passes. Statements to confirm:
+
+- [ ] Latin: *vēnī, vīdī, vīcī* “attributed to Caesar” (Suetonius, *Iul.* 37; Plutarch, *Caes.* 50); *rettulī* from an
+  old reduplicated perfect (*re-tetulī*); German *sei* and Latin *sim/sit* from the same old (optative) form; six
+  adjectives in *-ilis* with superlative *-limus*; *fīō*: *i* long except before final *-t* and before *-er*.
+- [ ] Middle High German: modern *schon* from the adverb *schône*; *mære* usually neuter, and *Märchen* its
+  diminutive; *es* in *ichn weiz es niht* as the genitive of *ez*; the Platt uniform present plural going back to
+  Old Saxon.
+- [ ] Old English: *cyning* with hard *c* because *y* comes from *u* by umlaut; strong masculine accusative *-ne*
+  corresponding to German *-en*; *bēon* forms for general truths and the future; *guma* in *Bräutigam*; *wīgend*
+  nominative plural the same as the singular.
+- [ ] Middle English: *hātte* as the one surviving inflected passive in Old English; *siker* an early loan from Latin
+  *sēcūrus*; Chaucer uses *but*, not *ac*; *moder* > *mother* (th) only after Chaucer.

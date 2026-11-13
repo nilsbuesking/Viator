@@ -294,8 +294,8 @@ Viator.addLecture('mhd', {
     { id: 'e20', type: 'translate', dir: 'mhd-de', source: 'Der ritter suochet ein buoch.', model: 'Der Ritter sucht ein Buch.', accepted: ['ritter sucht buch', 'ritter sucht ein buch', 'der ritter sucht ein buch'] },
     { id: 'e21', type: 'translate', dir: 'mhd-de', source: 'Die liute hœrent die rede.', model: 'Die Leute hören die Erzählung.', accepted: ['leute hören erzählung', 'leute hören geschichte', 'leute hören bericht', 'leute hören rede', 'leute hoeren erzählung', 'leute hören die erzählung'] },
     { id: 'e22', type: 'translate', dir: 'mhd-en', source: 'Mîn lîp ist swære.', model: 'My life is grievous. / I am heavy-hearted.', accepted: ['my life is heavy', 'my life is grievous', 'my life is hard', 'i am sad', 'i am heavy-hearted', 'i am sorrowful', 'my body is heavy', 'my life is sad', 'my life is sorrowful', 'i am heavy hearted'] },
-    { id: 'e23', type: 'translate', dir: 'de-mhd', source: 'Mein Haus ist gut.', model: 'Mîn hûs ist guot.', accepted: ['mîn hûs ist guot'] },
-    { id: 'e24', type: 'translate', dir: 'de-mhd', source: 'Die Leute suchen Gott.', model: 'Die liute suochent got.', accepted: ['die liute suochent got', 'liute suochent got'] },
+    { id: 'e23', type: 'translate', dir: 'de-mhd', source: 'Mein Haus ist gut.', model: 'Mîn hûs ist guot.', accepted: ['mîn hûs ist guot'], explain: 'Mîn and hûs keep the long monophthongs that modern German diphthongised (mein, Haus); guot keeps the diphthong that became long u (gut).' },
+    { id: 'e24', type: 'translate', dir: 'de-mhd', source: 'Die Leute suchen Gott.', model: 'Die liute suochent got.', accepted: ['die liute suochent got', 'liute suochent got'], explain: 'Liute (iu = long ü) became Leute; the present plural ends in -ent (suochent) where modern German has -en.' },
     { id: 'e25', type: 'mc', prompt: 'Normalised Middle High German spelling was created by:', options: ['19th-century editors such as Karl Lachmann', 'the scribes of the Codex Manesse', 'Martin Luther', 'the imperial chancery'], answer: 0, explain: 'It is an editorial reconstruction, not a medieval spelling.' }
   ],
 
@@ -365,7 +365,7 @@ Viator.addLecture('mhd', {
       { id: 't5', type: 'gap', prompt: '<span class="la">Die liute suoch___ got.</span>', hint: 'they seek', answers: ['ent'], full: 'Die liute suochent got.', explain: '3rd person plural -ent.' },
       { id: 't6', type: 'gap', prompt: '<span class="la">Du ___ mîn vriunt.</span>', hint: 'are', answers: ['bist'], full: 'Du bist mîn vriunt.', explain: 'As in modern German.' },
       { id: 't7', type: 'translate', dir: 'mhd-de', source: 'Der ritter list ein buoch.', model: 'Der Ritter liest ein Buch.', accepted: ['ritter liest buch', 'ritter liest ein buch', 'der ritter liest ein buch'] },
-      { id: 't8', type: 'translate', dir: 'de-mhd', source: 'Mein Haus', model: 'mîn hûs', accepted: ['mîn hûs'] },
+      { id: 't8', type: 'translate', dir: 'de-mhd', source: 'Mein Haus', model: 'mîn hûs', accepted: ['mîn hûs'], explain: 'Î and û are long monophthongs, later diphthongised to ei and au: mîn hûs > mein Haus.' },
       { id: 't9', type: 'mc', prompt: '<span class="la">er sî</span> is:', options: ['present subjunctive: er sei', 'present indicative: er ist', 'past: er war', 'the pronoun sie'], answer: 0, explain: 'sî is the subjunctive of sîn.' },
       { id: 't10', type: 'mc', prompt: 'A <span class="la">dienstman</span> was:', options: ['an unfree knight in a lord’s service', 'a railway porter', 'a household servant', 'a paid soldier'], answer: 0, explain: 'Latin ministerialis.' },
       { id: 't11', type: 'mc', prompt: 'How was MHG <span class="la">v</span> in <span class="la">vür</span> pronounced?', options: ['f', 'v as in English', 'w', 'u'], answer: 0, explain: 'As in modern Vater.' }

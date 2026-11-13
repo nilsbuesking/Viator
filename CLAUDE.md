@@ -22,6 +22,9 @@ British English in all text.
   bump `FORMAT` and extend `migrate()` so old backups still restore. The current place in the app
   (`viator.place`: page, lecture section, scroll position, an exercise in progress) is stored separately,
   is not part of backups, and is restored only after a restart within four hours (`PLACE_HOURS`).
+  Format 3 (November 2026): card direction is per course (`cardDir` in the course's progress, default from the
+  catalogue), 10 new cards a day. Misses are stored as `lectureId:itemId`; the revision sessions on the
+  Progress page (`ui.view = 'review'`) reuse the exercise renderer and must keep working when lectures are added.
 - Phone layout: form text never under 16 px (Safari zooms into it); touch targets 44 px where possible;
   test new screens at 375 px wide with text size Extra large (`tests/phone_use.py`).
 - No build step, no frameworks, no external services. Only Google Fonts loads
@@ -42,6 +45,9 @@ British English in all text.
   blocks (history, culture, how the language works), grammar sections that
   explain why as well as what, reading `notes`, and a source quotation where
   one fits. Qualify claims to their evidence; note where scholars disagree.
+- Each lecture's exercises and test need translations both ways and gap or table items: tests always draw at least one
+  translation and one gap/table question. Translations into the course language need an `explain` that says why
+  the model answer has its form (the content check fails without it).
 - After writing a lecture, list every form you are less than certain of
   (gender, principal parts, vowel length, stress, accepted translations) in
   CONTENT-CHECKS.md. Nils checks these against Wheelock's, Lewis & Short or the

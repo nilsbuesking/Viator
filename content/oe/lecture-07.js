@@ -155,7 +155,9 @@ Viator.addLecture('oe', {
     { id: 'gethiode', head: 'geþēode', la: 'geþēode (eWS geþīode), geþēodes', g: 'n', pos: 'noun, strong', en: 'language; nation', note: 'From þēod “people” (Lecture I); compare German deutsch.' },
     { id: 'wela', head: 'wela', la: 'wela, welan', g: 'm', pos: 'noun, weak', en: 'wealth, prosperity', note: 'German Wohl; English weal, wealth.' },
     { id: 'cirice', head: 'cirice', la: 'cirice, ciricean', g: 'f', pos: 'noun, weak', en: 'church', note: 'German Kirche; c before i is tsch, so ci-ri-tsche.' },
-    { id: 'gewrit', head: 'gewrit', la: 'gewrit, gewrites', g: 'n', pos: 'noun, strong', en: 'writing, document, letter', note: 'Holy Writ; verb wrītan, strong I.' }
+    { id: 'gewrit', head: 'gewrit', la: 'gewrit, gewrites', g: 'n', pos: 'noun, strong', en: 'writing, document, letter', note: 'Holy Writ; verb wrītan, strong I.' },
+    { id: 'thurh', head: 'þurh', la: 'þurh (+ acc.)', pos: 'preposition', en: 'through; by means of', note: 'German durch.' },
+    { id: 'nu', head: 'nū', la: 'nū', pos: 'adverb, conjunction', en: 'now; now that', note: 'German nun. Nū is se rǣd gelang: now help depends (Lecture X).' }
   ],
 
   grammarCards: [
@@ -211,8 +213,8 @@ Viator.addLecture('oe', {
     { id: 'e17', type: 'order', prompt: 'Put the English translation in order.', source: 'Ūre ieldran lufodon wīsdōm.', tokens: ['Our', 'ancestors', 'loved', 'wisdom'], explain: 'ieldran: German Eltern.' },
     { id: 'e18', type: 'translate', dir: 'oe-en', source: 'Wē ne cunnon Lǣden.', model: 'We do not know Latin.', accepted: ['we do not know latin', 'we dont know latin', 'we know no latin', 'we cannot read latin', 'we can not read latin', 'we do not understand latin', 'we cannot understand latin', 'we know not latin'] },
     { id: 'e19', type: 'translate', dir: 'oe-en', source: 'Hē wende þā bōc on Englisc.', model: 'He translated the book into English.', accepted: ['he translated book into english', 'he turned book into english', 'he translated the book into english', 'he turned the book into english'] },
-    { id: 'e20', type: 'translate', dir: 'en-oe', source: 'they loved', model: 'hīe lufodon', accepted: ['hīe lufodon'] },
-    { id: 'e21', type: 'translate', dir: 'en-oe', source: 'I can (be able)', model: 'ic mæg', accepted: ['ic mæg'] },
+    { id: 'e20', type: 'translate', dir: 'en-oe', source: 'they loved', model: 'hīe lufodon', accepted: ['hīe lufodon'], explain: 'Weak verb, class II: lufian, lufode, lufodon. The dental suffix -d- is the one in German liebte.' },
+    { id: 'e21', type: 'translate', dir: 'en-oe', source: 'I can (be able)', model: 'ic mæg', accepted: ['ic mæg'], explain: 'Magan is a preterite-present: ic mæg “I can”, without an ending, like German ich mag (English may).' },
     { id: 'e22', type: 'mc', prompt: 'In what dialect is Alfred’s Preface written?', options: ['Early West Saxon', 'Northumbrian', 'Late West Saxon (Ælfric)', 'Kentish'], answer: 0, explain: 'Hence giond, hiora, geðīode.' },
     { id: 'e23', type: 'mc', prompt: 'What is an <span class="la">æstel</span>, according to the usual interpretation?', options: ['A pointer for following the text', 'A book cover', 'A Latin grammar', 'A bishop’s ring'], answer: 0, explain: 'The meaning is inferred; the word is rare.' }
   ],
@@ -284,7 +286,7 @@ Viator.addLecture('oe', {
       { id: 't5', type: 'gap', prompt: '<span class="la">Hīe ___ Gode.</span>', hint: 'they heard (hȳran, past)', answers: ['hȳrdon', 'hyrdon'], full: 'Hīe hȳrdon Gode.', explain: 'Class 1, long stem: -don.' },
       { id: 't6', type: 'gap', prompt: '<span class="la">Ic ne ___ hit.</span>', hint: 'I did not know (witan, past)', answers: ['wiste', 'wisse'], full: 'Ic ne wiste hit.', explain: 'German wusste.' },
       { id: 't7', type: 'translate', dir: 'oe-en', source: 'Hē lǣrde þā cnihtas.', model: 'He taught the boys.', accepted: ['he taught boys', 'he taught the boys', 'he taught youths', 'he taught servants', 'he taught the young men', 'he taught young men'] },
-      { id: 't8', type: 'translate', dir: 'en-oe', source: 'he knows (witan)', model: 'hē wāt', accepted: ['hē wāt'] },
+      { id: 't8', type: 'translate', dir: 'en-oe', source: 'he knows (witan)', model: 'hē wāt', accepted: ['hē wāt'], explain: 'Witan “know”: ic wāt, hē wāt, both without ending, like German ich weiß, er weiß.' },
       { id: 't9', type: 'mc', prompt: 'Into which language did Alfred translate the Pastoral Care?', options: ['English', 'Latin', 'Greek', 'Danish'], answer: 0, explain: 'From Gregory’s Latin.' },
       { id: 't10', type: 'mc', prompt: '<span class="la">nāt</span> =', options: ['ne wāt, “does not know”', 'night', 'a nut', 'nothing'], answer: 0, explain: 'ne fuses with the verb.' },
       { id: 't11', type: 'mc', prompt: 'Alfred’s <span class="la">hiora</span> is, in later West Saxon:', options: ['heora', 'hiera', 'hira', 'here'], answer: 0, explain: 'Early West Saxon io = later eo.' }

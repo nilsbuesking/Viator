@@ -63,7 +63,12 @@ for (const c of reg.catalogue) {
         if (!Array.isArray(it.options) || it.answer == null || it.answer < 0 || it.answer >= it.options.length) F('multiple choice: answer out of range', w);
         else if (new Set(it.options).size !== it.options.length) F('multiple choice: duplicate options', w);
       } else if (it.type === 'gap') { if (!it.answers || !it.answers.length) F('gap without answers', w); }
-      else if (it.type === 'translate') { if (!it.accepted || !it.accepted.length || !it.dir || !it.model) F('translation incomplete', w); }
+      else if (it.type === 'translate') {
+        if (!it.accepted || !it.accepted.length || !it.dir || !it.model) F('translation incomplete', w);
+        // translations into the course language explain the model answer (teaching review, November 2026)
+        const into = String(it.dir || '').split('-')[1];
+        if (into && into !== 'en' && into !== 'de' && !it.explain) F('translation into the course language without an explanation', w);
+      }
       else if (it.type === 'paradigm') { (it.rows || []).forEach(r => { if (!r.answers || r.answers.length !== it.headers.length) F('table row does not match the headers', w, r.label); }); }
       else if (it.type === 'match') {
         if (!it.pairs || it.pairs.length < 2) F('matching: too few pairs', w);

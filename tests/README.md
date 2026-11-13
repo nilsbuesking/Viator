@@ -21,7 +21,8 @@ Lecture II and the Palästinalied).
 - `validate_content.js` (Node, about a second, no browser): every catalogue file
   exists, loads without errors and is in the offline list; every exercise and test
   item is complete and consistent; lecture and item ids are unique; Latin stress
-  lines follow the stress rule; Beowulf reading titles give the right line numbers.
+  lines follow the stress rule; Beowulf reading titles give the right line numbers; every translation into
+  the course language has an explanation.
   Run it on its
   own with `node tests/validate_content.js` after any content change.
 - `robustness.py`: damaged or unsavable progress, an update arriving during an
@@ -31,6 +32,9 @@ Lecture II and the Palästinalied).
   only over https).
 - `backup_restore.py`, `migration_format2.py`: saving and restoring progress, and
   converting backups of the older format.
+- `revision.py`: progress format 3 (card direction per course, 10 new cards a day), the one-way cards of the
+  reading courses, a translation and a gap or table question in every lecture test (all lectures, 20 draws each),
+  and the Missed items and Revision test sessions on the Progress page, including a restart in the middle of one.
 - `<course>_lecture<N>.py`, `<course>_course.py`, `mhd_special_*.py`,
   `mhd_german_series.py`: per lecture, every exercise answered from the lecture's
   own data, word glosses in the reading, the test, the cards, and no horizontal

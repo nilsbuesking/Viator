@@ -30,6 +30,7 @@ Viator.setCatalogue([
     macrons: true,
     lengthMark: 'circumflex', lengthMarkName: 'length marks', lengthMarkExample: 'â ê î ô û',
     lectureWord: 'Lecture',
+    cardDir: 'la-en',                  // a reading course: vocabulary cards from the course language only (changeable under Cards)
     reverseFrom: 'de',                 // glosses and reverse flashcards use German
     // spelling variants treated as equal: edition symbols and the commonest manuscript habits
     spelling: [['æ', 'ae'], ['œ', 'oe'], ['ë', 'e'], ['ʒ', 'z'], ['ck', 'k'], ['c', 'k'], ['y', 'i'], ['j', 'i'], ['v', 'u'],
@@ -48,6 +49,7 @@ Viator.setCatalogue([
     macrons: true,
     lengthMark: 'macron', lengthMarkName: 'macrons', lengthMarkExample: 'ā ǣ ē ī ō ū ȳ',
     lectureWord: 'Lecture',
+    cardDir: 'la-en',                  // a reading course: vocabulary cards from the course language only (changeable under Cards)
     // þ and ð were used interchangeably by scribes; ƿ (wynn) is w; dotted ċ ġ of some editions are plain c g
     spelling: [['ð', 'þ'], ['th', 'þ'], ['ƿ', 'w'], ['ċ', 'c'], ['ġ', 'g'], ['ae', 'æ']],
     lectures: ['oe/lecture-01.js', 'oe/lecture-02.js', 'oe/lecture-03.js', 'oe/lecture-04.js', 'oe/lecture-05.js', 'oe/lecture-06.js', 'oe/lecture-07.js', 'oe/lecture-08.js', 'oe/lecture-09.js', 'oe/lecture-10.js', 'oe/lecture-11.js', 'oe/lecture-12.js', 'oe/special-maldon.js'],
@@ -65,6 +67,7 @@ Viator.setCatalogue([
     macrons: false,
     lengthMark: 'none', lengthMarkName: 'length marks', lengthMarkExample: '',
     lectureWord: 'Lecture',
+    cardDir: 'la-en',                  // a reading course: vocabulary cards from the course language only (changeable under Cards)
     // spelling variants treated as equal when checking answers: thorn/eth = th, yogh = gh or y,
     // u/v and i/j/y interchange, doubled letters
     spelling: [['þ', 'th'], ['ð', 'th'], ['ȝ', 'gh'], ['v', 'u'], ['j', 'i'], ['y', 'i'], ['ck', 'k'], ['([a-z])\\1', '$1']],
