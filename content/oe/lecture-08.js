@@ -124,7 +124,7 @@ Viator.addLecture('oe', {
 
   vocab: [
     { id: 'secg', head: 'secg', la: 'secg, secges', g: 'm', pos: 'noun, strong', en: 'man, warrior (poetic)', note: 'Verse only. Not the same word as secg “sedge”.' },
-    { id: 'beorn', head: 'beorn', la: 'beorn, beornes', g: 'm', pos: 'noun, strong', en: 'man, warrior (poetic)', note: 'Related to Old Norse bjǫrn “bear”, perhaps originally “bear-warrior”; a guess.' },
+    { id: 'beorn', head: 'beorn', la: 'beorn, beornes', g: 'm', pos: 'noun, strong', en: 'hero, warrior (poetic)', note: 'Related to Old Norse bjǫrn “bear”, perhaps originally “bear-warrior”; a guess.' },
     { id: 'cempa', head: 'cempa', la: 'cempa, cempan', g: 'm', pos: 'noun, weak', en: 'warrior, champion', note: 'German Kämpe, kämpfen.' },
     { id: 'ceorl', head: 'ceorl', la: 'ceorl, ceorles', g: 'm', pos: 'noun, strong', en: 'man; freeman (not noble)', note: 'German Kerl; English churl. In verse also “man” in general.' },
     { id: 'flota', head: 'flota', la: 'flota, flotan', g: 'm', pos: 'noun, weak', en: 'ship (“floater”); seafarer', note: 'Verb flēotan, German fließen; English fleet.' },

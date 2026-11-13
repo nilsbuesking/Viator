@@ -262,6 +262,8 @@ textarea.field { min-height: 88px; resize: vertical; }
 select.field { min-height: 40px; padding: 6px 10px; font-family: var(--font-ui); font-size: 0.95rem; width: auto; }
 
 .search { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 56px); z-index: 4; background: var(--bg); padding-block: 4px 8px; }
+.updatebar { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(var(--tabbar-h) + env(safe-area-inset-bottom, 0px) + 12px); width: min(560px, calc(100% - 32px)); box-sizing: border-box; display: flex; gap: 12px; align-items: center; justify-content: space-between; background: var(--surface); color: var(--ink); border: 1px solid var(--ochre); border-radius: var(--radius); padding: 10px 12px 10px 14px; font-family: var(--font-ui); font-size: 0.92rem; z-index: 19; box-shadow: 0 4px 16px rgba(0,0,0,.12); }
+.updatebar span { flex: 1 1 auto; min-width: 0; }
 .toast { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(var(--tabbar-h) + env(safe-area-inset-bottom, 0px) + 16px); background: var(--ink); color: var(--bg); padding: 10px 16px; border-radius: 8px; font-size: 0.9rem; z-index: 20; max-width: calc(100% - 32px); }
 
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }

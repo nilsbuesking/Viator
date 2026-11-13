@@ -1217,6 +1217,7 @@ Note: the third declension is now split over Lectures VII and VIII, so the cours
 - **Claims:** Gregory of Tours on Chlochilaicus (c. 520); Magoun 1953 (*Speculum*), Benson 1966 (*PMLA*); Brodeur 1959 (*The Art of Beowulf*) on kennings; Sievers 1885/1893; *Bräutigam* < *guma*; *gerben* < *garawen*; the hero first named at line 343.
 - **Glosses:** *āntīd* and *eoletes* are cruxes and their meanings are marked as uncertain; *lōgon* from *lēan* (strong VI).
 - **Picture:** *Gokstadskipet1.jpg* on Commons. Please confirm the licence and author.
+- **Gloss changed (13 November 2026):** *beorn* is now “hero, warrior (poetic)” instead of “man, warrior (poetic)”, so that it no longer has exactly the same gloss as *secg*. Check against Bosworth–Toller (*beorn*: man, noble, chief, hero, warrior).
 
 ## Old English Lecture IX (The coast-guard; subjunctive)
 

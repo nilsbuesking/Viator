@@ -112,8 +112,11 @@ British English in all text.
 - Never use the smallest model for Latin or French content.
 
 ## Testing after changes
-Run the browser tests in `tests/` (see tests/README.md); add to them when you add
-a lecture or feature. They cover every exercise, word glosses in readings, the
-date arithmetic, map taps, and a backup save and restore. Check there is no
-horizontal scrolling. After pushing, check that the GitHub Pages deployment
+After any content change run `node tests/validate_content.js` (one second). Before
+every push run `python3 tests/run_all.py` (all tests in parallel, pass/fail summary,
+exit code 1 on failure; see tests/README.md). Add to the tests when you add a
+lecture or feature. They cover every exercise, word glosses in readings, the date
+arithmetic, map taps, backup save and restore, damaged progress, updates, offline
+start, and no horizontal scrolling. Raise `VERSION` in `sw.js` and `BUILD` in
+`app.js` with every push. After pushing, check that the GitHub Pages deployment
 succeeded (Actions runs); a push made while a deployment is still running can fail.

@@ -7,7 +7,7 @@
   'use strict';
 
   const CONTENT_BASE = (document.currentScript && document.currentScript.dataset.content) || 'content/';
-  const BUILD = '2026-11-12 i';           // shown under Progress so you can tell which version is running
+  const BUILD = '2026-11-13 a';           // shown under Progress so you can tell which version is running
   const FORMAT = 2;                       // progress format version; bump + migrate() on change
   const STORE_KEY = 'viator.progress';
   const INTERVALS = [0, 1, 2, 4, 8, 16, 32, 64]; // Leitner box → days until next review
@@ -50,6 +50,26 @@
       document.head.appendChild(s);
     });
   }
+  // Content files are downloaded in parallel but run in the order given (async = false). A file that fails to
+  // download is reported in `missing` and skipped, so one missing lecture does not stop the whole app.
+  const missing = [];
+  const shortName = src => src.replace(/^.*?content\//, '');
+  function loadScripts(srcs) {
+    return Promise.all(srcs.map(src => new Promise(res => {
+      const s = document.createElement('script');
+      s.src = src; s.async = false;
+      s.onload = () => res();
+      s.onerror = () => { missing.push(shortName(src)); res(); };
+      document.head.appendChild(s);
+    })));
+  }
+  // A content file that downloads but contains an error also leaves its lecture out; report it the same way.
+  window.addEventListener('error', e => {
+    const f = e.filename || '';
+    if (f.indexOf('/content/') < 0) return;
+    const name = shortName(f) + ' (error)';
+    if (!missing.includes(name)) { missing.push(name); if (course && ui.view === 'home') render(); }
+  });
 
   // ---------- progress & storage ----------
   function freshProgress() {
@@ -86,12 +106,29 @@
     return p;
   }
   let P;
+  // damaged: stored progress could not be read ({ kept: true } if a copy was put aside);
+  // holdSaves: the copy could not be put aside, so nothing is written over the original until the person decides;
+  // saveFailed: the browser refused the last save
+  let damaged = null, holdSaves = false, saveFailed = false;
   function load() {
-    try { P = migrate(JSON.parse(localStorage.getItem(STORE_KEY))); } catch (e) { P = freshProgress(); }
+    let raw = null;
+    try { raw = localStorage.getItem(STORE_KEY); } catch (e) { /* storage unavailable */ }
+    try { P = migrate(raw ? JSON.parse(raw) : null); }
+    catch (e) {
+      // Unreadable progress is never silently replaced: keep the text under its own key first.
+      P = freshProgress(); damaged = { kept: false };
+      try { localStorage.setItem(STORE_KEY + '.damaged.' + new Date().toISOString(), raw); damaged.kept = true; } catch (e2) { holdSaves = true; }
+    }
     try { navigator.storage && navigator.storage.persist && navigator.storage.persist(); } catch (e) { /* not supported */ }
   }
   function save() {
-    try { localStorage.setItem(STORE_KEY, JSON.stringify(P)); } catch (e) { /* storage unavailable: progress lives for this session only */ }
+    if (holdSaves) return;
+    try { localStorage.setItem(STORE_KEY, JSON.stringify(P)); saveFailed = false; }
+    catch (e) {
+      if (saveFailed) return;
+      saveFailed = true;   // say so once; the notice on the course page stays until a save succeeds
+      setTimeout(() => { toast('Progress could not be saved on this phone. Save a backup now.'); if (ui.view === 'home') render(); }, 0);
+    }
   }
   function courseP(id) {
     return P.courses[id] = P.courses[id] || { lectures: {}, cards: {}, newToday: { day: 0, count: 0 }, misses: {} };
@@ -279,6 +316,17 @@
   }
 
   // ----- home -----
+  // Problems the person needs to know about: unreadable progress, failed saves, course files that did not load.
+  function notices() {
+    const out = [];
+    if (damaged) out.push(`<div class="nudge" role="alert"><p><b>Your saved progress could not be read.</b> ${damaged.kept
+        ? 'The damaged copy has been kept on this phone, and the app has started afresh. Restore your last backup under Progress → Backup.'
+        : 'Nothing has been overwritten yet. Restore your last backup under Progress → Backup, or start afresh.'}</p>
+      <div class="row"><button class="btn quiet" data-go="progress" data-anchor="backup">Restore a backup</button>${holdSaves ? '<button class="btn danger" data-startafresh>Start afresh</button>' : '<button class="btn quiet" data-dismissdamaged>OK</button>'}</div></div>`);
+    if (saveFailed) out.push(`<div class="nudge" role="alert"><p><b>This browser is not saving your progress.</b> It may be full or in private mode. Save a backup file before you close the app.</p><button class="btn quiet" data-go="progress" data-anchor="backup">Back up now</button></div>`);
+    if (missing.length) out.push(`<div class="nudge" role="alert"><p><b>Some course files could not be loaded</b> (${esc(missing.join(', '))}). Those lectures are missing for now. Check the connection and open the app again.</p></div>`);
+    return out.join('');
+  }
   function backupDue() {
     const c = courseP(course.id);
     const hasProgress = Object.keys(c.cards).length || Object.keys(c.lectures).length;
@@ -331,7 +379,8 @@
         </div>
         ${due + fresh ? `<button class="btn ghost wide" data-go="cards">Review cards</button>` : ''}
       </section>
-      ${backupDue() ? `<div class="nudge"><p>${P.lastExport ? 'Your last backup is over a week old.' : 'You haven’t made a backup yet.'} Progress lives only in this browser.</p><button class="btn quiet" data-go="progress" data-anchor="backup">Back up now</button></div>` : ''}
+      ${notices()}
+      ${backupDue() ? `<div class="nudge"><p>${P.lastExport ? `Your last backup is more than ${P.settings.backupDays} days old.` : 'You haven’t made a backup yet.'} Progress lives only in this browser.</p><button class="btn quiet" data-go="progress" data-anchor="backup">Back up now</button></div>` : ''}
       <section>
         <p class="eyebrow">${esc(course.native || course.name)}${!ls.length ? ' · lectures planned' : ` · ${ls.filter(l => { const lp = c.lectures[l.id]; return lp && sectionsFor(l).every(x => lp.sections[x.id]); }).length} of ${ls.length} ${ls.length === 1 ? 'lecture' : 'lectures'} complete`}</p>
         <div class="lectures">${items}${planned}</div>
@@ -428,10 +477,17 @@
     const t = l.test, vq = t.vocabQuestions || 0;
     const written = sample(t.items, Math.max(0, t.count - vq));
     const vocabPool = l.vocab.filter(v => v.pos.indexOf('verb') === 0 || v.pos.indexOf('noun') === 0);
+    const kind = v => v.pos.split(',')[0];
     const vocab = sample(vocabPool, vq).map(v => {
-      const same = vocabPool.filter(x => x.id !== v.id && x.pos.split(',')[0] === v.pos.split(',')[0]);
-      const opts = shuffle([glossOf(v), ...sample(same, 3).map(x => glossOf(x))]);
-      return { id: 'tv-' + v.id, type: 'mc', prompt: `<span class="la">${esc(v.head)}</span> means:`, options: opts, answer: opts.indexOf(glossOf(v)), explain: v.la + ': ' + (v.de ? v.de + ' · ' : '') + v.en };
+      // Three wrong answers, all different from the right one and from each other: first words of the same kind
+      // from this lecture, then from the rest of the course, then any word from this lecture.
+      const answer = glossOf(v), wrong = [];
+      const add = list => { for (const x of shuffle(list)) { if (wrong.length >= 3) break; const g = glossOf(x); if (g && g !== answer && !wrong.includes(g)) wrong.push(g); } };
+      add(vocabPool.filter(x => x.id !== v.id && kind(x) === kind(v)));
+      if (wrong.length < 3) add(lectures().filter(o => o.id !== l.id).flatMap(o => o.vocab || []).filter(x => kind(x) === kind(v)));
+      if (wrong.length < 3) add(l.vocab.filter(x => x.id !== v.id));
+      const opts = shuffle([answer, ...wrong]);
+      return { id: 'tv-' + v.id, type: 'mc', prompt: `<span class="la">${esc(v.head)}</span> means:`, options: opts, answer: opts.indexOf(answer), explain: v.la + ': ' + (v.de ? v.de + ' · ' : '') + v.en };
     });
     return shuffle(written.concat(vocab));
   }
@@ -840,8 +896,25 @@
     } catch (e) { toast('That is not a Viātor backup.'); }
   }
 
+  // ---------- updates ----------
+  // index.html calls this when a new version of the app has taken over. On the course page the app reloads at once;
+  // anywhere else it offers to, so that an exercise, a test or a typed answer is not lost, and reloads when the
+  // person next returns to the course page.
+  let updatePending = false;
+  window.Viator.updateReady = () => {
+    if (ui.view === 'home' && !ui.confirmImport) { location.reload(); return; }
+    updatePending = true;
+    if ($('.updatebar')) return;
+    const b = document.createElement('div'); b.className = 'updatebar'; b.setAttribute('role', 'status');
+    b.innerHTML = '<span>A new version of the app is ready.</span><button class="btn quiet" data-reloadnow>Reload now</button>';
+    document.body.appendChild(b);
+  };
+
   // ---------- events ----------
-  function go(view) { ui.view = view; ui.gloss = null; render(); window.scrollTo(0, 0); }
+  function go(view) {
+    if (updatePending && view === 'home') { location.reload(); return; }
+    ui.view = view; ui.gloss = null; render(); window.scrollTo(0, 0);
+  }
   function openLecture(id, section) {
     ui.view = 'lecture'; ui.lectureId = id; ui.section = section || 'intro'; ui.ex = null; ui.gloss = null; ui.inline = {}; ui.readView = null;
     const lp = lectureP(course.id, id); if (!lp.started) { lp.started = true; touchStreak(); save(); }
@@ -850,7 +923,7 @@
   }
 
   function after() {
-    const cp = $('#coursepick'); if (cp) cp.onchange = () => { setCourse(cp.value); render(); };
+    const cp = $('#coursepick'); if (cp) cp.onchange = () => { switchCourse(cp.value); };
     // Choose a lecture: open it at its first unfinished section (or the introduction if all are done)
     const pl = $('#pickLecture'); if (pl) pl.onchange = () => { const l = findLecture(pl.value); if (!l) return; const lp = courseP(course.id).lectures[l.id]; const s = sectionsFor(l).find(x => !(lp && lp.sections[x.id])); openLecture(l.id, s ? s.id : 'intro'); };
     const rs = $('#refsearch');
@@ -942,13 +1015,18 @@
     }
     if (t.hasAttribute('data-endcards')) { ui.cards.queue = []; render(); return; }
 
+    // notices
+    if (t.hasAttribute('data-reloadnow')) { location.reload(); return; }
+    if (t.hasAttribute('data-dismissdamaged')) { damaged = null; render(); return; }
+    if (t.hasAttribute('data-startafresh')) { damaged = null; holdSaves = false; save(); render(); toast('Started afresh.'); return; }
+
     // updates
     if (t.hasAttribute('data-update')) {
       if (!('serviceWorker' in navigator)) { toast('Updates are not available here.'); return; }
       navigator.serviceWorker.getRegistration().then(r => {
         if (!r) { toast('Updates work in the installed app only.'); return; }
         toast('Checking…');
-        r.update().then(() => setTimeout(() => toast(r.installing || r.waiting ? 'New version found. The app will reload.' : 'You have the latest version.'), 1500))
+        r.update().then(() => setTimeout(() => toast(r.installing || r.waiting ? 'New version found. It will be ready in a moment.' : 'You have the latest version.'), 1500))
           .catch(() => toast('Could not reach the server. Are you online?'));
       });
       return;
@@ -967,7 +1045,11 @@
     if (t.hasAttribute('data-copybackup')) { copyBackup(); return; }
     if (t.hasAttribute('data-importtext')) { readImport(($('#importtext') || {}).value || ''); return; }
     if (t.hasAttribute('data-cancelimport')) { ui.confirmImport = null; ui.restoreOpen = false; render(); return; }
-    if (t.hasAttribute('data-doimport')) { P = migrate(ui.confirmImport.progress); ui.confirmImport = null; ui.restoreOpen = false; save(); setCourse(P.activeCourse || course.id); render(); toast('Progress restored.'); return; }
+    if (t.hasAttribute('data-doimport')) {
+      P = migrate(ui.confirmImport.progress); ui.confirmImport = null; ui.restoreOpen = false;
+      damaged = null; holdSaves = false; save();
+      switchCourse(P.activeCourse || course.id).then(() => toast('Progress restored.')); return;
+    }
     if (t.hasAttribute('data-reset')) {
       if (!ui.confirmReset) { ui.confirmReset = true; render(); setTimeout(() => { ui.confirmReset = false; }, 4000); return; }
       delete P.courses[course.id]; ui.confirmReset = false; save(); render(); toast(course.name + ' progress reset.'); return;
@@ -979,21 +1061,30 @@
     course = registry.catalogue.find(c => c.id === id) || registry.catalogue[0];
     P.activeCourse = course.id; ui.view = 'home'; ui.ex = null; ui.cards = null; ui.ref = ''; ui.readView = null; ui.refPage = 'glossary'; ui.mapSel = null; save();
   }
+  // Each course's lecture files are loaded once; the current course first, the others in the background.
+  const courseLoads = {};
+  const loadCourse = c => courseLoads[c.id] = courseLoads[c.id] || loadScripts(c.lectures.map(f => CONTENT_BASE + f));
+  async function switchCourse(id) {
+    const c = registry.catalogue.find(x => x.id === id) || registry.catalogue[0];
+    await loadCourse(c);
+    setCourse(c.id); render(); window.scrollTo(0, 0);
+  }
 
   // ---------- boot ----------
   async function boot() {
     load();
-    const base = CONTENT_BASE;
     try {
-      await loadScript(base + 'catalogue.js');
-      for (const c of registry.catalogue) for (const f of c.lectures) await loadScript(base + f);
-      for (const f of registry.shared) await loadScript(base + f);
+      await loadScript(CONTENT_BASE + 'catalogue.js');
     } catch (e) {
-      root().innerHTML = `<div class="gutter" style="padding-block:40px"><p><b>Course files could not be loaded.</b></p><p class="small">${esc(e.message)}. Check that the content folder sits next to index.html.</p></div>`;
+      root().innerHTML = `<div class="gutter" style="padding-block:40px"><p><b>Course files could not be loaded.</b></p><p class="small">${esc(e.message)}. Check the connection, or that the content folder sits next to index.html.</p></div>`;
       return;
     }
-    setCourse(P.activeCourse);
+    const first = registry.catalogue.find(c => c.id === P.activeCourse) || registry.catalogue[0];
+    await Promise.all([loadCourse(first), loadScripts(registry.shared.map(f => CONTENT_BASE + f))]);
+    setCourse(first.id);
     render();
+    registry.catalogue.forEach(loadCourse);   // the other courses, so that switching is instant
   }
+  window.Viator._buildTest = id => buildTest(findLecture(id));   // for the tests
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot); else boot();
 })();
