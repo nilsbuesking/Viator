@@ -1477,3 +1477,37 @@ Written 2026-11-11 from general knowledge of the standard handbooks (no source t
 - **Picture:** *Bueckeburg Schloss v O.JPG*. Please check the licence.
 
 - **Source identified (Nils, 2026-11-07):** the Schaumburg texts come from the website of the Arbeitsgruppe Spurensuche in der Schaumburger Landschaft; the reading note and source panel now cite it.
+
+# Content review, 13 November 2026: Latin (all 41 lectures)
+
+Checked by script against a full-form list with vowel lengths (latin-macronizer, from Morpheus/Perseus data), the
+Collatinus lexicon (genders, principal parts) and the Perseus Latin texts; German comparisons, dates and etymologies read
+by hand. Corrected in the course:
+
+- **Stress lines** (against the rule): *lī-BER-tās* (VII), *ob-TI-ne-ō* (XX), *me-TU-e-re* (XXII), *con-TUR-bō* (XXIX),
+  *per-MA-ne-ō*, *DUM-mo-do* (XXXIII), *su-PER-stes*, *o-PE-ri-ō* (XXXIV), *Ē-gre-dī* (XXXV), *im-MI-ne-ō* (XXXVI),
+  *IN-gre-dī* (XXXVII), *RE-gre-dī* (XXXVIII); spelling within the stress line: *E-go* (IX), *ē-ru-DĪ-tus* (XXVII).
+  The content check now tests every Latin stress line against the rule (exception: *ítaque*).
+- **Length marks, open syllables:** *proptereā* (XVIII, XXI, XXVII), *adhūc* (XXXIII reading), *dēhīscēbat* (XXXV
+  reading), *cavērem* (XXXVII), *nēquāquam* (XXXVIII reading), *vidēmus* (XV); *deest, deesse, deestis, deerat* (XXXVI:
+  the prefix shortens before a vowel, as the course says for *moneō*).
+- **Claims:** Gellius 13.26 (III) reports Nigidius’s first-syllable accent *Váleri*, not support for *Vergílī*; German
+  modal verbs are preterite-presents, not compounds (VI); the accusative of exclamation and the German examples (VIII);
+  *Haupt* has no *f* (VIII); Latin *f* from *bh* is not part of the Germanic sound shift (IV); *ācer*/*Acker* (XVII);
+  German *Qual* has a *v*-sound (XVIII); *Leute* removed as an example of plural form with singular meaning (XXXII);
+  Maccari’s fresco dated 1882–88 in XX as in I.
+- **Multiple choice:** distractors *venībam* (an attested old imperfect) and *frūctum* (a poetic contracted genitive
+  plural) replaced by impossible forms (XI t9, XXI t2).
+
+Please confirm:
+
+- [ ] **Hidden quantities now marked long**, following the reference list and the course’s own *mānsī*: *fōrma* (V,
+  XXVI reading), *stēlla* (I), *vēndō, vēndere, vēndidī, vēnditum* (IX, XVI), *nārrō* (XXXI), *lūctus* (XXXIV, XXXVII),
+  *vēscor* (XXXV), *remānseram* (XXXVII), *sūmere, sūmpsī, sūmptum* (IV, in a wrong option), *sēscentī* (XVI),
+  *dēprēndō* (XXX, now matching the course’s *dēprēnsum*). Hidden quantity rests on indirect evidence and reference
+  works differ; please check against the OLD.
+- [ ] *fīrmus, īnfīrmus* (VI) left long. The reference list has *firmus*, and Italian *fermo* points to a short vowel;
+  other dictionaries mark it long.
+- [ ] Pliny 6.20.1 (XXXVII reading): the Perseus text prints Virgil’s line as *Quamquam animus meminisse horret, …
+  incipiam*, without *luctūque refūgit*; the course follows Nils’s copy with the full line.
+- [ ] Cicero, *In Catilinam* 1.2 (XXIII, XLI): *vītēmus* in the course, *vitamus* in the Perseus text (a variant).

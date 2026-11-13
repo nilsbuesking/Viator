@@ -149,7 +149,7 @@ Viator.addLecture('latin', {
     { id: 'desero', head: 'dēserō', la: 'dēserō, dēserere, dēseruī, dēsertum', pos: 'verb, 3rd conj.', en: 'leave, abandon, desert', stress: 'DĒ-se-rō · dē-SE-re-re', deriv: 'desert' },
     { id: 'flamma', head: 'flamma', la: 'flamma, flammae', g: 'f', pos: 'noun, 1st decl.', en: 'flame, fire', stress: 'FLAM-ma', deriv: 'flame, inflammation' },
     { id: 'incendium', head: 'incendium', la: 'incendium, incendiī', g: 'n', pos: 'noun, 2nd decl.', en: 'fire, blaze, conflagration', stress: 'in-CEN-di-um', deriv: 'incendiary', note: 'From incendō, “set on fire”.' },
-    { id: 'tenebrae', head: 'tenebrae', la: 'tenebrae, tenebrārum', g: 'f', pos: 'noun, 1st decl. (pl. only)', en: 'darkness', stress: 'TE-ne-brae', deriv: 'tenebrous', note: 'Plural in form, singular in meaning, like German Ferien or Leute.' },
+    { id: 'tenebrae', head: 'tenebrae', la: 'tenebrae, tenebrārum', g: 'f', pos: 'noun, 1st decl. (pl. only)', en: 'darkness', stress: 'TE-ne-brae', deriv: 'tenebrous', note: 'Plural in form, singular in meaning, like German Ferien.' },
     { id: 'solitudo', head: 'sōlitūdō', la: 'sōlitūdō, sōlitūdinis', g: 'f', pos: 'noun, 3rd decl.', en: 'loneliness; deserted place, wilderness', stress: 'sō-li-TŪ-dō · sō-li-TŪ-di-nis', deriv: 'solitude' },
     { id: 'formido', head: 'formīdō', la: 'formīdō, formīdinis', g: 'f', pos: 'noun, 3rd decl.', en: 'fear, terror, dread', stress: 'for-MĪ-dō · for-MĪ-di-nis', deriv: 'formidable' },
     { id: 'quies', head: 'quiēs', la: 'quiēs, quiētis', g: 'f', pos: 'noun, 3rd decl.', en: 'rest, quiet, sleep', stress: 'QUI-ēs · qui-Ē-tis', deriv: 'quiet', note: 'sē quiētī dare: to go to sleep (Pliny 6.16.13).' },

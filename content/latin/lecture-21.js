@@ -45,7 +45,7 @@ Viator.addLecture('latin', {
 
   culture: `
     <p class="eyebrow">From the sources</p>
-    <p class="la big">Hōrum omnium fortissimī sunt Belgae, propterea quod ā cultū atque hūmānitāte prōvinciae longissimē absunt …</p>
+    <p class="la big">Hōrum omnium fortissimī sunt Belgae, proptereā quod ā cultū atque hūmānitāte prōvinciae longissimē absunt …</p>
     <p>“Of all these the bravest are the Belgae, because they are furthest away from the way of life and civilisation of the Province …” Caesar, <em>De bello Gallico</em> 1.1, checked against the copy in the course’s source files; length marks added. <span class="la">ā cultū</span>: ablative of separation with <span class="la">absum</span>, “be away from”; <span class="la">cultū</span> is fourth declension (<span class="la">cultus, -ūs</span>). The Province is Gallia Narbonensis, Roman since the 120s BC.</p>
     <p>Caesar’s theory, that distance from Mediterranean comforts made men tough, is a commonplace of Greek and Roman ethnography, not an observation.</p>
     <p>More from the course texts: the Helvetii fight the Germans <span class="la">cum aut suīs fīnibus eōs prohibent …</span>, “when they keep them from their own territory”, ablative of separation with <span class="la">prohibeō</span> (BG 1.1). Aeneas came <span class="la">Trōiae … ab ōrīs</span>, “from the shores of Troy” (<em>Aeneid</em> 1.1), and suffered <span class="la">tot … cāsūs</span>, “so many misfortunes”, accusative plural of the fourth-declension <span class="la">cāsus</span> (1.9). Pliny watched flames <span class="la">ē Vesuviō monte</span>, “from Mount Vesuvius” (6.16.13), and at Stabiae <span class="la">levium exēsōrumque pūmicum cāsus metuēbātur</span>, “the fall of light, porous pumice was feared” (6.16.16): <span class="la">cāsus</span> again, now in the nominative.</p>
@@ -277,7 +277,7 @@ Viator.addLecture('latin', {
     vocabQuestions: 4,
     items: [
       { id: 't1', type: 'mc', prompt: '<span class="la">senātūs</span> (long ū) can be:', options: ['gen. sg. or nom./acc. pl.', 'only nom. sg.', 'dat. sg.', 'abl. pl.'], answer: 0, explain: '-ūs serves three times.' },
-      { id: 't2', type: 'mc', prompt: 'Genitive plural of <span class="la">frūctus</span>:', options: ['frūctuum', 'frūctōrum', 'frūctum', 'frūctium'], answer: 0, explain: '-uum.' },
+      { id: 't2', type: 'mc', prompt: 'Genitive plural of <span class="la">frūctus</span>:', options: ['frūctuum', 'frūctōrum', 'frūctūs', 'frūctium'], answer: 0, explain: '-uum.' },
       { id: 't3', type: 'mc', prompt: '<span class="la">domō</span> (without preposition):', options: ['from home', 'at home', 'to home', 'of the house'], answer: 0, explain: 'Place from which.' },
       { id: 't4', type: 'gap', prompt: '<span class="la">Hostēs ā fīnibus nostrīs prohib___.</span>', hint: 'we keep away', answers: ['ēmus', 'emus'], full: 'Hostēs ā fīnibus nostrīs prohibēmus.', explain: '2nd conj., 1st pl.' },
       { id: 't5', type: 'gap', prompt: '<span class="la">Exercitus ___ monte dēscendit.</span>', hint: 'down from', answers: ['dē', 'de'], full: 'Exercitus dē monte dēscendit.', explain: 'dē: down from.' },

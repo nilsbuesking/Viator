@@ -18,6 +18,8 @@ ctx.Viator = {
 vm.createContext(ctx);
 const fails = [], notes = [];
 const F = (...a) => fails.push(a.join(' ')), N = (...a) => notes.push('NOTE ' + a.join(' '));
+// Latin words whose stress is not given by the rule: ítaque “therefore” (against ita-que “and so”)
+const STRESS_EXCEPTIONS = new Set(['I-ta-que']);
 
 vm.runInContext(fs.readFileSync(path.join(repo, 'content/catalogue.js'), 'utf8'), ctx);
 const sw = fs.readFileSync(path.join(repo, 'sw.js'), 'utf8');
@@ -69,6 +71,19 @@ for (const c of reg.catalogue) {
         if (!it.tokens || it.tokens.length < 2) F('word order: too few pieces', w);
         else if (new Set(it.tokens).size !== it.tokens.length) F('word order: two identical pieces (ambiguous)', w);
       } else F('unknown item type', it.type, w);
+    }
+    // Latin stress lines follow the rule: two syllables, the first; otherwise the penultimate if heavy (long vowel,
+    // diphthong, or closed by a consonant), else the antepenultimate. Syllables are as written in the stress line.
+    if (c.id === 'latin') for (const v of l.vocab || []) {
+      for (const word of String(v.stress || '').split('·').map(s => s.trim())) {
+        const syl = word.split('-'); if (syl.length < 2 || /\s/.test(word) || STRESS_EXCEPTIONS.has(word)) continue;
+        const up = syl.map((s, i) => /[A-ZĀĒĪŌŪȲ]/.test(s) && s === s.toUpperCase() ? i : -1).filter(i => i >= 0);
+        if (up.length !== 1) { F('stress line: not exactly one stressed syllable', JSON.stringify(word), where); continue; }
+        const k = syl.length, pen = syl[k - 2].toLowerCase();
+        const heavy = /[āēīōūȳ]/.test(pen) || /ae|au|oe|ei|eu/.test(pen) || !/[aeiouyāēīōūȳ]$/.test(pen);
+        const exp = k === 2 ? 0 : (heavy ? k - 2 : k - 3);
+        if (up[0] !== exp) F('stress line against the rule:', JSON.stringify(word), 'should stress syllable', exp + 1, 'of', k, where);
+      }
     }
     if (l.test) {
       const t = l.test, vq = t.vocabQuestions || 0;

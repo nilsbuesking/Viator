@@ -157,7 +157,7 @@ Viator.addLecture('latin', {
     { id: 'culpa', head: 'culpa', la: 'culpa, culpae', g: 'f', pos: 'noun, 1st decl.', en: 'fault, blame', stress: 'CUL-pa', deriv: 'culpable, culprit; mea culpa' },
     { id: 'cena', head: 'cēna', la: 'cēna, cēnae', g: 'f', pos: 'noun, 1st decl.', en: 'dinner', stress: 'CĒ-na', note: 'The main meal of the day, eaten in the late afternoon.' },
     { id: 'gloria', head: 'glōria', la: 'glōria, glōriae', g: 'f', pos: 'noun, 1st decl.', en: 'glory, fame', stress: 'GLŌ-ri-a', deriv: 'glory, glorious' },
-    { id: 'forma', head: 'forma', la: 'forma, formae', g: 'f', pos: 'noun, 1st decl.', en: 'form, shape; beauty', stress: 'FOR-ma', deriv: 'form, formal; Form' },
+    { id: 'fōrma', head: 'fōrma', la: 'fōrma, fōrmae', g: 'f', pos: 'noun, 1st decl.', en: 'form, shape; beauty', stress: 'FŌR-ma', deriv: 'form, formal; Form' },
     { id: 'copia', head: 'cōpia', la: 'cōpia, cōpiae', g: 'f', pos: 'noun, 1st decl.', en: 'abundance, supply; (pl.) troops, forces', stress: 'CŌ-pi-a', deriv: 'copious, copy' },
     { id: 'vitium', head: 'vitium', la: 'vitium, vitiī', g: 'n', pos: 'noun, 2nd decl.', en: 'fault, vice, crime', stress: 'VI-ti-um', deriv: 'vice, vitiate' },
 

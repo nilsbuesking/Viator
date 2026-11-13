@@ -47,7 +47,7 @@ Viator.addLecture('latin', {
   culture: `
     <p class="eyebrow">From the sources</p>
     <p class="la big">Hōrum omnium fortissimī sunt Belgae.</p>
-    <p>“Of all these the bravest are the Belgae.” Caesar, <em>De bello Gallico</em> 1.1, checked against the copy in the course’s source files. A true superlative (“the bravest”), with a genitive of the whole. Caesar continues: <span class="la">propterea quod … longissimē absunt</span>, “because they are furthest away”, a superlative adverb.</p>
+    <p>“Of all these the bravest are the Belgae.” Caesar, <em>De bello Gallico</em> 1.1, checked against the copy in the course’s source files. A true superlative (“the bravest”), with a genitive of the whole. Caesar continues: <span class="la">proptereā quod … longissimē absunt</span>, “because they are furthest away”, a superlative adverb.</p>
     <p>Pliny has comparatives in every paragraph of the letter. Near the shore, ash fell on the ships, <span class="la">quō propius accēderent, calidior et dēnsior</span>, “hotter and thicker the closer they came” (6.16.11). His uncle’s breathing was <span class="la">gravior et sonantior</span>, “rather heavy and loud” (6.16.13), comparatives used without a comparison. And at Stabiae in the morning: <span class="la">illīc nox omnibus noctibus nigrior dēnsiorque</span>, “there it was night, blacker and denser than all nights” (6.16.17): <span class="la">omnibus noctibus</span> is an ablative of comparison.</p>
     <p>Cicero, opening his attack on Catiline, points to <span class="la">hic mūnītissimus habendī senātūs locus</span>, “this most strongly defended place for holding the senate” (<em>In Catilinam</em> 1.1), the temple of Jupiter Stator guarded for the meeting: a superlative of the participle <span class="la">mūnītus</span>.</p>
   `,
@@ -140,7 +140,7 @@ Viator.addLecture('latin', {
     { id: 'densus', head: 'dēnsus', la: 'dēnsus, -a, -um', pos: 'adjective', en: 'thick, dense', stress: 'DĒN-sus', deriv: 'dense' },
     { id: 'niger', head: 'niger', la: 'niger, nigra, nigrum', pos: 'adjective', en: 'black, dark', stress: 'NI-ger · NI-gra', note: 'Comparative nigrior (regular); superlative nigerrimus (Lecture XXVIII).' },
     { id: 'calidus', head: 'calidus', la: 'calidus, -a, -um', pos: 'adjective', en: 'warm, hot', stress: 'CA-li-dus', note: 'Pliny 6.16.11: calidior et dēnsior.' },
-    { id: 'eruditus', head: 'ērudītus', la: 'ērudītus, -a, -um', pos: 'adjective', en: 'learned, educated', stress: 'ē-rū-DĪ-tus', deriv: 'erudite', note: 'Participle of ērudiō, “bring out of roughness” (ē + rudis).' },
+    { id: 'eruditus', head: 'ērudītus', la: 'ērudītus, -a, -um', pos: 'adjective', en: 'learned, educated', stress: 'ē-ru-DĪ-tus', deriv: 'erudite', note: 'Participle of ērudiō, “bring out of roughness” (ē + rudis).' },
     { id: 'similis', head: 'similis', la: 'similis, simile (+ gen. or dat.)', pos: 'adjective, 3rd decl.', en: 'like, similar', stress: 'SI-mi-lis', deriv: 'similar, simile', note: 'Comparative similior; superlative simillimus (Lecture XXVIII).' },
     { id: 'ramus', head: 'rāmus', la: 'rāmus, rāmī', g: 'm', pos: 'noun, 2nd decl.', en: 'branch', stress: 'RĀ-mus', deriv: 'ramify' },
     { id: 'truncus', head: 'truncus', la: 'truncus, truncī', g: 'm', pos: 'noun, 2nd decl.', en: 'trunk (of a tree or body)', stress: 'TRUN-cus', deriv: 'trunk' },

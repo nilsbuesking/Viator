@@ -165,7 +165,7 @@ Viator.addLecture('latin', {
     { id: 'labor', head: 'labor', la: 'labor, labōris', g: 'm', pos: 'noun, 3rd decl.', en: 'work, toil, hardship', stress: 'LA-bor · la-BŌ-ris', deriv: 'labour; Labor', note: 'Compare labōrō (Lecture I).' },
     { id: 'pax', head: 'pāx', la: 'pāx, pācis', g: 'f', pos: 'noun, 3rd decl.', en: 'peace', stress: 'PĀX · PĀ-cis', deriv: 'pacify, pacific' },
     { id: 'civitas', head: 'cīvitās', la: 'cīvitās, cīvitātis', g: 'f', pos: 'noun, 3rd decl.', en: 'state, community; citizenship', stress: 'CĪ-vi-tās · cī-vi-TĀ-tis', deriv: 'city' },
-    { id: 'libertas', head: 'lībertās', la: 'lībertās, lībertātis', g: 'f', pos: 'noun, 3rd decl.', en: 'freedom, liberty', stress: 'LĪ-ber-tās · lī-ber-TĀ-tis', deriv: 'liberty' },
+    { id: 'libertas', head: 'lībertās', la: 'lībertās, lībertātis', g: 'f', pos: 'noun, 3rd decl.', en: 'freedom, liberty', stress: 'lī-BER-tās · lī-ber-TĀ-tis', deriv: 'liberty' },
     { id: 'veritas', head: 'vēritās', la: 'vēritās, vēritātis', g: 'f', pos: 'noun, 3rd decl.', en: 'truth', stress: 'VĒ-ri-tās · vē-ri-TĀ-tis', deriv: 'verity', note: 'From vērus (Lecture IV).' },
     { id: 'mos', head: 'mōs', la: 'mōs, mōris', g: 'm', pos: 'noun, 3rd decl.', en: 'custom, habit; (pl.) character, morals', stress: 'MŌS · MŌ-ris', deriv: 'moral, mores', note: 'mōs maiōrum: the custom of the ancestors.' },
     { id: 'pater', head: 'pater', la: 'pater, patris', g: 'm', pos: 'noun, 3rd decl.', en: 'father', stress: 'PA-ter · PA-tris', deriv: 'paternal, patriot', note: 'German Vater (Grimm’s law: p > f).' },

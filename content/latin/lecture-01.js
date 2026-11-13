@@ -131,7 +131,7 @@ Viator.addLecture('latin', {
     <ul>
       <li><strong>Full final vowels.</strong> German reduces unstressed final <em>-e</em> and <em>-er</em> (<em>Liebe</em>, <em>Vater</em>). Latin never does: <span class="la">saepe</span> ends in a clear <em>e</em>, <span class="la">pater</span> in a clear <em>e</em> and a rolled <em>r</em>. Every vowel in every syllable keeps its full value.</li>
       <li><strong>s is always sharp.</strong> German voices <em>s</em> before a vowel (<em>Rose</em>, <em>Sonne</em>). Latin <span class="la">rosa</span> and <span class="la">sed</span> have the sharp <em>s</em> of <em>Bus</em> or <em>Straße</em>.</li>
-      <li><strong>st and sp</strong> are never <em>scht</em> and <em>schp</em>: <span class="la">stella</span>, <span class="la">spērō</span>.</li>
+      <li><strong>st and sp</strong> are never <em>scht</em> and <em>schp</em>: <span class="la">stēlla</span>, <span class="la">spērō</span>.</li>
       <li><strong>ti is t + i.</strong> German <em>Nation</em> and <em>Patient</em> have <em>ts</em>; Latin does not. <span class="la">sapientia</span> is “sa-pi-EN-ti-a”, not “sapientsia”.</li>
       <li><strong>No final hardening.</strong> German devoices final consonants (<em>Rad</em> sounds like <em>Rat</em>). Aim for a real <em>d</em> in <span class="la">ad</span>, <span class="la">quod</span>, <span class="la">id</span>.</li>
       <li><strong>Double consonants are really double.</strong> In German, <em>Mitte</em> has a single <em>t</em>; the double letter only marks the short vowel. In Latin, <span class="la">puella</span>, <span class="la">terra</span> and <span class="la">annus</span> hold the consonant, as in Italian <em>bella</em> or across German <em>Schifffahrt</em>.</li>

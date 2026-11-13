@@ -154,8 +154,8 @@ Viator.addLecture('latin', {
     { id: 'pareo', head: 'pāreō', la: 'pāreō, pārēre, pāruī (+ dat.)', pos: 'verb, 2nd conj.', en: 'obey', stress: 'PĀ-re-ō · pā-RĒ-re', note: 'German gehorchen + Dat. Not parō (prepare) or parcō (spare).' },
     { id: 'persuadeo', head: 'persuādeō', la: 'persuādeō, persuādēre, persuāsī, persuāsum (+ dat.)', pos: 'verb, 2nd conj.', en: 'persuade, convince', stress: 'per-SUĀ-de-ō · per-suā-DĒ-re', deriv: 'persuade', note: 'Trap: German überzeugen + Akk. Mihi persuāsum est: I am convinced.' },
     { id: 'studeo', head: 'studeō', la: 'studeō, studēre, studuī (+ dat.)', pos: 'verb, 2nd conj.', en: 'be eager for, be devoted to; study', stress: 'STU-de-ō · stu-DĒ-re', deriv: 'student, study', note: 'Pliny 6.16.5: studēbat, “he was working”.' },
-    { id: 'immineo', head: 'immineō', la: 'immineō, imminēre (+ dat.)', pos: 'verb, 2nd conj.', en: 'overhang, threaten, be imminent', stress: 'IM-mi-ne-ō · im-mi-NĒ-re', deriv: 'imminent', note: 'No perfect. Pliny 6.16.8: imminentī perīculō.' },
-    { id: 'desum', head: 'dēsum', la: 'dēsum, dēesse, dēfuī, dēfutūrus (+ dat.)', pos: 'verb, irregular', en: 'be lacking; fail (someone)', stress: 'DĒ-sum · dē-ES-se', note: 'dēest, dēerat: dē- and e- stay separate, usually two syllables in prose.' },
+    { id: 'immineo', head: 'immineō', la: 'immineō, imminēre (+ dat.)', pos: 'verb, 2nd conj.', en: 'overhang, threaten, be imminent', stress: 'im-MI-ne-ō · im-mi-NĒ-re', deriv: 'imminent', note: 'No perfect. Pliny 6.16.8: imminentī perīculō.' },
+    { id: 'desum', head: 'dēsum', la: 'dēsum, deesse, dēfuī, dēfutūrus (+ dat.)', pos: 'verb, irregular', en: 'be lacking; fail (someone)', stress: 'DĒ-sum · de-ES-se', note: 'deest, deerat: before a vowel the prefix dē- is short (a vowel before a vowel shortens, as in moneō); the two vowels usually stay separate in prose, though poets often run them together.' },
     { id: 'idoneus', head: 'idōneus', la: 'idōneus, idōnea, idōneum (+ dat.)', pos: 'adjective, 1st/2nd decl.', en: 'suitable, fit', stress: 'i-DŌ-ne-us', note: 'Compares with magis, maximē (Lecture XXVIII).' },
     { id: 'utilis', head: 'ūtilis', la: 'ūtilis, ūtile (+ dat.)', pos: 'adjective, 3rd decl.', en: 'useful', stress: 'Ū-ti-lis', deriv: 'utility', note: 'From ūtor (Lecture XXXV). German nützlich + Dat.' },
     { id: 'turba', head: 'turba', la: 'turba, turbae', g: 'f', pos: 'noun, 1st decl.', en: 'crowd, throng; disorder', stress: 'TUR-ba', deriv: 'turbulent, disturb' },
@@ -197,14 +197,14 @@ Viator.addLecture('latin', {
     { id: 'e8', type: 'gap', prompt: '<span class="la">Victor hostib___ pepercit.</span>', hint: 'the enemy', answers: ['us'], full: 'Victor hostibus pepercit.', explain: 'parcō + dative.' },
     { id: 'e9', type: 'gap', prompt: '<span class="la">Mārcus Lūci___ persuāsit.</span>', hint: 'Lucius', answers: ['ō', 'o'], full: 'Mārcus Lūciō persuāsit.', explain: 'persuādeō + dative.' },
     { id: 'e10', type: 'gap', prompt: '<span class="la">Hic locus castr___ idōneus est.</span>', hint: 'for a camp', answers: ['īs', 'is'], full: 'Hic locus castrīs idōneus est.', explain: 'idōneus + dative.' },
-    { id: 'e11', type: 'gap', prompt: '<span class="la">Amīcus amīc___ nōn dēest.</span>', hint: 'his friend', answers: ['ō', 'o'], full: 'Amīcus amīcō nōn dēest.', explain: 'dēsum + dative.' },
+    { id: 'e11', type: 'gap', prompt: '<span class="la">Amīcus amīc___ nōn deest.</span>', hint: 'his friend', answers: ['ō', 'o'], full: 'Amīcus amīcō nōn deest.', explain: 'dēsum + dative.' },
     { id: 'e12', type: 'gap', prompt: '<span class="la">Fēminae ___ crēditur.</span>', hint: 'not', answers: ['nōn', 'non'], full: 'Fēminae nōn crēditur.', explain: 'The woman is not believed: impersonal passive.' },
     { id: 'e13', type: 'paradigm', prompt: 'Give the present indicative of <span class="la">prōsum</span> (benefit) and <span class="la">dēsum</span>.', headers: ['prōsum', 'dēsum'], rows: [
       { label: '1st sg.', answers: ['prōsum', 'dēsum'] },
-      { label: '2nd sg.', answers: ['prōdes', 'dēes'] },
-      { label: '3rd sg.', answers: ['prōdest', 'dēest'] },
+      { label: '2nd sg.', answers: ['prōdes', 'dees'] },
+      { label: '3rd sg.', answers: ['prōdest', 'deest'] },
       { label: '1st pl.', answers: ['prōsumus', 'dēsumus'] },
-      { label: '2nd pl.', answers: ['prōdestis', 'dēestis'] },
+      { label: '2nd pl.', answers: ['prōdestis', 'deestis'] },
       { label: '3rd pl.', answers: ['prōsunt', 'dēsunt'] }
     ] },
     { id: 'e14', type: 'paradigm', prompt: 'Give the dative singular and plural.', headers: ['dat. sg.', 'dat. pl.'], rows: [
@@ -294,7 +294,7 @@ Viator.addLecture('latin', {
       ['crēdō', 'believe', 'glauben + Dat.'], ['faveō', 'favour', 'gewogen sein + Dat.'], ['ignōscō', 'forgive', 'verzeihen + Dat.'], ['imperō', 'command', 'befehlen + Dat.'], ['invideō', 'envy', 'beneiden + Akk.'], ['noceō', 'harm', 'schaden + Dat.'], ['parcō', 'spare', 'schonen + Akk.'], ['pāreō', 'obey', 'gehorchen + Dat.'], ['persuādeō', 'persuade', 'überzeugen + Akk.'], ['placeō', 'please', 'gefallen + Dat.'], ['serviō', 'serve', 'dienen + Dat.'], ['studeō', 'be eager for', 'sich widmen + Dat.']
     ] },
     { title: 'Compounds of sum with the dative', headers: ['Verb', 'Meaning', '3rd sg.'], rows: [
-      ['adsum', 'be present, help', 'adest'], ['dēsum', 'be lacking, fail', 'dēest'], ['praesum', 'be in charge of', 'praeest'], ['prōsum', 'benefit', 'prōdest'], ['obsum', 'hinder', 'obest']
+      ['adsum', 'be present, help', 'adest'], ['dēsum', 'be lacking, fail', 'deest'], ['praesum', 'be in charge of', 'praeest'], ['prōsum', 'benefit', 'prōdest'], ['obsum', 'hinder', 'obest']
     ] },
     { title: 'Adjectives with the dative', headers: ['Latin', 'Meaning'], rows: [
       ['similis / dissimilis', 'like / unlike'], ['amīcus / inimīcus', 'friendly / hostile'], ['fidēlis', 'faithful'], ['idōneus', 'suitable'], ['ūtilis', 'useful'], ['proximus', 'nearest'], ['pār', 'equal']

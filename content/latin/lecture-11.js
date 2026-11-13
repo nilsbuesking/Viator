@@ -294,7 +294,7 @@ Viator.addLecture('latin', {
       { id: 't6', type: 'translate', dir: 'la-en', source: 'Canis in āreā dormiēbat.', model: 'The dog was sleeping in the yard.', accepted: ['dog was sleeping in yard', 'dog slept in yard', 'dog was sleeping in courtyard', 'dog used to sleep in yard'] },
       { id: 't7', type: 'translate', dir: 'en-la', source: 'Listen! (sg.)', model: 'Audī!', accepted: ['audī'] },
       { id: 't8', type: 'mc', prompt: 'The principal parts <span class="la">capiō, capere, cēpī, captum</span> show a verb of the:', options: ['3rd conjugation (-iō)', '4th conjugation', '2nd conjugation', '1st conjugation'], answer: 0, explain: '-iō with a short -ere.' },
-      { id: 't9', type: 'mc', prompt: 'Imperfect 1st sg. of <span class="la">veniō</span>:', options: ['veniēbam', 'venībam', 'veniam', 'venēbam'], answer: 0, explain: '-iēbam.' },
+      { id: 't9', type: 'mc', prompt: 'Imperfect 1st sg. of <span class="la">veniō</span>:', options: ['veniēbam', 'veniābam', 'veniam', 'venēbam'], answer: 0, explain: '-iēbam.' },
       { id: 't10', type: 'mc', prompt: '<span class="la">Ōdī et amō</span> is by:', options: ['Catullus', 'Horace', 'Virgil', 'Cicero'], answer: 0, explain: 'Catullus 85.' },
       { id: 't11', type: 'mc', prompt: 'Which pair contrasts present and future?', options: ['audiunt / audient', 'audit / audīs', 'capit / capis', 'venit / venīmus'], answer: 0, explain: 'They hear / they will hear.' }
     ]

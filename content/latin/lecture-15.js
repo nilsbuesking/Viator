@@ -130,7 +130,7 @@ Viator.addLecture('latin', {
         <p>The thing with which something is done stands in the ablative <strong>without a preposition</strong>:</p>
         <ul>
           <li><span class="la">Mīlitēs gladiīs pugnant.</span> The soldiers fight with swords.</li>
-          <li><span class="la">Oculīs videmus, auribus audīmus.</span> We see with our eyes, we hear with our ears.</li>
+          <li><span class="la">Oculīs vidēmus, auribus audīmus.</span> We see with our eyes, we hear with our ears.</li>
           <li><span class="la">Pāstōrēs ignibus sē dēfendunt.</span> The shepherds defend themselves with fires.</li>
         </ul>
         <p>English and German use “with/mit” here, and the German speaker’s reflex is to write <span class="la">cum</span>. Resist it: <span class="la">cum gladiō</span> would mean “in the company of a sword”.</p>

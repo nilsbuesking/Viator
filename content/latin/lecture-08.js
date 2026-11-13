@@ -48,7 +48,7 @@ Viator.addLecture('latin', {
     <p class="eyebrow">From the sources</p>
     <p class="la big">Ō tempora, ō mōrēs!</p>
     <p>“What times! What morals!” Cicero, <em>In Catilinam</em> 1.2, from the speech against Catiline in November 63 BC. Cicero used the same exclamation in other speeches too.</p>
-    <p><span class="la">tempora</span> is the accusative plural of the neuter <span class="la">tempus, temporis</span>; <span class="la">mōrēs</span> the accusative plural of <span class="la">mōs, mōris</span> m. from Lecture VII. Latin uses the accusative for exclamations, as German sometimes does too (<em>O diese Zeiten!</em> has the nominative, but <em>welch einen Mann!</em> shows the accusative). The phrase is often quoted with mock indignation about modern manners, which suits Cicero’s own rhetoric better than one might think.</p>
+    <p><span class="la">tempora</span> is the plural of the neuter <span class="la">tempus, temporis</span>; <span class="la">mōrēs</span> the plural of <span class="la">mōs, mōris</span> m. from Lecture VII. Latin often uses the accusative for exclamations (<span class="la">mē miserum!</span>, “poor me!”), and that is the usual reading here, though <span class="la">tempora</span> and <span class="la">mōrēs</span> could also be nominatives, and grammars differ. German has accusatives of the same kind in greetings and wishes, the object of a verb left unsaid: <em>Guten Morgen!</em>, <em>Herzlichen Glückwunsch!</em>; its exclamations proper take the nominative (<em>O diese Zeiten!</em>, <em>Welch ein Mann!</em>). The phrase is often quoted with mock indignation about modern manners, which suits Cicero’s own rhetoric better than one might think.</p>
   `,
 
   pronunciation: `
@@ -56,7 +56,7 @@ Viator.addLecture('latin', {
     <p>The stem vowels of most neuters are short, so the stress moves back in the longer cases: <span class="la">COR-pus, COR-po-ris</span>; <span class="la">TEM-pus, TEM-po-ris</span>; <span class="la">GE-nus, GE-ne-ris</span>; <span class="la">CAR-men, CAR-mi-nis</span>. In <span class="la">nōmen, nōminis</span> the first vowel is long, but the stress still falls on it: <span class="la">NŌ-mi-nis</span>.</p>
     <p>Contrast the masculines in <span class="la">-or, -ōris</span> from Lecture VII, which have a long <span class="la">ō</span> and so keep the stress: <span class="la">a-MŌ-ris</span>, but <span class="la">COR-po-ris</span>. The length of the <span class="la">o</span> is the whole difference between the two patterns.</p>
     <h3>caput, capitis</h3>
-    <p><span class="la">CA-put, CA-pi-tis</span>, with a short <span class="la">a</span>. German <em>Kopf</em> is not related (it comes from a word for a cup), but <em>Haupt</em> is, by the first sound shift: <em>k</em> to <em>h</em>, <em>p</em> to <em>f</em>.</p>
+    <p><span class="la">CA-put, CA-pi-tis</span>, with a short <span class="la">a</span>. German <em>Kopf</em> is not related (it comes from a word for a cup), but <em>Haupt</em> probably is: <em>k</em> became <em>h</em> by the first sound shift, as in English <em>head</em> (Old English <em>hēafod</em>), though the vowel and the <em>b</em>/<em>p</em> of the Germanic word do not follow the regular sound laws, and etymologists still discuss why.</p>
   `,
 
   grammar: [

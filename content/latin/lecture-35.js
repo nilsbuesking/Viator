@@ -1,6 +1,6 @@
 /*
  * Latin — Lecture XXXV: deponent and semi-deponent verbs; the ablative with ūtor, fruor,
- * fungor, potior, vescor.
+ * fungor, potior, vēscor.
  * Authentic reading: Pliny, Letters 6.20.6–9.
  * Content file only. Source texts (Pliny, Letters 6.16 and 6.20) checked against the texts supplied
  * by Nils; length marks editorial. Pictures from Wikimedia Commons; see CONTENT-CHECKS.md.
@@ -9,13 +9,13 @@ Viator.addLecture('latin', {
   id: 'la-35',
   number: 35,
   title: 'Multās formīdinēs patimur',
-  subtitle: 'Deponent verbs (hortor, loquor, ēgredior); semi-deponents (audeō, gaudeō, soleō); the ablative with ūtor, fruor, fungor, potior, vescor; authentic reading: Pliny 6.20.6–9',
+  subtitle: 'Deponent verbs (hortor, loquor, ēgredior); semi-deponents (audeō, gaudeō, soleō); the ablative with ūtor, fruor, fungor, potior, vēscor; authentic reading: Pliny 6.20.6–9',
   minutes: 75,
 
   intro: `
     <p>Some Latin verbs have only passive forms but active meanings: <span class="la">hortor</span> “I urge”, <span class="la">loquor</span> “I speak”, <span class="la">patior</span> “I suffer”. They are called <strong>deponents</strong>, from <span class="la">dēpōnō</span>, “lay aside”, because the old grammarians thought they had laid aside their active forms. You have met many in the Pliny readings: <span class="la">cūnctātus</span>, <span class="la">cōnsōlātur</span>, <span class="la">hortātur</span>, <span class="la">vagentur</span>, <span class="la">ēgredī</span>, <span class="la">morātus</span>, <span class="la">amplexus</span>.</p>
     <p>Nothing new has to be learnt about the forms: they are the passive forms of Lectures XIX–XXII. What is new is reading them actively, and one great gift: the perfect participle of a deponent is active, <span class="la">hortātus</span> “having urged”, which ordinary verbs cannot form.</p>
-    <p>Five deponents take their object in the ablative: <span class="la">ūtor</span> “use”, <span class="la">fruor</span> “enjoy”, <span class="la">fungor</span> “perform”, <span class="la">potior</span> “gain possession of”, <span class="la">vescor</span> “feed on”. German has a close parallel in <em>sich einer Sache bedienen</em>, with the genitive.</p>
+    <p>Five deponents take their object in the ablative: <span class="la">ūtor</span> “use”, <span class="la">fruor</span> “enjoy”, <span class="la">fungor</span> “perform”, <span class="la">potior</span> “gain possession of”, <span class="la">vēscor</span> “feed on”. German has a close parallel in <em>sich einer Sache bedienen</em>, with the genitive.</p>
     <p>The reading: at dawn Pliny and his mother leave Misenum with a panicking crowd, and see the carts roll on level ground, the sea sucked back, and the black cloud split by flames.</p>
   `,
 
@@ -123,14 +123,14 @@ Viator.addLecture('latin', {
       `
     },
     {
-      title: '5. The ablative with ūtor, fruor, fungor, potior, vescor',
+      title: '5. The ablative with ūtor, fruor, fungor, potior, vēscor',
       html: `
         <ul>
           <li><span class="la">ūtor</span>, <span class="la">ūtī</span>, <span class="la">ūsus sum</span>: use. <span class="la">Gladiō ūtitur.</span> He uses a sword.</li>
           <li><span class="la">fruor</span>, <span class="la">fruī</span>, <span class="la">frūctus sum</span>: enjoy. <span class="la">Vītā fruimur.</span> We enjoy life.</li>
           <li><span class="la">fungor</span>, <span class="la">fungī</span>, <span class="la">fūnctus sum</span>: perform, discharge. <span class="la">Officiō fungitur.</span> He does his duty.</li>
           <li><span class="la">potior</span>, <span class="la">potīrī</span>, <span class="la">potītus sum</span>: gain possession of. <span class="la">Urbe potītī sunt.</span> They took the city. (Also + genitive: <span class="la">rērum potīrī</span>, “to seize power”.)</li>
-          <li><span class="la">vescor</span>, <span class="la">vescī</span>: feed on. <span class="la">Carne vescuntur.</span> They live on meat.</li>
+          <li><span class="la">vēscor</span>, <span class="la">vēscī</span>: feed on. <span class="la">Carne vēscuntur.</span> They live on meat.</li>
         </ul>
         <p>Historically this is an ablative of means: <span class="la">ūtor gladiō</span> was “I help myself by means of a sword”. Translate with an English direct object.</p>
       `
@@ -149,7 +149,7 @@ Viator.addLecture('latin', {
     { id: 'nascor', head: 'nāscor', la: 'nāscor, nāscī, nātus sum', pos: 'verb, 3rd conj. (deponent)', en: 'be born; arise', stress: 'NĀS-cor · NĀS-cī', deriv: 'native, nation', note: 'Older gnāscor: compare (g)nātus, cognātus.' },
     { id: 'morior', head: 'morior', la: 'morior, morī, mortuus sum', pos: 'verb, 3rd conj. -iō (deponent)', en: 'die', stress: 'MO-ri-or · MO-rī', deriv: 'mortuary', note: 'Future participle moritūrus (Lecture XXXIV: bene moritūram).' },
     { id: 'patior', head: 'patior', la: 'patior, patī, passus sum', pos: 'verb, 3rd conj. -iō (deponent)', en: 'suffer, endure; allow', stress: 'PA-ti-or · PA-tī', deriv: 'patient, passion' },
-    { id: 'egredior', head: 'ēgredior', la: 'ēgredior, ēgredī, ēgressus sum', pos: 'verb, 3rd conj. -iō (deponent)', en: 'go out, leave', stress: 'ē-GRE-di-or · ē-GRE-dī', deriv: 'egress', note: 'ē + gradior, “step”; compare gradus (Lecture XXXIV).' },
+    { id: 'egredior', head: 'ēgredior', la: 'ēgredior, ēgredī, ēgressus sum', pos: 'verb, 3rd conj. -iō (deponent)', en: 'go out, leave', stress: 'ē-GRE-di-or · Ē-gre-dī', deriv: 'egress', note: 'ē + gradior, “step”; compare gradus (Lecture XXXIV).' },
     { id: 'utor', head: 'ūtor', la: 'ūtor, ūtī, ūsus sum (+ abl.)', pos: 'verb, 3rd conj. (deponent)', en: 'use, make use of; enjoy (a friendship)', stress: 'Ū-tor · Ū-tī', deriv: 'use, utility' },
     { id: 'fruor', head: 'fruor', la: 'fruor, fruī, frūctus sum (+ abl.)', pos: 'verb, 3rd conj. (deponent)', en: 'enjoy', stress: 'FRU-or · FRU-ī', deriv: 'fruit, fruition', note: 'Future participle fruitūrus.' },
     { id: 'fungor', head: 'fungor', la: 'fungor, fungī, fūnctus sum (+ abl.)', pos: 'verb, 3rd conj. (deponent)', en: 'perform, carry out, discharge', stress: 'FUN-gor · FUN-gī', deriv: 'function, defunct' },
@@ -168,7 +168,7 @@ Viator.addLecture('latin', {
     { id: 'g35-ppp', front: 'Perfect participle of a deponent', back: 'Active meaning: hortātus “having urged”, ēgressus “having gone out”' },
     { id: 'g35-part', front: 'Participles of hortor', back: 'hortāns (urging), hortātus (having urged), hortātūrus (about to urge), hortandus (to be urged)' },
     { id: 'g35-semi', front: 'Semi-deponents', back: 'audeō, ausus sum; gaudeō, gāvīsus sum; soleō, solitus sum; fīdō, fīsus sum' },
-    { id: 'g35-abl', front: 'Deponents with the ablative', back: 'ūtor, fruor, fungor, potior, vescor' },
+    { id: 'g35-abl', front: 'Deponents with the ablative', back: 'ūtor, fruor, fungor, potior, vēscor' },
     { id: 'g35-utor', front: 'Gladiō ūtitur.', back: 'He uses a sword. (≈ er bedient sich eines Schwertes)' },
     { id: 'g35-potior', front: 'Urbe potītī sunt.', back: 'They took possession of the city.' },
     { id: 'g35-sequor', front: 'sequor: principal parts', back: 'sequor, sequī, secūtus sum' },
@@ -228,7 +228,7 @@ Viator.addLecture('latin', {
   reading: {
     title: 'Mīsēnum relinquunt (Plīnius, Epistulae 6.20.6–9)',
     note: 'Authentic text, unadapted: Pliny the Younger, Letters 6.20.6–9, from the copy Nils supplied; length marks added. Tap any word.',
-    text: 'Iam hōra diēī prīma, et adhūc dubius et quasi languidus diēs. Iam quassātīs circumiacentibus tēctīs, quamquam in apertō locō, angustō tamen, magnus et certus ruīnae metus. Tum dēmum excēdere oppidō vīsum; sequitur vulgus attonitum, quodque in pavōre simile prūdentiae, aliēnum cōnsilium suō praefert, ingentīque agmine abeuntēs premit et impellit. Ēgressī tēcta cōnsistimus. Multa ibi mīranda, multās formīdinēs patimur. Nam vehicula quae prōdūcī iusserāmus, quamquam in plānissimō campō, in contrāriās partēs agēbantur, ac nē lapidibus quidem fulta in eōdem vestīgiō quiēscēbant. Praetereā mare in sē resorbērī et tremōre terrae quasi repellī vidēbāmus. Certē prōcesserat lītus, multaque animālia maris siccīs harēnīs dētinēbat. Ab alterō latere nūbēs ātra et horrenda, igneī spīritūs tortīs vibrātīsque discursibus rupta, in longās flammārum figūrās dehīscēbat; fulguribus illae et similēs et maiōrēs erant.',
+    text: 'Iam hōra diēī prīma, et adhūc dubius et quasi languidus diēs. Iam quassātīs circumiacentibus tēctīs, quamquam in apertō locō, angustō tamen, magnus et certus ruīnae metus. Tum dēmum excēdere oppidō vīsum; sequitur vulgus attonitum, quodque in pavōre simile prūdentiae, aliēnum cōnsilium suō praefert, ingentīque agmine abeuntēs premit et impellit. Ēgressī tēcta cōnsistimus. Multa ibi mīranda, multās formīdinēs patimur. Nam vehicula quae prōdūcī iusserāmus, quamquam in plānissimō campō, in contrāriās partēs agēbantur, ac nē lapidibus quidem fulta in eōdem vestīgiō quiēscēbant. Praetereā mare in sē resorbērī et tremōre terrae quasi repellī vidēbāmus. Certē prōcesserat lītus, multaque animālia maris siccīs harēnīs dētinēbat. Ab alterō latere nūbēs ātra et horrenda, igneī spīritūs tortīs vibrātīsque discursibus rupta, in longās flammārum figūrās dēhīscēbat; fulguribus illae et similēs et maiōrēs erant.',
     translation: 'It was already the first hour of the day, and the light was still faint and, as it were, sickly. The buildings around us were already shaking, and although we were in the open, the space was narrow, and the fear of a collapse was great and certain. Only then did we decide to leave the town; a stunned crowd follows us, and, preferring another’s plan to its own (which in a panic looks like prudence), presses on us and pushes us forward in a huge column as we go. Once out of the buildings, we stop. There we experience many things to wonder at, many terrors. For the carts we had ordered to be brought out were moving in opposite directions, although on perfectly level ground, and would not stay in the same place even when wedged with stones. Besides, we saw the sea being sucked back into itself and, as it were, driven back by the earthquake. Certainly the shore had advanced and was holding many sea creatures on the dry sand. On the other side a black and terrible cloud, torn by twisting, quivering bursts of fiery vapour, gaped open in long shapes of flame; they were like lightning, but larger.',
     notes: [
       { ref: 'Iam hōra diēī prīma, et adhūc dubius et quasi languidus diēs', html: 'No verbs: supply <span class="la">erat</span>. <span class="la">hōra prīma</span>: the first hour after sunrise. Pliny’s nominal style, short phrases without verbs, conveys the tension.' },
@@ -254,7 +254,7 @@ Viator.addLecture('latin', {
       'nam': 'for', 'vehicula': 'nom. pl. of vehiculum: carts', 'quae': 'which', 'prōdūcī': 'pres. pass. inf. of prōdūcō: to be brought out', 'iusserāmus': 'plupf. 1st pl. of iubeō: we had ordered', 'plānissimō': 'abl. of plānissimus: very level', 'campō': 'abl. of campus: ground, plain', 'contrāriās': 'acc. pl. f. of contrārius: opposite', 'partēs': 'acc. pl. of pars: directions', 'agēbantur': 'impf. pass. 3rd pl. of agō: were driven', 'ac': 'and', 'nē': 'not (nē … quidem: not even)', 'lapidibus': 'abl. pl. of lapis: with stones', 'quidem': 'even (with nē)', 'fulta': 'nom. pl. n. of fultus (fulciō): propped', 'eōdem': 'abl. of īdem: the same', 'vestīgiō': 'abl. of vestīgium: spot', 'quiēscēbant': 'impf. 3rd pl. of quiēscō: stayed still',
       'praetereā': 'besides', 'mare': 'sea (acc.)', 'sē': 'itself', 'resorbērī': 'pres. pass. inf. of resorbeō: to be sucked back', 'tremōre': 'abl. of tremor: by the tremor', 'terrae': 'gen. of terra: of the earth', 'repellī': 'pres. pass. inf. of repellō: to be driven back', 'vidēbāmus': 'impf. 1st pl. of videō: we saw',
       'certē': 'certainly', 'prōcesserat': 'plupf. 3rd sg. of prōcēdō: had advanced', 'lītus': 'shore (nom.)', 'multaque': 'and many (+ -que)', 'animālia': 'acc. pl. of animal: creatures', 'maris': 'gen. of mare: of the sea', 'siccīs': 'abl. pl. of siccus: dry', 'harēnīs': 'abl. pl. of harēna: on the sands', 'dētinēbat': 'impf. 3rd sg. of dētineō: was holding',
-      'ab': 'from, on (+ abl.)', 'alterō': 'abl. of alter: the other', 'latere': 'abl. of latus: side', 'nūbēs': 'cloud (nom.)', 'ātra': 'black', 'horrenda': 'terrible', 'igneī': 'gen. of igneus: fiery', 'spīritūs': 'gen. of spīritus: of breath, vapour', 'tortīs': 'abl. pl. of tortus: twisting', 'vibrātīsque': 'and quivering (abl. pl. + -que)', 'discursibus': 'abl. pl. of discursus: by rushes', 'rupta': 'torn (nom. f.)', 'longās': 'acc. pl. f. of longus: long', 'flammārum': 'gen. pl. of flamma: of flames', 'figūrās': 'acc. pl. of figūra: shapes', 'dehīscēbat': 'impf. 3rd sg. of dehīscō: gaped open',
+      'ab': 'from, on (+ abl.)', 'alterō': 'abl. of alter: the other', 'latere': 'abl. of latus: side', 'nūbēs': 'cloud (nom.)', 'ātra': 'black', 'horrenda': 'terrible', 'igneī': 'gen. of igneus: fiery', 'spīritūs': 'gen. of spīritus: of breath, vapour', 'tortīs': 'abl. pl. of tortus: twisting', 'vibrātīsque': 'and quivering (abl. pl. + -que)', 'discursibus': 'abl. pl. of discursus: by rushes', 'rupta': 'torn (nom. f.)', 'longās': 'acc. pl. f. of longus: long', 'flammārum': 'gen. pl. of flamma: of flames', 'figūrās': 'acc. pl. of figūra: shapes', 'dēhīscēbat': 'impf. 3rd sg. of dēhīscō: gaped open',
       'fulguribus': 'dat./abl. pl. of fulgur: lightning flashes', 'illae': 'they (f. pl.)', 'similēs': 'like', 'maiōrēs': 'larger', 'erant': 'were'
     },
     questions: [
@@ -294,7 +294,7 @@ Viator.addLecture('latin', {
       ['audeō', 'audēre', 'ausus sum', 'dare'], ['gaudeō', 'gaudēre', 'gāvīsus sum', 'rejoice'], ['soleō', 'solēre', 'solitus sum', 'be accustomed'], ['fīdō', 'fīdere', 'fīsus sum', 'trust']
     ] },
     { title: 'Deponents with the ablative', headers: ['Verb', 'Meaning', 'Example'], rows: [
-      ['ūtor', 'use', 'gladiō ūtitur'], ['fruor', 'enjoy', 'vītā fruimur'], ['fungor', 'perform', 'officiō fungitur'], ['potior', 'gain possession of', 'urbe potītī sunt'], ['vescor', 'feed on', 'carne vescuntur']
+      ['ūtor', 'use', 'gladiō ūtitur'], ['fruor', 'enjoy', 'vītā fruimur'], ['fungor', 'perform', 'officiō fungitur'], ['potior', 'gain possession of', 'urbe potītī sunt'], ['vēscor', 'feed on', 'carne vēscuntur']
     ] }
   ]
 });

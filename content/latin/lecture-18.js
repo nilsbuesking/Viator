@@ -51,7 +51,7 @@ Viator.addLecture('latin', {
 
   pronunciation: `
     <h3>qu</h3>
-    <p><span class="la">qu</span> is one consonant, <em>kw</em>, as in German <em>Qual</em>: <span class="la">quī</span> is one syllable, <em>kwī</em>; <span class="la">quae</span> is <em>kwai</em>.</p>
+    <p><span class="la">qu</span> is one consonant, <em>kw</em> with an English <em>w</em> (German <em>Qual</em> has a <em>v</em>-sound instead): <span class="la">quī</span> is one syllable, <em>kwī</em>; <span class="la">quae</span> is <em>kwai</em>.</p>
     <h3>cuius, cui</h3>
     <p><span class="la">cuius</span> is <em>kuj-jus</em>, like <span class="la">eius</span> and <span class="la">huius</span>, with a heavy first syllable: <span class="la">CU-ius</span>. <span class="la">cui</span> is normally a single syllable, the diphthong <em>ui</em> (roughly <em>kuj</em>), though early poets sometimes split it.</p>
     <h3>quibus, quōrum</h3>
@@ -133,15 +133,15 @@ Viator.addLecture('latin', {
     {
       title: '6. Relative quod and conjunction quod',
       html: `
-        <p>Do not confuse the relative <span class="la">quod</span> (“which”) with the conjunction <span class="la">quod</span> (“because”), which you will meet constantly: Caesar explains the bravery of the Belgae <span class="la">propterea quod … longissimē absunt</span>, “because they are furthest away …”. If <span class="la">quod</span> has no neuter antecedent and its clause is complete without it, it is the conjunction. German has the same pair in <em>das</em> and <em>dass</em>, distinguished only in spelling.</p>
+        <p>Do not confuse the relative <span class="la">quod</span> (“which”) with the conjunction <span class="la">quod</span> (“because”), which you will meet constantly: Caesar explains the bravery of the Belgae <span class="la">proptereā quod … longissimē absunt</span>, “because they are furthest away …”. If <span class="la">quod</span> has no neuter antecedent and its clause is complete without it, it is the conjunction. German has the same pair in <em>das</em> and <em>dass</em>, distinguished only in spelling.</p>
       `
     }
   ],
 
   vocab: [
     { id: 'qui', head: 'quī, quae, quod', la: 'quī, quae, quod', pos: 'relative pronoun', en: 'who, which, that', stress: 'QUĪ · QUAE · QUOD', note: 'Gen. cuius, dat. cui. Gender and number from the antecedent, case from its own clause.' },
-    { id: 'quod-conj', head: 'quod (conj.)', la: 'quod', pos: 'conjunction', en: 'because', stress: 'QUOD', note: 'Also propterea quod: “because of the fact that”.' },
-    { id: 'propter', head: 'propter', la: 'propter (+ acc.)', pos: 'preposition', en: 'on account of, because of', stress: 'PROP-ter', note: 'propterea: for that reason.' },
+    { id: 'quod-conj', head: 'quod (conj.)', la: 'quod', pos: 'conjunction', en: 'because', stress: 'QUOD', note: 'Also proptereā quod: “because of the fact that”.' },
+    { id: 'propter', head: 'propter', la: 'propter (+ acc.)', pos: 'preposition', en: 'on account of, because of', stress: 'PROP-ter', note: 'proptereā: for that reason.' },
     { id: 'trans', head: 'trāns', la: 'trāns (+ acc.)', pos: 'preposition', en: 'across, over', stress: 'TRĀNS', deriv: 'transport, Transalpine' },
     { id: 'causa', head: 'causa', la: 'causa, causae', g: 'f', pos: 'noun, 1st decl.', en: 'cause, reason; (law) case', stress: 'CAU-sa', deriv: 'cause; French chose, Italian cosa', note: 'Quā dē causā: for this reason.' },
     { id: 'finis', head: 'fīnis', la: 'fīnis, fīnis', g: 'm', pos: 'noun, 3rd decl. (i-stem)', en: 'end, boundary; pl. territory', stress: 'FĪ-nis', deriv: 'final, finish, define', note: 'Plural fīnēs: “the boundaries”, hence “territory”.' },
@@ -214,7 +214,7 @@ Viator.addLecture('latin', {
     { id: 'e21', type: 'translate', dir: 'en-la', source: 'the woman whom I see', model: 'fēmina quam videō', accepted: ['fēmina quam videō'] },
     { id: 'e22', type: 'translate', dir: 'en-la', source: 'the city in which we live', model: 'urbs in quā habitāmus', accepted: ['urbs in quā habitāmus'] },
     { id: 'e23', type: 'mc', prompt: 'In Caesar’s <span class="la">tertiam quī ipsōrum linguā Celtae … appellantur</span>, the antecedent of <span class="la">quī</span> is:', options: ['left out: “(those) who”', 'partēs', 'Belgae', 'linguā'], answer: 0, explain: 'Supply eī: those who are called Celts.' },
-    { id: 'e24', type: 'mc', prompt: 'In Caesar’s <span class="la">propterea quod … longissimē absunt</span>, <span class="la">quod</span> is:', options: ['the conjunction “because”', 'the relative “which”', 'an interrogative “what?”', 'a numeral'], answer: 0, explain: 'propterea quod: because.' },
+    { id: 'e24', type: 'mc', prompt: 'In Caesar’s <span class="la">proptereā quod … longissimē absunt</span>, <span class="la">quod</span> is:', options: ['the conjunction “because”', 'the relative “which”', 'an interrogative “what?”', 'a numeral'], answer: 0, explain: 'proptereā quod: because.' },
     { id: 'e25', type: 'mc', prompt: '<span class="la">quod erat dēmōnstrandum</span> renders a formula from:', options: ['Euclid’s Greek proofs', 'Caesar’s Commentaries', 'Roman law', 'the Vulgate'], answer: 0, explain: 'Hence Q.E.D.' }
   ],
 

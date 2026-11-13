@@ -28,7 +28,7 @@ Viator.addLecture('latin', {
       title: 'Quamquam animus meminisse horret',
       html: `
         <p>Tacitus had read the first letter and wanted to know what the nephew himself had suffered at Misenum. Pliny begins his answer with two lines of Virgil:</p>
-        <p class="la">Quamquam animus meminisse horret luctūque refūgit, / incipiam.</p>
+        <p class="la">Quamquam animus meminisse horret lūctūque refūgit, / incipiam.</p>
         <p>“Though my mind shudders to remember and has shrunk back in grief, I shall begin” (<em>Aeneid</em> 2.12–13; text as supplied by Nils, length marks added). These are Aeneas’ words to Dido before he tells of the fall of Troy. The quotation casts the seventeen-year-old Pliny (he says <span class="la">agēbam duodēvīcēnsimum annum</span>, “I was in my eighteenth year”) as a small Aeneas, escaping a burning world and refusing to abandon a parent. How seriously the parallel is meant is debated: some readers see deliberate self-dramatisation, others gentle self-irony, since the nephew spends the first part of the night reading Livy.</p>
         <figure class="fig"><img class="fig-img" loading="lazy" decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Wall_painting_-_caricature_of_Aeneas_fleeing_with_his_father_and_his_son_-_Stabiae_-_Napoli_MAN_9089.jpg/960px-Wall_painting_-_caricature_of_Aeneas_fleeing_with_his_father_and_his_son_-_Stabiae_-_Napoli_MAN_9089.jpg" data-fallbacks="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Wall_painting_-_caricature_of_Aeneas_fleeing_with_his_father_and_his_son_-_Stabiae_-_Napoli_MAN_9089.jpg/500px-Wall_painting_-_caricature_of_Aeneas_fleeing_with_his_father_and_his_son_-_Stabiae_-_Napoli_MAN_9089.jpg|https://upload.wikimedia.org/wikipedia/commons/c/c5/Wall_painting_-_caricature_of_Aeneas_fleeing_with_his_father_and_his_son_-_Stabiae_-_Napoli_MAN_9089.jpg" alt="Roman wall painting of three animal-headed figures: one carrying an old figure on his shoulder and leading a child"><figcaption>A Roman joke on the most famous escape in Latin literature: Aeneas carrying his father Anchises and leading his son Ascanius out of Troy, all three with animal heads (usually described as apes or dogs). Wall painting from Stabiae, 1st century AD (Naples, National Archaeological Museum, inv. 9089). <span class="credit">Photograph; author and licence on the file page · <a href="https://commons.wikimedia.org/wiki/File:Wall_painting_-_caricature_of_Aeneas_fleeing_with_his_father_and_his_son_-_Stabiae_-_Napoli_MAN_9089.jpg" target="_blank" rel="noopener">Wikimedia Commons</a></span></figcaption></figure>
       `
@@ -125,7 +125,7 @@ Viator.addLecture('latin', {
     { id: 'proinde', head: 'proinde', la: 'proinde', pos: 'adverb', en: 'therefore, accordingly', stress: 'PROIN-de', note: 'Usually two syllables in verse (proin-de).' },
     { id: 'ultra', head: 'ultrā', la: 'ultrā', pos: 'adverb / preposition (+ acc.)', en: 'beyond; further, longer', stress: 'UL-trā', deriv: 'ultra-', note: 'nōn morātus ultrā: not delaying any longer (Pliny).' },
     { id: 'aegre', head: 'aegrē', la: 'aegrē', pos: 'adverb', en: 'with difficulty, reluctantly', stress: 'AE-grē', note: 'From aeger, “ill”. aegrē ferre: to take badly (Lecture XXXII).' },
-    { id: 'superstes', head: 'superstes', la: 'superstes, superstitis', pos: 'adjective, 3rd decl. (one ending)', en: 'surviving, outliving', stress: 'SU-per-stes · su-PER-sti-tis', note: 'super + stō, “stand over”. Related to superstitiō.' },
+    { id: 'superstes', head: 'superstes', la: 'superstes, superstitis', pos: 'adjective, 3rd decl. (one ending)', en: 'surviving, outliving', stress: 'su-PER-stes · su-PER-sti-tis', note: 'super + stō, “stand over”. Related to superstitiō.' },
     { id: 'iuvenis', head: 'iuvenis', la: 'iuvenis, iuvenis', g: 'm', pos: 'noun, 3rd decl.', en: 'young man (roughly 18 to 45)', stress: 'IU-ve-nis', deriv: 'juvenile', note: 'Genitive plural iuvenum (not an i-stem). Compare German jung, English young.' },
     { id: 'gradus', head: 'gradus', la: 'gradus, gradūs', g: 'm', pos: 'noun, 4th decl.', en: 'step, pace; degree, rank', stress: 'GRA-dus', deriv: 'grade, degree', note: 'gradum addere: to quicken one’s pace (Pliny 6.20.12).' },
     { id: 'cursus', head: 'cursus', la: 'cursus, cursūs', g: 'm', pos: 'noun, 4th decl.', en: 'running, course; voyage', stress: 'CUR-sus', deriv: 'course', note: 'From currō. cursus honōrum: the sequence of public offices.' },
@@ -133,7 +133,7 @@ Viator.addLecture('latin', {
     { id: 'evado', head: 'ēvādō', la: 'ēvādō, ēvādere, ēvāsī, ēvāsum', pos: 'verb, 3rd conj.', en: 'go out, escape', stress: 'ē-VĀ-dō · ē-VĀ-de-re', deriv: 'evade, evasion' },
     { id: 'cesso', head: 'cessō', la: 'cessō, cessāre, cessāvī, cessātum', pos: 'verb, 1st conj.', en: 'delay, hold back, be idle', stress: 'CES-sō · ces-SĀ-re', deriv: 'cease, cessation', note: 'Frequentative of cēdō.' },
     { id: 'cogo', head: 'cōgō', la: 'cōgō, cōgere, coēgī, coāctum', pos: 'verb, 3rd conj.', en: 'drive together, collect; force, compel', stress: 'CŌ-gō · CŌ-ge-re', deriv: 'cogent', note: 'co- + agō. coēgī has three syllables.' },
-    { id: 'operio', head: 'operiō', la: 'operiō, operīre, operuī, opertum', pos: 'verb, 4th conj.', en: 'cover', stress: 'O-pe-ri-ō · o-pe-RĪ-re', note: 'Opposite of aperiō, “open” (Lecture XI).' },
+    { id: 'operio', head: 'operiō', la: 'operiō, operīre, operuī, opertum', pos: 'verb, 4th conj.', en: 'cover', stress: 'o-PE-ri-ō · o-pe-RĪ-re', note: 'Opposite of aperiō, “open” (Lecture XI).' },
     { id: 'abscondo', head: 'abscondō', la: 'abscondō, abscondere, abscondī, absconditum', pos: 'verb, 3rd conj.', en: 'hide, conceal', stress: 'abs-CON-dō · abs-CON-de-re', deriv: 'abscond', note: 'Perfect also abscondidī.' },
     { id: 'incuso', head: 'incūsō', la: 'incūsō, incūsāre, incūsāvī, incūsātum', pos: 'verb, 1st conj.', en: 'accuse, blame', stress: 'in-CŪ-sō · in-cū-SĀ-re', note: 'in + causa.' }
   ],
@@ -155,7 +155,7 @@ Viator.addLecture('latin', {
     { id: 'g34-cessatis', front: 'Proinde quid cessātis ēvādere?', back: 'So why are you hesitating to escape? (Pliny 6.20.10)' },
     { id: 'g34-mater', front: 'sē … bene moritūram, sī mihi causa mortis nōn fuisset', back: 'that she would die well, if she had not been the cause of my death (Pliny 6.20.12)' },
     { id: 'g34-possem', front: 'Possem glōriārī …, nisi … crēdidissem.', back: 'I could boast …, had I not believed … (Pliny 6.20.17; mixed condition)' },
-    { id: 'g34-virgil', front: 'Quamquam animus meminisse horret luctūque refūgit, / incipiam.', back: 'Though my mind shudders to remember and has shrunk back in grief, I shall begin. (Aeneid 2.12–13; quoted at Pliny 6.20.1)' }
+    { id: 'g34-virgil', front: 'Quamquam animus meminisse horret lūctūque refūgit, / incipiam.', back: 'Though my mind shudders to remember and has shrunk back in grief, I shall begin. (Aeneid 2.12–13; quoted at Pliny 6.20.1)' }
   ],
 
   exercises: [

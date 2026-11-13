@@ -55,7 +55,7 @@ Viator.addLecture('latin', {
 
   pronunciation: `
     <h3>ācer, ācris, ācre</h3>
-    <p>The masculine has the <span class="la">e</span> that German <em>Acker</em> also has, between <span class="la">c</span> and <span class="la">r</span>; the other forms lose it: <span class="la">Ā-cris</span>. <span class="la">celer, celeris, celere</span> keeps it throughout.</p>
+    <p>The masculine keeps an <span class="la">e</span> between <span class="la">c</span> and <span class="la">r</span>; the other forms lose it: <span class="la">Ā-cris</span>. <span class="la">celer, celeris, celere</span> keeps it throughout.</p>
     <h3>fēlīx, potēns</h3>
     <p>Long vowels in the nominative: <span class="la">FĒ-līx</span>, <span class="la">PO-tēns</span>; in the other cases the stress moves: <span class="la">fē-LĪ-cis</span>, <span class="la">po-TEN-tis</span> (vowel before <span class="la">ns</span> long, before <span class="la">nt</span> short by most accounts).</p>
     <h3>omnis, omnia</h3>

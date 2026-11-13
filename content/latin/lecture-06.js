@@ -32,7 +32,7 @@ Viator.addLecture('latin', {
       html: `
         <p><span class="la">possum</span> is <span class="la">pot-</span> + <span class="la">sum</span>. The first element is the old adjective <span class="la">potis</span>, “able, powerful”, which also appears in <span class="la">potēns</span>, “powerful”, and <span class="la">potestās</span>. Early Latin still wrote the two parts separately: <span class="la">potis sum, potis est</span>.</p>
         <p>The compound obeys one simple sound rule: <span class="la">pot-</span> before a vowel, <span class="la">pos-</span> before <span class="la">s</span>, where the <span class="la">t</span> has been assimilated to the following <span class="la">s</span>. So <span class="la">pot-est, pot-erat, pot-erit</span>, but <span class="la">pos-sum, pos-sunt</span>. The infinitive <span class="la">posse</span> is a contraction of an older <span class="la">potesse</span>.</p>
-        <p>German has the same kind of compound in reverse: modal verbs like <em>können</em> and <em>mögen</em> are old perfects reused as presents, which is why <em>er kann</em> has no <em>-t</em>. Latin <span class="la">possum</span> is regular by comparison.</p>
+        <p>German modal verbs are irregular for a different reason: <em>können</em> and <em>mögen</em> are old perfects reused as presents (preterite-presents), which is why <em>er kann</em> has no <em>-t</em>. Latin <span class="la">possum</span> is regular by comparison.</p>
       `
     },
     {
