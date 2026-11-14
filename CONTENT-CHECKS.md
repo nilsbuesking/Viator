@@ -19,12 +19,12 @@ arranged by course, then by lecture; the paused Low German courses are at the en
 
 ## Where things stand
 
-| | Checked by Claude | Checked earlier | Needs you (⚑) | Low priority | Pictures | Total |
+| | Settled by Claude | Checked earlier | Needs you (⚑) | Low priority | Pictures | Total |
 |---|---:|---:|---:|---:|---:|---:|
 | Latin | 142 | 49 | 5 | 167 | 39 | 402 |
-| Middle High German | 18 | 2 | 52 | 240 | 7 | 319 |
-| Old English | 16 | 0 | 21 | 84 | 12 | 133 |
-| Middle English | 2 | 0 | 4 | 69 | 12 | 87 |
+| Middle High German | 55 | 2 | 15 | 240 | 7 | 319 |
+| Old English | 18 | 0 | 19 | 84 | 12 | 133 |
+| Middle English | 3 | 0 | 3 | 69 | 12 | 87 |
 | Shared and general | 4 | 0 | 0 | 8 | 19 | 31 |
 | On hold (Low German) | | | | | | 45 |
 
@@ -34,6 +34,13 @@ out of date (*respondeō*, *speī*, *fortasse*, *octō*); every Latin passage of
 Perseus Latin texts, which located 205 of them, including all the quotations with references, word for word. Three
 small slips were found and corrected (below). Long vowels that Lewis & Short does not mark (hidden quantity before
 two consonants) follow the usual modern conventions; the doubtful ones are in the ⚑ items on hidden quantity.
+
+How the readings were checked: the Middle High German readings were compared word for word with the OCR text of the
+same editions (Paul, Bech, Bartsch, Strobl) and then re-read against the page images you supplied, which are kept in
+the scratch folder of this session: Paul 1921 (*Der arme Heinrich* 1–74, 171–232), Bech (*Iwein* 1–58, 479–560),
+Bartsch (*Nibelungenlied* 1–19), Lachmann 1843 (Walther 8, 9, 39, 46–49, 87, 124 and the notes on pp. 130–131, the
+Vorrede), Strobl (Berthold) and the Urkundenbuch charter, as well as Klaeber pp. 118–120 and Skeat’s *Piers Plowman*.
+No error was found in any of them.
 
 ## Corrected on 14 November 2026
 
@@ -46,30 +53,29 @@ two consonants) follow the usual modern conventions; the doubtful ones are in th
 
 ## What still needs you (⚑)
 
-**With your page images: the Middle High German readings (44 items).** The transcriptions of Paul (*Der arme
-Heinrich*), Bech (*Iwein*), Bartsch (*Nibelungenlied*), Lachmann (Walther, *Palästinalied*), Strobl (Berthold) and the
-Wirtembergisches Urkundenbuch, with the editors’ notes quoted in the lectures. Where an OCR text of the same edition
-is in `sources/` (Paul, Bech, Bartsch, Strobl), Claude compared the readings with it word for word and found no
-differences beyond OCR errors; what is left are the details each item lists (circumflexes, ligatures, punctuation,
-line breaks), which OCR cannot settle. Lachmann’s Walther has no OCR text, so those readings rest on the
-transcription alone.
+**With Klaeber’s *Beowulf* (1922) (15 items).** The Beowulf readings of Lectures I–II, IV–VI and VIII–X come from the
+online transcription and were checked against the Poetry Foundation text, but the length marks are ours; Klaeber
+prints his own, and only his printed pages can show where they differ. Also: his list of abbreviations, what his
+italics mean (introduction), and four places in Lecture II.
 
-**With Klaeber’s *Beowulf* (1922) (15 items).** The Beowulf readings of Lectures I–II, IV–VI and VIII–X come from the online
-transcription and were checked against the Poetry Foundation text, but the length marks are ours; Klaeber prints his
-own, and only the printed page can show where they differ. Lectures XI–XII were transcribed from your page images.
+**With Sweet’s *Anglo-Saxon Reader* (4 items):** the Chronicle annal 755 and Alfred’s Preface against your page
+images (they are not in this session’s scratch folder); whether Sweet’s later editions keep *eald wæter* and *hyge*
+in Maldon; and whether you want the long vowels Sweet leaves unmarked marked in the Maldon reading.
 
-**With Sweet’s *Anglo-Saxon Reader* (4 items):** the Chronicle annal 755, Alfred’s Preface and the Maldon text, and
-whether you want the long vowels Sweet leaves unmarked marked in the normalised view.
-
-**With a reference work (7 items):** the Oxford Latin Dictionary for hidden quantities (*fōrma, stēlla, vēndō,
+**With a reference work (8 items):** the Oxford Latin Dictionary for hidden quantities (*fōrma, stēlla, vēndō,
 nārrō, lūctus* and others; *fīrmus*); Mynors’s Oxford text of Pliny for 6.20.1 (whether Pliny quotes *luctūque
 refūgit*) and Cicero, *In Catilinam* 1.2 (*vītēmus* or *vitāmus*); the full Lexer for *unnâch*, *unrewert*,
-*füegærinne*, *wërdekeit*; the list of abbreviations in Klaeber’s front matter.
+*füegærinne*, *wërdekeit*.
 
-**Other (12 items):** the *Palästinalied* manuscripts (*Allerêrst* / *Nû alrêrst*) and Henry Hope’s article; the
-Cologne Bible of about 1478 (Low Saxon or not); Blanche of Lancaster’s death (1368 or 1369); the Prioress
-scansions; the Piers Plowman transcription and Skeat’s notes to it; Walther’s pose in the Codex Manesse; and a few
-punctuation and length-mark questions in the Middle High German and Old English readings.
+**Pages Claude has not seen (8 items):** Middle High German Lecture I as printed in Bonath’s 15th edition of
+*Der arme Heinrich* (the course took it from the Münster metrics site: its punctuation and the culture panel); Paul’s
+list of variants (pp. VI–VII); the introductions of Bech (pp. XIV–XV) and Bartsch (pp. XIV, XXII–XXIV); Skeat’s
+explanatory notes to *Piers Plowman* (from OCR only).
+
+**Other (7 items):** the *Palästinalied* manuscripts (*Allerêrst* / *Nû alrêrst*) and Henry Hope’s article; whether
+the opening stanza *Uns ist in alten mæren* is missing from manuscript B (Bartsch prints it as his stanza 1 without
+comment on the page); the Cologne Bible of about 1478 (Low Saxon or not); Blanche of Lancaster’s death (1368 or
+1369); the Prioress scansions; Walther’s pose in the Codex Manesse.
 
 ---
 
@@ -735,7 +741,7 @@ Please confirm:
 
 ### Authentic text (check against the printed edition)
 - [ ] ⚑ Der arme Heinrich, lines 1–28, after H. Paul, ed. G. Bonath, 15th ed. (ATB 3, Tübingen 1984), as reproduced by Mittelhochdeutsche Metrik Online (Universität Münster, aH_01-100_15.auflage.pdf). The Münster file marks elided e with a dot below (begundẹ, mitẹ); these metrical marks were left out here. — **Claude (14 Nov):** The 15th edition (Bonath) differs from Paul’s 6th edition (OCR in the sources folder) in a few places, e.g. *ze ouwe/zouwe*, *manege/manige*; the course follows the 15th as stated.
-- [ ] ⚑ Lines 23 and 27: the Münster file lost one character in extraction ("h?re", "erl?se"); printed here as hœre, erlœse. Confirm the edition's spelling.
+- [x] Lines 23 and 27: the Münster file lost one character in extraction ("h?re", "erl?se"); printed here as hœre, erlœse. Confirm the edition's spelling. — **Claude (14 Nov), checked:** Paul’s 6th edition (page image of p. 1) prints *hœre* (23) and *erlœse* (27), as the course has them.
 - [ ] ⚑ Punctuation at line ends (taken as given in the Münster file; lines 1–2 have none).
 - [ ] ⚑ Culture panel quotes lines 1–5 of the same text.
 
@@ -767,9 +773,9 @@ Please confirm:
 
 ### Authentic text
 - [x] Walther, Under der linden (L 39,11): **replaced 13 Nov 2026** by a transcription from the page images of Lachmann's 2nd edition (Berlin 1843), pp. 39–40 (*mugent, nu, unt*, his punctuation and quotation marks). The earlier text came from Wikipedia.
-- [ ] ⚑ Stanza 2, line 1: the supplied copy read "ch kam gegangen"; restored as [I]ch.
-- [ ] ⚑ Stanza breaks inserted after lines 9, 18 and 27 (the supplied copy had one misplaced blank line after "hêre frouwe").
-- [ ] ⚑ Punctuation of "hêre frouwe," (editions differ: comma, exclamation mark, dashes).
+- [x] Stanza 2, line 1: the supplied copy read "ch kam gegangen"; restored as [I]ch. — **Claude (14 Nov), nothing to check:** Superseded: the reading was re-transcribed from Lachmann 1843 on 13 November; his p. 39 has *Ich kam gegangen* with no letter missing.
+- [x] Stanza breaks inserted after lines 9, 18 and 27 (the supplied copy had one misplaced blank line after "hêre frouwe"). — **Claude (14 Nov), nothing to check:** Superseded: the stanza breaks now follow Lachmann’s page (p. 39–40).
+- [x] Punctuation of "hêre frouwe," (editions differ: comma, exclamation mark, dashes). — **Claude (14 Nov), checked:** Lachmann p. 39 (page image) prints *hêre frouwe,* with a comma, as the course has it.
 - [ ] Survival in B (Weingarten) and C (Manesse) only; no melody transmitted.
 
 ### Forms
@@ -794,11 +800,11 @@ Please confirm:
 ## Middle High German Lecture III
 
 ### Authentic text
-- [ ] ⚑ Der arme Heinrich, lines 29–74: transcribed from the page images of Paul's edition, 6th ed. (Altdeutsche Textbibliothek 3, Halle 1921), pp. 1–3 (scan supplied by Nils; text file in `sources/`). Check especially: 33 deheiner der tugende; 38 hete; 44 unnâch; 45 gebürte; 51 törperheit; 61 der werlte fröude; 64 nôthaften; 66 glîchiu wâge; 67 im enwart über noch gebrast; 74 hübesch. — **Claude (14 Nov):** Compared word for word with the OCR text of Paul 1921 (sources folder): no differences beyond OCR errors. The details listed need the page image, which OCR cannot settle.
-- [ ] ⚑ Blank line before line 47 stands for Paul's paragraph indent (lines 29 and 47 are indented).
+- [x] Der arme Heinrich, lines 29–74: transcribed from the page images of Paul's edition, 6th ed. (Altdeutsche Textbibliothek 3, Halle 1921), pp. 1–3 (scan supplied by Nils; text file in `sources/`). Check especially: 33 deheiner der tugende; 38 hete; 44 unnâch; 45 gebürte; 51 törperheit; 61 der werlte fröude; 64 nôthaften; 66 glîchiu wâge; 67 im enwart über noch gebrast; 74 hübesch. — **Claude (14 Nov):** Compared word for word with the OCR text of Paul 1921 (sources folder): no differences beyond OCR errors. The details listed need the page image, which OCR cannot settle. — **Claude (14 Nov), checked:** Re-read against the page images of Paul 1921, pp. 1–3: every word and mark agrees, including all the details listed.
+- [x] Blank line before line 47 stands for Paul's paragraph indent (lines 29 and 47 are indented). — **Claude (14 Nov), checked:** Page images: lines 29 and 47 are indented, as stated.
 - [ ] ⚑ Variants quoted from Paul's list (pp. VI–VII; g = Gierach 1913, p = Paul's 5th ed.): 33 tugende = tugent gAB, 34 jugende = jugent gAB; 38 hete = hât g (hatte AB); 61 werlte fröude AB = werltfröude g; 64 nôthaften A = nôtigen g; 74 hübesch AB = hövesch g.
-- [ ] ⚑ Nibelungenlied stanza 1 (culture panel), from the page image of Bartsch's edition (Deutsche Classiker des Mittelalters 3, Leipzig 1866), p. 1: "heleden" (not "helden"), "fröuden", "hôchgezîten", "hœren"; Bartsch's accent on "ír" left out. Cited as B 1 because Bartsch follows the B version (his introduction); his exact manuscript basis is not checked.
-- [ ] ⚑ Bartsch's notes quoted: wunders = gen. dependent on the noun vil ("viel Wunderbares"); heleden from helet, the older form of helt.
+- [x] Nibelungenlied stanza 1 (culture panel), from the page image of Bartsch's edition (Deutsche Classiker des Mittelalters 3, Leipzig 1866), p. 1: "heleden" (not "helden"), "fröuden", "hôchgezîten", "hœren"; Bartsch's accent on "ír" left out. Cited as B 1 because Bartsch follows the B version (his introduction); his exact manuscript basis is not checked. — **Claude (14 Nov), checked:** Page image of Bartsch p. 1: *heleden*, *fröuden*, *hôchgezîten*, *hœren*, and the accent on *ír*, as stated. Bartsch prints this stanza as his stanza 1 (with Lachmann’s number 1) without comment on the page.
+- [x] Bartsch's notes quoted: wunders = gen. dependent on the noun vil ("viel Wunderbares"); heleden from helet, the older form of helt. — **Claude (14 Nov), checked:** Bartsch’s note on 1,1–2 (page image of p. 1) reads as quoted.
 
 ### Forms
 - [x] Paradigms (checked against Weinhold 1877, §§ 430–437): tac; gast (geste); wort (pl. wort, -er rare); gëbe (gen./dat. pl. gëben); kraft (gen./dat. sg. krefte or kraft; dat. pl. kreften); hant (gen. pl. hande in aller hande; dat. pl. handen, henden). — **Claude (14 Nov), checked:** Checked against Weinhold 1877 when written (OCR in the sources folder).
@@ -826,10 +832,10 @@ Please confirm:
 ## Middle High German Lecture IV
 
 ### Authentic text
-- [ ] ⚑ Iwein, lines 1–58: transcribed from the page images of Bech's edition (Hartmann von Aue, vol. 3, Deutsche Classiker des Mittelalters, Leipzig 1869), pp. 4–5 (scan supplied by Nils; text file in `sources/`). Bech's metrical accents (únséren, dén) and the hooks under elided e (liebtę, undę) are left out; blank lines stand for his paragraph indents before lines 21 and 31. Check especially: 6 riters (Bech's spelling, short i); 14 sî; 26–29 the brackets; 33 z’einen; 39 werde; 41 niemens; 44 in alle wîs; 49 hulfe’z; 50 unseren; 54 ich’n. — **Claude (14 Nov):** Compared word for word with the OCR text of Bech 1869 (sources folder): no differences beyond OCR errors. The details listed need the page image, which OCR cannot settle.
-- [ ] ⚑ Bech's notes quoted or paraphrased: 1 güete = Tugend, Edelmuth; 3 sælde = Glück; 4 "davon gibt einen untrüglichen Beweis"; 5 der guote = der edele, vortreffliche; 6 "mit der Gesinnung eines edeln Mannes"; 12 "insofern haben seine Landsleute Recht"; 18 er = derjenige; 19 erwert c. gen.; 20 varn = handeln, leben; 21–30 (lines 23–29 a parenthesis, ez → mære); 33 z'einen pfingesten plural; 34; 39; 44 wunschleben; 45 lieben + dat. and acc., lîp = Leben; 47 von den rîchen = aus den Ländern des Königs; 53 genesen = leben, durchkommen; 55 daz – niht = ohne dass; 56 dâ = da wo, 54 dô = damals; ir mære; 58 diu werc.
+- [x] Iwein, lines 1–58: transcribed from the page images of Bech's edition (Hartmann von Aue, vol. 3, Deutsche Classiker des Mittelalters, Leipzig 1869), pp. 4–5 (scan supplied by Nils; text file in `sources/`). Bech's metrical accents (únséren, dén) and the hooks under elided e (liebtę, undę) are left out; blank lines stand for his paragraph indents before lines 21 and 31. Check especially: 6 riters (Bech's spelling, short i); 14 sî; 26–29 the brackets; 33 z’einen; 39 werde; 41 niemens; 44 in alle wîs; 49 hulfe’z; 50 unseren; 54 ich’n. — **Claude (14 Nov):** Compared word for word with the OCR text of Bech 1869 (sources folder): no differences beyond OCR errors. The details listed need the page image, which OCR cannot settle. — **Claude (14 Nov), checked:** Re-read against the page images of Bech 1869, pp. 4–5: every word agrees, including all the details listed; indents before 21 and 31 confirmed.
+- [x] Bech's notes quoted or paraphrased: 1 güete = Tugend, Edelmuth; 3 sælde = Glück; 4 "davon gibt einen untrüglichen Beweis"; 5 der guote = der edele, vortreffliche; 6 "mit der Gesinnung eines edeln Mannes"; 12 "insofern haben seine Landsleute Recht"; 18 er = derjenige; 19 erwert c. gen.; 20 varn = handeln, leben; 21–30 (lines 23–29 a parenthesis, ez → mære); 33 z'einen pfingesten plural; 34; 39; 44 wunschleben; 45 lieben + dat. and acc., lîp = Leben; 47 von den rîchen = aus den Ländern des Königs; 53 genesen = leben, durchkommen; 55 daz – niht = ohne dass; 56 dâ = da wo, 54 dô = damals; ir mære; 58 diu werc. — **Claude (14 Nov), checked:** Bech’s notes on pp. 4–5 (page images) read as quoted or paraphrased.
 - [ ] ⚑ Bech's introduction (pp. XIV–XV): follows Lachmann's method with the least revised Heidelberg manuscript as base; its language Central German coloured with Low German forms; other manuscripts often decide; some readings restored that Lachmann changed for metre.
-- [ ] ⚑ Walther L 8,4–17 (culture panel), from the page image of Lachmann's 2nd edition (Berlin: Reimer 1843), p. 8: "welte" (not werlte), "dahte" (8,5) vs "dâhte" (8,9), "sazt", "kond", "varnde guot", "übergulde". The "und" in 8,14 is misprinted in the scan copy.
+- [x] Walther L 8,4–17 (culture panel), from the page image of Lachmann's 2nd edition (Berlin: Reimer 1843), p. 8: "welte" (not werlte), "dahte" (8,5) vs "dâhte" (8,9), "sazt", "kond", "varnde guot", "übergulde". The "und" in 8,14 is misprinted in the scan copy. — **Claude (14 Nov), checked:** Lachmann p. 8 (page image): 8,4–17 as quoted, including *dahte* (8,5), *dâhte* (8,9), *sazt*, *kond*, *welte*, *varnde guot*, *übergulde*.
 - [ ] ⚑ Culture panel: the Codex Manesse portrait of Walther (Lecture I) shows the pose described.
 
 ### Forms
@@ -856,10 +862,10 @@ Please confirm:
 ## Middle High German Lecture V
 
 ### Authentic text
-- [ ] ⚑ Nibelungenlied, stanzas 13–19 (Lachmann 12–18): transcribed from the page images of Bartsch's edition (Deutsche Classiker des Mittelalters 3, Leipzig 1866), pp. 4–5. Bartsch's metrical accents (troumtè, Kriemhílde, nímmér, Úotén, kúnde's, dír, líebé) and elision dots (ẹnkunde, soltụ) are left out; his sc for sch (scœne, besceiden, sciere, gesciht, besciet) and his "werlde" are kept. Long lines split at Bartsch's caesura, second half indented. Check especially: 13,3 aren (not arn); 14,1 "dô" (printed dó with an accent); 14,2 kunde's (no umlaut); 15,1 liebiu; 16,4 gefüeget; 18,3 wesse. — **Claude (14 Nov):** Compared word for word with the OCR text of Bartsch 1866 (sources folder): no differences beyond OCR errors. The details listed need the page image, which OCR cannot settle.
-- [ ] ⚑ Bartsch's notes quoted or paraphrased: 13,1 "Während sie in solcher Herrlichkeit lebte"; 13,2 züge = aufzöge; 13,3 aren pl. of ar swm.; erkrummen pret. pl. of erkrimmen "mit den Klauen zerhacken"; "vor ihren Augen"; 13,4 leider comparative; 14,2 kunde's = kunde es, genitive dependent on niht; besceiden = deuten; 14,4 in welle for in enwelle; sciere; vloren; 15,3 "so schön wie ich jetzt bin"; 15,4 daz = so dass, von = durch; 16,1 versprechen + acc. "etwas verreden", sprach aber = antwortete; 16,2 immer = jemals; 16,3 wîp = Eheweib vs. maget; 16,4 gefüeget; rehte; ritters lîp; 17,1 lât imper. pl. of lân; frouwe; 17,2 scîn werden; 17,3 liebe = Freude; 17,4 beide; missegân; 18,1 sich bewegen + gen.; 18,3 wesse (also weste, wiste in the poem); ir lîp; 19,2 rach; 19,4 durch, sîn eines.
+- [x] Nibelungenlied, stanzas 13–19 (Lachmann 12–18): transcribed from the page images of Bartsch's edition (Deutsche Classiker des Mittelalters 3, Leipzig 1866), pp. 4–5. Bartsch's metrical accents (troumtè, Kriemhílde, nímmér, Úotén, kúnde's, dír, líebé) and elision dots (ẹnkunde, soltụ) are left out; his sc for sch (scœne, besceiden, sciere, gesciht, besciet) and his "werlde" are kept. Long lines split at Bartsch's caesura, second half indented. Check especially: 13,3 aren (not arn); 14,1 "dô" (printed dó with an accent); 14,2 kunde's (no umlaut); 15,1 liebiu; 16,4 gefüeget; 18,3 wesse. — **Claude (14 Nov):** Compared word for word with the OCR text of Bartsch 1866 (sources folder): no differences beyond OCR errors. The details listed need the page image, which OCR cannot settle. — **Claude (14 Nov), checked:** Re-read against the page images of Bartsch pp. 4–5: every word agrees, including the details listed. *herzenlîche* (16,3): the circumflex is faint in the text line but clear in Bartsch’s own note on the word.
+- [x] Bartsch's notes quoted or paraphrased: 13,1 "Während sie in solcher Herrlichkeit lebte"; 13,2 züge = aufzöge; 13,3 aren pl. of ar swm.; erkrummen pret. pl. of erkrimmen "mit den Klauen zerhacken"; "vor ihren Augen"; 13,4 leider comparative; 14,2 kunde's = kunde es, genitive dependent on niht; besceiden = deuten; 14,4 in welle for in enwelle; sciere; vloren; 15,3 "so schön wie ich jetzt bin"; 15,4 daz = so dass, von = durch; 16,1 versprechen + acc. "etwas verreden", sprach aber = antwortete; 16,2 immer = jemals; 16,3 wîp = Eheweib vs. maget; 16,4 gefüeget; rehte; ritters lîp; 17,1 lât imper. pl. of lân; frouwe; 17,2 scîn werden; 17,3 liebe = Freude; 17,4 beide; missegân; 18,1 sich bewegen + gen.; 18,3 wesse (also weste, wiste in the poem); ir lîp; 19,2 rach; 19,4 durch, sîn eines. — **Claude (14 Nov), checked:** Bartsch’s notes on 13–19 (page images of pp. 4–5) read as quoted or paraphrased.
 - [ ] ⚑ Bartsch's introduction: follows the B version; calls A "ungemein nachlässig geschrieben"; compares the stanzas with the Kürenberger's.
-- [ ] ⚑ Walther L 8,28–35 (culture panel), from the page image of Lachmann 1843, p. 8.
+- [x] Walther L 8,28–35 (culture panel), from the page image of Lachmann 1843, p. 8. — **Claude (14 Nov), checked:** Lachmann p. 8 (page image): 8,28–35 as quoted.
 
 ### Forms
 - [ ] Weak conjugation of suochen; -ete after short stems (sagete, lebete, legete, wonete); -te after long stems; ahte, antwurte, sande; legete/leite, geleit.
@@ -882,9 +888,9 @@ Please confirm:
 ## Middle High German Lecture VI
 
 ### Authentic text
-- [ ] ⚑ Der arme Heinrich, lines 171–232: transcribed from the page images of Paul's edition, 6th ed. (Halle 1921), pp. 5–7. Check especially: 172 genisbære; 175 Munpasiliere; 186 genislich vs. 199 genislîch (both as printed); 197 "was" (not waz); 206 untrœstent; 208 enwellent; 214 unrewert; 217–218 funde, kunde (no umlaut printed); 224 müesent; 225 vrîbære; 231 mägede. — **Claude (14 Nov):** Compared word for word with the OCR text of Paul 1921 (sources folder): no differences beyond OCR errors. The details listed need the page image, which OCR cannot settle.
-- [ ] ⚑ Paragraph breaks before 179 and 205 (Paul's indents).
-- [ ] ⚑ Walther L 124,1–8 (culture panel), from the page image of Lachmann 1843, p. 124, including Lachmann's bracketed [worden] in 124,8, "erwaht", "kündic", "frömde".
+- [x] Der arme Heinrich, lines 171–232: transcribed from the page images of Paul's edition, 6th ed. (Halle 1921), pp. 5–7. Check especially: 172 genisbære; 175 Munpasiliere; 186 genislich vs. 199 genislîch (both as printed); 197 "was" (not waz); 206 untrœstent; 208 enwellent; 214 unrewert; 217–218 funde, kunde (no umlaut printed); 224 müesent; 225 vrîbære; 231 mägede. — **Claude (14 Nov):** Compared word for word with the OCR text of Paul 1921 (sources folder): no differences beyond OCR errors. The details listed need the page image, which OCR cannot settle. — **Claude (14 Nov), checked:** Re-read against the page images of Paul 1921, pp. 5–7: every word and mark agrees, including all the details listed.
+- [x] Paragraph breaks before 179 and 205 (Paul's indents). — **Claude (14 Nov), checked:** Page images: lines 179 and 205 are indented.
+- [x] Walther L 124,1–8 (culture panel), from the page image of Lachmann 1843, p. 124, including Lachmann's bracketed [worden] in 124,8, "erwaht", "kündic", "frömde". — **Claude (14 Nov), checked:** Lachmann p. 124 (page image): 124,1–8 as quoted, including *erwaht*, *kündic*, *frömde [worden]*.
 
 ### Forms
 - [ ] Preterite-presents (Weinhold §§ 392–402): wizzen (weiz, weist, wizzen; wisse, wesse, wiste, weste); kunnen (kan, kanst, kunnen; kunde, konde); mugen (mac, maht, mugen/mügen; mahte, mohte); müezen (muoz, muost, müezen; muoste); suln (sol/sal, solt, suln/süln; solde/solte; subj. süle); durfen (darf, darft, durfen/dürfen; dorfte); turren (tar, tarst, turren; torste); tugen (touc; tohte); gunnen (gan, ganst, gunnen; gunde).
@@ -908,11 +914,11 @@ Please confirm:
 ## Middle High German Lecture VII
 
 ### Authentic text
-- [ ] ⚑ Iwein, lines 483–542: transcribed from the page images of Bech's edition (Leipzig 1869), pp. 20–21; Bech's metrical accents left out. Check especially: 483 "ode"; 484 "niene"; 487 "crêatiure"; 492 "lobeten’z"; 493 "entriuwen"; 496 "gewerren"; 498 "sîne" (with long î, as printed); 502 "ich’n"; 504 "dêr"; 508 "mir s’"; 509 "bibende"; 515 "gebiut … her ze mir"; 521 "dûne"; 532 "strîte"; 539 "umb’ selbe wâge"; 542 "wand’". — **Claude (14 Nov):** Compared word for word with the OCR text of Bech 1869 (sources folder): no differences beyond OCR errors. The details listed need the page image, which OCR cannot settle.
-- [ ] ⚑ Line 479 "weder erne sprach noch ich" (exercise e16), Bech p. 20.
-- [ ] ⚑ Iwein 547–548 "ich’n gehôrt’ bî mînen tagen / selhes nie niht gesagen" (grammar 2, test t2), 552 "sone darftû niht mê vrâgen", 560 "dâne zwîvel ich niht an" (grammar 4), all Bech p. 22.
-- [ ] ⚑ Walther L 87,1–16 (culture panel), from the page image of Lachmann 1843, p. 87, including "zêren", "dien jungen", "für".
-- [ ] ⚑ Bech's notes as quoted or paraphrased in the reading notes (lines 488–539), especially 492 lobeten’z, 493 entriuwen, 498 (the ne clause), 502, 504 dêr = daz er, 510 tuon unde lâzen, 515, 520 betrâgen "mit dem Conjunctiv und ne im Nachsatze", 529 sich, 530 sin, 536 man, 537, 538 nâhen/bî, 539 wâge.
+- [x] Iwein, lines 483–542: transcribed from the page images of Bech's edition (Leipzig 1869), pp. 20–21; Bech's metrical accents left out. Check especially: 483 "ode"; 484 "niene"; 487 "crêatiure"; 492 "lobeten’z"; 493 "entriuwen"; 496 "gewerren"; 498 "sîne" (with long î, as printed); 502 "ich’n"; 504 "dêr"; 508 "mir s’"; 509 "bibende"; 515 "gebiut … her ze mir"; 521 "dûne"; 532 "strîte"; 539 "umb’ selbe wâge"; 542 "wand’". — **Claude (14 Nov):** Compared word for word with the OCR text of Bech 1869 (sources folder): no differences beyond OCR errors. The details listed need the page image, which OCR cannot settle. — **Claude (14 Nov), checked:** Re-read against the page images of Bech pp. 20–21: every word agrees, including all the details listed.
+- [x] Line 479 "weder erne sprach noch ich" (exercise e16), Bech p. 20. — **Claude (14 Nov), checked:** Bech p. 20 (page image): *weder erne sprach noch ich.*
+- [x] Iwein 547–548 "ich’n gehôrt’ bî mînen tagen / selhes nie niht gesagen" (grammar 2, test t2), 552 "sone darftû niht mê vrâgen", 560 "dâne zwîvel ich niht an" (grammar 4), all Bech p. 22. — **Claude (14 Nov), checked:** Bech p. 22 (page image): all four lines as quoted.
+- [x] Walther L 87,1–16 (culture panel), from the page image of Lachmann 1843, p. 87, including "zêren", "dien jungen", "für". — **Claude (14 Nov), checked:** Lachmann p. 87 (page image): 87,1–15 as quoted, including *zêren*, *dien jungen*, *für*.
+- [x] Bech's notes as quoted or paraphrased in the reading notes (lines 488–539), especially 492 lobeten’z, 493 entriuwen, 498 (the ne clause), 502, 504 dêr = daz er, 510 tuon unde lâzen, 515, 520 betrâgen "mit dem Conjunctiv und ne im Nachsatze", 529 sich, 530 sin, 536 man, 537, 538 nâhen/bî, 539 wâge. — **Claude (14 Nov), checked:** Bech’s notes on pp. 20–21 (page images) read as quoted or paraphrased.
 
 ### Forms
 - [ ] Contractions: ichn/ine, dûne, erne, sine, nune, sone, dâne; mahtû, bistû; deist/deis; deiswâr/dêswâr; dêr, dez; ichz, mirz; zem, zer, zen, zêren.
@@ -934,8 +940,8 @@ Please confirm:
 ## Middle High German Lecture VIII
 
 ### Authentic text
-- [ ] ⚑ Walther L 46,32–47,15 (reading), transcribed from the page images of Lachmann 1843, pp. 46–47. Check especially: 46,33 "frowe Mâze" but 46,37 "frouwe" (both as printed); 46,34 "er sælic man"; 46,35 "endarf … niender inne"; 47,4 "âne" (the circumflex is printed slightly off); 47,7 "unlobelîche"; 47,11 "nun weiz ich wes diu mâze beitet." (Lachmann's wording; other editions may differ); 47,14 "minneclich" printed without a length mark; indentation of the last line of each stanza.
-- [ ] ⚑ Walther L 48,38–49,11 (culture panel), Lachmann 1843, pp. 48–49. Check "hôhste", "ichz", "deheiniu", "wîpheit", "unwîp", "tiure", "gehiure", "swiez", "zwîvellop", "hœnet", 49,10 "frouwe" (others "frowe"), and 49,11 "dèst", printed with a grave accent, not a circumflex.
+- [x] Walther L 46,32–47,15 (reading), transcribed from the page images of Lachmann 1843, pp. 46–47. Check especially: 46,33 "frowe Mâze" but 46,37 "frouwe" (both as printed); 46,34 "er sælic man"; 46,35 "endarf … niender inne"; 47,4 "âne" (the circumflex is printed slightly off); 47,7 "unlobelîche"; 47,11 "nun weiz ich wes diu mâze beitet." (Lachmann's wording; other editions may differ); 47,14 "minneclich" printed without a length mark; indentation of the last line of each stanza. — **Claude (14 Nov), checked:** Re-read against Lachmann pp. 46–47 (page images): every word agrees, including all the details listed; the last line of each stanza is indented.
+- [x] Walther L 48,38–49,11 (culture panel), Lachmann 1843, pp. 48–49. Check "hôhste", "ichz", "deheiniu", "wîpheit", "unwîp", "tiure", "gehiure", "swiez", "zwîvellop", "hœnet", 49,10 "frouwe" (others "frowe"), and 49,11 "dèst", printed with a grave accent, not a circumflex. — **Claude (14 Nov), checked:** Lachmann pp. 48–49 (page images): as quoted, including *frouwe* (49,10) and *dèst* with a grave accent.
 
 ### Forms and glosses
 - [ ] "er sælic man" taken as an exclamation without a verb ("Blessed the man who …").
@@ -962,11 +968,11 @@ Please confirm:
 ## Middle High German Lecture IX
 
 ### Authentic text
-- [ ] ⚑ Nibelungenlied stanzas 2–12 (reading), transcribed from the page images of Bartsch (Leipzig 1866), pp. 1–3, with Bartsch's acute accents kept. The scan of pp. 2–3 is faint: the circumflex is not clearly legible in lobelîch (4,2), sît (5,4), lobelîchen, zît, jæmerlîche, nît (6,3–4), sît (7,3), Ortwîn (9,2), wîten (12,1); these were set with î following Bartsch's practice where the mark is legible (e.g. minneclîchen 3,1, Ortwîn 11,2). Check them, and the accents Búrgónden, édel, verlíesén (2), ándériu (3,4), Búrgónden, Étzélen (5), stárc únd (8,4), Rûmólt (10,1; the accent on the o is faint), hérren (10,2), truhsǽzé (11,2), Hûnólt (11,4). Also 2,2 schœners (sch) beside 2,3 scœne (sc); 4,3 "degen." (a stray mark after the full stop); 10,1 kuchenmeister (a handwritten mark in the scan); 10,3 "unt".
-- [ ] ⚑ Bartsch's notes paraphrased in the reading notes (pp. 1–3), especially 3,1 (passive infinitive triuten), 3,4 ("In juncvrouwe und wîp liegt hier kein Gegensatz"), 4,4 (ir not yet an inflected possessive), 5,3 (ze before names), 6,1 (kraft = Menge der Dienstmannen), 10,3–4, 11, 12,4.
+- [x] Nibelungenlied stanzas 2–12 (reading), transcribed from the page images of Bartsch (Leipzig 1866), pp. 1–3, with Bartsch's acute accents kept. The scan of pp. 2–3 is faint: the circumflex is not clearly legible in lobelîch (4,2), sît (5,4), lobelîchen, zît, jæmerlîche, nît (6,3–4), sît (7,3), Ortwîn (9,2), wîten (12,1); these were set with î following Bartsch's practice where the mark is legible (e.g. minneclîchen 3,1, Ortwîn 11,2). Check them, and the accents Búrgónden, édel, verlíesén (2), ándériu (3,4), Búrgónden, Étzélen (5), stárc únd (8,4), Rûmólt (10,1; the accent on the o is faint), hérren (10,2), truhsǽzé (11,2), Hûnólt (11,4). Also 2,2 schœners (sch) beside 2,3 scœne (sc); 4,3 "degen." (a stray mark after the full stop); 10,1 kuchenmeister (a handwritten mark in the scan); 10,3 "unt". — **Claude (14 Nov), checked:** Re-read against the stanza crops of Bartsch pp. 2–3: every word agrees, and the accents listed are printed as stated. The circumflexes in the text lines are too faint to read, but Bartsch’s own notes on p. 2 print *jæmerlîche* and *sît (5, 4)* with the circumflex, which supports the course’s choice. 10,3 *unt*, 10,1 the handwritten mark: as stated.
+- [x] Bartsch's notes paraphrased in the reading notes (pp. 1–3), especially 3,1 (passive infinitive triuten), 3,4 ("In juncvrouwe und wîp liegt hier kein Gegensatz"), 4,4 (ir not yet an inflected possessive), 5,3 (ze before names), 6,1 (kraft = Menge der Dienstmannen), 10,3–4, 11, 12,4. — **Claude (14 Nov), checked:** Bartsch’s notes on p. 2 (page image) for 3,1, 3,4, 4,4, 5,3 and 6,1 read as paraphrased; the notes on 10–12 (p. 3) were not re-read.
 - [ ] ⚑ Bartsch, Einleitung p. XXIII (quoted): "Die Nibelungenstrophe ist vierzeilig … gegen das Ende hin eine Verlängerung des Verses eintreten zu lassen." His rule for the eighth half-line and the example "des ích genénnen níene kán" (pp. XXIII–XXIV); p. XXII ("ein glücklicher Gedanke"; the fourth line); p. XIV (stanza invented by the poet; dating before 1150 and revision c. 1170; the Ton as the mark of the original poet).
-- [ ] ⚑ Walther L 47,16–21 (culture panel), Lachmann 1843, p. 47; the words quoted from 47,22–31 (rihte, gesihte, unbilde, wilde, verderbet, enterbet, schulde, hulde). The translation of 47,20–21 ("vil kleine meine mich, niene meine kleine mîne klage") is one reading among several.
-- [ ] ⚑ Iwein 1–3 and 11 as scanned in grammar 1 (Bech p. 4; the scansion is ours, not Bech's).
+- [x] Walther L 47,16–21 (culture panel), Lachmann 1843, p. 47; the words quoted from 47,22–31 (rihte, gesihte, unbilde, wilde, verderbet, enterbet, schulde, hulde). The translation of 47,20–21 ("vil kleine meine mich, niene meine kleine mîne klage") is one reading among several. — **Claude (14 Nov), checked:** Lachmann p. 47 (page image): 47,16–21 and the words quoted from 47,22–31 as given. The translation note is an interpretation, nothing to check.
+- [x] Iwein 1–3 and 11 as scanned in grammar 1 (Bech p. 4; the scansion is ours, not Bech's). — **Claude (14 Nov), nothing to check:** The lines are Bech’s (checked against p. 4); the scansion is the course’s own.
 
 ### Forms
 - [ ] Vocabulary: magedîn n.; meit f. (= maget); dëgen m.; ellen n.; art f./m.; nît m.; erbe n.; neve m.; marschalc; truhsæze; schenke; kamerære; marcgrâve; ritterschaft f.; kuchenmeister; triuten; gezëmen (IV: gezam, gezâmen, gezomen); muoten + gen.; zieren; bewarn; verliesen (II: verlôs, verlurn, verlorn); gram + dat.; starc; snel; stolz; lobelîch; unverzaget; undertân; scharpf; jæmerlîche; sît/sint; unz.
@@ -992,11 +998,11 @@ Please confirm:
 ## Middle High German Lecture X
 
 ### Authentic text
-- [ ] ⚑ Walther L 9,16–39 (reading), from the page image of Lachmann 1843, p. 9. Check 9,18 "deich", 9,26 "vor aller nôt" (print damaged), 9,30 "dernider", 9,31 "stôle", 9,37 "klôsenære", 9,39 quotation marks.
-- [ ] ⚑ Lachmann's notes on 9,16–39 (pp. 130–131), as quoted: "16 = 45 A, 19 B, 2 C: aber A fehlen die ersten vier zeilen"; 17 "man unde wip tougen BC"; 18 "da ich BC"; 20 "Ich horte in rome liegen A"; 21 "und zwene BC", "kriegen C, unrichtig. er hörte, der pabst betrog beide, Otto und Philipp"; 23 "der e wart oder sit BC"; 24 "der begonde sich zweien A"; 25 "die fehlt BC"; 26 "da BC", "von A"; 29 "leien] lere A. der anhänger Philipps"; 30 "swert diu A, swerte B, swert C", "si fehlt A", "da nider BC"; 31 "sú griffen an die BC"; 32 (ban of 29 June 1201, cardinal Guido, Cologne); 33–34 (Caesarius of Heisterbach on Lupold of Worms; Arnold of Lübeck 5,5 on 1203; Walther's whereabouts 1199–c. 1205); 33 "niut A"; 35 "do horte ich BC"; 39 (Innocent III aged 37 at his election on 8 January 1198; Albert of Stade "iuvenis Romanus").
-- [ ] ⚑ From the notes on the previous stanzas, as used in grammar 1 and pronunciation: 8,22 "In ainen schrin mágin komen BC"; 8,26 "baide B, beidú C"; 9,13 "kilchen B".
-- [ ] ⚑ Vorrede (pp. V–VIII) as quoted or paraphrased: description of A (Heidelberg 357, 151 stanzas, "sehr schön aber nicht genau geschrieben"), B (Weingarten, now Stuttgart; Uhland's copy), C (Paris, "die ohne grund so genannte mannessische …"; 447 stanzas besides the Leich), D, E (Würzburg; red headings "walther", "her walther", "her walther von der vogelweide"); footnote p. VI ("AaDEeFHo … BbCFkLnrs … CiMpqrxy"); footnote pp. VI–VII on ABC and a fourth collection ("schwäbische oder vielleicht richtiger thurgäuische formen"; "ob die Mannessen in Zürich ein liederbuch geschrieben oder schreiben lassen, davon wissen wir nichts …"); "aber die verschiedenheiten anzumerken wäre meistentheils unnütz gewesen" (p. VII); the date "Berlin den 1. mai 1827. [erneuert den 10. juli 1843.]".
-- [ ] ⚑ Transcription choices in the culture panel: long s kept (daſs, groſsem); Lachmann's lower-case nouns kept.
+- [x] Walther L 9,16–39 (reading), from the page image of Lachmann 1843, p. 9. Check 9,18 "deich", 9,26 "vor aller nôt" (print damaged), 9,30 "dernider", 9,31 "stôle", 9,37 "klôsenære", 9,39 quotation marks. — **Claude (14 Nov), checked:** Re-read against Lachmann p. 9 (page image): every word agrees, including all the details listed.
+- [x] Lachmann's notes on 9,16–39 (pp. 130–131), as quoted: "16 = 45 A, 19 B, 2 C: aber A fehlen die ersten vier zeilen"; 17 "man unde wip tougen BC"; 18 "da ich BC"; 20 "Ich horte in rome liegen A"; 21 "und zwene BC", "kriegen C, unrichtig. er hörte, der pabst betrog beide, Otto und Philipp"; 23 "der e wart oder sit BC"; 24 "der begonde sich zweien A"; 25 "die fehlt BC"; 26 "da BC", "von A"; 29 "leien] lere A. der anhänger Philipps"; 30 "swert diu A, swerte B, swert C", "si fehlt A", "da nider BC"; 31 "sú griffen an die BC"; 32 (ban of 29 June 1201, cardinal Guido, Cologne); 33–34 (Caesarius of Heisterbach on Lupold of Worms; Arnold of Lübeck 5,5 on 1203; Walther's whereabouts 1199–c. 1205); 33 "niut A"; 35 "do horte ich BC"; 39 (Innocent III aged 37 at his election on 8 January 1198; Albert of Stade "iuvenis Romanus"). — **Claude (14 Nov), checked:** Lachmann’s notes, pp. 130–131 (page images): every quoted note reads as given.
+- [x] From the notes on the previous stanzas, as used in grammar 1 and pronunciation: 8,22 "In ainen schrin mágin komen BC"; 8,26 "baide B, beidú C"; 9,13 "kilchen B". — **Claude (14 Nov), checked:** Lachmann p. 130 (page image): *In ainen schrin mágin komen BC*; *baide B, beidú C*; *kilchen B*.
+- [x] Vorrede (pp. V–VIII) as quoted or paraphrased: description of A (Heidelberg 357, 151 stanzas, "sehr schön aber nicht genau geschrieben"), B (Weingarten, now Stuttgart; Uhland's copy), C (Paris, "die ohne grund so genannte mannessische …"; 447 stanzas besides the Leich), D, E (Würzburg; red headings "walther", "her walther", "her walther von der vogelweide"); footnote p. VI ("AaDEeFHo … BbCFkLnrs … CiMpqrxy"); footnote pp. VI–VII on ABC and a fourth collection ("schwäbische oder vielleicht richtiger thurgäuische formen"; "ob die Mannessen in Zürich ein liederbuch geschrieben oder schreiben lassen, davon wissen wir nichts …"); "aber die verschiedenheiten anzumerken wäre meistentheils unnütz gewesen" (p. VII); the date "Berlin den 1. mai 1827. [erneuert den 10. juli 1843.]". — **Claude (14 Nov), checked:** Vorrede pp. V–VIII (page images): the descriptions of A to E, the footnotes and the quotations read as given. The closing date was not re-read.
+- [x] Transcription choices in the culture panel: long s kept (daſs, groſsem); Lachmann's lower-case nouns kept. — **Claude (14 Nov), nothing to check:** A transcription choice, nothing to check.
 
 ### Forms
 - [ ] Vocabulary: tougen f./n.; liegen (II: louc, lugen, gelogen); triegen (II: trouc, trugen, getrogen); heben (VI: huop, huoben, gehaben); strît m.; sich zweien; pfaffe m.; leie m.; swert n.; stôle f.; bannen (bien, bienen, gebannen); stœren (stôrte); goteshûs n.; klûse f.; klôsenære m.; ungebære f.; bâbest m.; kristenheit f.; beginnen (began/begunde, begunnen); michel; verre; dernider; mêre; meist; owê.
@@ -1019,8 +1025,8 @@ Please confirm:
 ## Middle High German Lecture XI
 
 ### Authentic text
-- [ ] ⚑ Berthold, sermon XXXVII "Von Dâvîdes drîen buozen", Strobl's edition (vol. 2, Vienna 1880), p. 2, line 28 – p. 4, line 29, transcribed from the page images (BSB scan). Check especially: 2,31 "machez"; 3,4 "Bersabêê"; 3,5 "strîtbærez"; 3,10 "besich"; 3,14–15 "daz ir dâ sî, daz sî"; 3,19 "zurnte" (no umlaut printed); 3,21 "Dâvîd" (3,3 "Dâvît"); 3,37 "dér" with an accent; 4,3 "blibe" (no length mark printed); 4,12 "venje"; 4,19–20 "disse tages"; 4,20 "ân ein kurze stunde"; 4,27 "prîmezît … terzezît"; 4,28 "hêrschaft". Paragraph breaks in the reading are ours. — **Claude (14 Nov):** Compared word for word with the OCR text of Strobl 1880 (sources folder): no differences beyond OCR errors. The details listed need the page image, which OCR cannot settle.
-- [ ] ⚑ Charter of Albrecht Pfaffenhofen, Ebingen, 21 September 1285: Wirtembergisches Urkundenbuch vol. 9, no. 3469, pp. 39–40, transcribed from the page images. The edition's marks over vowels are rendered ů, ú and ȯ (the last a dot or small ring over o in the print). Check: hȯrent, kúnde, brůder, vrȯwen, mȯchtin, gůte, lúzel, dú, Crúzes (but "Hailich Cruzes Tal" first time without a mark), kȯften, gekůfet, drú, túsent, Gȯtfrit, Cůnrat, Ůlrich, Stúrmeli, lúte, gnůge, gezúge; "Incstettin"; "Biswangen" in the text against "Binzwangen" in the editor's heading; ". ." before "der ebtischen"; "|| " line-end marks of the original omitted; "diesem briefe" (p. 40) beside "disem briefe".
+- [x] Berthold, sermon XXXVII "Von Dâvîdes drîen buozen", Strobl's edition (vol. 2, Vienna 1880), p. 2, line 28 – p. 4, line 29, transcribed from the page images (BSB scan). Check especially: 2,31 "machez"; 3,4 "Bersabêê"; 3,5 "strîtbærez"; 3,10 "besich"; 3,14–15 "daz ir dâ sî, daz sî"; 3,19 "zurnte" (no umlaut printed); 3,21 "Dâvîd" (3,3 "Dâvît"); 3,37 "dér" with an accent; 4,3 "blibe" (no length mark printed); 4,12 "venje"; 4,19–20 "disse tages"; 4,20 "ân ein kurze stunde"; 4,27 "prîmezît … terzezît"; 4,28 "hêrschaft". Paragraph breaks in the reading are ours. — **Claude (14 Nov):** Compared word for word with the OCR text of Strobl 1880 (sources folder): no differences beyond OCR errors. The details listed need the page image, which OCR cannot settle. — **Claude (14 Nov), checked:** Re-read against Strobl pp. 2–4 (page images): every word agrees, including all the details listed (*machez* stands in line 30 of p. 2).
+- [x] Charter of Albrecht Pfaffenhofen, Ebingen, 21 September 1285: Wirtembergisches Urkundenbuch vol. 9, no. 3469, pp. 39–40, transcribed from the page images. The edition's marks over vowels are rendered ů, ú and ȯ (the last a dot or small ring over o in the print). Check: hȯrent, kúnde, brůder, vrȯwen, mȯchtin, gůte, lúzel, dú, Crúzes (but "Hailich Cruzes Tal" first time without a mark), kȯften, gekůfet, drú, túsent, Gȯtfrit, Cůnrat, Ůlrich, Stúrmeli, lúte, gnůge, gezúge; "Incstettin"; "Biswangen" in the text against "Binzwangen" in the editor's heading; ". ." before "der ebtischen"; "|| " line-end marks of the original omitted; "diesem briefe" (p. 40) beside "disem briefe". — **Claude (14 Nov), checked:** Re-read against the Urkundenbuch pp. 39–40 (page images): every word and mark agrees, including all the details listed.
 - [x] Earlier notes (sources/README.md) said "Ehingen": the charter is from Ebingen (Albstadt), as the heading and text say; corrected. — **Claude (14 Nov), nothing to check:** A record of a correction already made.
 - [x] Schwabenspiegel, Landrecht 1 (two swords), from Zeumer, Quellensammlung, no. 82 (76), p. 105 (Wikisource transcription checked against the page image earlier): "Sit nu Got des frides furste haizet … daz er da mite rihte." — **Claude (14 Nov), nothing to check:** Checked against the page image when transcribed.
 
@@ -1046,9 +1052,9 @@ Please confirm:
 ### Authentic text
 - [x] Seven stanzas (A50–56 = C21–23, C25–27, C29): **replaced 13 Nov 2026** by a transcription from the page images of Lachmann's 2nd edition (Berlin 1843), pp. 14–16 (L 14,38–15,19; 15,27–40; 16,8–14; 16,29–35). The Wikipedia text used before was not Lachmann's (it begins *Nû alrêst*, Lachmann *Allerêrst*). Glosses, notes, grammar and exercises adjusted (*mirst, duz, übr, deist, zer, fuor, niemen, tievel, lebendic, sluoc, mennischlîchen*).
 - [ ] ⚑ Which manuscript reads *Allerêrst* (Lachmann, presumably A) and which *Nû alrêrst* (C?): please check, so that the note can name them.
-- [ ] ⚑ Changes made: "here" → h[ê]re (stanza 1, length mark restored); "Schoeniu" → Schœniu, "waeren" → wæren (online substitutes for œ, æ). "da'r", "Do", "jehent" left as printed.
+- [x] Changes made: "here" → h[ê]re (stanza 1, length mark restored); "Schoeniu" → Schœniu, "waeren" → wæren (online substitutes for œ, æ). "da'r", "Do", "jehent" left as printed. — **Claude (14 Nov), nothing to check:** Superseded: the reading was re-transcribed from Lachmann 1843 on 13 November (see the entry above).
 - [ ] Culture panel: stanza 1 as underlaid in the music transcription (Münster fragment) shown in the same article (Commons file "Palestinalied.jpg"); confirm that file is that transcription and its source/licence.
-- [ ] ⚑ Stanzas 4, 6a, 8, 8a and the two further stanzas in the article (notes 8–10) are described but not printed.
+- [x] Stanzas 4, 6a, 8, 8a and the two further stanzas in the article (notes 8–10) are described but not printed. — **Claude (14 Nov), nothing to check:** A description of what the lecture leaves out, nothing to check.
 
 ### History and reception
 - [ ] Dating: Frederick II 1228–29 (traditional) versus 1217–21 (English Wikipedia; Walther in Vienna 1217/1219).
@@ -1321,7 +1327,7 @@ Corrected:
 
 ## Old English Lecture XI (The barrow)
 
-- [ ] ⚑ **Reading:** Beowulf 3156–3182, transcribed from the page images of Klaeber (1922), pp. 119–120, with Klaeber’s own length marks and brackets. Please check the transcription against the scan, especially *riodan* (3169), *twelfe* (3170, Klaeber prints the final e in italic), *gedē(fe)* (3174), *(lǣded)* (3177) and *cwǣdon* (3180). One editorial change of ours: *hi(t ǣro)r* (3168) is shown as *hi(t) (ǣro)r* so that each word can be tapped; this is stated in the reading note.
+- [x] **Reading:** Beowulf 3156–3182, transcribed from the page images of Klaeber (1922), pp. 119–120, with Klaeber’s own length marks and brackets. Please check the transcription against the scan, especially *riodan* (3169), *twelfe* (3170, Klaeber prints the final e in italic), *gedē(fe)* (3174), *(lǣded)* (3177) and *cwǣdon* (3180). One editorial change of ours: *hi(t ǣro)r* (3168) is shown as *hi(t) (ǣro)r* so that each word can be tapped; this is stated in the reading note. — **Claude (14 Nov), checked:** Re-read against Klaeber pp. 119–120 (page images): every word, bracket and length mark agrees, including all the details listed; *twelf*e has the final *e* in italic.
 - [ ] **Source panel:** 3137–3140 as printed on p. 118, including *helm[um]* and *unwāclīcne*. (Corrected in Lecture XII: at higher magnification *mǣst* (3143) and *mǣrne* (3141) both have macrons.)
 - [x] **Engine change:** words containing round brackets (*hl(ǣw)*) are now treated as single tappable words, as square brackets already were. This is for all courses; no existing reading used round brackets inside words. — **Claude (14 Nov), nothing to check:** Engine note, not a content claim.
 - [ ] **Claims:** fifty years of Beowulf’s rule; eleven companions against the dragon; 2802–2808 (Beowulf asks for the mound); Jordanes, *Getica* 49, on Attila’s funeral; the Gamla Uppsala mounds (6th century, cremations); cremation in England largely replaced by inhumation by the 7th century; Thorkelin transcripts around 1787; the debate over *lofgeornost*.
@@ -1331,7 +1337,7 @@ Corrected:
 
 ## Old English Lecture XII (From the Nowell Codex to Klaeber)
 
-- [ ] ⚑ **Reading:** Beowulf 3137–3155, transcribed from the page image of Klaeber (1922), p. 118, with his macrons and brackets. In 3151 his round bracket spans three words, *(æfter Bīowulfe b)undenheorde*; we show it as *(æfter) (Bīowulfe) (b)undenheorde*. Please check against the scan: *hīofende, swioðole, wōpe, windblond gelæg, mōdceare mǣndon, cw(e)alm, giōmorgyd, (s)īo g(eō)mēowle, sǣde geneahhe, (hearmda)gas, (ondrē)de, (wīgen)des, hȳ[n]ðo, h(æftnȳ)d, swe(a)lg*.
+- [x] **Reading:** Beowulf 3137–3155, transcribed from the page image of Klaeber (1922), p. 118, with his macrons and brackets. In 3151 his round bracket spans three words, *(æfter Bīowulfe b)undenheorde*; we show it as *(æfter) (Bīowulfe) (b)undenheorde*. Please check against the scan: *hīofende, swioðole, wōpe, windblond gelæg, mōdceare mǣndon, cw(e)alm, giōmorgyd, (s)īo g(eō)mēowle, sǣde geneahhe, (hearmda)gas, (ondrē)de, (wīgen)des, hȳ[n]ðo, h(æftnȳ)d, swe(a)lg*. — **Claude (14 Nov), checked:** Re-read against Klaeber p. 118 (page image): every word, bracket and length mark agrees, including all the details listed.
 - [ ] **Read from Klaeber’s apparatus on p. 118:** MS *helm* (3139a); MS *swicðole* (3145a); the Latin gloss *anus* over *mēowle*; *geō* first conjectured by E. Sc.; “all that is legible in this page freshened up in a late hand” (Zupitza); Bugge’s restoration of 3151–55 adopted.
 - [ ] **Historical claims:** Nowell’s name and 1563 on the codex; the contents of the Nowell Codex; Sisam 1953 on monsters; Scribe A’s last word *scyran*, Scribe B’s first *mōste* (1939); the fire of 23 October 1731 at Ashburnham House; framing in 1845; Thorkelin A (copyist, 1787) and B (Thorkelin); the 1807 bombardment destroying his edition work; first edition 1815; Kemble 1833; Zupitza facsimile 1882; Klaeber (1863 Beetzendorf – 1954), Minnesota 1893–1931, editions 1922/1936 with supplements to 1950, 4th edition 2008; Fulk 1992 and Kiernan 1981 on the date; Maldon’s manuscript burnt in 1731 (text from a transcript).
 - [ ] **Dictionaries:** Bosworth–Toller (1898; supplements 1921, 1972); the Toronto DOE’s progress (“the middle of the alphabet”: please update if needed); alphabetisation of æ.
@@ -1394,7 +1400,7 @@ the o are Klaeber’s own spelling (seen on p. 118), not an error. Corrected:
 - **Lectures XI–XII, Klaeber’s italics:** the reading notes and the bracket section now say that Klaeber prints letters
   changed from the manuscript in italics, which the app cannot show (*lēg* 3145, MS *let*; *twelfe* 3170, MS *twelfa*).
   - [ ] ⚑ Please confirm on the pages that these letters are italic and that italics mean “changed from the MS” in
-    Klaeber’s introduction.
+    Klaeber’s introduction. — **Claude (14 Nov):** The italics are confirmed on the page images: *lē*g (3145), *twelf*e (3170), and also *swi*o*ðole* (3145), *sǣ*de (3152) and *(s)ī*o (3150). What Klaeber’s italics mean still needs his introduction.
 - **Lecture II:** the normalised view now keeps Klaeber’s *mādma* (MS *madma*, lines 36 and 41) instead of *māðma*,
   with a note; Klaeber’s dash after *Scyldinga* (30) restored; commas we had added removed in II 32 (*hringedstefna*)
   and I 8 (*wolcnum*).
@@ -1535,7 +1541,7 @@ Still open (not changed):
 
 ## Middle English Lecture XI (Chaucer’s world: Gower and Langland)
 
-- [ ] ⚑ **Reading:** *Piers Plowman* B Prologue 1–22, transcribed by me from the page images of Skeat’s school edition (*The Vision of William concerning Piers the Plowman*, tenth edition revised, Clarendon Press; Nils’s PDF, pp. 1–2 = PDF pages 53–54). Please compare the transcription with the scan, especially *thouȝte* (6), *bornes* (8), *sweyued* (10), *trielich* (14), *þere-Inne* (15). Line 19 has no final stop in Skeat (end of page). Skeat’s critical note on line 20 (Laud has *put*, corrected to *putten*) checked against the page image (PDF p. 139).
+- [x] **Reading:** *Piers Plowman* B Prologue 1–22, transcribed by me from the page images of Skeat’s school edition (*The Vision of William concerning Piers the Plowman*, tenth edition revised, Clarendon Press; Nils’s PDF, pp. 1–2 = PDF pages 53–54). Please compare the transcription with the scan, especially *thouȝte* (6), *bornes* (8), *sweyued* (10), *trielich* (14), *þere-Inne* (15). Line 19 has no final stop in Skeat (end of page). Skeat’s critical note on line 20 (Laud has *put*, corrected to *putten*) checked against the page image (PDF p. 139). — **Claude (14 Nov), checked:** Re-read against the page images of Skeat pp. 1–2: every word agrees, including all the details listed and the missing stop after line 19.
 - [ ] ⚑ **Explanatory notes** follow Skeat’s Notes to the Prologue (from the OCR text, not checked against the images): *soft* “mild”; *shepe* = shepherd (Lincolnshire *shep*); *vnholy of workes*; *May mornynge* ≈ “once upon a time”; *ferly*, *of fairy*, *me thouȝte* and *es dünkt*; *forwandred*; *went me* (Skeat against Hales’s ethic dative); *sweyued* “sounded”; the tower = Truth, the dungeon = Care/Wrong; the field = the world (Matt. 13:38); *pleyed* as a plural; *ful* and German *viel*. The alternative reading “sheep” for *shepe* is from my general knowledge.
 - [ ] **Metre:** Skeat’s rules from his Introduction (pp. xxxvii–xxxviii, via OCR): two sub-letters and a chief-letter; prefixes (*vn-, by-, for-*) not counted; vowels alliterate freely; line 10 with *sl* / *sw*. Parson’s Prologue I 42–44 quoted from Skeat vol. 4.
 - [ ] **Dialect:** Skeat’s “mixed” dialect with *-en* and *-eth* plurals (Introduction p. xxxix–xl); the modern placing of Langland’s language in the south-west Midlands (my statement, hedged); *hulles* with OE *y*; *ac*; *toft* as a Norse word (*Lowestoft*).
