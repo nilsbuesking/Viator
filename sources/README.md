@@ -12,7 +12,8 @@ Texts supplied by Nils for building readings. Public domain.
   Foundation website. Not Klaeber: line 9 reads "æghwylc þara ymbsittendra" and punctuation
   differs; the source edition is not named (it appears to follow a mid-20th-century edition,
   possibly Dobbie's Anglo-Saxon Poetic Records, 1953; unconfirmed). File line numbers match
-  the poem's line numbers. Planned use: Lecture XI (lines 3137–3182), labelled with this source.
+  the poem's line numbers. Used by `tests/validate_content.js` to check the line numbers in the titles of the
+  Beowulf readings (Lectures XI–XII are transcribed from Klaeber's page images instead).
 - `beowulf-mit-bilingual-gummere.txt`: bilingual text from an MIT web page, OE text matching
   the Poetry Foundation version, with Francis B. Gummere's verse translation (1910). Converted
   from PDF: the ligatures fi/fl are lost ("ndan" = findan, "lirea" = Liffrea), so use only to
@@ -155,9 +156,10 @@ transcribed from page images, and every form checked against the printed edition
   "Cftnrat", "ü" for "ii", so read from the page images. **Vol. 8**: the preface says all German charters are
   printed in full. **Vol. 9**: 794 numbers, 224 in full, of which 77 German. German is rare in vol. 5. The editors
   mark later translations (e.g. vol. 8 no. 2711 of 1277: "Übersetzung auf Papier aus dem 15. Jahrhundert": not a
-  13th-century text). Candidates for the charter reading, **to be verified on the page images**: vol. 8 no. 2736
-  (Graf Friedrich von Zollern, c. 1278, three lines), vol. 9 no. 3469 (Ebingen, 21 Sept. 1285, complete with witnesses
-  and date), vol. 9 no. 3402 (Gräfin Agnes von Vaihingen, c. 1285).
+  13th-century text). Vol. 9 no. 3469 (Ebingen, 21 Sept. 1285, complete with
+  witnesses and date) is the charter reading of Middle High German Lecture XI, transcribed from the page images. Other
+  candidates, not used: vol. 8 no. 2736 (Graf Friedrich von Zollern, c. 1278, three lines), vol. 9 no. 3402 (Gräfin
+  Agnes von Vaihingen, c. 1285).
 - Not in the repo (scan only): Altmann and Bernheim, *Ausgewählte Urkunden zur Erläuterung der Verfassungsgeschichte
   Deutschlands im Mittelalter*, 3rd ed., Berlin: Weidmann 1904 (Google scan, 486 pp., no text layer). Its preface
   says it includes the German version of the Mainzer Reichslandfriede of 1235; the rest has not been surveyed.

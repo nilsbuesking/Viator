@@ -45,7 +45,7 @@
 | Its browser test | `archive/nds/tests/nds_lecture1.py` |
 | Course settings (catalogue entry) | `archive/nds/catalogue-entry.js` |
 | The Schaumburg texts supplied | `sources/nds-schaumburg-texts.txt` |
-| Open questions on Lecture I | `CONTENT-CHECKS.md`, section "Low German (Schaumburg) Lecture I and course set-up" |
+| Open questions on Lecture I | `CONTENT-CHECKS.md`, last part ("On hold"), section "Low German (Schaumburg) Lecture I and course set-up" |
 
 **To restore:**
 1. Move `archive/nds/lecture-01.js` back to `content/nds/`.

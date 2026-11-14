@@ -52,6 +52,15 @@ British English in all text.
   (gender, principal parts, vowel length, stress, accepted translations) in
   CONTENT-CHECKS.md. Nils checks these against Wheelock's, Lewis & Short or the
   Oxford Latin Dictionary (French: Le Robert or Larousse).
+- CONTENT-CHECKS.md is arranged by course, then lecture (paused courses at the end); new items go under their
+  lecture. Check what you can before asking Nils, and say against what: an item you have checked becomes
+  `- [x] … — **Claude (date), checked:** source`; one that needs his books, scans or a reference work you cannot
+  reach gets `⚑` after the box. Keep the overview at the top (table and short list) up to date.
+- Reference data reachable from the workspace (GitHub only; WebFetch opens only links found by WebSearch, and
+  Wikimedia Commons file pages could not be opened): Lewis & Short and the Perseus Latin texts via
+  `tools/check_latin.py`; Bosworth–Toller (github.com/madeleineth/btc_anglo_saxon); Clark Hall (Project Gutenberg
+  #31543); Lexer and Weinhold as OCR in `sources/`; the OCR text layers of the editions in `sources/` for comparing
+  transcriptions.
 
 ## Courses
 - `latin`: Classical Latin, macrons (`lengthMark: 'macron'`), English glosses.

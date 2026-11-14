@@ -92,7 +92,7 @@ Only the *Hanserecesse* pages were accessed (through archive.org). None of the o
 | Timeline and map | `archive/mnd/pages.js` |
 | Browser tests | `archive/mnd/tests/` |
 | Course settings (catalogue entry) | `archive/mnd/catalogue-entry.js` |
-| Open questions on the content | `CONTENT-CHECKS.md`: "Middle Low German Lecture I", "Lecture II and reference pages", and the Pictures list ("MLG I", "MLG II"). The questions on the special lecture are in the section "Middle Low German special lecture". |
+| Open questions on the content | `CONTENT-CHECKS.md`, last part ("On hold"): "Middle Low German Lecture I" and "Lecture II and reference pages"; the pictures are in "Shared and general", "Pictures in Latin Lecture I and the Middle Low German course" ("MLG I", "MLG II"), and the date converter, which is shared, in "Date converter". The questions on the special lecture are in the Middle High German part, "Middle Low German special lecture". |
 
 **To restore:**
 1. Move the three files from `archive/mnd/` back to `content/mnd/`, and the tests back to `tests/`.

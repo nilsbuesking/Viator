@@ -21,7 +21,8 @@ material is in `archive/`. Further courses and lectures plug in as content.
 | `content/<course>/lecture-NN.js` | One lecture: text, tables, vocabulary, exercises, reading, test |
 | `content/<course>/pages.js`, `content/calendar.js` | Reference pages: timelines, the church-calendar date converter |
 | `sw.js`, `manifest.webmanifest`, `icons/` | What makes it installable and usable offline |
-| `CONTENT-CHECKS.md` | Forms, claims, quotations and pictures to verify against the reference works, per lecture |
+| `CONTENT-CHECKS.md` | Forms, claims, quotations and pictures to verify against the reference works, by course and lecture; an overview at the top lists what still needs checking by hand |
+| `tools/check_latin.py` | Content-review tool (not part of the app): checks the Latin vocabulary against Lewis & Short and finds the Latin quotations in the Perseus texts |
 | `sources/` | Texts of the public-domain editions the lectures quote from, with their provenance (`sources/README.md`) |
 | `tests/` | Automatic checks; see `tests/README.md` |
 | `archive/` | Courses on hold, with notes on how to restore them |

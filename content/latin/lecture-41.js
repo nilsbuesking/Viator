@@ -114,7 +114,7 @@ Viator.addLecture('latin', {
           <li><span class="la">puer capillō flāvō</span>: a boy with fair hair; the ablative is preferred for physical appearance</li>
         </ul>
         <p>The adjective is required: <span class="la">vir virtūtis</span> alone is not possible. German has a fixed genitive of quality in phrases such as <em>guten Mutes sein</em>, <em>Menschen guten Willens</em>, and otherwise uses <em>von</em> (<em>ein Mann von großer Tapferkeit</em>) or <em>mit</em> (<em>ein Junge mit blonden Haaren</em>).</p>
-        <p>Related is the <strong>ablative of respect</strong>, “in respect of”: <span class="la">īnsignis pietāte</span>, outstanding in dutifulness; <span class="la">et annīs et corpore gravis</span> (Pliny 6.20.12), heavy with years and in body.</p>
+        <p>Related is the <strong>ablative of respect</strong>, “in respect of”: <span class="la">īnsignis pietāte</span>, outstanding in dutifulness; <span class="la">et annīs et corpore gravem</span> (Pliny 6.20.12, his mother speaking of herself), heavy with years and in body.</p>
       `
     }
   ],

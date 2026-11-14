@@ -119,7 +119,7 @@ Viator.addLecture('latin', {
         </ul>
         <p>English often uses an infinitive (“in order to have”); Latin prose never uses the infinitive for purpose. German uses <em>um … zu</em> or <em>damit</em>.</p>
         <p>After a main verb in the present or future, the purpose clause has the present subjunctive. After a past main verb, it has the imperfect subjunctive (Lecture XXX); this “sequence of tenses” is treated in Lecture XXXI.</p>
-        <p>When the purpose clause contains a comparative, <span class="la">quō</span> replaces <span class="la">ut</span>: <span class="la">quō vērius trādere possīs</span>, “so that you may hand it down more truthfully” (Pliny).</p>
+        <p>When the purpose clause contains a comparative, <span class="la">quō</span> replaces <span class="la">ut</span>: <span class="la">quō vērius trādere posterīs possīs</span>, “so that you may hand it down to posterity more truthfully” (Pliny).</p>
       `
     },
     {
@@ -264,7 +264,7 @@ Viator.addLecture('latin', {
       { id: 't7', type: 'translate', dir: 'en-la', source: 'Let us live!', model: 'Vīvāmus!', accepted: ['vīvāmus'], explain: 'Hortatory subjunctive. Vīvō is third conjugation, so its subjunctive has -ā-: vīvāmus.' },
       { id: 't8', type: 'mc', prompt: 'Horace’s <span class="la">sapiās, vīna liquēs</span> are:', options: ['present subjunctives used as gentle commands', 'future indicatives', 'imperatives', 'purpose clauses'], answer: 0, explain: '“You should be wise, strain the wine.”' },
       { id: 't9', type: 'mc', prompt: 'In <span class="la">nē quis malus invidēre possit</span>, <span class="la">quis</span> means:', options: ['anyone', 'who?', 'which', 'someone known'], answer: 0, explain: 'After nē, quis = anyone.' },
-      { id: 't10', type: 'mc', prompt: 'Why <span class="la">quō</span> instead of <span class="la">ut</span> in Pliny’s <span class="la">quō vērius trādere possīs</span>?', options: ['The purpose clause contains a comparative', 'quō means “where”', 'It is a question', 'possīs requires quō'], answer: 0, explain: 'quō + comparative in purpose clauses.' },
+      { id: 't10', type: 'mc', prompt: 'Why <span class="la">quō</span> instead of <span class="la">ut</span> in Pliny’s <span class="la">quō vērius trādere posterīs possīs</span>?', options: ['The purpose clause contains a comparative', 'quō means “where”', 'It is a question', 'possīs requires quō'], answer: 0, explain: 'quō + comparative in purpose clauses.' },
       { id: 't11', type: 'mc', prompt: 'In Roman business, <span class="la">conturbāre</span> meant:', options: ['to go bankrupt, throw one’s accounts into confusion', 'to count money', 'to lend at interest', 'to pay a debt'], answer: 0, explain: 'The imagery behind Catullus 5.11.' }
     ]
   },
